@@ -1,0 +1,1 @@
+"""Accumulation strategy package."""
