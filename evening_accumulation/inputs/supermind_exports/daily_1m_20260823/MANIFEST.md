@@ -1,0 +1,16 @@
+# SuperMind 日频100万元回测导出归档
+
+- 归档时间：2026-08-23。
+- 平台频率：每日。
+- 回测区间：2020-01-02 至 2026-07-31。
+- 初始资金：1,000,000 元。
+- 期末账户资产：19,687,844.83 元。
+- 原始文件从工作区根目录移动至本目录，内容未改写。
+
+| 文件 | SHA256 |
+|---|---|
+| `dailyposition.csv` | `D5CE437A9123730C2EE7E7781AF1D7A40E7E1A7C7CFEEEB0F71FFBCAB71E70D8` |
+| `detal.csv` | `EE82B817F8AF23EEAADB6683DE61A167C3C39088E9765D1D8535E30AB4D88C54` |
+| `outlog.txt` | `01562FFCBC926275D3A38D2211C9AF7EEB98AE9C9FA13205C689766DEB3DCEC5` |
+
+对应对齐报告：`outputs/root_export_alignment_20260823/REPORT.md`。

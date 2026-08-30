@@ -1,0 +1,11 @@
+{
+  "name": "基准1-3熊市分散",
+  "base": "基准1-2止损过滤",
+  "modes": ["bear_probability", "downside_diversify"],
+  "status": "candidate",
+  "annualized_return": 0.5817420220662259,
+  "max_drawdown": -0.2895894859526167,
+  "oos_annualized_return": 0.29715069732550337,
+  "oos_max_drawdown": -0.2839274610605712,
+  "reason": "保留约95%的策略2年化能力，同时降低全周期与样本外最大回撤"
+}

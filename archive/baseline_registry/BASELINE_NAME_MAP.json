@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-08-25",
+  "canonical_baselines": {
+    "baseline1-1": {
+      "name_cn": "暴涨建仓",
+      "legacy_ids": ["baseline1", "strategy1"],
+      "archive": "evening_accumulation/baselines/baseline_1"
+    },
+    "baseline1-2": {
+      "name_cn": "止损过滤",
+      "legacy_ids": ["baseline2", "strategy2", "策略2低风控版本1"],
+      "archive": "evening_accumulation/baselines/baseline_2"
+    },
+    "baseline1-3": {
+      "name_cn": "熊市分散",
+      "legacy_ids": ["baseline3", "strategy3", "策略3熊市分散版本1"],
+      "archive": "evening_accumulation/baselines/baseline_3"
+    },
+    "baseline2-1": {
+      "name_cn": "温度进攻",
+      "legacy_ids": ["baseline4", "strategy4"],
+      "archive": "star_industry_rotation/baselines/strategy_4_temperature_attack"
+    },
+    "baseline2-2": {
+      "name_cn": "升温防守",
+      "legacy_ids": ["baseline5", "strategy5"],
+      "archive": "star_industry_rotation/baselines/strategy_5_rising_defense"
+    }
+  },
+  "compatibility_policy": "Public labels and new result records use canonical IDs. Existing folder names, filenames and internal model keys remain unchanged for reproducibility."
+}

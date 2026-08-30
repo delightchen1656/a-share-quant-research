@@ -1,0 +1,48 @@
+{
+  "date_start": "2019-12-31",
+  "date_end": "2026-07-31",
+  "aligned_days": 1595,
+  "daily_return_correlation": 0.7107111238711724,
+  "asset_start_end": {
+    "baseline1-2": {
+      "start": 100000.0,
+      "end": 1728326.88,
+      "final_multiple": 17.28326879999999,
+      "cagr": 0.5686900082574782,
+      "max_drawdown": -0.298907030508887,
+      "volatility": 0.25779590633167393,
+      "sharpe": 1.874520067343546,
+      "calmar": 1.9025648452941626
+    },
+    "baseline2-2": {
+      "start": 100000.0,
+      "end": 467768.76,
+      "final_multiple": 4.677687599999996,
+      "cagr": 0.27602954764859056,
+      "max_drawdown": -0.10109399933109542,
+      "volatility": 0.14780349366133633,
+      "sharpe": 1.7221628924686219,
+      "calmar": 2.7304246490888096
+    }
+  },
+  "best_portfolios_under_15pct_mdd": [
+    {
+      "rebalance": "每月",
+      "weight_baseline1_2": 0.3,
+      "weight_baseline2_2": 0.7,
+      "final_multiple": 7.180425422502675,
+      "cagr": 0.3654203149737201,
+      "max_drawdown": -0.14892075825848783,
+      "volatility": 0.16725216521930694,
+      "sharpe": 1.9450810975823534,
+      "calmar": 2.4537903194089647,
+      "worst_calendar_year": -0.0645206786625524,
+      "losing_years": 1,
+      "max_underwater_trading_days": 151
+    }
+  ],
+  "audit_trade_count": 74,
+  "audit_outside_raw_range": 6,
+  "audit_one_price_buys": 0,
+  "audit_suspended_trades": 0
+}

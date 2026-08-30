@@ -13,6 +13,17 @@ import numpy as np
 import pandas as pd
 
 
+# Change only this value for execution-cost stress tests. PriceSlippage is a
+# full spread, so 0.004 represents about 0.20% adverse price movement per side.
+COST_SCENARIO = "neutral"
+COST_SCENARIOS = {
+    "optimistic": 0.002,  # about 0.10% per side
+    "neutral": 0.004,     # about 0.20% per side
+    "stress": 0.006,      # about 0.30% per side
+    "severe": 0.010,      # about 0.50% per side
+}
+
+
 _EMBEDDED_MODEL_B64 = ""
 
 
@@ -111,18 +122,28 @@ def init(context):
     g.position_state = {}
     g.order_intent = {}
     g.order_locks = {}
+    g.order_seen_fill = {}
+    g.previous_close = {}
+    g.daily_buy_value = 0.0
+    g.daily_sell_value = 0.0
     g.buy_done_date = None
     set_benchmark("000688.SH")
-    # PriceSlippage is the full spread; 0.002 means about 0.1% on each side.
-    set_slippage(PriceSlippage(0.002))
+    set_slippage(PriceSlippage(COST_SCENARIOS[COST_SCENARIO]))
     set_commission(PerShare(type="stock", cost=0.0003, min_trade_cost=5.0))
     set_volume_limit(daily=0.25, minute=0.5)
-    log.info("STAR event standard initialized; use 1-minute frequency")
+    log.info("STAR event standard initialized; use 1-minute frequency; cost=%s" % COST_SCENARIO)
 
 
 def before_trading(context):
     today = get_datetime().date()
+    # SuperMind stock orders are day orders. Drop stale local intents at the
+    # beginning of the next session; never keep an orphan lock indefinitely.
     g.order_locks = {}
+    g.order_intent = {}
+    g.order_seen_fill = {}
+    g.previous_close = {}
+    g.daily_buy_value = 0.0
+    g.daily_sell_value = 0.0
     # Frozen 2026-07-31 universe, identical to the local event-standard experiment.
     symbols = g.model["universe"]
     fields = ["open", "high", "low", "close", "volume", "turnover", "turnover_rate", "quote_rate", "is_st"]
@@ -132,7 +153,10 @@ def before_trading(context):
         batch = symbols[begin:begin + 300]
         data = history(batch, fields, 121, "1d", True, "pre", True, False)
         for symbol in batch:
-            values = _last_features(data.get(symbol) if isinstance(data, dict) else None)
+            frame = data.get(symbol) if isinstance(data, dict) else None
+            if frame is not None and len(frame):
+                g.previous_close[symbol] = float(frame.sort_index()["close"].iloc[-1])
+            values = _last_features(frame)
             if values is None:
                 continue
             feature_rows.append((symbol, values))
@@ -156,23 +180,62 @@ def _submit(symbol, target_amount, action):
         g.order_intent[order_id] = {"symbol": symbol, "action": action}
 
 
+def _live_trade_state(symbol, bar_dict):
+    """Return (tradable, locked_up, locked_down, price).
+
+    The explicit check is deliberately conservative. A candidate locked at the
+    upper limit is retried in later minute bars and can only be submitted after
+    it opens. A sell remains pending in strategy state while the lower limit is
+    locked. Platform matching and volume limits still make the final decision.
+    """
+    try:
+        bar = bar_dict[symbol]
+    except Exception:
+        return False, False, False, np.nan
+    price = float(bar.close)
+    volume = float(bar.volume)
+    paused = bool(bar.is_paused)
+    if paused or not np.isfinite(price) or price <= 0 or volume <= 0:
+        return False, False, False, price
+    upper = float(bar.high_limit)
+    lower = float(bar.low_limit)
+    locked_up = np.isfinite(upper) and price >= upper * 0.999
+    locked_down = np.isfinite(lower) and price <= lower * 1.001
+    return True, bool(locked_up), bool(locked_down), price
+
+
+def _available_cash(context):
+    return float(context.portfolio.stock_account.available_cash)
+
+
 def handle_bar(context, bar_dict):
     now = get_datetime()
     positions = context.portfolio.positions
     # Execute yesterday-close candidates once after today's open.
     if g.buy_done_date != now.date():
-        slots = max(0, g.model["max_positions"] - len(positions))
+        pending_buys = sum(1 for x in g.order_intent.values() if x.get("action") == "BUY")
+        slots = max(0, g.model["max_positions"] - len(positions) - pending_buys)
         for symbol, probability in g.pending:
             if slots <= 0:
                 break
             if symbol in positions or symbol in g.order_locks:
+                continue
+            tradable, locked_up, _, price = _live_trade_state(symbol, bar_dict)
+            if not tradable or locked_up:
+                # Do not mark the day done: a limit-up candidate may open later.
+                continue
+            # STAR orders require at least 200 shares. This also prevents a
+            # batch of target-percent orders from silently oversubscribing cash.
+            if _available_cash(context) < price * 200 * 1.005:
                 continue
             order_id = order_target_percent(symbol, 0.10)
             if order_id is not None:
                 g.order_locks[symbol] = order_id
                 g.order_intent[order_id] = {"symbol": symbol, "action": "BUY", "probability": probability}
                 slots -= 1
-        g.buy_done_date = now.date()
+        # Keep checking unsubmitted limit-up candidates until the final bars.
+        if now.hour > 14 or (now.hour == 14 and now.minute >= 55):
+            g.buy_done_date = now.date()
     # Minute-level risk management.
     for symbol in list(positions.keys()):
         pos = positions[symbol]
@@ -181,6 +244,9 @@ def handle_bar(context, bar_dict):
         state = g.position_state[symbol]
         # A-share T+1: shares bought today are not sellable today.
         if state.get("entry_date") == now.date() or int(pos.position_days) <= 0:
+            continue
+        tradable, _, locked_down, _ = _live_trade_state(symbol, bar_dict)
+        if not tradable or locked_down:
             continue
         price = float(pos.last_price)
         if price <= state["entry"] * 0.93:
@@ -199,6 +265,25 @@ def on_order(context, odr):
         return
     status = str(odr.status)
     symbol, action = intent["symbol"], intent["action"]
+    # Account for incremental fills when the callback reports cumulative size.
+    filled = float(odr.filled_amount)
+    price = float(odr.avg_price)
+    previous = g.order_seen_fill.get(odr.order_id, 0.0)
+    delta = max(0.0, filled - previous)
+    g.order_seen_fill[odr.order_id] = max(previous, filled)
+    if delta > 0 and price > 0:
+        if action == "BUY": g.daily_buy_value += delta * price
+        else: g.daily_sell_value += delta * price
+    if "PART" in status:
+        # A partial buy already creates a T+1 position even if the remainder is
+        # later cancelled. Keep the order lock until its terminal callback.
+        if action == "BUY":
+            pos = context.portfolio.positions.get(symbol)
+            if pos is not None:
+                g.position_state[symbol] = {"entry": float(pos.cost_basis), "half": False,
+                                            "entry_date": get_datetime().date()}
+        log.info("partial %s %s filled=%s" % (action, symbol, str(filled)))
+        return
     if "FILLED" in status:
         if action == "BUY":
             pos = context.portfolio.positions.get(symbol)
@@ -208,11 +293,28 @@ def on_order(context, odr):
         elif action == "TPHALF" and symbol in g.position_state:
             g.position_state[symbol]["half"] = True
         elif action in ("STOP", "TPALL", "TIME"):
-            g.position_state.pop(symbol, None)
+            pos = context.portfolio.positions.get(symbol)
+            if pos is None or float(pos.amount) <= 0:
+                g.position_state.pop(symbol, None)
         g.order_locks.pop(symbol, None)
         g.order_intent.pop(odr.order_id, None)
         log.info("filled %s %s" % (action, symbol))
     elif "REJECTED" in status or "CANCELLED" in status:
+        # Reconcile a partially-filled buy before releasing its lock.
+        if action == "BUY":
+            pos = context.portfolio.positions.get(symbol)
+            if pos is not None and float(pos.amount) > 0:
+                g.position_state[symbol] = {"entry": float(pos.cost_basis), "half": False,
+                                            "entry_date": get_datetime().date()}
         g.order_locks.pop(symbol, None)
         g.order_intent.pop(odr.order_id, None)
+        g.order_seen_fill.pop(odr.order_id, None)
         log.warn("order failed %s %s" % (action, symbol))
+
+
+def after_trading(context):
+    total = float(context.portfolio.stock_account.total_value)
+    gross = g.daily_buy_value + g.daily_sell_value
+    turnover = gross / total if total > 0 else np.nan
+    log.info("EXECUTION_AUDIT buy=%.2f sell=%.2f gross=%.2f nav=%.2f turnover=%.4f open_intents=%d" %
+             (g.daily_buy_value, g.daily_sell_value, gross, total, turnover, len(g.order_intent)))

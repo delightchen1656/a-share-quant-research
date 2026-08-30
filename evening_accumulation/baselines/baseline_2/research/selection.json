@@ -1,0 +1,20 @@
+{
+  "top3": [
+    "stop_risk_filter",
+    "trailing_profit",
+    "market_breadth_gate"
+  ],
+  "top3_cn": [
+    "先止损概率过滤",
+    "盈利后移动止盈",
+    "科创普跌广度过滤"
+  ],
+  "stop_model": {
+    "train_end": "2024-12-31",
+    "train_rows": 143356,
+    "train_stop_rate": 0.6015932364184269,
+    "definition": "next 22 sessions: -7% open touched before +24% open"
+  },
+  "score_formula": "full CAGR-0.55|MDD|+0.70 OOS CAGR-0.55|OOS MDD|",
+  "oos": "2025-01-01 to 2026-07-31"
+}

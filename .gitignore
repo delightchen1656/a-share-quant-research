@@ -12,6 +12,7 @@ quant_env/
 .venv/
 venv/
 env/
+node_modules/
 
 # Jupyter and editors
 .ipynb_checkpoints/
@@ -21,12 +22,21 @@ env/
 # Local stock/history data
 /data/
 /evening_accumulation/data/
+# External platform exports: keep only lightweight archive manifests.
+/evening_accumulation/inputs/**
+!/evening_accumulation/inputs/**/
+!/evening_accumulation/inputs/**/MANIFEST.md
 
 # Generated models and backtest outputs
 /evening_accumulation/outputs/
 /evening_accumulation/models/*.joblib
+/star_industry_rotation/outputs/
 *.log
 *.pid
+
+# Document/workbook verification artifacts
+*.inspect.ndjson
+preview_*.png
 
 # Temporary/exported files
 *.tmp
@@ -34,4 +44,3 @@ env/
 ~$*
 .DS_Store
 Thumbs.db
-

@@ -1,0 +1,14 @@
+{
+  "syntax": "ok",
+  "forbidden_scan": {
+    "import os": false,
+    "open_call": false,
+    "getattr_call": false,
+    "embedded_stop_empty": false,
+    "embedded_bear_empty": false
+  },
+  "stop_model_max_probability_difference": 5.551115123125783e-17,
+  "bear_model_count": 23,
+  "bear_valid_through": "2026-09-30",
+  "single_file_bytes": 726750
+}
