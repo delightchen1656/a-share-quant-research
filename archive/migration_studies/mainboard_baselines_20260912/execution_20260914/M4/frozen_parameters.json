@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-09-14T06:01:02",
+  "feature_count": 18,
+  "features": [
+    "ret5",
+    "ret20",
+    "ret60",
+    "range20",
+    "range60",
+    "dd20",
+    "vol20",
+    "vol60",
+    "volume_ratio",
+    "volume_cv",
+    "up_volume_share",
+    "pv_corr",
+    "close_pos60",
+    "turn20",
+    "amount20",
+    "breakout_gap",
+    "rise_from_low60",
+    "volume_spike"
+  ],
+  "selection_fit_end": "2023-10-31",
+  "validation": [
+    "2024-01-01",
+    "2024-10-31"
+  ],
+  "final_rally_anchor_end": "2024-10-31",
+  "final_stop_anchor_end": "2024-11-29",
+  "chosen_pool": "pool_a",
+  "rally_threshold": 0.5105569356633873,
+  "stop_threshold": 0.5,
+  "ranking_stop_penalty": 0.22,
+  "rally_train_samples": 850681,
+  "rally_train_positive_rate": 0.15270353986982194,
+  "stop_train_samples": 851560,
+  "stop_train_positive_rate": 0.5146953825919489,
+  "holdout": [
+    "2025-01-01",
+    "2026-07-31"
+  ],
+  "holdout_used": false,
+  "pool_comparison": [
+    {
+      "samples": 608676,
+      "positives": 143852,
+      "base_rate": 0.23633591598814477,
+      "roc_auc": 0.5470097949869177,
+      "pr_auc": 0.292630045250447,
+      "threshold": 0.5105569356633873,
+      "signals": 304338,
+      "correct": 76208,
+      "precision": 0.25040579881579034,
+      "recall": 0.5297667046686872,
+      "pool": "pool_a",
+      "fit_samples": 835965,
+      "fit_positives": 117381
+    },
+    {
+      "samples": 103063,
+      "positives": 24278,
+      "base_rate": 0.23556465462872223,
+      "roc_auc": 0.5861748200644893,
+      "pr_auc": 0.3479613544601611,
+      "threshold": 0.48630405071767796,
+      "signals": 51532,
+      "correct": 14186,
+      "precision": 0.27528525964449274,
+      "recall": 0.5843150177115084,
+      "pool": "pool_b",
+      "fit_samples": 616218,
+      "fit_positives": 88614
+    },
+    {
+      "samples": 52813,
+      "positives": 13644,
+      "base_rate": 0.2583454831196864,
+      "roc_auc": 0.5731965862263158,
+      "pr_auc": 0.35582869778447074,
+      "threshold": 0.4887193494315324,
+      "signals": 26407,
+      "correct": 7760,
+      "precision": 0.29386147612375507,
+      "recall": 0.5687481676927587,
+      "pool": "pool_c",
+      "fit_samples": 328232,
+      "fit_positives": 49999
+    }
+  ],
+  "stop_model_leakage_free_validation": {
+    "fit_end": "2023-11-30",
+    "validation": [
+      "2024-01-01",
+      "2024-11-29"
+    ],
+    "fit_samples": 837759,
+    "validation_samples": 672478,
+    "validation_positive_rate": 0.5266060748455712,
+    "roc_auc": 0.5718802063755951,
+    "pr_auc": 0.6024532384050821,
+    "precision_at_0.50": 0.5701518494066118,
+    "recall_at_0.50": 0.5998966484154169,
+    "filtered_fraction": 0.5540790925502396
+  }
+}

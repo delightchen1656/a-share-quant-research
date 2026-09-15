@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-09-11",
+  "candidate_count_after_dedup": 56,
+  "loss": "-(0.40*U_design + 0.60*U_recent - 0.20*abs(U_design-U_recent)) + constraint_penalty",
+  "period_utility": "0.75*normalized_CAGR + 0.25*normalized_Sharpe",
+  "normalization": "within-period cross-sectional winsorized min-max using q05 and q95",
+  "hard_constraint": "absolute MDD in [10%, 50%] for design, recent and full periods",
+  "normalization_bounds": {
+    "design_cagr": {
+      "q05": 0.25893947904170034,
+      "q95": 0.6804835310385602
+    },
+    "design_sharpe": {
+      "q05": 1.839468861842085,
+      "q95": 2.215682898289504
+    },
+    "recent_cagr": {
+      "q05": 0.23370548968271274,
+      "q95": 0.45694006496656714
+    },
+    "recent_sharpe": {
+      "q05": 1.5374360605697288,
+      "q95": 2.047903952704346
+    }
+  },
+  "winner": {
+    "rank": 1,
+    "source": "sharpe_frontier",
+    "variant": "fixed_80_19",
+    "name_cn": "固定日配比 进攻80%/防守20%",
+    "design_cagr": 0.7115492317386074,
+    "design_sharpe": 2.1277081694190296,
+    "design_mdd": -0.2971350054278048,
+    "recent_cagr": 0.4562851954421143,
+    "recent_sharpe": 1.7667430873985714,
+    "recent_mdd": -0.2156261341843257,
+    "full_cagr": 0.6459020067536463,
+    "full_sharpe": 2.047188325725009,
+    "full_mdd": -0.2971350054278048,
+    "eligible": true,
+    "candidate_id": "sharpe_frontier:fixed_80_19",
+    "n_design_cagr": 1.0,
+    "n_design_sharpe": 0.7661577709826628,
+    "design_utility": 0.9415394427456657,
+    "n_recent_cagr": 0.9970664511820352,
+    "n_recent_sharpe": 0.44920950046427477,
+    "recent_utility": 0.8601022135025951,
+    "stability_penalty": 0.016287445848614125,
+    "raw_utility": 0.8763896593512093,
+    "constraint_penalty": 0.0,
+    "loss": -0.8763896593512093
+  }
+}

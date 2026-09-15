@@ -31,6 +31,16 @@ node_modules/
 /evening_accumulation/outputs/
 /evening_accumulation/models/*.joblib
 /star_industry_rotation/outputs/
+/sh_sz_market_research/data_pipeline/data/
+/sh_sz_market_research/data_pipeline/models/
+/sh_sz_market_research/data_pipeline/outputs/
+/sh_sz_market_research/baselines/**/local_backtest/cache/
+/sh_sz_market_research/studies/**/models/
+/sh_sz_market_research/studies/**/outputs/
+/sh_sz_market_research/studies/**/realistic_data/
+/sh_sz_market_research/studies/**/realistic_outputs/
+/sh_sz_market_research/studies/**/upstream/
+/sh_sz_market_research/studies/**/reports/**/*.parquet
 *.log
 *.pid
 

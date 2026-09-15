@@ -1,128 +1,68 @@
-# A股个人量化研究项目
+# A股量化研究与平台验证工程
 
-这是一个面向个人研究的 A 股中低频量化项目，主要覆盖中证 100 多因子研究、机器学习排序，以及晚间主力建仓形态策略。研究与策略实现以 Python 为主，数据获取、平台回测和模拟交易使用同花顺 SuperMind；本地行情研究项目同时支持 BaoStock。
+这是一个面向 A 股中低频策略研究的个人工程，覆盖数据治理、特征与模型研究、真实交易约束回测、冻结基准管理，以及同花顺 SuperMind 平台验证。历史结果仅用于技术研究，不构成投资建议。
 
-> 本项目仅用于量化研究与技术验证，不构成投资建议。历史回测不代表未来表现。
-
-## 目录结构
+## 项目组成
 
 ```text
 quant/
-├── notebooks/                    # CSI100 研究与数据导出 Notebook
-├── data/                         # 本地研究数据，不上传 GitHub
-├── evening_accumulation/         # 晚间主力建仓策略完整项目
-│   ├── src/                      # 数据、特征、模型和回测核心代码
-│   ├── supermind/                # SuperMind 单文件策略与部署材料
-│   ├── inputs/                   # 外部平台导出数据；仅清单纳入版本控制
-│   ├── data/                     # 本地行情数据，不上传 GitHub
-│   ├── outputs/                  # 回测和训练产物，不上传 GitHub
-│   ├── config.json               # 策略参数
-│   └── README.md                 # 子项目详细说明
-├── star_industry_rotation/       # 科创板行业温度与轮动研究线
-│   ├── baselines/                # 基准2-1、2-2冻结档案
-│   └── outputs/                  # 可再生成回测输出
-├── archive/                      # 冻结文档、基准登记和平台审计档案
-│   ├── baseline_registry/        # 五基准总表、名称映射和本地对比
-│   ├── platform_audits/          # 平台原始导出与联合审计
-│   ├── PROJECT_STRUCTURE.md      # 当前工程结构和目录职责
-│   └── REORGANIZATION_LOG.md     # 目录调整记录
-├── supermind_baselines/          # 五个规范命名的SuperMind单文件
-├── tools/                        # 环境检查和下载快捷入口
-├── requirements.txt              # 根目录研究环境依赖
-└── quant_env/                    # 本地虚拟环境，不上传 GitHub
+├── evening_accumulation/     # 科创板异常拉升前建仓、止损过滤与组合风控
+├── star_industry_rotation/   # 科创板行业温度门控研究
+├── sh_sz_market_research/    # 沪深主板数据管线、策略研究与平台校准
+├── supermind_baselines/      # 规范命名的平台交付版策略
+├── archive/                  # 基准登记、研究结论、迁移记录与平台审计
+├── notebooks/                # CSI100 多因子与机器学习研究
+├── tools/                    # 环境检查和下载控制台入口
+├── data/                     # 本地数据，不进入 Git
+└── requirements.txt
 ```
 
-根目录中原有的 `backtest/`、`factors/`、`models/`、`strategies/` 是早期空脚手架，不参与当前项目运行，也不会被 Git 收录。
+完整职责与维护边界见 [`archive/PROJECT_STRUCTURE.md`](archive/PROJECT_STRUCTURE.md)。
 
-根目录仅保留标准项目文件和一级功能目录，不再放置单次分析、导出记录或零散脚本。完整结构说明见 [`archive/PROJECT_STRUCTURE.md`](archive/PROJECT_STRUCTURE.md)。
+## 研究主线
 
-## 研究内容
+### 1. 科创板事件识别
 
-### CSI100 多因子与机器学习
+使用历史量价、波动、换手、横盘压缩和突破状态识别异常上涨前形态，并逐步增加先止损概率过滤、熊市软缩仓、下行相关性分散和行业温度门控。正式与候选版本统一登记在 [`archive/baseline_registry/STRATEGY_BASELINES.md`](archive/baseline_registry/STRATEGY_BASELINES.md)。
 
-`notebooks/` 保存中证 100 研究流程，包含：
+### 2. 沪深主板研究
 
-- 历史成分股与行情数据获取
-- 动量、波动率、估值、质量、股息和流动性因子
-- 风险调整动量、价值质量、低波质量、长期反转等规则策略
-- LightGBM 和排序模型的滚动训练与样本外检验
-- 交易成本、换手率、最大回撤和基准对比
-- 2026 年独立测试区间
+建立 2018 年以来的原始价/前复权双口径行情管线，覆盖历史股票池、公司行动、停牌、涨跌停、T+1、整数手、费用和成交容量。当前正式基准为“沪深基准1：状态切换红利反转”；新一代收益优先研究仍处于候选验证阶段，详见 [`sh_sz_market_research/README.md`](sh_sz_market_research/README.md)。
 
-Notebook 说明见 [`notebooks/README.md`](notebooks/README.md)。
+### 3. 平台校准与审计
 
-### 晚间主力建仓策略
+本地回测与 SuperMind 平台结果分别保存，通过成交、持仓、账户净值和原始行情交叉核对。平台原始记录、校验值和联合审计位于 [`archive/platform_audits/`](archive/platform_audits/)。
 
-`evening_accumulation/` 是独立可运行子项目，包含数据下载、特征构造、模型训练、事件识别、年度回测和 SuperMind 部署代码。详细命令、参数和交易约束见 [`evening_accumulation/README.md`](evening_accumulation/README.md)。
+## 工程口径
 
-## 快速开始
+- T 日收盘生成信号，T+1 使用原始价格成交；复权价格只用于特征。
+- 模拟停牌、涨跌停、A 股 T+1、100/200 股整数手、现金、费用和滑点。
+- 训练、开发、验证与锁定观察区间分开报告；不以单一区间反复调参。
+- 正式基准冻结保存，新增研究不得覆盖历史基准。
+- 原始行情、本地模型、派生面板、缓存和可再生成逐日曲线不进入 Git。
 
-### 1. 创建本地环境
+## 快速入口
 
 ```powershell
-cd C:\Users\22241\Desktop\quant
-python -m venv quant_env
-.\quant_env\Scripts\Activate.ps1
-python -m pip install --upgrade pip
-pip install -r requirements.txt
+# 环境检查
+.\quant_env\Scripts\python.exe .\tools\main.py
+
+# 科创板数据续传
+.\tools\继续下载.cmd
+
+# 沪深主板下载控制台
+.\tools\启动沪深主板下载控制台.cmd
 ```
 
-晚间建仓子项目还需要安装自己的依赖：
-
-```powershell
-pip install -r .\evening_accumulation\requirements.txt
-```
-
-### 2. 验证环境
-
-```powershell
-python .\tools\main.py
-```
-
-正常输出：
-
-```text
-Quant project started
-```
-
-### 3. 运行 CSI100 研究
-
-```powershell
-jupyter notebook .\notebooks
-```
-
-SuperMind Notebook 使用平台内置的数据 API，本地环境不能直接调用这些接口。需要本地复现时，应先在 SuperMind 导出合规数据，再把读取部分替换为本地 Parquet 或 CSV。
-
-### 4. 运行晚间建仓项目
-
-```powershell
-cd .\evening_accumulation
-python run.py download
-python run.py train
-python run.py backtest
-python run.py evening
-```
-
-若下载中断，可双击 [`tools/继续下载.cmd`](tools/继续下载.cmd)。
+各研究线的具体运行命令以其目录内 README 为准。
 
 ## 数据与版本控制
 
-股票历史行情、外部平台导出数据、虚拟环境、训练模型、回测输出和缓存均由 `.gitignore` 排除，不会推送到 GitHub。`inputs/` 中可保留不含数据本体的清单文档，克隆仓库后需要自行重新下载或导入数据。
+GitHub 只保存源码、配置、文档、正式基准、小型汇总结果和必要的审计证据。以下内容仅保留在本地并可按流程重建：
 
-提交前可检查：
+- `data/` 及各项目行情目录；
+- `quant_env/`、`__pycache__/`；
+- 派生特征、训练缓存、模型工作副本和普通 `outputs/`；
+- 第三方仓库副本。外部参考只记录来源链接。
 
-```powershell
-git status --short
-git check-ignore -v data evening_accumulation/data evening_accumulation/outputs quant_env
-```
-
-## 当前状态
-
-- 已完成 CSI100 多因子和多个机器学习策略的研究性比较
-- 已完成交易成本、换手率与独立测试区间分析
-- 已形成可在 SuperMind 回测的策略版本
-- 晚间建仓项目具备本地下载、训练、回测和平台部署流程
-
-全项目基准1-1、1-2、1-3、2-1、2-2的统一编号、简称、结果和归档位置见 [`archive/baseline_registry/STRATEGY_BASELINES.md`](archive/baseline_registry/STRATEGY_BASELINES.md)，文件归档说明见 [`archive/baseline_registry/ARCHIVE_INDEX.md`](archive/baseline_registry/ARCHIVE_INDEX.md)。
-
-后续重点应放在避免未来函数、维护历史成分股、控制交易成本、滚动样本外检验和模拟交易稳定性，而不是继续对单一区间反复调参。
+目录调整记录见 [`archive/REORGANIZATION_LOG.md`](archive/REORGANIZATION_LOG.md)。

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-25",
+  "updated_at": "2026-09-11",
   "canonical_baselines": {
     "baseline1-1": {
       "name_cn": "暴涨建仓",
@@ -26,6 +26,11 @@
       "name_cn": "升温防守",
       "legacy_ids": ["baseline5", "strategy5"],
       "archive": "star_industry_rotation/baselines/strategy_5_rising_defense"
+    },
+    "baseline3-1": {
+      "name_cn": "强势延持",
+      "legacy_ids": ["高进攻强势延持V1", "s09_trend_adaptive_expiry"],
+      "archive": "evening_accumulation/baselines/baseline_3_1_high_attack_adaptive_expiry"
     }
   },
   "compatibility_policy": "Public labels and new result records use canonical IDs. Existing folder names, filenames and internal model keys remain unchanged for reproducibility."

@@ -1,0 +1,72 @@
+{
+  "created_at": "2026-09-10",
+  "base": "高进攻候选 阈值0.63",
+  "directions": 10,
+  "initial_cash": 1000000.0,
+  "periods": {
+    "train_2020_2024": [
+      "2020-01-01",
+      "2024-12-31"
+    ],
+    "recent_2025_202607": [
+      "2025-01-01",
+      "2026-07-31"
+    ],
+    "full_2020_202607": [
+      "2020-01-01",
+      "2026-07-31"
+    ]
+  },
+  "hard_constraint": "worst MDD across three independent periods <= 50%",
+  "ranking": "0.70 * mean(three CAGR) + 0.30 * min(three CAGR)",
+  "auxiliary_models": {
+    "training_end": "2024-11-29",
+    "training_rows": 141045,
+    "gain_target": "next 22 sessions maximum high return, clipped to [-20%, 100%]",
+    "time_target": "sessions to +30% within 22 sessions; otherwise 30"
+  },
+  "stop_model": {
+    "train_end": "2024-12-31",
+    "train_rows": 143356,
+    "train_stop_rate": 0.6015932364184269,
+    "definition": "next 22 sessions: -7% open touched before +24% open"
+  },
+  "top5": [
+    {
+      "variant": "s09_trend_adaptive_expiry",
+      "name_cn": "强趋势持仓自适应延期",
+      "balanced_growth_score": 0.6452293158691991,
+      "worst_mdd": 0.3527974081011961,
+      "beats_base_all3": true
+    },
+    {
+      "variant": "s03_path_utility",
+      "name_cn": "收益风险时间联合排序",
+      "balanced_growth_score": 0.6178867982893966,
+      "worst_mdd": 0.36466673517155945,
+      "beats_base_all3": false
+    },
+    {
+      "variant": "s02_expected_gain",
+      "name_cn": "未来22日收益幅度模型排序",
+      "balanced_growth_score": 0.614936351099861,
+      "worst_mdd": 0.36940329148076645,
+      "beats_base_all3": false
+    },
+    {
+      "variant": "aggressive063",
+      "name_cn": "高进攻候选 阈值0.63",
+      "balanced_growth_score": 0.5729536923233866,
+      "worst_mdd": 0.3352985730472767,
+      "beats_base_all3": false
+    },
+    {
+      "variant": "s06_gap_quality",
+      "name_cn": "次日跳空质量过滤",
+      "balanced_growth_score": 0.5718301963603954,
+      "worst_mdd": 0.3414659668718095,
+      "beats_base_all3": false
+    }
+  ],
+  "warning": "2020-2024 is training replay; 2025-2026/7 is a repeatedly used validation period."
+}

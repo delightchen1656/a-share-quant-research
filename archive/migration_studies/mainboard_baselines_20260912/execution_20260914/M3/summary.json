@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-09-14T05:52:04",
+  "stocks": 3394,
+  "rows": [
+    {
+      "pool": "pool_a",
+      "horizon": 40,
+      "samples": 6026182,
+      "positives": 911513,
+      "positive_unbuyable": 7302,
+      "positive_rate": 0.15125879039166093,
+      "positive_unbuyable_rate": 0.008010856674561964
+    },
+    {
+      "pool": "pool_a",
+      "horizon": 60,
+      "samples": 5964991,
+      "positives": 1310297,
+      "positive_unbuyable": 7598,
+      "positive_rate": 0.2196645393094474,
+      "positive_unbuyable_rate": 0.005798685336225299
+    },
+    {
+      "pool": "pool_b",
+      "horizon": 40,
+      "samples": 1255755,
+      "positives": 195716,
+      "positive_unbuyable": 300,
+      "positive_rate": 0.15585524246369714,
+      "positive_unbuyable_rate": 0.0015328332890514828
+    },
+    {
+      "pool": "pool_b",
+      "horizon": 60,
+      "samples": 1231509,
+      "positives": 276192,
+      "positive_unbuyable": 334,
+      "positive_rate": 0.2242711989924556,
+      "positive_unbuyable_rate": 0.0012093036728073223
+    },
+    {
+      "pool": "pool_c",
+      "horizon": 40,
+      "samples": 647047,
+      "positives": 107996,
+      "positive_unbuyable": 158,
+      "positive_rate": 0.1669059589179766,
+      "positive_unbuyable_rate": 0.0014630171487832883
+    },
+    {
+      "pool": "pool_c",
+      "horizon": 60,
+      "samples": 634253,
+      "positives": 151944,
+      "positive_unbuyable": 178,
+      "positive_rate": 0.23956370722724213,
+      "positive_unbuyable_rate": 0.0011714842310324857
+    }
+  ],
+  "test_period_not_used_for_selection": true
+}

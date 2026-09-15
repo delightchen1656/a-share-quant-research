@@ -1,0 +1,48 @@
+{
+  "old_0_5pct_local_calibration": {
+    "start": "2020-01-02",
+    "end": "2026-09-11",
+    "initial_cash": 10000000.0,
+    "final_equity": 33918588.581551455,
+    "total_return": 2.3918588581551457,
+    "annualized_return": 0.20025262988950687,
+    "max_drawdown": -0.32021962527439485,
+    "sharpe": 1.0248650235865129,
+    "average_holdings": 29.72536945812808,
+    "max_holdings": 44
+  },
+  "old_0_5pct_platform_export": {
+    "start": "2019-12-31",
+    "end": "2026-09-11",
+    "initial_cash": 10000000.0,
+    "final_equity": 32194483.39,
+    "total_return": 2.219448339,
+    "annualized_return": 0.19076122606773782,
+    "max_drawdown": -0.2979291484853228,
+    "sharpe": 0.9674681135832196,
+    "average_holdings": 30.66523076923077,
+    "max_holdings": 44
+  },
+  "active_5pct_local": {
+    "start": "2020-01-02",
+    "end": "2026-09-11",
+    "initial_cash": 10000000.0,
+    "final_equity": 37299653.30264586,
+    "total_return": 2.7299653302645863,
+    "annualized_return": 0.2174185780296478,
+    "max_drawdown": -0.3376294917864864,
+    "sharpe": 0.9894945497290536,
+    "average_holdings": 20.044950738916256,
+    "max_holdings": 21
+  },
+  "old_trade_alignment": {
+    "platform_rows": 3410,
+    "local_rows": 3329,
+    "exact_row_matches": 775,
+    "date_symbol_side_matches": 1362,
+    "exact_match_rate_vs_platform": 0.22727272727272727,
+    "key_match_rate_vs_platform": 0.3994134897360704
+  },
+  "last_common_equity_gap": 1724105.1915514544,
+  "last_common_equity_gap_pct": 0.053552814333619025
+}

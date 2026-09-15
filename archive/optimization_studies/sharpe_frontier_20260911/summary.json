@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-09-11",
+  "candidates": 44,
+  "objective": "maximize recent out-of-sample Sharpe subject to MDD 10%-50% in all three periods",
+  "overlay_one_way_cost": 0.001,
+  "winner": {
+    "variant": "voltarget_50_15",
+    "name_cn": "进攻50%核心+目标波动15%",
+    "recent_2025_202607_sharpe": 2.0564026185508464,
+    "recent_2025_202607_cagr": 0.3218123166035669,
+    "recent_2025_202607_max_drawdown": -0.10753939288269054,
+    "full_2020_202607_sharpe": 1.9936707840705945,
+    "full_2020_202607_cagr": 0.32000983078379175,
+    "full_2020_202607_max_drawdown": -0.182376089500775
+  },
+  "robust_winner": {
+    "variant": "voltarget_50_18",
+    "name_cn": "进攻50%核心+目标波动18%",
+    "robust_sharpe": 2.029828964194189,
+    "design_2020_2024_sharpe": 2.029828964194189,
+    "recent_2025_202607_sharpe": 2.045071064088846,
+    "full_2020_202607_sharpe": 2.033599245765901,
+    "full_2020_202607_cagr": 0.3688314736332119,
+    "full_2020_202607_max_drawdown": -0.20028042952760816
+  },
+  "baseline3_1_check": {
+    "start": "2020-01-01",
+    "end": "2026-07-31",
+    "initial_cash": 1000000.0,
+    "final_equity": 36423686.11404109,
+    "total_return": 35.42368611404109,
+    "annualized_return": 0.727528643973161,
+    "max_drawdown": -0.3527974081011961,
+    "closed_trades": 993,
+    "win_rate": 0.46424974823766363,
+    "mean_trade_return": 0.04725289466906335
+  }
+}

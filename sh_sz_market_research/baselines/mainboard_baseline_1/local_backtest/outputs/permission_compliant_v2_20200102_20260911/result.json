@@ -1,0 +1,25 @@
+{
+  "metrics": {
+    "start": "2020-01-02",
+    "end": "2026-09-11",
+    "initial_cash": 10000000.0,
+    "final_equity": 46538169.98466215,
+    "total_return": 3.6538169984662154,
+    "annualized_return": 0.2583530766702169,
+    "max_drawdown": -0.3354394137716967,
+    "sharpe": 1.0800133654545236,
+    "average_holdings": 20.27894088669951,
+    "max_holdings": 24,
+    "universe_count": 3191,
+    "forbidden_trade_rows": 0
+  },
+  "comparison_with_pre_filter_v2": {
+    "old_final_equity": 46538169.98466215,
+    "new_final_equity": 46538169.98466215,
+    "final_equity_change": 0.0,
+    "old_annualized_return": 0.2583530766702169,
+    "new_annualized_return": 0.2583530766702169,
+    "old_max_drawdown": -0.3354394137716967,
+    "new_max_drawdown": -0.3354394137716967
+  }
+}

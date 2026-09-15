@@ -1,0 +1,12 @@
+{
+  "start_date": "2018-01-01",
+  "end_date": "2026-09-12",
+  "adjustments": {
+    "raw": "3",
+    "qfq": "2"
+  },
+  "exchanges": ["SH", "SZ"],
+  "include_historical_delisted": true,
+  "refresh_universe_on_start": false,
+  "source": "BaoStock"
+}

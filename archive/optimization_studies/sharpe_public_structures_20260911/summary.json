@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-09-11",
+  "cost": 0.001,
+  "count": 14,
+  "objective": "maximize minimum of design and recent Sharpe, MDD 10%-50% in every period",
+  "winner": {
+    "rank": 1,
+    "variant": "conditional_vol_extremes",
+    "name_cn": "条件波动极端管理",
+    "design_cagr": 0.43446277211886786,
+    "design_sharpe": 2.187564804324312,
+    "design_mdd": -0.19003491457052912,
+    "design_vol": 0.17866940214532837,
+    "design_final": 6066108.426454817,
+    "recent_cagr": 0.3283030222975869,
+    "recent_sharpe": 2.03129741596058,
+    "recent_mdd": -0.10635715631536768,
+    "recent_vol": 0.15079382507439293,
+    "recent_final": 1563515.9159089364,
+    "full_cagr": 0.40787884001835994,
+    "full_sharpe": 2.149971280185086,
+    "full_mdd": -0.19003491457052912,
+    "full_vol": 0.1723697854103168,
+    "full_final": 9484457.072391396,
+    "eligible": true,
+    "robust_sharpe": 2.03129741596058
+  }
+}

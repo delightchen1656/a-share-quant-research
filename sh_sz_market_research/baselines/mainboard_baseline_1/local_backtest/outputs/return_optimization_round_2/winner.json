@@ -1,0 +1,17 @@
+{
+  "name":"deep_quality25",
+  "selection_score":0.3002853546,
+  "eligible_dd35":true,
+  "dev_annual":0.2718679996,
+  "dev_dd":-0.3275922857,
+  "val_annual":0.3287027096,
+  "val_dd":-0.194875552,
+  "holdout_annual":0.1763056586,
+  "holdout_dd":-0.1550897227,
+  "full_annual":0.2502518474,
+  "full_dd":-0.3275922857,
+  "full_sharpe":1.0848657062,
+  "final_equity":44569741.5049136654,
+  "avg_holdings":20.131773399,
+  "parameters":"{\"name\": \"deep_quality25\", \"bull\": [0.25, 0.2, 0.55], \"bear\": [0.5, 0.25, 0.25], \"ma\": 120, \"count\": 20, \"buffer\": 40, \"exposure\": 0.95, \"cap\": 1.5}"
+}

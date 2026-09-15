@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-09-14T10:31:25",
+  "date_range": [
+    "2018-01-02",
+    "2026-09-11"
+  ],
+  "rows": 6466683,
+  "stocks": 3394,
+  "duplicate_date_symbol_rows": 0,
+  "invalid_ohlc_rows": 0,
+  "missing_raw_close": 0,
+  "missing_qfq_close": 0,
+  "suspended_or_zero_volume_rows": 55438,
+  "st_rows": 276990,
+  "one_price_tradable_rows": 25291,
+  "corporate_action_proxy_rows": 17178,
+  "stocks_ending_before_dataset_end": 199,
+  "stocks_named_delisted": 109,
+  "regular_qfq_return_error_p99": 4.955752213736675e-07,
+  "regular_qfq_return_error_max": 0.6333333333333333,
+  "industry_mapping_date": [
+    "2026-09-07"
+  ],
+  "current_industry_is_point_in_time": false,
+  "old_cache_contains_old_model_scores": true,
+  "old_scores_allowed_in_new_research": false,
+  "known_execution_defects_to_remove": [
+    "using the final observed date to force an exit is future information",
+    "inferring share multiplication only from previous close/preclose is not a complete corporate-action ledger",
+    "current industry labels cannot be backfilled as historical point-in-time classifications",
+    "daily amount participation does not prove an order can fill at the opening price"
+  ]
+}

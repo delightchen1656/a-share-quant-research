@@ -1,0 +1,21 @@
+{
+  "name":"full_exposure",
+  "selection_score":0.2885793362,
+  "eligible_dd35":true,
+  "dev_annual":0.2341539051,
+  "dev_dd":-0.3456404586,
+  "dev_sharpe":1.061135507,
+  "val_annual":0.3430047672,
+  "val_dd":-0.1851531915,
+  "val_sharpe":1.0674241124,
+  "holdout_annual":0.151023933,
+  "holdout_dd":-0.1600531556,
+  "holdout_sharpe":0.8610439009,
+  "full_annual":0.2227007187,
+  "full_dd":-0.3456404586,
+  "full_sharpe":0.9787390817,
+  "final_equity":38396008.2484319657,
+  "avg_holdings":20.0763546798,
+  "max_holdings":22,
+  "parameters":"{\"name\": \"full_exposure\", \"bull\": [0.25, 0.2, 0.55], \"bear\": [0.4, 0.25, 0.35], \"ma\": 120, \"count\": 20, \"buffer\": 40, \"exposure\": 1.0, \"cap\": 1.5}"
+}

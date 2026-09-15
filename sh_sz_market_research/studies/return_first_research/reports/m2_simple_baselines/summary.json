@@ -1,0 +1,46 @@
+[
+  {
+    "final_nav": 0.4822847778076307,
+    "total_return": -0.5177152221923693,
+    "annualized_return": -0.08075935214512919,
+    "max_drawdown": -0.7250051570136881,
+    "sharpe": -0.18446469249549183,
+    "gross_annualized_return": -0.048103943643647895,
+    "average_exposure": 0.9426744900225146,
+    "annual_turnover": 11.62608455674557,
+    "strategy": "D_高流动性控制组"
+  },
+  {
+    "final_nav": 0.3725008501604025,
+    "total_return": -0.6274991498395974,
+    "annualized_return": -0.10777256710318384,
+    "max_drawdown": -0.6778474627621336,
+    "sharpe": -0.4111624461424521,
+    "gross_annualized_return": -0.001262493346723792,
+    "average_exposure": 0.865542175648134,
+    "annual_turnover": 37.49276381070319,
+    "strategy": "C_风格群体扩散"
+  },
+  {
+    "final_nav": 0.2610266140329315,
+    "total_return": -0.7389733859670685,
+    "annualized_return": -0.14366991677512486,
+    "max_drawdown": -0.7892634376968253,
+    "sharpe": -0.40371779968756294,
+    "gross_annualized_return": -0.0496335026322291,
+    "average_exposure": 0.9367269267364416,
+    "annual_turnover": 34.6500390732563,
+    "strategy": "A_可交易收益排序"
+  },
+  {
+    "final_nav": 0.2281429383110289,
+    "total_return": -0.7718570616889711,
+    "annualized_return": -0.1568818581176391,
+    "max_drawdown": -0.8198291162206066,
+    "sharpe": -0.581125538024522,
+    "gross_annualized_return": -0.04728897517147679,
+    "average_exposure": 0.933872502378687,
+    "annual_turnover": 40.625402788602656,
+    "strategy": "B_强势股回踩"
+  }
+]

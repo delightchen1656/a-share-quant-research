@@ -1,57 +1,48 @@
-# 工程结构说明
+# 工程结构与维护边界
 
-更新时间：2026-08-25。
+更新时间：2026-09-15。
 
-## 根目录原则
+## 一级目录
 
-根目录只保留三个标准文件：`README.md`、`requirements.txt`、`.gitignore`，以及一级功能目录。单次回测、平台导出、分析报告、快捷脚本不得直接散落在根目录。
+| 目录 | 职责 | Git策略 |
+|---|---|---|
+| `evening_accumulation/` | 科创板事件识别研究、冻结基准和 SuperMind 转换 | 源码、基准和小型证据入库；数据与普通输出排除 |
+| `star_industry_rotation/` | 科创板行业温度研究 | 源码与冻结基准入库；可再生成输出排除 |
+| `sh_sz_market_research/` | 沪深主板数据工程、研究实验和平台验证 | 源码、报告、汇总入库；行情、派生数据、模型和曲线排除 |
+| `supermind_baselines/` | 对外使用的规范命名平台单文件 | 入库，必须与对应基准记录一致 |
+| `archive/` | 稳定结论、迁移研究、优化记录和平台审计 | 入库，只读维护 |
+| `notebooks/` | CSI100 探索性研究 | 入库，不存 Notebook 缓存 |
+| `tools/` | 环境检查和本地控制台入口 | 入库 |
+| `data/` | 根级本地研究数据 | 不入库 |
 
-## 当前目录
+## 研究目录约定
 
 ```text
-quant/
-├── README.md                     # 总入口
-├── requirements.txt             # 根环境依赖
-├── .gitignore                    # 大文件和缓存规则
-├── archive/                      # 冻结记录与审计档案
-│   ├── baseline_registry/        # 五基准名称、结果总表及本地对比
-│   └── platform_audits/
-│       └── baseline_1-2_2-2_joint_audit/
-│           ├── raw_exports/      # 6个SuperMind原始导出及校验值
-│           ├── outputs/          # 机器可读审计结果
-│           ├── REPORT.md         # 联合审计报告
-│           └── 基准1-2与2-2平台交易联合审计.xlsx
-├── evening_accumulation/         # 研究线1：暴涨前建仓识别
-├── star_industry_rotation/       # 研究线2：行业温度门控
-├── supermind_baselines/          # 五个正式平台单文件交付版
-├── tools/                        # 环境检查和下载快捷入口
-├── notebooks/                    # CSI100研究Notebook
-├── data/                         # 本地数据
-└── quant_env/                    # 本地虚拟环境
+project/
+├── README.md
+├── baselines/       # 冻结版本；禁止直接覆盖
+├── studies/         # 当前研究源码与结论
+├── platform/        # 平台适配和静态测试
+├── data_pipeline/   # 可选：下载、清洗、质量审计
+└── outputs/         # 可再生成产物，不作为唯一证据
 ```
 
-## 正式基准
+研究结论保留 `REPORT.md`、必要的 CSV/JSON 汇总和参数；逐日曲线、全量特征、缓存、临时模型及 partial 文件不归档。外部项目只记录 URL、版本和复现结论，不嵌套提交第三方 Git 仓库。
 
-| 编号 | 名称 | 研究归档 |
-|---|---|---|
-| 基准1-1 | 暴涨建仓 | `evening_accumulation/baselines/baseline_1/` |
-| 基准1-2 | 止损过滤 | `evening_accumulation/baselines/baseline_2/` |
-| 基准1-3 | 熊市分散 | `evening_accumulation/baselines/baseline_3/` |
-| 基准2-1 | 温度进攻 | `star_industry_rotation/baselines/strategy_4_temperature_attack/` |
-| 基准2-2 | 升温防守 | `star_industry_rotation/baselines/strategy_5_rising_defense/` |
+## 正式入口
 
-## 常用入口
+- 项目总览：`README.md`
+- 正式基准登记：`archive/baseline_registry/STRATEGY_BASELINES.md`
+- 科创板平台交付：`supermind_baselines/`
+- 沪深研究入口：`sh_sz_market_research/README.md`
+- 环境验证：`tools/main.py`
+- 下载入口：`tools/继续下载.cmd`、`tools/启动沪深主板下载控制台.cmd`
 
-- 环境验证：`python .\tools\main.py`
-- 继续下载：双击 `tools/继续下载.cmd`
-- 基准总表：`archive/baseline_registry/STRATEGY_BASELINES.md`
-- 平台代码：`supermind_baselines/`
-- 基准1-2与2-2联合审计：`archive/platform_audits/baseline_1-2_2-2_joint_audit/`
+## 晋升与归档流程
 
-## 维护边界
-
-1. 研究过程进入对应项目目录。
-2. 正式基准必须进入项目下的 `baselines/` 冻结目录。
-3. 平台原始导出及独立审计进入 `archive/platform_audits/`。
-4. 可再生成数据放在 `outputs/`，原始证据放在 `raw_exports/` 并保存校验值。
-5. 根目录不得新增单次报告、CSV、日志、临时脚本或平台导出文件。
+1. 实验先进入对应 `studies/`，输出写入被忽略的工作目录。
+2. 达到阶段结论后保留报告、参数、汇总指标和复现入口。
+3. 晋升基准时复制必要代码与模型到独立 `baselines/`，生成 MANIFEST 或校验值。
+4. 平台原始证据进入 `archive/platform_audits/`，不得改写原件。
+5. 已停止任务只归档目标、完成范围、停止原因和结论，删除执行残留。
+6. 根目录只保留标准文件和一级功能目录。

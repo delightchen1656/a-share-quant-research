@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-09-10",
+  "base": "基准1-2 止损过滤",
+  "initial_cash": 1000000.0,
+  "periods": {
+    "train_2020_2024": [
+      "2020-01-01",
+      "2024-12-31"
+    ],
+    "recent_2025_202607": [
+      "2025-01-01",
+      "2026-07-31"
+    ],
+    "full_2020_202607": [
+      "2020-01-01",
+      "2026-07-31"
+    ]
+  },
+  "hard_constraint": "worst max drawdown across three independent periods <= 50%",
+  "ranking": "0.70 * mean(three CAGR) + 0.30 * min(three CAGR)",
+  "directions": 20,
+  "stop_model": {
+    "train_end": "2024-12-31",
+    "train_rows": 143356,
+    "train_stop_rate": 0.6015932364184269,
+    "definition": "next 22 sessions: -7% open touched before +24% open"
+  },
+  "top5": [
+    {
+      "variant": "d03_threshold_063",
+      "name_cn": "信号阈值降至0.63",
+      "balanced_growth_score": 0.5729536923233866,
+      "worst_mdd": 0.3352985730472767
+    },
+    {
+      "variant": "d18_hold45",
+      "name_cn": "最长持有45日",
+      "balanced_growth_score": 0.5406417887436288,
+      "worst_mdd": 0.3260598554334958
+    },
+    {
+      "variant": "d19_hold60",
+      "name_cn": "最长持有60日",
+      "balanced_growth_score": 0.5384949728804815,
+      "worst_mdd": 0.31742037498340325
+    },
+    {
+      "variant": "d17_all46",
+      "name_cn": "全部止盈提高至46%",
+      "balanced_growth_score": 0.5079336704807104,
+      "worst_mdd": 0.29830981722190897
+    },
+    {
+      "variant": "d09_fraction14",
+      "name_cn": "单票目标仓位14%",
+      "balanced_growth_score": 0.5057183142142124,
+      "worst_mdd": 0.38876966400078894
+    }
+  ],
+  "warning": "2020-2024 participates in model training; 2025-2026/7 has been repeatedly used for validation."
+}

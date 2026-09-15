@@ -1,0 +1,17 @@
+{
+  "name":"quality25_full",
+  "selection_score":0.3108974313,
+  "eligible_dd35":true,
+  "dev_annual":0.2816370378,
+  "dev_dd":-0.3354394138,
+  "val_annual":0.3401578248,
+  "val_dd":-0.2026597027,
+  "holdout_annual":0.180019776,
+  "holdout_dd":-0.1612283055,
+  "full_annual":0.2583530767,
+  "full_dd":-0.3354394138,
+  "full_sharpe":1.0800133655,
+  "final_equity":46538169.9846621528,
+  "avg_holdings":20.2789408867,
+  "parameters":"{\"name\": \"quality25_full\", \"bear\": [0.5, 0.25, 0.25], \"buffer\": 40, \"exposure\": 1.0, \"count\": 20, \"bull\": [0.25, 0.2, 0.55], \"ma\": 120, \"cap\": 1.5}"
+}

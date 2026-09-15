@@ -1,0 +1,24 @@
+{
+  "created_at": "2026-09-12",
+  "scope": "Shanghai and Shenzhen Main Boards, securities existing at 2026-07-31",
+  "universe_count": 3193,
+  "shanghai_count": 1699,
+  "shenzhen_count": 1494,
+  "industry_mapped": 3193,
+  "benchmark": "000300.SH",
+  "buy_lot": 100,
+  "regular_price_limit_filter": "quote_rate < 9.5%; live high_limit/low_limit still authoritative",
+  "model_warning": "prediction and bear models remain STAR-trained; these are transfer-test files, not validated Main Board models",
+  "sources": {
+    "mainboard_baseline_1": "baselines\\mainboard_baseline_1\\README.md",
+    "baseline_1_2": "supermind_baselines\\supermind_baseline_1_2_stop_filter.py",
+    "baseline_2_2": "supermind_baselines\\supermind_baseline_2_2_rising_defense.py",
+    "baseline_3_1": "supermind_baselines\\supermind_baseline_3_1_high_attack_adaptive_expiry_daily_120k_dynamic20.py"
+  },
+  "sha256": {
+    "supermind_mainboard_baseline_1.py": "6F49DE1898899603584A61B9725F3EA3A6A56EDE8DD46A26FB377DAA384A33FE",
+    "supermind_mainboard_baseline_1_2.py": "6007511D5C96A3CAB1BB6A68EFBCB378D940E20D262590E25119711CBC024AE7",
+    "supermind_mainboard_baseline_2_2.py": "A2A04463E99D223EBDD5D2CB5A0BA4A7124504AF6A63EF977A7CF1E4CF5B1FF4",
+    "supermind_mainboard_baseline_3_1.py": "B0A5F6A7175AE9CC53B6A53D262A303C195BE3F138DDEDD969FCA32D28956702"
+  }
+}

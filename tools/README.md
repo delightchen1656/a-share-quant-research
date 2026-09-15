@@ -2,5 +2,6 @@
 
 - `main.py`：验证根目录Python研究环境。
 - `继续下载.cmd`：启动 `evening_accumulation/continue_download.ps1`，支持行情断点续传和终端进度显示。
+- `启动沪深主板下载控制台.cmd`：启动沪深主板数据管线的本地Web控制台。
 
 移动本目录时必须同步修改快捷脚本中的相对路径，并重新验证目标文件可解析。

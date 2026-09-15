@@ -1,0 +1,20 @@
+{
+  "name":"regime_ma100",
+  "selection_score":0.3434978516,
+  "eligible_dd35":true,
+  "dev_annual":0.3110719403,
+  "dev_dd":-0.3354394138,
+  "dev_sharpe":1.315093914,
+  "val_annual":0.3416990603,
+  "val_dd":-0.201970441,
+  "val_sharpe":1.0461977728,
+  "holdout_annual":0.1730874584,
+  "holdout_dd":-0.1617630966,
+  "holdout_sharpe":0.9284429315,
+  "full_annual":0.2738244883,
+  "full_dd":-0.3354394138,
+  "full_sharpe":1.1331875257,
+  "final_equity":50503397.2837781459,
+  "avg_holdings":20.4408866995,
+  "parameters":"{\"bull\": [0.25, 0.2, 0.55], \"bear\": [0.5, 0.25, 0.25], \"ma\": 100, \"count\": 20, \"buffer\": 40, \"exposure\": 1.0, \"cap\": 1.5, \"name\": \"regime_ma100\"}"
+}

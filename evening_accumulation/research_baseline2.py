@@ -20,6 +20,8 @@ START = pd.Timestamp("2020-01-01")
 END = pd.Timestamp("2026-07-31")
 INITIAL_CASH = 1_000_000.0
 THRESHOLD = 0.689688
+SIGNAL_THRESHOLD = THRESHOLD
+STOP_PROBABILITY_CUTOFF = 0.50
 TOP_PER_DAY = 8
 MAX_POSITIONS = 14
 BASE_FRACTION = 0.10
@@ -113,6 +115,7 @@ class Prepared:
     market_by_date: dict
     returns: pd.DataFrame
     dates: list
+    feature_frame: pd.DataFrame | None = None
 
 
 def prepare() -> tuple[Prepared, dict]:
@@ -141,7 +144,7 @@ def prepare() -> tuple[Prepared, dict]:
     return Prepared(
         raw_by_date=raw_by_date, candidates_by_date=candidates,
         market_by_date=market.to_dict("index"), returns=returns,
-        dates=sorted(raw_by_date),
+        dates=sorted(raw_by_date), feature_frame=ds,
     ), stop_meta
 
 
@@ -150,11 +153,25 @@ def select_candidates(prep: Prepared, signal_date, held, modes: set[str]) -> lis
     if frame is None or frame.empty:
         return []
     x = frame.copy()
+    x = x[x.probability >= SIGNAL_THRESHOLD]
     if "stop_risk_filter" in modes:
-        x = x[x.stop_probability <= 0.50]
+        x = x[x.stop_probability <= STOP_PROBABILITY_CUTOFF]
         x["rank_score"] = x.probability - 0.22 * x.stop_probability
     else:
         x["rank_score"] = x.probability
+    if "time_to_target_rank" in modes and "predicted_hit_days" in x:
+        x["rank_score"] = x["rank_score"] - 0.10 * x.predicted_hit_days.clip(1, 22) / 22.0
+    if "expected_gain_rank" in modes and "predicted_gain22" in x:
+        x["rank_score"] = x["rank_score"] + 0.35 * x.predicted_gain22.clip(-0.10, 0.50)
+    if "path_utility_rank" in modes and {"predicted_gain22", "predicted_hit_days"}.issubset(x.columns):
+        x["rank_score"] = (
+            x.probability + 0.45 * x.predicted_gain22.clip(-0.10, 0.50)
+            - 0.28 * x.stop_probability - 0.08 * x.predicted_hit_days.clip(1, 22) / 22.0
+        )
+    if "trend_confirmation" in modes:
+        x = x[(x.ret5 > 0) & (x.ret20 > 0)]
+    if "signal_persistence" in modes and "signal_streak" in x:
+        x = x[x.signal_streak >= 2]
     if "low_vol_filter" in modes:
         x = x[x.vol20 <= 0.040]
     if "crowding_threshold" in modes:
@@ -176,6 +193,7 @@ def select_candidates(prep: Prepared, signal_date, held, modes: set[str]) -> lis
         selected.append({
             "symbol": row.symbol, "probability": float(row.probability),
             "stop_probability": float(row.stop_probability), "vol20": float(row.vol20),
+            "rank_score": float(row.rank_score),
         })
         if len(selected) >= limit:
             break
@@ -192,6 +210,7 @@ def simulate(prep: Prepared, modes: set[str], start=START, end=END,
     previous_date = None
     high_water = cash
     recent_reasons = []
+    stopped_until = {}
     cooldown = 0
     previous_close = {}
     for date in dates:
@@ -234,6 +253,8 @@ def simulate(prep: Prepared, modes: set[str], start=START, end=END,
             quality_fraction = min(quality_fraction, 0.07)
         for signal in candidates:
             symbol = signal["symbol"]
+            if "stop_reentry_quarantine" in modes and symbol in stopped_until and date <= stopped_until[symbol]:
+                continue
             if symbol in positions or len(positions) >= MAX_POSITIONS or symbol not in day.index:
                 continue
             row = day.loc[symbol]
@@ -241,6 +262,10 @@ def simulate(prep: Prepared, modes: set[str], start=START, end=END,
                 continue
             if float(row.open) >= limit_price(float(row.preclose), 1.20) - 0.001:
                 continue
+            if "gap_quality_entry" in modes:
+                gap = float(row.open) / float(row.preclose) - 1.0
+                if gap > 0.08 or gap < -0.03:
+                    continue
             fraction = quality_fraction
             if "volatility_sizing" in modes:
                 fraction *= float(np.clip(0.028 / max(signal["vol20"], 0.015), 0.55, 1.0))
@@ -260,6 +285,7 @@ def simulate(prep: Prepared, modes: set[str], start=START, end=END,
                 "qty": float(qty), "entry": execution, "entry_date": date,
                 "half": False, "probability": signal["probability"],
                 "realized": -total, "initial_cost": total, "peak": execution,
+                "rank_score": signal.get("rank_score", signal["probability"]),
             }
         for symbol, pos in list(positions.items()):
             if symbol not in day.index or pos["entry_date"] == date:
@@ -282,8 +308,22 @@ def simulate(prep: Prepared, modes: set[str], start=START, end=END,
                 half = float(int(pos["qty"] / 2))
                 if half >= MIN_STAR_BUY and pos["qty"] - half >= MIN_STAR_BUY:
                     target_qty, reason = half, "TPHALF"
-            elif (date - pos["entry_date"]).days >= MAX_CALENDAR_DAYS:
-                target_qty, reason = 0.0, "TIME"
+            elif "stagnant_recycle" in modes and (date - pos["entry_date"]).days >= 15 and mark < pos["entry"] * 1.03:
+                target_qty, reason = 0.0, "STALE"
+            elif "signal_decay_exit" in modes and (date - pos["entry_date"]).days >= 5:
+                live = prep.candidates_by_date.get(previous_date)
+                live_prob = None
+                if live is not None and not live.empty:
+                    hit = live[live.symbol == symbol]
+                    if not hit.empty:
+                        live_prob = float(hit.iloc[0].probability)
+                if live_prob is None or live_prob < SIGNAL_THRESHOLD:
+                    target_qty, reason = 0.0, "DECAY"
+            if target_qty is None and (date - pos["entry_date"]).days >= MAX_CALENDAR_DAYS:
+                if "trend_adaptive_expiry" in modes and mark >= pos["entry"] * 1.10 and (date - pos["entry_date"]).days < 60:
+                    pass
+                else:
+                    target_qty, reason = 0.0, "TIME"
             if target_qty is None:
                 continue
             sell_qty = pos["qty"] - target_qty
@@ -300,6 +340,8 @@ def simulate(prep: Prepared, modes: set[str], start=START, end=END,
                 trades.append({"symbol": symbol, "entry_date": pos["entry_date"],
                                "exit_date": date, "reason": reason, "return": ret})
                 recent_reasons.append(reason)
+                if reason == "STOP":
+                    stopped_until[symbol] = date + pd.Timedelta(days=20)
                 recent_reasons = recent_reasons[-10:]
                 del positions[symbol]
         equity = cash + sum(p["qty"] * float(day.loc[s, "close"])

@@ -1,0 +1,15 @@
+{
+  "fit_end": "2023-11-30",
+  "validation": [
+    "2024-01-01",
+    "2024-11-29"
+  ],
+  "fit_samples": 837759,
+  "validation_samples": 672478,
+  "validation_positive_rate": 0.5266060748455712,
+  "roc_auc": 0.5718802063755951,
+  "pr_auc": 0.6024532384050821,
+  "precision_at_0.50": 0.5701518494066118,
+  "recall_at_0.50": 0.5998966484154169,
+  "filtered_fraction": 0.5540790925502396
+}
