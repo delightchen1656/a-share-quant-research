@@ -1,0 +1,57 @@
+{
+  "rows": 4414715,
+  "symbols": 3296,
+  "coverage": {
+    "2020": {
+      "rows": 586338,
+      "known": 0.9617217372914598,
+      "retired_known": 0.8880196958265496
+    },
+    "2021": {
+      "rows": 570586,
+      "known": 0.9558033320130532,
+      "retired_known": 0.847973514177391
+    },
+    "2022": {
+      "rows": 658332,
+      "known": 0.9512829393072189,
+      "retired_known": 0.7761226605554646
+    },
+    "2023": {
+      "rows": 674456,
+      "known": 0.9572707485736653,
+      "retired_known": 0.8007233273056058
+    },
+    "2024": {
+      "rows": 693097,
+      "known": 0.9652977866012983,
+      "retired_known": 0.9223606933104139
+    },
+    "2025": {
+      "rows": 728492,
+      "known": 0.9745789933177029,
+      "retired_known": 1.0
+    },
+    "2026": {
+      "rows": 503414,
+      "known": 0.9909855506600929,
+      "retired_known": 1.0
+    }
+  },
+  "historical_universe": 3394,
+  "report_symbols": 3394,
+  "retired_universe": 199,
+  "retired_report_symbols": 199,
+  "no_report_symbols": [],
+  "source_manifest_sha256": "ba7fc4a30bca42d008fe0b21509e66b3c7ba7cc7ddaa7b4d766ed069d80644d4",
+  "source_features_sha256": "ead2f4d1e2d455ba2fc1be2886ea63e087f14e8e4357d9ca2bbed55593ce9244",
+  "rule": "strictly after max(NOTICE_DATE,UPDATE_DATE,EITIME); annual latest visible report; max900days old; missing signals neutral, no deletion;20million amount and recomputed size terciles",
+  "supplement": {
+    "source_manifest_sha256": "7295c3a5df0f138fd9d466895e8942eff41c946a80d58fd2420dcc0e80bd186e",
+    "symbols": 199,
+    "no_annual_2017_2025": [],
+    "ingestion_time": "not supplied by F10, remains missing; max NOTICE_DATE/UPDATE_DATE only for supplementary source",
+    "current_vintage_caveat": "Mixed source and weaker retired timestamp evidence; exploratory only; original-filing validation gate remains false"
+  },
+  "vintage_warning": "Current-vintage, NOT certified original PIT; original filing audit required for successful candidates"
+}

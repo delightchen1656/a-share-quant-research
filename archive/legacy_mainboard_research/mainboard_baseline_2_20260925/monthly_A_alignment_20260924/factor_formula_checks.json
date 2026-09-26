@@ -1,0 +1,926 @@
+{
+  "checks": 65,
+  "max_absolute_errors": {
+    "amount20": 4.76837158203125e-07,
+    "near_high": 0.0,
+    "below_high": 0.0,
+    "below_ma60": 4.440892098500626e-16,
+    "dividend": 2.220446049250313e-16,
+    "downside": 1.734723475976807e-17,
+    "float_cap_proxy": 7.62939453125e-06,
+    "turn20": 1.7763568394002505e-15
+  },
+  "rows": [
+    {
+      "date": "2019-12-31",
+      "symbol": "000001.SZ",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 0.0,
+        "downside": 0.0,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2019-12-31",
+      "symbol": "000656.SZ",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 0.0,
+        "downside": 1.734723475976807e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2019-12-31",
+      "symbol": "000957.SZ",
+      "errors": {
+        "amount20": 1.4901161193847656e-08,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 0.0,
+        "downside": 0.0,
+        "float_cap_proxy": 0.0,
+        "turn20": 4.440892098500626e-16
+      }
+    },
+    {
+      "date": "2019-12-31",
+      "symbol": "002128.SZ",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 0.0,
+        "downside": 4.336808689942018e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2019-12-31",
+      "symbol": "002285.SZ",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 0.0,
+        "downside": 1.734723475976807e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": NaN
+      }
+    },
+    {
+      "date": "2019-12-31",
+      "symbol": "002455.SZ",
+      "errors": {
+        "amount20": 1.4901161193847656e-08,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 0.0,
+        "downside": 1.734723475976807e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2019-12-31",
+      "symbol": "002639.SZ",
+      "errors": {
+        "amount20": 2.9802322387695312e-08,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 0.0,
+        "downside": 0.0,
+        "float_cap_proxy": 9.5367431640625e-07,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2019-12-31",
+      "symbol": "002855.SZ",
+      "errors": {
+        "amount20": 2.9802322387695312e-08,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 0.0,
+        "downside": 0.0,
+        "float_cap_proxy": 0.0,
+        "turn20": 1.7763568394002505e-15
+      }
+    },
+    {
+      "date": "2019-12-31",
+      "symbol": "600088.SH",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 0.0,
+        "downside": 0.0,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2019-12-31",
+      "symbol": "600339.SH",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 0.0,
+        "downside": 6.938893903907228e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 2.220446049250313e-16
+      }
+    },
+    {
+      "date": "2019-12-31",
+      "symbol": "600395.SH",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 0.0,
+        "downside": 0.0,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2019-12-31",
+      "symbol": "600576.SH",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 0.0,
+        "downside": 0.0,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2019-12-31",
+      "symbol": "600809.SH",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 0.0,
+        "downside": 5.204170427930421e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 1.1102230246251565e-16
+      }
+    },
+    {
+      "date": "2019-12-31",
+      "symbol": "601222.SH",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 0.0,
+        "downside": 7.806255641895632e-18,
+        "float_cap_proxy": 1.9073486328125e-06,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2019-12-31",
+      "symbol": "603027.SH",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 1.1102230246251565e-16,
+        "dividend": 0.0,
+        "downside": 5.204170427930421e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2019-12-31",
+      "symbol": "603516.SH",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 0.0,
+        "downside": 3.469446951953614e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2019-12-31",
+      "symbol": "603600.SH",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 0.0,
+        "downside": 3.469446951953614e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 2.220446049250313e-16
+      }
+    },
+    {
+      "date": "2019-12-31",
+      "symbol": "603608.SH",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 0.0,
+        "downside": 0.0,
+        "float_cap_proxy": 0.0,
+        "turn20": 4.440892098500626e-16
+      }
+    },
+    {
+      "date": "2019-12-31",
+      "symbol": "603730.SH",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 0.0,
+        "downside": 8.673617379884035e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 4.440892098500626e-16
+      }
+    },
+    {
+      "date": "2019-12-31",
+      "symbol": "603801.SH",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 0.0,
+        "downside": 8.673617379884035e-19,
+        "float_cap_proxy": 4.76837158203125e-07,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2019-12-31",
+      "symbol": "603986.SH",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 0.0,
+        "downside": 3.469446951953614e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2023-12-29",
+      "symbol": "000001.SZ",
+      "errors": {
+        "amount20": 1.1920928955078125e-07,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 1.1102230246251565e-16,
+        "downside": 0.0,
+        "float_cap_proxy": 0.0,
+        "turn20": 1.1102230246251565e-16
+      }
+    },
+    {
+      "date": "2023-12-29",
+      "symbol": "000670.SZ",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 1.1102230246251565e-16,
+        "dividend": 0.0,
+        "downside": 3.469446951953614e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2023-12-29",
+      "symbol": "000977.SZ",
+      "errors": {
+        "amount20": 4.76837158203125e-07,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 1.1102230246251565e-16,
+        "downside": 0.0,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2023-12-29",
+      "symbol": "002151.SZ",
+      "errors": {
+        "amount20": 2.9802322387695312e-08,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 2.220446049250313e-16,
+        "dividend": 0.0,
+        "downside": 8.673617379884035e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2023-12-29",
+      "symbol": "002354.SZ",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 0.0,
+        "downside": 0.0,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2023-12-29",
+      "symbol": "002576.SZ",
+      "errors": {
+        "amount20": 2.9802322387695312e-08,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 1.1102230246251565e-16,
+        "downside": 0.0,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2023-12-29",
+      "symbol": "002821.SZ",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 0.0,
+        "downside": 3.469446951953614e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 2.220446049250313e-16
+      }
+    },
+    {
+      "date": "2023-12-29",
+      "symbol": "002936.SZ",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 4.440892098500626e-16,
+        "dividend": 0.0,
+        "downside": 1.734723475976807e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 5.551115123125783e-17
+      }
+    },
+    {
+      "date": "2023-12-29",
+      "symbol": "003031.SZ",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 0.0,
+        "downside": 1.734723475976807e-18,
+        "float_cap_proxy": 1.9073486328125e-06,
+        "turn20": 6.661338147750939e-16
+      }
+    },
+    {
+      "date": "2023-12-29",
+      "symbol": "600064.SH",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 2.220446049250313e-16,
+        "dividend": 0.0,
+        "downside": 2.6020852139652106e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2023-12-29",
+      "symbol": "600219.SH",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 2.220446049250313e-16,
+        "dividend": 1.1102230246251565e-16,
+        "downside": 5.204170427930421e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2023-12-29",
+      "symbol": "600395.SH",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 1.1102230246251565e-16,
+        "dividend": 2.220446049250313e-16,
+        "downside": 1.0408340855860843e-17,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2023-12-29",
+      "symbol": "600459.SH",
+      "errors": {
+        "amount20": 7.450580596923828e-09,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 0.0,
+        "downside": 0.0,
+        "float_cap_proxy": 0.0,
+        "turn20": 1.1102230246251565e-16
+      }
+    },
+    {
+      "date": "2023-12-29",
+      "symbol": "600482.SH",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 1.1102230246251565e-16,
+        "downside": 0.0,
+        "float_cap_proxy": 7.62939453125e-06,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2023-12-29",
+      "symbol": "600708.SH",
+      "errors": {
+        "amount20": 1.4901161193847656e-08,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 1.1102230246251565e-16,
+        "downside": 6.938893903907228e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2023-12-29",
+      "symbol": "600740.SH",
+      "errors": {
+        "amount20": 1.4901161193847656e-08,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 3.3306690738754696e-16,
+        "dividend": 0.0,
+        "downside": 6.938893903907228e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 1.1102230246251565e-16
+      }
+    },
+    {
+      "date": "2023-12-29",
+      "symbol": "600976.SH",
+      "errors": {
+        "amount20": 1.4901161193847656e-08,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 1.1102230246251565e-16,
+        "downside": 3.469446951953614e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 2.220446049250313e-16
+      }
+    },
+    {
+      "date": "2023-12-29",
+      "symbol": "601665.SH",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 1.1102230246251565e-16,
+        "dividend": 2.220446049250313e-16,
+        "downside": 0.0,
+        "float_cap_proxy": 0.0,
+        "turn20": 6.661338147750939e-16
+      }
+    },
+    {
+      "date": "2023-12-29",
+      "symbol": "601777.SH",
+      "errors": {
+        "amount20": 1.4901161193847656e-08,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 1.1102230246251565e-16,
+        "dividend": 0.0,
+        "downside": 3.469446951953614e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2023-12-29",
+      "symbol": "603206.SH",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 0.0,
+        "downside": 1.734723475976807e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2023-12-29",
+      "symbol": "603686.SH",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 1.1102230246251565e-16,
+        "downside": 1.1275702593849246e-17,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2023-12-29",
+      "symbol": "605555.SH",
+      "errors": {
+        "amount20": 2.9802322387695312e-08,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 0.0,
+        "downside": 0.0,
+        "float_cap_proxy": 0.0,
+        "turn20": 8.881784197001252e-16
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "symbol": "000001.SZ",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 2.220446049250313e-16,
+        "downside": 0.0,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "symbol": "000682.SZ",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 1.1102230246251565e-16,
+        "dividend": 1.1102230246251565e-16,
+        "downside": 1.5612511283791264e-17,
+        "float_cap_proxy": 3.814697265625e-06,
+        "turn20": 2.220446049250313e-16
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "symbol": "000828.SZ",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 1.1102230246251565e-16,
+        "downside": 1.3010426069826053e-17,
+        "float_cap_proxy": 0.0,
+        "turn20": 1.1102230246251565e-16
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "symbol": "000993.SZ",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 2.220446049250313e-16,
+        "dividend": 0.0,
+        "downside": 1.734723475976807e-17,
+        "float_cap_proxy": 0.0,
+        "turn20": 4.440892098500626e-16
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "symbol": "002117.SZ",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 1.1102230246251565e-16,
+        "downside": 8.673617379884035e-18,
+        "float_cap_proxy": 4.76837158203125e-07,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "symbol": "002318.SZ",
+      "errors": {
+        "amount20": 2.9802322387695312e-08,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 3.3306690738754696e-16,
+        "dividend": 1.1102230246251565e-16,
+        "downside": 6.938893903907228e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 1.1102230246251565e-16
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "symbol": "002539.SZ",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 1.1102230246251565e-16,
+        "downside": 1.734723475976807e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 4.440892098500626e-16
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "symbol": "002772.SZ",
+      "errors": {
+        "amount20": 2.9802322387695312e-08,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 1.1102230246251565e-16,
+        "downside": 0.0,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "symbol": "002998.SZ",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 2.220446049250313e-16,
+        "downside": 0.0,
+        "float_cap_proxy": 0.0,
+        "turn20": 8.881784197001252e-16
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "symbol": "600020.SH",
+      "errors": {
+        "amount20": 1.4901161193847656e-08,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 1.1102230246251565e-16,
+        "downside": 0.0,
+        "float_cap_proxy": 0.0,
+        "turn20": 1.1102230246251565e-16
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "symbol": "600228.SH",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 0.0,
+        "downside": 8.673617379884035e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "symbol": "600461.SH",
+      "errors": {
+        "amount20": 1.4901161193847656e-08,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 2.220446049250313e-16,
+        "dividend": 2.220446049250313e-16,
+        "downside": 6.071532165918825e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "symbol": "600516.SH",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 1.1102230246251565e-16,
+        "downside": 5.204170427930421e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 2.220446049250313e-16
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "symbol": "600755.SH",
+      "errors": {
+        "amount20": 1.4901161193847656e-08,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 2.220446049250313e-16,
+        "dividend": 1.1102230246251565e-16,
+        "downside": 6.071532165918825e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "symbol": "600770.SH",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 0.0,
+        "downside": 3.469446951953614e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "symbol": "601118.SH",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 0.0,
+        "downside": 3.469446951953614e-18,
+        "float_cap_proxy": 3.814697265625e-06,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "symbol": "601900.SH",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 1.1102230246251565e-16,
+        "downside": 1.1275702593849246e-17,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "symbol": "603004.SH",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 1.1102230246251565e-16,
+        "downside": 0.0,
+        "float_cap_proxy": 2.384185791015625e-07,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "symbol": "603128.SH",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 1.1102230246251565e-16,
+        "downside": 0.0,
+        "float_cap_proxy": 0.0,
+        "turn20": 1.1102230246251565e-16
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "symbol": "603305.SH",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 2.220446049250313e-16,
+        "dividend": 1.1102230246251565e-16,
+        "downside": 3.469446951953614e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "symbol": "603733.SH",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 3.3306690738754696e-16,
+        "dividend": 1.1102230246251565e-16,
+        "downside": 3.469446951953614e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 0.0
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "symbol": "605577.SH",
+      "errors": {
+        "amount20": 0.0,
+        "near_high": 0.0,
+        "below_high": 0.0,
+        "below_ma60": 0.0,
+        "dividend": 1.1102230246251565e-16,
+        "downside": 3.469446951953614e-18,
+        "float_cap_proxy": 0.0,
+        "turn20": 2.220446049250313e-16
+      }
+    }
+  ],
+  "note": "Identical local inputs only; does not prove platform input-data equality."
+}

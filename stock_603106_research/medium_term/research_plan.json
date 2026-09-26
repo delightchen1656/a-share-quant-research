@@ -1,0 +1,45 @@
+{
+  "initial_cash": 100000,
+  "data_start": "2020-01-01",
+  "initial_training_end": "2022-12-31",
+  "validation_start": "2023-01-01",
+  "validation_end": "2024-12-31",
+  "final_start": "2025-01-01",
+  "retrain": "quarterly expanding, labels fully observed before prediction quarter",
+  "min_hold": "one calendar month from actual execution date",
+  "families": [
+    "logistic",
+    "hist_gradient_boosting"
+  ],
+  "horizons": [
+    21,
+    42,
+    63
+  ],
+  "positive_label_return": 0.05,
+  "entry_thresholds": [
+    0.45,
+    0.55,
+    0.65
+  ],
+  "exit_thresholds": [
+    0.3,
+    0.4
+  ],
+  "trend_filter": [
+    false,
+    true
+  ],
+  "candidate_count": 72,
+  "max_validation_drawdown": 0.45,
+  "minimum_validation_closed_positions": 2,
+  "selection": "highest validation net total return among eligible candidates; drawdown breaks ties",
+  "prior_test_exposure": "2025+ prices and short-horizon results seen in earlier research; not pristine holdout",
+  "base_costs": {
+    "commission": 0.0003,
+    "minimum_commission": 5,
+    "slippage": 0.001,
+    "dividend_tax_assumption": 0.2,
+    "prior_day_volume_participation": 0.01
+  }
+}

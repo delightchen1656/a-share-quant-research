@@ -1,0 +1,178 @@
+{
+  "BASE": {
+    "bridge": {
+      "count": 8,
+      "median": 0.175738483134531,
+      "p10": 0.09520922623147354,
+      "worst": 0.0572542997137615,
+      "drawdown": -0.17006324257826078,
+      "sharpe": 0.9692323879465274,
+      "fees": 2299.48,
+      "mean_exposure": 0.7808450560328757,
+      "worst_mean_exposure": 0.7677683143449874,
+      "worst_low_fraction": 0.0,
+      "max_flat_streak": 0,
+      "flat_days_total": 0
+    },
+    "audit": {
+      "count": 24,
+      "median": 0.185414542378876,
+      "p10": 0.14304242481490828,
+      "worst": 0.11710619615290652,
+      "drawdown": -0.14148285275014905,
+      "sharpe": 0.9656236974597103,
+      "fees": 2519.535,
+      "mean_exposure": 0.7616808781187064,
+      "worst_mean_exposure": 0.7582428558036518,
+      "worst_low_fraction": 0.0,
+      "max_flat_streak": 0,
+      "flat_days_total": 0
+    },
+    "stress": {
+      "count": 24,
+      "median": 0.1524655550104873,
+      "p10": 0.11125697902628821,
+      "worst": 0.07679912604309824,
+      "drawdown": -0.1542978947237148,
+      "sharpe": 0.7678168541042703,
+      "fees": 3511.2650000000003,
+      "mean_exposure": 0.7614648333502182,
+      "worst_mean_exposure": 0.758552373996198,
+      "worst_low_fraction": 0.0,
+      "max_flat_streak": 0,
+      "flat_days_total": 0
+    }
+  },
+  "C90": {
+    "bridge": {
+      "count": 8,
+      "median": 0.19621653933609173,
+      "p10": 0.10664553095410106,
+      "worst": 0.06515413021543304,
+      "drawdown": -0.1924589607074234,
+      "sharpe": 0.9913918517443885,
+      "fees": 2576.815,
+      "mean_exposure": 0.8785370375992348,
+      "worst_mean_exposure": 0.8649449250797571,
+      "worst_low_fraction": 0.0,
+      "max_flat_streak": 0,
+      "flat_days_total": 0
+    },
+    "audit": {
+      "count": 24,
+      "median": 0.21310552138483219,
+      "p10": 0.1550600944899787,
+      "worst": 0.13448959920291226,
+      "drawdown": -0.1546684774097079,
+      "sharpe": 0.984113842241408,
+      "fees": 2808.28,
+      "mean_exposure": 0.8590992228925999,
+      "worst_mean_exposure": 0.8546918121646767,
+      "worst_low_fraction": 0.0,
+      "max_flat_streak": 0,
+      "flat_days_total": 0
+    },
+    "stress": {
+      "count": 24,
+      "median": 0.17489875466817784,
+      "p10": 0.12080260978646236,
+      "worst": 0.0938050090992828,
+      "drawdown": -0.17051371390061232,
+      "sharpe": 0.7892743839121474,
+      "fees": 3839.8899999999994,
+      "mean_exposure": 0.8604970553251365,
+      "worst_mean_exposure": 0.8552475930220614,
+      "worst_low_fraction": 0.0,
+      "max_flat_streak": 0,
+      "flat_days_total": 0
+    }
+  },
+  "I24": {
+    "bridge": {
+      "count": 8,
+      "median": 0.2063934917323066,
+      "p10": 0.13810674050707303,
+      "worst": 0.07392776024348624,
+      "drawdown": -0.17157598703236876,
+      "sharpe": 1.0669266046499781,
+      "fees": 3302.615,
+      "mean_exposure": 0.8717183308429977,
+      "worst_mean_exposure": 0.8547934802198993,
+      "worst_low_fraction": 0.0,
+      "max_flat_streak": 0,
+      "flat_days_total": 0
+    },
+    "audit": {
+      "count": 24,
+      "median": 0.2117302594345596,
+      "p10": 0.16929410137705697,
+      "worst": 0.1609395189923426,
+      "drawdown": -0.18036953050889615,
+      "sharpe": 0.9764404443526734,
+      "fees": 3303.6299999999997,
+      "mean_exposure": 0.8507764485491435,
+      "worst_mean_exposure": 0.8435985475310279,
+      "worst_low_fraction": 0.0,
+      "max_flat_streak": 0,
+      "flat_days_total": 0
+    },
+    "stress": {
+      "count": 24,
+      "median": 0.1709912035558111,
+      "p10": 0.1217998401619107,
+      "worst": 0.10810732941098622,
+      "drawdown": -0.1950360305790224,
+      "sharpe": 0.764668662221162,
+      "fees": 4480.025,
+      "mean_exposure": 0.8528674088853335,
+      "worst_mean_exposure": 0.8468701127471882,
+      "worst_low_fraction": 0.0,
+      "max_flat_streak": 0,
+      "flat_days_total": 0
+    }
+  },
+  "I23": {
+    "bridge": {
+      "count": 8,
+      "median": 0.2040593508678159,
+      "p10": 0.1326163416286559,
+      "worst": 0.07129496559514914,
+      "drawdown": -0.17500208190146338,
+      "sharpe": 1.0435081882245316,
+      "fees": 3200.06,
+      "mean_exposure": 0.8656069834375464,
+      "worst_mean_exposure": 0.849372720858686,
+      "worst_low_fraction": 0.0,
+      "max_flat_streak": 0,
+      "flat_days_total": 0
+    },
+    "audit": {
+      "count": 24,
+      "median": 0.21299688615896528,
+      "p10": 0.17066639711790113,
+      "worst": 0.16296960201996802,
+      "drawdown": -0.18485080946171262,
+      "sharpe": 0.9867548483807789,
+      "fees": 3264.41,
+      "mean_exposure": 0.8478982119610051,
+      "worst_mean_exposure": 0.8400921092722281,
+      "worst_low_fraction": 0.0,
+      "max_flat_streak": 0,
+      "flat_days_total": 0
+    },
+    "stress": {
+      "count": 24,
+      "median": 0.16748554492150658,
+      "p10": 0.1225244179891076,
+      "worst": 0.11142875021816168,
+      "drawdown": -0.201641138614974,
+      "sharpe": 0.7495937826556871,
+      "fees": 4372.639999999999,
+      "mean_exposure": 0.8491189036636356,
+      "worst_mean_exposure": 0.8427685942806741,
+      "worst_low_fraction": 0.0,
+      "max_flat_streak": 0,
+      "flat_days_total": 0
+    }
+  }
+}

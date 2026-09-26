@@ -1,15 +1,14 @@
 # 沪深主板量化研究工程
 
-本目录是沪市、深市普通主板研究的唯一入口，与科创板研究线隔离。当前同时维护一个已冻结基准和一条尚未晋升的收益优先研究线。
+本目录是沪市、深市普通主板研究的唯一入口，与科创板研究线隔离。2026-09-26 起，R08 高仓精选被指定为当前“沪深基准1”，其余沪深策略统一作为历史研究保存。
 
 ## 目录
 
 ```text
 sh_sz_market_research/
-├── baselines/mainboard_baseline_1/ # 正式沪深基准及平台校准记录
 ├── data_pipeline/                  # 下载、质量检查、股票池、标签和模型管线
 ├── studies/                        # 研究源码、报告与小型汇总
-├── platform/supermind/             # SuperMind适配与测试代码
+├── platform/supermind/             # 当前R08正式入口、测试与旧平台代码
 └── references/README.md            # 外部参考链接，不复制第三方仓库
 ```
 
@@ -23,8 +22,11 @@ sh_sz_market_research/
 
 ## 当前状态
 
-- **正式基准：**`baselines/mainboard_baseline_1/`，状态切换红利反转；正式指标、平台校准和风险限制以该目录 README 为准。
-- **当前研究：**`studies/return_first_research/`，已完成数据审计、简单基线、滚动模型、反转、风险门控和公开策略复现；当前最佳 Sharpe 仍未达到预设目标，因此未晋升正式基准。
+- **正式平台基准：**`platform/supermind/supermind_mainboard_baseline_1.py`，R08 高仓精选；分钟频率、10万元、最多12只、目标仓位95%。本地冻结参考为年化18.82%、Sharpe 0.908、最大回撤21.85%。
+- **研究结论：**R08 未达到原定 Sharpe 大于1及完整跨起点稳健性门槛；晋升是版本管理决策，不改写研究失败记录。完整过程归档在 `../archive/optimization_studies/hs_fresh_R08_20260925/`。
+- **历史版本：**原四份沪深 SuperMind 文件位于 `platform/supermind/legacy/`；原沪深基准2研究位于 `../archive/legacy_mainboard_research/`。
+- **旧基准研究：**原状态切换红利反转基准及平台校准记录已整体迁入 `../archive/legacy_mainboard_research/mainboard_baseline_1_pre_R08_20260926/`。
+- **既有研究：**`studies/return_first_research/` 保留早期收益优先研究的源码与结论，不再作为正式基准入口。
 - **已停止任务：**旧 100 路线任务只完成 60 条，停止结论已归档到 `../archive/optimization_studies/sharpe_100_routes_stopped_20260914/`，执行残留已删除。
 
 ## 常用入口

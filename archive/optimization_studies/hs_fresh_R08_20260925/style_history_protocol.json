@@ -1,0 +1,24 @@
+{
+  "styles": {
+    "defensive_small": [
+      "defensive@5",
+      "small"
+    ],
+    "carry_mid": [
+      "carry_long@50",
+      "mid"
+    ],
+    "barbell_mid": [
+      "barbell@50",
+      "mid"
+    ],
+    "liquidity_small": [
+      "liquidity@5",
+      "small"
+    ]
+  },
+  "constituents": 12,
+  "construction": "Monthly close reconstitution using prior-day features;existing constituents earn current-day return BEFORE replacement;weights drift between months;no future filling;delisting terminal loss100%",
+  "usage": "Price baskets only,not executable account performance;no fees/lots. Opening account decisions MUST use prior-day index and real execution ledger.",
+  "implementation_sha256": "cd61c78f40e496255f6ed428958ae50019a6f09184bc50faf5e476a8f205968c"
+}

@@ -1,0 +1,307 @@
+{
+  "configs": [
+    {
+      "id": "BASE",
+      "name": "原月初A",
+      "strict": false,
+      "power": 0.5,
+      "buffer": 24,
+      "strong": 0.8,
+      "weak": 0.8
+    },
+    {
+      "id": "G01",
+      "strict": true,
+      "power": 0.0,
+      "buffer": 16,
+      "strong": 0.8,
+      "weak": 0.5
+    },
+    {
+      "id": "G02",
+      "strict": true,
+      "power": 0.0,
+      "buffer": 24,
+      "strong": 0.8,
+      "weak": 0.5
+    },
+    {
+      "id": "G03",
+      "strict": true,
+      "power": 0.25,
+      "buffer": 16,
+      "strong": 0.8,
+      "weak": 0.5
+    },
+    {
+      "id": "G04",
+      "strict": true,
+      "power": 0.25,
+      "buffer": 24,
+      "strong": 0.8,
+      "weak": 0.5
+    },
+    {
+      "id": "G05",
+      "strict": true,
+      "power": 0.0,
+      "buffer": 16,
+      "strong": 0.8,
+      "weak": 0.65
+    },
+    {
+      "id": "G06",
+      "strict": true,
+      "power": 0.0,
+      "buffer": 24,
+      "strong": 0.8,
+      "weak": 0.65
+    },
+    {
+      "id": "G07",
+      "strict": true,
+      "power": 0.25,
+      "buffer": 16,
+      "strong": 0.8,
+      "weak": 0.65
+    },
+    {
+      "id": "G08",
+      "strict": true,
+      "power": 0.25,
+      "buffer": 24,
+      "strong": 0.8,
+      "weak": 0.65
+    },
+    {
+      "id": "G09",
+      "strict": true,
+      "power": 0.0,
+      "buffer": 16,
+      "strong": 0.8,
+      "weak": 0.8
+    },
+    {
+      "id": "G10",
+      "strict": true,
+      "power": 0.0,
+      "buffer": 24,
+      "strong": 0.8,
+      "weak": 0.8
+    },
+    {
+      "id": "G11",
+      "strict": true,
+      "power": 0.25,
+      "buffer": 16,
+      "strong": 0.8,
+      "weak": 0.8
+    },
+    {
+      "id": "G12",
+      "strict": true,
+      "power": 0.25,
+      "buffer": 24,
+      "strong": 0.8,
+      "weak": 0.8
+    },
+    {
+      "id": "G13",
+      "strict": true,
+      "power": 0.0,
+      "buffer": 16,
+      "strong": 0.9,
+      "weak": 0.5
+    },
+    {
+      "id": "G14",
+      "strict": true,
+      "power": 0.0,
+      "buffer": 24,
+      "strong": 0.9,
+      "weak": 0.5
+    },
+    {
+      "id": "G15",
+      "strict": true,
+      "power": 0.25,
+      "buffer": 16,
+      "strong": 0.9,
+      "weak": 0.5
+    },
+    {
+      "id": "G16",
+      "strict": true,
+      "power": 0.25,
+      "buffer": 24,
+      "strong": 0.9,
+      "weak": 0.5
+    },
+    {
+      "id": "G17",
+      "strict": true,
+      "power": 0.0,
+      "buffer": 16,
+      "strong": 0.9,
+      "weak": 0.65
+    },
+    {
+      "id": "G18",
+      "strict": true,
+      "power": 0.0,
+      "buffer": 24,
+      "strong": 0.9,
+      "weak": 0.65
+    },
+    {
+      "id": "G19",
+      "strict": true,
+      "power": 0.25,
+      "buffer": 16,
+      "strong": 0.9,
+      "weak": 0.65
+    },
+    {
+      "id": "G20",
+      "strict": true,
+      "power": 0.25,
+      "buffer": 24,
+      "strong": 0.9,
+      "weak": 0.65
+    },
+    {
+      "id": "G21",
+      "strict": true,
+      "power": 0.0,
+      "buffer": 16,
+      "strong": 0.9,
+      "weak": 0.8
+    },
+    {
+      "id": "G22",
+      "strict": true,
+      "power": 0.0,
+      "buffer": 24,
+      "strong": 0.9,
+      "weak": 0.8
+    },
+    {
+      "id": "G23",
+      "strict": true,
+      "power": 0.25,
+      "buffer": 16,
+      "strong": 0.9,
+      "weak": 0.8
+    },
+    {
+      "id": "G24",
+      "strict": true,
+      "power": 0.25,
+      "buffer": 24,
+      "strong": 0.9,
+      "weak": 0.8
+    },
+    {
+      "id": "G25",
+      "strict": true,
+      "power": 0.0,
+      "buffer": 16,
+      "strong": 1.0,
+      "weak": 0.5
+    },
+    {
+      "id": "G26",
+      "strict": true,
+      "power": 0.0,
+      "buffer": 24,
+      "strong": 1.0,
+      "weak": 0.5
+    },
+    {
+      "id": "G27",
+      "strict": true,
+      "power": 0.25,
+      "buffer": 16,
+      "strong": 1.0,
+      "weak": 0.5
+    },
+    {
+      "id": "G28",
+      "strict": true,
+      "power": 0.25,
+      "buffer": 24,
+      "strong": 1.0,
+      "weak": 0.5
+    },
+    {
+      "id": "G29",
+      "strict": true,
+      "power": 0.0,
+      "buffer": 16,
+      "strong": 1.0,
+      "weak": 0.65
+    },
+    {
+      "id": "G30",
+      "strict": true,
+      "power": 0.0,
+      "buffer": 24,
+      "strong": 1.0,
+      "weak": 0.65
+    },
+    {
+      "id": "G31",
+      "strict": true,
+      "power": 0.25,
+      "buffer": 16,
+      "strong": 1.0,
+      "weak": 0.65
+    },
+    {
+      "id": "G32",
+      "strict": true,
+      "power": 0.25,
+      "buffer": 24,
+      "strong": 1.0,
+      "weak": 0.65
+    },
+    {
+      "id": "G33",
+      "strict": true,
+      "power": 0.0,
+      "buffer": 16,
+      "strong": 1.0,
+      "weak": 0.8
+    },
+    {
+      "id": "G34",
+      "strict": true,
+      "power": 0.0,
+      "buffer": 24,
+      "strong": 1.0,
+      "weak": 0.8
+    },
+    {
+      "id": "G35",
+      "strict": true,
+      "power": 0.25,
+      "buffer": 16,
+      "strong": 1.0,
+      "weak": 0.8
+    },
+    {
+      "id": "G36",
+      "strict": true,
+      "power": 0.25,
+      "buffer": 24,
+      "strong": 1.0,
+      "weak": 0.8
+    }
+  ],
+  "rf": 0.02,
+  "metrics": "SuperMind documented250-day geometric annualization;population volatility;Sharpe=(annual-.02)/vol. RF is approximate, not claimed vendor-exact.",
+  "windows": "24 development starts2020/21;8 bridge quarter starts2022/23;24 audit starts2024;each24months; overlapping previously-seen history.",
+  "selection": "Dev only. Annual median gain>=.5pp;Sharpe>=base-.02;P10>=base-1pp;worstDD>=base-2pp. Freeze highest annual candidate and highest Sharpe distinct candidate.",
+  "validation": "Audit annual>=base+.2pp,Sharpe>=base-.02,P10>=base-1pp,DD>=base-2pp;bridge annual>=base-1pp,Sharpe>=base-.05;double-cost audit annual>=base,Sharpe>=base-.02,P10>=base-1pp,DD>=base-2pp. Opposite-power dev neighbor annual>=base-1pp,Sharpe>=base-.05,DD>=base-2.5pp.",
+  "limits": "10w,monthly,6targets,no leverage,fees/lot/cash checks inherited;daily price/volume proxy,pre2018 gaps,approx action dates;platform parity remains unproven. Original strategy untouched."
+}

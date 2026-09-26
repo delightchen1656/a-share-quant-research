@@ -1,0 +1,29 @@
+{
+  "configs": [
+    "control",
+    "equal_weight",
+    "risk_power_half",
+    "risk_power_1_5",
+    "wide_cap_band",
+    "smooth_regime"
+  ],
+  "labels": [
+    "原规则",
+    "等权持仓",
+    "弱化风险权重",
+    "强化风险权重",
+    "扩大防守市值区间",
+    "平滑强弱切换"
+  ],
+  "capital": 100000,
+  "schedule": "Every 3 months from entry MONTH; month first sessions only, NOT exact day anchors.",
+  "dev": "24 independent monthly starts 2020-2021, 24 months each, observations before 2024.",
+  "audit": "8 monthly starts Jan-Aug 2024, 24 months each; already observed history.",
+  "selection": "Improve minimum of the 3 phase P10 annual returns; no phase P10 below its control; overall median >= control-1pp and worst drawdown >= control-2pp. Freeze winner before audit, otherwise control.",
+  "final_gate": "Same audit criteria plus both dev and audit minimum phase P10 improvement at doubled commission/minimum commission/slippage; no reselection.",
+  "warnings": [
+    "Repeated historical research and overlapping windows; not pristine OOS.",
+    "Daily-open proxy, approximate corporate actions and fixed universe; platform parity unresolved.",
+    "No new candidate automatically replaces formal baseline."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-09-17T23:58:25.883983",
+  "champion": {
+    "family": "hgb3",
+    "horizon": 5,
+    "label_threshold": 0,
+    "window": 504,
+    "entry": 0.45,
+    "exit": 0.4,
+    "gate": false,
+    "policy": "min21",
+    "min_days": 21,
+    "max_days": 0,
+    "stop": 0,
+    "trail": 0,
+    "id": 3147
+  },
+  "balanced": {
+    "family": "hgb3",
+    "horizon": 5,
+    "label_threshold": 0,
+    "window": 504,
+    "entry": 0.45,
+    "exit": 0.4,
+    "gate": false,
+    "policy": "min21",
+    "min_days": 21,
+    "max_days": 0,
+    "stop": 0,
+    "trail": 0,
+    "id": 3147
+  },
+  "top10": [
+    3147,
+    1873,
+    1083,
+    3145,
+    3426,
+    2795,
+    3424,
+    1816,
+    2792,
+    1610
+  ],
+  "candidates": 5340,
+  "selection_last_date": "2024-12-31",
+  "code_sha256": "b8536eb15163c4391c5ca8792b2d0d824aa493b86f7a72617de5f56377493871",
+  "manifest_sha256": "a09b94a0eab4da79e9181a96a12abebcf3703b006a840769457c9afd6b4352c9"
+}

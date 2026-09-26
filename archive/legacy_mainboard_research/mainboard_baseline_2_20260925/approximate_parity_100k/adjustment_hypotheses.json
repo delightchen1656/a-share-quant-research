@@ -1,0 +1,47 @@
+{
+  "reconstructed_adjustment": {
+    "eligible": 1341,
+    "top8": [
+      "600395.SH",
+      "603600.SH",
+      "600377.SH",
+      "603587.SH",
+      "600337.SH",
+      "601222.SH",
+      "002004.SZ",
+      "603167.SH"
+    ],
+    "overlap": 5,
+    "status": "diagnostic_hypothesis_not_validated_platform_data"
+  },
+  "point_in_time_cents": {
+    "eligible": 1341,
+    "top8": [
+      "603600.SH",
+      "603608.SH",
+      "601222.SH",
+      "600395.SH",
+      "600377.SH",
+      "002807.SZ",
+      "603167.SH",
+      "600337.SH"
+    ],
+    "overlap": 6,
+    "status": "diagnostic_hypothesis_not_validated_platform_data"
+  },
+  "prior_session": {
+    "eligible": 1307,
+    "top8": [
+      "600395.SH",
+      "002756.SZ",
+      "600337.SH",
+      "603587.SH",
+      "600377.SH",
+      "002004.SZ",
+      "002154.SZ",
+      "600348.SH"
+    ],
+    "overlap": 2,
+    "status": "diagnostic_hypothesis_not_validated_platform_data"
+  }
+}

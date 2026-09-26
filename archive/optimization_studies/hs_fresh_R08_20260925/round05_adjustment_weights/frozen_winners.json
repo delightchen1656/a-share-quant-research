@@ -1,0 +1,38 @@
+[
+  {
+    "id": "E34",
+    "family": "carry_trend",
+    "size": "mid",
+    "cadence": "bimonthly",
+    "interval": 40,
+    "count": 12,
+    "buffer": 24,
+    "exposure": 0.85,
+    "power": 0.0,
+    "minimum": 1500
+  },
+  {
+    "id": "E35",
+    "family": "carry_trend",
+    "size": "mid",
+    "cadence": "bimonthly",
+    "interval": 40,
+    "count": 12,
+    "buffer": 24,
+    "exposure": 0.85,
+    "power": 0.5,
+    "minimum": 1500
+  },
+  {
+    "id": "E17",
+    "family": "carry_trend",
+    "size": "mid",
+    "cadence": "monthly",
+    "interval": 20,
+    "count": 12,
+    "buffer": 24,
+    "exposure": 0.85,
+    "power": 0.5,
+    "minimum": 1500
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "name": "n10_m3_min3000",
+  "count": 10,
+  "buffer": 30,
+  "months": 3,
+  "min_adjustment": 3000,
+  "initial_cash": 100000,
+  "exposure": 0.8,
+  "selection": "2020-2023 net CAGR + .05 Sharpe - .5 abs(MDD); MDD <=35%; historical exploration"
+}

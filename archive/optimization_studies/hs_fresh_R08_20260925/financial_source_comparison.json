@@ -1,0 +1,263 @@
+{
+  "matched_report_pairs": 882,
+  "counts": {
+    "REPORTDATE": {
+      "compared": 882,
+      "equal": 882,
+      "missing_one_side": 0
+    },
+    "NOTICE_DATE": {
+      "compared": 882,
+      "equal": 882,
+      "missing_one_side": 0
+    },
+    "UPDATE_DATE": {
+      "compared": 882,
+      "equal": 882,
+      "missing_one_side": 0
+    },
+    "WEIGHTAVG_ROE": {
+      "compared": 879,
+      "equal": 879,
+      "missing_one_side": 0
+    },
+    "PARENT_NETPROFIT": {
+      "compared": 882,
+      "equal": 882,
+      "missing_one_side": 0
+    },
+    "TOTAL_OPERATE_INCOME": {
+      "compared": 882,
+      "equal": 882,
+      "missing_one_side": 0
+    },
+    "MGJYXJJE": {
+      "compared": 882,
+      "equal": 882,
+      "missing_one_side": 0
+    },
+    "BASIC_EPS": {
+      "compared": 882,
+      "equal": 882,
+      "missing_one_side": 0
+    },
+    "SJLTZ": {
+      "compared": 882,
+      "equal": 242,
+      "missing_one_side": 0
+    }
+  },
+  "first_differences": [
+    {
+      "symbol": "000002.SZ",
+      "period": "2024-12-31 00:00:00",
+      "field": "SJLTZ",
+      "batch": -506.81,
+      "F10": -506.805173195476
+    },
+    {
+      "symbol": "000002.SZ",
+      "period": "2023-12-31 00:00:00",
+      "field": "SJLTZ",
+      "batch": -46.39,
+      "F10": -46.392857176344
+    },
+    {
+      "symbol": "000002.SZ",
+      "period": "2022-12-31 00:00:00",
+      "field": "SJLTZ",
+      "batch": 0.42,
+      "F10": 0.730412779545
+    },
+    {
+      "symbol": "000002.SZ",
+      "period": "2021-12-31 00:00:00",
+      "field": "SJLTZ",
+      "batch": -45.75,
+      "F10": -45.745543229501
+    },
+    {
+      "symbol": "000002.SZ",
+      "period": "2020-12-31 00:00:00",
+      "field": "SJLTZ",
+      "batch": 6.8,
+      "F10": 6.800401707428
+    },
+    {
+      "symbol": "000036.SZ",
+      "period": "2025-12-31 00:00:00",
+      "field": "SJLTZ",
+      "batch": 73.15,
+      "F10": 73.147296285495
+    },
+    {
+      "symbol": "000036.SZ",
+      "period": "2024-12-31 00:00:00",
+      "field": "SJLTZ",
+      "batch": -50.37,
+      "F10": -50.369819339078
+    },
+    {
+      "symbol": "000036.SZ",
+      "period": "2023-12-31 00:00:00",
+      "field": "SJLTZ",
+      "batch": -81.27,
+      "F10": -81.267180032512
+    },
+    {
+      "symbol": "000036.SZ",
+      "period": "2022-12-31 00:00:00",
+      "field": "SJLTZ",
+      "batch": 7.24,
+      "F10": 7.243589993415
+    },
+    {
+      "symbol": "000036.SZ",
+      "period": "2021-12-31 00:00:00",
+      "field": "SJLTZ",
+      "batch": -26.28,
+      "F10": -26.281931902328
+    },
+    {
+      "symbol": "000036.SZ",
+      "period": "2020-12-31 00:00:00",
+      "field": "SJLTZ",
+      "batch": -32.58,
+      "F10": -32.584132403735
+    },
+    {
+      "symbol": "000036.SZ",
+      "period": "2019-12-31 00:00:00",
+      "field": "SJLTZ",
+      "batch": -15.6,
+      "F10": -15.596030231933
+    },
+    {
+      "symbol": "000157.SZ",
+      "period": "2025-12-31 00:00:00",
+      "field": "SJLTZ",
+      "batch": 38.01,
+      "F10": 38.010397356638
+    },
+    {
+      "symbol": "000157.SZ",
+      "period": "2024-12-31 00:00:00",
+      "field": "SJLTZ",
+      "batch": 0.41,
+      "F10": 0.40975162513
+    },
+    {
+      "symbol": "000157.SZ",
+      "period": "2023-12-31 00:00:00",
+      "field": "SJLTZ",
+      "batch": 52.04,
+      "F10": 52.035554213641
+    },
+    {
+      "symbol": "000157.SZ",
+      "period": "2022-12-31 00:00:00",
+      "field": "SJLTZ",
+      "batch": -63.22,
+      "F10": -63.219578214576
+    },
+    {
+      "symbol": "000157.SZ",
+      "period": "2021-12-31 00:00:00",
+      "field": "SJLTZ",
+      "batch": -13.88,
+      "F10": -13.88475790694
+    },
+    {
+      "symbol": "000157.SZ",
+      "period": "2020-12-31 00:00:00",
+      "field": "SJLTZ",
+      "batch": 66.55,
+      "F10": 66.550248754747
+    },
+    {
+      "symbol": "000157.SZ",
+      "period": "2019-12-31 00:00:00",
+      "field": "SJLTZ",
+      "batch": 116.42,
+      "F10": 116.424062047501
+    },
+    {
+      "symbol": "000333.SZ",
+      "period": "2025-12-31 00:00:00",
+      "field": "SJLTZ",
+      "batch": 14.03,
+      "F10": 14.033631938896
+    },
+    {
+      "symbol": "000333.SZ",
+      "period": "2024-12-31 00:00:00",
+      "field": "SJLTZ",
+      "batch": 14.29,
+      "F10": 14.286213778289
+    },
+    {
+      "symbol": "000333.SZ",
+      "period": "2023-12-31 00:00:00",
+      "field": "SJLTZ",
+      "batch": 14.1,
+      "F10": 14.097913997144
+    },
+    {
+      "symbol": "000333.SZ",
+      "period": "2022-12-31 00:00:00",
+      "field": "SJLTZ",
+      "batch": 3.43,
+      "F10": 3.429232877144
+    },
+    {
+      "symbol": "000333.SZ",
+      "period": "2021-12-31 00:00:00",
+      "field": "SJLTZ",
+      "batch": 4.96,
+      "F10": 4.961549197665
+    },
+    {
+      "symbol": "000333.SZ",
+      "period": "2020-12-31 00:00:00",
+      "field": "SJLTZ",
+      "batch": 12.44,
+      "F10": 12.439467119834
+    },
+    {
+      "symbol": "000333.SZ",
+      "period": "2019-12-31 00:00:00",
+      "field": "SJLTZ",
+      "batch": 19.68,
+      "F10": 19.675184035177
+    },
+    {
+      "symbol": "000338.SZ",
+      "period": "2025-12-31 00:00:00",
+      "field": "SJLTZ",
+      "batch": -4.15,
+      "F10": -4.146036588294
+    },
+    {
+      "symbol": "000338.SZ",
+      "period": "2024-12-31 00:00:00",
+      "field": "SJLTZ",
+      "batch": 26.51,
+      "F10": 26.507910498922
+    },
+    {
+      "symbol": "000338.SZ",
+      "period": "2023-12-31 00:00:00",
+      "field": "SJLTZ",
+      "batch": 83.77,
+      "F10": 83.769012371728
+    },
+    {
+      "symbol": "000338.SZ",
+      "period": "2022-12-31 00:00:00",
+      "field": "SJLTZ",
+      "batch": -48.33,
+      "F10": -48.32806209463
+    }
+  ],
+  "warning": "Cross-source agreement is not original-vintage public-availability proof"
+}

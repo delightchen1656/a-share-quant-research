@@ -1,5 +1,15 @@
 # 目录与名称同步记录
 
+## 2026-09-26：R08 晋升与阶段工程归档
+
+- 将 `supermind_R08_high_exposure.py` 晋升并规范命名为 `sh_sz_market_research/platform/supermind/supermind_mainboard_baseline_1.py`，正式名称为“沪深基准1：R08 高仓精选”。
+- 原四份沪深平台代码移入 `platform/supermind/legacy/`，统一标记为只读历史文件。
+- 原 `baselines/mainboard_baseline_1/` 整体迁入 `archive/legacy_mainboard_research/mainboard_baseline_1_pre_R08_20260926/`，避免与新沪深基准1形成双入口。
+- R08 的 22 轮研究过程归档到 `archive/optimization_studies/hs_fresh_R08_20260925/`；原沪深基准2研究归档到 `archive/legacy_mainboard_research/`。
+- 物理删除约 6.7 GB 的阶段性特征表、模型、排名缓存、逐日曲线、交易流水、动作账本、公共数据副本、Python 缓存、重复压缩包及可重新获取的第三方 API 整站镜像；保留源码、协议、筛选报告、参数、指标汇总和必要的平台原始证据。
+- 根目录重复的 `dailyposition.csv`、`detal.csv`、`outlog.txt` 已删除，其完全相同副本保留在原沪深基准2平台对齐归档中。
+- 重写项目结构、沪深入口、SuperMind说明和元数据，补充单标的研究与 PTrade 归档的一级目录职责。
+
 ## 2026-09-15：工程清理与归档收口
 
 - 重写根 README、工程结构、归档说明、沪深研究说明和数据管线说明，统一入口与维护边界。

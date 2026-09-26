@@ -1,0 +1,29 @@
+{
+  "U03": {
+    "orders": 454,
+    "max_volume_fraction": 0.004756677643615075,
+    "p99_volume_fraction": 0.003248010107192626,
+    "max_amount_fraction": 0.004740211456189916,
+    "p99_amount_fraction": 0.003242069221267496,
+    "min_market_amount": 2334668.0,
+    "warning": "Daily capacity proxy only; day totals become known after open, so this does not prove09:31minute fill feasibility. No current-day volume is used in stock-selection signals."
+  },
+  "U04": {
+    "orders": 631,
+    "max_volume_fraction": 0.0029271862422246614,
+    "p99_volume_fraction": 0.0018884126544187537,
+    "max_amount_fraction": 0.0029170528743273135,
+    "p99_amount_fraction": 0.0018797107827922001,
+    "min_market_amount": 2334668.0,
+    "warning": "Daily capacity proxy only; day totals become known after open, so this does not prove09:31minute fill feasibility. No current-day volume is used in stock-selection signals."
+  },
+  "U32": {
+    "orders": 564,
+    "max_volume_fraction": 0.0009311924026160776,
+    "p99_volume_fraction": 0.0005098727746415526,
+    "max_amount_fraction": 0.000924203432845837,
+    "p99_amount_fraction": 0.0005139539546930762,
+    "min_market_amount": 11146204.0,
+    "warning": "Daily capacity proxy only; day totals become known after open, so this does not prove09:31minute fill feasibility. No current-day volume is used in stock-selection signals."
+  }
+}

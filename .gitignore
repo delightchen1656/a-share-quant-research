@@ -41,6 +41,15 @@ node_modules/
 /sh_sz_market_research/studies/**/realistic_outputs/
 /sh_sz_market_research/studies/**/upstream/
 /sh_sz_market_research/studies/**/reports/**/*.parquet
+/sh_sz_market_research/studies/**/*.parquet
+/sh_sz_market_research/studies/**/rank_cache/
+/archive/optimization_studies/**/*.parquet
+/archive/optimization_studies/**/rank_cache/
+/archive/legacy_mainboard_research/**/*.parquet
+/stock_603106_research/data/
+/stock_603106_research/models/
+/stock_603106_research/outputs/
+/stock_603106_research/**/*.joblib
 *.log
 *.pid
 

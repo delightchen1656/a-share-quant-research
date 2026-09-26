@@ -1,0 +1,44 @@
+[
+  {
+    "id": "Y06",
+    "family": "carry_long",
+    "size": "mid",
+    "cadence": "bimonthly",
+    "interval": 40,
+    "count": 12,
+    "buffer": 24,
+    "exposure": 0.85,
+    "power": 0,
+    "minimum": 1500,
+    "affordable": true,
+    "risk_mode": "trend60"
+  },
+  {
+    "id": "Y04",
+    "family": "carry_long",
+    "size": "mid",
+    "cadence": "bimonthly",
+    "interval": 40,
+    "count": 12,
+    "buffer": 24,
+    "exposure": 0.85,
+    "power": 0,
+    "minimum": 1500,
+    "affordable": true,
+    "risk_mode": "fixed95"
+  },
+  {
+    "id": "Y02",
+    "family": "carry_long",
+    "size": "mid",
+    "cadence": "bimonthly",
+    "interval": 40,
+    "count": 12,
+    "buffer": 24,
+    "exposure": 0.85,
+    "power": 0,
+    "minimum": 1500,
+    "affordable": true,
+    "risk_mode": "fixed85"
+  }
+]

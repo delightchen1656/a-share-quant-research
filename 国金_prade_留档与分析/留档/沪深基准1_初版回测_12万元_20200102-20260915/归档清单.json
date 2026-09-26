@@ -1,0 +1,36 @@
+{
+  "archive_date": "2026-09-16",
+  "strategy": "沪深基准1_初版_SuperMind.py",
+  "initial_capital": 120000.0,
+  "backtest_period": {
+    "initial_nav_date": "2019-12-31",
+    "first_trade_date": "2020-01-02",
+    "end_date": "2026-09-15"
+  },
+  "files": [
+    {
+      "name": "dailyposition.csv",
+      "bytes": 1748983,
+      "sha256": "670fe280d4f4d054ae15dfc21637839c9beddbb963004446d6a27793a8f7a029",
+      "rows": 33759,
+      "columns": 8
+    },
+    {
+      "name": "detal.csv",
+      "bytes": 200387,
+      "sha256": "1e3892b6dabf954415823cde2350e633507d83935baa2b922ca73ff0e9c770c2",
+      "rows": 2497,
+      "columns": 10
+    },
+    {
+      "name": "outlog.txt",
+      "bytes": 176736,
+      "sha256": "d18264c61cc91de32996ed70076f2898ca4c2e9bc7dbe649dfbc8e71ef1a15af",
+      "lines": 2091
+    }
+  ],
+  "notes": [
+    "原文件由国金_prade_留档与分析根目录移入本目录。",
+    "dailyposition.csv含17个交易日的重复持仓行，分析时按日期和证券代码去重。"
+  ]
+}

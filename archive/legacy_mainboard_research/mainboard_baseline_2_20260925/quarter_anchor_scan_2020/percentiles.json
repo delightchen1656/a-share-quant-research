@@ -1,0 +1,111 @@
+{
+  "requested": [
+    {
+      "percentile": 0,
+      "requested_start": "2020-03-14",
+      "actual_start": "2020-03-16",
+      "final_equity": 145845.63130959994,
+      "annualized": 0.059883811374142004,
+      "drawdown": -0.20732301704960243,
+      "sharpe": 0.4650105110423484,
+      "total_return": 0.4584563130959993,
+      "orders": 346
+    },
+    {
+      "percentile": 25,
+      "requested_start": "2020-02-16",
+      "actual_start": "2020-02-17",
+      "final_equity": 178049.90043334002,
+      "annualized": 0.09184533090754843,
+      "drawdown": -0.21229542864358808,
+      "sharpe": 0.6502402350998635,
+      "total_return": 0.7804990043334001,
+      "orders": 349
+    },
+    {
+      "percentile": 50,
+      "requested_start": "2020-03-26",
+      "actual_start": "2020-03-26",
+      "final_equity": 205988.79685002,
+      "annualized": 0.1183368015450812,
+      "drawdown": -0.16782322073157274,
+      "sharpe": 0.8579202399873328,
+      "total_return": 1.0598879685002003,
+      "orders": 330
+    },
+    {
+      "percentile": 75,
+      "requested_start": "2020-03-28",
+      "actual_start": "2020-03-30",
+      "final_equity": 221584.38046745985,
+      "annualized": 0.13127667734405035,
+      "drawdown": -0.1997897340057876,
+      "sharpe": 0.907885981032539,
+      "total_return": 1.2158438046745985,
+      "orders": 337
+    },
+    {
+      "percentile": 100,
+      "requested_start": "2020-01-07",
+      "actual_start": "2020-01-07",
+      "final_equity": 545301.39276936,
+      "annualized": 0.2891821291507277,
+      "drawdown": -0.1341109669129843,
+      "sharpe": 1.642636086246438,
+      "total_return": 4.4530139276936,
+      "orders": 371
+    }
+  ],
+  "unique": [
+    {
+      "percentile": 0,
+      "actual_start": "2020-03-16",
+      "final_equity": 145845.63130959994,
+      "annualized": 0.059883811374142004,
+      "drawdown": -0.20732301704960243,
+      "sharpe": 0.4650105110423484,
+      "total_return": 0.4584563130959993,
+      "orders": 346
+    },
+    {
+      "percentile": 25,
+      "actual_start": "2020-02-17",
+      "final_equity": 178049.90043334002,
+      "annualized": 0.09184533090754843,
+      "drawdown": -0.21229542864358808,
+      "sharpe": 0.6502402350998635,
+      "total_return": 0.7804990043334001,
+      "orders": 349
+    },
+    {
+      "percentile": 50,
+      "actual_start": "2020-01-14",
+      "final_equity": 193908.38307801992,
+      "annualized": 0.10456862382894072,
+      "drawdown": -0.1806060831084103,
+      "sharpe": 0.7398464328867607,
+      "total_return": 0.9390838307801992,
+      "orders": 338
+    },
+    {
+      "percentile": 75,
+      "actual_start": "2020-01-22",
+      "final_equity": 224360.52652015985,
+      "annualized": 0.129486005704746,
+      "drawdown": -0.15732789113276469,
+      "sharpe": 0.8557215024502063,
+      "total_return": 1.2436052652015985,
+      "orders": 349
+    },
+    {
+      "percentile": 100,
+      "actual_start": "2020-01-07",
+      "final_equity": 545301.39276936,
+      "annualized": 0.2891821291507277,
+      "drawdown": -0.1341109669129843,
+      "sharpe": 1.642636086246438,
+      "total_return": 4.4530139276936,
+      "orders": 371
+    }
+  ]
+}

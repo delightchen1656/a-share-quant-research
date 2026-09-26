@@ -1,0 +1,20 @@
+[
+  {
+    "id": "W07",
+    "strict": true,
+    "exposure": 0.9,
+    "power": 0.5,
+    "kind": "riskparity",
+    "window": 120,
+    "shrink": 0.25
+  },
+  {
+    "id": "W05",
+    "strict": true,
+    "exposure": 0.9,
+    "power": 0.5,
+    "kind": "riskparity",
+    "window": 60,
+    "shrink": 0.25
+  }
+]

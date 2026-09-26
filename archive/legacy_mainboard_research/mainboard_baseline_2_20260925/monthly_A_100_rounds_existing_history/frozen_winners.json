@@ -1,0 +1,25 @@
+{
+  "base": {
+    "id": "R015",
+    "family": "monthly",
+    "count": 6,
+    "exposure": 0.8,
+    "power": 0.5,
+    "buffer": 24,
+    "minimum": 3000,
+    "threshold": 0.12
+  },
+  "winners": {
+    "monthly": null,
+    "weekly_guard": {
+      "id": "R069",
+      "family": "weekly_guard",
+      "count": 6,
+      "exposure": 0.9,
+      "power": 0.5,
+      "buffer": 24,
+      "minimum": 3000,
+      "threshold": 0.12
+    }
+  }
+}

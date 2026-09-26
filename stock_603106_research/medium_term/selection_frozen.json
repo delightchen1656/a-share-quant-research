@@ -1,0 +1,37 @@
+{
+  "selected": {
+    "family": "logistic",
+    "horizon": 63,
+    "entry": 0.65,
+    "exit": 0.3,
+    "trend": false
+  },
+  "selected_at": "2026-09-17T23:49:01.796176",
+  "validation_metrics": {
+    "family": "logistic",
+    "horizon": 63,
+    "entry": 0.65,
+    "exit": 0.3,
+    "trend": false,
+    "total_return": 1.6835803212000005,
+    "cagr": 0.6409427005594763,
+    "max_drawdown": -0.43431295201500975,
+    "sharpe": 1.3823442373114772,
+    "final_equity": 268358.03212000005,
+    "exposure": 0.29680611227129355,
+    "buy_count": 5,
+    "sell_count": 5,
+    "total_fees": 877.96788,
+    "closed_positions": 5,
+    "min_holding_days": 31.0,
+    "median_holding_days": 31.0,
+    "max_holding_days": 80.0,
+    "period_start": "2023-01-03",
+    "period_end": "2024-12-31",
+    "open_shares": 0,
+    "eligible": true
+  },
+  "selection_data_end": "2024-12-31",
+  "input_manifest_sha256": "a09b94a0eab4da79e9181a96a12abebcf3703b006a840769457c9afd6b4352c9",
+  "code_sha256": "94d7f4f2364a52743311bf033b76658981aaa77ea11c33748ec74fbc94e19d65"
+}

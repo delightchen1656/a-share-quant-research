@@ -1,0 +1,44 @@
+[
+  {
+    "id": "G18",
+    "family": "carry_trend",
+    "size": "mid",
+    "cadence": "bimonthly",
+    "interval": 40,
+    "count": 12,
+    "buffer": 48,
+    "exposure": 0.85,
+    "power": 0,
+    "minimum": 1500,
+    "strength": 2,
+    "lookback": 120
+  },
+  {
+    "id": "G09",
+    "family": "carry_trend",
+    "size": "mid",
+    "cadence": "monthly",
+    "interval": 20,
+    "count": 12,
+    "buffer": 48,
+    "exposure": 0.85,
+    "power": 0,
+    "minimum": 1500,
+    "strength": 1,
+    "lookback": 250
+  },
+  {
+    "id": "G20",
+    "family": "carry_trend",
+    "size": "mid",
+    "cadence": "bimonthly",
+    "interval": 40,
+    "count": 12,
+    "buffer": 48,
+    "exposure": 0.85,
+    "power": 0,
+    "minimum": 1500,
+    "strength": 2,
+    "lookback": 250
+  }
+]

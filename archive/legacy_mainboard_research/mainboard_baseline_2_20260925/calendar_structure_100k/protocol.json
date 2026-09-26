@@ -1,0 +1,69 @@
+{
+  "configs": [
+    {
+      "name": "control",
+      "label": "启动日锚定月度",
+      "day": 0,
+      "buffer": 24,
+      "risk": false
+    },
+    {
+      "name": "fixed1",
+      "label": "固定每月1日",
+      "day": 1,
+      "buffer": 24,
+      "risk": false
+    },
+    {
+      "name": "fixed11",
+      "label": "固定每月11日",
+      "day": 11,
+      "buffer": 24,
+      "risk": false
+    },
+    {
+      "name": "fixed21",
+      "label": "固定每月21日",
+      "day": 21,
+      "buffer": 24,
+      "risk": false
+    },
+    {
+      "name": "fixed_loose",
+      "label": "固定月初宽保留区间",
+      "day": 1,
+      "buffer": 32,
+      "risk": false
+    },
+    {
+      "name": "fixed_tight",
+      "label": "固定月初窄保留区间",
+      "day": 1,
+      "buffer": 12,
+      "risk": false
+    },
+    {
+      "name": "fixed_risk",
+      "label": "固定月初选股周度风控",
+      "day": 1,
+      "buffer": 24,
+      "risk": true
+    },
+    {
+      "name": "anchor_risk",
+      "label": "锚定月度选股周度风控",
+      "day": 0,
+      "buffer": 24,
+      "risk": true
+    }
+  ],
+  "capital": 100000,
+  "count": 6,
+  "power": 0.75,
+  "development": "2020/2021 Jan Apr Jul Oct first session +0/5/10 sessions, 24 starts, each24months",
+  "audit": "2024 Jan-Aug first session +0/5/10 sessions, 24 starts, each24months",
+  "selection": "Freeze best development P10, median>=control-1pp, worst DD>=control-2pp; no audit reselection",
+  "acceptance": "Audit same gate, doubled-cost dev/audit P10 higher than control. If no candidate, retain control without promotion.",
+  "execution": "Immediate entry, then fixed calendar day (closed session postponed) or start-day anchored monthly. Prior-session signals. Weekly risk Monday postponed, sell only to .4 at index60day drawdown<-10%, .2 below-15%, otherwise no action. Restore exposure only at monthly rebalance.",
+  "limitations": "Already observed overlapping history, daily-open approximation, frozen universe and approximate corporate actions. Not platform parity or independent OOS."
+}

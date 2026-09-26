@@ -1,0 +1,124 @@
+{
+  "configs": [
+    {
+      "count": 6,
+      "buffer": 24,
+      "minimum": 3000,
+      "power": 0.75,
+      "cadence": "monthly",
+      "signal": "regime",
+      "guard": false,
+      "name": "control",
+      "label": "月度6只基准"
+    },
+    {
+      "count": 6,
+      "buffer": 24,
+      "minimum": 3000,
+      "power": 0.75,
+      "cadence": "monthly",
+      "signal": "regime",
+      "guard": true,
+      "name": "monthly_guard",
+      "label": "月度弱市降仓"
+    },
+    {
+      "count": 6,
+      "buffer": 24,
+      "minimum": 3000,
+      "power": 0.75,
+      "cadence": "biweekly",
+      "signal": "regime",
+      "guard": false,
+      "name": "biweekly",
+      "label": "双周原选股"
+    },
+    {
+      "count": 6,
+      "buffer": 24,
+      "minimum": 3000,
+      "power": 0.75,
+      "cadence": "weekly",
+      "signal": "regime",
+      "guard": false,
+      "name": "weekly",
+      "label": "每周原选股"
+    },
+    {
+      "count": 6,
+      "buffer": 32,
+      "minimum": 5000,
+      "power": 0.75,
+      "cadence": "biweekly",
+      "signal": "regime",
+      "guard": false,
+      "name": "biweekly_lowturn",
+      "label": "双周低换手"
+    },
+    {
+      "count": 6,
+      "buffer": 32,
+      "minimum": 5000,
+      "power": 0.75,
+      "cadence": "weekly",
+      "signal": "regime",
+      "guard": false,
+      "name": "weekly_lowturn",
+      "label": "每周低换手"
+    },
+    {
+      "count": 6,
+      "buffer": 24,
+      "minimum": 3000,
+      "power": 0.75,
+      "cadence": "monthly",
+      "signal": "trend",
+      "guard": true,
+      "name": "monthly_trend",
+      "label": "月度趋势过滤降仓"
+    },
+    {
+      "count": 6,
+      "buffer": 24,
+      "minimum": 3000,
+      "power": 0.75,
+      "cadence": "biweekly",
+      "signal": "trend",
+      "guard": true,
+      "name": "biweekly_trend",
+      "label": "双周趋势过滤降仓"
+    },
+    {
+      "count": 6,
+      "buffer": 24,
+      "minimum": 3000,
+      "power": 0.75,
+      "cadence": "weekly",
+      "signal": "trend",
+      "guard": true,
+      "name": "weekly_trend",
+      "label": "每周趋势过滤降仓"
+    },
+    {
+      "count": 6,
+      "buffer": 24,
+      "minimum": 3000,
+      "power": 0.75,
+      "cadence": "weekly",
+      "signal": "quality",
+      "guard": false,
+      "name": "weekly_quality",
+      "label": "每周质量低风险"
+    }
+  ],
+  "capital": 100000,
+  "round1": "24 monthly starts 2020-2021, 24-month windows. Max P10 subject to median>=control-1pp and worst DD>=control-2pp; freeze single winner before audit.",
+  "round2": "Winner buffer +/-4 as sensitivity, NOT new selection. 16 shifted development starts (+5/+10 sessions on Jan/Apr/Jul/Oct 2020-2021), and 24 shifted audit starts (0/+5/+10 sessions Jan-Aug 2024). Double costs on original 24 dev and 8 audit starts.",
+  "acceptance": "Candidate must improve P10 on both shifted dev and audit with median>=control-1pp and DD>=control-2pp; stress P10 improves in both periods. Both neighbors dev P10>=control-1pp, median>=control-1pp, DD>=control-2pp. No audit-driven reselection.",
+  "scheduling": "Immediate entry at each start; monthly anchor day, weekly every7 calendar days, biweekly every14. Closed sessions postponed, anchor unchanged. Strict prior-session signals.",
+  "star_analogy": "Trend eligibility and exits at rebalance + index-based exposure reduction, NOT STAR ML model or daily stop-loss clone.",
+  "limitations": [
+    "Daily-open proxy, no minute parity. Fixed historical universe, approximate corporate actions.",
+    "Overlapping/repeatedly observed history, not pristine OOS. No baseline replacement."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "candidate": {
+    "id": "J24",
+    "family": "carry_long",
+    "size": "mid",
+    "cadence": "bimonthly",
+    "interval": 40,
+    "count": 12,
+    "buffer": 24,
+    "exposure": 0.85,
+    "power": 0,
+    "minimum": 1500,
+    "affordable": true
+  },
+  "purpose": "Diagnostic of prior best J24,not a new selection or completed goal validation; fullSharpe0.898alreadyfails. No stress/neighbor tests in this diagnostic.",
+  "starts": "2020..2024eachquarter+0/5/10/15sessions,to2026-09-11;2022..2024sameoffsets with complete24months"
+}

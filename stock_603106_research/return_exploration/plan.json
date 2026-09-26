@@ -1,0 +1,60 @@
+{
+  "capital": 100000,
+  "initial_training": "2020-2022",
+  "selection": "2023-2024",
+  "evaluation": "2025 onward",
+  "objective": "maximize validation net CAGR; no drawdown or minimum holding constraint",
+  "families": [
+    "logistic",
+    "hgb2",
+    "hgb3"
+  ],
+  "horizons": [
+    5,
+    10,
+    21,
+    42,
+    63,
+    126
+  ],
+  "label_thresholds": [
+    0,
+    0.05
+  ],
+  "training_windows": [
+    0,
+    504
+  ],
+  "entry_thresholds": [
+    0.45,
+    0.55,
+    0.65,
+    0.75
+  ],
+  "exit_thresholds": [
+    0.25,
+    0.4
+  ],
+  "trend_gates": [
+    "none",
+    "above_ma120"
+  ],
+  "policies": [
+    "free",
+    "max21",
+    "stop12_trail25",
+    "min21"
+  ],
+  "technical_families": [
+    "ma",
+    "breakout",
+    "rsi",
+    "bollinger"
+  ],
+  "test_exposure": "later prices already seen in previous studies; exploratory historical evaluation",
+  "leverage": 1,
+  "short_selling": false,
+  "execution": "next opening, T+1, actual price, lots, taxes, fees, limits",
+  "slippage": 0.001,
+  "stress_slippage": 0.003
+}

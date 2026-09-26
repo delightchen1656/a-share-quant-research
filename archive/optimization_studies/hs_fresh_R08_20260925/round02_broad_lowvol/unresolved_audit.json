@@ -1,0 +1,60 @@
+{
+  "B42": {
+    "stats": {
+      "final_equity": 145767.53999999998,
+      "total_return": 0.45767539999999984,
+      "trading_days": 1624,
+      "annualized": 0.059727226721469684,
+      "volatility": 0.18661320496791428,
+      "drawdown": -0.28170483724856943,
+      "risk_free_annual": 0.02,
+      "sharpe": 0.21288539966022374,
+      "sharpe_status": "formula_applied_with_supplied_rf",
+      "mean_exposure": 0.7978649125860539,
+      "low_days": 0,
+      "flat_streak": 0,
+      "start": "2020-01-02",
+      "end": "2026-09-11",
+      "fees": 8822.34,
+      "orders": 940,
+      "unresolved_actions": 1,
+      "delisting_writeoffs": 0
+    },
+    "unresolved": [
+      {
+        "date": "2022-02-24",
+        "symbol": "000970.SZ",
+        "ratio": 1.091266719118804
+      }
+    ]
+  },
+  "B44": {
+    "stats": {
+      "final_equity": 157026.39000000025,
+      "total_return": 0.5702639000000025,
+      "trading_days": 1624,
+      "annualized": 0.07193438680257369,
+      "volatility": 0.17111556885604295,
+      "drawdown": -0.27906759624861666,
+      "risk_free_annual": 0.02,
+      "sharpe": 0.30350474331336463,
+      "sharpe_status": "formula_applied_with_supplied_rf",
+      "mean_exposure": 0.7544852734982171,
+      "low_days": 0,
+      "flat_streak": 0,
+      "start": "2020-01-02",
+      "end": "2026-09-11",
+      "fees": 11547.399999999998,
+      "orders": 1503,
+      "unresolved_actions": 1,
+      "delisting_writeoffs": 0
+    },
+    "unresolved": [
+      {
+        "date": "2022-02-24",
+        "symbol": "000970.SZ",
+        "ratio": 1.091266719118804
+      }
+    ]
+  }
+}

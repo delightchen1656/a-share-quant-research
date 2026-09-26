@@ -1,0 +1,50 @@
+[
+  {
+    "schedule": "entry_month_phase_quarters",
+    "horizon": "24_months",
+    "count": 56,
+    "median_annualized": 0.14178738191740603,
+    "p10_annualized": 0.06190953187127535,
+    "worst_annualized": 0.03112454571497625,
+    "best_annualized": 0.36489750318939107,
+    "worst_drawdown": -0.1700342975241813,
+    "median_sharpe": 0.9968384684013509,
+    "loss_fraction": 0.0
+  },
+  {
+    "schedule": "entry_month_phase_quarters",
+    "horizon": "common_end",
+    "count": 56,
+    "median_annualized": 0.17607240129797974,
+    "p10_annualized": 0.08656478422279401,
+    "worst_annualized": 0.04769601999079365,
+    "best_annualized": 0.2843359104288836,
+    "worst_drawdown": -0.1700342975241813,
+    "median_sharpe": 1.1004059070125605,
+    "loss_fraction": 0.0
+  },
+  {
+    "schedule": "original_fixed_quarters",
+    "horizon": "24_months",
+    "count": 56,
+    "median_annualized": 0.22332050487095467,
+    "p10_annualized": 0.10787911831829688,
+    "worst_annualized": 0.06475106940058839,
+    "best_annualized": 0.41786648687293604,
+    "worst_drawdown": -0.16394645203023872,
+    "median_sharpe": 1.452835038905352,
+    "loss_fraction": 0.0
+  },
+  {
+    "schedule": "original_fixed_quarters",
+    "horizon": "common_end",
+    "count": 56,
+    "median_annualized": 0.23920644758171394,
+    "p10_annualized": 0.21244612359107462,
+    "worst_annualized": 0.20349378486727399,
+    "best_annualized": 0.2843359104288836,
+    "worst_drawdown": -0.16917214386212154,
+    "median_sharpe": 1.4958165804025976,
+    "loss_fraction": 0.0
+  }
+]

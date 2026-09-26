@@ -1,0 +1,35 @@
+[
+  {
+    "id": "B42",
+    "family": "barbell",
+    "size": "mid",
+    "interval": 40,
+    "count": 12,
+    "buffer": 24,
+    "exposure": 0.85,
+    "power": 0.5,
+    "minimum": 1500
+  },
+  {
+    "id": "B44",
+    "family": "barbell",
+    "size": "mid",
+    "interval": 40,
+    "count": 20,
+    "buffer": 40,
+    "exposure": 0.85,
+    "power": 0.5,
+    "minimum": 1500
+  },
+  {
+    "id": "B54",
+    "family": "turn_contraction",
+    "size": "small",
+    "interval": 40,
+    "count": 12,
+    "buffer": 24,
+    "exposure": 0.85,
+    "power": 0.5,
+    "minimum": 1500
+  }
+]

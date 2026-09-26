@@ -1,0 +1,39 @@
+{
+  "center": {
+    "count": 8,
+    "buffer": 24,
+    "exposure": 0.85,
+    "minimum": 3000,
+    "cap": 1.5,
+    "ma": 120,
+    "band": [
+      0.3333333333333333,
+      0.6666666666666666
+    ],
+    "bull": [
+      0.25,
+      0.2,
+      0.55
+    ],
+    "defense": [
+      0.55,
+      0.3,
+      0.15
+    ],
+    "risk_floor": 0.002,
+    "risk_power": 1.0,
+    "cadence": 3,
+    "amount_floor": 50000000.0,
+    "vol_ceiling": 0.05,
+    "weight_window": 20,
+    "high_window": 120,
+    "turn_window": 20,
+    "name": "risk_0.85_0.05",
+    "round": 1
+  },
+  "stable_neighbors": 3,
+  "required": 4,
+  "stability_passed": false,
+  "status": "provisional_not_promoted",
+  "platform_parity": "failed"
+}

@@ -1,6 +1,6 @@
 # 工程结构与维护边界
 
-更新时间：2026-09-15。
+更新时间：2026-09-26。
 
 ## 一级目录
 
@@ -9,6 +9,8 @@
 | `evening_accumulation/` | 科创板事件识别研究、冻结基准和 SuperMind 转换 | 源码、基准和小型证据入库；数据与普通输出排除 |
 | `star_industry_rotation/` | 科创板行业温度研究 | 源码与冻结基准入库；可再生成输出排除 |
 | `sh_sz_market_research/` | 沪深主板数据工程、研究实验和平台验证 | 源码、报告、汇总入库；行情、派生数据、模型和曲线排除 |
+| `stock_603106_research/` | 单标的机器学习与策略研究 | 源码、报告、汇总入库；行情、模型和逐日输出排除 |
+| `国金_prade_留档与分析/` | PTrade材料、迁移代码和审计证据 | 必要文档与证据入库；重复压缩包排除 |
 | `supermind_baselines/` | 对外使用的规范命名平台单文件 | 入库，必须与对应基准记录一致 |
 | `archive/` | 稳定结论、迁移研究、优化记录和平台审计 | 入库，只读维护 |
 | `notebooks/` | CSI100 探索性研究 | 入库，不存 Notebook 缓存 |
@@ -35,6 +37,7 @@ project/
 - 正式基准登记：`archive/baseline_registry/STRATEGY_BASELINES.md`
 - 科创板平台交付：`supermind_baselines/`
 - 沪深研究入口：`sh_sz_market_research/README.md`
+- 沪深正式平台代码：`sh_sz_market_research/platform/supermind/supermind_mainboard_baseline_1.py`
 - 环境验证：`tools/main.py`
 - 下载入口：`tools/继续下载.cmd`、`tools/启动沪深主板下载控制台.cmd`
 
@@ -46,3 +49,10 @@ project/
 4. 平台原始证据进入 `archive/platform_audits/`，不得改写原件。
 5. 已停止任务只归档目标、完成范围、停止原因和结论，删除执行残留。
 6. 根目录只保留标准文件和一级功能目录。
+
+## 当前沪深版本关系
+
+- 正式：R08 高仓精选，对外名称“沪深基准1”。
+- 历史平台文件：`sh_sz_market_research/platform/supermind/legacy/`。
+- 历史研究过程：`archive/optimization_studies/hs_fresh_R08_20260925/` 与 `archive/legacy_mainboard_research/`。
+- 阶段性特征、模型、缓存、逐日曲线和交易流水不作为归档证据，确认已有报告和参数后物理删除。

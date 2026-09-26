@@ -1,0 +1,232 @@
+{
+  "configs": [
+    {
+      "id": "N01",
+      "family": "mix334",
+      "size": "mid",
+      "cadence": "bimonthly",
+      "interval": 40,
+      "count": 10,
+      "buffer": 20,
+      "exposure": 0.85,
+      "power": 0,
+      "minimum": 1500,
+      "affordable": true
+    },
+    {
+      "id": "N02",
+      "family": "mix334",
+      "size": "mid",
+      "cadence": "bimonthly",
+      "interval": 40,
+      "count": 12,
+      "buffer": 24,
+      "exposure": 0.85,
+      "power": 0,
+      "minimum": 1500,
+      "affordable": true
+    },
+    {
+      "id": "N03",
+      "family": "mix334",
+      "size": "mid",
+      "cadence": "bimonthly",
+      "interval": 40,
+      "count": 14,
+      "buffer": 28,
+      "exposure": 0.85,
+      "power": 0,
+      "minimum": 1500,
+      "affordable": true
+    },
+    {
+      "id": "N04",
+      "family": "mix433",
+      "size": "mid",
+      "cadence": "bimonthly",
+      "interval": 40,
+      "count": 10,
+      "buffer": 20,
+      "exposure": 0.85,
+      "power": 0,
+      "minimum": 1500,
+      "affordable": true
+    },
+    {
+      "id": "N05",
+      "family": "mix433",
+      "size": "mid",
+      "cadence": "bimonthly",
+      "interval": 40,
+      "count": 12,
+      "buffer": 24,
+      "exposure": 0.85,
+      "power": 0,
+      "minimum": 1500,
+      "affordable": true
+    },
+    {
+      "id": "N06",
+      "family": "mix433",
+      "size": "mid",
+      "cadence": "bimonthly",
+      "interval": 40,
+      "count": 14,
+      "buffer": 28,
+      "exposure": 0.85,
+      "power": 0,
+      "minimum": 1500,
+      "affordable": true
+    },
+    {
+      "id": "N07",
+      "family": "mix532",
+      "size": "mid",
+      "cadence": "bimonthly",
+      "interval": 40,
+      "count": 10,
+      "buffer": 20,
+      "exposure": 0.85,
+      "power": 0,
+      "minimum": 1500,
+      "affordable": true
+    },
+    {
+      "id": "N08",
+      "family": "mix532",
+      "size": "mid",
+      "cadence": "bimonthly",
+      "interval": 40,
+      "count": 12,
+      "buffer": 24,
+      "exposure": 0.85,
+      "power": 0,
+      "minimum": 1500,
+      "affordable": true
+    },
+    {
+      "id": "N09",
+      "family": "mix532",
+      "size": "mid",
+      "cadence": "bimonthly",
+      "interval": 40,
+      "count": 14,
+      "buffer": 28,
+      "exposure": 0.85,
+      "power": 0,
+      "minimum": 1500,
+      "affordable": true
+    },
+    {
+      "id": "N10",
+      "family": "mix424",
+      "size": "mid",
+      "cadence": "bimonthly",
+      "interval": 40,
+      "count": 10,
+      "buffer": 20,
+      "exposure": 0.85,
+      "power": 0,
+      "minimum": 1500,
+      "affordable": true
+    },
+    {
+      "id": "N11",
+      "family": "mix424",
+      "size": "mid",
+      "cadence": "bimonthly",
+      "interval": 40,
+      "count": 12,
+      "buffer": 24,
+      "exposure": 0.85,
+      "power": 0,
+      "minimum": 1500,
+      "affordable": true
+    },
+    {
+      "id": "N12",
+      "family": "mix424",
+      "size": "mid",
+      "cadence": "bimonthly",
+      "interval": 40,
+      "count": 14,
+      "buffer": 28,
+      "exposure": 0.85,
+      "power": 0,
+      "minimum": 1500,
+      "affordable": true
+    },
+    {
+      "id": "N13",
+      "family": "mix442",
+      "size": "mid",
+      "cadence": "bimonthly",
+      "interval": 40,
+      "count": 10,
+      "buffer": 20,
+      "exposure": 0.85,
+      "power": 0,
+      "minimum": 1500,
+      "affordable": true
+    },
+    {
+      "id": "N14",
+      "family": "mix442",
+      "size": "mid",
+      "cadence": "bimonthly",
+      "interval": 40,
+      "count": 12,
+      "buffer": 24,
+      "exposure": 0.85,
+      "power": 0,
+      "minimum": 1500,
+      "affordable": true
+    },
+    {
+      "id": "N15",
+      "family": "mix442",
+      "size": "mid",
+      "cadence": "bimonthly",
+      "interval": 40,
+      "count": 14,
+      "buffer": 28,
+      "exposure": 0.85,
+      "power": 0,
+      "minimum": 1500,
+      "affordable": true
+    }
+  ],
+  "min_vol20": 0.001,
+  "feature_path": "C:\\Users\\22241\\Desktop\\quant\\sh_sz_market_research\\studies\\hs_fresh_20260925\\features_long_momentum.parquet",
+  "protocol": "# 沪深从零研究：2026-09-25\n\n用户目标：Sharpe>1，年化>12%，实际平均股票仓位>50%；间隔调仓需检验不同起点普遍性。达到完整门槛前不宣布成功。\n\n## 固定评估口径\n\n- 初始资金10万元，沪深普通主板A股，无杠杆，不加入长期空仓机制。\n- 当前共同数据区间2020-01-02至2026-09-11。250交易日复利年化、日收益总体标准差年化，Sharpe=(年化-2%)/年化波动。2%为平台无风险利率近似，不以调整口径换达标。\n- 股票仓位用实际持仓市值/权益，现金、应收分红不计为股票。\n- 保留佣金万三最低5元、双边0.2%滑点、卖出0.1%印花税作为与现有平台导出的比较口径（不是当前税法声明）。100股整手、现金限制、停牌/涨跌停、日成交量5%上限、T+1；分钟撮合仍是日开盘代理。\n- 复用已有审计的交易账本和历史数据，不复用月初A选股信号。公司行动账本、历史数据源覆盖及近似日期仍须披露。\n- 不使用当前行业分类充当历史分类，不使用缺少发布时间的数据拼造估值或财务信号。\n- 审计发现旧缓存排除了199只后来退市股票，旧缓存试运行在生成结果前中止，不能用于验收。现改用本地历史股票池重新计算每日资格（包含退市股历史），不按最终存续状态筛选。首次观察250根、当日非ST且可交易、20日成交额至少5000万元、20日波动0.4%—8%。\n- 若持股到退市日期仍未退出，账本保守按零估值核销，而不是假设能按最后报价卖出。此假设可能低估吸收合并/后续赔偿价值，必须披露核销次数；不会凭未来退市信息提前排除或卖出。\n\n## 第一轮及验收\n\n第一轮：8种新价格/成交量复合信号×3种当期市值分组×2种间隔，共48组；固定8只、90%目标仓位。每20或40个交易日自入场日起调仓，故后续必须覆盖相位偏移。\n\n开发：2020/2021年每季首个交易日，共8个起点，各24个月。只依据这些开发窗口按Sharpe中位数选最多3组；入选须年化中位数>12%、Sharpe中位数>0.85、每窗平均股票仓位>50%、年化P10>0、最差回撤不超过35%。此为筛选门槛，不是最终达标。\n\n最终目标门槛（在查看新候选验证结果前确定）：\n\n1. 全期Sharpe>1、年化>12%、平均股票仓位>50%。\n2. 2020—2024每季起点及其+5/+10/+15交易日偏移，持有至共同截止日：每个起点平均股票仓位>50%，至少75%起点同时Sharpe>1且年化>12%；每个入场年份的Sharpe和年化中位数分别>1和12%。\n3. 2022—2024每季起点及+5/+10/+15偏移，完整24个月窗口（不足24个月的剔除并列明）：平均股票仓位每窗>50%，总体Sharpe中位数>1、年化中位数>12%，至少80%窗口收益为正。各入场年份单列，不能只展示总体。\n4. 不设置空仓暂停；上述窗口低于10%股票仓位的连续天数不超过5，避免用长期空仓取得平均值。\n5. 成本压力及相邻参数需另外报告。成本翻倍后年化中位数>10%、Sharpe中位数>0.8；相邻持股数/调仓间隔不能出现大面积负收益或仓位不合格。\n\n这些是本地历史验证标准，不意味着每个未来时间段都能达标。历史已在其他研究中反复看过，重叠窗口不独立，不能声称真正独立样本外或未来收益保证。\n\n## 持续研究规则\n\n每轮先保存参数和选择规则，再跑开发，冻结候选后验证。失败后可开新轮，但明确标注多重试验和数据复用，不把后验选择包装为独立验证。目标未实现则保持未完成状态。原平台策略和正式基准不覆盖。\n",
+  "code_sha256": "15ae45034f2d89b4026955ce635621d36f8199c5f9a0f5d33e5e0e3f96f81992",
+  "method": "15predeclaredconfigs:5coarse weight sets x10/12/14stocks;mid,bimonthly,85%equalweight,affordablelot,60pool,2xbuffer. No post-result grid expansion.",
+  "weights": {
+    "mix334": [
+      0.3,
+      0.3,
+      0.4
+    ],
+    "mix433": [
+      0.4,
+      0.3,
+      0.3
+    ],
+    "mix532": [
+      0.5,
+      0.3,
+      0.2
+    ],
+    "mix424": [
+      0.4,
+      0.2,
+      0.4
+    ],
+    "mix442": [
+      0.4,
+      0.4,
+      0.2
+    ]
+  },
+  "implementation_sha256": "01f480a1383bc02a1fea421e0d1a33f700dee6197f0cdc3313587c62ebf2dea0"
+}

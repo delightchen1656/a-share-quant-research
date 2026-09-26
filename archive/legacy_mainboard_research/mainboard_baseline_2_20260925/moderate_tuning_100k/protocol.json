@@ -1,0 +1,1126 @@
+{
+  "configurations": [
+    {
+      "name": "control",
+      "family": "control",
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 20
+    },
+    {
+      "count": 6,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 20,
+      "name": "count_1",
+      "family": "count"
+    },
+    {
+      "count": 10,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 20,
+      "name": "count_2",
+      "family": "count"
+    },
+    {
+      "count": 8,
+      "buffer": 16,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 20,
+      "name": "buffer_1",
+      "family": "buffer"
+    },
+    {
+      "count": 8,
+      "buffer": 32,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 20,
+      "name": "buffer_2",
+      "family": "buffer"
+    },
+    {
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.7,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 20,
+      "name": "exposure_1",
+      "family": "exposure"
+    },
+    {
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.9,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 20,
+      "name": "exposure_2",
+      "family": "exposure"
+    },
+    {
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 2000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 20,
+      "name": "minimum_1",
+      "family": "minimum"
+    },
+    {
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 4000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 20,
+      "name": "minimum_2",
+      "family": "minimum"
+    },
+    {
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.25,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 20,
+      "name": "cap_1",
+      "family": "cap"
+    },
+    {
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.75,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 20,
+      "name": "cap_2",
+      "family": "cap"
+    },
+    {
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 90,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 20,
+      "name": "ma_1",
+      "family": "ma"
+    },
+    {
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 150,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 20,
+      "name": "ma_2",
+      "family": "ma"
+    },
+    {
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.25,
+        0.75
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 20,
+      "name": "band_1",
+      "family": "band"
+    },
+    {
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.4,
+        0.6
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 20,
+      "name": "band_2",
+      "family": "band"
+    },
+    {
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.35,
+        0.2,
+        0.45
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 20,
+      "name": "bull_1",
+      "family": "bull"
+    },
+    {
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.15,
+        0.2,
+        0.65
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 20,
+      "name": "bull_2",
+      "family": "bull"
+    },
+    {
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.45,
+        0.4,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 20,
+      "name": "defense_1",
+      "family": "defense"
+    },
+    {
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.65,
+        0.2,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 20,
+      "name": "defense_2",
+      "family": "defense"
+    },
+    {
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.001,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 20,
+      "name": "risk_floor_1",
+      "family": "risk_floor"
+    },
+    {
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.004,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 20,
+      "name": "risk_floor_2",
+      "family": "risk_floor"
+    },
+    {
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 0.5,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 20,
+      "name": "risk_power_1",
+      "family": "risk_power"
+    },
+    {
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.5,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 20,
+      "name": "risk_power_2",
+      "family": "risk_power"
+    },
+    {
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 2,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 20,
+      "name": "cadence_1",
+      "family": "cadence"
+    },
+    {
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 4,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 20,
+      "name": "cadence_2",
+      "family": "cadence"
+    },
+    {
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 75000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 20,
+      "name": "amount_floor_1",
+      "family": "amount_floor"
+    },
+    {
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 100000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 20,
+      "name": "amount_floor_2",
+      "family": "amount_floor"
+    },
+    {
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.05,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 20,
+      "name": "vol_ceiling_1",
+      "family": "vol_ceiling"
+    },
+    {
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.06,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 20,
+      "name": "vol_ceiling_2",
+      "family": "vol_ceiling"
+    },
+    {
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 15,
+      "high_window": 120,
+      "turn_window": 20,
+      "name": "weight_window_1",
+      "family": "weight_window"
+    },
+    {
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 30,
+      "high_window": 120,
+      "turn_window": 20,
+      "name": "weight_window_2",
+      "family": "weight_window"
+    },
+    {
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 90,
+      "turn_window": 20,
+      "name": "high_window_1",
+      "family": "high_window"
+    },
+    {
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 180,
+      "turn_window": 20,
+      "name": "high_window_2",
+      "family": "high_window"
+    },
+    {
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 15,
+      "name": "turn_window_1",
+      "family": "turn_window"
+    },
+    {
+      "count": 8,
+      "buffer": 24,
+      "exposure": 0.8,
+      "minimum": 3000,
+      "cap": 1.5,
+      "ma": 120,
+      "band": [
+        0.3333333333333333,
+        0.6666666666666666
+      ],
+      "bull": [
+        0.25,
+        0.2,
+        0.55
+      ],
+      "defense": [
+        0.55,
+        0.3,
+        0.15
+      ],
+      "risk_floor": 0.002,
+      "risk_power": 1.0,
+      "cadence": 3,
+      "amount_floor": 50000000.0,
+      "vol_ceiling": 0.08,
+      "weight_window": 20,
+      "high_window": 120,
+      "turn_window": 30,
+      "name": "turn_window_2",
+      "family": "turn_window"
+    }
+  ],
+  "method": "One-at-a-time, two coarse neighbors each, no recombination or further search after results. Select using 2020-2023 only: weaker two-year CAGR + .05 dev Sharpe - .5 dev absolute MDD. Family must have BOTH neighbors no worse than control score and both profitable in each dev subperiod. Candidate dev CAGR >=95% control and dev drawdown no worse than control. Later periods descriptive, not selection. Stress doubles costs without retuning.",
+  "limitations": "All history previously inspected, no clean holdout. Local/platform parity unresolved. Existing eligible universe retained, tightening liquidity/volatility only; listing threshold, 3-year dividend proxy definition and lawful execution/cost constraints not optimized."
+}

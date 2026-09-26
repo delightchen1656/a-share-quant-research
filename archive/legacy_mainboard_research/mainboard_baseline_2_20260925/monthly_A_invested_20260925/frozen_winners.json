@@ -1,0 +1,20 @@
+[
+  {
+    "id": "I24",
+    "strict": true,
+    "exposure": 0.9,
+    "power": 0.5,
+    "lookback": 120,
+    "penalty": 1.0,
+    "retention": 0.25
+  },
+  {
+    "id": "I23",
+    "strict": true,
+    "exposure": 0.9,
+    "power": 0.0,
+    "lookback": 120,
+    "penalty": 1.0,
+    "retention": 0.25
+  }
+]

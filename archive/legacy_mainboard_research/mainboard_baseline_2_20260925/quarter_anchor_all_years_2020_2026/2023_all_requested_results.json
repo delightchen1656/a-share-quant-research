@@ -1,0 +1,902 @@
+[
+  {
+    "requested_start": "2023-01-01",
+    "actual_start": "2023-01-03",
+    "final_equity": 238898.10393012018,
+    "annualized": 0.2663549402143881,
+    "drawdown": -0.17311938098208868,
+    "sharpe": 1.6412956618149346,
+    "total_return": 1.3889810393012016,
+    "orders": 191
+  },
+  {
+    "requested_start": "2023-01-02",
+    "actual_start": "2023-01-03",
+    "final_equity": 238898.10393012018,
+    "annualized": 0.2663549402143881,
+    "drawdown": -0.17311938098208868,
+    "sharpe": 1.6412956618149346,
+    "total_return": 1.3889810393012016,
+    "orders": 191
+  },
+  {
+    "requested_start": "2023-01-03",
+    "actual_start": "2023-01-03",
+    "final_equity": 238898.10393012018,
+    "annualized": 0.2663549402143881,
+    "drawdown": -0.17311938098208868,
+    "sharpe": 1.6412956618149346,
+    "total_return": 1.3889810393012016,
+    "orders": 191
+  },
+  {
+    "requested_start": "2023-01-04",
+    "actual_start": "2023-01-04",
+    "final_equity": 224228.10337290005,
+    "annualized": 0.24498209134085247,
+    "drawdown": -0.1967331162103816,
+    "sharpe": 1.4450964601432252,
+    "total_return": 1.2422810337290007,
+    "orders": 190
+  },
+  {
+    "requested_start": "2023-01-05",
+    "actual_start": "2023-01-05",
+    "final_equity": 212773.1469788,
+    "annualized": 0.22757922400601238,
+    "drawdown": -0.1921705982220292,
+    "sharpe": 1.372657733449863,
+    "total_return": 1.1277314697880003,
+    "orders": 194
+  },
+  {
+    "requested_start": "2023-01-06",
+    "actual_start": "2023-01-06",
+    "final_equity": 229243.71213349997,
+    "annualized": 0.2528978173289529,
+    "drawdown": -0.16695155211303525,
+    "sharpe": 1.4908062486465874,
+    "total_return": 1.2924371213349999,
+    "orders": 188
+  },
+  {
+    "requested_start": "2023-01-07",
+    "actual_start": "2023-01-09",
+    "final_equity": 193435.09500312002,
+    "annualized": 0.19686179146652205,
+    "drawdown": -0.1358567653070918,
+    "sharpe": 1.2801169743249425,
+    "total_return": 0.9343509500312002,
+    "orders": 183
+  },
+  {
+    "requested_start": "2023-01-08",
+    "actual_start": "2023-01-09",
+    "final_equity": 193435.09500312002,
+    "annualized": 0.19686179146652205,
+    "drawdown": -0.1358567653070918,
+    "sharpe": 1.2801169743249425,
+    "total_return": 0.9343509500312002,
+    "orders": 183
+  },
+  {
+    "requested_start": "2023-01-09",
+    "actual_start": "2023-01-09",
+    "final_equity": 193435.09500312002,
+    "annualized": 0.19686179146652205,
+    "drawdown": -0.1358567653070918,
+    "sharpe": 1.2801169743249425,
+    "total_return": 0.9343509500312002,
+    "orders": 183
+  },
+  {
+    "requested_start": "2023-01-10",
+    "actual_start": "2023-01-10",
+    "final_equity": 161458.91155656008,
+    "annualized": 0.13949500973974138,
+    "drawdown": -0.1399990704914117,
+    "sharpe": 0.9875874814678214,
+    "total_return": 0.6145891155656007,
+    "orders": 184
+  },
+  {
+    "requested_start": "2023-01-11",
+    "actual_start": "2023-01-11",
+    "final_equity": 158652.7446669,
+    "annualized": 0.13416889193320003,
+    "drawdown": -0.12632300730069956,
+    "sharpe": 0.9555956057106747,
+    "total_return": 0.5865274466689998,
+    "orders": 178
+  },
+  {
+    "requested_start": "2023-01-12",
+    "actual_start": "2023-01-12",
+    "final_equity": 155426.55823482003,
+    "annualized": 0.12793208934595612,
+    "drawdown": -0.1553169377302187,
+    "sharpe": 0.8937815578966914,
+    "total_return": 0.5542655823482003,
+    "orders": 175
+  },
+  {
+    "requested_start": "2023-01-13",
+    "actual_start": "2023-01-13",
+    "final_equity": 162190.68820376002,
+    "annualized": 0.14123791065615765,
+    "drawdown": -0.1576609697283431,
+    "sharpe": 0.9396459510517503,
+    "total_return": 0.6219068820376001,
+    "orders": 178
+  },
+  {
+    "requested_start": "2023-01-14",
+    "actual_start": "2023-01-16",
+    "final_equity": 168975.92237724003,
+    "annualized": 0.154459159854196,
+    "drawdown": -0.15614391621268908,
+    "sharpe": 1.0383731985445537,
+    "total_return": 0.6897592237724004,
+    "orders": 187
+  },
+  {
+    "requested_start": "2023-01-15",
+    "actual_start": "2023-01-16",
+    "final_equity": 168975.92237724003,
+    "annualized": 0.154459159854196,
+    "drawdown": -0.15614391621268908,
+    "sharpe": 1.0383731985445537,
+    "total_return": 0.6897592237724004,
+    "orders": 187
+  },
+  {
+    "requested_start": "2023-01-16",
+    "actual_start": "2023-01-16",
+    "final_equity": 168975.92237724003,
+    "annualized": 0.154459159854196,
+    "drawdown": -0.15614391621268908,
+    "sharpe": 1.0383731985445537,
+    "total_return": 0.6897592237724004,
+    "orders": 187
+  },
+  {
+    "requested_start": "2023-01-17",
+    "actual_start": "2023-01-17",
+    "final_equity": 156936.61531080003,
+    "annualized": 0.1314350487531064,
+    "drawdown": -0.15314589390303945,
+    "sharpe": 0.9063000723462918,
+    "total_return": 0.5693661531080003,
+    "orders": 186
+  },
+  {
+    "requested_start": "2023-01-18",
+    "actual_start": "2023-01-18",
+    "final_equity": 149800.36451621994,
+    "annualized": 0.1171916589283073,
+    "drawdown": -0.1517321808064701,
+    "sharpe": 0.824776737277359,
+    "total_return": 0.4980036451621994,
+    "orders": 187
+  },
+  {
+    "requested_start": "2023-01-19",
+    "actual_start": "2023-01-19",
+    "final_equity": 147508.91015304002,
+    "annualized": 0.11256840430143944,
+    "drawdown": -0.1448134119751241,
+    "sharpe": 0.7917613776124466,
+    "total_return": 0.4750891015304002,
+    "orders": 186
+  },
+  {
+    "requested_start": "2023-01-20",
+    "actual_start": "2023-01-20",
+    "final_equity": 145708.06082288,
+    "annualized": 0.10891057235148316,
+    "drawdown": -0.16790742286276783,
+    "sharpe": 0.7635971959783004,
+    "total_return": 0.45708060822880014,
+    "orders": 179
+  },
+  {
+    "requested_start": "2023-01-21",
+    "actual_start": "2023-01-30",
+    "final_equity": 130758.43628904002,
+    "annualized": 0.07702975199223494,
+    "drawdown": -0.1518249613978191,
+    "sharpe": 0.5757477766103188,
+    "total_return": 0.30758436289040025,
+    "orders": 196
+  },
+  {
+    "requested_start": "2023-01-22",
+    "actual_start": "2023-01-30",
+    "final_equity": 130758.43628904002,
+    "annualized": 0.07702975199223494,
+    "drawdown": -0.1518249613978191,
+    "sharpe": 0.5757477766103188,
+    "total_return": 0.30758436289040025,
+    "orders": 196
+  },
+  {
+    "requested_start": "2023-01-23",
+    "actual_start": "2023-01-30",
+    "final_equity": 130758.43628904002,
+    "annualized": 0.07702975199223494,
+    "drawdown": -0.1518249613978191,
+    "sharpe": 0.5757477766103188,
+    "total_return": 0.30758436289040025,
+    "orders": 196
+  },
+  {
+    "requested_start": "2023-01-24",
+    "actual_start": "2023-01-30",
+    "final_equity": 130758.43628904002,
+    "annualized": 0.07702975199223494,
+    "drawdown": -0.1518249613978191,
+    "sharpe": 0.5757477766103188,
+    "total_return": 0.30758436289040025,
+    "orders": 196
+  },
+  {
+    "requested_start": "2023-01-25",
+    "actual_start": "2023-01-30",
+    "final_equity": 130758.43628904002,
+    "annualized": 0.07702975199223494,
+    "drawdown": -0.1518249613978191,
+    "sharpe": 0.5757477766103188,
+    "total_return": 0.30758436289040025,
+    "orders": 196
+  },
+  {
+    "requested_start": "2023-01-26",
+    "actual_start": "2023-01-30",
+    "final_equity": 130758.43628904002,
+    "annualized": 0.07702975199223494,
+    "drawdown": -0.1518249613978191,
+    "sharpe": 0.5757477766103188,
+    "total_return": 0.30758436289040025,
+    "orders": 196
+  },
+  {
+    "requested_start": "2023-01-27",
+    "actual_start": "2023-01-30",
+    "final_equity": 130758.43628904002,
+    "annualized": 0.07702975199223494,
+    "drawdown": -0.1518249613978191,
+    "sharpe": 0.5757477766103188,
+    "total_return": 0.30758436289040025,
+    "orders": 196
+  },
+  {
+    "requested_start": "2023-01-28",
+    "actual_start": "2023-01-30",
+    "final_equity": 130758.43628904002,
+    "annualized": 0.07702975199223494,
+    "drawdown": -0.1518249613978191,
+    "sharpe": 0.5757477766103188,
+    "total_return": 0.30758436289040025,
+    "orders": 196
+  },
+  {
+    "requested_start": "2023-01-29",
+    "actual_start": "2023-01-30",
+    "final_equity": 130758.43628904002,
+    "annualized": 0.07702975199223494,
+    "drawdown": -0.1518249613978191,
+    "sharpe": 0.5757477766103188,
+    "total_return": 0.30758436289040025,
+    "orders": 196
+  },
+  {
+    "requested_start": "2023-01-30",
+    "actual_start": "2023-01-30",
+    "final_equity": 130758.43628904002,
+    "annualized": 0.07702975199223494,
+    "drawdown": -0.1518249613978191,
+    "sharpe": 0.5757477766103188,
+    "total_return": 0.30758436289040025,
+    "orders": 196
+  },
+  {
+    "requested_start": "2023-01-31",
+    "actual_start": "2023-01-31",
+    "final_equity": 144550.39346560003,
+    "annualized": 0.10741813457713478,
+    "drawdown": -0.14974547490200907,
+    "sharpe": 0.7462646651825323,
+    "total_return": 0.44550393465600036,
+    "orders": 198
+  },
+  {
+    "requested_start": "2023-02-01",
+    "actual_start": "2023-02-01",
+    "final_equity": 177969.1851616,
+    "annualized": 0.1732124514965594,
+    "drawdown": -0.12619985968226888,
+    "sharpe": 1.098059003854312,
+    "total_return": 0.7796918516160001,
+    "orders": 201
+  },
+  {
+    "requested_start": "2023-02-02",
+    "actual_start": "2023-02-02",
+    "final_equity": 133928.83507029997,
+    "annualized": 0.08439275499640875,
+    "drawdown": -0.12384900286730283,
+    "sharpe": 0.6098437515910154,
+    "total_return": 0.3392883507029998,
+    "orders": 197
+  },
+  {
+    "requested_start": "2023-02-03",
+    "actual_start": "2023-02-03",
+    "final_equity": 141271.91244705996,
+    "annualized": 0.10064517158002717,
+    "drawdown": -0.12341321128180593,
+    "sharpe": 0.7058662920554551,
+    "total_return": 0.41271912447059966,
+    "orders": 195
+  },
+  {
+    "requested_start": "2023-02-04",
+    "actual_start": "2023-02-06",
+    "final_equity": 159485.99156946005,
+    "annualized": 0.13865800712214482,
+    "drawdown": -0.11662581563685126,
+    "sharpe": 0.9058770660097469,
+    "total_return": 0.5948599156946004,
+    "orders": 196
+  },
+  {
+    "requested_start": "2023-02-05",
+    "actual_start": "2023-02-06",
+    "final_equity": 159485.99156946005,
+    "annualized": 0.13865800712214482,
+    "drawdown": -0.11662581563685126,
+    "sharpe": 0.9058770660097469,
+    "total_return": 0.5948599156946004,
+    "orders": 196
+  },
+  {
+    "requested_start": "2023-02-06",
+    "actual_start": "2023-02-06",
+    "final_equity": 159485.99156946005,
+    "annualized": 0.13865800712214482,
+    "drawdown": -0.11662581563685126,
+    "sharpe": 0.9058770660097469,
+    "total_return": 0.5948599156946004,
+    "orders": 196
+  },
+  {
+    "requested_start": "2023-02-07",
+    "actual_start": "2023-02-07",
+    "final_equity": 152233.12395752006,
+    "annualized": 0.12411061183977057,
+    "drawdown": -0.13922334782141454,
+    "sharpe": 0.8330159937199143,
+    "total_return": 0.5223312395752007,
+    "orders": 203
+  },
+  {
+    "requested_start": "2023-02-08",
+    "actual_start": "2023-02-08",
+    "final_equity": 157616.44300346004,
+    "annualized": 0.13514828685033642,
+    "drawdown": -0.16455568120310882,
+    "sharpe": 0.8795296775899527,
+    "total_return": 0.5761644300346003,
+    "orders": 202
+  },
+  {
+    "requested_start": "2023-02-09",
+    "actual_start": "2023-02-09",
+    "final_equity": 142814.13589346004,
+    "annualized": 0.10446716411143853,
+    "drawdown": -0.1502290656090438,
+    "sharpe": 0.7446941450352896,
+    "total_return": 0.42814135893460037,
+    "orders": 200
+  },
+  {
+    "requested_start": "2023-02-10",
+    "actual_start": "2023-02-10",
+    "final_equity": 129716.91012396,
+    "annualized": 0.07529943260282845,
+    "drawdown": -0.1445367707496399,
+    "sharpe": 0.5546761773997789,
+    "total_return": 0.29716910123960005,
+    "orders": 199
+  },
+  {
+    "requested_start": "2023-02-11",
+    "actual_start": "2023-02-13",
+    "final_equity": 144811.13894389992,
+    "annualized": 0.10910230383849728,
+    "drawdown": -0.17433087070031972,
+    "sharpe": 0.7424937695916679,
+    "total_return": 0.4481113894389992,
+    "orders": 202
+  },
+  {
+    "requested_start": "2023-02-12",
+    "actual_start": "2023-02-13",
+    "final_equity": 144811.13894389992,
+    "annualized": 0.10910230383849728,
+    "drawdown": -0.17433087070031972,
+    "sharpe": 0.7424937695916679,
+    "total_return": 0.4481113894389992,
+    "orders": 202
+  },
+  {
+    "requested_start": "2023-02-13",
+    "actual_start": "2023-02-13",
+    "final_equity": 144811.13894389992,
+    "annualized": 0.10910230383849728,
+    "drawdown": -0.17433087070031972,
+    "sharpe": 0.7424937695916679,
+    "total_return": 0.4481113894389992,
+    "orders": 202
+  },
+  {
+    "requested_start": "2023-02-14",
+    "actual_start": "2023-02-14",
+    "final_equity": 169335.97047047998,
+    "annualized": 0.15884003049856266,
+    "drawdown": -0.18957835849692606,
+    "sharpe": 1.0207943085436162,
+    "total_return": 0.6933597047047999,
+    "orders": 199
+  },
+  {
+    "requested_start": "2023-02-15",
+    "actual_start": "2023-02-15",
+    "final_equity": 149793.08712718004,
+    "annualized": 0.1198379762639945,
+    "drawdown": -0.16744220967107104,
+    "sharpe": 0.8259296864982099,
+    "total_return": 0.49793087127180047,
+    "orders": 196
+  },
+  {
+    "requested_start": "2023-02-16",
+    "actual_start": "2023-02-16",
+    "final_equity": 151639.75518992005,
+    "annualized": 0.12378842682326696,
+    "drawdown": -0.18944913882414371,
+    "sharpe": 0.8539278853729297,
+    "total_return": 0.5163975518992006,
+    "orders": 189
+  },
+  {
+    "requested_start": "2023-02-17",
+    "actual_start": "2023-02-17",
+    "final_equity": 149310.451729,
+    "annualized": 0.11901914911930267,
+    "drawdown": -0.19475096595736718,
+    "sharpe": 0.8221472796318318,
+    "total_return": 0.49310451728999993,
+    "orders": 190
+  },
+  {
+    "requested_start": "2023-02-18",
+    "actual_start": "2023-02-20",
+    "final_equity": 149994.27766231998,
+    "annualized": 0.12074884337027836,
+    "drawdown": -0.16813655391618898,
+    "sharpe": 0.8279976639482564,
+    "total_return": 0.49994277662319986,
+    "orders": 191
+  },
+  {
+    "requested_start": "2023-02-19",
+    "actual_start": "2023-02-20",
+    "final_equity": 149994.27766231998,
+    "annualized": 0.12074884337027836,
+    "drawdown": -0.16813655391618898,
+    "sharpe": 0.8279976639482564,
+    "total_return": 0.49994277662319986,
+    "orders": 191
+  },
+  {
+    "requested_start": "2023-02-20",
+    "actual_start": "2023-02-20",
+    "final_equity": 149994.27766231998,
+    "annualized": 0.12074884337027836,
+    "drawdown": -0.16813655391618898,
+    "sharpe": 0.8279976639482564,
+    "total_return": 0.49994277662319986,
+    "orders": 191
+  },
+  {
+    "requested_start": "2023-02-21",
+    "actual_start": "2023-02-21",
+    "final_equity": 143679.38187868,
+    "annualized": 0.10736278829021173,
+    "drawdown": -0.1916500976050748,
+    "sharpe": 0.7324660058775029,
+    "total_return": 0.4367938187867999,
+    "orders": 196
+  },
+  {
+    "requested_start": "2023-02-22",
+    "actual_start": "2023-02-22",
+    "final_equity": 151549.10441612,
+    "annualized": 0.12420597834296965,
+    "drawdown": -0.15412867149443876,
+    "sharpe": 0.862983286574343,
+    "total_return": 0.5154910441612002,
+    "orders": 198
+  },
+  {
+    "requested_start": "2023-02-23",
+    "actual_start": "2023-02-23",
+    "final_equity": 138919.44453036,
+    "annualized": 0.09707096693237083,
+    "drawdown": -0.1403832895156345,
+    "sharpe": 0.6953776815143801,
+    "total_return": 0.38919444530360003,
+    "orders": 194
+  },
+  {
+    "requested_start": "2023-02-24",
+    "actual_start": "2023-02-24",
+    "final_equity": 118824.02542699996,
+    "annualized": 0.04984811323112592,
+    "drawdown": -0.14670483421863667,
+    "sharpe": 0.4143288725734532,
+    "total_return": 0.18824025426999946,
+    "orders": 190
+  },
+  {
+    "requested_start": "2023-02-25",
+    "actual_start": "2023-02-27",
+    "final_equity": 125632.68238941995,
+    "annualized": 0.06663648993962079,
+    "drawdown": -0.15481432024775643,
+    "sharpe": 0.5136138508661343,
+    "total_return": 0.2563268238941996,
+    "orders": 195
+  },
+  {
+    "requested_start": "2023-02-26",
+    "actual_start": "2023-02-27",
+    "final_equity": 125632.68238941995,
+    "annualized": 0.06663648993962079,
+    "drawdown": -0.15481432024775643,
+    "sharpe": 0.5136138508661343,
+    "total_return": 0.2563268238941996,
+    "orders": 195
+  },
+  {
+    "requested_start": "2023-02-27",
+    "actual_start": "2023-02-27",
+    "final_equity": 125632.68238941995,
+    "annualized": 0.06663648993962079,
+    "drawdown": -0.15481432024775643,
+    "sharpe": 0.5136138508661343,
+    "total_return": 0.2563268238941996,
+    "orders": 195
+  },
+  {
+    "requested_start": "2023-02-28",
+    "actual_start": "2023-02-28",
+    "final_equity": 135323.67275952,
+    "annualized": 0.08935215598653312,
+    "drawdown": -0.1293163236303515,
+    "sharpe": 0.6976261199508015,
+    "total_return": 0.3532367275952,
+    "orders": 191
+  },
+  {
+    "requested_start": "2023-03-01",
+    "actual_start": "2023-03-01",
+    "final_equity": 122852.55840063993,
+    "annualized": 0.060005703994146176,
+    "drawdown": -0.14348080640425342,
+    "sharpe": 0.4798098207161883,
+    "total_return": 0.22852558400639933,
+    "orders": 188
+  },
+  {
+    "requested_start": "2023-03-02",
+    "actual_start": "2023-03-02",
+    "final_equity": 131008.21555230003,
+    "annualized": 0.07953721190622631,
+    "drawdown": -0.15009666547388556,
+    "sharpe": 0.5970629119856002,
+    "total_return": 0.3100821555230002,
+    "orders": 193
+  },
+  {
+    "requested_start": "2023-03-03",
+    "actual_start": "2023-03-03",
+    "final_equity": 129426.19765447988,
+    "annualized": 0.07588824594264887,
+    "drawdown": -0.14991833861940973,
+    "sharpe": 0.573127696518003,
+    "total_return": 0.2942619765447989,
+    "orders": 191
+  },
+  {
+    "requested_start": "2023-03-04",
+    "actual_start": "2023-03-06",
+    "final_equity": 136317.49035820004,
+    "annualized": 0.09205650265438114,
+    "drawdown": -0.16224806851412577,
+    "sharpe": 0.6701973234864715,
+    "total_return": 0.36317490358200044,
+    "orders": 179
+  },
+  {
+    "requested_start": "2023-03-05",
+    "actual_start": "2023-03-06",
+    "final_equity": 136317.49035820004,
+    "annualized": 0.09205650265438114,
+    "drawdown": -0.16224806851412577,
+    "sharpe": 0.6701973234864715,
+    "total_return": 0.36317490358200044,
+    "orders": 179
+  },
+  {
+    "requested_start": "2023-03-06",
+    "actual_start": "2023-03-06",
+    "final_equity": 136317.49035820004,
+    "annualized": 0.09205650265438114,
+    "drawdown": -0.16224806851412577,
+    "sharpe": 0.6701973234864715,
+    "total_return": 0.36317490358200044,
+    "orders": 179
+  },
+  {
+    "requested_start": "2023-03-07",
+    "actual_start": "2023-03-07",
+    "final_equity": 138641.66247080005,
+    "annualized": 0.09739624430508131,
+    "drawdown": -0.1560854300216138,
+    "sharpe": 0.681920520054695,
+    "total_return": 0.38641662470800053,
+    "orders": 189
+  },
+  {
+    "requested_start": "2023-03-08",
+    "actual_start": "2023-03-08",
+    "final_equity": 144674.52684617997,
+    "annualized": 0.1108645551381835,
+    "drawdown": -0.1415976856372576,
+    "sharpe": 0.7671636313404608,
+    "total_return": 0.4467452684617996,
+    "orders": 198
+  },
+  {
+    "requested_start": "2023-03-09",
+    "actual_start": "2023-03-09",
+    "final_equity": 151070.95267008012,
+    "annualized": 0.12473394836378171,
+    "drawdown": -0.14566190227875908,
+    "sharpe": 0.8502995571862066,
+    "total_return": 0.5107095267008013,
+    "orders": 191
+  },
+  {
+    "requested_start": "2023-03-10",
+    "actual_start": "2023-03-10",
+    "final_equity": 164950.69384920003,
+    "annualized": 0.1533840152954946,
+    "drawdown": -0.15028529976707417,
+    "sharpe": 1.0043026493445515,
+    "total_return": 0.6495069384920003,
+    "orders": 198
+  },
+  {
+    "requested_start": "2023-03-11",
+    "actual_start": "2023-03-13",
+    "final_equity": 138895.48446399992,
+    "annualized": 0.09844925518274827,
+    "drawdown": -0.14172332160920176,
+    "sharpe": 0.7222023587821128,
+    "total_return": 0.3889548446399993,
+    "orders": 181
+  },
+  {
+    "requested_start": "2023-03-12",
+    "actual_start": "2023-03-13",
+    "final_equity": 138895.48446399992,
+    "annualized": 0.09844925518274827,
+    "drawdown": -0.14172332160920176,
+    "sharpe": 0.7222023587821128,
+    "total_return": 0.3889548446399993,
+    "orders": 181
+  },
+  {
+    "requested_start": "2023-03-13",
+    "actual_start": "2023-03-13",
+    "final_equity": 138895.48446399992,
+    "annualized": 0.09844925518274827,
+    "drawdown": -0.14172332160920176,
+    "sharpe": 0.7222023587821128,
+    "total_return": 0.3889548446399993,
+    "orders": 181
+  },
+  {
+    "requested_start": "2023-03-14",
+    "actual_start": "2023-03-14",
+    "final_equity": 134803.8932976399,
+    "annualized": 0.08917519073760549,
+    "drawdown": -0.14879290215068852,
+    "sharpe": 0.6470492121930231,
+    "total_return": 0.3480389329763991,
+    "orders": 185
+  },
+  {
+    "requested_start": "2023-03-15",
+    "actual_start": "2023-03-15",
+    "final_equity": 142759.7322932399,
+    "annualized": 0.10727446045361333,
+    "drawdown": -0.1495582264047084,
+    "sharpe": 0.7488965616446271,
+    "total_return": 0.42759732293239905,
+    "orders": 190
+  },
+  {
+    "requested_start": "2023-03-16",
+    "actual_start": "2023-03-16",
+    "final_equity": 141770.87279844002,
+    "annualized": 0.10516016047602816,
+    "drawdown": -0.15805378513146895,
+    "sharpe": 0.7237181436088014,
+    "total_return": 0.4177087279844003,
+    "orders": 186
+  },
+  {
+    "requested_start": "2023-03-17",
+    "actual_start": "2023-03-17",
+    "final_equity": 140189.8882768,
+    "annualized": 0.10169913127664043,
+    "drawdown": -0.1670788301136562,
+    "sharpe": 0.6895350677194501,
+    "total_return": 0.4018988827679999,
+    "orders": 189
+  },
+  {
+    "requested_start": "2023-03-18",
+    "actual_start": "2023-03-20",
+    "final_equity": 148212.99010080006,
+    "annualized": 0.11971618081356494,
+    "drawdown": -0.1501449550469951,
+    "sharpe": 0.8197869303008053,
+    "total_return": 0.4821299010080007,
+    "orders": 189
+  },
+  {
+    "requested_start": "2023-03-19",
+    "actual_start": "2023-03-20",
+    "final_equity": 148212.99010080006,
+    "annualized": 0.11971618081356494,
+    "drawdown": -0.1501449550469951,
+    "sharpe": 0.8197869303008053,
+    "total_return": 0.4821299010080007,
+    "orders": 189
+  },
+  {
+    "requested_start": "2023-03-20",
+    "actual_start": "2023-03-20",
+    "final_equity": 148212.99010080006,
+    "annualized": 0.11971618081356494,
+    "drawdown": -0.1501449550469951,
+    "sharpe": 0.8197869303008053,
+    "total_return": 0.4821299010080007,
+    "orders": 189
+  },
+  {
+    "requested_start": "2023-03-21",
+    "actual_start": "2023-03-21",
+    "final_equity": 147114.57446399995,
+    "annualized": 0.11742276594400058,
+    "drawdown": -0.15164130945276477,
+    "sharpe": 0.7923366237555577,
+    "total_return": 0.47114574463999936,
+    "orders": 188
+  },
+  {
+    "requested_start": "2023-03-22",
+    "actual_start": "2023-03-22",
+    "final_equity": 157690.1223014,
+    "annualized": 0.1400741248482109,
+    "drawdown": -0.153707817118941,
+    "sharpe": 0.9236014359284025,
+    "total_return": 0.576901223014,
+    "orders": 191
+  },
+  {
+    "requested_start": "2023-03-23",
+    "actual_start": "2023-03-23",
+    "final_equity": 153522.219525,
+    "annualized": 0.13142822232041462,
+    "drawdown": -0.1521679582922557,
+    "sharpe": 0.8727557045467572,
+    "total_return": 0.53522219525,
+    "orders": 191
+  },
+  {
+    "requested_start": "2023-03-24",
+    "actual_start": "2023-03-24",
+    "final_equity": 151215.26841400002,
+    "annualized": 0.12661031888824303,
+    "drawdown": -0.18118530866700377,
+    "sharpe": 0.8740032607497077,
+    "total_return": 0.5121526841400001,
+    "orders": 194
+  },
+  {
+    "requested_start": "2023-03-25",
+    "actual_start": "2023-03-27",
+    "final_equity": 185006.53738144005,
+    "annualized": 0.19455827487925603,
+    "drawdown": -0.1766494837017527,
+    "sharpe": 1.2362592575426088,
+    "total_return": 0.8500653738144006,
+    "orders": 174
+  },
+  {
+    "requested_start": "2023-03-26",
+    "actual_start": "2023-03-27",
+    "final_equity": 185006.53738144005,
+    "annualized": 0.19455827487925603,
+    "drawdown": -0.1766494837017527,
+    "sharpe": 1.2362592575426088,
+    "total_return": 0.8500653738144006,
+    "orders": 174
+  },
+  {
+    "requested_start": "2023-03-27",
+    "actual_start": "2023-03-27",
+    "final_equity": 185006.53738144005,
+    "annualized": 0.19455827487925603,
+    "drawdown": -0.1766494837017527,
+    "sharpe": 1.2362592575426088,
+    "total_return": 0.8500653738144006,
+    "orders": 174
+  },
+  {
+    "requested_start": "2023-03-28",
+    "actual_start": "2023-03-28",
+    "final_equity": 177494.34628198005,
+    "annualized": 0.18048988534850907,
+    "drawdown": -0.19073965927247272,
+    "sharpe": 1.1258131986579663,
+    "total_return": 0.7749434628198004,
+    "orders": 167
+  },
+  {
+    "requested_start": "2023-03-29",
+    "actual_start": "2023-03-29",
+    "final_equity": 168744.87543440002,
+    "annualized": 0.16349743731446464,
+    "drawdown": -0.19011975489485766,
+    "sharpe": 1.0639650918097752,
+    "total_return": 0.6874487543440002,
+    "orders": 165
+  },
+  {
+    "requested_start": "2023-03-30",
+    "actual_start": "2023-03-30",
+    "final_equity": 172380.29436939996,
+    "annualized": 0.17084361447098928,
+    "drawdown": -0.19785593631637566,
+    "sharpe": 1.109828306778921,
+    "total_return": 0.7238029436939994,
+    "orders": 173
+  },
+  {
+    "requested_start": "2023-03-31",
+    "actual_start": "2023-03-31",
+    "final_equity": 186474.57211585992,
+    "annualized": 0.19797422190443004,
+    "drawdown": -0.17377968632024532,
+    "sharpe": 1.2343154979289186,
+    "total_return": 0.8647457211585992,
+    "orders": 177
+  }
+]

@@ -1,0 +1,75 @@
+{
+  "configs": [
+    {
+      "name": "control",
+      "label": "原固定季度",
+      "cadence": "fixed",
+      "signal": "regime",
+      "buffer": 24,
+      "minimum": 3000
+    },
+    {
+      "name": "entry_then_fixed",
+      "label": "首次建仓后固定季度",
+      "cadence": "entry_fixed",
+      "signal": "regime",
+      "buffer": 24,
+      "minimum": 3000
+    },
+    {
+      "name": "bimonth",
+      "label": "启动月份起每两个月",
+      "cadence": "bimonth",
+      "signal": "regime",
+      "buffer": 24,
+      "minimum": 3000
+    },
+    {
+      "name": "monthly",
+      "label": "每月检查原信号",
+      "cadence": "monthly",
+      "signal": "regime",
+      "buffer": 24,
+      "minimum": 3000
+    },
+    {
+      "name": "monthly_lowturn",
+      "label": "每月低换手",
+      "cadence": "monthly",
+      "signal": "regime",
+      "buffer": 32,
+      "minimum": 5000
+    },
+    {
+      "name": "quality_monthly",
+      "label": "全市场质量低风险",
+      "cadence": "monthly",
+      "signal": "quality",
+      "buffer": 24,
+      "minimum": 3000
+    },
+    {
+      "name": "trend_monthly",
+      "label": "全市场趋势质量",
+      "cadence": "monthly",
+      "signal": "trend",
+      "buffer": 24,
+      "minimum": 3000
+    }
+  ],
+  "cash": 100000,
+  "holdings": 8,
+  "exposure": 0.8,
+  "development": "monthly starts 2020-2021; each 24 months, all observations end before 2024",
+  "audit": "monthly starts Jan-Aug 2024, each 24 months; already-seen history, not pristine OOS",
+  "selection": "Development only: P10 improvement, median >= control-1pp, worst MDD >= control-2pp; rank P10 then median. Freeze one finalist before audit. No audit-driven reselection.",
+  "stress": "Finalist and control: double commission, minimum commission and slippage; stamp tax unchanged.",
+  "acceptance": "Audit P10 improvement, median >= control-1pp, worst MDD >= control-2pp, and stress P10 improvement in both periods.",
+  "approximation": "User authorizes provisional research despite failed parity. Keep small-corporate-action correction, 0.2% one-way slippage and original fees; no fitting to screenshot returns. Daily opening-price proxy, not minute replication.",
+  "limitations": [
+    "Fixed historical universe and approximate corporate actions.",
+    "Overlapping windows are dependent.",
+    "Month-start signals only; no claim of arbitrary day-of-month robustness.",
+    "No baseline overwrite, no automatic platform promotion."
+  ]
+}

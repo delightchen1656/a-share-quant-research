@@ -1,0 +1,80 @@
+{
+  "observed_events": 27,
+  "false_split_proxy": 8,
+  "examples": [
+    {
+      "date": "2024-07-15",
+      "symbol": "000429.SZ",
+      "prior_qty": 2100.0,
+      "nontrade_qty_change": 0.0,
+      "price_ratio": 1.0525310410697228,
+      "legacy_share_multiplier": 1.1,
+      "cash_residual_account": 1148.7000000000044
+    },
+    {
+      "date": "2022-06-20",
+      "symbol": "000800.SZ",
+      "prior_qty": 1700.0,
+      "nontrade_qty_change": 0.0,
+      "price_ratio": 1.0648055832502492,
+      "legacy_share_multiplier": 1.1,
+      "cash_residual_account": 1105.0
+    },
+    {
+      "date": "2020-03-31",
+      "symbol": "002884.SZ",
+      "prior_qty": 800.0,
+      "nontrade_qty_change": 0.0,
+      "price_ratio": 1.1341898643825838,
+      "legacy_share_multiplier": 1.1,
+      "cash_residual_account": 0.0
+    },
+    {
+      "date": "2021-06-25",
+      "symbol": "600479.SH",
+      "prior_qty": 1600.0,
+      "nontrade_qty_change": 0.0,
+      "price_ratio": 1.1132502831257078,
+      "legacy_share_multiplier": 1.1,
+      "cash_residual_account": 1600.0
+    },
+    {
+      "date": "2021-05-18",
+      "symbol": "600502.SH",
+      "prior_qty": 4200.0,
+      "nontrade_qty_change": 0.0,
+      "price_ratio": 1.050251256281407,
+      "legacy_share_multiplier": 1.1,
+      "cash_residual_account": 840.0
+    },
+    {
+      "date": "2022-07-11",
+      "symbol": "601019.SH",
+      "prior_qty": 2900.0,
+      "nontrade_qty_change": 0.0,
+      "price_ratio": 1.0590219224283306,
+      "legacy_share_multiplier": 1.1,
+      "cash_residual_account": 1015.0
+    },
+    {
+      "date": "2024-07-19",
+      "symbol": "601963.SH",
+      "prior_qty": 3000.0,
+      "nontrade_qty_change": 0.0,
+      "price_ratio": 1.0536649214659688,
+      "legacy_share_multiplier": 1.1,
+      "cash_residual_account": 1224.0
+    },
+    {
+      "date": "2021-05-28",
+      "symbol": "603886.SH",
+      "prior_qty": 800.0,
+      "nontrade_qty_change": 0.0,
+      "price_ratio": 1.0537923614846691,
+      "legacy_share_multiplier": 1.1,
+      "cash_residual_account": 800.0
+    }
+  ],
+  "cash_residual_days": 25,
+  "note": "Export-derived diagnostic only, not a complete independent corporate-action ledger. Not used to force optimized portfolios to platform holdings."
+}

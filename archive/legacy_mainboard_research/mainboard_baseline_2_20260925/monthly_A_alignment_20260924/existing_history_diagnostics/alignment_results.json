@@ -1,0 +1,304 @@
+{
+  "limits": {
+    "final_equity_relative": 0.05,
+    "p95_daily_equity_relative": 0.1,
+    "max_daily_equity_relative": 0.15,
+    "annualized_return_gap": 0.02,
+    "max_drawdown_gap": 0.03,
+    "daily_return_correlation_min": 0.9,
+    "each_stage_return_annualized_gap": 0.04
+  },
+  "models": [
+    {
+      "model": "old_reproduction",
+      "metrics": {
+        "final_equity": 267102.60135350004,
+        "annualized": 0.15815325504124633,
+        "drawdown": -0.16435489025145733,
+        "sharpe": 0.9780057359994169,
+        "fees": 12068.954246500001,
+        "orders": 673,
+        "unresolved_actions": 0,
+        "start": "2020-01-02",
+        "end": "2026-09-11"
+      },
+      "parity": {
+        "final_equity_relative": 0.1899406637189156,
+        "p95_daily_equity_relative": 0.19548582038167192,
+        "max_daily_equity_relative": 0.2284138300636689,
+        "annualized_return_gap": 0.02971200233135618,
+        "max_drawdown_gap": 0.03506963608777325,
+        "daily_return_correlation_min": 0.7430793892694937,
+        "each_stage_return_annualized_gap": 0.21160532348647143,
+        "stages": [
+          {
+            "start": "2020-01-02",
+            "end": "2023-12-31",
+            "local_annualized": 0.16530729597018,
+            "platform_annualized": 0.12173606416355476,
+            "gap": 0.043571231806625255
+          },
+          {
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "local_annualized": 0.17539197280976349,
+            "platform_annualized": 0.3869972962962349,
+            "gap": 0.21160532348647143
+          },
+          {
+            "start": "2025-01-01",
+            "end": "2026-09-11",
+            "local_annualized": 0.13314402128136993,
+            "platform_annualized": 0.014480314063783473,
+            "gap": 0.11866370721758646
+          }
+        ],
+        "passed": false
+      },
+      "matched_trades": 229,
+      "local_trades": 673,
+      "platform_common_trades": 709,
+      "exact_quantity": 28,
+      "selection_mean_overlap": 2.1358024691358026,
+      "first_selection": {
+        "date": "2020-01-02",
+        "platform": [
+          "603801.SH",
+          "603600.SH",
+          "603730.SH",
+          "603608.SH",
+          "601222.SH",
+          "600395.SH"
+        ],
+        "local": [
+          "600395.SH",
+          "603600.SH",
+          "600377.SH",
+          "603587.SH",
+          "600337.SH",
+          "601222.SH"
+        ],
+        "overlap": 3
+      }
+    },
+    {
+      "model": "existing_history",
+      "metrics": {
+        "final_equity": 267102.60135350004,
+        "annualized": 0.15815325504124633,
+        "drawdown": -0.16435489025145733,
+        "sharpe": 0.9780057359994169,
+        "fees": 12068.954246500001,
+        "orders": 673,
+        "unresolved_actions": 0,
+        "start": "2020-01-02",
+        "end": "2026-09-11"
+      },
+      "parity": {
+        "final_equity_relative": 0.1899406637189156,
+        "p95_daily_equity_relative": 0.19548582038167192,
+        "max_daily_equity_relative": 0.2284138300636689,
+        "annualized_return_gap": 0.02971200233135618,
+        "max_drawdown_gap": 0.03506963608777325,
+        "daily_return_correlation_min": 0.7430793892694937,
+        "each_stage_return_annualized_gap": 0.21160532348647143,
+        "stages": [
+          {
+            "start": "2020-01-02",
+            "end": "2023-12-31",
+            "local_annualized": 0.16530729597018,
+            "platform_annualized": 0.12173606416355476,
+            "gap": 0.043571231806625255
+          },
+          {
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "local_annualized": 0.17539197280976349,
+            "platform_annualized": 0.3869972962962349,
+            "gap": 0.21160532348647143
+          },
+          {
+            "start": "2025-01-01",
+            "end": "2026-09-11",
+            "local_annualized": 0.13314402128136993,
+            "platform_annualized": 0.014480314063783473,
+            "gap": 0.11866370721758646
+          }
+        ],
+        "passed": false
+      },
+      "matched_trades": 229,
+      "local_trades": 673,
+      "platform_common_trades": 709,
+      "exact_quantity": 28,
+      "selection_mean_overlap": 2.1358024691358026,
+      "first_selection": {
+        "date": "2020-01-02",
+        "platform": [
+          "603801.SH",
+          "603600.SH",
+          "603730.SH",
+          "603608.SH",
+          "601222.SH",
+          "600395.SH"
+        ],
+        "local": [
+          "600395.SH",
+          "603600.SH",
+          "600377.SH",
+          "603587.SH",
+          "600337.SH",
+          "601222.SH"
+        ],
+        "overlap": 3
+      }
+    },
+    {
+      "model": "existing_history_cent_fees",
+      "metrics": {
+        "final_equity": 267102.52,
+        "annualized": 0.15815320232393693,
+        "drawdown": -0.16435501736647828,
+        "sharpe": 0.9780052274044597,
+        "fees": 12069.08,
+        "orders": 673,
+        "unresolved_actions": 0,
+        "start": "2020-01-02",
+        "end": "2026-09-11"
+      },
+      "parity": {
+        "final_equity_relative": 0.18994030128950712,
+        "p95_daily_equity_relative": 0.19548526288889517,
+        "max_daily_equity_relative": 0.22841340259512632,
+        "annualized_return_gap": 0.029711949614046773,
+        "max_drawdown_gap": 0.035069508972752295,
+        "daily_return_correlation_min": 0.7430793793199583,
+        "each_stage_return_annualized_gap": 0.21160536730659163,
+        "stages": [
+          {
+            "start": "2020-01-02",
+            "end": "2023-12-31",
+            "local_annualized": 0.16530715951622454,
+            "platform_annualized": 0.12173606416355476,
+            "gap": 0.043571095352669786
+          },
+          {
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "local_annualized": 0.1753919289896433,
+            "platform_annualized": 0.3869972962962349,
+            "gap": 0.21160536730659163
+          },
+          {
+            "start": "2025-01-01",
+            "end": "2026-09-11",
+            "local_annualized": 0.13314415522682,
+            "platform_annualized": 0.014480314063783473,
+            "gap": 0.11866384116303652
+          }
+        ],
+        "passed": false
+      },
+      "matched_trades": 229,
+      "local_trades": 673,
+      "platform_common_trades": 709,
+      "exact_quantity": 28,
+      "selection_mean_overlap": 2.1358024691358026,
+      "first_selection": {
+        "date": "2020-01-02",
+        "platform": [
+          "603801.SH",
+          "603600.SH",
+          "603730.SH",
+          "603608.SH",
+          "601222.SH",
+          "600395.SH"
+        ],
+        "local": [
+          "600395.SH",
+          "603600.SH",
+          "600377.SH",
+          "603587.SH",
+          "600337.SH",
+          "601222.SH"
+        ],
+        "overlap": 3
+      }
+    },
+    {
+      "model": "existing_history_action_ledger",
+      "metrics": {
+        "final_equity": 245749.27000000002,
+        "annualized": 0.14382119045721908,
+        "drawdown": -0.16437104462564045,
+        "sharpe": 0.9027156811381651,
+        "fees": 11518.33,
+        "orders": 672,
+        "unresolved_actions": 0,
+        "start": "2020-01-02",
+        "end": "2026-09-11"
+      },
+      "parity": {
+        "final_equity_relative": 0.09481168648456206,
+        "p95_daily_equity_relative": 0.16205827531897937,
+        "max_daily_equity_relative": 0.21246132486449998,
+        "annualized_return_gap": 0.015379937747328931,
+        "max_drawdown_gap": 0.03505348171359013,
+        "daily_return_correlation_min": 0.744369922698264,
+        "each_stage_return_annualized_gap": 0.24374791419056585,
+        "stages": [
+          {
+            "start": "2020-01-02",
+            "end": "2023-12-31",
+            "local_annualized": 0.15476576283142252,
+            "platform_annualized": 0.12173606416355476,
+            "gap": 0.03302969866786776
+          },
+          {
+            "start": "2024-01-01",
+            "end": "2024-12-31",
+            "local_annualized": 0.14324938210566907,
+            "platform_annualized": 0.3869972962962349,
+            "gap": 0.24374791419056585
+          },
+          {
+            "start": "2025-01-01",
+            "end": "2026-09-11",
+            "local_annualized": 0.12017908761879537,
+            "platform_annualized": 0.014480314063783473,
+            "gap": 0.1056987735550119
+          }
+        ],
+        "passed": false
+      },
+      "matched_trades": 227,
+      "local_trades": 672,
+      "platform_common_trades": 709,
+      "exact_quantity": 36,
+      "selection_mean_overlap": 2.1358024691358026,
+      "first_selection": {
+        "date": "2020-01-02",
+        "platform": [
+          "603801.SH",
+          "603600.SH",
+          "603730.SH",
+          "603608.SH",
+          "601222.SH",
+          "600395.SH"
+        ],
+        "local": [
+          "600395.SH",
+          "603600.SH",
+          "600377.SH",
+          "603587.SH",
+          "600337.SH",
+          "601222.SH"
+        ],
+        "overlap": 3
+      }
+    }
+  ],
+  "minute_parity": false,
+  "history_repaired": false,
+  "note": "Existing history remains under-warmed in early years."
+}

@@ -1,0 +1,27 @@
+# 固定高仓位：协方差权重研究
+
+目标90%仓位，不设置空仓或冷静期。股票选择不变，仅用历史协方差调整6只股票权重，仍扣实际费用并保留小额调仓过滤。
+
+|编号|开发年化中位数|最差回撤|Sharpe中位数|最差窗口平均仓位|最长空仓日|
+|---|---:|---:|---:|---:|---:|
+|BASE|16.89%|18.51%|0.899|77.20%|0|
+|C90|18.37%|20.48%|0.865|87.24%|0|
+|W01|14.72%|21.00%|0.685|86.67%|0|
+|W02|12.94%|20.55%|0.620|86.73%|0|
+|W03|12.26%|21.58%|0.581|86.69%|0|
+|W04|12.79%|20.72%|0.630|86.83%|0|
+|W05|15.46%|20.00%|0.767|87.19%|0|
+|W06|14.68%|19.93%|0.732|86.69%|0|
+|W07|16.10%|20.44%|0.786|87.14%|0|
+|W08|16.12%|20.67%|0.792|87.13%|0|
+
+|编号|全期终值|年化|最大回撤|Sharpe|平均仓位|低于50%天数|空仓天数|
+|---|---:|---:|---:|---:|---:|---:|---:|
+|BASE|245749.27|14.85%|16.44%|0.756|78.26%|0|0|
+|C90|264469.88|16.15%|20.48%|0.743|87.98%|0|0|
+|W07|257820.01|15.70%|20.44%|0.737|87.89%|0|0|
+|W05|253612.26|15.40%|20.00%|0.728|87.83%|0|0|
+
+验证：{"BASE": {"bridge": {"count": 8, "median": 0.175738483134531, "p10": 0.09520922623147354, "worst": 0.0572542997137615, "drawdown": -0.17006324257826078, "sharpe": 0.9692323879465274, "fees": 2299.48, "mean_exposure": 0.7808450560328757, "worst_mean_exposure": 0.7677683143449874, "worst_low_fraction": 0.0, "max_flat_streak": 0, "flat_days_total": 0}, "audit": {"count": 24, "median": 0.185414542378876, "p10": 0.14304242481490828, "worst": 0.11710619615290652, "drawdown": -0.14148285275014905, "sharpe": 0.9656236974597103, "fees": 2519.535, "mean_exposure": 0.7616808781187064, "worst_mean_exposure": 0.7582428558036518, "worst_low_fraction": 0.0, "max_flat_streak": 0, "flat_days_total": 0}, "stress": {"count": 24, "median": 0.1524655550104873, "p10": 0.11125697902628821, "worst": 0.07679912604309824, "drawdown": -0.1542978947237148, "sharpe": 0.7678168541042703, "fees": 3511.2650000000003, "mean_exposure": 0.7614648333502182, "worst_mean_exposure": 0.758552373996198, "worst_low_fraction": 0.0, "max_flat_streak": 0, "flat_days_total": 0}}, "C90": {"bridge": {"count": 8, "median": 0.19621653933609173, "p10": 0.10664553095410106, "worst": 0.06515413021543304, "drawdown": -0.1924589607074234, "sharpe": 0.9913918517443885, "fees": 2576.815, "mean_exposure": 0.8785370375992348, "worst_mean_exposure": 0.8649449250797571, "worst_low_fraction": 0.0, "max_flat_streak": 0, "flat_days_total": 0}, "audit": {"count": 24, "median": 0.21310552138483219, "p10": 0.1550600944899787, "worst": 0.13448959920291226, "drawdown": -0.1546684774097079, "sharpe": 0.984113842241408, "fees": 2808.28, "mean_exposure": 0.8590992228925999, "worst_mean_exposure": 0.8546918121646767, "worst_low_fraction": 0.0, "max_flat_streak": 0, "flat_days_total": 0}, "stress": {"count": 24, "median": 0.17489875466817784, "p10": 0.12080260978646236, "worst": 0.0938050090992828, "drawdown": -0.17051371390061232, "sharpe": 0.7892743839121474, "fees": 3839.8899999999994, "mean_exposure": 0.8604970553251365, "worst_mean_exposure": 0.8552475930220614, "worst_low_fraction": 0.0, "max_flat_streak": 0, "flat_days_total": 0}}, "W07": {"bridge": {"count": 8, "median": 0.20032194591708596, "p10": 0.10852906074784001, "worst": 0.07922115152155573, "drawdown": -0.18518087044289355, "sharpe": 1.0014847806246618, "fees": 2536.43, "mean_exposure": 0.8703101326706069, "worst_mean_exposure": 0.8572027735660203, "worst_low_fraction": 0.0, "max_flat_streak": 0, "flat_days_total": 0}, "audit": {"count": 24, "median": 0.2207790861160761, "p10": 0.1751979627611231, "worst": 0.14828667254209882, "drawdown": -0.14170463884055617, "sharpe": 1.0589368950236402, "fees": 2838.2149999999997, "mean_exposure": 0.85870469074877, "worst_mean_exposure": 0.8477692890984877, "worst_low_fraction": 0.0, "max_flat_streak": 0, "flat_days_total": 0}, "stress": {"count": 24, "median": 0.17975334293698497, "p10": 0.1390067398526617, "worst": 0.11267916950284995, "drawdown": -0.14907333022407565, "sharpe": 0.8445973153886084, "fees": 3919.6449999999995, "mean_exposure": 0.8586420678225809, "worst_mean_exposure": 0.8518629434254956, "worst_low_fraction": 0.0, "max_flat_streak": 0, "flat_days_total": 0}}, "W05": {"bridge": {"count": 8, "median": 0.19569400754136335, "p10": 0.09811388379017257, "worst": 0.0784781564108461, "drawdown": -0.1791875182257091, "sharpe": 0.9631960492437203, "fees": 2533.855, "mean_exposure": 0.8693141862666852, "worst_mean_exposure": 0.8600393122242317, "worst_low_fraction": 0.0, "max_flat_streak": 0, "flat_days_total": 0}, "audit": {"count": 24, "median": 0.22313529336178262, "p10": 0.1717665403822088, "worst": 0.1476675332403543, "drawdown": -0.1381468445311529, "sharpe": 1.0489763253731323, "fees": 2856.1349999999998, "mean_exposure": 0.8569636586016625, "worst_mean_exposure": 0.8516661979119352, "worst_low_fraction": 0.0, "max_flat_streak": 0, "flat_days_total": 0}, "stress": {"count": 24, "median": 0.17546800171586197, "p10": 0.13625163033569904, "worst": 0.11060500395768669, "drawdown": -0.1470270838258858, "sharpe": 0.8095007948228371, "fees": 3916.71, "mean_exposure": 0.8585090524271451, "worst_mean_exposure": 0.85261535022459, "worst_low_fraction": 0.0, "max_flat_streak": 0, "flat_days_total": 0}}}
+目标检查：{"W07": {"checks": {"full_sharpe": false, "audit_sharpe": true, "bridge_sharpe": true, "full_risk_return": false, "audit_risk_return": true, "stress": true, "invested": true}, "passed": false}, "W05": {"checks": {"full_sharpe": false, "audit_sharpe": true, "bridge_sharpe": false, "full_risk_return": false, "audit_risk_return": true, "stress": true, "invested": true}, "passed": false}}
+10万元，2020-01-02至2026-09-11；平台公式Rf暂按2%。24开发/8中段/24后段起点各24个月；压力佣金、最低费用、滑点翻倍。已见历史且窗口重叠，不是独立样本外，平台分钟成交仍未复现。原策略未覆盖。

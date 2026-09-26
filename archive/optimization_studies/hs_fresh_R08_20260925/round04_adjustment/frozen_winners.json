@@ -1,0 +1,26 @@
+[
+  {
+    "id": "D44",
+    "family": "carry_trend",
+    "size": "mid",
+    "cadence": "bimonthly",
+    "interval": 40,
+    "count": 12,
+    "buffer": 24,
+    "exposure": 0.85,
+    "power": 0.5,
+    "minimum": 1500
+  },
+  {
+    "id": "D42",
+    "family": "carry_trend",
+    "size": "mid",
+    "cadence": "monthly",
+    "interval": 20,
+    "count": 12,
+    "buffer": 24,
+    "exposure": 0.85,
+    "power": 0.5,
+    "minimum": 1500
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "underlying_candidates": 5340,
+  "underlying_prediction_start": "2023-01-01",
+  "initial_scoring_history": "2023",
+  "meta_validation": "2024",
+  "final_evaluation": "2025 onward",
+  "lookbacks": [
+    21,
+    63,
+    126,
+    252
+  ],
+  "reselection": [
+    "M",
+    "Q"
+  ],
+  "top_n": [
+    1,
+    3,
+    10
+  ],
+  "scores": [
+    "return",
+    "calmar"
+  ],
+  "meta_objective": "maximum 2024 net CAGR, no risk cap",
+  "market_timing": "select using prior session and earlier performance; vote using today close; trade next open",
+  "contamination": "adaptive family added after inspecting failed static out-of-period results; exploratory only"
+}

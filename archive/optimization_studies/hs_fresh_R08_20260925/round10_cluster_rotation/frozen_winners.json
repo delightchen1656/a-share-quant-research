@@ -1,0 +1,41 @@
+[
+  {
+    "id": "K24",
+    "family": "8_cold",
+    "size": "mid",
+    "cadence": "bimonthly",
+    "interval": 40,
+    "count": 12,
+    "buffer": 24,
+    "exposure": 0.85,
+    "power": 0,
+    "minimum": 1500,
+    "affordable": true
+  },
+  {
+    "id": "K27",
+    "family": "16_strong",
+    "size": "all",
+    "cadence": "bimonthly",
+    "interval": 40,
+    "count": 8,
+    "buffer": 16,
+    "exposure": 0.85,
+    "power": 0,
+    "minimum": 1500,
+    "affordable": true
+  },
+  {
+    "id": "K23",
+    "family": "8_cold",
+    "size": "mid",
+    "cadence": "bimonthly",
+    "interval": 40,
+    "count": 8,
+    "buffer": 16,
+    "exposure": 0.85,
+    "power": 0,
+    "minimum": 1500,
+    "affordable": true
+  }
+]

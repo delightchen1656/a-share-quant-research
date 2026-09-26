@@ -1,0 +1,26 @@
+{
+  "chosen": {
+    "lookback": 252,
+    "frequency": "M",
+    "top_n": 1,
+    "score": "calmar"
+  },
+  "selected_at": "2026-09-18T00:02:34.891618",
+  "validation": "2024 only",
+  "validation_stats": {
+    "lookback": 252,
+    "frequency": "M",
+    "top_n": 1,
+    "score": "calmar",
+    "total_return": 0.4477292226999996,
+    "cagr": 0.44956986440200386,
+    "max_drawdown": -0.29659453662533697,
+    "final_equity": 144772.92226999995,
+    "buy_count": 7.0,
+    "sell_count": 7.0,
+    "total_fees": 904.07773,
+    "invested_day_fraction": 0.16942148760330578
+  },
+  "candidate_count": 48,
+  "code_sha256": "e526fa2d2ae782d3ec9e6a06cb360515b6a63cf4d8edeb221c08ea13855e9a52"
+}

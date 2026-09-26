@@ -1,0 +1,152 @@
+{
+  "configs": [
+    {
+      "cadence": "monthly",
+      "signal": "regime",
+      "buffer": 24,
+      "minimum": 3000,
+      "count": 6,
+      "power": 1.0,
+      "exposure": 0.8,
+      "name": "control",
+      "label": "月度6只原候选",
+      "family": "control"
+    },
+    {
+      "cadence": "monthly",
+      "signal": "regime",
+      "buffer": 24,
+      "minimum": 3000,
+      "count": 5,
+      "power": 1.0,
+      "exposure": 0.8,
+      "name": "count_5",
+      "label": "count=5",
+      "family": "count"
+    },
+    {
+      "cadence": "monthly",
+      "signal": "regime",
+      "buffer": 24,
+      "minimum": 3000,
+      "count": 7,
+      "power": 1.0,
+      "exposure": 0.8,
+      "name": "count_7",
+      "label": "count=7",
+      "family": "count"
+    },
+    {
+      "cadence": "monthly",
+      "signal": "regime",
+      "buffer": 20,
+      "minimum": 3000,
+      "count": 6,
+      "power": 1.0,
+      "exposure": 0.8,
+      "name": "buffer_20",
+      "label": "buffer=20",
+      "family": "buffer"
+    },
+    {
+      "cadence": "monthly",
+      "signal": "regime",
+      "buffer": 28,
+      "minimum": 3000,
+      "count": 6,
+      "power": 1.0,
+      "exposure": 0.8,
+      "name": "buffer_28",
+      "label": "buffer=28",
+      "family": "buffer"
+    },
+    {
+      "cadence": "monthly",
+      "signal": "regime",
+      "buffer": 24,
+      "minimum": 3000,
+      "count": 6,
+      "power": 1.0,
+      "exposure": 0.75,
+      "name": "exposure_0.75",
+      "label": "exposure=0.75",
+      "family": "exposure"
+    },
+    {
+      "cadence": "monthly",
+      "signal": "regime",
+      "buffer": 24,
+      "minimum": 3000,
+      "count": 6,
+      "power": 1.0,
+      "exposure": 0.85,
+      "name": "exposure_0.85",
+      "label": "exposure=0.85",
+      "family": "exposure"
+    },
+    {
+      "cadence": "monthly",
+      "signal": "regime",
+      "buffer": 24,
+      "minimum": 2000,
+      "count": 6,
+      "power": 1.0,
+      "exposure": 0.8,
+      "name": "minimum_2000",
+      "label": "minimum=2000",
+      "family": "minimum"
+    },
+    {
+      "cadence": "monthly",
+      "signal": "regime",
+      "buffer": 24,
+      "minimum": 4000,
+      "count": 6,
+      "power": 1.0,
+      "exposure": 0.8,
+      "name": "minimum_4000",
+      "label": "minimum=4000",
+      "family": "minimum"
+    },
+    {
+      "cadence": "monthly",
+      "signal": "regime",
+      "buffer": 24,
+      "minimum": 3000,
+      "count": 6,
+      "power": 0.75,
+      "exposure": 0.8,
+      "name": "power_0.75",
+      "label": "power=0.75",
+      "family": "power"
+    },
+    {
+      "cadence": "monthly",
+      "signal": "regime",
+      "buffer": 24,
+      "minimum": 3000,
+      "count": 6,
+      "power": 1.25,
+      "exposure": 0.8,
+      "name": "power_1.25",
+      "label": "power=1.25",
+      "family": "power"
+    }
+  ],
+  "cash": 100000,
+  "holdings": 6,
+  "exposure": 0.8,
+  "development": "monthly starts 2020-2021; each 24 months, all observations end before 2024",
+  "audit": "monthly starts Jan-Aug 2024, each 24 months; already-seen history, not pristine OOS",
+  "selection": "Development only: BOTH neighbors in family must have P10 >= control-1pp, median >= control-1pp and drawdown >= control-2pp. Eligible family candidate requires P10 improvement, median >= control-1pp, worst MDD >= control-2pp; rank P10 then median. Freeze one finalist before audit. No audit-driven reselection.",
+  "stress": "Finalist and control: double commission, minimum commission and slippage; stamp tax unchanged.",
+  "acceptance": "Audit P10 improvement, median >= control-1pp, worst MDD >= control-2pp, and stress P10 improvement in both periods.",
+  "schedule_scope": "Monthly first-session cache proxy, NOT exact next-session/day-of-month deployed version.",
+  "approximation": "User authorizes provisional research despite failed parity. Keep small-corporate-action correction, 0.2% one-way slippage and original fees; no fitting to screenshot returns. Daily opening-price proxy, not minute replication.",
+  "limitations": [
+    "Fixed historical universe and approximate corporate actions.",
+    "Overlapping windows are dependent.",
+    "Month-start signals only; no claim of arbitrary day-of-month robustness.",
+    "No baseline overwrite, no automatic platform promotion."
+  ]
+}

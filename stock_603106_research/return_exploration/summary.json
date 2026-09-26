@@ -1,0 +1,220 @@
+{
+  "data_last": "2026-09-17",
+  "candidate_count": 5340,
+  "selected": {
+    "timestamp": "2026-09-17T23:58:25.883983",
+    "champion": {
+      "family": "hgb3",
+      "horizon": 5,
+      "label_threshold": 0,
+      "window": 504,
+      "entry": 0.45,
+      "exit": 0.4,
+      "gate": false,
+      "policy": "min21",
+      "min_days": 21,
+      "max_days": 0,
+      "stop": 0,
+      "trail": 0,
+      "id": 3147
+    },
+    "balanced": {
+      "family": "hgb3",
+      "horizon": 5,
+      "label_threshold": 0,
+      "window": 504,
+      "entry": 0.45,
+      "exit": 0.4,
+      "gate": false,
+      "policy": "min21",
+      "min_days": 21,
+      "max_days": 0,
+      "stop": 0,
+      "trail": 0,
+      "id": 3147
+    },
+    "top10": [
+      3147,
+      1873,
+      1083,
+      3145,
+      3426,
+      2795,
+      3424,
+      1816,
+      2792,
+      1610
+    ],
+    "candidates": 5340,
+    "selection_last_date": "2024-12-31",
+    "code_sha256": "b8536eb15163c4391c5ca8792b2d0d824aa493b86f7a72617de5f56377493871",
+    "manifest_sha256": "a09b94a0eab4da79e9181a96a12abebcf3703b006a840769457c9afd6b4352c9"
+  },
+  "results": {
+    "cagr_champion": {
+      "total_return": -0.011352670299999423,
+      "cagr": -0.006671513995222589,
+      "max_drawdown": -0.5239473157437686,
+      "final_equity": 98864.73297000006,
+      "buy_count": 9.0,
+      "sell_count": 8.0,
+      "total_fees": 1026.66703,
+      "invested_day_fraction": 0.8701923076923077,
+      "min_holding_days": 29,
+      "median_holding_days": 43.5,
+      "max_holding_days": 211
+    },
+    "cagr_champion_validation": {
+      "total_return": 4.0613773889,
+      "cagr": 1.2560234673737423,
+      "max_drawdown": -0.42400329626013844,
+      "final_equity": 506137.73889000004,
+      "buy_count": 12.0,
+      "sell_count": 11.0,
+      "total_fees": 2498.2611100000004,
+      "invested_day_fraction": 0.6921487603305785,
+      "min_holding_days": 29,
+      "median_holding_days": 38.0,
+      "max_holding_days": 113
+    },
+    "balanced_years": {
+      "total_return": -0.011352670299999423,
+      "cagr": -0.006671513995222589,
+      "max_drawdown": -0.5239473157437686,
+      "final_equity": 98864.73297000006,
+      "buy_count": 9.0,
+      "sell_count": 8.0,
+      "total_fees": 1026.66703,
+      "invested_day_fraction": 0.8701923076923077,
+      "min_holding_days": 29,
+      "median_holding_days": 43.5,
+      "max_holding_days": 211
+    },
+    "balanced_years_validation": {
+      "total_return": 4.0613773889,
+      "cagr": 1.2560234673737423,
+      "max_drawdown": -0.42400329626013844,
+      "final_equity": 506137.73889000004,
+      "buy_count": 12.0,
+      "sell_count": 11.0,
+      "total_fees": 2498.2611100000004,
+      "invested_day_fraction": 0.6921487603305785,
+      "min_holding_days": 29,
+      "median_holding_days": 38.0,
+      "max_holding_days": 113
+    },
+    "champion_stress": {
+      "total_return": -0.03999838360000063,
+      "cagr": -0.023647873145641096,
+      "max_drawdown": -0.5273520444099224,
+      "final_equity": 96000.16163999993,
+      "buy_count": 9.0,
+      "sell_count": 8.0,
+      "total_fees": 1010.6383600000001,
+      "invested_day_fraction": 0.8701923076923077,
+      "min_holding_days": 29,
+      "median_holding_days": 43.5,
+      "max_holding_days": 211
+    },
+    "top10_vote": {
+      "total_return": -0.04447950580000015,
+      "cagr": -0.026322378997122642,
+      "max_drawdown": -0.5328319917974371,
+      "final_equity": 95552.04941999998,
+      "buy_count": 6.0,
+      "sell_count": 5.0,
+      "total_fees": 720.5505800000001,
+      "invested_day_fraction": 0.75,
+      "min_holding_days": 2,
+      "median_holding_days": 14.0,
+      "max_holding_days": 332
+    },
+    "buy_hold": {
+      "total_return": -0.05872984190000008,
+      "cagr": -0.03486221849700166,
+      "max_drawdown": -0.5325638833612052,
+      "sharpe": 0.20295453060179314,
+      "final_equity": 94127.01581,
+      "exposure": 0.997508482872115,
+      "buy_count": 1,
+      "sell_count": 0,
+      "total_fees": 30.984189999999998
+    },
+    "previous_monthly": {
+      "total_return": 0.49412316430000014,
+      "cagr": 0.26543130757073663,
+      "max_drawdown": -0.32085656041683763,
+      "sharpe": 1.0095364492924206,
+      "final_equity": 149412.31643,
+      "exposure": 0.2613878225612607,
+      "buy_count": 2,
+      "sell_count": 2,
+      "total_fees": 310.28357,
+      "closed_positions": 2,
+      "min_holding_days": 66,
+      "median_holding_days": 81.5,
+      "max_holding_days": 97,
+      "period_start": "2025-01-02",
+      "period_end": "2026-09-17",
+      "open_shares": 0
+    }
+  },
+  "yearly": [
+    {
+      "strategy": "cagr_champion",
+      "year": 2025,
+      "return_": 0.2894649608000006
+    },
+    {
+      "strategy": "cagr_champion",
+      "year": 2026,
+      "return_": -0.23328872070581042
+    },
+    {
+      "strategy": "balanced_years",
+      "year": 2025,
+      "return_": 0.2894649608000006
+    },
+    {
+      "strategy": "balanced_years",
+      "year": 2026,
+      "return_": -0.23328872070581042
+    },
+    {
+      "strategy": "top10_vote",
+      "year": 2025,
+      "return_": 0.5849076852999999
+    },
+    {
+      "strategy": "top10_vote",
+      "year": 2026,
+      "return_": -0.3971128394022938
+    },
+    {
+      "strategy": "buy_hold",
+      "year": 2025,
+      "return_": 0.3608781581
+    },
+    {
+      "strategy": "buy_hold",
+      "year": 2026,
+      "return_": -0.30833620005029605
+    },
+    {
+      "strategy": "previous_monthly",
+      "year": 2025,
+      "return_": 0.4188788908000003
+    },
+    {
+      "strategy": "previous_monthly",
+      "year": 2026,
+      "return_": 0.0530307935285268
+    }
+  ],
+  "checks": {
+    "vector_ledger_matches_reference": true,
+    "training_labels_purged": true,
+    "selection_excludes_later_period": true,
+    "prefix_invariance": true
+  }
+}

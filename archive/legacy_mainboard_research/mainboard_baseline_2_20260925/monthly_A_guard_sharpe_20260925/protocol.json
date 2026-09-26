@@ -1,0 +1,60 @@
+{
+  "configs": [
+    {
+      "id": "BASE",
+      "strict": false
+    },
+    {
+      "id": "D1",
+      "strict": true,
+      "guard": [
+        0.06,
+        10
+      ]
+    },
+    {
+      "id": "D2",
+      "strict": true,
+      "guard": [
+        0.06,
+        20
+      ]
+    },
+    {
+      "id": "D3",
+      "strict": true,
+      "guard": [
+        0.1,
+        10
+      ]
+    },
+    {
+      "id": "D4",
+      "strict": true,
+      "guard": [
+        0.1,
+        20
+      ]
+    },
+    {
+      "id": "D5",
+      "strict": true,
+      "guard": [
+        0.14,
+        10
+      ]
+    },
+    {
+      "id": "D6",
+      "strict": true,
+      "guard": [
+        0.14,
+        20
+      ]
+    }
+  ],
+  "rf": 0.02,
+  "selection": "Freeze top2 devSharpe with annual>=BASE-2pp,P10>=BASE-1pp,DD>=BASE-2pp. Prior NAV drawdown6/10/14%,cooldown10/20trading sessions;no leverage;strict6targets;cash earns0.",
+  "goal": "Full and audit median Sharpe>=1;annual>=BASE-2pp,DD>=BASE-2pp;stressSharpe>=BASE-.02,annual>=BASE-2pp.",
+  "caveats": "Explicit additional branch after prior failures;history repeatedly seen and windows overlapping;daily execution and action approximations;not platform parity. Sell next open subject to limits;retry while paused;resume only on scheduled monthly date."
+}

@@ -1,0 +1,120 @@
+{
+  "configs": [
+    {
+      "id": "BASE",
+      "strict": false
+    },
+    {
+      "id": "F1",
+      "strict": true,
+      "guard": [
+        0.08,
+        20
+      ],
+      "power": 0.0
+    },
+    {
+      "id": "F2",
+      "strict": true,
+      "guard": [
+        0.08,
+        20
+      ],
+      "power": 0.5
+    },
+    {
+      "id": "F3",
+      "strict": true,
+      "guard": [
+        0.08,
+        40
+      ],
+      "power": 0.0
+    },
+    {
+      "id": "F4",
+      "strict": true,
+      "guard": [
+        0.08,
+        40
+      ],
+      "power": 0.5
+    },
+    {
+      "id": "F5",
+      "strict": true,
+      "guard": [
+        0.1,
+        20
+      ],
+      "power": 0.0
+    },
+    {
+      "id": "F6",
+      "strict": true,
+      "guard": [
+        0.1,
+        20
+      ],
+      "power": 0.5
+    },
+    {
+      "id": "F7",
+      "strict": true,
+      "guard": [
+        0.1,
+        40
+      ],
+      "power": 0.0
+    },
+    {
+      "id": "F8",
+      "strict": true,
+      "guard": [
+        0.1,
+        40
+      ],
+      "power": 0.5
+    },
+    {
+      "id": "F9",
+      "strict": true,
+      "guard": [
+        0.12,
+        20
+      ],
+      "power": 0.0
+    },
+    {
+      "id": "F10",
+      "strict": true,
+      "guard": [
+        0.12,
+        20
+      ],
+      "power": 0.5
+    },
+    {
+      "id": "F11",
+      "strict": true,
+      "guard": [
+        0.12,
+        40
+      ],
+      "power": 0.0
+    },
+    {
+      "id": "F12",
+      "strict": true,
+      "guard": [
+        0.12,
+        40
+      ],
+      "power": 0.5
+    }
+  ],
+  "rf": 0.02,
+  "selection": "Freeze top2 devSharpe with annual>=BASE-2pp,P10>=BASE-1pp,DD>=BASE-2pp. Prior NAV drawdown8/10/12%,cooldown20/40trading sessions,power0/.5;no leverage;strict6targets;cash earns0. Adaptive refinement after D4 results, not independent confirmation.",
+  "goal": "Full and audit median Sharpe>=1;annual>=BASE-2pp,DD>=BASE-2pp;stressSharpe>=BASE-.02,annual>=BASE-2pp.",
+  "caveats": "Explicit additional branch after prior failures;history repeatedly seen and windows overlapping;daily execution and action approximations;not platform parity. Sell next open subject to limits;retry while paused;resume only on scheduled monthly date."
+}

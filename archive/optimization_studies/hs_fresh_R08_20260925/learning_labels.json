@@ -1,0 +1,7 @@
+{
+  "rows": 3840248,
+  "start": "2019-01-11 00:00:00",
+  "end": "2026-09-11 00:00:00",
+  "purpose": "Training only:future5/20sessionqfqclose returns,each with label_end. Never use a row for training until label_end strictly before model fit date.",
+  "warning": "Labels are gross adjusted-close proxy,not realizable execution returns. Delisted terminal value0 and suspended prices stale-marked;execution remains cash/fees/raw-price ledger. Requires prefix and cutoff tests before training. No model trained yet."
+}

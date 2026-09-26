@@ -1,0 +1,69 @@
+{
+  "configs": [
+    {
+      "id": "B00",
+      "name": "原月初A",
+      "strict": false
+    },
+    {
+      "id": "S01",
+      "name": "严格6只"
+    },
+    {
+      "id": "S02",
+      "name": "等权",
+      "power": 0
+    },
+    {
+      "id": "S03",
+      "name": "降低分红依赖",
+      "ranking": "low_div"
+    },
+    {
+      "id": "S04",
+      "name": "去除分红因子",
+      "ranking": "no_div"
+    },
+    {
+      "id": "S05",
+      "name": "弱市增加趋势项",
+      "ranking": "weak_trend"
+    },
+    {
+      "id": "S06",
+      "name": "市场波动降仓",
+      "exposure_mode": "vol"
+    },
+    {
+      "id": "S07",
+      "name": "均线趋势过滤",
+      "ranking": "trend_filter"
+    },
+    {
+      "id": "S08",
+      "name": "扩大保留缓冲",
+      "buffer": 40
+    },
+    {
+      "id": "S09",
+      "name": "减少小额调仓",
+      "minimum": 5000
+    },
+    {
+      "id": "S10",
+      "name": "弱市温和降仓",
+      "exposure_mode": "weak"
+    }
+  ],
+  "selection": "Freeze up to two highest (annual gain/.02 + Sharpe gain/.1) among development gate passers against B00. No audit reselection.",
+  "gate": "Median annual +.1pp; median Sharpe +.01; P10 not worse by1pp; worstDD not worse by2pp.",
+  "windows": "24 development 2020/21 starts;24 audit 2024 starts;24months each; same offsets as prior100. Already seen and overlapping, not pristine OOS.",
+  "limitations": "Incomplete pre2018 warmup; daily open/volume proxy; some corporate action payment dates approximated; no platform parity. Strict target on all S variants; B00 unchanged. Full period only after freezing.",
+  "screenshot": {
+    "return_pct": 121.06,
+    "annual_pct": 12.91,
+    "sharpe": 0.61,
+    "max_drawdown_pct": 19.94,
+    "date_range": "Not identifiable from screenshot; not used to calibrate local parameters."
+  }
+}

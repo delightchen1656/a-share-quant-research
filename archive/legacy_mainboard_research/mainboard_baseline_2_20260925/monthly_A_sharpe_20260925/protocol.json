@@ -1,0 +1,450 @@
+{
+  "configs": [
+    {
+      "id": "BASE",
+      "style": "base",
+      "count": 6,
+      "power": 0.5,
+      "strong": 0.8,
+      "weak": 0.8,
+      "strict": false
+    },
+    {
+      "id": "H01",
+      "style": "base",
+      "count": 6,
+      "power": 0.5,
+      "strong": 0.5,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H02",
+      "style": "base",
+      "count": 6,
+      "power": 0.5,
+      "strong": 0.65,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H03",
+      "style": "base",
+      "count": 6,
+      "power": 0.5,
+      "strong": 0.8,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H04",
+      "style": "base",
+      "count": 6,
+      "power": 0.5,
+      "strong": 0.8,
+      "weak": 0.5,
+      "strict": true
+    },
+    {
+      "id": "H05",
+      "style": "base",
+      "count": 6,
+      "power": 1.0,
+      "strong": 0.5,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H06",
+      "style": "base",
+      "count": 6,
+      "power": 1.0,
+      "strong": 0.65,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H07",
+      "style": "base",
+      "count": 6,
+      "power": 1.0,
+      "strong": 0.8,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H08",
+      "style": "base",
+      "count": 6,
+      "power": 1.0,
+      "strong": 0.8,
+      "weak": 0.5,
+      "strict": true
+    },
+    {
+      "id": "H09",
+      "style": "base",
+      "count": 10,
+      "power": 0.5,
+      "strong": 0.5,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H10",
+      "style": "base",
+      "count": 10,
+      "power": 0.5,
+      "strong": 0.65,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H11",
+      "style": "base",
+      "count": 10,
+      "power": 0.5,
+      "strong": 0.8,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H12",
+      "style": "base",
+      "count": 10,
+      "power": 0.5,
+      "strong": 0.8,
+      "weak": 0.5,
+      "strict": true
+    },
+    {
+      "id": "H13",
+      "style": "base",
+      "count": 10,
+      "power": 1.0,
+      "strong": 0.5,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H14",
+      "style": "base",
+      "count": 10,
+      "power": 1.0,
+      "strong": 0.65,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H15",
+      "style": "base",
+      "count": 10,
+      "power": 1.0,
+      "strong": 0.8,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H16",
+      "style": "base",
+      "count": 10,
+      "power": 1.0,
+      "strong": 0.8,
+      "weak": 0.5,
+      "strict": true
+    },
+    {
+      "id": "H17",
+      "style": "quality",
+      "count": 6,
+      "power": 0.5,
+      "strong": 0.5,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H18",
+      "style": "quality",
+      "count": 6,
+      "power": 0.5,
+      "strong": 0.65,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H19",
+      "style": "quality",
+      "count": 6,
+      "power": 0.5,
+      "strong": 0.8,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H20",
+      "style": "quality",
+      "count": 6,
+      "power": 0.5,
+      "strong": 0.8,
+      "weak": 0.5,
+      "strict": true
+    },
+    {
+      "id": "H21",
+      "style": "quality",
+      "count": 6,
+      "power": 1.0,
+      "strong": 0.5,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H22",
+      "style": "quality",
+      "count": 6,
+      "power": 1.0,
+      "strong": 0.65,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H23",
+      "style": "quality",
+      "count": 6,
+      "power": 1.0,
+      "strong": 0.8,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H24",
+      "style": "quality",
+      "count": 6,
+      "power": 1.0,
+      "strong": 0.8,
+      "weak": 0.5,
+      "strict": true
+    },
+    {
+      "id": "H25",
+      "style": "quality",
+      "count": 10,
+      "power": 0.5,
+      "strong": 0.5,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H26",
+      "style": "quality",
+      "count": 10,
+      "power": 0.5,
+      "strong": 0.65,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H27",
+      "style": "quality",
+      "count": 10,
+      "power": 0.5,
+      "strong": 0.8,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H28",
+      "style": "quality",
+      "count": 10,
+      "power": 0.5,
+      "strong": 0.8,
+      "weak": 0.5,
+      "strict": true
+    },
+    {
+      "id": "H29",
+      "style": "quality",
+      "count": 10,
+      "power": 1.0,
+      "strong": 0.5,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H30",
+      "style": "quality",
+      "count": 10,
+      "power": 1.0,
+      "strong": 0.65,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H31",
+      "style": "quality",
+      "count": 10,
+      "power": 1.0,
+      "strong": 0.8,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H32",
+      "style": "quality",
+      "count": 10,
+      "power": 1.0,
+      "strong": 0.8,
+      "weak": 0.5,
+      "strict": true
+    },
+    {
+      "id": "H33",
+      "style": "balanced",
+      "count": 6,
+      "power": 0.5,
+      "strong": 0.5,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H34",
+      "style": "balanced",
+      "count": 6,
+      "power": 0.5,
+      "strong": 0.65,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H35",
+      "style": "balanced",
+      "count": 6,
+      "power": 0.5,
+      "strong": 0.8,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H36",
+      "style": "balanced",
+      "count": 6,
+      "power": 0.5,
+      "strong": 0.8,
+      "weak": 0.5,
+      "strict": true
+    },
+    {
+      "id": "H37",
+      "style": "balanced",
+      "count": 6,
+      "power": 1.0,
+      "strong": 0.5,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H38",
+      "style": "balanced",
+      "count": 6,
+      "power": 1.0,
+      "strong": 0.65,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H39",
+      "style": "balanced",
+      "count": 6,
+      "power": 1.0,
+      "strong": 0.8,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H40",
+      "style": "balanced",
+      "count": 6,
+      "power": 1.0,
+      "strong": 0.8,
+      "weak": 0.5,
+      "strict": true
+    },
+    {
+      "id": "H41",
+      "style": "balanced",
+      "count": 10,
+      "power": 0.5,
+      "strong": 0.5,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H42",
+      "style": "balanced",
+      "count": 10,
+      "power": 0.5,
+      "strong": 0.65,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H43",
+      "style": "balanced",
+      "count": 10,
+      "power": 0.5,
+      "strong": 0.8,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H44",
+      "style": "balanced",
+      "count": 10,
+      "power": 0.5,
+      "strong": 0.8,
+      "weak": 0.5,
+      "strict": true
+    },
+    {
+      "id": "H45",
+      "style": "balanced",
+      "count": 10,
+      "power": 1.0,
+      "strong": 0.5,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H46",
+      "style": "balanced",
+      "count": 10,
+      "power": 1.0,
+      "strong": 0.65,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H47",
+      "style": "balanced",
+      "count": 10,
+      "power": 1.0,
+      "strong": 0.8,
+      "weak": 0.8,
+      "strict": true
+    },
+    {
+      "id": "H48",
+      "style": "balanced",
+      "count": 10,
+      "power": 1.0,
+      "strong": 0.8,
+      "weak": 0.5,
+      "strict": true
+    }
+  ],
+  "rf": 0.02,
+  "objective": "Sharpe-first. Freeze top2 DEV Sharpe with median annual>=BASE-2pp,P10>=BASE-1pp,worstDD>=BASE-2pp; do not require DEV1.0 to test near misses. No audit reselection.",
+  "goal": "Full-period Sharpe>=1 AND audit-median Sharpe>=1 AND bridge-median Sharpe>=1; full annual>=BASE-2pp and fullDD>=BASE-2pp; audit annual>=BASE-2pp,P10>=BASE-1pp,DD>=BASE-2pp; stressSharpe>=BASE-.02 and annual>=BASE-2pp; opposite-power dev neighbor Sharpe>=BASE-.02 and annual>=BASE-2pp.",
+  "metrics": "250day geometric annual/population volatility;Rf=2%fixed, not vendor-exact. No RF/metric manipulation to cross1.",
+  "data": "Same already-seen overlapping24dev+8bridge+24audit windows,24months each. Approx daily fills/actions, early history gaps;no platform parity. Strong/weak allocation only on monthly rebalance. Original platform script untouched."
+}
