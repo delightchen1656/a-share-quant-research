@@ -10,9 +10,9 @@
 | 科创2-2 | 行业升温防守；承接熊市缩仓与分散逻辑 | `supermind_baseline_2_2_rising_defense.py` |
 | 科创3-1 | 高进攻强势延持 | `supermind_baseline_3_1_high_attack_adaptive_expiry.py` |
 
-科创3-1另保留标准日频版 `supermind_baseline_3_1_high_attack_adaptive_expiry_daily.py`。120k、dynamic20等派生版本不属于当前核心，已删除。
+科创3-1另保留标准日频版 `supermind_baseline_3_1_high_attack_adaptive_expiry_daily.py`。120k、dynamic20等派生版本不属于当前核心，已移至根目录 `research_versions/kechuang_high_attack/`。
 
-三条科创基准仍在使用的模型训练源码保存在 [`training_source/`](training_source/README.md)：包括主上涨模型、先止损模型、季度熊市概率模型及科创2-2最终行业温度门控。该目录不得在常规归档清理中删除。科创3-1的阶段筛选代码已由独立历史Markdown替代；科创3-1已完成并冻结。
+三条科创基准仍在使用的模型训练源码保存在 [`training_source/`](training_source/README.md)：包括主上涨模型、先止损模型、季度熊市概率模型及科创2-2最终行业温度门控。该目录不得在常规归档清理中删除。科创3-1的20方向与10结构方向代码保存在根目录研究版本归档；批量结果和缓存不保留。科创3-1已完成并冻结。
 
 平台通常使用股票策略、日频和科创50基准 `000688.SH`。具体资金口径以每次研究任务明确指定为准，不能把一次50万元比较永久写成所有策略的默认本金。
 

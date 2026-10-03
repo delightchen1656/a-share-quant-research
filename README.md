@@ -1,53 +1,64 @@
-# A股量化策略核心仓库
+# A股量化研究仓库
 
-2026-10-03新增用户授权的独立修订版：**科创3-2（强势延持审计修正版）**，平台入口 `strategies/kechuang/supermind_baseline_3_2_audited_daily.py`，说明与测试位于 `strategies/kechuang/baseline_3_2/`。当前四条正式主线保持，3-2作为待平台验证修订版单独维护。
+本仓库当前只设四条正式主线：**科创1-2、科创2-2、科创3-1、沪深1**。科创3-2、沪深D11测试2和沪深1截止2024-11-30重估均为独立候选或验证版本，不自动增加正式基准，也不覆盖冻结入口。
 
-本仓库经过2026-10-03核心整理，只维护四条正式主线：**科创1-2、科创2-2、科创3-1、沪深1**。科创3-2是待平台验证的审计修订候选，不属于第五条正式主线。预测模型训练源码继续保留；历史尝试主要由每个基准自己的Markdown记录，不再保留大批阶段脚本和输出。
+## 当前入口
 
-## 目录
+| 名称 | 状态 | 文件 |
+|---|---|---|
+| 科创1-2 | 正式、冻结 | `strategies/kechuang/supermind_baseline_1_2_stop_filter.py` |
+| 科创2-2 | 正式 | `strategies/kechuang/supermind_baseline_2_2_rising_defense.py` |
+| 科创3-1 | 正式、冻结 | `strategies/kechuang/supermind_baseline_3_1_high_attack_adaptive_expiry.py` |
+| 沪深1 | 正式、冻结对照 | `strategies/hushen/supermind_mainboard_baseline_1.py` |
+| 科创3-2 | 审计修订候选 | `strategies/kechuang/supermind_baseline_3_2_audited_daily.py` |
+| 沪深1截止日重估 | 仅使用2024-11-30前数据重估 | `strategies/hushen/supermind_mainboard_baseline_1_cutoff_20241130.py` |
+| 沪深D11测试2 | 提速候选 | `strategies/hushen/supermind_test2_D11_fast_daily.py` |
+| 沪深D11截止日版 | 测试2的2024-11-30截止重估 | `strategies/hushen/supermind_test2_D11_fast_cutoff_20241130.py` |
+
+科创3-1另保留标准日频版。沪深1为分钟频率、调仓日09:31执行、10万元口径；科创与沪深平台设置不能混用。
+
+## 目录结构
 
 ```text
 quant/
-├── strategies/
-│   ├── kechuang/       # 科创三基准、3-2候选、训练源码和逐基准历史
-│   └── hushen/         # 沪深1、平台测试和历史记录
-├── 国金ptrade/          # 独立保留，供以后单独研究
-├── 量化审查/            # 审查记忆与决定；不作为策略入口
-├── tools/              # 核心文件完整性检查
-├── quant_env/          # 当前本地Python环境，暂不调整
-├── AGENTS.md           # 当前主线和操作边界
-├── requirements.txt
+├── strategies/                 # 当前正式策略、候选、训练源码与当前研究史
+│   ├── kechuang/
+│   └── hushen/
+├── research_versions/          # 从Git恢复的标志性版本和研究版本源码
+│   └── <研究方向>/README.md    # 每个方向仅一份研究说明
+├── evening_accumulation/data/  # 科创原始价/前复权行情，保护资产
+├── sh_sz_market_research/
+│   └── data_pipeline/data/     # 沪深原始价/前复权行情，保护资产
+├── data_updates/               # 行情更新前备份、供应商修正前原件和审计
+├── 国金ptrade/                  # 未来独立研究线
+├── 量化审查/                    # 审查决定与记忆
+├── tools/                      # 完整性检查和行情恢复/更新说明
+├── AGENTS.md                   # 项目边界与保护规则
 └── README.md
 ```
 
-## 正式入口
+## 保存原则
 
-| 当前名称 | 文件 |
-|---|---|
-| 科创1-2 | `strategies/kechuang/supermind_baseline_1_2_stop_filter.py` |
-| 科创2-2 | `strategies/kechuang/supermind_baseline_2_2_rising_defense.py` |
-| 科创3-1 | `strategies/kechuang/supermind_baseline_3_1_high_attack_adaptive_expiry.py` |
-| 沪深1 | `strategies/hushen/supermind_mainboard_baseline_1.py` |
+- 当前可运行入口、模型训练源码、模型实物和受保护行情完整保留。
+- 历史中能代表策略版本、冻结候选或明确研究假设的代码保存在 `research_versions/`。
+- 每个研究方向只用一份Markdown概括代码、策略、研究思路、结论和限制。
+- 中间构建器、下载器、审计器、临时分析器、缓存、日志和大批量回测输出不进入版本归档。
+- 历史代码可能依赖旧路径或已删除数据，仅用于追溯；不能把它当作当前入口。
 
-科创3-1另保留标准日频版。各基准的研究路线从 `strategies/kechuang/HISTORY.md` 和 `strategies/hushen/HISTORY.md` 进入。
+恢复代码的索引见 `research_versions/README.md`。当前基准研究史从 `strategies/kechuang/HISTORY.md` 和 `strategies/hushen/HISTORY.md` 进入。
 
-## 核心源码
+## 核心资产与边界
 
-- 科创预测模型训练：`strategies/kechuang/training_source/`
-- 每个基准的研究思路与尝试方向：`strategies/kechuang/history/`、`strategies/hushen/HISTORY.md`
+- 科创预测模型训练：`strategies/kechuang/training_source/`。主上涨模型、先止损模型、季度熊市模型和科创2-2温度门控不得在常规清理中删除。
+- 科创2-2季度熊市模型有效期截至2026-09-30；进入第四季度必须先更新或核对。
+- 沪深1截止日重估的观测截止2024-11-29、标签最晚2024-11-05；尚无新版平台收益。
+- 行情已更新至2026-09-30。备份和行情均不是普通缓存，即使被Git忽略也不得删除。
+- 本地回测、SuperMind平台回测和实际账户持仓必须分开表述；历史结果不构成收益承诺。
 
-科创3-1已经完成并冻结；它复用科创1-2的两套预测模型，相关训练源码和模型实物必须保留。沪深1是因子与规则策略，不存在独立机器学习训练模型，因此不再保留大批旧轮次研究引擎。
-
-## 运行边界
-
-- 科创策略使用日频平台口径；沪深1使用分钟频率并在调仓日09:31执行，两者不能混用。
-- 科创2-2内嵌季度熊市模型历史有效期截至2026-09-30，进入2026年第四季度后必须先更新或核对。
-- 本地回测、平台回测和实际账户持仓必须分开表述。
-- 历史回测结果不代表未来收益，也不构成投资建议。
-
-## 核心检查
+## 检查
 
 ```powershell
 .\quant_env\Scripts\python.exe .\tools\main.py
 .\quant_env\Scripts\python.exe -m unittest .\strategies\hushen\test_mainboard_baseline_1.py -v
+.\quant_env\Scripts\python.exe -m unittest .\strategies\kechuang\baseline_3_2\test_revision.py -v
 ```

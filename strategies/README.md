@@ -1,10 +1,10 @@
 # 当前策略
 
-本目录是项目唯一的正式策略入口，只维护用户于 2026-10-03 最终确认的四条主线：
+本目录是项目唯一的当前策略入口，只设四条正式主线：
 
 - `kechuang/`：科创1-2、科创2-2、科创3-1；
 - `hushen/`：沪深1（R08 高仓精选 V1.0）。
 
-目录中的顶层Python文件是SuperMind平台交付代码。科创3-2是待平台验证的审计候选，不属于正式第五条主线。
+目录中的顶层Python文件是SuperMind平台交付代码。科创3-2、沪深1截止2024-11-30重估和D11测试2是独立候选或验证版本，不属于新的正式主线。
 
-历史研究不再保留成多层阶段代码：科创从 `kechuang/HISTORY.md` 进入三条正式基准和3-2候选的独立Markdown；沪深1使用 `hushen/HISTORY.md`。预测模型训练源码例外，统一保存在 `kechuang/training_source/`。
+当前研究史从 `kechuang/HISTORY.md` 进入各科创基准，从 `hushen/HISTORY.md` 进入沪深1。预测模型训练源码统一保存在 `kechuang/training_source/`。已退出当前入口、但有版本或研究价值的代码统一位于根目录 `research_versions/`，不在本目录重复存放。

@@ -1,0 +1,11 @@
+{
+  "sessions": 65,
+  "symbols": 36,
+  "ranking_checks": 4,
+  "order_requests": 359,
+  "parity": "PASS",
+  "before_trading_seconds_original": 10.347870899975533,
+  "before_trading_seconds_fast": 2.8729867999936687,
+  "history_calls_each": 66,
+  "caveat": "Synthetic local API mock, not SuperMind fills or platform timing. No full-market outage parity on non-rebalance days."
+}

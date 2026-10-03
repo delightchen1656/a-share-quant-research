@@ -36,6 +36,6 @@
 
 ## 当前保留资产与边界
 
-训练源码位于 `../training_source/`：`train_event_model.py`、`train_stop_model_and_research.py`、`src/`及两份模型文件。模型训练源码和模型实物必须保留，阶段排名代码与批量结果不再保留。
+训练源码位于 `../training_source/`：`train_event_model.py`、`train_stop_model_and_research.py`、`src/`及两份模型文件。模型训练源码和模型实物必须保留。事件平台演进、1-1和1-3标志版本已恢复到根目录 `research_versions/kechuang_event_risk/`；批量结果与缓存不再保留。
 
 2025—2026历史区间曾参与方案比较，不能继续称为完全独立的最终测试集。本地回测、SuperMind回测和实际账户必须分别表述。

@@ -1,0 +1,11 @@
+{
+  "source_sha256": "f7a9fbf475bcb2db009f23c113be30fa747ce726ee42533b56c337e32065bfd8",
+  "export_sha256": "78092c5ae0ba1ad7d43ca7971b828b8b991a327cd6cd525821cb8582c01115be",
+  "weights": [
+    0.3,
+    0.2,
+    0.5
+  ],
+  "entrypoint": "supermind_mainboard_baseline_1_cutoff_20241130.py",
+  "training_cutoff_exclusive": "2024-11-30"
+}

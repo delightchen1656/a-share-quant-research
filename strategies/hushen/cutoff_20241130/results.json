@@ -1,0 +1,268 @@
+{
+  "cutoff_exclusive": "2024-11-30",
+  "maximum_observation_date": "2024-11-29",
+  "maximum_label_date": "2024-11-05",
+  "symbols": 3334,
+  "samples": 18426,
+  "dev_samples": 10964,
+  "validation_samples": 6775,
+  "trials": [
+    {
+      "config": "D0.3_M0.2_V0.5",
+      "weights": [
+        0.3,
+        0.2,
+        0.5
+      ],
+      "dev_mean_ic": 0.11236019212622489,
+      "dev_positive_fraction": 0.7777777777777778,
+      "dev_periods": 18,
+      "distance_original": 0.4
+    },
+    {
+      "config": "D0.3_M0.3_V0.4",
+      "weights": [
+        0.3,
+        0.3,
+        0.4
+      ],
+      "dev_mean_ic": 0.09984711369946182,
+      "dev_positive_fraction": 0.7777777777777778,
+      "dev_periods": 18,
+      "distance_original": 0.20000000000000007
+    },
+    {
+      "config": "D0.4_M0.2_V0.4",
+      "weights": [
+        0.4,
+        0.2,
+        0.4
+      ],
+      "dev_mean_ic": 0.09922615644320555,
+      "dev_positive_fraction": 0.7777777777777778,
+      "dev_periods": 18,
+      "distance_original": 0.2
+    },
+    {
+      "config": "D0.5_M0.2_V0.3",
+      "weights": [
+        0.5,
+        0.2,
+        0.3
+      ],
+      "dev_mean_ic": 0.08376390921172232,
+      "dev_positive_fraction": 0.7777777777777778,
+      "dev_periods": 18,
+      "distance_original": 0.19999999999999996
+    },
+    {
+      "config": "D0.4_M0.3_V0.3",
+      "weights": [
+        0.4,
+        0.3,
+        0.3
+      ],
+      "dev_mean_ic": 0.08207667308584092,
+      "dev_positive_fraction": 0.7777777777777778,
+      "dev_periods": 18,
+      "distance_original": 0.0
+    },
+    {
+      "config": "D0.3_M0.4_V0.3",
+      "weights": [
+        0.3,
+        0.4,
+        0.3
+      ],
+      "dev_mean_ic": 0.07370848580046525,
+      "dev_positive_fraction": 0.7222222222222222,
+      "dev_periods": 18,
+      "distance_original": 0.20000000000000007
+    },
+    {
+      "config": "D0.5_M0.3_V0.2",
+      "weights": [
+        0.5,
+        0.3,
+        0.2
+      ],
+      "dev_mean_ic": 0.063532918788912,
+      "dev_positive_fraction": 0.7222222222222222,
+      "dev_periods": 18,
+      "distance_original": 0.19999999999999996
+    },
+    {
+      "config": "D0.4_M0.4_V0.2",
+      "weights": [
+        0.4,
+        0.4,
+        0.2
+      ],
+      "dev_mean_ic": 0.055846588171030165,
+      "dev_positive_fraction": 0.7222222222222222,
+      "dev_periods": 18,
+      "distance_original": 0.2
+    },
+    {
+      "config": "D0.5_M0.4_V0.1",
+      "weights": [
+        0.5,
+        0.4,
+        0.1
+      ],
+      "dev_mean_ic": 0.04028169692738307,
+      "dev_positive_fraction": 0.6111111111111112,
+      "dev_periods": 18,
+      "distance_original": 0.4
+    }
+  ],
+  "selected": {
+    "config": "D0.3_M0.2_V0.5",
+    "weights": [
+      0.3,
+      0.2,
+      0.5
+    ],
+    "dev_mean_ic": 0.11236019212622489,
+    "dev_positive_fraction": 0.7777777777777778,
+    "dev_periods": 18,
+    "distance_original": 0.4
+  },
+  "validation": [
+    {
+      "signal_date": "2023-02-28",
+      "label_end": "2023-04-26",
+      "n": 745,
+      "ic": 0.25369707655604384,
+      "top12_label_mean": 0.028887413789575156,
+      "universe_label_mean": -0.05873424718273428
+    },
+    {
+      "signal_date": "2023-04-28",
+      "label_end": "2023-06-30",
+      "n": 667,
+      "ic": 0.026676990848713424,
+      "top12_label_mean": 0.0065807361994911955,
+      "universe_label_mean": -0.004909258787565356
+    },
+    {
+      "signal_date": "2023-06-30",
+      "label_end": "2023-08-25",
+      "n": 648,
+      "ic": 0.3688036035932417,
+      "top12_label_mean": 0.002698689020121677,
+      "universe_label_mean": -0.08306386997629825
+    },
+    {
+      "signal_date": "2023-08-31",
+      "label_end": "2023-11-03",
+      "n": 654,
+      "ic": 0.03274965331551621,
+      "top12_label_mean": 0.00638966294088486,
+      "universe_label_mean": -0.020274195035951906
+    },
+    {
+      "signal_date": "2023-10-31",
+      "label_end": "2023-12-26",
+      "n": 626,
+      "ic": 0.17846976907905,
+      "top12_label_mean": -0.038123668404850736,
+      "universe_label_mean": -0.04939545662820074
+    },
+    {
+      "signal_date": "2023-12-29",
+      "label_end": "2024-03-05",
+      "n": 701,
+      "ic": 0.36899564115518374,
+      "top12_label_mean": 0.029287597345805744,
+      "universe_label_mean": -0.0891314221966049
+    },
+    {
+      "signal_date": "2024-02-29",
+      "label_end": "2024-04-29",
+      "n": 843,
+      "ic": 0.3398879755159047,
+      "top12_label_mean": 0.05833467163679008,
+      "universe_label_mean": 0.037104115670401054
+    },
+    {
+      "signal_date": "2024-04-30",
+      "label_end": "2024-07-01",
+      "n": 780,
+      "ic": 0.30277084830024054,
+      "top12_label_mean": 0.05195309108368232,
+      "universe_label_mean": -0.09558296414881172
+    },
+    {
+      "signal_date": "2024-06-28",
+      "label_end": "2024-08-23",
+      "n": 579,
+      "ic": 0.2112003135146001,
+      "top12_label_mean": 0.025941130402184154,
+      "universe_label_mean": -0.07216761200070837
+    },
+    {
+      "signal_date": "2024-08-30",
+      "label_end": "2024-11-05",
+      "n": 532,
+      "ic": -0.38598679430345195,
+      "top12_label_mean": 0.11687189084155546,
+      "universe_label_mean": 0.30904330673744235
+    }
+  ],
+  "validation_mean_ic": 0.16972650775750425,
+  "validation_positive_fraction": 0.9,
+  "missing_terminal_labels": 0,
+  "formula_parity_checks": [
+    {
+      "symbol": "600000.SH",
+      "date": "2024-08-30"
+    },
+    {
+      "symbol": "600004.SH",
+      "date": "2024-08-30"
+    },
+    {
+      "symbol": "600006.SH",
+      "date": "2024-08-30"
+    },
+    {
+      "symbol": "600007.SH",
+      "date": "2024-04-30"
+    },
+    {
+      "symbol": "600008.SH",
+      "date": "2024-08-30"
+    },
+    {
+      "symbol": "600009.SH",
+      "date": "2024-08-30"
+    },
+    {
+      "symbol": "600010.SH",
+      "date": "2024-08-30"
+    },
+    {
+      "symbol": "600011.SH",
+      "date": "2024-08-30"
+    },
+    {
+      "symbol": "600012.SH",
+      "date": "2024-08-30"
+    },
+    {
+      "symbol": "600015.SH",
+      "date": "2024-08-30"
+    },
+    {
+      "symbol": "600016.SH",
+      "date": "2024-08-30"
+    },
+    {
+      "symbol": "600017.SH",
+      "date": "2024-08-30"
+    }
+  ],
+  "protocol_sha256": "bc896f0bd62b9940e3cae2f85e2ebcfcbd3e885eea4cfeacbc1ac20f35c22233",
+  "warning": "IC is not portfolio performance. Framework previously selected using later data; not a pristine historical experiment."
+}

@@ -28,6 +28,7 @@ node_modules/
 *.inspect.ndjson
 preview_*.png
 ~$*
+data_updates/**/checkpoints/
 
 # Quant-review evidence is summarized into Markdown decisions/history.
 量化审查/**/*.csv

@@ -39,6 +39,6 @@
 
 ## 当前保留资产与边界
 
-保留 `../training_source/research_strategy3.py`，因为其中包含季度走步熊市概率模型；保留 `../training_source/industry_temperature/` 中的最终门控、温度构造、基础装载和行业映射。十方向、六方向的重复筛选代码和批量结果由本文记录后删除。
+保留 `../training_source/research_strategy3.py`，因为其中包含季度走步熊市概率模型；保留 `../training_source/industry_temperature/` 中的最终门控、温度构造、基础装载和行业映射。十方向、十门控和六条冻结路线的研究代码已恢复到根目录 `research_versions/kechuang_industry_temperature/`；批量结果和缓存不恢复。
 
 平台代码内嵌季度熊市模型的历史有效期截至2026-09-30。进入2026年第四季度使用前必须重新训练或核对，不能默认模型已经更新。
