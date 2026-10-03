@@ -1,6 +1,45 @@
-import lightgbm
-import numpy as np
-import pandas as pd
+import hashlib
+from pathlib import Path
 
 
-print("Quant project started")
+ROOT = Path(__file__).resolve().parents[1]
+REQUIRED = [
+    ROOT / "strategies/kechuang/supermind_baseline_3_2_audited_daily.py",
+    ROOT / "strategies/kechuang/baseline_3_2/runtime.py",
+    ROOT / "strategies/kechuang/supermind_baseline_1_2_stop_filter.py",
+    ROOT / "strategies/kechuang/supermind_baseline_2_2_rising_defense.py",
+    ROOT / "strategies/kechuang/supermind_baseline_3_1_high_attack_adaptive_expiry.py",
+    ROOT / "strategies/hushen/supermind_mainboard_baseline_1.py",
+    ROOT / "strategies/kechuang/training_source/train_event_model.py",
+    ROOT / "strategies/kechuang/training_source/train_stop_model_and_research.py",
+    ROOT / "strategies/kechuang/training_source/research_strategy3.py",
+    ROOT / "strategies/kechuang/training_source/industry_temperature/frozen_research_code.py",
+    ROOT / "strategies/kechuang/training_source/industry_temperature/temperature_variants.py",
+    ROOT / "strategies/kechuang/training_source/model_artifacts/event_model.joblib",
+    ROOT / "strategies/kechuang/training_source/model_artifacts/stop_risk_model.joblib",
+    ROOT / "strategies/kechuang/history/baseline_1_2.md",
+    ROOT / "strategies/kechuang/history/baseline_2_2.md",
+    ROOT / "strategies/kechuang/history/baseline_3_1.md",
+    ROOT / "strategies/kechuang/history/baseline_3_2_candidate.md",
+    ROOT / "strategies/hushen/HISTORY.md",
+]
+
+missing = [str(path.relative_to(ROOT)) for path in REQUIRED if not path.is_file()]
+if missing:
+    raise SystemExit("Missing current strategy files: " + ", ".join(missing))
+
+EXPECTED_MODEL_HASHES = {
+    ROOT / "strategies/kechuang/training_source/model_artifacts/event_model.joblib":
+        "1f87270f6a8506df79f06b38cacfee6c163dfc20f9eb8ae424c2397d816b0fd4",
+    ROOT / "strategies/kechuang/training_source/model_artifacts/stop_risk_model.joblib":
+        "0cf8fbc48dd6eda524a54ddd14082f44a0b787498983d501160a2fe8f51709d9",
+}
+bad_hashes = []
+for path, expected in EXPECTED_MODEL_HASHES.items():
+    actual = hashlib.sha256(path.read_bytes()).hexdigest()
+    if actual != expected:
+        bad_hashes.append(str(path.relative_to(ROOT)))
+if bad_hashes:
+    raise SystemExit("Changed or damaged model artifacts: " + ", ".join(bad_hashes))
+
+print("Quant core ready: strategy entries, training sources, histories and model hashes verified")

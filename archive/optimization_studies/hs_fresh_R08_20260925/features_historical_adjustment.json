@@ -1,4 +1,0 @@
-{
-  "rows": 3485002,
-  "definition": "Raw previous close/preclose-1;positive0.05..8% events,capped4% each;250observation trailing sum;past3x250 windows eventpresence. Proxy not verified dividend yield;couldinclude small rights/bonus events. Same method covers historically delisted symbols. No trades or ledger cash inferred from this factor."
-}

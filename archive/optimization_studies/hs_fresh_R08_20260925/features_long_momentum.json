@@ -1,5 +1,0 @@
-{
-  "rows": 3485002,
-  "definition": "232log-return sum ending20sessions ago;252session variance/covariance ending20sessions ago,min220; market-adjusted subtracts lagged beta times CSI500 logmomentum; volatility floors1e-6; no future or current industry data",
-  "implementation_sha256": "1a344f531efa42db01f195016adfa61a1eed3b9748138295a92bfacd07f94e27"
-}

@@ -1,4 +1,4 @@
-# Python
+# Python and environments
 __pycache__/
 *.py[cod]
 *.pyd
@@ -6,60 +6,40 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-
-# Virtual environments
 quant_env/
 .venv/
 venv/
 env/
-node_modules/
 
-# Jupyter and editors
+# Local data and generated artifacts
+data/
+outputs/
+cache/
+models/
+node_modules/
+*.parquet
+*.joblib
+!strategies/kechuang/training_source/model_artifacts/event_model.joblib
+!strategies/kechuang/training_source/model_artifacts/stop_risk_model.joblib
+*.log
+*.pid
+*.tmp
+*.bak
+*.inspect.ndjson
+preview_*.png
+~$*
+
+# Quant-review evidence is summarized into Markdown decisions/history.
+量化审查/**/*.csv
+量化审查/**/*.json
+量化审查/**/*.log
+量化审查/**/*.png
+量化审查/**/*.txt
+量化审查/**/*.py
+
+# Editors and operating systems
 .ipynb_checkpoints/
 .vscode/
 .idea/
-
-# Local stock/history data
-/data/
-/evening_accumulation/data/
-# External platform exports: keep only lightweight archive manifests.
-/evening_accumulation/inputs/**
-!/evening_accumulation/inputs/**/
-!/evening_accumulation/inputs/**/MANIFEST.md
-
-# Generated models and backtest outputs
-/evening_accumulation/outputs/
-/evening_accumulation/models/*.joblib
-/star_industry_rotation/outputs/
-/sh_sz_market_research/data_pipeline/data/
-/sh_sz_market_research/data_pipeline/models/
-/sh_sz_market_research/data_pipeline/outputs/
-/sh_sz_market_research/baselines/**/local_backtest/cache/
-/sh_sz_market_research/studies/**/models/
-/sh_sz_market_research/studies/**/outputs/
-/sh_sz_market_research/studies/**/realistic_data/
-/sh_sz_market_research/studies/**/realistic_outputs/
-/sh_sz_market_research/studies/**/upstream/
-/sh_sz_market_research/studies/**/reports/**/*.parquet
-/sh_sz_market_research/studies/**/*.parquet
-/sh_sz_market_research/studies/**/rank_cache/
-/archive/optimization_studies/**/*.parquet
-/archive/optimization_studies/**/rank_cache/
-/archive/legacy_mainboard_research/**/*.parquet
-/stock_603106_research/data/
-/stock_603106_research/models/
-/stock_603106_research/outputs/
-/stock_603106_research/**/*.joblib
-*.log
-*.pid
-
-# Document/workbook verification artifacts
-*.inspect.ndjson
-preview_*.png
-
-# Temporary/exported files
-*.tmp
-*.bak
-~$*
 .DS_Store
 Thumbs.db

@@ -1,0 +1,23 @@
+{
+  "updated_at": "2026-09-26",
+  "status": "active",
+  "official_name": "沪深基准1：R08 高仓精选 V1.0",
+  "entrypoint": "supermind_mainboard_baseline_1.py",
+  "frequency": "minute",
+  "initial_capital_cny": 100000,
+  "benchmark": "000905.SH",
+  "target_count": 12,
+  "target_exposure": 0.95,
+  "buffer_count": 24,
+  "candidate_count": 60,
+  "local_reference": {
+    "period": "2020-01-02/2026-09-11",
+    "annualized_return": 0.1882,
+    "sharpe": 0.908,
+    "max_drawdown": 0.2185,
+    "average_stock_exposure": 0.9191,
+    "warning": "Local research-engine result; not a SuperMind platform result or return promise."
+  },
+  "research_disposition": "Promoted by version decision on 2026-09-26; original Sharpe>1 and cross-start robustness gates were not met.",
+  "sha256": "F7A9FBF475BCB2DB009F23C113BE30FA747CE726EE42533B56C337E32065BFD8"
+}

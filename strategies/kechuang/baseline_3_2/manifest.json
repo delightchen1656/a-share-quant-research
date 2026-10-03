@@ -1,0 +1,10 @@
+{
+  "source_sha256": {
+    "supermind_baseline_3_1_high_attack_adaptive_expiry.py": "8b2b9bedc87af7663695ec2a539254ccbb6b6cfbb487ee24bbf2403356f13770",
+    "supermind_baseline_3_1_high_attack_adaptive_expiry_daily.py": "7318912d321fd5126724f9ef4761f59c4385354895329c21f387b590bb110bfb"
+  },
+  "output_sha256": "d788ab580aa8bb7e1940795e2f0e092d2aec0fb3753d96ec2cbc4012b731b817",
+  "signal_threshold": 0.63,
+  "model_status": "legacy, not retrained",
+  "evaluation_status": "historical development replay, NOT independent OOS"
+}
