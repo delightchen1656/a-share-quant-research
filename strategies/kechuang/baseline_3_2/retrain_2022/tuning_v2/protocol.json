@@ -1,0 +1,78 @@
+{
+  "fit": [
+    "2020-01-01",
+    "2022-12-31"
+  ],
+  "selection": [
+    "2023-01-01",
+    "2023-12-31"
+  ],
+  "configs": [
+    {
+      "name": "balanced_leaf3",
+      "weight": "balanced",
+      "leaves": 3,
+      "min_leaf": 250,
+      "l2": 20,
+      "iterations": 120
+    },
+    {
+      "name": "balanced_leaf7",
+      "weight": "balanced",
+      "leaves": 7,
+      "min_leaf": 100,
+      "l2": 10,
+      "iterations": 120
+    },
+    {
+      "name": "balanced_leaf15",
+      "weight": "balanced",
+      "leaves": 15,
+      "min_leaf": 100,
+      "l2": 10,
+      "iterations": 120
+    },
+    {
+      "name": "unweighted_leaf3",
+      "weight": null,
+      "leaves": 3,
+      "min_leaf": 250,
+      "l2": 20,
+      "iterations": 120
+    },
+    {
+      "name": "unweighted_leaf7",
+      "weight": null,
+      "leaves": 7,
+      "min_leaf": 100,
+      "l2": 10,
+      "iterations": 120
+    },
+    {
+      "name": "unweighted_leaf15",
+      "weight": null,
+      "leaves": 15,
+      "min_leaf": 100,
+      "l2": 10,
+      "iterations": 120
+    }
+  ],
+  "stop_thresholds": [
+    0.25,
+    0.35,
+    0.45
+  ],
+  "event_model": "frozen tuning_v1; threshold .65",
+  "objective": "2023 CAGR - .5*abs(maxDD) + .25*worst quarterly return",
+  "eligibility": "at least 40 fills and average exposure >=15%",
+  "gate": "2023 positive return, >=2 positive quarters, objective above control",
+  "budget": 18,
+  "reselect_after_confirmation": false,
+  "preserved": {
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\retrain_2022\\tuning_v1\\event_model.joblib": "f392a4b0a7f1dff4801f271afb318335c68f0e1502f7fa252ad4eb37ca1de833",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\retrain_2022\\tuning_v1\\stop_model.joblib": "9caf10ffae26efb567d59eae27f2c0a1f496371639338c8c524db03c07179b3f",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\retrain_2022\\tuning_v1\\supermind_baseline_3_2_tuned_daily.py": "98d42a21376d1e5a775109527448d974aa181988d0b47ebbe8cc24fc3b88e9be",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\retrain_2022\\supermind_baseline_3_2_retrained_daily.py": "85179d18e84130288b41b665b87df116360be565474d6555781e64f9d9a2bf59",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\supermind_baseline_3_2_audited_daily.py": "d788ab580aa8bb7e1940795e2f0e092d2aec0fb3753d96ec2cbc4012b731b817"
+  }
+}

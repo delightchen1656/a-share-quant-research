@@ -1,0 +1,4 @@
+{
+  "reason": "tradestatus/isST vendor strings compared with integers: false paused bars, zero fills; invalid run, not performance evidence",
+  "repair": "strict numeric conversion of market columns; no model or strategy changes"
+}

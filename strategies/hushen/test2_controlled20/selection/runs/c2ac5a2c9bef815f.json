@@ -1,0 +1,37 @@
+{
+  "id": "buffer_20",
+  "config": {
+    "buffer": 4.8,
+    "interval": 20,
+    "smooth": 5,
+    "min_smooth": 3,
+    "count": 5,
+    "growth": 0.0,
+    "hysteresis": 0.0,
+    "weights": [
+      0.35,
+      0.2,
+      0.25,
+      0.2
+    ],
+    "vol_window": 60,
+    "return_window": 20,
+    "amount_min": 10000000.0,
+    "vol_max": 0.09
+  },
+  "start": "2023-01-03",
+  "end": "2023-12-29",
+  "final_equity": 116080.61000000002,
+  "cagr": 0.1628456908851088,
+  "total_return": 0.16080610000000006,
+  "max_drawdown": 0.12966134126437967,
+  "sharpe": 0.9443603066076011,
+  "trades": 102,
+  "avg_exposure": 0.9521657507370819,
+  "fees": 1459.0899999999997,
+  "dividend_tax": 69.30000000000001,
+  "final_limit": 5,
+  "issues": {},
+  "reference_differences": {},
+  "capacity_rejections": 0
+}

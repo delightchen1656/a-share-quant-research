@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "frozen_sources": true,
+    "frozen_results": true,
+    "160_trials_8_groups": true,
+    "controlled_variables": true,
+    "feature_parity": true,
+    "original_control_parity": true,
+    "combined_preregistered": true,
+    "training_input_boundary": true,
+    "selection_input_boundary": true,
+    "confirmation_input_boundary": true,
+    "heldout_input_boundary": true,
+    "group_training_shortlist": true,
+    "combined_training_shortlist": true,
+    "group_selection_winner": true,
+    "combined_selection_winner": true,
+    "all_saved_metrics_and_lots": true,
+    "evaluation_bound_to_freeze": true
+  },
+  "unique_account_runs": 191,
+  "errors": []
+}

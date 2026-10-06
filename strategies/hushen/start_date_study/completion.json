@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "starts_per_strategy": 58,
+  "paths": 116,
+  "open_price_proxy_not_platform_reproduction": true,
+  "files": {
+    "actions_0.json": "96a5f36cef0fc9ef1f4637fe2c1cb98ba27f472bc91b8a09943e26ed2334f558",
+    "actions_1.json": "7fa3867b7130066a6c38caba1960ae7ec8e7dc789ef687767f4993707f524ab2",
+    "actions_2.json": "0bc6c636ad96546304ffe8649f252981e82276187b4ba23c48661db8dd5d9a18",
+    "actions_3.json": "d5f9a4a247aa7131e1314c30fc44ac114ac6e8bf188eafaf9ccf54e6848ef578",
+    "action_requests.json": "919b2eaabec7369062782bbec98ea9c130785fe0e6dcb4287f4d6887858f27bc",
+    "benchmark.parquet": "36674be3b57ca5dd84bc30b4a3f9b4f25af812e36ca7f2a68f24a38c81cc12df",
+    "check_study.py": "c484e2edfd0ce647469d49c075d4ab3cb37a7f51f1da10ad6243ff6d8eedc8a3",
+    "curve_validation.json": "20a0abff443e6d27a25688a2b40e0ab564655daeedd590505f96916bab22df5c",
+    "daily_equity.parquet": "9630dd02c95669be5a1da49015629b1520b5271064f93c4e3d41148875754aa6",
+    "input_hashes.json": "54bfee9bafb736c504e1b26a90e71fd5cbed257019f71ce0481c48dc70255ef1",
+    "preparation.json": "45125aff0638c1949567b09663c709689453379306802dfc32cf6d6599386480",
+    "protocol.json": "4a483e2e3eae58ed3d931bd2b3601df75a1affef1ddbba5362702829cd305e51",
+    "rankings.json": "fb3df70fc598008d43f62c0e0bfc99bd694f289c441c24b888d16767b47605e6",
+    "reference_differences.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "report.py": "3e09cacc7ef574890f3ddb8ff4f9c666113022ecc5450612de4f831bcb5b5929",
+    "start_results.csv": "788dd29bfacf2db9ad7b3ab5ae63b4dafe9c7b99128d01e00278e78cf598d0c7",
+    "study.py": "b5434cba739c8c40760bcf51e828e17106e38b307c64c5a500f16bd000554760",
+    "summary.json": "4bb666004dde09abea525443d2af0b6bc1aeaab202c5d5e90f00e482ddf0c84c",
+    "trades.parquet": "cd7a408852d3a0c9d70e5fddff9f67111ed8cafd2f0aaf8422cb5c89876ca0c0",
+    "unresolved_actions.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "validation.json": "58156b4da40ec40705b0eb17598d0d1f82d44ef9a178ef36496e0679cfe4194d"
+  }
+}

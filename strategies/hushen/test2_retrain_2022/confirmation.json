@@ -1,0 +1,76 @@
+{
+  "mean_ic": 0.03616015494011922,
+  "periods": [
+    {
+      "signal_date": "2024-01-05",
+      "label_end": "2024-02-02",
+      "n": 2986,
+      "missing_terminal": 0,
+      "ic": -0.12589964452239533
+    },
+    {
+      "signal_date": "2024-02-02",
+      "label_end": "2024-03-11",
+      "n": 2959,
+      "missing_terminal": 0,
+      "ic": -0.17254643715523404
+    },
+    {
+      "signal_date": "2024-03-11",
+      "label_end": "2024-04-10",
+      "n": 2981,
+      "missing_terminal": 0,
+      "ic": 0.29835981923930266
+    },
+    {
+      "signal_date": "2024-04-10",
+      "label_end": "2024-05-13",
+      "n": 2988,
+      "missing_terminal": 0,
+      "ic": 0.1324007577656156
+    },
+    {
+      "signal_date": "2024-05-13",
+      "label_end": "2024-06-11",
+      "n": 2949,
+      "missing_terminal": 0,
+      "ic": -0.08762732097345409
+    },
+    {
+      "signal_date": "2024-06-11",
+      "label_end": "2024-07-09",
+      "n": 2904,
+      "missing_terminal": 0,
+      "ic": 0.015309357765202335
+    },
+    {
+      "signal_date": "2024-07-09",
+      "label_end": "2024-08-06",
+      "n": 2843,
+      "missing_terminal": 0,
+      "ic": 0.2295882234323655
+    },
+    {
+      "signal_date": "2024-08-06",
+      "label_end": "2024-09-03",
+      "n": 2837,
+      "missing_terminal": 0,
+      "ic": 0.1374839749069667
+    },
+    {
+      "signal_date": "2024-09-03",
+      "label_end": "2024-10-10",
+      "n": 2828,
+      "missing_terminal": 0,
+      "ic": -0.011376476915445917
+    },
+    {
+      "signal_date": "2024-10-10",
+      "label_end": "2024-11-07",
+      "n": 2961,
+      "missing_terminal": 0,
+      "ic": -0.05409070414173122
+    }
+  ],
+  "passed": true
+}

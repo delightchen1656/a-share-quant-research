@@ -1,0 +1,37 @@
+{
+  "id": "smooth_03",
+  "config": {
+    "buffer": 1.5,
+    "interval": 20,
+    "smooth": 4,
+    "min_smooth": 3,
+    "count": 5,
+    "growth": 0.0,
+    "hysteresis": 0.0,
+    "weights": [
+      0.35,
+      0.2,
+      0.25,
+      0.2
+    ],
+    "vol_window": 60,
+    "return_window": 20,
+    "amount_min": 10000000.0,
+    "vol_max": 0.09
+  },
+  "start": "2019-01-02",
+  "end": "2022-12-30",
+  "final_equity": 452187.61,
+  "cagr": 0.45899647503433205,
+  "total_return": 3.5218761,
+  "max_drawdown": 0.23790658133991138,
+  "sharpe": 1.6580025961313851,
+  "trades": 468,
+  "avg_exposure": 0.9452567632929341,
+  "fees": 13981.709999999995,
+  "dividend_tax": 1174.98,
+  "final_limit": 5,
+  "issues": {},
+  "reference_differences": {},
+  "capacity_rejections": 0
+}

@@ -1,0 +1,62 @@
+{
+  "fit": "2020-2022, complete labels only",
+  "selection": "2023 only",
+  "confirmation": "2024, read after freeze",
+  "historical_test": "2025-2026-09-30, read after freeze",
+  "configs": [
+    {
+      "name": "shallow",
+      "leaves": 5,
+      "min_leaf": 100,
+      "l2": 10,
+      "iterations": 120
+    },
+    {
+      "name": "shallow_smooth",
+      "leaves": 5,
+      "min_leaf": 250,
+      "l2": 20,
+      "iterations": 180
+    },
+    {
+      "name": "medium",
+      "leaves": 7,
+      "min_leaf": 100,
+      "l2": 10,
+      "iterations": 120
+    },
+    {
+      "name": "medium_smooth",
+      "leaves": 7,
+      "min_leaf": 250,
+      "l2": 20,
+      "iterations": 180
+    },
+    {
+      "name": "wide",
+      "leaves": 15,
+      "min_leaf": 100,
+      "l2": 10,
+      "iterations": 120
+    },
+    {
+      "name": "wide_smooth",
+      "leaves": 15,
+      "min_leaf": 250,
+      "l2": 20,
+      "iterations": 180
+    }
+  ],
+  "thresholds": [
+    0.55,
+    0.65,
+    0.75
+  ],
+  "stop_model": "previous fixed 2020-2022 fitted model; threshold .35 unchanged",
+  "score": "2023 CAGR - 0.5*abs(maxDD) + 0.25*worst quarterly return",
+  "eligibility": "at least 40 fills, average exposure >=15%",
+  "promotion_gate": "positive 2023 total return, >=2 positive quarters and objective > control",
+  "budget": "18 new configurations plus unchanged control; no expansion after viewing results",
+  "warning": "All later periods previously inspected. Not pristine independent OOS.",
+  "old_platform_sha256": "85179d18e84130288b41b665b87df116360be565474d6555781e64f9d9a2bf59"
+}

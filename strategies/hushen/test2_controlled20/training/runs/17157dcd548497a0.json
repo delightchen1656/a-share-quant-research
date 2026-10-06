@@ -1,0 +1,49 @@
+{
+  "id": "count_20",
+  "config": {
+    "buffer": 1.5,
+    "interval": 20,
+    "smooth": 5,
+    "min_smooth": 3,
+    "count": 21,
+    "growth": 0.0,
+    "hysteresis": 0.0,
+    "weights": [
+      0.35,
+      0.2,
+      0.25,
+      0.2
+    ],
+    "vol_window": 60,
+    "return_window": 20,
+    "amount_min": 10000000.0,
+    "vol_max": 0.09
+  },
+  "start": "2019-01-02",
+  "end": "2022-12-30",
+  "final_equity": 252300.17999999985,
+  "cagr": 0.2607156018468735,
+  "total_return": 1.5230017999999985,
+  "max_drawdown": 0.2182700544435221,
+  "sharpe": 1.3045145546749939,
+  "trades": 1759,
+  "avg_exposure": 0.8726431635958466,
+  "fees": 14853.370000000034,
+  "dividend_tax": 669.9499999999999,
+  "final_limit": 21,
+  "issues": {},
+  "reference_differences": {
+    "603319.SH/2019-04-16": [
+      24.69,
+      18.76,
+      {
+        "cash": 0.37,
+        "stock": 0.3,
+        "taxable_stock": 0.0,
+        "pay": "2019-04-16 00:00:00",
+        "release": "2019-04-17 00:00:00"
+      }
+    ]
+  },
+  "capacity_rejections": 0
+}

@@ -1,0 +1,37 @@
+{
+  "id": "windows_17",
+  "config": {
+    "buffer": 1.5,
+    "interval": 20,
+    "smooth": 5,
+    "min_smooth": 3,
+    "count": 5,
+    "growth": 0.0,
+    "hysteresis": 0.0,
+    "weights": [
+      0.35,
+      0.2,
+      0.25,
+      0.2
+    ],
+    "vol_window": 120,
+    "return_window": 10,
+    "amount_min": 10000000.0,
+    "vol_max": 0.09
+  },
+  "start": "2019-01-02",
+  "end": "2022-12-30",
+  "final_equity": 365051.34,
+  "cagr": 0.38286952418251574,
+  "total_return": 2.6505134000000004,
+  "max_drawdown": 0.22892815021293,
+  "sharpe": 1.450471140809816,
+  "trades": 454,
+  "avg_exposure": 0.9438106061251516,
+  "fees": 12307.92000000001,
+  "dividend_tax": 650.04,
+  "final_limit": 5,
+  "issues": {},
+  "reference_differences": {},
+  "capacity_rejections": 0
+}

@@ -1,0 +1,49 @@
+{
+  "id": "windows_09",
+  "config": {
+    "buffer": 1.5,
+    "interval": 20,
+    "smooth": 5,
+    "min_smooth": 3,
+    "count": 5,
+    "growth": 0.0,
+    "hysteresis": 0.0,
+    "weights": [
+      0.35,
+      0.2,
+      0.25,
+      0.2
+    ],
+    "vol_window": 40,
+    "return_window": 40,
+    "amount_min": 10000000.0,
+    "vol_max": 0.09
+  },
+  "start": "2019-01-02",
+  "end": "2022-12-30",
+  "final_equity": 213390.99000000014,
+  "cagr": 0.20894579319800322,
+  "total_return": 1.1339099000000012,
+  "max_drawdown": 0.24772441554720526,
+  "sharpe": 0.9038727000843664,
+  "trades": 398,
+  "avg_exposure": 0.9390813125992461,
+  "fees": 8610.95,
+  "dividend_tax": 525.46,
+  "final_limit": 5,
+  "issues": {},
+  "reference_differences": {
+    "603880.SH/2021-05-21": [
+      10.43,
+      7.91,
+      {
+        "cash": 0.0,
+        "stock": 0.3,
+        "taxable_stock": 0.0,
+        "pay": "2021-05-21 00:00:00",
+        "release": "2021-05-24 00:00:00"
+      }
+    ]
+  },
+  "capacity_rejections": 0
+}

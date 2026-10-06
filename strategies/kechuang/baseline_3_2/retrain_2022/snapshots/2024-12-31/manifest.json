@@ -1,0 +1,5822 @@
+{
+  "raw/688001.SH.parquet": {
+    "sha256": "d0fc49fa92f46814111e49283a9d2b25977268e8e5bd3541cb67e1409a0df911",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "raw/688002.SH.parquet": {
+    "sha256": "e1fe0019e722e11cd91b4a822496b7c234c93b764f2b57edd8a467124a3ac3b9",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "raw/688003.SH.parquet": {
+    "sha256": "79151cb8dee6313d64608e49cfada1a44983e018e2343cd3225423bed6e7f7f9",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "raw/688004.SH.parquet": {
+    "sha256": "337cd18ac2a2bbec1c7b22f01edb5e7a0e807d809f72769d7f61668ca942d1be",
+    "rows": 1106,
+    "max_date": "2024-12-31"
+  },
+  "raw/688005.SH.parquet": {
+    "sha256": "556b7f06463d5be35c0f6a641f29dc6388b79206a9f9a7df062307b76be19a11",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "raw/688006.SH.parquet": {
+    "sha256": "9c62e23e0f37c06c339b480034ec00ef6718a37ca583f43c0e3e09ce1ef6ec44",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "raw/688007.SH.parquet": {
+    "sha256": "8a73885fcb9f8da83cb9f6cd9f498dccd8383dae5f55f024e588646c9a94d616",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "raw/688008.SH.parquet": {
+    "sha256": "3836dd8cf4268d0000ec00e88a09b497e8d6ddda7a70fe059daf29b55a838297",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "raw/688009.SH.parquet": {
+    "sha256": "0199067979866df2d1e00d9c33d3c047c6bd343db547b89596b532b6129faafb",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "raw/688010.SH.parquet": {
+    "sha256": "6366aa60a341f841b9c8d9ae2fa22f2e5a4429e4f25b1bc93a2e0ad7c959ebae",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "raw/688011.SH.parquet": {
+    "sha256": "cc19cb4c42e142baa5a01928c424fb2bc96f23feca105749d9d5ff9fa669875a",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "raw/688012.SH.parquet": {
+    "sha256": "67fd50ef1ebf4700de3b61e28318254c4b3d67a87466f39c5c0941369f3b3039",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "raw/688013.SH.parquet": {
+    "sha256": "090580ba3a6d9a69293d8cd6e901babe7b439669a2dc6a5378af4ef2ef5ff11a",
+    "rows": 1032,
+    "max_date": "2024-12-31"
+  },
+  "raw/688015.SH.parquet": {
+    "sha256": "9529086f7c7b3b57f6a02c3480e3c92cf6dd4e61fa6090eda1d192cbdc83ad2f",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "raw/688016.SH.parquet": {
+    "sha256": "751c155b42d114b03746e1f47c4a137f64a0c0c5c7290fbda5bea3f27dd26d81",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "raw/688017.SH.parquet": {
+    "sha256": "ebb5ee901f2fd298f0fb874ae8490537dfa868c18649cbc4ad418bbed8a2803e",
+    "rows": 1053,
+    "max_date": "2024-12-31"
+  },
+  "raw/688018.SH.parquet": {
+    "sha256": "6810f76daa7b4c594502738fb857483f208568b3b5c43dab18cc3c245acbcd38",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "raw/688019.SH.parquet": {
+    "sha256": "5a5ea807688e9f64af6e526e5fb236977fdb516056251c780fd1266753571c13",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "raw/688020.SH.parquet": {
+    "sha256": "9ddf1ef05a1b33689e47d69e51b091a54dd6da8ff62bf9347b5fdf42c25b2479",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "raw/688021.SH.parquet": {
+    "sha256": "6955f150c73a230f44b0bbe39bc901f5e08a0a4fa42332f48a79c275b9e2fc1d",
+    "rows": 1252,
+    "max_date": "2024-12-31"
+  },
+  "raw/688022.SH.parquet": {
+    "sha256": "9de1b5a9c32040dd16a5bb961bb31a86c759c40f679e897d3c96910ad9a77174",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "raw/688023.SH.parquet": {
+    "sha256": "2d6018ef218b98149209a7325474a9b29b87c57974cff66071a6e20fcda18a2d",
+    "rows": 1253,
+    "max_date": "2024-12-31"
+  },
+  "raw/688025.SH.parquet": {
+    "sha256": "9c02b13ecb85c506fbaf86750cb119f6125154b13e169d043f6012595ad53d44",
+    "rows": 1256,
+    "max_date": "2024-12-31"
+  },
+  "raw/688026.SH.parquet": {
+    "sha256": "808da977c64a7e9f0ae3fca00c64a57f1b7a49c355ee1778ea13715eee965011",
+    "rows": 1198,
+    "max_date": "2024-12-31"
+  },
+  "raw/688027.SH.parquet": {
+    "sha256": "04c0191d143623f1e045ff633498379b340a75a921fbf21d600b6112e3ec1019",
+    "rows": 1089,
+    "max_date": "2024-12-31"
+  },
+  "raw/688028.SH.parquet": {
+    "sha256": "4df77db23351575d17093c597677ddbd3eaa2ab162625446589587bdd897ca08",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "raw/688029.SH.parquet": {
+    "sha256": "b2d07cc2026b5025b343ef7c02796c8783d3492af29547d9208e560d7b14475e",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "raw/688030.SH.parquet": {
+    "sha256": "5c5dec7364bb58d483ed73691ffa545f565815267e2f90b151c1197bab337479",
+    "rows": 1274,
+    "max_date": "2024-12-31"
+  },
+  "raw/688031.SH.parquet": {
+    "sha256": "10c39f5f8385730e1c865c0f5873c146a9246fd76e4174969951fac75be0c33f",
+    "rows": 538,
+    "max_date": "2024-12-31"
+  },
+  "raw/688032.SH.parquet": {
+    "sha256": "3e5a3cea1a185e4edfbb9c4fc327fe4b4e9ebfa06d3d659922f5f6315c1a8802",
+    "rows": 736,
+    "max_date": "2024-12-31"
+  },
+  "raw/688033.SH.parquet": {
+    "sha256": "51f21b6e297be58207e2d2df00212d6f2c7db04bcf22ca6b7c053872de27c4f8",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "raw/688035.SH.parquet": {
+    "sha256": "875eba1120a85e256e4ad5a87cf6e31655071c38d174c64c4ff3d4a76231b825",
+    "rows": 554,
+    "max_date": "2024-12-31"
+  },
+  "raw/688036.SH.parquet": {
+    "sha256": "a2725685737576fe6bcdd1fda37d668ed1534e32520fe64628a38bf79156ba2e",
+    "rows": 1274,
+    "max_date": "2024-12-31"
+  },
+  "raw/688037.SH.parquet": {
+    "sha256": "941f4c6fa04891889eba967dcf01269085e6d5a77f1acaa576cdaa156834cf00",
+    "rows": 1224,
+    "max_date": "2024-12-31"
+  },
+  "raw/688038.SH.parquet": {
+    "sha256": "eab65398190057f948536f9d60b26ff7d8ae000db422c99b94dbfe715e139d0a",
+    "rows": 843,
+    "max_date": "2024-12-31"
+  },
+  "raw/688039.SH.parquet": {
+    "sha256": "3a309c840e199444733cc3996415fb33e63ff974c02c455de5894b98615cb1f1",
+    "rows": 1227,
+    "max_date": "2024-12-31"
+  },
+  "raw/688041.SH.parquet": {
+    "sha256": "28f7ddf778251ccdbd962766f8bf5c311147644bada1422667e1cec54689edb3",
+    "rows": 579,
+    "max_date": "2024-12-31"
+  },
+  "raw/688045.SH.parquet": {
+    "sha256": "563ffd2a7041af8dca00b85ffee79fb0d76d6ecb44979b1e8ea631d15185d966",
+    "rows": 634,
+    "max_date": "2024-12-31"
+  },
+  "raw/688046.SH.parquet": {
+    "sha256": "6fbeb1b2a9dfd25578aece082af4cbfe148098577045d101af1d4e45eda837f3",
+    "rows": 654,
+    "max_date": "2024-12-31"
+  },
+  "raw/688047.SH.parquet": {
+    "sha256": "29b707c4b82ac7a3c5c45bfccdb01492b31773aac620ed825059edb7c0461254",
+    "rows": 614,
+    "max_date": "2024-12-31"
+  },
+  "raw/688048.SH.parquet": {
+    "sha256": "44729d50de96669b6e2e412967a72051e7273286dbb660d755e7c8af80d1ec3e",
+    "rows": 668,
+    "max_date": "2024-12-31"
+  },
+  "raw/688049.SH.parquet": {
+    "sha256": "b9bcb8855ad31cf13797d850187772dee8ed7b89c23e29c968d8b3b76ab47780",
+    "rows": 751,
+    "max_date": "2024-12-31"
+  },
+  "raw/688050.SH.parquet": {
+    "sha256": "3d6d4eff0a3b23177420fd8314e721fac1f24a154564b6d30050a67f9a0ca493",
+    "rows": 1075,
+    "max_date": "2024-12-31"
+  },
+  "raw/688051.SH.parquet": {
+    "sha256": "5628b0adbe1f2dbf2069411d7cc53e8d8c9d98382a1cc349fa15a5be4c215926",
+    "rows": 1162,
+    "max_date": "2024-12-31"
+  },
+  "raw/688052.SH.parquet": {
+    "sha256": "91472ed1e6e2ee1e8220614bc544d36f7c8d7c7ffe15fe3dfa0e50e3a35cb716",
+    "rows": 655,
+    "max_date": "2024-12-31"
+  },
+  "raw/688053.SH.parquet": {
+    "sha256": "70c1d6af32060b1bc0c9c09b30bd31d502ec51e7424a0395fb8d989b8d4920b4",
+    "rows": 604,
+    "max_date": "2024-12-31"
+  },
+  "raw/688055.SH.parquet": {
+    "sha256": "f0a5f818cd62c33816b422284d352cc730c0d5212a5d9c6ed4367c6bf5ee5213",
+    "rows": 1062,
+    "max_date": "2024-12-31"
+  },
+  "raw/688056.SH.parquet": {
+    "sha256": "b1e1bc86231cabdbbe4265f4289b3fde838766b974ee5bf8b141b7effd482211",
+    "rows": 1050,
+    "max_date": "2024-12-31"
+  },
+  "raw/688057.SH.parquet": {
+    "sha256": "22d6f8e41fa0065b78c27eaed2aff024905c4cf1d0bc69321d15fa0a2bc9e5fb",
+    "rows": 1006,
+    "max_date": "2024-12-31"
+  },
+  "raw/688058.SH.parquet": {
+    "sha256": "2d7e7d395b96ff19f59762abc578aab698d1040ea4dda81c2e9630f29f9f948a",
+    "rows": 1255,
+    "max_date": "2024-12-31"
+  },
+  "raw/688059.SH.parquet": {
+    "sha256": "2cd7c257819be8b298796097523d56019c1fd5b99ad153ec7d056946367fa5b8",
+    "rows": 944,
+    "max_date": "2024-12-31"
+  },
+  "raw/688060.SH.parquet": {
+    "sha256": "e07c5ec6e8e59361e257255a0062de2616a21bcab6444fca5b272a1492c6729e",
+    "rows": 1088,
+    "max_date": "2024-12-31"
+  },
+  "raw/688061.SH.parquet": {
+    "sha256": "cc6e836c71a31eed4e704a24b4320032a662af2b35aa6c7adea651eefb4f973a",
+    "rows": 538,
+    "max_date": "2024-12-31"
+  },
+  "raw/688062.SH.parquet": {
+    "sha256": "1b93a24c523c37a8f9baf45dc4409b97bfe4eed810ced2c73e0fb8cc44401f32",
+    "rows": 716,
+    "max_date": "2024-12-31"
+  },
+  "raw/688063.SH.parquet": {
+    "sha256": "af27f82b96c93bf4420dd1fe75ffb9c485055cb340a09a8c368b944e37023bc3",
+    "rows": 971,
+    "max_date": "2024-12-31"
+  },
+  "raw/688065.SH.parquet": {
+    "sha256": "f2141955cc9d673f049e565bf37508bcf899a171ff2a52e1630d8309548c239b",
+    "rows": 1065,
+    "max_date": "2024-12-31"
+  },
+  "raw/688066.SH.parquet": {
+    "sha256": "50910c7474cfeb1004bbcf2474915428eaac68ca51c0a4ed4d34e7e4ee483361",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "raw/688067.SH.parquet": {
+    "sha256": "78a2bfa5c256fb11ebf5c4145639d8946d05fd36d4bf87bfafad8cac545cfc6c",
+    "rows": 862,
+    "max_date": "2024-12-31"
+  },
+  "raw/688068.SH.parquet": {
+    "sha256": "3de3013fdd96855c50c61c85d413ae8c5bf72ed285b5496b8e3e6643a79cffde",
+    "rows": 1274,
+    "max_date": "2024-12-31"
+  },
+  "raw/688069.SH.parquet": {
+    "sha256": "44457373b1facb2a9897d38d8107dc3a2a6d427bd80a574ef53ede1920251135",
+    "rows": 1080,
+    "max_date": "2024-12-31"
+  },
+  "raw/688070.SH.parquet": {
+    "sha256": "330d00bc6564324d9c630e8cff346f5d8dd5374035b88de93d3d0578972ee7d2",
+    "rows": 942,
+    "max_date": "2024-12-31"
+  },
+  "raw/688071.SH.parquet": {
+    "sha256": "7be6e691cf2d2351794305d3f655e64423d2f7317ae5cc29e4938bad9d1a4927",
+    "rows": 831,
+    "max_date": "2024-12-31"
+  },
+  "raw/688072.SH.parquet": {
+    "sha256": "187669a54013914978985cd699eb31a16c87d6cdb4554022baa3a8dcd01df824",
+    "rows": 657,
+    "max_date": "2024-12-31"
+  },
+  "raw/688073.SH.parquet": {
+    "sha256": "5759a663953619aabf021ca338556b7b7b007afd7e4811fcdd5d2d6dbab0492e",
+    "rows": 543,
+    "max_date": "2024-12-31"
+  },
+  "raw/688075.SH.parquet": {
+    "sha256": "0b282e71fed60b09bec47e499c97277c057a0cda6330b097ff97137b42abc05e",
+    "rows": 758,
+    "max_date": "2024-12-31"
+  },
+  "raw/688076.SH.parquet": {
+    "sha256": "7c459fe7676b976e2591f42106d1e320b6b1e700149b43367c04afd8ac24535f",
+    "rows": 880,
+    "max_date": "2024-12-31"
+  },
+  "raw/688077.SH.parquet": {
+    "sha256": "9c545a8f40b980e9a63eaabaedf37aecb684cb6f7b17b017331d38131828a800",
+    "rows": 1080,
+    "max_date": "2024-12-31"
+  },
+  "raw/688078.SH.parquet": {
+    "sha256": "51a57faf50cd635507e34842c66a4432769178a4005cd2d68d876f129cb23aaf",
+    "rows": 1214,
+    "max_date": "2024-12-31"
+  },
+  "raw/688079.SH.parquet": {
+    "sha256": "c3d2dcc39aa5cac9cc94d5cd0a9cb8311591c6373d51ee1d5dba611493939236",
+    "rows": 933,
+    "max_date": "2024-12-31"
+  },
+  "raw/688080.SH.parquet": {
+    "sha256": "5799c1d92376a92087848c43cfaa37cb2c527892bd4447569fd66d58277f13fd",
+    "rows": 1189,
+    "max_date": "2024-12-31"
+  },
+  "raw/688081.SH.parquet": {
+    "sha256": "f41db207f77519c10a39e1332388b5316e7c47f0035f84e3bedf5fd814abd515",
+    "rows": 1210,
+    "max_date": "2024-12-31"
+  },
+  "raw/688082.SH.parquet": {
+    "sha256": "86205f6f0d995b977d87afe55209d03b617d1fe634f3d14bd29a3d2598db9d00",
+    "rows": 758,
+    "max_date": "2024-12-31"
+  },
+  "raw/688083.SH.parquet": {
+    "sha256": "8fec4cc601163de95b00a80fcabb554e66355f8d185d9d33f783ab719e18d971",
+    "rows": 926,
+    "max_date": "2024-12-31"
+  },
+  "raw/688084.SH.parquet": {
+    "sha256": "fcb580544cb3bd9f61f291539720bf3400be251375b6db48e60d16d2a075f188",
+    "rows": 501,
+    "max_date": "2024-12-31"
+  },
+  "raw/688085.SH.parquet": {
+    "sha256": "5d4f133c7c34f5e29e9935d6ea8054c0b0e4d869098d5ff3b896d1a3a88df463",
+    "rows": 1149,
+    "max_date": "2024-12-31"
+  },
+  "raw/688086.SH.parquet": {
+    "sha256": "2e445de94b1187f4a71ed6e1e66df0f8be433829fe9d786723bbcb3241448233",
+    "rows": 818,
+    "max_date": "2023-07-07"
+  },
+  "raw/688087.SH.parquet": {
+    "sha256": "80de9c12347156aa18112cdab03942cfeffca21cfaf153152749535cacdee8c4",
+    "rows": 845,
+    "max_date": "2024-12-31"
+  },
+  "raw/688088.SH.parquet": {
+    "sha256": "be78b72c8a94a12ad2cf38aaf10ed0f663aa96a61d1885f16d990956e2b62044",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "raw/688089.SH.parquet": {
+    "sha256": "7006043c342eed20123630853c519a38fdd7ffa315281d5dae7c3a5aa63c7358",
+    "rows": 1221,
+    "max_date": "2024-12-31"
+  },
+  "raw/688090.SH.parquet": {
+    "sha256": "19716b7bf7ddd3a3d4a65c4c5553dd0206ed2ac68b3a8996fc0848208ba49801",
+    "rows": 1186,
+    "max_date": "2024-12-31"
+  },
+  "raw/688091.SH.parquet": {
+    "sha256": "717132f19516e118ec85cf19b2d4c8cb79d46f070b49d6759973d6287f41db10",
+    "rows": 801,
+    "max_date": "2024-12-31"
+  },
+  "raw/688092.SH.parquet": {
+    "sha256": "2d4c521e740071841d5fab364e13b88b74365048d3635b46a9cee1d23a502e4b",
+    "rows": 920,
+    "max_date": "2024-12-31"
+  },
+  "raw/688093.SH.parquet": {
+    "sha256": "229dbd31bcd97e7f2093ba8dfd699820c9a1baadf827fc26febd87c5f454b13a",
+    "rows": 1030,
+    "max_date": "2024-12-31"
+  },
+  "raw/688095.SH.parquet": {
+    "sha256": "020e2c411629eceb4608e7f7adbe3421cf07e1f4cb82e046ff4c7570b9ad8b0b",
+    "rows": 1046,
+    "max_date": "2024-12-31"
+  },
+  "raw/688096.SH.parquet": {
+    "sha256": "aa43ef954ca1084ec8ba6cf1c36f0e5ba347a62ab21af3f1a2897e43c3a22d04",
+    "rows": 1149,
+    "max_date": "2024-12-31"
+  },
+  "raw/688097.SH.parquet": {
+    "sha256": "0d25c03f96d5f482c0b4a39fb7b34746a9216169155ab5dd880bf37e500c2db2",
+    "rows": 886,
+    "max_date": "2024-12-31"
+  },
+  "raw/688098.SH.parquet": {
+    "sha256": "31d8066d608da12bf6647866b4f2e984623e64f8f40df8e113f65d728cfa34e0",
+    "rows": 1259,
+    "max_date": "2024-12-31"
+  },
+  "raw/688099.SH.parquet": {
+    "sha256": "55a6f3c5af51b8401f17314453f0b084a3fb679bef4f97ceb1b4b33cfa34cb08",
+    "rows": 1310,
+    "max_date": "2024-12-31"
+  },
+  "raw/688100.SH.parquet": {
+    "sha256": "1898899b3a7f796985292f98e8f8c351c10c6cbd79222135d2cc5a8f3dc4a6a3",
+    "rows": 1199,
+    "max_date": "2024-12-31"
+  },
+  "raw/688101.SH.parquet": {
+    "sha256": "e14beae479eb7327580d9d5893302185ee236269ff13c92a9951e414fb257580",
+    "rows": 1245,
+    "max_date": "2024-12-31"
+  },
+  "raw/688102.SH.parquet": {
+    "sha256": "9ec9f672bc50cd35ad00d433e42b5b6bc8207bc779543cb92ad17313b7aa8069",
+    "rows": 680,
+    "max_date": "2024-12-31"
+  },
+  "raw/688103.SH.parquet": {
+    "sha256": "f1fbe261abce96e567ee83e5daf313bb1d052f20d812f6f208f8967bd6448899",
+    "rows": 800,
+    "max_date": "2024-12-31"
+  },
+  "raw/688105.SH.parquet": {
+    "sha256": "8c5a395e62e022418a0788d4940f000dbf399c3347fa500f881233002b762f9c",
+    "rows": 761,
+    "max_date": "2024-12-31"
+  },
+  "raw/688106.SH.parquet": {
+    "sha256": "9674373c7df7bb22d7ad68f1a3cb4c20674379544ebdfed9022e1de24095106b",
+    "rows": 1104,
+    "max_date": "2024-12-31"
+  },
+  "raw/688107.SH.parquet": {
+    "sha256": "fda01142f43c39e66094e18294ad9e3fcadda8b670968c37d0465ef63e81b6f6",
+    "rows": 762,
+    "max_date": "2024-12-31"
+  },
+  "raw/688108.SH.parquet": {
+    "sha256": "28bb75fc91de926ddfbf42c159f2434a156282434f2ccde21ea04fe7043b577c",
+    "rows": 1257,
+    "max_date": "2024-12-31"
+  },
+  "raw/688109.SH.parquet": {
+    "sha256": "f4e9cfb68cf8afe5564114ec2b237d999b35e77ab987a8374215515747a13014",
+    "rows": 913,
+    "max_date": "2024-12-31"
+  },
+  "raw/688110.SH.parquet": {
+    "sha256": "168943727150c48902151f4bf7eda1ac655034bf75384f933f68ad06405325a8",
+    "rows": 742,
+    "max_date": "2024-12-31"
+  },
+  "raw/688111.SH.parquet": {
+    "sha256": "b266463dd5b6606adcdf2e0b07d22fb2274cdbbaba0dcf78f88daf2ce5c3250c",
+    "rows": 1244,
+    "max_date": "2024-12-31"
+  },
+  "raw/688112.SH.parquet": {
+    "sha256": "02df8bd4ffe8b626968ef56de756eaff6f8dfd5552ea88afd58c2f7c1e257bb3",
+    "rows": 749,
+    "max_date": "2024-12-31"
+  },
+  "raw/688113.SH.parquet": {
+    "sha256": "b0b5da03b66df737a035b05559586ce551106a763e85fa50156279e7a130831e",
+    "rows": 890,
+    "max_date": "2024-12-31"
+  },
+  "raw/688114.SH.parquet": {
+    "sha256": "a3d8f483b8e4b580ec28cf3258986aa9b9cfb5bbce2f02e22cbfb96fff68d9a6",
+    "rows": 559,
+    "max_date": "2024-12-31"
+  },
+  "raw/688115.SH.parquet": {
+    "sha256": "1af3484c8520003a817afc8597617af31b79f4c2566c4976977324cb12b8591a",
+    "rows": 682,
+    "max_date": "2024-12-31"
+  },
+  "raw/688116.SH.parquet": {
+    "sha256": "163f8938e1b536056bdf1be0f2910ed5a0466d20c88869c29c231a44a6d5e5c9",
+    "rows": 1277,
+    "max_date": "2024-12-31"
+  },
+  "raw/688117.SH.parquet": {
+    "sha256": "3934ec2dbf0ac1f6291f715d27e586684387ac167cdff45613c050c8b106394e",
+    "rows": 870,
+    "max_date": "2024-12-31"
+  },
+  "raw/688118.SH.parquet": {
+    "sha256": "f57d9472cd6e71d8a408ed54cfb2d3b5c9b1db7e0b1250ce1a2ad1fe6ea57429",
+    "rows": 1232,
+    "max_date": "2024-12-31"
+  },
+  "raw/688119.SH.parquet": {
+    "sha256": "0937e01f2eb527c2ef724957223dd501f471c237239debd9f606a204bd35e7d7",
+    "rows": 628,
+    "max_date": "2024-12-31"
+  },
+  "raw/688120.SH.parquet": {
+    "sha256": "2505327bed0c1f8135f9c91c0a24ba2a2e8e684dcb39039b705690ea91fdfe93",
+    "rows": 626,
+    "max_date": "2024-12-31"
+  },
+  "raw/688121.SH.parquet": {
+    "sha256": "945bc5a3902452197c6058854b5f3153e42c07f87ba072e56ab578a228a1433d",
+    "rows": 804,
+    "max_date": "2024-12-31"
+  },
+  "raw/688122.SH.parquet": {
+    "sha256": "009b9fa17d4ab5bfb1205601c9b1fb838a8a5cd7cbdfaa9f8f670941e511c89e",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "raw/688123.SH.parquet": {
+    "sha256": "abb9c7942ff68c0a6696132aa2e80bcfedc9f5d982cebf1f3e04492f2ba907bd",
+    "rows": 1219,
+    "max_date": "2024-12-31"
+  },
+  "raw/688125.SH.parquet": {
+    "sha256": "9eb87e8418c71ef99ca5a519d4723b14c2918f2bb98230b736fcef7c9d33a68d",
+    "rows": 660,
+    "max_date": "2024-12-31"
+  },
+  "raw/688126.SH.parquet": {
+    "sha256": "2b667b8accba0b4985200e2ed6501c6f128304b4300776f599fe2ba1bffa3eef",
+    "rows": 1142,
+    "max_date": "2024-12-31"
+  },
+  "raw/688127.SH.parquet": {
+    "sha256": "106b3e7cd4be1d3519e24ade813bb2d78b1860811022836b081ccc8078ba8bbc",
+    "rows": 1037,
+    "max_date": "2024-12-31"
+  },
+  "raw/688128.SH.parquet": {
+    "sha256": "938dccbdd732ae0aa67ec28953e677cc0fbe71e5e3f4185ab3b0aaddb9e10748",
+    "rows": 1253,
+    "max_date": "2024-12-31"
+  },
+  "raw/688129.SH.parquet": {
+    "sha256": "f2c89162a535e04a5e79971c58f4b56f77cd35b8ecea7de825e71e5aead70a99",
+    "rows": 1019,
+    "max_date": "2024-12-31"
+  },
+  "raw/688130.SH.parquet": {
+    "sha256": "302614da407715c966d58f40d99bab9271941ce6154579c3e27174bc970cb32b",
+    "rows": 589,
+    "max_date": "2024-12-31"
+  },
+  "raw/688131.SH.parquet": {
+    "sha256": "39ea2e4152d0f09a1cbedab66cb3bfa5d4695f6a0590587b57351c2f00056e97",
+    "rows": 867,
+    "max_date": "2024-12-31"
+  },
+  "raw/688132.SH.parquet": {
+    "sha256": "ca223f353fe5ed8e32c6bcba2fd43add2aef706caa419ab1c3909f00ef9e03ba",
+    "rows": 550,
+    "max_date": "2024-12-31"
+  },
+  "raw/688133.SH.parquet": {
+    "sha256": "05ba15ae7a80a040c12eb1c852bde10f0967703e6bcf6665cc7bde4a81ae266f",
+    "rows": 1014,
+    "max_date": "2024-12-31"
+  },
+  "raw/688135.SH.parquet": {
+    "sha256": "cd334ea57acc53580b44aecb86ef17788bfc61adb8337a85cb836368d6abd6e9",
+    "rows": 1006,
+    "max_date": "2024-12-31"
+  },
+  "raw/688136.SH.parquet": {
+    "sha256": "57fec053cb69482f5ad307d240a02998550004217ea31a59116817ac9ccc6f6c",
+    "rows": 983,
+    "max_date": "2024-12-31"
+  },
+  "raw/688137.SH.parquet": {
+    "sha256": "0c733128b4a614dfd4784fccdd46c9a6af46e1821fd5848592bcae5f9936d202",
+    "rows": 546,
+    "max_date": "2024-12-31"
+  },
+  "raw/688138.SH.parquet": {
+    "sha256": "84a72831c101bba64ccbadc5dacc7462ab719cdf692f75a7a62275f2b9cc5eee",
+    "rows": 1242,
+    "max_date": "2024-12-31"
+  },
+  "raw/688139.SH.parquet": {
+    "sha256": "ee0820d550f22884e94ff04fc43017ded6c62fe90302c834af5671f00e62f4e3",
+    "rows": 1260,
+    "max_date": "2024-12-31"
+  },
+  "raw/688141.SH.parquet": {
+    "sha256": "3134c22df154bd4ee2add5773a788521022dca1a5f1183ce1353dbc05a8d8b35",
+    "rows": 490,
+    "max_date": "2024-12-31"
+  },
+  "raw/688143.SH.parquet": {
+    "sha256": "be61967f636dfb2b012a50d182caba9b7a0c3b897adc23bb54fd0b09511e3f16",
+    "rows": 499,
+    "max_date": "2024-12-31"
+  },
+  "raw/688146.SH.parquet": {
+    "sha256": "08349d82186f1eaca0afe13faa1eb828fb3031254968af755966740d6464adfe",
+    "rows": 412,
+    "max_date": "2024-12-31"
+  },
+  "raw/688147.SH.parquet": {
+    "sha256": "f0bdbc9020eecd088a9aae01f437fb593613d7770f9f059d9c7418006927d96b",
+    "rows": 490,
+    "max_date": "2024-12-31"
+  },
+  "raw/688148.SH.parquet": {
+    "sha256": "5af2e037407c2db08f5e3675b4752a757376795454878b7afb12b37aa478ebda",
+    "rows": 825,
+    "max_date": "2024-12-31"
+  },
+  "raw/688150.SH.parquet": {
+    "sha256": "4c9fdab89aad6762b7fb20e6e555493c150408fa5e688f00973ebbfcc750587f",
+    "rows": 678,
+    "max_date": "2024-12-31"
+  },
+  "raw/688151.SH.parquet": {
+    "sha256": "5aa04060567b93d0763fb7088be7d4b442295994edbe513436c615919dba9c8a",
+    "rows": 746,
+    "max_date": "2024-12-31"
+  },
+  "raw/688152.SH.parquet": {
+    "sha256": "24aade1834ebbb36867e46010f0308232a89dd29017e3f5d0a3234d6bfb29b65",
+    "rows": 530,
+    "max_date": "2024-12-31"
+  },
+  "raw/688153.SH.parquet": {
+    "sha256": "cef4bf0dad2cd80f14446e6a5c0bf12a1de1c9f01db75ac0c8166fb1391a0b3b",
+    "rows": 663,
+    "max_date": "2024-12-31"
+  },
+  "raw/688155.SH.parquet": {
+    "sha256": "377487f5c3967719513e7f589c30b7899d86337d60a981e00821a17a60f0498a",
+    "rows": 1066,
+    "max_date": "2024-12-31"
+  },
+  "raw/688156.SH.parquet": {
+    "sha256": "8ad7a66eca2354fd960b596f7db0d6ae52e91db1a16c2461bb195fb72b56a4e2",
+    "rows": 1036,
+    "max_date": "2024-12-31"
+  },
+  "raw/688157.SH.parquet": {
+    "sha256": "2a11d84c2fde641409bfad31fd9ad900b7e0afeb8bd6b08b12513a7823862719",
+    "rows": 1109,
+    "max_date": "2024-12-31"
+  },
+  "raw/688158.SH.parquet": {
+    "sha256": "a8ece6f198236ca6333ff033c62d52465e447afae73181ebafe7a5e7099b92c2",
+    "rows": 1200,
+    "max_date": "2024-12-31"
+  },
+  "raw/688159.SH.parquet": {
+    "sha256": "d57c9bad2ffbd00096119906d8dd1bc1075bb59b4337fc1a929058d216175797",
+    "rows": 1197,
+    "max_date": "2024-12-31"
+  },
+  "raw/688160.SH.parquet": {
+    "sha256": "762160eadfcb16aeb6247b8feadd380ff45fcfe73048ee4e48ef7060ce222180",
+    "rows": 1005,
+    "max_date": "2024-12-31"
+  },
+  "raw/688161.SH.parquet": {
+    "sha256": "e6f75c5490648e09cec5c8893dbf1f4f0440fe4c9933b24c4e4fe322c0f3b86f",
+    "rows": 852,
+    "max_date": "2024-12-31"
+  },
+  "raw/688162.SH.parquet": {
+    "sha256": "dd7f08a50b048c32c857ad0c17775ba1ea0d7f0da77c8278894574b924587304",
+    "rows": 764,
+    "max_date": "2024-12-31"
+  },
+  "raw/688163.SH.parquet": {
+    "sha256": "361f830a60590d83dd3b03cff32bf1d0c23325c7f9f92c4900befeada5500c00",
+    "rows": 683,
+    "max_date": "2024-12-31"
+  },
+  "raw/688165.SH.parquet": {
+    "sha256": "40a1587bb5db2c577c1f97ba900c5e1029426931c711994e859683bf037132d5",
+    "rows": 1085,
+    "max_date": "2024-12-31"
+  },
+  "raw/688166.SH.parquet": {
+    "sha256": "d760295753ecbf95c9dea8d37a41c12dfd8bfeca98f215451e134c8cc7817990",
+    "rows": 1250,
+    "max_date": "2024-12-31"
+  },
+  "raw/688167.SH.parquet": {
+    "sha256": "b95b42d067b5d9fde70e463cce9619d6ddc9a81c7ed1908312ed38828357f3f2",
+    "rows": 732,
+    "max_date": "2024-12-31"
+  },
+  "raw/688168.SH.parquet": {
+    "sha256": "49998c699db413b6e429845090630103417227095859c8cc669d55a82f1b526d",
+    "rows": 1289,
+    "max_date": "2024-12-31"
+  },
+  "raw/688169.SH.parquet": {
+    "sha256": "93ce1546b23c018b5e5018fa0b236d41f1ec38e3f5677c2fd911c4350c521fde",
+    "rows": 1182,
+    "max_date": "2024-12-31"
+  },
+  "raw/688170.SH.parquet": {
+    "sha256": "329645d88846f5e3204785ea2a36eb1800c3c39d21cdaa9cc2b8c013664c750c",
+    "rows": 650,
+    "max_date": "2024-12-31"
+  },
+  "raw/688171.SH.parquet": {
+    "sha256": "da008960b79c368fd693df9f92323d5512e6c1303a3a20b253bf80ae28ae514a",
+    "rows": 709,
+    "max_date": "2024-12-31"
+  },
+  "raw/688172.SH.parquet": {
+    "sha256": "58c7b3a7ef21468eaa04a6debb3a8b9c144b5dc8f2a70343bb66d36571df5bb6",
+    "rows": 495,
+    "max_date": "2024-12-31"
+  },
+  "raw/688173.SH.parquet": {
+    "sha256": "039b1cebc6d5b8d4eacee34fb26eee68d7b93856267ad30e6b4682456a0627e0",
+    "rows": 713,
+    "max_date": "2024-12-31"
+  },
+  "raw/688175.SH.parquet": {
+    "sha256": "3f8e97708ac7560d23054f2390683742da8c0b2a9dd9706ec4d3ce1cf785eee1",
+    "rows": 681,
+    "max_date": "2024-12-31"
+  },
+  "raw/688176.SH.parquet": {
+    "sha256": "174ffca6b1f712e064bac746f8dff91d43d619ae3980e8259482817a1fbac46c",
+    "rows": 723,
+    "max_date": "2024-12-31"
+  },
+  "raw/688177.SH.parquet": {
+    "sha256": "39e2a692be6f1903a9ebd0aefaa8258b07436ec3202b05bc2ee0ee9c61033767",
+    "rows": 1182,
+    "max_date": "2024-12-31"
+  },
+  "raw/688178.SH.parquet": {
+    "sha256": "576827814cf3705f8db46d07eefa5b7a455de0c037554c4728a731c62fb6b998",
+    "rows": 1204,
+    "max_date": "2024-12-31"
+  },
+  "raw/688179.SH.parquet": {
+    "sha256": "c99a7ab2f593a44a1fb3a8d1e74c0f8908d4129317c8cc7d99bc86ab780675bd",
+    "rows": 1018,
+    "max_date": "2024-12-31"
+  },
+  "raw/688180.SH.parquet": {
+    "sha256": "7897744f7e0eff2c79a925213bd52856280430e3ceb64d2788c4f95cc81de2bf",
+    "rows": 1085,
+    "max_date": "2024-12-31"
+  },
+  "raw/688181.SH.parquet": {
+    "sha256": "f43211c45c2e6fda97b3b73f3f3fdf31c909bd40fc6d228595bff80ba3d1b796",
+    "rows": 1210,
+    "max_date": "2024-12-31"
+  },
+  "raw/688182.SH.parquet": {
+    "sha256": "61669238a46fc587544dae1cb1a19331587696930266786abb5271a3c99c9103",
+    "rows": 760,
+    "max_date": "2024-12-31"
+  },
+  "raw/688183.SH.parquet": {
+    "sha256": "7a78458caa409fe58d9404c44f4bb645b712cb4054edece8db8184fadf7486b6",
+    "rows": 936,
+    "max_date": "2024-12-31"
+  },
+  "raw/688184.SH.parquet": {
+    "sha256": "c3fb8ded3effecd3986df8660c39dcd0b85ff3134ede035f38fff98fd7731ae2",
+    "rows": 554,
+    "max_date": "2024-12-31"
+  },
+  "raw/688185.SH.parquet": {
+    "sha256": "d36f2308111956357b50f36e8ed39bab40943ed5d909924e96635b99c05962cb",
+    "rows": 1064,
+    "max_date": "2024-12-31"
+  },
+  "raw/688186.SH.parquet": {
+    "sha256": "cc8dacee08b94bd4b12fdd568e43bed7f1e99af192a3850a6f81a6d0fc2a7a9f",
+    "rows": 1190,
+    "max_date": "2024-12-31"
+  },
+  "raw/688187.SH.parquet": {
+    "sha256": "a9b5b302a0a3f6039e0b60eda371be64bebf16f790f6ffeb7ecd3cc9669d9156",
+    "rows": 803,
+    "max_date": "2024-12-31"
+  },
+  "raw/688188.SH.parquet": {
+    "sha256": "d0f671ccd8325173d99b565a56e97c6e1e12e37388076f84f07949b6cc17d2cf",
+    "rows": 1310,
+    "max_date": "2024-12-31"
+  },
+  "raw/688189.SH.parquet": {
+    "sha256": "d503d7467800cec35ee84f5cd8070923e5878471fc6c02dd3051cf821babb9e1",
+    "rows": 1158,
+    "max_date": "2024-12-31"
+  },
+  "raw/688190.SH.parquet": {
+    "sha256": "13c3eeea4d1ff638ea97c6b698712f6cf493ae4ae19518fbc521b0773cc84c5d",
+    "rows": 752,
+    "max_date": "2024-12-31"
+  },
+  "raw/688191.SH.parquet": {
+    "sha256": "b8fdb250876f78122935f7e3faf8e10dd18350e1884260fa699ec49f73719a37",
+    "rows": 907,
+    "max_date": "2024-12-31"
+  },
+  "raw/688192.SH.parquet": {
+    "sha256": "b1f5f012e08508bcb452fb051c2f7cf6a0a78cfc271b72223d431843c9e63c96",
+    "rows": 742,
+    "max_date": "2024-12-31"
+  },
+  "raw/688193.SH.parquet": {
+    "sha256": "6d3951669a0ccfa6c06ff5b572c299a00740d7cbc118da588ca8bebbef84ffb6",
+    "rows": 670,
+    "max_date": "2024-12-31"
+  },
+  "raw/688195.SH.parquet": {
+    "sha256": "b2984802eeb26f2e2c16afcaa52d6649ad52c63518ede5b84a3861072786cfad",
+    "rows": 915,
+    "max_date": "2024-12-31"
+  },
+  "raw/688196.SH.parquet": {
+    "sha256": "224b7c204266d8beb6b61c3609a7f8ab04eaebdc49da96af59692cf457dd3b38",
+    "rows": 1241,
+    "max_date": "2024-12-31"
+  },
+  "raw/688197.SH.parquet": {
+    "sha256": "80f7296d8c879d91d2b5f3b998d116c60a0534c905e0dd3117a028337523fcdd",
+    "rows": 675,
+    "max_date": "2024-12-31"
+  },
+  "raw/688198.SH.parquet": {
+    "sha256": "ea0484d0eed027dc9808020aef3d0fcd7dca18c3cb0269bf198364c2f567d798",
+    "rows": 1229,
+    "max_date": "2024-12-31"
+  },
+  "raw/688199.SH.parquet": {
+    "sha256": "56076941b08d15ae16fe6132253997171d6e3272e69cfdb68892ee44aa93d879",
+    "rows": 1253,
+    "max_date": "2024-12-31"
+  },
+  "raw/688200.SH.parquet": {
+    "sha256": "5b9a6f652dcef3f9d267d430b08e90d7da08c061d1c8ef7acd71b1a6d505b523",
+    "rows": 1185,
+    "max_date": "2024-12-31"
+  },
+  "raw/688201.SH.parquet": {
+    "sha256": "c9c754aaaabc054dceec57440181fdaed798283e64f56d7578c977af52da922f",
+    "rows": 898,
+    "max_date": "2024-12-31"
+  },
+  "raw/688202.SH.parquet": {
+    "sha256": "cee636c68156c347495b5eb2108e3eaeb0288d24234ba202dca4a3e22fc52a57",
+    "rows": 1253,
+    "max_date": "2024-12-31"
+  },
+  "raw/688203.SH.parquet": {
+    "sha256": "e6227c187ce8c6baaf03e20b112147a16aed8014c664cf3b6e570893022248d0",
+    "rows": 577,
+    "max_date": "2024-12-31"
+  },
+  "raw/688205.SH.parquet": {
+    "sha256": "834c9a7947343f1b5d007347950e70f046e6f2d44ece4a6484ece347c701ae75",
+    "rows": 582,
+    "max_date": "2024-12-31"
+  },
+  "raw/688206.SH.parquet": {
+    "sha256": "70221b7b1ae89d970176e01ca32c0773cada98a6a8c9bd2b0846439b6fd292ac",
+    "rows": 730,
+    "max_date": "2024-12-31"
+  },
+  "raw/688207.SH.parquet": {
+    "sha256": "03d2b8feec4ff770cee11e27196e1bc9dadb079965678bf1976bd76d88e883ee",
+    "rows": 679,
+    "max_date": "2024-12-31"
+  },
+  "raw/688208.SH.parquet": {
+    "sha256": "aba05ececc7ccf93951d14604800983e86481d93a909b46c618d4283e89e16be",
+    "rows": 1188,
+    "max_date": "2024-12-31"
+  },
+  "raw/688209.SH.parquet": {
+    "sha256": "6f2e3a24b297ea8aed32c06eaf30b242d4f81fc7c615522a663e334b808ddb15",
+    "rows": 658,
+    "max_date": "2024-12-31"
+  },
+  "raw/688210.SH.parquet": {
+    "sha256": "e9b9fec3d9cb51dad1d438cb79e4903ebd0895904e4fbdb45f7df88576eeb013",
+    "rows": 731,
+    "max_date": "2024-12-31"
+  },
+  "raw/688211.SH.parquet": {
+    "sha256": "041da874b0ae7c3667e7e4d77b8c09d19c382ab9946c1ee7fbb0fd36d6a1028d",
+    "rows": 775,
+    "max_date": "2024-12-31"
+  },
+  "raw/688212.SH.parquet": {
+    "sha256": "9c3e874d3b6044d0276956cc108cafefeeba13d3fd74512be1e88abb540f1e97",
+    "rows": 761,
+    "max_date": "2024-12-31"
+  },
+  "raw/688213.SH.parquet": {
+    "sha256": "48146547a6547881b289901fbd6943677cf2e6af880c6368a2f8dd641487cc1b",
+    "rows": 638,
+    "max_date": "2024-12-31"
+  },
+  "raw/688215.SH.parquet": {
+    "sha256": "32f74df7043a1f25afde6cf6a65f204dfc82a28b0664cc0e682a29ccf90f6095",
+    "rows": 1053,
+    "max_date": "2024-12-31"
+  },
+  "raw/688216.SH.parquet": {
+    "sha256": "1d9ea8e6dc585b4193598c0faccf7fab9877938e0eefdf8243c58e8ea3c81bc3",
+    "rows": 857,
+    "max_date": "2024-12-31"
+  },
+  "raw/688217.SH.parquet": {
+    "sha256": "74bbda67a93b7ac7de4b0b4ca2d899b5639870e0fca6d834937893041c0d275d",
+    "rows": 883,
+    "max_date": "2024-12-31"
+  },
+  "raw/688218.SH.parquet": {
+    "sha256": "da4d64b849442a834d0991f4b2f307aa8467702a568038e33d3770f53362dfff",
+    "rows": 1227,
+    "max_date": "2024-12-31"
+  },
+  "raw/688219.SH.parquet": {
+    "sha256": "58ce8bce1e211cac7cfdde24abaa8b733ae3b02fc0d20a49369b502df0c1de48",
+    "rows": 1001,
+    "max_date": "2024-12-31"
+  },
+  "raw/688220.SH.parquet": {
+    "sha256": "3e8fb0bfc1bed82bd94732b7a46b5f0e5fb262ac3ea6a88d3d1f9f679a3e8208",
+    "rows": 718,
+    "max_date": "2024-12-31"
+  },
+  "raw/688221.SH.parquet": {
+    "sha256": "8a5776a8ce6ecadc0fa6a74a4fd31f7d0e722b382487e6022fdc7c65e922ef93",
+    "rows": 1016,
+    "max_date": "2024-12-31"
+  },
+  "raw/688222.SH.parquet": {
+    "sha256": "ec6b20ba5e2a9a3ad3a9ca42b16dc023e878ad41ca86339f7ac57942e9242181",
+    "rows": 1144,
+    "max_date": "2024-12-31"
+  },
+  "raw/688223.SH.parquet": {
+    "sha256": "28b095b32b70c667a132a8ae5b462b16a403ff6e611d70b148da0e9a39eb5d13",
+    "rows": 710,
+    "max_date": "2024-12-31"
+  },
+  "raw/688225.SH.parquet": {
+    "sha256": "16d266b5937d2b3645287d4329f80eebebf9e4c901dc540b7d00249039055ab2",
+    "rows": 705,
+    "max_date": "2024-12-31"
+  },
+  "raw/688226.SH.parquet": {
+    "sha256": "3e95d54251585f7360d892f0aa02a818ca0f00595a8efebcc510c85632ba764d",
+    "rows": 847,
+    "max_date": "2024-12-31"
+  },
+  "raw/688227.SH.parquet": {
+    "sha256": "a75dba90aa67ebab78968ddf4ce2e74748b232715f39db2812bdfbaf63f62da5",
+    "rows": 728,
+    "max_date": "2024-12-31"
+  },
+  "raw/688228.SH.parquet": {
+    "sha256": "7b7dd02d0bc56b48d894d1f08881186b9814fccf9cc1669cd0146dcf89372a92",
+    "rows": 1157,
+    "max_date": "2024-12-31"
+  },
+  "raw/688229.SH.parquet": {
+    "sha256": "5995fb73c9ff51e68e1c59008ae16f207838addc67407c86b960a46c3a31e7ed",
+    "rows": 1062,
+    "max_date": "2024-12-31"
+  },
+  "raw/688230.SH.parquet": {
+    "sha256": "a515a3849491818c74571451f3888ef96e43e54786f344f77c402c875e11fd48",
+    "rows": 749,
+    "max_date": "2024-12-31"
+  },
+  "raw/688231.SH.parquet": {
+    "sha256": "f87925077bba7291a032f0297f332630aef5dd8ad1411cda8b0ffd607f5aaa7f",
+    "rows": 594,
+    "max_date": "2024-12-31"
+  },
+  "raw/688232.SH.parquet": {
+    "sha256": "f881a56b0cce2afe7fd5df414336355ba78656344fcd821e6472942ca7e93a9a",
+    "rows": 759,
+    "max_date": "2024-12-31"
+  },
+  "raw/688233.SH.parquet": {
+    "sha256": "87daba8b5b46b291deb529850ad33ff95c58195befb54fae953a4709040e8aa5",
+    "rows": 1182,
+    "max_date": "2024-12-31"
+  },
+  "raw/688234.SH.parquet": {
+    "sha256": "5763d7fbb455e727ec6a83babbd86d9ad15f1b44d22595bac1b010161639134c",
+    "rows": 720,
+    "max_date": "2024-12-31"
+  },
+  "raw/688235.SH.parquet": {
+    "sha256": "89372954546a518313bf2dfeba05f241cd1e51dbf3409aa076f8d07b7df29be7",
+    "rows": 739,
+    "max_date": "2024-12-31"
+  },
+  "raw/688236.SH.parquet": {
+    "sha256": "2b1a42a4d02e4dd42e464929ffd81a96e677ea3a66212c7ae9251647164066e1",
+    "rows": 728,
+    "max_date": "2024-12-31"
+  },
+  "raw/688237.SH.parquet": {
+    "sha256": "323e175a119f3235bdaa74b8f58f4c68c261c3f6512f6bde17a3ebeba6876879",
+    "rows": 609,
+    "max_date": "2024-12-31"
+  },
+  "raw/688238.SH.parquet": {
+    "sha256": "b27eda81988257ac32de586ffe3182663eefe60710f988fce8ccd023dcd8a900",
+    "rows": 676,
+    "max_date": "2024-12-31"
+  },
+  "raw/688239.SH.parquet": {
+    "sha256": "c3324fa2a63daadcb8d5d7e4dab9ef752fb725eb0bcd5a9906de4a028759becf",
+    "rows": 849,
+    "max_date": "2024-12-31"
+  },
+  "raw/688244.SH.parquet": {
+    "sha256": "416ab86cf725b35d9a659b1294746e118b2379ad4cebad2caa8340db3fbf9ae2",
+    "rows": 537,
+    "max_date": "2024-12-31"
+  },
+  "raw/688246.SH.parquet": {
+    "sha256": "2ddb7a165335e3db33ec7f1efc29608fb86d6c6fa91d48f27748e1fd5c697e35",
+    "rows": 740,
+    "max_date": "2024-12-31"
+  },
+  "raw/688247.SH.parquet": {
+    "sha256": "2727b4bd1a3187d35aec4ca26694aab54ae10bc86c23015658afb59bf9409bb0",
+    "rows": 570,
+    "max_date": "2024-12-31"
+  },
+  "raw/688248.SH.parquet": {
+    "sha256": "19224ca2876fc1ffd67f9ee5681ba64c91ffc894f5e468a1379170d8cc659ee3",
+    "rows": 734,
+    "max_date": "2024-12-31"
+  },
+  "raw/688249.SH.parquet": {
+    "sha256": "bbd657faa1cecd8e4c4db71b3e515335bc37bec083759ebbd4b0ce3a178d605e",
+    "rows": 405,
+    "max_date": "2024-12-31"
+  },
+  "raw/688251.SH.parquet": {
+    "sha256": "57baf3632ca846c076fee9e02033aa365c68b8e09a4d6b95ddb706f22ea25ef9",
+    "rows": 628,
+    "max_date": "2024-12-31"
+  },
+  "raw/688252.SH.parquet": {
+    "sha256": "68e82b955a234387cf0d833e94abd60915d7eb5f8bf8719ac96fb7f8b270bb7c",
+    "rows": 548,
+    "max_date": "2024-12-31"
+  },
+  "raw/688253.SH.parquet": {
+    "sha256": "ce7fd55f0c7c4255c7b6100aa585fbebe1764e8b8301c6889fc30c0b773c67da",
+    "rows": 590,
+    "max_date": "2024-12-31"
+  },
+  "raw/688255.SH.parquet": {
+    "sha256": "0e07da793e7301d5f9878bdfcf9b4e167b1a7ed3f39169053942fbcbdec58188",
+    "rows": 776,
+    "max_date": "2024-12-31"
+  },
+  "raw/688256.SH.parquet": {
+    "sha256": "d62dc7cd935a782b1252b258a7119f22c64b5cb173e537eef424d69aade8ab66",
+    "rows": 1082,
+    "max_date": "2024-12-31"
+  },
+  "raw/688257.SH.parquet": {
+    "sha256": "9958d10e855c306f02f254c9d7761606588c57db7b803dff122f3d877c42dbf0",
+    "rows": 774,
+    "max_date": "2024-12-31"
+  },
+  "raw/688258.SH.parquet": {
+    "sha256": "a781ae12782f511caf12c32f36107bda3c73195fe1dd83bdda2ae1f256ce5b10",
+    "rows": 1229,
+    "max_date": "2024-12-31"
+  },
+  "raw/688259.SH.parquet": {
+    "sha256": "8eda247edefd1cb0ebe3fb3704086a27d96b10fb323e3317f07c277a60ddd067",
+    "rows": 720,
+    "max_date": "2024-12-31"
+  },
+  "raw/688260.SH.parquet": {
+    "sha256": "ee325fc5eccf34e2644f9b45102e50eb3f5e75d162a64304d0df9cb9690a63bd",
+    "rows": 909,
+    "max_date": "2024-12-31"
+  },
+  "raw/688261.SH.parquet": {
+    "sha256": "047d1dad961f9f564d3204d06d3935d3fc5a8c54d95caa7130a22296a579e9a9",
+    "rows": 704,
+    "max_date": "2024-12-31"
+  },
+  "raw/688262.SH.parquet": {
+    "sha256": "613286ba5a55ef44e03547aa95803624db0045cf9e0848eeeb0c5c04a448c5f2",
+    "rows": 724,
+    "max_date": "2024-12-31"
+  },
+  "raw/688265.SH.parquet": {
+    "sha256": "7450c23296bedca3adbe42999c8f2a066134cc4d7811da93f47692ee49fa2069",
+    "rows": 730,
+    "max_date": "2024-12-31"
+  },
+  "raw/688266.SH.parquet": {
+    "sha256": "eabe5b75688ff0bf88201c70cd14fa87e1b238c96483c17400d32d8afcaf585f",
+    "rows": 1197,
+    "max_date": "2024-12-31"
+  },
+  "raw/688267.SH.parquet": {
+    "sha256": "4174104c9590b7a6884a2335037be9e7f2d0512e4bcbf7a067d40b8e56095c99",
+    "rows": 700,
+    "max_date": "2024-12-31"
+  },
+  "raw/688268.SH.parquet": {
+    "sha256": "2372bc00aee861d3b548e5d990da7aa95f1fe1fd30b7c4d7719f30af0268bfb5",
+    "rows": 1216,
+    "max_date": "2024-12-31"
+  },
+  "raw/688269.SH.parquet": {
+    "sha256": "6d7a906801684fec56dbf37f243bbbe92623bdeed2e08f3ab33c2b3221fc1252",
+    "rows": 866,
+    "max_date": "2024-12-31"
+  },
+  "raw/688270.SH.parquet": {
+    "sha256": "8d500e0bfe6abd1114ea3fe1f4de842f5ad75ac0adaa9a494352d7ae0289c00e",
+    "rows": 709,
+    "max_date": "2024-12-31"
+  },
+  "raw/688271.SH.parquet": {
+    "sha256": "fe404de7464aa45b46579e07d571f42006e0e63c8c8b6725148adb77355f9690",
+    "rows": 573,
+    "max_date": "2024-12-31"
+  },
+  "raw/688272.SH.parquet": {
+    "sha256": "e53d1e8464abb01a3ad7c2a779e9b66c4edbfd438a90f1fce146aa8c77a41ca2",
+    "rows": 781,
+    "max_date": "2024-12-31"
+  },
+  "raw/688273.SH.parquet": {
+    "sha256": "a0d45b7f9465fc135d37d424498594921c4d56221a3bc55b8a011a3fe8830fa6",
+    "rows": 580,
+    "max_date": "2024-12-31"
+  },
+  "raw/688275.SH.parquet": {
+    "sha256": "35c597ce5c46fdb229fc373ecb899779a79eb84bb398a0510688e2a7b355fcc1",
+    "rows": 546,
+    "max_date": "2024-12-31"
+  },
+  "raw/688276.SH.parquet": {
+    "sha256": "a5932b4ce07059daa5bb1ba98cf7bd875fa75060bab640a5403d214a3e76241a",
+    "rows": 855,
+    "max_date": "2024-12-31"
+  },
+  "raw/688277.SH.parquet": {
+    "sha256": "e63807cf8aadb1c48b4217b480fc3e146021add7fbf7442653cca48bc8bed855",
+    "rows": 1091,
+    "max_date": "2024-12-31"
+  },
+  "raw/688278.SH.parquet": {
+    "sha256": "985b985e54c99973393ccf27e339766d8c07e55e61dbd045f554929e75560ef2",
+    "rows": 1201,
+    "max_date": "2024-12-31"
+  },
+  "raw/688279.SH.parquet": {
+    "sha256": "111b1010ae045e0f61c755775c0cdc2db6b18af7a77b7a05261f1ec65ccf7f4c",
+    "rows": 657,
+    "max_date": "2024-12-31"
+  },
+  "raw/688280.SH.parquet": {
+    "sha256": "199a977cafd9c95958acbade746b7c6bc155035133cf2f254cc61a445e3b3a9d",
+    "rows": 774,
+    "max_date": "2024-12-31"
+  },
+  "raw/688281.SH.parquet": {
+    "sha256": "6d89c70c2261fcff1db9ce45055ddcf0eb2ff033b0bb27d5ea48d7170f69ae92",
+    "rows": 687,
+    "max_date": "2024-12-31"
+  },
+  "raw/688282.SH.parquet": {
+    "sha256": "1108f1cd67e7e212e4716f93082107a38be5c2ad79e6b7ff97f170340bef99f0",
+    "rows": 678,
+    "max_date": "2024-12-31"
+  },
+  "raw/688283.SH.parquet": {
+    "sha256": "50f9762ad4914c5f940507fad8cb2608e7457ec720bd86b59017ee295e3cae9b",
+    "rows": 701,
+    "max_date": "2024-12-31"
+  },
+  "raw/688285.SH.parquet": {
+    "sha256": "a0f8be723db50ef56467a34ddc4ea69aedc8f7702f9dc83bab8241e4316a0b50",
+    "rows": 779,
+    "max_date": "2024-12-31"
+  },
+  "raw/688286.SH.parquet": {
+    "sha256": "d340c2bf46fa552d92a39050483a291844205cd8c79ceee0371074016e5343f1",
+    "rows": 1067,
+    "max_date": "2024-12-31"
+  },
+  "raw/688287.SH.parquet": {
+    "sha256": "65c4d1bc80650d4a6a6d807a247f742dc664d99134f3d70f15288f1aeeb60f9e",
+    "rows": 635,
+    "max_date": "2024-12-31"
+  },
+  "raw/688288.SH.parquet": {
+    "sha256": "3e35a1c5b075a3f467b2c6e2c4070e31b9ad99f19f27595451f0b27a32899bbf",
+    "rows": 1252,
+    "max_date": "2024-12-31"
+  },
+  "raw/688289.SH.parquet": {
+    "sha256": "e255da9f741b45f998b2c4a6888e64991ac3a202634e7dc4b63fc40ab88be52e",
+    "rows": 1053,
+    "max_date": "2024-12-31"
+  },
+  "raw/688290.SH.parquet": {
+    "sha256": "81ade53c1639a74230df7d0d68fa7a97e42ddddeaced8b9d81d5134eeb72263f",
+    "rows": 650,
+    "max_date": "2024-12-31"
+  },
+  "raw/688291.SH.parquet": {
+    "sha256": "226c58c313d4737804b6bb543c56f64cfd54c09c6dfc905e402153e84fea3847",
+    "rows": 532,
+    "max_date": "2024-12-31"
+  },
+  "raw/688292.SH.parquet": {
+    "sha256": "af57bd1a2bb6a322aaab5787ba1c7a71544e96399e8b0a67b11843af5d4de216",
+    "rows": 575,
+    "max_date": "2024-12-31"
+  },
+  "raw/688293.SH.parquet": {
+    "sha256": "4d5ac85726f068763b79cc323daf5ba4bf7fe40c8452cd81aa7a04e4d4adbd0c",
+    "rows": 564,
+    "max_date": "2024-12-31"
+  },
+  "raw/688295.SH.parquet": {
+    "sha256": "26b6655d2fa358176c9bcba18805970a26328aa9f5ebb053463c90c188a0c269",
+    "rows": 667,
+    "max_date": "2024-12-31"
+  },
+  "raw/688296.SH.parquet": {
+    "sha256": "377d415815e17e4ce50eec7bf622f6885b0bec9f857c72d217278f85d022ec10",
+    "rows": 833,
+    "max_date": "2024-12-31"
+  },
+  "raw/688297.SH.parquet": {
+    "sha256": "d1a18c520493682a95ba742b44d641c06047620fa1cd8ca60327bd295f1d5237",
+    "rows": 611,
+    "max_date": "2024-12-31"
+  },
+  "raw/688298.SH.parquet": {
+    "sha256": "4c97ad29fa11bb66e6190e7015c503949b979ffb5931de1d95b1d3203c7c2a71",
+    "rows": 1194,
+    "max_date": "2024-12-31"
+  },
+  "raw/688299.SH.parquet": {
+    "sha256": "c4d9baac2edcc21bdb9ee6128d4ccd83565750aa34f2d76650171369977919e4",
+    "rows": 1252,
+    "max_date": "2024-12-31"
+  },
+  "raw/688300.SH.parquet": {
+    "sha256": "1cb935c5a5ed9a01689bd83ab2f34203db0aeaf4ffc5931422cf7cf1c0ff1e7f",
+    "rows": 1245,
+    "max_date": "2024-12-31"
+  },
+  "raw/688301.SH.parquet": {
+    "sha256": "08ae5c92dd7ad2ba2c237af6187e5126ba9a050054d4dc03e6af3637750db333",
+    "rows": 1038,
+    "max_date": "2024-12-31"
+  },
+  "raw/688302.SH.parquet": {
+    "sha256": "1e22556c15f4852f244c322200c0a92c92dcd347348ff85bf6878479662d1b9f",
+    "rows": 663,
+    "max_date": "2024-12-31"
+  },
+  "raw/688303.SH.parquet": {
+    "sha256": "28258bc546686192f029aa3958e17bcd3cc4347d7d14d7c274a246836fc998bd",
+    "rows": 836,
+    "max_date": "2024-12-31"
+  },
+  "raw/688305.SH.parquet": {
+    "sha256": "b96658ac59778aff9a3d4eb2524d25825b88655ce85f81bb3d697044fea1b1d9",
+    "rows": 845,
+    "max_date": "2024-12-31"
+  },
+  "raw/688306.SH.parquet": {
+    "sha256": "3fe0e223aa460667d894c72b80a53db0e355886da68b1f504a997ccc461c9e4b",
+    "rows": 676,
+    "max_date": "2024-12-31"
+  },
+  "raw/688307.SH.parquet": {
+    "sha256": "653a08a4e8db325f64c13a6fdef7abf6d7836153b94df36d83e3b43e844e7d60",
+    "rows": 457,
+    "max_date": "2024-12-31"
+  },
+  "raw/688308.SH.parquet": {
+    "sha256": "95cf3a4d52853bf0d60785c9803b00d8b9013bc09b0ad13d5f27811ba3df7b6a",
+    "rows": 985,
+    "max_date": "2024-12-31"
+  },
+  "raw/688309.SH.parquet": {
+    "sha256": "ea83fcc9adabf5999484000dd2145dc91b8694db8b54dc05d15b4bb5b7f05a58",
+    "rows": 1086,
+    "max_date": "2024-12-31"
+  },
+  "raw/688310.SH.parquet": {
+    "sha256": "4001a91e329908f3f264b5c6252ce9e937c36cf6d4b284b1f05031df928dcf1c",
+    "rows": 1233,
+    "max_date": "2024-12-31"
+  },
+  "raw/688311.SH.parquet": {
+    "sha256": "3231f5858479c5c522a8f0a1568d605c166ff61cbe21d224bf311bdef7d4986c",
+    "rows": 1073,
+    "max_date": "2024-12-31"
+  },
+  "raw/688312.SH.parquet": {
+    "sha256": "43025b716d54e75adab436ec1f09e482fd05a27811cf6c41d5d4f0e1a14fc3b5",
+    "rows": 1110,
+    "max_date": "2024-12-31"
+  },
+  "raw/688313.SH.parquet": {
+    "sha256": "91e0d8015e12bc9dea6d1ccc7a7be8d198aad4008b0f20a98c8ef5cc52d5d3f7",
+    "rows": 1065,
+    "max_date": "2024-12-31"
+  },
+  "raw/688314.SH.parquet": {
+    "sha256": "314df29708fecb7f2c43d1213c18ac9ad85942d4eb62fdedccbed17759f15104",
+    "rows": 882,
+    "max_date": "2024-12-31"
+  },
+  "raw/688315.SH.parquet": {
+    "sha256": "3da9e1545d225ab60f8327227b59ebce53cb9c67a846211d24ac2fd0e43c175b",
+    "rows": 904,
+    "max_date": "2024-12-31"
+  },
+  "raw/688316.SH.parquet": {
+    "sha256": "5405f63ffabbc98ed27265ca14da349617630864f2ec438f976afc039e761722",
+    "rows": 923,
+    "max_date": "2024-12-31"
+  },
+  "raw/688317.SH.parquet": {
+    "sha256": "14c1403550c02b9f1647bb1e6d52733ededc8a3cc552823ac3e35612e3e9cf18",
+    "rows": 959,
+    "max_date": "2024-12-31"
+  },
+  "raw/688318.SH.parquet": {
+    "sha256": "f35f12397d5e9e317c978e6e8621c3c1ed1f8097c8c9c95fa19365bcaa167d66",
+    "rows": 1137,
+    "max_date": "2024-12-31"
+  },
+  "raw/688319.SH.parquet": {
+    "sha256": "499ddb1ee1cadc223ffed55689922b59719d551a2fb1d6e99ac079e2ce693bbe",
+    "rows": 867,
+    "max_date": "2024-12-31"
+  },
+  "raw/688320.SH.parquet": {
+    "sha256": "94b29078a930761f394f37ec369b14fdb3912f3dabe91da88a1b3922231dc03e",
+    "rows": 651,
+    "max_date": "2024-12-31"
+  },
+  "raw/688321.SH.parquet": {
+    "sha256": "42676e2afba8c49ec34274d1bc90d3b188f893ab0aa8ecab87cc9d9cfa987a66",
+    "rows": 1308,
+    "max_date": "2024-12-31"
+  },
+  "raw/688322.SH.parquet": {
+    "sha256": "611d1a235b5c1d910f3af283567e7d4d2f4fedb1966d13f2c0b880d13b0216e0",
+    "rows": 605,
+    "max_date": "2024-12-31"
+  },
+  "raw/688323.SH.parquet": {
+    "sha256": "e9ce1b957e2724a9bb339943eb3d2df6918acf62c702b28d8a9a3143bc989754",
+    "rows": 893,
+    "max_date": "2024-12-31"
+  },
+  "raw/688325.SH.parquet": {
+    "sha256": "6b9f11cd6f6401838d2bd798cb09555015709aff5894c198d16f6e334067b83a",
+    "rows": 655,
+    "max_date": "2024-12-31"
+  },
+  "raw/688326.SH.parquet": {
+    "sha256": "4079956f18909a4bff6a5499cec6b5d274b427d78c33194ba5bad7577cbfd661",
+    "rows": 658,
+    "max_date": "2024-12-31"
+  },
+  "raw/688327.SH.parquet": {
+    "sha256": "b0dcc6b4b8fa4a698f9fbf4be5745d6275b72949d3bcacfd2a46705ccef3ad0d",
+    "rows": 633,
+    "max_date": "2024-12-31"
+  },
+  "raw/688328.SH.parquet": {
+    "sha256": "27969b7c2ea6a7f490fadb0073b8e5539c03d5dc28dc4fc5ac8dfc315cf327cf",
+    "rows": 928,
+    "max_date": "2024-12-31"
+  },
+  "raw/688329.SH.parquet": {
+    "sha256": "c986d444d8ae0c7401ab5a9a17d792bcb71b45664e36d5bb8d350415cb50c562",
+    "rows": 914,
+    "max_date": "2024-12-31"
+  },
+  "raw/688330.SH.parquet": {
+    "sha256": "bf4a1652c0b57387841b9a8e3f2b8a6e4a3a2b6022c91736e548ce83cb3f25c3",
+    "rows": 1025,
+    "max_date": "2024-12-31"
+  },
+  "raw/688331.SH.parquet": {
+    "sha256": "e594ef400b8ffbc59e3c052563ce2ad7edba8680eeb77302f78b975c61030a5b",
+    "rows": 669,
+    "max_date": "2024-12-31"
+  },
+  "raw/688332.SH.parquet": {
+    "sha256": "a1c3b6e60b0493797b6a393157b9ebb526437b946a687420d673ec1e10401d9f",
+    "rows": 599,
+    "max_date": "2024-12-31"
+  },
+  "raw/688333.SH.parquet": {
+    "sha256": "167e360f1d91d08cb6ffbb09db834cca884167b9e43d7d58255966eef8e71611",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "raw/688334.SH.parquet": {
+    "sha256": "7847412b4eb6e63b33bead41bad3ad9567dc3e618fa4f6b3b81737a5d668347f",
+    "rows": 374,
+    "max_date": "2024-12-31"
+  },
+  "raw/688335.SH.parquet": {
+    "sha256": "52da4e5d3eadc9dfa77e8c0472129c93e059e469a530621021db6eb28d5ba6f3",
+    "rows": 1062,
+    "max_date": "2024-12-31"
+  },
+  "raw/688336.SH.parquet": {
+    "sha256": "7fe39294e203302f6eb438f1ffac0ba11e1a93238c29ce2f8569e6700b1937cd",
+    "rows": 1080,
+    "max_date": "2024-12-31"
+  },
+  "raw/688337.SH.parquet": {
+    "sha256": "ce472a7240b6897261594b85f20856edf86a68082ea2100fcaf6a10757ccf239",
+    "rows": 665,
+    "max_date": "2024-12-31"
+  },
+  "raw/688338.SH.parquet": {
+    "sha256": "16b08336360c37c741d0444205e64702281bc87b05a9d38d02d2c3de9951b064",
+    "rows": 1069,
+    "max_date": "2024-12-31"
+  },
+  "raw/688339.SH.parquet": {
+    "sha256": "88fa0245b671b6190dcade16dce26babfcfb67509213bb89d5e1f3d3126181ac",
+    "rows": 1067,
+    "max_date": "2024-12-31"
+  },
+  "raw/688343.SH.parquet": {
+    "sha256": "41d2871eba2e71c818bb91b92a0736afffdf148c3a501926be03219a8c23625b",
+    "rows": 424,
+    "max_date": "2024-12-31"
+  },
+  "raw/688345.SH.parquet": {
+    "sha256": "3a4e1e6a242456a598e096f132737e836d4ec651b114e817206b7207516e03bc",
+    "rows": 864,
+    "max_date": "2024-12-31"
+  },
+  "raw/688347.SH.parquet": {
+    "sha256": "5b34ad7194ed73bec24417ff1d5c6d8ff7c2b1ba1e77f0e5b45eb0aefe395685",
+    "rows": 341,
+    "max_date": "2024-12-31"
+  },
+  "raw/688348.SH.parquet": {
+    "sha256": "859c9a9f3e749b1d7471a2ef54d8459cf2e8efd692861ff1dc8387146271ef5d",
+    "rows": 626,
+    "max_date": "2024-12-31"
+  },
+  "raw/688349.SH.parquet": {
+    "sha256": "fef030a7380f89594dba49b962a999f86d56db2a273ac4ceb867f41c8b8543fe",
+    "rows": 616,
+    "max_date": "2024-12-31"
+  },
+  "raw/688350.SH.parquet": {
+    "sha256": "bdf334e478e43cde650f1c1eb32b8b7c4e7e84f6d63b58fcfef590b3c7939f83",
+    "rows": 951,
+    "max_date": "2024-12-31"
+  },
+  "raw/688351.SH.parquet": {
+    "sha256": "aa92b1d18376c3c6ceb74d43a6b6cee395ed89c1bc387aa1f5fc7755eb51b681",
+    "rows": 566,
+    "max_date": "2024-12-31"
+  },
+  "raw/688352.SH.parquet": {
+    "sha256": "aa7543feb58510ff8f823a76a2e1b5daf308ade84dab307d44e6fe631b3f5029",
+    "rows": 413,
+    "max_date": "2024-12-31"
+  },
+  "raw/688353.SH.parquet": {
+    "sha256": "b31b1566a78d90ffbaf6b99a36236df55043a12a479af38795f127744183f00f",
+    "rows": 601,
+    "max_date": "2024-12-31"
+  },
+  "raw/688355.SH.parquet": {
+    "sha256": "47862fb69a12fb2d0b975c3f5530c220087c3ab7b80e7b2462bfbf8852e955c9",
+    "rows": 886,
+    "max_date": "2024-12-31"
+  },
+  "raw/688356.SH.parquet": {
+    "sha256": "104b80d99a0575fc41620ce749f22beba163bdaa903e0ab11d70f82565146080",
+    "rows": 1055,
+    "max_date": "2024-12-31"
+  },
+  "raw/688357.SH.parquet": {
+    "sha256": "2a13c97d9588798fd7d4bdde80ab787601a42cca992fabdb581bedd75c571f65",
+    "rows": 1232,
+    "max_date": "2024-12-31"
+  },
+  "raw/688358.SH.parquet": {
+    "sha256": "c22eae2bb8fb35e20f3289d7bb947b3dbc020f9a1ebe221a9eb860069da7a414",
+    "rows": 1233,
+    "max_date": "2024-12-31"
+  },
+  "raw/688359.SH.parquet": {
+    "sha256": "1538cf536315cd8402c2e9e6dd59b459c163234b6489fa8e319250e267999139",
+    "rows": 879,
+    "max_date": "2024-12-31"
+  },
+  "raw/688360.SH.parquet": {
+    "sha256": "e0e3248469d7cefa15a4baea1a08a446f6052de06fdb6e0a0b12eb03b80238af",
+    "rows": 1114,
+    "max_date": "2024-12-31"
+  },
+  "raw/688361.SH.parquet": {
+    "sha256": "fe99a9d0c165b9e419a09bfc5e5ca46fc1c72b97e54005f6e5696462e9924c54",
+    "rows": 395,
+    "max_date": "2024-12-31"
+  },
+  "raw/688362.SH.parquet": {
+    "sha256": "94484ac9a6128b0fa2a5cbf936c8f416032372dfbbc4694e13f562add8acce9a",
+    "rows": 517,
+    "max_date": "2024-12-31"
+  },
+  "raw/688363.SH.parquet": {
+    "sha256": "e07cfa5b925fe9dd74de6afb591cf3d1617c978b0acd777ae37cb4e1f669e83a",
+    "rows": 1252,
+    "max_date": "2024-12-31"
+  },
+  "raw/688365.SH.parquet": {
+    "sha256": "7445e65338a397cfa3b920ead2c31cee3d7316fa9b779f70dc3adc5ea11825bc",
+    "rows": 1135,
+    "max_date": "2024-12-31"
+  },
+  "raw/688366.SH.parquet": {
+    "sha256": "af7ce8efa0020036cd7aa06196249e2a623e753665bfef58b0fdd129a6f70bbf",
+    "rows": 1257,
+    "max_date": "2024-12-31"
+  },
+  "raw/688367.SH.parquet": {
+    "sha256": "9b3e33417c1fe5d209aa4a55153b8fff31c44651978d2d3ddbe26391fe5f0b6a",
+    "rows": 854,
+    "max_date": "2024-12-31"
+  },
+  "raw/688368.SH.parquet": {
+    "sha256": "d9c6c934e8ec44303f5ef7ff09de9004a9e50b4714ebdd3ab9934edd6f128dd4",
+    "rows": 1269,
+    "max_date": "2024-12-31"
+  },
+  "raw/688369.SH.parquet": {
+    "sha256": "7eaf25a3175d82b8531375c349f474da5d7526f477e9aae03715d898360059d0",
+    "rows": 1256,
+    "max_date": "2024-12-31"
+  },
+  "raw/688370.SH.parquet": {
+    "sha256": "c6b74ac84f1449017263e8a6abcbf93185c402ff2996258286025495e5e89b9a",
+    "rows": 570,
+    "max_date": "2024-12-31"
+  },
+  "raw/688371.SH.parquet": {
+    "sha256": "e68aaaef82dd4faeecb97b6e5817ccc5e19bc428882f2b504dd3645fb1d2d825",
+    "rows": 587,
+    "max_date": "2024-12-31"
+  },
+  "raw/688372.SH.parquet": {
+    "sha256": "e2b4fe1af20af06f52ca6edf1d591722b53276e2a418c9145f76a5a2523b2f63",
+    "rows": 532,
+    "max_date": "2024-12-31"
+  },
+  "raw/688373.SH.parquet": {
+    "sha256": "06e608676138c3882be696b23dabde293932d996c76751007be63095e612b4c0",
+    "rows": 584,
+    "max_date": "2024-12-31"
+  },
+  "raw/688375.SH.parquet": {
+    "sha256": "00e08719ff211b3555b977a2fcb58f108f063264a6d4fcd2dc56e28ce9235cea",
+    "rows": 594,
+    "max_date": "2024-12-31"
+  },
+  "raw/688376.SH.parquet": {
+    "sha256": "f099cec588706c25dd4d3fff185c59086e7ba0a133f64f3abca04ef88dadf894",
+    "rows": 515,
+    "max_date": "2024-12-31"
+  },
+  "raw/688377.SH.parquet": {
+    "sha256": "725049e939cf10c3f851c9ff2e30fdab0385e921cdbcdb25e5f8efab6d63c5aa",
+    "rows": 1090,
+    "max_date": "2024-12-31"
+  },
+  "raw/688378.SH.parquet": {
+    "sha256": "d7b4e601fff4b12f722bd20ca7b83112505379ef1213e43348e4f82d22053f1b",
+    "rows": 1049,
+    "max_date": "2024-12-31"
+  },
+  "raw/688379.SH.parquet": {
+    "sha256": "a59f4f71cdd1009f886b2a0ccc325f7bb65283d743ffb64f2fffce60588fe4a1",
+    "rows": 1060,
+    "max_date": "2024-12-31"
+  },
+  "raw/688380.SH.parquet": {
+    "sha256": "e07f446362ddc493db46f613906bd8a9bc3aeebce341923da981b2b0afa937ff",
+    "rows": 584,
+    "max_date": "2024-12-31"
+  },
+  "raw/688381.SH.parquet": {
+    "sha256": "21f21b8d3650f86b93cbee41a66e0ba5162be91c378a33bac49677c0419aff67",
+    "rows": 572,
+    "max_date": "2024-12-31"
+  },
+  "raw/688382.SH.parquet": {
+    "sha256": "4caacaf5cb29512acad09f332878a9aeb6a9ffed47c0454b179248aed43c4d4a",
+    "rows": 593,
+    "max_date": "2024-12-31"
+  },
+  "raw/688383.SH.parquet": {
+    "sha256": "7e81bc25618fb3c7f60dd28aaeea0b39cacb7344769469c9df3eacd8a259e0b6",
+    "rows": 893,
+    "max_date": "2024-12-31"
+  },
+  "raw/688385.SH.parquet": {
+    "sha256": "a84de45247354ae32fb0f26cff5f3e79181111bc7932581f14d0d39105939ccf",
+    "rows": 827,
+    "max_date": "2024-12-31"
+  },
+  "raw/688386.SH.parquet": {
+    "sha256": "e92cadaac99ee1a7ae5ab70b3a3612ad7faa3d336b42aa15d960fba976e8fbeb",
+    "rows": 1024,
+    "max_date": "2024-12-31"
+  },
+  "raw/688387.SH.parquet": {
+    "sha256": "2d729ec3074bfed0173f13b6a6ce7d6beaf82604f7f9a9f5e678292a8e32ea79",
+    "rows": 549,
+    "max_date": "2024-12-31"
+  },
+  "raw/688388.SH.parquet": {
+    "sha256": "34b47edfc685b996b97934e2c98c07c339da72f7fc56392e42bda6111dc5dd5b",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "raw/688389.SH.parquet": {
+    "sha256": "b01d30badfa63a0a27eeb098192b1a4b050a106657d35f1e870a8c537fbb8069",
+    "rows": 1253,
+    "max_date": "2024-12-31"
+  },
+  "raw/688390.SH.parquet": {
+    "sha256": "880f220b9d450d0995b7b21ee783e490282ea5caa3f1749a87202e7a6f4de785",
+    "rows": 1048,
+    "max_date": "2024-12-31"
+  },
+  "raw/688391.SH.parquet": {
+    "sha256": "6fbd82734367bb66cd8c9f974152ad9d5f98c6df15ee89f65f9677b1113d1bbb",
+    "rows": 558,
+    "max_date": "2024-12-31"
+  },
+  "raw/688392.SH.parquet": {
+    "sha256": "2eaf7c2db0053a2a9489df9a2174d3bd88463255572c460428a414db7ef37d98",
+    "rows": 548,
+    "max_date": "2024-12-31"
+  },
+  "raw/688393.SH.parquet": {
+    "sha256": "e14aa526511f5ebaa037a403de25310cc575f1f58e26c6751ecfa51fa8961133",
+    "rows": 1059,
+    "max_date": "2024-12-31"
+  },
+  "raw/688395.SH.parquet": {
+    "sha256": "1b5156762dd812ce89ae6727d12f24acff15f5be3be9c6ef675f331954dbaf6d",
+    "rows": 892,
+    "max_date": "2024-12-31"
+  },
+  "raw/688396.SH.parquet": {
+    "sha256": "1b038b269a0c68e9ec77a1f2a4e2dcb40e3ed96ccb87dffd129a68969a887edf",
+    "rows": 1178,
+    "max_date": "2024-12-31"
+  },
+  "raw/688398.SH.parquet": {
+    "sha256": "24680d3ff9422e96c6f5f681c07f9674f4b402107dee7724c53de373ff3a1305",
+    "rows": 1190,
+    "max_date": "2024-12-31"
+  },
+  "raw/688399.SH.parquet": {
+    "sha256": "689c25c970493f83cb45d1c1cc1b4079fd672f5c04e5a8d47c0addd1ef8b041a",
+    "rows": 1231,
+    "max_date": "2024-12-31"
+  },
+  "raw/688400.SH.parquet": {
+    "sha256": "40b395a63ae8fdec71e77a121b7b88013ecdf753d652fe8b599e825aa3019131",
+    "rows": 606,
+    "max_date": "2024-12-31"
+  },
+  "raw/688401.SH.parquet": {
+    "sha256": "8781007142e3da590a654cde6c83660bf86a65a76888fad92ba509e72e54e3f2",
+    "rows": 576,
+    "max_date": "2024-12-31"
+  },
+  "raw/688403.SH.parquet": {
+    "sha256": "9c467f2a564b5f756b7e28d79024c09f951d60e44e5b73585bc8d0bc40e7099f",
+    "rows": 575,
+    "max_date": "2024-12-31"
+  },
+  "raw/688408.SH.parquet": {
+    "sha256": "8b2e9fc9094c5930e7a34f6a5fc71dbb661efd7983fbfc0072c7d4c60710c25d",
+    "rows": 1053,
+    "max_date": "2024-12-31"
+  },
+  "raw/688409.SH.parquet": {
+    "sha256": "c17f891c44f5ee76a49da18eafa74ca1abcfc63b01f8427678ef824bc7088279",
+    "rows": 544,
+    "max_date": "2024-12-31"
+  },
+  "raw/688410.SH.parquet": {
+    "sha256": "8200c9ed393fedbefc76dfdf7409a9a345a88a4c835b32cdef79e69173642380",
+    "rows": 489,
+    "max_date": "2024-12-31"
+  },
+  "raw/688416.SH.parquet": {
+    "sha256": "560a8da6d8c600bae9ed0849504b318af15efea23d177c9b7d4051cc07cb2542",
+    "rows": 568,
+    "max_date": "2024-12-31"
+  },
+  "raw/688418.SH.parquet": {
+    "sha256": "9e72572c8d5df22c269cc8ca4d48f089d5ef5641b471208deed0e295dbc23da8",
+    "rows": 1080,
+    "max_date": "2024-12-31"
+  },
+  "raw/688419.SH.parquet": {
+    "sha256": "ca96f50bf1b4255778e84ae0723d1a01375ee75266c6f7ec4f661b2a0ee39833",
+    "rows": 524,
+    "max_date": "2024-12-31"
+  },
+  "raw/688420.SH.parquet": {
+    "sha256": "b6cc43afa145a579aeb8384d7a67687c6d94de266b36e95d60118024e68ccec8",
+    "rows": 500,
+    "max_date": "2024-12-31"
+  },
+  "raw/688425.SH.parquet": {
+    "sha256": "57c53603e1a9aa157d09d81d97ba8a75bd4fba2dabd8ffaefbe226e6408be807",
+    "rows": 858,
+    "max_date": "2024-12-31"
+  },
+  "raw/688426.SH.parquet": {
+    "sha256": "65209c369ea308e5b0df38a0347953d024ee60cf2069427d171afff18163c274",
+    "rows": 533,
+    "max_date": "2024-12-31"
+  },
+  "raw/688428.SH.parquet": {
+    "sha256": "2360894495d1bf1c6ca725c5aff08d81c595ec7ef5d8dba41e22316990afdddf",
+    "rows": 552,
+    "max_date": "2024-12-31"
+  },
+  "raw/688429.SH.parquet": {
+    "sha256": "603225fb7c9c438cc021a75374ea2918aa6c966969ac9ecf070249a523926275",
+    "rows": 368,
+    "max_date": "2024-12-31"
+  },
+  "raw/688432.SH.parquet": {
+    "sha256": "2e1e23fd8360a26c0fe047cdd1712cf3c3205e2ba795c80d3b6981b981d38b0e",
+    "rows": 521,
+    "max_date": "2024-12-31"
+  },
+  "raw/688433.SH.parquet": {
+    "sha256": "9a0ee19f5ba99ceaa01b2f92ca7d2c97e3b9427a79a98237025d8ab7fef48ae4",
+    "rows": 416,
+    "max_date": "2024-12-31"
+  },
+  "raw/688435.SH.parquet": {
+    "sha256": "7a334ea4a7be8a306178f248fefe31430d343bc24fb5ffc60ef585b94343aa58",
+    "rows": 472,
+    "max_date": "2024-12-31"
+  },
+  "raw/688439.SH.parquet": {
+    "sha256": "6f513405fadc5d7f8bb99380242ee0f00912de25ed7a59a5205266d6431e8a31",
+    "rows": 569,
+    "max_date": "2024-12-31"
+  },
+  "raw/688443.SH.parquet": {
+    "sha256": "d552d0a0d7207f983315c28b5c87096341acfb9d4f85231f8cda76c9de3a6ef2",
+    "rows": 373,
+    "max_date": "2024-12-31"
+  },
+  "raw/688448.SH.parquet": {
+    "sha256": "d3480e73865007040447f64d697ff5e5c5fe122013ef980db75305703179fe31",
+    "rows": 552,
+    "max_date": "2024-12-31"
+  },
+  "raw/688449.SH.parquet": {
+    "sha256": "8482fd6db21b2c11e0a4c27d65e5995234564de7434717e2e82764362800a8fb",
+    "rows": 23,
+    "max_date": "2024-12-31"
+  },
+  "raw/688450.SH.parquet": {
+    "sha256": "076547a82ae2293d76a1c4cfa8beb805a5ec89f43b702155a862116d1d40e78c",
+    "rows": 351,
+    "max_date": "2024-12-31"
+  },
+  "raw/688455.SH.parquet": {
+    "sha256": "3fe4426b69d8875479157417b69851a8197614e6a327cacf0584eb404f64f2d2",
+    "rows": 556,
+    "max_date": "2024-12-31"
+  },
+  "raw/688456.SH.parquet": {
+    "sha256": "7d7dbb1fd10059323962089be27529b89e72a54055795fce3307481ba346702e",
+    "rows": 922,
+    "max_date": "2024-12-31"
+  },
+  "raw/688458.SH.parquet": {
+    "sha256": "937c05112796cd50694973e07d3410d9649a0a7ef270d4b7f61f45561a274271",
+    "rows": 394,
+    "max_date": "2024-12-31"
+  },
+  "raw/688459.SH.parquet": {
+    "sha256": "5d6924d0153698f0ac82be35bf40bea55633dfbcba472883ceb6357b526e8e06",
+    "rows": 542,
+    "max_date": "2024-12-31"
+  },
+  "raw/688466.SH.parquet": {
+    "sha256": "aa8f988bcfb093c6fc884512352f224731b95f73b3243e5d1050eaae47457871",
+    "rows": 1131,
+    "max_date": "2024-12-31"
+  },
+  "raw/688468.SH.parquet": {
+    "sha256": "e85f5efbf564a64f67d2f43d8c9102c1f3de4fd6d7dc4c0fbf9209a4c3f9ef32",
+    "rows": 906,
+    "max_date": "2024-12-31"
+  },
+  "raw/688469.SH.parquet": {
+    "sha256": "49cb4cf4db710b4c8c49e93ad40335f51ddeb21e61a47e7a559c371bad0d8d37",
+    "rows": 402,
+    "max_date": "2024-12-31"
+  },
+  "raw/688472.SH.parquet": {
+    "sha256": "20f311f68fd08380f0cfa9e04439e8ef2144a93a3d5407accb9889b64f637470",
+    "rows": 380,
+    "max_date": "2024-12-31"
+  },
+  "raw/688475.SH.parquet": {
+    "sha256": "b18476c5655ef05d0e4aede63b71c3e4c5cd5399e78b65056844f520501942c5",
+    "rows": 487,
+    "max_date": "2024-12-31"
+  },
+  "raw/688478.SH.parquet": {
+    "sha256": "bc519d532d60cf5c395aae7b19efec137888fecb82d3e52ba2d102f877315b90",
+    "rows": 411,
+    "max_date": "2024-12-31"
+  },
+  "raw/688479.SH.parquet": {
+    "sha256": "b70dbc1f5a0c6daf167621a1d61e1d26328b71bb99b947041a253d879898255a",
+    "rows": 401,
+    "max_date": "2024-12-31"
+  },
+  "raw/688480.SH.parquet": {
+    "sha256": "9315033c5e0e3a9ad055ed5eee4ffd16313559f45a3642feaa9cbb163e82cee5",
+    "rows": 510,
+    "max_date": "2024-12-31"
+  },
+  "raw/688484.SH.parquet": {
+    "sha256": "a324b86b9a62370771d52a68b2aaf3f4fb217889105a49b9b6b83b7ee9f75021",
+    "rows": 422,
+    "max_date": "2024-12-31"
+  },
+  "raw/688485.SH.parquet": {
+    "sha256": "5e32286c9c75a54de94ed4619e8e99d64d97235be82b917ec4c5c3d337a67710",
+    "rows": 473,
+    "max_date": "2024-12-31"
+  },
+  "raw/688486.SH.parquet": {
+    "sha256": "3ab7ffbbddbe7d46811dfd3f329800b4aff0a3510a888bf8fbc26730b2e56ef9",
+    "rows": 454,
+    "max_date": "2024-12-31"
+  },
+  "raw/688488.SH.parquet": {
+    "sha256": "acaa6e2c7d068bca7d93d735567fa8130cc630b02c7e40f5901df415b442c128",
+    "rows": 1082,
+    "max_date": "2024-12-31"
+  },
+  "raw/688489.SH.parquet": {
+    "sha256": "3c0359d944d5d0e3a8290cf33765badf93437186701e1c7d606bed3b9c62952b",
+    "rows": 505,
+    "max_date": "2024-12-31"
+  },
+  "raw/688496.SH.parquet": {
+    "sha256": "3e55f63f8c2fe4053e94bfd90bea2621720b19ced50b4f07603e070bc224d087",
+    "rows": 487,
+    "max_date": "2024-12-31"
+  },
+  "raw/688498.SH.parquet": {
+    "sha256": "502e7f93be525453a094954f891f786dc913da9d9d2561d590c8a8a7c008fec0",
+    "rows": 492,
+    "max_date": "2024-12-31"
+  },
+  "raw/688499.SH.parquet": {
+    "sha256": "fff1e2e91732fc61d82d97306926732c2fd2a14393c67bdbf29300a1e1d88e08",
+    "rows": 851,
+    "max_date": "2024-12-31"
+  },
+  "raw/688500.SH.parquet": {
+    "sha256": "15e4e8d39c6b5b891654aabdf6ba9c453b35bf497c9077fc7a0bd573ff3bccfe",
+    "rows": 1084,
+    "max_date": "2024-12-31"
+  },
+  "raw/688501.SH.parquet": {
+    "sha256": "649266b9dafda35d0040aa76e0308173093407c0e318dcd306233ee5429f3a31",
+    "rows": 840,
+    "max_date": "2024-12-31"
+  },
+  "raw/688502.SH.parquet": {
+    "sha256": "63f9c289b74875695b1aa520c3c7b150afe142bf61f0cd67a7fb10f3ca321651",
+    "rows": 442,
+    "max_date": "2024-12-31"
+  },
+  "raw/688503.SH.parquet": {
+    "sha256": "2ee414b3eba409e188addde4d65775d3afc2cb112eb1dd43c81a14719a147c9f",
+    "rows": 500,
+    "max_date": "2024-12-31"
+  },
+  "raw/688505.SH.parquet": {
+    "sha256": "b1cd7de9c2aa46e433adc5593b0a7862ff4d261f85a8e7c06414cb82db6d40b1",
+    "rows": 1101,
+    "max_date": "2024-12-31"
+  },
+  "raw/688506.SH.parquet": {
+    "sha256": "896e0eba26e3528c63ab5a57dcdff3b3e08ac2921e8f08d6834bfedd17d8f0b3",
+    "rows": 481,
+    "max_date": "2024-12-31"
+  },
+  "raw/688507.SH.parquet": {
+    "sha256": "02a85416bb8003161940d71a4728f8af53c3dfab19f823ac51e0f0a792d022ae",
+    "rows": 415,
+    "max_date": "2024-12-31"
+  },
+  "raw/688508.SH.parquet": {
+    "sha256": "bf0d0596529054a3eb9905489f94a739a8973bd9c88ef967b5f65b4b140bd58d",
+    "rows": 1080,
+    "max_date": "2024-12-31"
+  },
+  "raw/688509.SH.parquet": {
+    "sha256": "dfa647bbf81925c95a50db58bcdf32021571a7533a27688fa482a32eb47f1efe",
+    "rows": 830,
+    "max_date": "2024-12-31"
+  },
+  "raw/688510.SH.parquet": {
+    "sha256": "06d843e5cfe077e2e39544d693d0f3aebde5b5f6ef6ec5370cc3908dee63435d",
+    "rows": 981,
+    "max_date": "2024-12-31"
+  },
+  "raw/688511.SH.parquet": {
+    "sha256": "945b4ceafe135371acc91738434e69f72e536866c61c914fe60c08e9bfd3f38f",
+    "rows": 830,
+    "max_date": "2024-12-31"
+  },
+  "raw/688512.SH.parquet": {
+    "sha256": "105bd200b6a3bf6fc80ad63ae25a5e4af2ae9d36b4e1804c42d53064ae25df89",
+    "rows": 398,
+    "max_date": "2024-12-31"
+  },
+  "raw/688513.SH.parquet": {
+    "sha256": "ace322ae554a49e0de599e6840ba6a2b88191aad7784168167e4b7a483f3f2c1",
+    "rows": 1050,
+    "max_date": "2024-12-31"
+  },
+  "raw/688515.SH.parquet": {
+    "sha256": "82f3c092da378afa325f9da4004ea5d322189be76638996671895aa27694044e",
+    "rows": 461,
+    "max_date": "2024-12-31"
+  },
+  "raw/688516.SH.parquet": {
+    "sha256": "cff408b5d0fdbd7012dc9ed95b75915f2c870cbaa83f4790b86b7170ef988493",
+    "rows": 1122,
+    "max_date": "2024-12-31"
+  },
+  "raw/688517.SH.parquet": {
+    "sha256": "058b8e10dcb6f0476c5b5c14a2a7722fa6c67d649f74260c9eaaf97178871f9c",
+    "rows": 860,
+    "max_date": "2024-12-31"
+  },
+  "raw/688518.SH.parquet": {
+    "sha256": "55a485acc0a8bfb8a7cd0b8b3ff653c09f194e2a6dcce556f05a43231236697c",
+    "rows": 1100,
+    "max_date": "2024-12-31"
+  },
+  "raw/688519.SH.parquet": {
+    "sha256": "02e357abec0994f969e4d89c54f27f7472961b704df7aad77024b1e0e4c31012",
+    "rows": 1061,
+    "max_date": "2024-12-31"
+  },
+  "raw/688520.SH.parquet": {
+    "sha256": "91b18c0f440cea31af302ccaa809d4732f6899c512d1079893e399daa554847f",
+    "rows": 1100,
+    "max_date": "2024-12-31"
+  },
+  "raw/688521.SH.parquet": {
+    "sha256": "5a7f51943d326079dcc83702239f24359359767e9014ebf46103f765f1bf0023",
+    "rows": 1061,
+    "max_date": "2024-12-31"
+  },
+  "raw/688522.SH.parquet": {
+    "sha256": "38ca8288210e933dd92585bc3d9eb8cf381679230f28cfa40f965c0a313ee7ba",
+    "rows": 448,
+    "max_date": "2024-12-31"
+  },
+  "raw/688523.SH.parquet": {
+    "sha256": "147b8cc6db968a16efc242bb6937d10c17a618afe226bb0b9126c9adb9b9a4cf",
+    "rows": 385,
+    "max_date": "2024-12-31"
+  },
+  "raw/688525.SH.parquet": {
+    "sha256": "bcf3a682e9dd0f3bb11bd230b7285142e25ede24540a1a66415bce8115ea2139",
+    "rows": 485,
+    "max_date": "2024-12-31"
+  },
+  "raw/688526.SH.parquet": {
+    "sha256": "0b22ddc4135171a80bb7ab40c902a35ed98444aab13239364790028d5f206496",
+    "rows": 1036,
+    "max_date": "2024-12-31"
+  },
+  "raw/688528.SH.parquet": {
+    "sha256": "fe0f71651c10b1dc869af14d3769a93a41aaed4eac1a7a88a2f8a406d244ea9b",
+    "rows": 1095,
+    "max_date": "2024-12-31"
+  },
+  "raw/688529.SH.parquet": {
+    "sha256": "ed22f63bdffedaffe6e24c210efac247cc87cc36b76d76ef34f4c8e7be8c1208",
+    "rows": 1008,
+    "max_date": "2024-12-31"
+  },
+  "raw/688530.SH.parquet": {
+    "sha256": "dad3a347f42a267e260fe9198b0c91f9b37d26b286bb10a7fd606e6ed741991d",
+    "rows": 161,
+    "max_date": "2024-12-31"
+  },
+  "raw/688531.SH.parquet": {
+    "sha256": "cfd513b0c65ec11d3f15bc0c5a06d7d0904b1085e6663ddd4808e8b382e9d647",
+    "rows": 426,
+    "max_date": "2024-12-31"
+  },
+  "raw/688533.SH.parquet": {
+    "sha256": "342807c171437eccd18889473fa053ec8e99324fd4976c82aa1ad6c6e4368f22",
+    "rows": 900,
+    "max_date": "2024-12-31"
+  },
+  "raw/688535.SH.parquet": {
+    "sha256": "5070623d39a94baf5592ebcb8a0a234ec0d0d9a479a2aac13963c0551614f14b",
+    "rows": 424,
+    "max_date": "2024-12-31"
+  },
+  "raw/688536.SH.parquet": {
+    "sha256": "6f2480e7fbe9544bdf866d63be6284f8cbb671c074bfd8494b5cff9870a5f386",
+    "rows": 1037,
+    "max_date": "2024-12-31"
+  },
+  "raw/688538.SH.parquet": {
+    "sha256": "8ab15a8f180408b790df05fe63a8511776fee300e691ae7ebc58800c027f7888",
+    "rows": 874,
+    "max_date": "2024-12-31"
+  },
+  "raw/688539.SH.parquet": {
+    "sha256": "c31a92fe4210fff47811f68793bcc6464a207bac338774c578653ff9e7cc8b8b",
+    "rows": 415,
+    "max_date": "2024-12-31"
+  },
+  "raw/688543.SH.parquet": {
+    "sha256": "78aaff76eb1ae4cec72b0d9b67565b5739ff39ef6f7947ffff8105afc88f5f72",
+    "rows": 372,
+    "max_date": "2024-12-31"
+  },
+  "raw/688548.SH.parquet": {
+    "sha256": "0e58a46096bb69e36a42b7b58b863054fefd9b35ba07017ef477f8d8b6beabbd",
+    "rows": 335,
+    "max_date": "2024-12-31"
+  },
+  "raw/688549.SH.parquet": {
+    "sha256": "8f9e6ec992c63035aec40248dffeef8bf2e6daf652886e2523982c7dd2007ec2",
+    "rows": 317,
+    "max_date": "2024-12-31"
+  },
+  "raw/688550.SH.parquet": {
+    "sha256": "5cc3b2b55348d7aeb3b5d6784ff11f489b78918e1367aa98bbd717d529c42732",
+    "rows": 1050,
+    "max_date": "2024-12-31"
+  },
+  "raw/688551.SH.parquet": {
+    "sha256": "7a93a1b5e07b0497f4802cfb42ea7f614fa55d237272c40b970b6af6d69b4991",
+    "rows": 1044,
+    "max_date": "2024-12-31"
+  },
+  "raw/688552.SH.parquet": {
+    "sha256": "8f36baa8085d4ed5c003349cc563b4f4676c75f541c8ded489011fd125aeb544",
+    "rows": 396,
+    "max_date": "2024-12-31"
+  },
+  "raw/688553.SH.parquet": {
+    "sha256": "ccf44efc35f0b51e233e8b48a00601bc1338186bd34a7a3ba3cef0cc57e8fbf2",
+    "rows": 775,
+    "max_date": "2024-12-31"
+  },
+  "raw/688555.SH.parquet": {
+    "sha256": "6e74c3e8389eb1e7fa6e59b01f0aa092156463660069a5a972cba20e2beff59b",
+    "rows": 738,
+    "max_date": "2023-07-07"
+  },
+  "raw/688556.SH.parquet": {
+    "sha256": "dbeabcff4336d104ee33ff46a8c4690d703be9b1d1ece497a0f0f10efad5be3b",
+    "rows": 1068,
+    "max_date": "2024-12-31"
+  },
+  "raw/688557.SH.parquet": {
+    "sha256": "53ae0530a6427b561844c77b08d0ae063faa6367027d0ef04b0d03af0c6b0eec",
+    "rows": 991,
+    "max_date": "2024-12-31"
+  },
+  "raw/688558.SH.parquet": {
+    "sha256": "f9efdb8a80e50579746f757559ba86093844295811d95ef0bff3ee1bcea262bc",
+    "rows": 1096,
+    "max_date": "2024-12-31"
+  },
+  "raw/688559.SH.parquet": {
+    "sha256": "4c0686390ae559080563a5580f1ae74d555b1622fd71cb31b20eb5c4aa0836d1",
+    "rows": 1045,
+    "max_date": "2024-12-31"
+  },
+  "raw/688560.SH.parquet": {
+    "sha256": "f4076a165f4416e70a55fe34269767e3bab17234d04df145a710eef0602e7102",
+    "rows": 975,
+    "max_date": "2024-12-31"
+  },
+  "raw/688561.SH.parquet": {
+    "sha256": "78d09f597a2dcc50455b69b0ead98e55db74c68e310ba435d306bea3f3c1d31f",
+    "rows": 1080,
+    "max_date": "2024-12-31"
+  },
+  "raw/688562.SH.parquet": {
+    "sha256": "24d76b9d98ef55e915b3222ceb6790fc1c904f253d774a33110bf2f97ec1d8c4",
+    "rows": 392,
+    "max_date": "2024-12-31"
+  },
+  "raw/688563.SH.parquet": {
+    "sha256": "3d6451d0ffe01bfa1fcfd3314ae89bf47890eef31edb25b65fa31d27d67d75d1",
+    "rows": 354,
+    "max_date": "2024-12-31"
+  },
+  "raw/688565.SH.parquet": {
+    "sha256": "fc5dd0de311769d50680bd33181fb7895e8f2a5b93bcd535e1d8253ae5f912e3",
+    "rows": 885,
+    "max_date": "2024-12-31"
+  },
+  "raw/688566.SH.parquet": {
+    "sha256": "8c6d303f692fa785b337f04e0bc48ad88394af185727f3ac3aedaa4ca44b992c",
+    "rows": 1125,
+    "max_date": "2024-12-31"
+  },
+  "raw/688567.SH.parquet": {
+    "sha256": "0adcabf6baceb609933a27d0834db99a53277d255e0eb8ebe75f3bca49c73de7",
+    "rows": 1083,
+    "max_date": "2024-12-31"
+  },
+  "raw/688568.SH.parquet": {
+    "sha256": "42eee8eb6c35292d6fa8dca124559cb49e8fda896b83d2f05c3a3b3f8a16db0c",
+    "rows": 1090,
+    "max_date": "2024-12-31"
+  },
+  "raw/688569.SH.parquet": {
+    "sha256": "e4a07064cdcfc35e75940421792b56ee1ffb04f6a00f63c561ca9b8bec56e4bc",
+    "rows": 1052,
+    "max_date": "2024-12-31"
+  },
+  "raw/688570.SH.parquet": {
+    "sha256": "bce3a1cf38e7285383d380ce911ba2b6e73b780768304322aa6b2d4823d63758",
+    "rows": 384,
+    "max_date": "2024-12-31"
+  },
+  "raw/688571.SH.parquet": {
+    "sha256": "e307933a57ffb3a4de09b1fee6fc08414832b9f3ce64a6ec2e62986ea86aebf9",
+    "rows": 984,
+    "max_date": "2024-12-31"
+  },
+  "raw/688573.SH.parquet": {
+    "sha256": "d14bb07bd37abe2be3d13b506836aae1b7386d79d065344294484bc827c639cd",
+    "rows": 333,
+    "max_date": "2024-12-31"
+  },
+  "raw/688575.SH.parquet": {
+    "sha256": "ebb3a34fef789ee31778d3d1eab8a516d70bf7c3e9c807e46d3654af4ac77d38",
+    "rows": 883,
+    "max_date": "2024-12-31"
+  },
+  "raw/688576.SH.parquet": {
+    "sha256": "567615dfc686a0dd7c5ccb8736919c69ddae64f2ec2235309051488dafcb2501",
+    "rows": 383,
+    "max_date": "2024-12-31"
+  },
+  "raw/688577.SH.parquet": {
+    "sha256": "b46416c0634a9d53be0001d46b43107c6b12ee91fc134a337626b5d6c428f1b4",
+    "rows": 1040,
+    "max_date": "2024-12-31"
+  },
+  "raw/688578.SH.parquet": {
+    "sha256": "0ce3aa2c08703c897aef541e13dadb6be1dd39f725e747f051b6d4df223596b3",
+    "rows": 991,
+    "max_date": "2024-12-31"
+  },
+  "raw/688579.SH.parquet": {
+    "sha256": "89addfd6d36a03bdf07292f8fcb8196b86f351b6e88e37f35e927d21a4eea366",
+    "rows": 1083,
+    "max_date": "2024-12-31"
+  },
+  "raw/688580.SH.parquet": {
+    "sha256": "fb0f5f1000c130034f5638b29c0fb4a68aa08757c0591dd7599410d412eb4c6e",
+    "rows": 1081,
+    "max_date": "2024-12-31"
+  },
+  "raw/688581.SH.parquet": {
+    "sha256": "6e0ce4b0e919b0ef256f69ece692420c73294a08575c2d28cc0053b4673388ef",
+    "rows": 395,
+    "max_date": "2024-12-31"
+  },
+  "raw/688582.SH.parquet": {
+    "sha256": "ef4ffc1b9984a39bc6613378c88ed334a19d5af14a788b893fad9fb9968cc99e",
+    "rows": 367,
+    "max_date": "2024-12-31"
+  },
+  "raw/688584.SH.parquet": {
+    "sha256": "7f796e5ba5a1f5d6e09c1c41fc7e45673b2d155cf26340e27855db4a2da14e8a",
+    "rows": 215,
+    "max_date": "2024-12-31"
+  },
+  "raw/688585.SH.parquet": {
+    "sha256": "1b4d24c1b520addb494cad18ecf70f2eb6a76a7aa260d5c21ee716b0a605b0fe",
+    "rows": 1032,
+    "max_date": "2024-12-31"
+  },
+  "raw/688586.SH.parquet": {
+    "sha256": "39fdafe5910f56d2c3d57396522089d68c57f1dc368026ea74a3658048d54ba0",
+    "rows": 1073,
+    "max_date": "2024-12-31"
+  },
+  "raw/688588.SH.parquet": {
+    "sha256": "d98fb8d9a2b53497124cba53b9c25220ffd1db2d75f6558e6def80a24c0c9a6f",
+    "rows": 1130,
+    "max_date": "2024-12-31"
+  },
+  "raw/688589.SH.parquet": {
+    "sha256": "bcf50b67c614656cc28b3242cfb761d901e7464442fdcf4dc881b2a194daba02",
+    "rows": 1080,
+    "max_date": "2024-12-31"
+  },
+  "raw/688590.SH.parquet": {
+    "sha256": "6e46090fa11b0abd08cf9229fc18dd47a9107ef74f5719b33dcb99aa35382441",
+    "rows": 988,
+    "max_date": "2024-12-31"
+  },
+  "raw/688591.SH.parquet": {
+    "sha256": "0b396f0c605c649de34775892078b45598f5c67a7147e911c832263d80ada8a1",
+    "rows": 327,
+    "max_date": "2024-12-31"
+  },
+  "raw/688592.SH.parquet": {
+    "sha256": "10d8897c26c5550184d43bacd3a81d746e42a2ac528dd43e365998bc958d742b",
+    "rows": 334,
+    "max_date": "2024-12-31"
+  },
+  "raw/688593.SH.parquet": {
+    "sha256": "685225d9cfcf4b72610dbefb9233d58af31a983bc44fd2d20e943d07a1bf6041",
+    "rows": 386,
+    "max_date": "2024-12-31"
+  },
+  "raw/688595.SH.parquet": {
+    "sha256": "0dea3fcd3f3fc18540a7d401dc014916b480efb4781739aec9ea9d1cc81616a6",
+    "rows": 1032,
+    "max_date": "2024-12-31"
+  },
+  "raw/688596.SH.parquet": {
+    "sha256": "4f92d526e7aa30c6e3b9eed63046640262f4452c2d3513c3aed252b6ba3261b0",
+    "rows": 1059,
+    "max_date": "2024-12-31"
+  },
+  "raw/688597.SH.parquet": {
+    "sha256": "e8ea2813a695cd939bb48a94a04a69439124f2abd34c22c22b783718ba9409ba",
+    "rows": 861,
+    "max_date": "2024-12-31"
+  },
+  "raw/688598.SH.parquet": {
+    "sha256": "758aad178e3e6ee8a595dddeadcd18eeea3d68a0bb676a99cf44f55c304d1625",
+    "rows": 1125,
+    "max_date": "2024-12-31"
+  },
+  "raw/688599.SH.parquet": {
+    "sha256": "96c9ff51988783eda0029cfbac20c58f1141543b225baaa50deab676a3ac6822",
+    "rows": 1108,
+    "max_date": "2024-12-31"
+  },
+  "raw/688600.SH.parquet": {
+    "sha256": "63777755804e85e5310ddec28a9f5a2dadaa58b885a803a2c4d87bf91255d114",
+    "rows": 1093,
+    "max_date": "2024-12-31"
+  },
+  "raw/688601.SH.parquet": {
+    "sha256": "1f20ae9809e010301c603fdd2a3c5e52b9cc242fbbfd7575caa019b8f5c7af21",
+    "rows": 854,
+    "max_date": "2024-12-31"
+  },
+  "raw/688602.SH.parquet": {
+    "sha256": "a47038103e646506ca75d84fa7631c05faf92f71ec3ffe89f28b707ec69d62c9",
+    "rows": 353,
+    "max_date": "2024-12-31"
+  },
+  "raw/688603.SH.parquet": {
+    "sha256": "49521be258ae88f9a87c55fd1a4b2b26df7d86dae82a92b154080af2d606c75b",
+    "rows": 361,
+    "max_date": "2024-12-31"
+  },
+  "raw/688605.SH.parquet": {
+    "sha256": "c2dbfbec5f6301a5bad0eb9a332df4c3ecd0ed3038d23e229cbca57e12b44539",
+    "rows": 14,
+    "max_date": "2024-12-31"
+  },
+  "raw/688606.SH.parquet": {
+    "sha256": "fe5ecc69e2caf5a517ff4a5f05a2bdb7954b1052bdf9083d444662c7f21afd6b",
+    "rows": 916,
+    "max_date": "2024-12-31"
+  },
+  "raw/688607.SH.parquet": {
+    "sha256": "d84564f2df52a5533fad433860e6daf97416f8e246eae7175d203790a2779a0a",
+    "rows": 949,
+    "max_date": "2024-12-31"
+  },
+  "raw/688608.SH.parquet": {
+    "sha256": "d33eada657ffb9acc7adc0ec7b5c572455eb7a6b79ffe47e86071f7a02d8df81",
+    "rows": 981,
+    "max_date": "2024-12-31"
+  },
+  "raw/688609.SH.parquet": {
+    "sha256": "03a5eafa6c1074e03f424556dc3b7c0da92274065aef20506601ba302f33a0bf",
+    "rows": 918,
+    "max_date": "2024-12-31"
+  },
+  "raw/688610.SH.parquet": {
+    "sha256": "265e949202e889898d8c92575d77259848ab185313afff12bc7fc7fed59d551a",
+    "rows": 354,
+    "max_date": "2024-12-31"
+  },
+  "raw/688611.SH.parquet": {
+    "sha256": "efc25d44113636aa2e8fab83a77e81d30e45d553d319bbd957496de82372442b",
+    "rows": 905,
+    "max_date": "2024-12-31"
+  },
+  "raw/688612.SH.parquet": {
+    "sha256": "c7a271a277aa611e623d7bebdc46f9a2c17243576d74d4b685c1e266dacf401d",
+    "rows": 349,
+    "max_date": "2024-12-31"
+  },
+  "raw/688613.SH.parquet": {
+    "sha256": "8b3a6bfa7a2cb5483a6ca117f4df56d058097d2e16bf826818e0e232f9e8baea",
+    "rows": 879,
+    "max_date": "2024-12-31"
+  },
+  "raw/688615.SH.parquet": {
+    "sha256": "4c5d4e47a5fadcc0e2b06ffeff7ee4850d8d49a05165f32084657378171ab09e",
+    "rows": 64,
+    "max_date": "2024-12-31"
+  },
+  "raw/688616.SH.parquet": {
+    "sha256": "01761da03c616373b965e1f4d501eb2d55b23d923c477b057213d1c268f6a9e5",
+    "rows": 921,
+    "max_date": "2024-12-31"
+  },
+  "raw/688617.SH.parquet": {
+    "sha256": "7b67753ad21f101d6f99057e825a286b389128e4554b991dcf1c06a694fbaa55",
+    "rows": 966,
+    "max_date": "2024-12-31"
+  },
+  "raw/688618.SH.parquet": {
+    "sha256": "e701958d5d4684374eed8a24d9b4e606d7860a74631c7e7500f936255d1ebbff",
+    "rows": 971,
+    "max_date": "2024-12-31"
+  },
+  "raw/688619.SH.parquet": {
+    "sha256": "f4ab1179f1f84c42e20c4ac13371f4d66bfa30a3629bf2d648b58b16cc903d82",
+    "rows": 938,
+    "max_date": "2024-12-31"
+  },
+  "raw/688620.SH.parquet": {
+    "sha256": "ccfde9c6a28e7e5462b12268289f4e1574a8ca111d0d68f3bb2a6c843fe71acd",
+    "rows": 370,
+    "max_date": "2024-12-31"
+  },
+  "raw/688621.SH.parquet": {
+    "sha256": "5054160edd7b5e1ee6c0b1281086902add69681f88509873b158ad5f3fdeb60d",
+    "rows": 859,
+    "max_date": "2024-12-31"
+  },
+  "raw/688622.SH.parquet": {
+    "sha256": "9c9305053a0780e82bacce255f626fcdc2e947a6564890b30600237106fafb84",
+    "rows": 799,
+    "max_date": "2024-12-31"
+  },
+  "raw/688623.SH.parquet": {
+    "sha256": "b101d8f9f0a4c6f10e8484d75de3cd01fcb6e6a5be4eb68245d903c23d5ff404",
+    "rows": 381,
+    "max_date": "2024-12-31"
+  },
+  "raw/688625.SH.parquet": {
+    "sha256": "3df8fbc3b7f66a3cc8ce1a0502ec2fb834df41f11aca0a909179dd0c53885f11",
+    "rows": 868,
+    "max_date": "2024-12-31"
+  },
+  "raw/688626.SH.parquet": {
+    "sha256": "036ac9aa1ba11378c5e2188a8ca3c898219fd7289d3ba586d78e891e0bab1232",
+    "rows": 912,
+    "max_date": "2024-12-31"
+  },
+  "raw/688627.SH.parquet": {
+    "sha256": "b23daaa386e7869f5b7f3cebefe8bd39a8448c158aad2cbef52d3048d3f02f54",
+    "rows": 355,
+    "max_date": "2024-12-31"
+  },
+  "raw/688628.SH.parquet": {
+    "sha256": "b923c46b8dee15781fd1d77e6573d558ac4140534a88e53994b0da613bb3e09c",
+    "rows": 949,
+    "max_date": "2024-12-31"
+  },
+  "raw/688629.SH.parquet": {
+    "sha256": "e95127b549651ad1405bdfea87e8cd1232c7db0cf99dd261094c5e8ab9e8953e",
+    "rows": 370,
+    "max_date": "2024-12-31"
+  },
+  "raw/688630.SH.parquet": {
+    "sha256": "010444503f4c2a6cd0e74403afd455f50ccdd4a869c7a8cbebd3f28b54d0e27a",
+    "rows": 911,
+    "max_date": "2024-12-31"
+  },
+  "raw/688631.SH.parquet": {
+    "sha256": "6602d0d40231a18339692146cbfcb0436b84bb855d3ca897e064a074387994a5",
+    "rows": 369,
+    "max_date": "2024-12-31"
+  },
+  "raw/688633.SH.parquet": {
+    "sha256": "d4ca003b5c1f0b268a70db5d25ee7d7fb3063ba822a7526f49072f6435a9f555",
+    "rows": 917,
+    "max_date": "2024-12-31"
+  },
+  "raw/688636.SH.parquet": {
+    "sha256": "bdcdae4fb427c729d3568f7c758ceefc8e0e35c8ecb72c5130b43ace23a73cce",
+    "rows": 907,
+    "max_date": "2024-12-31"
+  },
+  "raw/688638.SH.parquet": {
+    "sha256": "44f6daec1d676e5c88fcf963c053bb1ae4ebe9f9921c7674250652bf4d949d6f",
+    "rows": 359,
+    "max_date": "2024-12-31"
+  },
+  "raw/688639.SH.parquet": {
+    "sha256": "2485ff68bba91427a6fa361fdd6672e3c3ff69a65945ebca8c4e8656a604670b",
+    "rows": 897,
+    "max_date": "2024-12-31"
+  },
+  "raw/688646.SH.parquet": {
+    "sha256": "388ee5795d91a2763e726a015127df244c558bc7c9c5dd1b6aea998f8c97e617",
+    "rows": 347,
+    "max_date": "2024-12-31"
+  },
+  "raw/688648.SH.parquet": {
+    "sha256": "e427501a0a2372f248d1eb80cde2872afcd24f93feb9daf49e34d7d4f41610e8",
+    "rows": 277,
+    "max_date": "2024-12-31"
+  },
+  "raw/688651.SH.parquet": {
+    "sha256": "da72cf628197a0f1cf846c29ce21b9c26d7152ddfad54d7a3861ad3459f68d2e",
+    "rows": 349,
+    "max_date": "2024-12-31"
+  },
+  "raw/688652.SH.parquet": {
+    "sha256": "501cb0c7c88bfaea00f4c5051bef6e7fc840772178ee0cf176e06240145ddc5d",
+    "rows": 265,
+    "max_date": "2024-12-31"
+  },
+  "raw/688653.SH.parquet": {
+    "sha256": "ed5bd48666eaf64bdbdc5335c26b6106f70826cbc314b8b38db00053523c9da4",
+    "rows": 273,
+    "max_date": "2024-12-31"
+  },
+  "raw/688655.SH.parquet": {
+    "sha256": "634aa021e0340acb10b90627328969b835d42a16589922780afac2547fd8640a",
+    "rows": 887,
+    "max_date": "2024-12-31"
+  },
+  "raw/688656.SH.parquet": {
+    "sha256": "dd25914e3241e4c4db086a5825ec02e1b4b9507d0458198a2c5d9739a8a95989",
+    "rows": 962,
+    "max_date": "2024-12-31"
+  },
+  "raw/688657.SH.parquet": {
+    "sha256": "98361109f88b060d63b15277be520a30002a9abf8b669fcff9b3858765edcb41",
+    "rows": 301,
+    "max_date": "2024-12-31"
+  },
+  "raw/688658.SH.parquet": {
+    "sha256": "d102452cf470488c925300c70972744dc622008879a81f8562ac3d8cfb143811",
+    "rows": 975,
+    "max_date": "2024-12-31"
+  },
+  "raw/688659.SH.parquet": {
+    "sha256": "b158e51e329b44da29a93480bb63c27561483c287db3b7fb6968688bb7a65c4c",
+    "rows": 912,
+    "max_date": "2024-12-31"
+  },
+  "raw/688660.SH.parquet": {
+    "sha256": "f32baa5b74356358d081c9ff5389baaa65cb4abbdc773057b6610f41072da6d1",
+    "rows": 881,
+    "max_date": "2024-12-31"
+  },
+  "raw/688661.SH.parquet": {
+    "sha256": "410d3251684c1e6e066aaae6454adaaa49bb2ade105b57ccb37dcb3787104588",
+    "rows": 914,
+    "max_date": "2024-12-31"
+  },
+  "raw/688662.SH.parquet": {
+    "sha256": "db9f68ff8ea8d240a47cfadd619ca951cfa8026d3e9a25c4ffa880d9fd64405b",
+    "rows": 911,
+    "max_date": "2024-12-31"
+  },
+  "raw/688663.SH.parquet": {
+    "sha256": "7dd8ecf3f86a75806464ea8bafb4ebbacb2294f84eb855c289f3c240e4f112f7",
+    "rows": 904,
+    "max_date": "2024-12-31"
+  },
+  "raw/688665.SH.parquet": {
+    "sha256": "ab370a7e17f39a0e2ae16b49a9939992a5ba1d16a573591e7cb4b2ae4953f162",
+    "rows": 943,
+    "max_date": "2024-12-31"
+  },
+  "raw/688667.SH.parquet": {
+    "sha256": "e70aa59f174d5a1ba0e3c8562bad75247008d3b8c78716b496d0bdb860e7b9e2",
+    "rows": 925,
+    "max_date": "2024-12-31"
+  },
+  "raw/688668.SH.parquet": {
+    "sha256": "c76377e9d9d838339711268ce1b477f0d592f9d9ae56f7d19aa8ba0c146168bd",
+    "rows": 978,
+    "max_date": "2024-12-31"
+  },
+  "raw/688669.SH.parquet": {
+    "sha256": "8424b9e71953b276c2e0285402d179aeb8f57bd2f0a0c61c0530149ff70945a9",
+    "rows": 954,
+    "max_date": "2024-12-31"
+  },
+  "raw/688670.SH.parquet": {
+    "sha256": "30931c033a29581546276226e9f35d9fbcb42eaa04198556b13ddee452fcb6c7",
+    "rows": 829,
+    "max_date": "2024-12-31"
+  },
+  "raw/688671.SH.parquet": {
+    "sha256": "d1acd6506838652b8e4ff3f381e9461d3da1cebab050873b52aff8dc45c737d0",
+    "rows": 339,
+    "max_date": "2024-12-31"
+  },
+  "raw/688676.SH.parquet": {
+    "sha256": "84661f1b08386f86b652fa5b77cd617f23376fd1576ef0f9145605cf713a01a5",
+    "rows": 928,
+    "max_date": "2024-12-31"
+  },
+  "raw/688677.SH.parquet": {
+    "sha256": "061127a97916be3485e439987ab1ee13e6c45599dd3c5e2ba4325dc639961b03",
+    "rows": 935,
+    "max_date": "2024-12-31"
+  },
+  "raw/688678.SH.parquet": {
+    "sha256": "9ec729f42c6535e9f7edda516ef095383998df3078d4b5acfb2dabae4124c111",
+    "rows": 976,
+    "max_date": "2024-12-31"
+  },
+  "raw/688679.SH.parquet": {
+    "sha256": "bc2e7eb5288aca4b8e5b2b6fc4a20b0264290e6e972c70d609a6ab6d8d9b3f1e",
+    "rows": 974,
+    "max_date": "2024-12-31"
+  },
+  "raw/688680.SH.parquet": {
+    "sha256": "d88b48a3710bffe6c1a06ea01b25fcd0dae1c41a0a1881580ae6bd5d8353fd85",
+    "rows": 955,
+    "max_date": "2024-12-31"
+  },
+  "raw/688681.SH.parquet": {
+    "sha256": "350cad05f694ce5483885eff832679434093ebcd26185176647df11e0322af24",
+    "rows": 862,
+    "max_date": "2024-12-31"
+  },
+  "raw/688682.SH.parquet": {
+    "sha256": "729aa8e7598f045c0dfe79449d8c952596bdab312ae861472165cb8964304e4a",
+    "rows": 899,
+    "max_date": "2024-12-31"
+  },
+  "raw/688683.SH.parquet": {
+    "sha256": "ca221fb1b7ebe99aae079836486222a94c72b2d228aa4afd695d97288ad5d9e0",
+    "rows": 905,
+    "max_date": "2024-12-31"
+  },
+  "raw/688685.SH.parquet": {
+    "sha256": "5475d7beab9fe6a6abcd6f1cfaf3e14666f4b1f514855bd7386ca104254fbe32",
+    "rows": 885,
+    "max_date": "2024-12-31"
+  },
+  "raw/688686.SH.parquet": {
+    "sha256": "b8fff09037465f55b18e9de25f073e0102fdc2a636f5ebfe1b6fe3e56381277e",
+    "rows": 970,
+    "max_date": "2024-12-31"
+  },
+  "raw/688687.SH.parquet": {
+    "sha256": "e9f6b9895c403948cf6ceef08857bbe606e1d059b7c4471b3daf424385434b73",
+    "rows": 944,
+    "max_date": "2024-12-31"
+  },
+  "raw/688689.SH.parquet": {
+    "sha256": "36c07d9e956e8b1983551e6ad8a13808a4fc76ba1540b564a4cab14a7eaf45f4",
+    "rows": 952,
+    "max_date": "2024-12-31"
+  },
+  "raw/688690.SH.parquet": {
+    "sha256": "235f878499593b87fb949cb808a5429c8acbfcea5222d61959b6b32d14854f11",
+    "rows": 857,
+    "max_date": "2024-12-31"
+  },
+  "raw/688691.SH.parquet": {
+    "sha256": "43842094dcf45c22560d801d8242f1eca3ab06ee4abebebe850e47de544fc942",
+    "rows": 178,
+    "max_date": "2024-12-31"
+  },
+  "raw/688692.SH.parquet": {
+    "sha256": "ce0d57d58d49ab6c81279e275a738beca65a0320a24357232d982f6c8f7b8c3b",
+    "rows": 138,
+    "max_date": "2024-12-31"
+  },
+  "raw/688693.SH.parquet": {
+    "sha256": "17af1cbb91e492392aa5f608508f5e464be5105fd03ba1466ee2a9b824de9c73",
+    "rows": 332,
+    "max_date": "2024-12-31"
+  },
+  "raw/688695.SH.parquet": {
+    "sha256": "d613e2de9ef6dac9f90f6f8c7a653595a7b40dfb06bb328119bb26adff221199",
+    "rows": 197,
+    "max_date": "2024-12-31"
+  },
+  "raw/688696.SH.parquet": {
+    "sha256": "aa8c374e28d7565c4e0d43862f0f540c3f4072938d084e57871ba464ed8b34bd",
+    "rows": 932,
+    "max_date": "2024-12-31"
+  },
+  "raw/688697.SH.parquet": {
+    "sha256": "ba7b1ee0e9b1af842f273e562b6dc5ae395bdae26e0af252d64b61e5f618c145",
+    "rows": 795,
+    "max_date": "2024-12-31"
+  },
+  "raw/688698.SH.parquet": {
+    "sha256": "067adbd50432e0a323efe8c2bae89cd9088824289391b3f2df8c03b585bd100a",
+    "rows": 972,
+    "max_date": "2024-12-31"
+  },
+  "raw/688699.SH.parquet": {
+    "sha256": "6aaa8c7d85d5011854c6d4c329dcb4f69105a22cc41770e4bcf7b0d3d0e47401",
+    "rows": 979,
+    "max_date": "2024-12-31"
+  },
+  "raw/688700.SH.parquet": {
+    "sha256": "78934f507acbc603bb367cbf02d6cbb10c2e30454710b22820a3035ad5eca961",
+    "rows": 863,
+    "max_date": "2024-12-31"
+  },
+  "raw/688701.SH.parquet": {
+    "sha256": "9aa7a77e9d0a0e2052579001eac2fc5e429f546e2491d0a6024551235cfa75b4",
+    "rows": 796,
+    "max_date": "2024-12-31"
+  },
+  "raw/688702.SH.parquet": {
+    "sha256": "58344db9edb49bd1ba12c4703dec871a42fe52f713c2becd62a203e57f503dc2",
+    "rows": 313,
+    "max_date": "2024-12-31"
+  },
+  "raw/688707.SH.parquet": {
+    "sha256": "18c74c6b2687c33ca79dfcd4749bd54b0f9478856905d3e8d577148718a66cf9",
+    "rows": 798,
+    "max_date": "2024-12-31"
+  },
+  "raw/688708.SH.parquet": {
+    "sha256": "3d0e4a8138e8044b31d02f2cfdd90e18702d00c850b47c3a2a87d869b7806110",
+    "rows": 19,
+    "max_date": "2024-12-31"
+  },
+  "raw/688709.SH.parquet": {
+    "sha256": "7c4bf7e05f9511bf9721e605ebf809dd78ec71b9ac122c1284352d6299720590",
+    "rows": 216,
+    "max_date": "2024-12-31"
+  },
+  "raw/688710.SH.parquet": {
+    "sha256": "3c9ff34c0d8fbc4e4ccdf69aa4f639e166327c7f108037c8d274c53a7ac0ecbc",
+    "rows": 79,
+    "max_date": "2024-12-31"
+  },
+  "raw/688711.SH.parquet": {
+    "sha256": "a664cd4df9036913108f78e871ef74aefede2aa6ad521b063b919fc8b5df0f4e",
+    "rows": 807,
+    "max_date": "2024-12-31"
+  },
+  "raw/688716.SH.parquet": {
+    "sha256": "84d129d55bb2044d977d75760171141c835c1e699dd56d07e118452eb5a25261",
+    "rows": 309,
+    "max_date": "2024-12-31"
+  },
+  "raw/688717.SH.parquet": {
+    "sha256": "10f4f42d920a8cc0ef8b7e26592d3d7181e5d82127a6ea25be720f084cc801d5",
+    "rows": 241,
+    "max_date": "2024-12-31"
+  },
+  "raw/688718.SH.parquet": {
+    "sha256": "55baec6d9b90b75b1bbcb7b52b5c4b0dddb5cbf29feec6d767b656b999bcf4dc",
+    "rows": 832,
+    "max_date": "2024-12-31"
+  },
+  "raw/688719.SH.parquet": {
+    "sha256": "c632f6e4b62c2a60eb8acdaf1ba78be98664afc776e284d87f3a7e56d9f75e89",
+    "rows": 303,
+    "max_date": "2024-12-31"
+  },
+  "raw/688720.SH.parquet": {
+    "sha256": "843cc8399073b9b95bc77c88e904b842e2e646f4ef8b54e7c44a6942375b0ee8",
+    "rows": 260,
+    "max_date": "2024-12-31"
+  },
+  "raw/688721.SH.parquet": {
+    "sha256": "30e0325b4aba5434c07aa0c29f1d149fff46a276ed2810d1d0d8139a6308d899",
+    "rows": 99,
+    "max_date": "2024-12-31"
+  },
+  "raw/688722.SH.parquet": {
+    "sha256": "2fe20b5424634cacaa2e0e9bcc1b81d5c692a1a92f2f778ff935af3d801f75d5",
+    "rows": 780,
+    "max_date": "2024-12-31"
+  },
+  "raw/688726.SH.parquet": {
+    "sha256": "7e34961d4c133fe9152de7c71f224d0863477008ba393ed693ae3a1d6d6e3a98",
+    "rows": 46,
+    "max_date": "2024-12-31"
+  },
+  "raw/688728.SH.parquet": {
+    "sha256": "fa9bdccf86d9f8b452a9b29495cd0d24e0535c6290442b606c447ed681d7d202",
+    "rows": 817,
+    "max_date": "2024-12-31"
+  },
+  "raw/688733.SH.parquet": {
+    "sha256": "c41ae43343e62ca46a68a19c36184b8f1d69e570ae56a0a0c30147d4ab0dd1a5",
+    "rows": 818,
+    "max_date": "2024-12-31"
+  },
+  "raw/688737.SH.parquet": {
+    "sha256": "6c80a622792c1d6432664cef9e19425b2422ea61c54e99e3d61e4b312e863de0",
+    "rows": 777,
+    "max_date": "2024-12-31"
+  },
+  "raw/688739.SH.parquet": {
+    "sha256": "000de715af23aacb79673b895368dc7283c2fffb8142af7547768441395f799c",
+    "rows": 773,
+    "max_date": "2024-12-31"
+  },
+  "raw/688750.SH.parquet": {
+    "sha256": "fe79bb5c58c907832ede85a06b8c383377628f146e3add9699f0b3f179e89edf",
+    "rows": 30,
+    "max_date": "2024-12-31"
+  },
+  "raw/688766.SH.parquet": {
+    "sha256": "b448eb10f8be0363ff57918b1b1378aede38bdad93d4dce580208857e1a86fad",
+    "rows": 814,
+    "max_date": "2024-12-31"
+  },
+  "raw/688767.SH.parquet": {
+    "sha256": "637aa709aa838a4ca8b52f8b3cc0e07c94225efb353500858c124aa1f343684a",
+    "rows": 802,
+    "max_date": "2024-12-31"
+  },
+  "raw/688768.SH.parquet": {
+    "sha256": "07eb7186232d45412524f4e034ee090e7fa6681627b55f8848e698599433c0ce",
+    "rows": 834,
+    "max_date": "2024-12-31"
+  },
+  "raw/688772.SH.parquet": {
+    "sha256": "4fb3c42e534a8f5ab5ca87b4f3a882d82d9126e0df2742785d7caab312333b24",
+    "rows": 782,
+    "max_date": "2024-12-31"
+  },
+  "raw/688776.SH.parquet": {
+    "sha256": "4cd4f1209701ca1cbd5b231bc45c52e698363a07e2f2efd730a339bb477f5ef6",
+    "rows": 808,
+    "max_date": "2024-12-31"
+  },
+  "raw/688777.SH.parquet": {
+    "sha256": "e73c27041a6d3daffb24a015133c98704b7bc8439c6b4f525668276df0a94255",
+    "rows": 997,
+    "max_date": "2024-12-31"
+  },
+  "raw/688778.SH.parquet": {
+    "sha256": "9652c79ae1669a2f6e40bdda998bcfa546a5fe1f07e09b7688556a963cab2070",
+    "rows": 826,
+    "max_date": "2024-12-31"
+  },
+  "raw/688779.SH.parquet": {
+    "sha256": "94d4f4edb86598709ddba0a958bbe6291ddf1fc72d0730df2262d906837057e9",
+    "rows": 822,
+    "max_date": "2024-12-31"
+  },
+  "raw/688786.SH.parquet": {
+    "sha256": "f45632d2384d9f30b62a2fa00a4433cbd9111506ca0f25796b68d44f1fa91113",
+    "rows": 811,
+    "max_date": "2024-12-31"
+  },
+  "raw/688787.SH.parquet": {
+    "sha256": "82c8b93893c2fb8b6f2a777ea042209e270fbb8863fcd48dc8df9ea1210cf71d",
+    "rows": 820,
+    "max_date": "2024-12-31"
+  },
+  "raw/688788.SH.parquet": {
+    "sha256": "134df7bff117b4bc31b77c9e824ce1f6060f7a8f0ed40703e187e3acaf10a1dd",
+    "rows": 1020,
+    "max_date": "2024-12-31"
+  },
+  "raw/688789.SH.parquet": {
+    "sha256": "5f275f48ad4486cfe48bdad20879bbc2cbbb811ef7743e4633aa1f3ee44d90f0",
+    "rows": 846,
+    "max_date": "2024-12-31"
+  },
+  "raw/688793.SH.parquet": {
+    "sha256": "a7d5292e36904a737d3b16550eaef3cdcbf0607d9d34e86f93f8c079c868a1f0",
+    "rows": 841,
+    "max_date": "2024-12-31"
+  },
+  "raw/688798.SH.parquet": {
+    "sha256": "d5f9bfa68e08b9497f72efceab19e2f84552e9c9cda4a2b8c2018d96cebde2c7",
+    "rows": 819,
+    "max_date": "2024-12-31"
+  },
+  "raw/688799.SH.parquet": {
+    "sha256": "329bcb9143f9c0b26b6509a492568a4e11dfb7e8b1f6319c81a20d6dee51aab0",
+    "rows": 843,
+    "max_date": "2024-12-31"
+  },
+  "raw/688800.SH.parquet": {
+    "sha256": "6ee0415adafbacc55ba76f6c836f3e7c50cfea6cb56c43898f1af25581e65ca4",
+    "rows": 836,
+    "max_date": "2024-12-31"
+  },
+  "raw/688819.SH.parquet": {
+    "sha256": "5f830f4e3b932aa118c433f7868e1950c3ff00d8e2a6cdc5124389922660b1a8",
+    "rows": 959,
+    "max_date": "2024-12-31"
+  },
+  "raw/688981.SH.parquet": {
+    "sha256": "6c9a94357120594dc5b65203adf998407d3131ceafc195111559f36a007f0e55",
+    "rows": 1084,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688001.SH.parquet": {
+    "sha256": "3c73e6fd9cad66ce7860acf99f6e6a2386b82c55c5ce1cef1bf32b0415b238e0",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688002.SH.parquet": {
+    "sha256": "b9ae4098e498125a8091442b9bdac18778eefebdfe0ab925cbf963bafaae41a5",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688003.SH.parquet": {
+    "sha256": "58ca6b6786a1c85981400c8d04a043ad08fddb70f204d64ed2a92b9fc959e4a7",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688004.SH.parquet": {
+    "sha256": "53ca978ce16cfdc64e1592728ff60b930c4524a88665d039f486e864f49cacf0",
+    "rows": 1106,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688005.SH.parquet": {
+    "sha256": "c958dfffce948b729851a1575dd4d92115d5156aba1276c15a432c052faf6c51",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688006.SH.parquet": {
+    "sha256": "78c5923037f00bc6806574ea4c421c42f41cba667fb941190bb3a28ee46018e5",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688007.SH.parquet": {
+    "sha256": "86a0eb739100363f9aa606193a5334308968262d0274b4f183331e043ea79b06",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688008.SH.parquet": {
+    "sha256": "ad55e681b535bdfeca45af4696a64faec55671e12265674f2efbee98467a3b8d",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688009.SH.parquet": {
+    "sha256": "238d4c42323563b1e444f02e7f8dad14ccc1a6453f5a2b8bf021d922e9b11de2",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688010.SH.parquet": {
+    "sha256": "c4bdd0659fd5ca84e4ea61380a440ca2d467d3cf770ad5b08483c34af46b85bf",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688011.SH.parquet": {
+    "sha256": "6f97e7537a6115359e5061a7961dceed0b16c8b30b74f2fe29511bce07d39903",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688012.SH.parquet": {
+    "sha256": "a951aa13ff777f4cdfce9f8c6e7e3cc1027cc2816edce70f072dad600a6bf887",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688013.SH.parquet": {
+    "sha256": "3a2bcf036183fbbf78ece8841ea2de05528b5b2132b20b03776b1e796d7cc316",
+    "rows": 1032,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688015.SH.parquet": {
+    "sha256": "ad98206fe25308d68579e09f89f156d2d268a764359b88a6715aedbef892c52f",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688016.SH.parquet": {
+    "sha256": "9157ac894da4cefef81951fa03ed94cf8d0b0a54e1f47da26063ec5306b8ea53",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688017.SH.parquet": {
+    "sha256": "e3d950585566956bcebd728770edeb4824e8a290a36d7ae8c065cbacc106fedc",
+    "rows": 1053,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688018.SH.parquet": {
+    "sha256": "b61adad7c8d9d31b0fe78df9d4d0c0a99370d316966f1d7aabdbf9d20e5c5d6b",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688019.SH.parquet": {
+    "sha256": "7730a0b4e6e76d4c417ba5049be2a27b225747665d73b53a354833a51906ff09",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688020.SH.parquet": {
+    "sha256": "bf73cc248e08c8f25d70e462c9d581cf4d3ac87fa3a207dfd02dc51b606cb10a",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688021.SH.parquet": {
+    "sha256": "52d121c18a6616b71ac681955b9c1dfd82af7879c5523426f30ad6f487955933",
+    "rows": 1252,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688022.SH.parquet": {
+    "sha256": "2809f2d531e363b479da0786b8687efa704f51cf056a70730720f44f1d27a20f",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688023.SH.parquet": {
+    "sha256": "42aaec4178115e8a7a81ba726d57219532d6cddba937402878a615336c9bf4ff",
+    "rows": 1253,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688025.SH.parquet": {
+    "sha256": "8e30e3bde97770a6eb8f8a7e893e8755dcffd861ae68e47b0f400d11e1132e35",
+    "rows": 1256,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688026.SH.parquet": {
+    "sha256": "3ae46cb11c986c357d0009d754d93ed5a40ddacb32cdb97d5a10222b48cb76f4",
+    "rows": 1198,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688027.SH.parquet": {
+    "sha256": "53c88651eece67113e0bacfba988ca61d52f1caf06b0c6a882d4b34efc1381ed",
+    "rows": 1089,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688028.SH.parquet": {
+    "sha256": "cfc52668f4b92e13a8f756c5df7a6d94edf7fdb3819232b44075adb6bd26ca8b",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688029.SH.parquet": {
+    "sha256": "bba184b2ebc7ef37132ceab07c6c731acfa5d43a3275b400ce91f4b183834492",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688030.SH.parquet": {
+    "sha256": "aca6b7f274a121e11907404baaab98f409f44078b4d13b27e409295d9a254b60",
+    "rows": 1274,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688031.SH.parquet": {
+    "sha256": "9aa50034e76d4e3f92aa2b5b29d5fe2b6613db0eac2c78d036272aaa25c40e3e",
+    "rows": 538,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688032.SH.parquet": {
+    "sha256": "a91c89bf1dd6c692dd5bcb5cf39f90ad428cd1e4dfd558a3c2a4c7cecd9ed006",
+    "rows": 736,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688033.SH.parquet": {
+    "sha256": "ee53e949aae623005a3030b0178eb250f6d063a8039e2e7faa93f39aa011eeeb",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688035.SH.parquet": {
+    "sha256": "fb7d9ce8b38fd6f2eb95e218c8896d2119099ed9c171b8954ba1b8b628a61ec6",
+    "rows": 554,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688036.SH.parquet": {
+    "sha256": "9fad9088e145caf33ad20af7bb064de41465ad30a157518ee289cbf0f7628c5b",
+    "rows": 1274,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688037.SH.parquet": {
+    "sha256": "80181c0c1cd691975d53f286db8be6abc349517ee18bdf929502c44c84c1046f",
+    "rows": 1224,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688038.SH.parquet": {
+    "sha256": "4aee7b3a36755de224a0d4ae9f7d46362913904aca8e3b1e3faa2cc03a0bf2b6",
+    "rows": 843,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688039.SH.parquet": {
+    "sha256": "ba3a767c3600b7eb807764fdbb0e8b363c25a1ee79c1b3e884cf59bf8df72c4f",
+    "rows": 1227,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688041.SH.parquet": {
+    "sha256": "b2931b2c0d7cd2c4c607390f01b1522b8cb5d40322254fc46639e81638ebdb27",
+    "rows": 579,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688045.SH.parquet": {
+    "sha256": "c3545c34b31041a245c1da3483149f6b214d18ac5d13782a25fd2a3eb49e0bc2",
+    "rows": 634,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688046.SH.parquet": {
+    "sha256": "2a708aaec53526eeeb0a7f325e90691b0b0cd2ae6ef9565bf07a49309de54063",
+    "rows": 654,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688047.SH.parquet": {
+    "sha256": "0f5dafc5d7cd04074b74f215ff0c22ad066c9fd88a0f264619c1a8c5f0ecf2a8",
+    "rows": 614,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688048.SH.parquet": {
+    "sha256": "dfa4067cbe8db269ad94a12bffad7c95cf22b8ae396ebd2594fdcc41869d3d1e",
+    "rows": 668,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688049.SH.parquet": {
+    "sha256": "b1a907ed88b81c6cb1ad7887450418a3318f417cf7913077832ac4b7fe018cbf",
+    "rows": 751,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688050.SH.parquet": {
+    "sha256": "efb7d6e933532aae95a4079abb56679a02560ae0d1a78fc14c08480f8fab89a1",
+    "rows": 1075,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688051.SH.parquet": {
+    "sha256": "9909f43c08ee4f7176787baecd5520018e564260b315e5e2719cc83f197e8c17",
+    "rows": 1162,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688052.SH.parquet": {
+    "sha256": "e238cb9a4d4847e5f6026aca9abaa5f6608243c1aabf8f3188973ad23b715f72",
+    "rows": 655,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688053.SH.parquet": {
+    "sha256": "18a7b70ce33e9a2153f64495a89dd6aba5e49c1f86f6b1c97794ab444eab0594",
+    "rows": 604,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688055.SH.parquet": {
+    "sha256": "0aad0d2f894654f58fdcdb781a00bc05115ad79b1ff1d1c76713a5318fe59e80",
+    "rows": 1062,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688056.SH.parquet": {
+    "sha256": "578f65c865d5a83b187d6fb3bde7d50212c9e5a77d494ff5df3fe9d6d0c8f107",
+    "rows": 1050,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688057.SH.parquet": {
+    "sha256": "3016ec432b3a4d208f195e5adfa27c3031eb0685e8519cde950b7af4b0a6c818",
+    "rows": 1006,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688058.SH.parquet": {
+    "sha256": "c8a8b6998cf83a6cbcbeb04e74833d9dde2188aa3c7fd37e03b2240e23e8b3e9",
+    "rows": 1255,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688059.SH.parquet": {
+    "sha256": "9ad1f6910d667dcb5ff204b6e899b3e4a8121615199d7818c8fd4b2688371104",
+    "rows": 944,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688060.SH.parquet": {
+    "sha256": "30679742b2ddd8afd57854199c64d3ecb11729ace18fcc87a4a6e21eddfd8ae6",
+    "rows": 1088,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688061.SH.parquet": {
+    "sha256": "903bb6ca652661baf6238abbd27b86fec74956c2f54009a0bd50baf6a2feed33",
+    "rows": 538,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688062.SH.parquet": {
+    "sha256": "a3e05ff1f12e4fea4455cf834bab15e3900c4f8d965609b5a5578516e3ce0fd8",
+    "rows": 716,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688063.SH.parquet": {
+    "sha256": "0d9d66f49ad757e630889a46bf866a72bb00e2276ec6b1b07dcfc2ce8a46c91e",
+    "rows": 971,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688065.SH.parquet": {
+    "sha256": "3088f581c94996f0088e4b6c7d8c30b085ff1ffa929f354ee73d864e3b02fa44",
+    "rows": 1065,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688066.SH.parquet": {
+    "sha256": "036348245177c3cc535514d0adcce4a4e7412ce5478457c2559fb66b9b722999",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688067.SH.parquet": {
+    "sha256": "15acbedf3938646a78387c56d988be59f77363d77cadc93e80ffca1cf28390da",
+    "rows": 862,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688068.SH.parquet": {
+    "sha256": "ef4c8c943ea4a70a9516a567ff6e0f3230712e23deef0e12154b8eaccdf7f606",
+    "rows": 1274,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688069.SH.parquet": {
+    "sha256": "34a7a12960b20f847120eb3b012015cae4cbbd2996cd6777c918331086c8225e",
+    "rows": 1080,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688070.SH.parquet": {
+    "sha256": "32130ccd38c72533ee2d153f053c52f0a39a9a2317c762189c846c26ec008d19",
+    "rows": 942,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688071.SH.parquet": {
+    "sha256": "808e4da8dd44ebdf632251119003a403e2ab2c6064b2976ddffbb485a82bf561",
+    "rows": 831,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688072.SH.parquet": {
+    "sha256": "7caec4fb32aa27b29edf7650346652ba5716d8e6f54eb3b241a6351922bd522e",
+    "rows": 657,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688073.SH.parquet": {
+    "sha256": "0ade5d370dc86c939c3ab63f67b6a8de3745dca97446b64bc38770d061bbd601",
+    "rows": 543,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688075.SH.parquet": {
+    "sha256": "0d9d31190b1f7def36f6d9f2b20c195fa7e2d0120c8c50ca04094dfc31af0e11",
+    "rows": 758,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688076.SH.parquet": {
+    "sha256": "2e75032cd03f15b4d88cd8d8e4b2955cb7ac5231f1e95360ab9e459a9a568528",
+    "rows": 880,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688077.SH.parquet": {
+    "sha256": "edfd6c9fa740ce8932879c507db9a1fa132da7908888b1be01271a1dcabcc276",
+    "rows": 1080,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688078.SH.parquet": {
+    "sha256": "5ff4a6f380f25177dc4c70b2b77580b60d10349eadd9cec98162d94a4d8021a7",
+    "rows": 1214,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688079.SH.parquet": {
+    "sha256": "39d71a576e0e2052392aaf8855b2da04f3e0be64602cd6002785d3cbe65fe9ca",
+    "rows": 933,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688080.SH.parquet": {
+    "sha256": "8105ea1772f1014d853bcac947832e478a0de698f02bfe9bd51e045ee59957f9",
+    "rows": 1189,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688081.SH.parquet": {
+    "sha256": "a2d435ffcae58f1421cad0d65e45de25b91011da39ded921c02fa537a7a8ea95",
+    "rows": 1210,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688082.SH.parquet": {
+    "sha256": "b3666e7380e589c893a51ac439f11054187a042ce55500b7f24d2504bd4c2fba",
+    "rows": 758,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688083.SH.parquet": {
+    "sha256": "f2fd51c43facaf578526134c0fdc859bfe3d0bc0e89a9d9e1f7bd9f22ed78447",
+    "rows": 926,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688084.SH.parquet": {
+    "sha256": "fa78eae69817db530edca89e5b94e5f3dd79293fd4e736d35b6f3c949563a1e1",
+    "rows": 501,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688085.SH.parquet": {
+    "sha256": "09f4b1a0d444965368adf67b6264d0f9c19f9f2efb50d1f4938c27d7cfecc2de",
+    "rows": 1149,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688086.SH.parquet": {
+    "sha256": "205c4568c021ea076f443cdd9f2198256d891bcdd25916a32836a2a55511665b",
+    "rows": 818,
+    "max_date": "2023-07-07"
+  },
+  "qfq/688087.SH.parquet": {
+    "sha256": "33b3e13d8cab75d274f3fa2cca42454e048c2e6a5b6a199a364ea0d50e705f97",
+    "rows": 845,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688088.SH.parquet": {
+    "sha256": "6d40bff2b1c663a1358e738eb6a4b2e4b1bce255e063d0e6bbbf353b1cfd4827",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688089.SH.parquet": {
+    "sha256": "626d398c125849b8d98a52d7c2f0d27a94639229b2730dedc04e94cad60db853",
+    "rows": 1221,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688090.SH.parquet": {
+    "sha256": "c44a0c9b61fcf92ad55355fcf894a1cf53b8b262fe3706aa296548571c17713c",
+    "rows": 1186,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688091.SH.parquet": {
+    "sha256": "efdaa90d455f68ce0e200da66bb1c03273e098e9c9a6ccee878f36c56ff9da85",
+    "rows": 801,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688092.SH.parquet": {
+    "sha256": "a3b456f7bc12492dd2fe3295493703e15d41e0c12396c2b4f58e36472e482789",
+    "rows": 920,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688093.SH.parquet": {
+    "sha256": "e6e52c491f63a3d10a6673ddf53c540844d0efc070b1f30ae6c8add3e8f336d0",
+    "rows": 1030,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688095.SH.parquet": {
+    "sha256": "c0a748fb995b509a1334ec19550e7822d3c5aa880847e0ff4f2a2d03bc3aa7e6",
+    "rows": 1046,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688096.SH.parquet": {
+    "sha256": "e8d5ab5f62481581c99cc1102a5fab4766096bf67d0b034e900c7611ebe25b3e",
+    "rows": 1149,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688097.SH.parquet": {
+    "sha256": "d5cf48b14cfc6c82117b03fc9a230eab8ceb94a65257b3bfff4ed3c8c47aef3a",
+    "rows": 886,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688098.SH.parquet": {
+    "sha256": "0d0339b96e55e89a14e1aefbe05f5cb38eb3a95af1c2347ee6552141e8357046",
+    "rows": 1259,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688099.SH.parquet": {
+    "sha256": "681603d00590c9147761ec63cab868b7396fdf543e962fa80fac5ecb377aa693",
+    "rows": 1310,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688100.SH.parquet": {
+    "sha256": "f4445dc67ff6057b5f647f7690171c04ba52ddf285e0386843fcddfc483aa691",
+    "rows": 1199,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688101.SH.parquet": {
+    "sha256": "2339858663bae6a0b2afad5a92ced1eac757261f78f8fbbea40a6994f7291d7f",
+    "rows": 1245,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688102.SH.parquet": {
+    "sha256": "24ddb086050b4d88a6cdcbdfed4d40da8f58a2a531e245a711957e7ee4e42d64",
+    "rows": 680,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688103.SH.parquet": {
+    "sha256": "327b8949c31cbb6184bd3da4b4d0eeb49eefcecdab7623697ca2e757b74a6a96",
+    "rows": 800,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688105.SH.parquet": {
+    "sha256": "a5ab098ec5f63574f817659dc5e17c86ec2300b4ea9544e5cf0a17d0496b799e",
+    "rows": 761,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688106.SH.parquet": {
+    "sha256": "a4de12df83dfbb7ec9bd73dc904d263c627586dab36416e84b4cd1500907f1fc",
+    "rows": 1104,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688107.SH.parquet": {
+    "sha256": "db7bf84beff068117a2e3f83ccd24256a033a44d0b5abdb3459949f65ac08f46",
+    "rows": 762,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688108.SH.parquet": {
+    "sha256": "2506936c184ecdf71c9c99eabc843baa73418b58af77cfe88a9308cbab35af1d",
+    "rows": 1257,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688109.SH.parquet": {
+    "sha256": "3c726dda8458a05d824dd8a227f02c6431686d5f8adcd1bb5883d00937c8abda",
+    "rows": 913,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688110.SH.parquet": {
+    "sha256": "6f13a74ff5f10b666ecc14a6ec3c5fbe4fe364d149af76cc0d6becbac2dba603",
+    "rows": 742,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688111.SH.parquet": {
+    "sha256": "70f9aad74b39cad3a9534923fcc0bd4174d65b74b1e58173e00817d0b53b6eab",
+    "rows": 1244,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688112.SH.parquet": {
+    "sha256": "19ca50c8d174ad6e1f9bfbd7223cbddc18017515bfbc1d1422e00a3dab4ddfec",
+    "rows": 749,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688113.SH.parquet": {
+    "sha256": "5f0edcdeda45e9dd095f08684e89369a5cab33661e801538885d5f42a7b48ae4",
+    "rows": 890,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688114.SH.parquet": {
+    "sha256": "79907997f767f3aac750f4704f7e6b667bd44101d4155de55d55f63c891c7aef",
+    "rows": 559,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688115.SH.parquet": {
+    "sha256": "a9a52c4c68fdd84c5960095a190d24beb6c3abbff77476244d39aa7296c15714",
+    "rows": 682,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688116.SH.parquet": {
+    "sha256": "7a9408ac1a383f54651352180d6a8e30b4411ad0c921cc49457aad56ad132bec",
+    "rows": 1277,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688117.SH.parquet": {
+    "sha256": "6fc804178cb5463b48e21e65f0e9bd3392b5c1cb7a3c8a29c8c8e53bbd7d1760",
+    "rows": 870,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688118.SH.parquet": {
+    "sha256": "3e19c122fad70936352b42c2199aa75aaa9d288412b9a8d820830629cdf30dd8",
+    "rows": 1232,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688119.SH.parquet": {
+    "sha256": "bafb38c225a995750db2db4ca83586cef995a5d433b661480557ed89e08f780e",
+    "rows": 628,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688120.SH.parquet": {
+    "sha256": "de6cc4d94f39309663b7b2f311ab604d4737c28e19e071c73e4102a3cf6260b2",
+    "rows": 626,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688121.SH.parquet": {
+    "sha256": "d3db1be2e3cf8e9efa5673459681f81968c06c98fda85773628da8fc2bfa180c",
+    "rows": 804,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688122.SH.parquet": {
+    "sha256": "d41ce2a33e1edb513909a47de1097d0790ab9744bcd91a5b6f6666e3b8e66ad0",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688123.SH.parquet": {
+    "sha256": "d69ae2c169d3bf62195287d89858def1b0cf22e70ef55db48e8572083bfef65a",
+    "rows": 1219,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688125.SH.parquet": {
+    "sha256": "9018176fd0e89e797379d485066de52247640775516ec8f1637e4a9223485ed2",
+    "rows": 660,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688126.SH.parquet": {
+    "sha256": "b215cbcc487b19d620030811e69a76dd497008ad445a8556920965a2b9026a65",
+    "rows": 1142,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688127.SH.parquet": {
+    "sha256": "6f669044553fb68fd3bbdb8dc329d547824666ca4713fd1a72adebdee18ae880",
+    "rows": 1037,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688128.SH.parquet": {
+    "sha256": "adb20a28cade6654e45b452737d7d97f7b72f853cbc8a34fef687aef649bb0cf",
+    "rows": 1253,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688129.SH.parquet": {
+    "sha256": "5c9d6996c16c68ce3634550c5ddab9e8d309d4c71c3f2c051239d07e35ce4c8d",
+    "rows": 1019,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688130.SH.parquet": {
+    "sha256": "55138d8cfc9ceda31ecdde06090a665a571b62529985e8c4acd514749b5be2ab",
+    "rows": 589,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688131.SH.parquet": {
+    "sha256": "0df1a7feebadf3c04e47ebdf99336621c8e481fc7eaaad69f549bdc9b837f4ae",
+    "rows": 867,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688132.SH.parquet": {
+    "sha256": "41374adadf13b3650f8044b9708b6ad7a663fa3b6621514618c78a4c3754b0dc",
+    "rows": 550,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688133.SH.parquet": {
+    "sha256": "8b847f72a8cb735093ac474375b2941f1bb3e650dbbe9ea3bb2f70661b95d14d",
+    "rows": 1014,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688135.SH.parquet": {
+    "sha256": "b2165172c94e3f82bfb26b21980e448b0da8e765007982b3a15cfeeb2acaf745",
+    "rows": 1006,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688136.SH.parquet": {
+    "sha256": "b25f38d66970cf312397e7fa65f7ec4423820d63dbcc338389eebd7ac07a0532",
+    "rows": 983,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688137.SH.parquet": {
+    "sha256": "ba5f841c30889043d5ba45e02154ce0b159f53e684dffe54c14d12adc9783171",
+    "rows": 546,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688138.SH.parquet": {
+    "sha256": "0750da46da23b04d98a41ccdf502801de77d8ac8d718757c7187511ed8049eb0",
+    "rows": 1242,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688139.SH.parquet": {
+    "sha256": "52316f71c83e4fcdb49efd7b76b863cafb611c02dbbf2af30d21ff688a92df85",
+    "rows": 1260,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688141.SH.parquet": {
+    "sha256": "a004f8b61721554cb9a99d5baea40c82245f3d170cbed58a57f479281f3902f8",
+    "rows": 490,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688143.SH.parquet": {
+    "sha256": "5704f26a6a7ca37c29eea0ca571f8d3b81e0359942a0106d8b08c4ba23c61ac0",
+    "rows": 499,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688146.SH.parquet": {
+    "sha256": "ab94ea5ca392631828d8426791e5d105933282e2e67360c6e986157a19f12d99",
+    "rows": 412,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688147.SH.parquet": {
+    "sha256": "28db02978bad3f2489532ea954d4deb1d1705e67c629dd67071debfccebf181d",
+    "rows": 490,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688148.SH.parquet": {
+    "sha256": "a0c0ac7f97ce80903a59fd3450b90002e5c47fbcd5a616c35b969e891ac48342",
+    "rows": 825,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688150.SH.parquet": {
+    "sha256": "6e91d0f1828ba8bf4eeadbfe1bb4fd4a92622f4c3404593dc473db45a1694bf3",
+    "rows": 678,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688151.SH.parquet": {
+    "sha256": "880ffd2bc524eb4a2f3087662ab804753f4646b8f36db11a20f5744b1ff92149",
+    "rows": 746,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688152.SH.parquet": {
+    "sha256": "6c249d76a4a035806c9d8e705d99437931d926e52bde7e1b2a7cacfce7dfb95c",
+    "rows": 530,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688153.SH.parquet": {
+    "sha256": "98e5efc60207f2f5c1f74e06cc1344518d8b9ca18ef3a90c83b9dcbd3162acad",
+    "rows": 663,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688155.SH.parquet": {
+    "sha256": "a678274078c806b0a6eabba7154c2f0c15782ddeeff0643863465c683f3b5e2b",
+    "rows": 1066,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688156.SH.parquet": {
+    "sha256": "24f88e5ad1a0ce23ab9df6514f30d93d0e4adc03c0909990782114d911b62336",
+    "rows": 1036,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688157.SH.parquet": {
+    "sha256": "0132c30d40e4b215319ccf6b485f1e1fca0a544c88d7804f773ce36273988ffc",
+    "rows": 1109,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688158.SH.parquet": {
+    "sha256": "90124ddbea935bf4c1098cad87573ffa7ea8f7fe25058754b4bb7ca0fd035fb3",
+    "rows": 1200,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688159.SH.parquet": {
+    "sha256": "5d00acba3bbc2681a62dbd11354e565af862ce51c8261b412f543ef6db5de2a9",
+    "rows": 1197,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688160.SH.parquet": {
+    "sha256": "b56179dcf2b412d52b962323f66ea6a3c6dcbff5e608441e38da2de54afff7dd",
+    "rows": 1005,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688161.SH.parquet": {
+    "sha256": "b370453f875cff4705b6478cb0752275fb2d025e8cbccb2a255517313f32b604",
+    "rows": 852,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688162.SH.parquet": {
+    "sha256": "ae649a82712a1a54f2097fbae9c8f921f75d6c4c7add18aa0b107d60ab1679f5",
+    "rows": 764,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688163.SH.parquet": {
+    "sha256": "a5752802c52aaff01a3c4c4adb859a3e2a7cf5e266d345bf286a506d54dbad3d",
+    "rows": 683,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688165.SH.parquet": {
+    "sha256": "a1a4c5c10710cdaf4f6e212530e5985ff70f4123e83cbab5d28a2c7f9d382925",
+    "rows": 1085,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688166.SH.parquet": {
+    "sha256": "3ea873a27b3c4622040a9f5e21d92ccd290fa7a72e970f404aa22ca10d823722",
+    "rows": 1250,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688167.SH.parquet": {
+    "sha256": "1b26536abbdc22871d5d9465516e7ae1adf30415cc179400c1379ca3cbbceb69",
+    "rows": 732,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688168.SH.parquet": {
+    "sha256": "eed0e4e85629fcad07e8a6e4a182bb52199bc77e5edabb88b140b5e0ed373b6a",
+    "rows": 1289,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688169.SH.parquet": {
+    "sha256": "24d1785c9f149d87d51932eb28f9f446e1e19403814391cfe74402b65c0d2229",
+    "rows": 1182,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688170.SH.parquet": {
+    "sha256": "e0f28293e3b68fb216db7d0dbe1a5497dc4ceebf38fbd6cb98e4438031b17d60",
+    "rows": 650,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688171.SH.parquet": {
+    "sha256": "c247f4b34edb9e3e1d00278d0ea29019ecc03dd3fd6f7789a54a91f66fe0a25c",
+    "rows": 709,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688172.SH.parquet": {
+    "sha256": "6e7c39ed6eeb92774fbb4e93cfda8c332f41d527eb666943cbd8a87dfc085536",
+    "rows": 495,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688173.SH.parquet": {
+    "sha256": "6783e1b50b6135642e446c3945203700cbe184ce330e798a5b3172467a37c972",
+    "rows": 713,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688175.SH.parquet": {
+    "sha256": "5752f199f8e9b1c797f2209912438bb885a06cee8b9c81e238fab59bec05e2be",
+    "rows": 681,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688176.SH.parquet": {
+    "sha256": "da9cd18017744467c6e690b7a2bccb79d81cf08f6aaae515b966b7cf9b0b5a1e",
+    "rows": 723,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688177.SH.parquet": {
+    "sha256": "df32ab560b6513f78d67b2c2548540b2f1013dcef0c5a075bba7cfb6bdfc7d4e",
+    "rows": 1182,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688178.SH.parquet": {
+    "sha256": "4ee4af260a5ec4364c29ae356a9beeae385769d24a841de5aad19d6d8a0738ad",
+    "rows": 1204,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688179.SH.parquet": {
+    "sha256": "e55d42c5208cae546ae22f2f9c21f63f55bf0f255068b4075643987fd2116fae",
+    "rows": 1018,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688180.SH.parquet": {
+    "sha256": "6581f9c07e78612b1e1197ee323fe4085d3bf0c0e5949104678dc7be9aa4255e",
+    "rows": 1085,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688181.SH.parquet": {
+    "sha256": "2add2a7fac39a17a6239dade910528500e7be6cf5722f8b1fb972a391f824404",
+    "rows": 1210,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688182.SH.parquet": {
+    "sha256": "e785ffa51d21a784c0f71a3d8c7757e952757b62d5ba7f3431a1990269b57439",
+    "rows": 760,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688183.SH.parquet": {
+    "sha256": "fa5c9bfbedd06de55f3e277c91f585ab5eb226d291c76e6bbca09053d47ff7f4",
+    "rows": 936,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688184.SH.parquet": {
+    "sha256": "63e1b34ff249deac58493d092ce12bd25a2a277f3fa371792755ffd9014d7ae3",
+    "rows": 554,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688185.SH.parquet": {
+    "sha256": "0a8a7524f4691ef5747245731a4934804a3af0a29407179f7bbfc4506126aa7f",
+    "rows": 1064,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688186.SH.parquet": {
+    "sha256": "fd34780d0488c3751eabdbf878b4939aa66669aa4190769de35dec02701623f5",
+    "rows": 1190,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688187.SH.parquet": {
+    "sha256": "6c4fc87bfe05f0387cfa6709ca7e5cc41ae13682ce96ee45f076e8eb24fb329e",
+    "rows": 803,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688188.SH.parquet": {
+    "sha256": "a5976ca25bce99023425c3156af9b989cde26eaeffdd3d6cad5c6d849dbb23e8",
+    "rows": 1310,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688189.SH.parquet": {
+    "sha256": "58cbf0ecd44c7ccac81ac6846e6a760b2b3fc347262c5d5e6b3fed44d575c403",
+    "rows": 1158,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688190.SH.parquet": {
+    "sha256": "7e2ab4c8d0d87059dcee927a2875915cb677eeeaff9143d299c02214b3b7a161",
+    "rows": 752,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688191.SH.parquet": {
+    "sha256": "478347e3bbcebc70a9b66541869314a86c6b36a0c93caa587d16d83e435250e4",
+    "rows": 907,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688192.SH.parquet": {
+    "sha256": "95c669cdfe1e2e9a47b9b95a89c53da66af5a2e2429e65cb20045ee9faaf4e8d",
+    "rows": 742,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688193.SH.parquet": {
+    "sha256": "787c1199f4d21cdfc41a285d063a97a5869ddc8c0a17833c53e69b1ec9f0d0b6",
+    "rows": 670,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688195.SH.parquet": {
+    "sha256": "a6859eb3bbb9eea3319b032ecf188a25f65cfe54a24c53757901c1c7fb4b11d1",
+    "rows": 915,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688196.SH.parquet": {
+    "sha256": "b41fae2528ac2cffb86ca1c9c48e908f6063cb8e7acd59e2e218bc2e809b06f6",
+    "rows": 1241,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688197.SH.parquet": {
+    "sha256": "1a9902632552920f1a35c74c414270b6079e4c38523393d4377acbbdf48d0b4d",
+    "rows": 675,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688198.SH.parquet": {
+    "sha256": "7fc53866b03368495c769bb90e70505b418e9a43785fa5515de83729d9e53be0",
+    "rows": 1229,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688199.SH.parquet": {
+    "sha256": "cb9cdec1a43df699941f0e5d7ecf801732c1c46188b26ee5c8aadd08687cff1c",
+    "rows": 1253,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688200.SH.parquet": {
+    "sha256": "ab0fcfbfd34f1c42408565ee5e134010f117db4e87c4baca5735201b4128e5f2",
+    "rows": 1185,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688201.SH.parquet": {
+    "sha256": "3c3132fd8ed3bfb04f6c250ceb9b874cedd5afdb1054572cb290ee025ebde167",
+    "rows": 898,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688202.SH.parquet": {
+    "sha256": "9b62527d9172445fd7435f51d41ef749ec31df4c113d3f7d28b5ddd0435a877b",
+    "rows": 1253,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688203.SH.parquet": {
+    "sha256": "619946b7d76fa71f9c2bc53ebe3a6a860c597486324e5e17c48d1a5456fe3f7e",
+    "rows": 577,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688205.SH.parquet": {
+    "sha256": "b8a148423a91b2e5f35e7fd6cf092ac1b6aef49a64333ae6fd6e4de3aaca67d8",
+    "rows": 582,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688206.SH.parquet": {
+    "sha256": "63d866d7ba63f47257f93824d85c7c6e62796d5395c2f2dfc15d787a196f5dcf",
+    "rows": 730,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688207.SH.parquet": {
+    "sha256": "27952939f8308e9012815a0d76059a2ea4f8c9840ebb30ce2030c01c6447e7df",
+    "rows": 679,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688208.SH.parquet": {
+    "sha256": "c34e06176457d35aea2268d12fb1e79be9649e554b8becd67ee989c37b5eecd4",
+    "rows": 1188,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688209.SH.parquet": {
+    "sha256": "2eadcc46d382d90ce3c073f4b5b04bce6130a8f57c575b9a8d5c39cc3d24d3b0",
+    "rows": 658,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688210.SH.parquet": {
+    "sha256": "06d0aa2d3c2a78973e5d11b14af5cafb1cc6ae2f8134af2c9df79d7cfdf7e1ee",
+    "rows": 731,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688211.SH.parquet": {
+    "sha256": "0e191346c33b5504d274c1735ee3c312c120cf32ecf0da69399970e7f3d221a7",
+    "rows": 775,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688212.SH.parquet": {
+    "sha256": "018c8a9d633f1708cd8c8f30b64740108fa58d1912bafc9ab6a3500954ee6cc9",
+    "rows": 761,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688213.SH.parquet": {
+    "sha256": "ef63fc157df4d76d9136771fefee09bc06699ab3e9ae6bb9356e65a46c548fb4",
+    "rows": 638,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688215.SH.parquet": {
+    "sha256": "f74cb7e57d700e01a6d4257f867c86837c5aadfafc5c91976129995c39beb81d",
+    "rows": 1053,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688216.SH.parquet": {
+    "sha256": "837df61492f7f586243c0a05239e47eabfe97860304cda95710122fae224efc9",
+    "rows": 857,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688217.SH.parquet": {
+    "sha256": "7726e05e7835be3edcdb5f614a4001db03fdef10f098f4d7198ae5f6148aea80",
+    "rows": 883,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688218.SH.parquet": {
+    "sha256": "73cbd20cbbc76f23734bd570419d69d6a936a76e72b0fb948d80a8c0a0b53196",
+    "rows": 1227,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688219.SH.parquet": {
+    "sha256": "672c5dcfac7ebac8ef185829e46fa2e111c2c4cb27359c92f5fa16f7aa8fea89",
+    "rows": 1001,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688220.SH.parquet": {
+    "sha256": "551df74ec4703e00d8d95cab6060b3313515bd1a3a289e40aa0c3391e7add04c",
+    "rows": 718,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688221.SH.parquet": {
+    "sha256": "ffda2f912625cb9066273cda97a51553b32b8ffdb9befe76ec157e5da45dc663",
+    "rows": 1016,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688222.SH.parquet": {
+    "sha256": "74c127d34d784f2e7fbabfd88ac6b4322989bb180f7a21470550ee5ee2d44491",
+    "rows": 1144,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688223.SH.parquet": {
+    "sha256": "d7b0a3365d9fef5ff9e035dadb88ee6c92e5f65172ad36dbb9ae062444aefa9c",
+    "rows": 710,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688225.SH.parquet": {
+    "sha256": "a1ec2f1bd3b9821bcc806cc45c1d3a679c91a489595852674ee531a2b910ba8b",
+    "rows": 705,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688226.SH.parquet": {
+    "sha256": "78a226cf01d0c3be685c337db62c8ae18c7e46ee6396e35b325287f2a9f11948",
+    "rows": 847,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688227.SH.parquet": {
+    "sha256": "e0af6c90983ba2e2cfac4298c34667a7d39ce13e32318d2609f0dc248be0cc3e",
+    "rows": 728,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688228.SH.parquet": {
+    "sha256": "5165af51efbfa9c1e390aee90a604eae1ad2b952ce2afb03f64e6e3684565fd9",
+    "rows": 1157,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688229.SH.parquet": {
+    "sha256": "e660b44cece8a162dcd18461e9e27f746f6421ee84021dc3c18fb0bac6eac168",
+    "rows": 1062,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688230.SH.parquet": {
+    "sha256": "523d40a129f2b1b1db514c2bee1eb3aaa2e78b166b53cea1e629c35373cc05bd",
+    "rows": 749,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688231.SH.parquet": {
+    "sha256": "e242a0b088b0cf7721c32867affbdd6419cac512107fe662e5fe06b583ebd84f",
+    "rows": 594,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688232.SH.parquet": {
+    "sha256": "08d44dcf6c3a316ef96c76d47fbafa6f976a055f714a752ecced534ba835f295",
+    "rows": 759,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688233.SH.parquet": {
+    "sha256": "fc0d9178450c309e7fd2a2318889dc00dfffbf596a230fa48b31bfad269fcc96",
+    "rows": 1182,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688234.SH.parquet": {
+    "sha256": "ddab1ae0303a98e7e2b213c555246f947bb371bebbe7b51f884fbff4598e2322",
+    "rows": 720,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688235.SH.parquet": {
+    "sha256": "c4b50d792d0257e4c8b96db01004b5c4bf1dc912752f61026350113514bbdbfb",
+    "rows": 739,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688236.SH.parquet": {
+    "sha256": "fc69c816547c38470c2f8599103f32fe8d9e0ef7476a1b8b661ea2506944bdec",
+    "rows": 728,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688237.SH.parquet": {
+    "sha256": "8795b70c15c57aeaa068dcc3e6906f36f182e3f94a099e4b31ae49f5fdb3b534",
+    "rows": 609,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688238.SH.parquet": {
+    "sha256": "e82ec81c9f40b1ef814fc6c5ee99ee36a043e9e33ef13627bf68fee688de2b79",
+    "rows": 676,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688239.SH.parquet": {
+    "sha256": "1cedadceb0e49246145a250125a2d2b63f1d0f50e1e3b782959e858c87c48aee",
+    "rows": 849,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688244.SH.parquet": {
+    "sha256": "6f39ccedfbec2e3e6e6138a9801011bb78edd05648d75bfd4b79596b79959042",
+    "rows": 537,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688246.SH.parquet": {
+    "sha256": "7838d8f23e15ddee55e329fe4352eee131177f5c78e68e6363ceb880157a2cab",
+    "rows": 740,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688247.SH.parquet": {
+    "sha256": "bf69e0abc8a68f81e96ffccfdfd90acd73f90581c3f6968f04ce42b6e3b6f5a4",
+    "rows": 570,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688248.SH.parquet": {
+    "sha256": "3ee5b00c1286e6d1cd5a17f056e7021a19b12c6b31fe776ed3fbda930ff9b120",
+    "rows": 734,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688249.SH.parquet": {
+    "sha256": "67b6bad73af61efb21582788dd7be9506773b976c4da12e91bbf25f3199b6eb6",
+    "rows": 405,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688251.SH.parquet": {
+    "sha256": "468df16d17b74befcb86f8b916e8a15c78b51e952d16cf1a3ad51f2274bc690b",
+    "rows": 628,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688252.SH.parquet": {
+    "sha256": "17082a4a31c360062829000681c5153b257f8b03c3949992ec52190694a47faf",
+    "rows": 548,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688253.SH.parquet": {
+    "sha256": "63862b4e06231cafbad14c22b2a5551725628b8dfcf4163280e204dd88c56253",
+    "rows": 590,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688255.SH.parquet": {
+    "sha256": "0765f7d6b0d60039ebbd8b474b0cdb26627d24223a64c4f065ada0a904fbe1f5",
+    "rows": 776,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688256.SH.parquet": {
+    "sha256": "6d005f551031ad872a2862352e61546028168b06f4e4eb1cb7fb42336d10ec8d",
+    "rows": 1082,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688257.SH.parquet": {
+    "sha256": "069015d335eafb867678d26dbe8841471af4e6916b6b54f3cde552f4be49ba7f",
+    "rows": 774,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688258.SH.parquet": {
+    "sha256": "84e23664cbbe127d1564e674413c6c3dd45a081914f4fc2f31fcdebef9c404c0",
+    "rows": 1229,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688259.SH.parquet": {
+    "sha256": "4c80d286fce97428d1c253a3fb471dbc1dc0d7bf1984523b24b720c31aa43bc8",
+    "rows": 720,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688260.SH.parquet": {
+    "sha256": "9b199f4465bd3fabb0145b181ec5d8e3e18446b89219970f705a49f8e436685f",
+    "rows": 909,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688261.SH.parquet": {
+    "sha256": "9a39db2516fa9cd86dc8f73f5de0eeac3b6bc543bd168f3c63f394da27b7da35",
+    "rows": 704,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688262.SH.parquet": {
+    "sha256": "9f43d009c8fead44e9f1e1f5046ee5def3d7e42b3ea77fd5561a83bddb181406",
+    "rows": 724,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688265.SH.parquet": {
+    "sha256": "4dea1fba4fd11e3f79b17aff9f7f6b9a39e998921c6b2a7d8a259198273fb39d",
+    "rows": 730,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688266.SH.parquet": {
+    "sha256": "eeb5c0dd1daf3beb5aae9694266cf7440f5e01f4afb0c596ce3f0a86f8c001a1",
+    "rows": 1197,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688267.SH.parquet": {
+    "sha256": "221c4b594952ceb90c117c270fe9b53b50bfaad2913cfc75b21de1e570142c1a",
+    "rows": 700,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688268.SH.parquet": {
+    "sha256": "53e03bf6e122d465dd5913ef2d410b6a5306f3fb3c27dd6fe98693479cb80fe6",
+    "rows": 1216,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688269.SH.parquet": {
+    "sha256": "7e3d12e75ce0e2cbd503561fb79ae23becc1a93a41b46c42598970a569cc2c68",
+    "rows": 866,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688270.SH.parquet": {
+    "sha256": "56bf8a8bcc4113e600edc4f0d379632ccf6019fc986b621cf9d33597f7db1e36",
+    "rows": 709,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688271.SH.parquet": {
+    "sha256": "cfffcbcb1425ef12e85db56904b7713373827fc8d7b424250292703ef8b792ba",
+    "rows": 573,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688272.SH.parquet": {
+    "sha256": "d40314eb5018e72bcf35f91f0eb16a7971cceee562b4868ddcb5c50ca549b9c4",
+    "rows": 781,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688273.SH.parquet": {
+    "sha256": "f2d15fe1899c8d815590e35cf7d89022e70e245e8965e7244bf88a09e5285417",
+    "rows": 580,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688275.SH.parquet": {
+    "sha256": "b5de1e99744c5647b7e81b930ad9a156d747e4661605dd3e40e28c9f59d65c36",
+    "rows": 546,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688276.SH.parquet": {
+    "sha256": "3f914686ab6fb9e0f3a1da81217af56cb9cad81d620fbcf700951cb3d9dbcc92",
+    "rows": 855,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688277.SH.parquet": {
+    "sha256": "6bd9beb55fd3f25efab59fa0fb55ee1acbbd60f0dc2d110267bd363ecad96cd0",
+    "rows": 1091,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688278.SH.parquet": {
+    "sha256": "b674480d356a683938823f968c2bfd7244609ab29228adfec1c2b7d853305a85",
+    "rows": 1201,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688279.SH.parquet": {
+    "sha256": "d718fa668560cb82d54273413fec7dfef66426f6b2d6f1149cf46cbbcb8e21b8",
+    "rows": 657,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688280.SH.parquet": {
+    "sha256": "181d30c2e0b4ad476256b87c802d7e243158495031d95fd5d0d7ebbfba29ae65",
+    "rows": 774,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688281.SH.parquet": {
+    "sha256": "4e4436cd80bdf3474ffe271a54846689f705edd409d52904c0ee64b2b849486d",
+    "rows": 687,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688282.SH.parquet": {
+    "sha256": "5f992f1bd4561caa6fc1a079ac77842d552206287433b92b0cd14c4849696801",
+    "rows": 678,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688283.SH.parquet": {
+    "sha256": "7598b00fa0713de4d3c0c40086b8cb385bf725d7c4cceab25891dfe37e5d5994",
+    "rows": 701,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688285.SH.parquet": {
+    "sha256": "fc28a41257ce7bee19935669c8b3f1156ac463056ee0bb693d11d1cc5aa3ed54",
+    "rows": 779,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688286.SH.parquet": {
+    "sha256": "b169320fe25058cc0e833f4fe1b1bc2d2ff57b2c77bafe1bf425783d8641e677",
+    "rows": 1067,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688287.SH.parquet": {
+    "sha256": "66680db46b9d5d2c36e894bbb032c78b3acc9b20fbc250bf5830bd25ab6d4b04",
+    "rows": 635,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688288.SH.parquet": {
+    "sha256": "61d8b0f2ce46a03f5ddcb29dde0977ae32885ca724903d3151c47068d6495d3b",
+    "rows": 1252,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688289.SH.parquet": {
+    "sha256": "61b5dd5481572d2b79da0e91bf0088b0d3ca6b0f8adb195d468e778d9709260e",
+    "rows": 1053,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688290.SH.parquet": {
+    "sha256": "8165efa46a56c4fed546ed09c3a499d2f13b36e2ff9db258e06bd2aeb78ba9d0",
+    "rows": 650,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688291.SH.parquet": {
+    "sha256": "278adc9c3f301efdba70658684eb1bb72738bc0a7a8e8151b66b03fbb6300206",
+    "rows": 532,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688292.SH.parquet": {
+    "sha256": "44f1e5455609889d674bd66668eea8bcc7a4ab0e915e068f7697e349a8f2b4e9",
+    "rows": 575,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688293.SH.parquet": {
+    "sha256": "5d10129c0bcf53b2142f1776ad88343d10560686ced70185ef925ca89813353c",
+    "rows": 564,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688295.SH.parquet": {
+    "sha256": "c99b532019f1eeeef9769b240664dd20755a18720fcc936a110185f3ad92c61b",
+    "rows": 667,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688296.SH.parquet": {
+    "sha256": "dcfc1a0117db0ced0543d1527f113be87550f765d5270e3db50609de1a352433",
+    "rows": 833,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688297.SH.parquet": {
+    "sha256": "19378138922048999a632639bcc49f74420522b28d40d29e764400c74b09614e",
+    "rows": 611,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688298.SH.parquet": {
+    "sha256": "512c0932386f64321281240c95c8ebf36a976bb2a114c554d3118534d75cada4",
+    "rows": 1194,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688299.SH.parquet": {
+    "sha256": "8580fefe9061e8c5636ab8969475b03d36ee6c65fcbd0a6278f39e93d4692784",
+    "rows": 1252,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688300.SH.parquet": {
+    "sha256": "c0ec39d7b4e101926b9112e7690fac01c36967eab6f5121aba0f1cd8cdef6c06",
+    "rows": 1245,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688301.SH.parquet": {
+    "sha256": "807e022a2a698eaccfc15bf3ec12775fb3a6d9ac9d0a3e0c2cee4b63a20ffca5",
+    "rows": 1038,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688302.SH.parquet": {
+    "sha256": "272f2e8bef21de129baa2f6712e58f40b3ef54d7276d16f89d7308ebd0fa16a3",
+    "rows": 663,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688303.SH.parquet": {
+    "sha256": "5a0f8195e19e6659104d7044e8d85875e02186a3b1cf95a85ec09c80063146ec",
+    "rows": 836,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688305.SH.parquet": {
+    "sha256": "e083c201a09148a46ef5ba256f9cad59d700755a6dd588014d69748611cb1de9",
+    "rows": 845,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688306.SH.parquet": {
+    "sha256": "4b46924e324d0da6c6b913b1318b975509409055d429984cf54f96dae922873f",
+    "rows": 676,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688307.SH.parquet": {
+    "sha256": "d68646bba85f1d12bb0ca6a385b0b90962b6611eba3cc075d4c64de5a7693c47",
+    "rows": 457,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688308.SH.parquet": {
+    "sha256": "8c03818cf641fc33b2f6c9a78c521eed02c5244de15975c2ba81f3e0d1899a7a",
+    "rows": 985,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688309.SH.parquet": {
+    "sha256": "4fae053e69e7901eacb251d2dd2c835f94a5d7806aad69706f6b7d7c0c80aa36",
+    "rows": 1086,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688310.SH.parquet": {
+    "sha256": "77a4d2eed1766d08488cb546d25d04951a7c7eddc95b7b112fb1e0316152abb4",
+    "rows": 1233,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688311.SH.parquet": {
+    "sha256": "2a5df107fc9c5278dd2828697dbeaed0f50cdfdcf17d994f01473cf3feaeb880",
+    "rows": 1073,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688312.SH.parquet": {
+    "sha256": "2bffd501f49192e72de0fd7cbd21846c85d7c14f6dc3b109e1c481e84f3fec7d",
+    "rows": 1110,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688313.SH.parquet": {
+    "sha256": "06c2531f3180c21fbbb4b71f88a565d206e481f2905b018618da4450e8e934a2",
+    "rows": 1065,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688314.SH.parquet": {
+    "sha256": "edf50e25c48068eebf75229b3b7df52d0d23bb6d4a933dd00110de245476852a",
+    "rows": 882,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688315.SH.parquet": {
+    "sha256": "eadb97307d43b13bc9877da70e027d9761398b8be59ce35ff18dfd19636dbf31",
+    "rows": 904,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688316.SH.parquet": {
+    "sha256": "01009f5a0b60ed01895feb860afad4b21c7ef0d81fb0a887636a6f15ebcd30f0",
+    "rows": 923,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688317.SH.parquet": {
+    "sha256": "fd0a0a0400660c30d11b97c9b43c0e04b41214ab89ffd5d1bab3783582c1f3f5",
+    "rows": 959,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688318.SH.parquet": {
+    "sha256": "87090ebfc42d4e7f23fc05ef91ca748f87572cdd50e9ca30691b19ccb9fa5841",
+    "rows": 1137,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688319.SH.parquet": {
+    "sha256": "fc7998725327deadc0f3ef8613938efcb278d3dbeb6214d5a3513cfc780c3675",
+    "rows": 867,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688320.SH.parquet": {
+    "sha256": "eb9907f697c066b44503f9657c5ab89f1d17d18830df744430943a56a6c2684e",
+    "rows": 651,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688321.SH.parquet": {
+    "sha256": "90cb7ddb0bc689ad9b24c35979320e4f11d0ead323180a13656997297a75f4cf",
+    "rows": 1308,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688322.SH.parquet": {
+    "sha256": "f5a4367def3200f1e9ed1aafaf626caf5db110045254ada0df5618d29843dfe7",
+    "rows": 605,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688323.SH.parquet": {
+    "sha256": "a4b44d58afcdceb857307537436f24edaeba189062b980f9ab09316de71864b0",
+    "rows": 893,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688325.SH.parquet": {
+    "sha256": "3bb85599b9114b3c82e6a037b426df845b8f21bedd2605f2f601006a079e95ae",
+    "rows": 655,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688326.SH.parquet": {
+    "sha256": "0c718535ae738c2e2756835ef59ad0960aaf607e6bc7d23eb8d4df51e031432c",
+    "rows": 658,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688327.SH.parquet": {
+    "sha256": "387d8df5e136226865e9860380eab2e5d37fd3787c4c87010cd4fb7c966beea4",
+    "rows": 633,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688328.SH.parquet": {
+    "sha256": "473a26ee8fec3ddf53e7dbaffafd22e31ae4b16b901adae8f96058db5b319a46",
+    "rows": 928,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688329.SH.parquet": {
+    "sha256": "79418bffd201d5df5daab01729b2d9ef3de5ce4890e8b1f185427c9ae05c0835",
+    "rows": 914,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688330.SH.parquet": {
+    "sha256": "0c502556dd48580eaebc6e67e34430d117c7a40f56b3f8a6e1188af4ecd2a447",
+    "rows": 1025,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688331.SH.parquet": {
+    "sha256": "fded00b59da3ebded10f08390584b2c19cb2bb5eb1b58ced58fd67d974ea2744",
+    "rows": 669,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688332.SH.parquet": {
+    "sha256": "203ae530ee908b2dc16bb514d0ffe5506304b552b9206b184427b43fab213aab",
+    "rows": 599,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688333.SH.parquet": {
+    "sha256": "0465cefabdb6c37c8733fb3017e91d76fe1296a6a818b9f07a0218b3aeeaa79b",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688334.SH.parquet": {
+    "sha256": "8fc7e85a17d859df5b61c15043ed2b9bfed214a0c03aa2602f24081daa737a63",
+    "rows": 374,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688335.SH.parquet": {
+    "sha256": "ebd94f2a644d91d3ae3b93b890dc03783a0bc2a0a627e656ceb90006d2048756",
+    "rows": 1062,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688336.SH.parquet": {
+    "sha256": "e3163afc5682f904e2143c8cf468f787133108c9b6766246e041771c9d0f0b94",
+    "rows": 1080,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688337.SH.parquet": {
+    "sha256": "cce50cb48f7c918fbc8f50d801b5b2973428897cfa575d93a39381761ce5cac4",
+    "rows": 665,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688338.SH.parquet": {
+    "sha256": "a90f2b9ad165c76abc6cc53abbbeec403ffd5c8ed0c3b2932d9b1c78db4b09b1",
+    "rows": 1069,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688339.SH.parquet": {
+    "sha256": "efff608c368745be1caf1ac4be23171ebd1c80728ed9152953ccf2ad0b4c31e6",
+    "rows": 1067,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688343.SH.parquet": {
+    "sha256": "6fe6180b2ebb005879cbfd425ffc80543f7f3e1fcc21059256202c8d617f5e4e",
+    "rows": 424,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688345.SH.parquet": {
+    "sha256": "808150874272d8c6d3ca524f8575f1f54b4a8c6ea89f83f1a1d1af36efbe26e1",
+    "rows": 864,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688347.SH.parquet": {
+    "sha256": "5a8cef0fa358383250851a1a94e5d78326abc023b1f115a356952b33d8751687",
+    "rows": 341,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688348.SH.parquet": {
+    "sha256": "aacaddfb598ad43ba6d92778676149b4fb8459dd80981644cc2c7a94c8bf7d1e",
+    "rows": 626,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688349.SH.parquet": {
+    "sha256": "9fe594c916d6527268e7e710da0961145949ae3ce2441f08957c17e265df634d",
+    "rows": 616,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688350.SH.parquet": {
+    "sha256": "8cbe1045fa980a40edb8348ed80dd36a7ea22a1c7c1f456bb6bfb12725d4bd8c",
+    "rows": 951,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688351.SH.parquet": {
+    "sha256": "1e5a5a993e79a3b5241b8ee28de3c747e8148ef53fa1e09178c3d8c1229b297f",
+    "rows": 566,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688352.SH.parquet": {
+    "sha256": "4bc6524ba0e392c09e7f5ef7e9e86564afafeaa7a0703afad2370c63f73e37f4",
+    "rows": 413,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688353.SH.parquet": {
+    "sha256": "5ad11366b58d0bf344402172e05527e7093a4c5463d45c3a445fbb0502de8304",
+    "rows": 601,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688355.SH.parquet": {
+    "sha256": "c930743255c44067852d1489a40585b807e6a31aeafb57d1cb824b2903980a6d",
+    "rows": 886,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688356.SH.parquet": {
+    "sha256": "ae4331a0ddc62c74a22a4fb2b4e3529c1a27090e524079bf18eae40723a29082",
+    "rows": 1055,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688357.SH.parquet": {
+    "sha256": "427e8528d930f1aea74bb21082d7ed04ed26b19b265850233f53cbfdaae713b7",
+    "rows": 1232,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688358.SH.parquet": {
+    "sha256": "631f3e04ad52d7e3b3f1db5bf06fd210a9419d7b7a3595acee169b1ed7be3f86",
+    "rows": 1233,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688359.SH.parquet": {
+    "sha256": "669afe413ab28020bf37b63d6a7f7a173ec3e2e3fcdf906f9aad0ed210448945",
+    "rows": 879,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688360.SH.parquet": {
+    "sha256": "7ba30654086fa837e32c243e6ce28b4b42692addc2ac4a9eedb9b8b81ead2793",
+    "rows": 1114,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688361.SH.parquet": {
+    "sha256": "fb768eac6a980c5b59abd5876061a0157b4c58bc7bd7369617eb156b75fc6878",
+    "rows": 395,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688362.SH.parquet": {
+    "sha256": "5c4cbd08ff6bbdc8c5584c727c5a0863eff9145bdbabcc7eb4b938d7b53ce790",
+    "rows": 517,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688363.SH.parquet": {
+    "sha256": "a47c68d8eea6e602de67e5ff5cf9979fa9535ecb16a0204d8d2902dc11655402",
+    "rows": 1252,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688365.SH.parquet": {
+    "sha256": "dd4f63be063fd559f61231e68dd75399539ba367f61dd3a97d89023a74a5aa04",
+    "rows": 1135,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688366.SH.parquet": {
+    "sha256": "5dc8a96992d963c96b34abff18ffc8fd8902c882c39e8dca1a4c7be752d17280",
+    "rows": 1257,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688367.SH.parquet": {
+    "sha256": "05d7606e41663d007798d7b42a26058ca29006316a3c871e781dbd67153db1cd",
+    "rows": 854,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688368.SH.parquet": {
+    "sha256": "6a27456438b1adfa25687e431ccf5b2ae7826900348d56738b769d055e0e2207",
+    "rows": 1269,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688369.SH.parquet": {
+    "sha256": "d43b407facd3dbf1c692c513fa37222e222b61e14b9e6b1c1b7ab0d2ac92d1c3",
+    "rows": 1256,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688370.SH.parquet": {
+    "sha256": "ef511840ee172526db409a4b0d743f14425ceed3dcca99b155fd960c31b31b62",
+    "rows": 570,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688371.SH.parquet": {
+    "sha256": "caea89234b445844ee43f30a6f3f11f0737ee24777e739990b89e8dd4fef448d",
+    "rows": 587,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688372.SH.parquet": {
+    "sha256": "5805f40e6a3b3dc17d0145560ec36985f764c2b4de7b618e304b531c73c6ea6d",
+    "rows": 532,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688373.SH.parquet": {
+    "sha256": "199971b6b387ac790309b3a8847e2bc7f210bbc29f5614c59b1ca97fda041559",
+    "rows": 584,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688375.SH.parquet": {
+    "sha256": "50bb2deacb17e5c2bd69d8f425ec70d0cf8253e1b9f0fba3dadaf39075a12e0d",
+    "rows": 594,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688376.SH.parquet": {
+    "sha256": "e9cd62874e438ec5fdfe90d886d36740df5dc232b5366953a55ec4024ae0a96d",
+    "rows": 515,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688377.SH.parquet": {
+    "sha256": "ce918383e8fc6e05eb5171c80d66007a4bb081771e1aedb1e266a66f062f86bf",
+    "rows": 1090,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688378.SH.parquet": {
+    "sha256": "fdbcf21a3ddfa57a9d2c4b3dbab6cf7d3e540e4610b0437d4cf03f609a943ff5",
+    "rows": 1049,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688379.SH.parquet": {
+    "sha256": "4d5f714ad74bf067445fc12c544d817fa038d0d23c2939c16b2ef634fb1bc1fa",
+    "rows": 1060,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688380.SH.parquet": {
+    "sha256": "b6b0c9dc8d2603a6ff9daa9a7ddaadefd53a6ca4f904df8514078111515c698c",
+    "rows": 584,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688381.SH.parquet": {
+    "sha256": "e7cc7b6fe1be4dc87a1db6615c792f089bacd40e8ec285bbadd535dd46d8c681",
+    "rows": 572,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688382.SH.parquet": {
+    "sha256": "77a71f8d78e686173135fd35afa1ab37f10207d3fdec02c22f696328424b8867",
+    "rows": 593,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688383.SH.parquet": {
+    "sha256": "6e902cdf067acf223708037ba2c1b47c78b6fa79c14799a58adc60d627f8c6c6",
+    "rows": 893,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688385.SH.parquet": {
+    "sha256": "3ce77812b39d6df90b6137e3f653fe0e83c500a032384ef4d3f28189d1e70c3d",
+    "rows": 827,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688386.SH.parquet": {
+    "sha256": "459f4091a58297accec5d1744b0611761da9ae202b51cab0ccee49a1a3a81a71",
+    "rows": 1024,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688387.SH.parquet": {
+    "sha256": "0fdacbdcf30c5c213d8943de4ba84a329342c04bc828e6fbab7912794c63d26c",
+    "rows": 549,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688388.SH.parquet": {
+    "sha256": "45121fb09288dec635bede8dcdcfd6b77caf78d298c61a0b0b4d171b5ae90541",
+    "rows": 1323,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688389.SH.parquet": {
+    "sha256": "d807fa2d4549151ac3647e4f72d54bdf137c49299fbf597ae9b5b73a2dbdbb4a",
+    "rows": 1253,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688390.SH.parquet": {
+    "sha256": "859f1a07a64c36357f3ce64ec8d53f634158b5f02033197ef2a51378457c141f",
+    "rows": 1048,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688391.SH.parquet": {
+    "sha256": "45f60fa3525e96aeca1a1c9b3de0a1958ea8657e5961fbacebff19bf8f16e462",
+    "rows": 558,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688392.SH.parquet": {
+    "sha256": "facda2a0a899b2ce855d017ed37a230102a5f490cc8e2519ed3b1913638e7a11",
+    "rows": 548,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688393.SH.parquet": {
+    "sha256": "3d6170a2c84bf2426fa36218625f2636c0abf7ca3ade3d3c6378652cd543ceb5",
+    "rows": 1059,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688395.SH.parquet": {
+    "sha256": "031eb7a4f8b42f0a9cdc7c2b3bb37334319eb54284784920eecbe613c7bf36b0",
+    "rows": 892,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688396.SH.parquet": {
+    "sha256": "427718f94564db9288801ab241778a3bbc7ecd9b90b7a5b139f71c45c52097fb",
+    "rows": 1178,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688398.SH.parquet": {
+    "sha256": "6528c59136391c622bdd8d7478f4956efe940df103750582d9711a1e1974b48b",
+    "rows": 1190,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688399.SH.parquet": {
+    "sha256": "2e3d3dd3f961dd6addf99ad7f242954c79b7cd75119b2d53cac5f8687b565ae9",
+    "rows": 1231,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688400.SH.parquet": {
+    "sha256": "9b8b35d3a3b7a13acfd85f1b22fd975a4e64d806c42ae4b30c444c2ccfd391b8",
+    "rows": 606,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688401.SH.parquet": {
+    "sha256": "7a2113e739389212abba64c7b426e7ad8d9022047b298ef84b22aa3d5f632d76",
+    "rows": 576,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688403.SH.parquet": {
+    "sha256": "53149f48b487806f582c2fe73544369c2850a43499f7b7409f9daf5237924bb8",
+    "rows": 575,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688408.SH.parquet": {
+    "sha256": "bba335a4eccffd0ea1b847d62deddbd8a869710f10a667c2cdd18286d18145b7",
+    "rows": 1053,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688409.SH.parquet": {
+    "sha256": "4bdce8887df479858ce9856f312373714f20b2b8a9d90462806840b1f0d9238c",
+    "rows": 544,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688410.SH.parquet": {
+    "sha256": "7d5320060e031278994be3ade704733b28d5ab5172cfd98c92874114328ff8b6",
+    "rows": 489,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688416.SH.parquet": {
+    "sha256": "77234fbbcb8ab36ba25fe6f46850d3021400d174d9a711529724a5cfc55aa298",
+    "rows": 568,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688418.SH.parquet": {
+    "sha256": "e55736ac5dc36328cff6cd5cef7e60c509d6089745339852a26e7f8bc7ee8e87",
+    "rows": 1080,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688419.SH.parquet": {
+    "sha256": "69372584a37bacd1f6d46e3222d43b0222ed343953a31ce0de50b7cb305ca23d",
+    "rows": 524,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688420.SH.parquet": {
+    "sha256": "f0cc002069fcafe802b6e6a22c586ae998af041504345f4f5f263cf714033309",
+    "rows": 500,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688425.SH.parquet": {
+    "sha256": "42e3dd742f9f3fae728adda52347052b4a9b341a47eac2e8fe65f9ec03a19241",
+    "rows": 858,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688426.SH.parquet": {
+    "sha256": "f0e8f7152f319b82219e2d63aab0f40204c05c0bfad6915fbb785ad84948aefd",
+    "rows": 533,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688428.SH.parquet": {
+    "sha256": "4f7512de29518ce76eebdb0752157cc9cc1c53314aa0f6c6fcc05d25d10d57af",
+    "rows": 552,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688429.SH.parquet": {
+    "sha256": "65946974c62b9c32079ba90f975f0715266f98b44ac98ccda70f1bae4a6ecf1c",
+    "rows": 368,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688432.SH.parquet": {
+    "sha256": "b4495f12a9234f4675cd7869f96d8dca698a48bdf1fab386f31b9752f866bcb6",
+    "rows": 521,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688433.SH.parquet": {
+    "sha256": "49d297ce9a9926d873d801e65c501f4c18eb77fdfe1e582db13f77c222dbf3bd",
+    "rows": 416,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688435.SH.parquet": {
+    "sha256": "a5fd7c7fa31408ac78867308dfc9228ee34261ab4fe01c053b8220528c8048c1",
+    "rows": 472,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688439.SH.parquet": {
+    "sha256": "ad55675a2e044ee2ecd7ac1504b6319e77b9a1c0eda5a8b4e957cb7c6014ede3",
+    "rows": 569,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688443.SH.parquet": {
+    "sha256": "97df535a41b14584c6248b4d324b0ddb2a95d99e6d01779ba2f6020706678c3e",
+    "rows": 373,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688448.SH.parquet": {
+    "sha256": "40093b7e24b54bc6e8466fe8ce1e5e79f89d67ff7eb7e5b02bb1f04ad0dcdcb3",
+    "rows": 552,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688449.SH.parquet": {
+    "sha256": "878356184bb68d7ef1f8cd53c70a872c8c38b586b496d15b36b775b6a80f77e7",
+    "rows": 23,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688450.SH.parquet": {
+    "sha256": "3332a5204ac806dc747fde55f53cc420cf1716fee1397b059e42feb3cbdcf925",
+    "rows": 351,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688455.SH.parquet": {
+    "sha256": "9844881174a330c47bacd714dab39828163c05b281fbed79d7ec8615fdc2ef05",
+    "rows": 556,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688456.SH.parquet": {
+    "sha256": "f76cbefc8fe57787f50a0c871caa30e0f52af9dde26d6ac40beb7315fcf9bd02",
+    "rows": 922,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688458.SH.parquet": {
+    "sha256": "40c6cb6ae52f3b91492e9559de260dd4afd3fd0b97cb8c5ecd8181dbe2f822a7",
+    "rows": 394,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688459.SH.parquet": {
+    "sha256": "b914897c0ee6f65f59c3d78bf91b78114f01c3d1a2d3fadaca660164d50ca937",
+    "rows": 542,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688466.SH.parquet": {
+    "sha256": "661d50fb20d54c36ca1614a8f735aa84fcff0f408bab8d281bd672e79b117be2",
+    "rows": 1131,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688468.SH.parquet": {
+    "sha256": "61ad97fc2ed492a8c80dc01400e1fd9f7d367ef1f35c26ed92bc529b4c4d9027",
+    "rows": 906,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688469.SH.parquet": {
+    "sha256": "9dfd400b4469130d011c753dc25fcb4f5329325bfd9b159628b5e48b00ff91b1",
+    "rows": 402,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688472.SH.parquet": {
+    "sha256": "5c75d43f706cf1ff098e94db54e9f3aaca72a73b8612d427c809ae37e55fcd49",
+    "rows": 380,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688475.SH.parquet": {
+    "sha256": "da1b89caf4ff721dda6511539f43bda7bc41d5da8a2d17ba9f8e03643b4f46d1",
+    "rows": 487,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688478.SH.parquet": {
+    "sha256": "6b48ed72e27851208a756fc9eef3ea8a4298be539231efd53957c1baaef8d209",
+    "rows": 411,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688479.SH.parquet": {
+    "sha256": "551b204cf405b00bb3becae1b454df903122fa7cdf16b2e72bb74c1d9ade1f71",
+    "rows": 401,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688480.SH.parquet": {
+    "sha256": "18e8e2ccdbdca3aa34397ec57a6e696c9dc625ba35f66e118827a50290c04f1f",
+    "rows": 510,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688484.SH.parquet": {
+    "sha256": "c7343cbeb6992cee1c5db4caca6c4181c95bf58f07b6981d1eb7179b1af6fedb",
+    "rows": 422,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688485.SH.parquet": {
+    "sha256": "35d7bc91e9cb4428c38fcde8e08d40420b4b88a3c13eb139ad1f5464d2e2b31e",
+    "rows": 473,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688486.SH.parquet": {
+    "sha256": "609d5a6e055378b4b7ab1907d164033e293aa7d9a902d01e080a74e8c5505403",
+    "rows": 454,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688488.SH.parquet": {
+    "sha256": "a999d9cd1e70f0ffc00081cf644b6027deb4c55b67ee561b3ed92f6f0e4bf64d",
+    "rows": 1082,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688489.SH.parquet": {
+    "sha256": "1f4f7ed734fb152b638d4d6b0b42bcf6da4548f07100e056af65f8bba2402a09",
+    "rows": 505,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688496.SH.parquet": {
+    "sha256": "018aa4102b430eb140293331362e98cc6f31e07e0fd87098534d8af36334fa15",
+    "rows": 487,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688498.SH.parquet": {
+    "sha256": "c76292dab2aa9a9a7e9597b476dd41a103a1273cc9878895daae4411fddd61ce",
+    "rows": 492,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688499.SH.parquet": {
+    "sha256": "2bd15c4779a56b1dd27dd833b0a7d00fe5d7925ffb678296c5e2aa66ad6d4f05",
+    "rows": 851,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688500.SH.parquet": {
+    "sha256": "838bf7b2e912cc71b30fc45b7d0bd58a2d051f185daa7c4234009ace3aaccd91",
+    "rows": 1084,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688501.SH.parquet": {
+    "sha256": "8f3192eb0fae79f6b42d9dbff4a3f5a27c5f68c3ea4fe4134b25c1cb0b247789",
+    "rows": 840,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688502.SH.parquet": {
+    "sha256": "f8356b1b6cbdbd3641d744dcd430ad3160e8be5caf19b0f32c118efe01d6204e",
+    "rows": 442,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688503.SH.parquet": {
+    "sha256": "550498ef6f2202f108fd9563c33a5ea07bd25bca4a68ccb1d722f94dedf22b7f",
+    "rows": 500,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688505.SH.parquet": {
+    "sha256": "f332781a7f81cdfec634d980216795ec17880f08ebdf5752538c30a050063f18",
+    "rows": 1101,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688506.SH.parquet": {
+    "sha256": "c10eaf3d7029ca6735247333182d4ba5465b7082460dfe7cd66175e30db2929f",
+    "rows": 481,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688507.SH.parquet": {
+    "sha256": "2184ade0d462d4797f29c2aac4c0809b685f267523e10846a4a7c57927712594",
+    "rows": 415,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688508.SH.parquet": {
+    "sha256": "dc8e02679f2e44f69cb74a77768a4a2afeff85dba08b651c05666cd0b1d16a83",
+    "rows": 1080,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688509.SH.parquet": {
+    "sha256": "73764860c0d43044d29c9c7ef4164771a3acf10c137bc12e4820e46d0f604a80",
+    "rows": 830,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688510.SH.parquet": {
+    "sha256": "f7dae3b3c108de157d9f8e356df2051928359a9a66b504cb3a4f11327237f9f0",
+    "rows": 981,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688511.SH.parquet": {
+    "sha256": "1e9f485283ad2ccc43c46512012e0a2de3405eef369d8cf8c7806ba2e3b7b99c",
+    "rows": 830,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688512.SH.parquet": {
+    "sha256": "f234fe34d7c828a725da1e29014bbb9c53cf55970c9966c0e9fff23d0ff2c0e8",
+    "rows": 398,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688513.SH.parquet": {
+    "sha256": "31579e7e33c5ca68a7f165fe127cc2a1ededc680164141e939510f330da03da8",
+    "rows": 1050,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688515.SH.parquet": {
+    "sha256": "b33e50940927a9939f00efc9b3c34b7b01610dae83313aa55ab8f9222d113bd7",
+    "rows": 461,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688516.SH.parquet": {
+    "sha256": "f0d26874b9900417d06368221d0570b7ccaca79c99cb83f71ec33d1af7042cb3",
+    "rows": 1122,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688517.SH.parquet": {
+    "sha256": "facc324982054ff1d186588e1b9911e56d129347a73b78e454a97c132c4ec5d3",
+    "rows": 860,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688518.SH.parquet": {
+    "sha256": "b37b360d7611097b30edc4ddfcc10dc5d7f4205b7488ff76540dc8d95fb84679",
+    "rows": 1100,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688519.SH.parquet": {
+    "sha256": "c3aaf186b5305f56bdf74213436ba58c4ef704d1f6ebc9ecdac884f1534f9c5d",
+    "rows": 1061,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688520.SH.parquet": {
+    "sha256": "44b11455aeccf0cdddb8b49f733ac1814a88d4c401e86af0b217e88137bee648",
+    "rows": 1100,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688521.SH.parquet": {
+    "sha256": "7965d85ed9aacc9b6cb15dd648c72aef9bdd9ee5360747ef53be345bb6c030e0",
+    "rows": 1061,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688522.SH.parquet": {
+    "sha256": "0bdd42a90da75107eae6627c3dea32ad07eed5208bbad018cf5e6ebfde48ac89",
+    "rows": 448,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688523.SH.parquet": {
+    "sha256": "c749ae8240530bbda19384f161767a0be6492621c416e3dcb32392db505ec15b",
+    "rows": 385,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688525.SH.parquet": {
+    "sha256": "368746954d94e181e550deb3721d976dbef0a7c309d7a6ae81c481d8121836dc",
+    "rows": 485,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688526.SH.parquet": {
+    "sha256": "2b837c424c4d5b5ef11f4f59804524a8a8b5e61bbcfc2980d2bd88f4741732a3",
+    "rows": 1036,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688528.SH.parquet": {
+    "sha256": "25f9337637ceece20cb204b3163b3f086956f754d98d87f6c80b4af3caadb090",
+    "rows": 1095,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688529.SH.parquet": {
+    "sha256": "9c2df275c2505739de3520e080f0d906a80cafccd9947d3b0e9cd59a6294a4e7",
+    "rows": 1008,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688530.SH.parquet": {
+    "sha256": "020b18a1c4486b62a9dbcf340b2f75b445f8790622ae1b99d19863eea1eb3114",
+    "rows": 161,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688531.SH.parquet": {
+    "sha256": "9e6f970f33c271890ceecdd0a6fa8bcd32cf3d3df19820d61cb323053cee37eb",
+    "rows": 426,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688533.SH.parquet": {
+    "sha256": "3cc9008f3394533cab9d4ef876cbda4fae1e586b919e3d38c3b2e69866bca937",
+    "rows": 900,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688535.SH.parquet": {
+    "sha256": "acbe386809722120558c8c2d3f6ce010c7461a2336784fa63267cc52ce4aeecb",
+    "rows": 424,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688536.SH.parquet": {
+    "sha256": "a695fffe8cd55ce32f02146471806089da791e2133030aed02a47f2f2405743e",
+    "rows": 1037,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688538.SH.parquet": {
+    "sha256": "a2d4d7b6287bbbfd14c9c1a7b443ccb1f299ff0a6d422317b87da16312c54a4d",
+    "rows": 874,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688539.SH.parquet": {
+    "sha256": "4e7772ec6c65eccc110a66aa93b3598b101fde6d7c0fb73b6be2965afea83bc3",
+    "rows": 415,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688543.SH.parquet": {
+    "sha256": "419dec50fd75410388172a85f887d0f1a75adb13faa5deb04eeeefc8bf358dfa",
+    "rows": 372,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688548.SH.parquet": {
+    "sha256": "f271ac23aeb712eaebee1fe7cf57d51ab4435aacfbb436639637794115c09be2",
+    "rows": 335,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688549.SH.parquet": {
+    "sha256": "48a46d0bc5fc9d8c121b69eda2b6968882dbcf92ff4d1c0408d29e070250d475",
+    "rows": 317,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688550.SH.parquet": {
+    "sha256": "b59926e08fc6752f4db1b7c90aadafe6c1b66bc79eb901c598e4f015ba0fdfa6",
+    "rows": 1050,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688551.SH.parquet": {
+    "sha256": "8b65f410b46abbb3f74955b0644ea4140fa18616506bd6db58421967b6249b0b",
+    "rows": 1044,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688552.SH.parquet": {
+    "sha256": "e2eaabfed59b425e3c72bcb8ee70822ffba9c70a005ac1154317c328d465607c",
+    "rows": 396,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688553.SH.parquet": {
+    "sha256": "3e24aad14204895d2e176085d079fb0dab1d2f5c61fc240dbfb7bd491d7a142e",
+    "rows": 775,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688555.SH.parquet": {
+    "sha256": "6aedd816b4a11f01e90abf1293baf74625980fb79f8cc23e0cd1e888433d229c",
+    "rows": 738,
+    "max_date": "2023-07-07"
+  },
+  "qfq/688556.SH.parquet": {
+    "sha256": "73cee16a615de76ac0e7ca03c62ffe1eedfd5e5ee72a018412dcb629f90a4624",
+    "rows": 1068,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688557.SH.parquet": {
+    "sha256": "d874f7db985f218440cae938ef4378d59473c3cb5daefd47d360b20e801162ff",
+    "rows": 991,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688558.SH.parquet": {
+    "sha256": "78bfc8f20a53d574c873445a107cd24ef149de6a3805cce8cfaaaa77548e36c4",
+    "rows": 1096,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688559.SH.parquet": {
+    "sha256": "ca1c82c37df3af61e6542d59c29456a3784b4ead0d2a32634b70470bbbffd041",
+    "rows": 1045,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688560.SH.parquet": {
+    "sha256": "b9a877cabf700473cd9ee53c84414c3e46137823509f2712237ae4183bf1a4cd",
+    "rows": 975,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688561.SH.parquet": {
+    "sha256": "e3a32dcb78daea71cbc1ec78d80e0c6c0f697f0a017daa26b7e633667b369609",
+    "rows": 1080,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688562.SH.parquet": {
+    "sha256": "e70271382e0c6e79ec7c0373c58531bdbd7b755aa719c7294647a2f396112eac",
+    "rows": 392,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688563.SH.parquet": {
+    "sha256": "8bcc66d2a0446eedfb7c495cd42fbcba0ce92232c776b26037b68625af8bdf02",
+    "rows": 354,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688565.SH.parquet": {
+    "sha256": "dbc09d683965a8fc246266ec7adf4738255ff017f3bbc44691cfc84f03193170",
+    "rows": 885,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688566.SH.parquet": {
+    "sha256": "6927bacfb5551ed27b717cf5f769921a7f61317fc162de37694efe6b842aa15e",
+    "rows": 1125,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688567.SH.parquet": {
+    "sha256": "01fe569d87a6ec8c42a9cb7491c66533e818047fb05c1fb67158bc21145a7e5b",
+    "rows": 1083,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688568.SH.parquet": {
+    "sha256": "da7a06505092f861850ad26edb7a26cc515737095a60c2cd292f1c6ce49c5de8",
+    "rows": 1090,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688569.SH.parquet": {
+    "sha256": "1c4a9c9f710af536ba6cda861e4f96562d6e5178c74f34988715d4ed5d718e54",
+    "rows": 1052,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688570.SH.parquet": {
+    "sha256": "8e225aa42bc13227841e84fed1410acbaf97f1613e0f73e792484d8ee7bf264d",
+    "rows": 384,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688571.SH.parquet": {
+    "sha256": "cf7edc0a43f18b775986207fb18ab0c7ef969f5a2a9bd00b87bd87b1df0834dd",
+    "rows": 984,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688573.SH.parquet": {
+    "sha256": "a300df63c680e7328a3ba500ddd27032a7e1724dd913148d24404b884e1f60bf",
+    "rows": 333,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688575.SH.parquet": {
+    "sha256": "34b8cad6f77b15a58434625abc6bfd3052ee9ea0c959333a88f782842a09facd",
+    "rows": 883,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688576.SH.parquet": {
+    "sha256": "28be5238611f6c06fbad38d5ce0f32495911f56db51aa368288c8d7a442794c1",
+    "rows": 383,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688577.SH.parquet": {
+    "sha256": "37022e4c49eb8f74dbe76d19468cf657e00c1200e56631a976f2e9a583979600",
+    "rows": 1040,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688578.SH.parquet": {
+    "sha256": "ea916ce39f6e157aa5f0cef216de652b036e913fbedf280493ebd12980252559",
+    "rows": 991,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688579.SH.parquet": {
+    "sha256": "8c3bf9e7811ca57129590b5901736b44c8190f2e93f69d41f951a77be35ebcc7",
+    "rows": 1083,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688580.SH.parquet": {
+    "sha256": "0e65bd39c0dbd78a2fc5ebb783656566f7bf31dd7abfda969c284e6c8228a41e",
+    "rows": 1081,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688581.SH.parquet": {
+    "sha256": "72f7a7ba670eff0ec61336fe7c74cd65f010cebdb6931e214ebf0bc09d528b26",
+    "rows": 395,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688582.SH.parquet": {
+    "sha256": "78f6b5d6cdd99d27a56d1fe89948f1e536585a65c2cfb9ebea12636033b1145c",
+    "rows": 367,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688584.SH.parquet": {
+    "sha256": "28c58a00f8e987fe4c1009f714465f10c72728514bec27c67b9b7b4c65908e6c",
+    "rows": 215,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688585.SH.parquet": {
+    "sha256": "789fabaf59c14a176ca0aed88c1173530de1710c79d50b5f1c3444c17d41074c",
+    "rows": 1032,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688586.SH.parquet": {
+    "sha256": "ae96bacc65239bb18b16ed5431650b37dd1efce988801b93747a40d0ad09555e",
+    "rows": 1073,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688588.SH.parquet": {
+    "sha256": "8dbe2d513ccae20be9f182b13c1b6ccacdece1f0d780c1df767008cdf760c713",
+    "rows": 1130,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688589.SH.parquet": {
+    "sha256": "18dab0f959bf0617c011ca126931e6090bfa79ce138459a49341e0c7b5ce005c",
+    "rows": 1080,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688590.SH.parquet": {
+    "sha256": "29a5441bd27824c4dd4916e94cf3e1b38e032cb768815f6b9851b459184c57a2",
+    "rows": 988,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688591.SH.parquet": {
+    "sha256": "273b590c79a86b61efd1f8c5e38d8bd408519e1bf617f7c2041a457c32cbb2ab",
+    "rows": 327,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688592.SH.parquet": {
+    "sha256": "b97725370f9532fead5c81c7868f4b9cab8da3c22b64040241187a6cdabfd07e",
+    "rows": 334,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688593.SH.parquet": {
+    "sha256": "17d52ff6f278061ca3fb858812e60da3e202900ee50a3d04e75e796e86cd1790",
+    "rows": 386,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688595.SH.parquet": {
+    "sha256": "96a68bd5d005a7ec03e5af1776b9fd46a60106280d3ce440b6de174187baec72",
+    "rows": 1032,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688596.SH.parquet": {
+    "sha256": "a02bf8a32aa012b8dbad903833294ef93c0bdf5397de1282c332a69c12714b29",
+    "rows": 1059,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688597.SH.parquet": {
+    "sha256": "1216cac42ac419bacffba963ee16d0ac462d9152a40bc08cfcf5f4c2f2d575cc",
+    "rows": 861,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688598.SH.parquet": {
+    "sha256": "00decf2279257ce731761d81f0b948c631419d1190e0c4a1b62681f8fc554157",
+    "rows": 1125,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688599.SH.parquet": {
+    "sha256": "715a4af519f0f84a238c254b18bd7df17de56b2772eb04f8d2e575df11626abc",
+    "rows": 1108,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688600.SH.parquet": {
+    "sha256": "67197297874e0328257e1f161d139e853dea5cca193910487464587ef40eb540",
+    "rows": 1093,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688601.SH.parquet": {
+    "sha256": "a142c762649f390dd120f77894e0fb0722a8f041bfba5d0c4ecdb0beb14a064f",
+    "rows": 854,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688602.SH.parquet": {
+    "sha256": "05050d682334710a9f9547f82b8438950855100a55a059f296f299b55e652670",
+    "rows": 353,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688603.SH.parquet": {
+    "sha256": "5e95348365e9d4d936a3a550451c5c9a1cdbdb2c0eb9ec4c61822be6ab7aeb62",
+    "rows": 361,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688605.SH.parquet": {
+    "sha256": "c40b13564fd29c66c7ef35ea3816fee3a2f1879b2a3785ac2ccb586ec6e433e7",
+    "rows": 14,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688606.SH.parquet": {
+    "sha256": "db01902e9c5cb4bd103c8e80fdd5edf94dd53b500653014a56371c884e1e884b",
+    "rows": 916,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688607.SH.parquet": {
+    "sha256": "216c033ac258cee99cd1dabedf945eb5011972296ffcff14834e8fc5b9520b5d",
+    "rows": 949,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688608.SH.parquet": {
+    "sha256": "7995d4a94e6eff31323b3685ae4cf1cca86ba144235919d7d104906c166d68e3",
+    "rows": 981,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688609.SH.parquet": {
+    "sha256": "9591df080f3ffd079d3df4bd3e7eb214a63b713e26397fd3d36f10ebdd68178e",
+    "rows": 918,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688610.SH.parquet": {
+    "sha256": "b61c656bf8146553dba03b42018e738494726bff053f17e4da0bfce76a24f1f2",
+    "rows": 354,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688611.SH.parquet": {
+    "sha256": "55e688dff349da22e7e47ec368b32396b5a4cabb2c160cc67e19846c47123a09",
+    "rows": 905,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688612.SH.parquet": {
+    "sha256": "e9a8e8bdc492c088fdffb7aadb8c2d2edcea71c4ea0b2e6f3a1a77aa93f6b54e",
+    "rows": 349,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688613.SH.parquet": {
+    "sha256": "54739de73ce0f62c064a5e8593ff06ba82ef07cf05e48e54e41a864ae1ed33aa",
+    "rows": 879,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688615.SH.parquet": {
+    "sha256": "b6c748b500fbd9638a609b04eebee0a6714c26551c3066f06c625c8fa90695dc",
+    "rows": 64,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688616.SH.parquet": {
+    "sha256": "6f9723029b8776e099de61b7ae192f58586091d1dd3f98519aa9f08d0c3badb8",
+    "rows": 921,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688617.SH.parquet": {
+    "sha256": "b24d616d52bccf1c7ef80dcf78bf72fa36acfdb0cf38e502c3daeab00671e3fc",
+    "rows": 966,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688618.SH.parquet": {
+    "sha256": "b961d590e2b74427247baca1446ee2b5316992e15d393017f4cc4c533f8e1de7",
+    "rows": 971,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688619.SH.parquet": {
+    "sha256": "bbc061e32d14484595d849ef815a99fba4a5bd2fe24940189b2bae258c6714e9",
+    "rows": 938,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688620.SH.parquet": {
+    "sha256": "c3467006cd93157825950b3ffe2011f272c706e21df756b31067d54bf3b80248",
+    "rows": 370,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688621.SH.parquet": {
+    "sha256": "5261c280283ff3b8294e48be55c80080687ef24268d9fff780ea42e06d337869",
+    "rows": 859,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688622.SH.parquet": {
+    "sha256": "1c35cc7bbda332f0a2dae721c510dece2a067c8fe29adbc5945ae3b9ac172263",
+    "rows": 799,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688623.SH.parquet": {
+    "sha256": "152ceb27125c906787a77238924cf43d91739754fe80e25ec19a08e1db577aae",
+    "rows": 381,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688625.SH.parquet": {
+    "sha256": "3ae53c83e7969d9d3f84112b2b0c1d0978797c599f7c978107025df5983b732d",
+    "rows": 868,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688626.SH.parquet": {
+    "sha256": "becc36ff59ed9bc9c2ea5a39fffeb9db66cd8c21ef2199e4bbdb0accb6917bef",
+    "rows": 912,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688627.SH.parquet": {
+    "sha256": "5106ad7c6f7b83752d1f26825ee9b8260daa11bdd23c65738eac6fbde64cf278",
+    "rows": 355,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688628.SH.parquet": {
+    "sha256": "64313f7c419c3794fdb4e3a5e7dc8bdbfb056a59086481b57401fa41eb7b010b",
+    "rows": 949,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688629.SH.parquet": {
+    "sha256": "d638bbe0f3ed55a12b2231c51d6f34f58cea3b71f2a366f2fe02064d45e03fb9",
+    "rows": 370,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688630.SH.parquet": {
+    "sha256": "724e3ccae9ff00b0d273bebc9b9f91871e3d72335020941bfdde97148812451e",
+    "rows": 911,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688631.SH.parquet": {
+    "sha256": "cd2d1b0c4cdbac6cedde5617b62e9d4b56e33a44a28aef5fbb9746f94840249b",
+    "rows": 369,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688633.SH.parquet": {
+    "sha256": "b613376227909ba6fb1d04a78621e39f565a407582d91b7cd5a59483aa2ffd9c",
+    "rows": 917,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688636.SH.parquet": {
+    "sha256": "bbc10db8fbef05f0d885157ec30a7edf01668e003f0517758ccf23b799def7cb",
+    "rows": 907,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688638.SH.parquet": {
+    "sha256": "dd7977590c973bb909ee456c86674209e285d43890dba09fcbe3d994a387120e",
+    "rows": 359,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688639.SH.parquet": {
+    "sha256": "49b48f529bd45eb7ba12facf64b6697e6c431d17c58b8d89d927a4af7a24693c",
+    "rows": 897,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688646.SH.parquet": {
+    "sha256": "531745c99d6e45a38d827ef7e8444fbf4ea45aafcfd9985454666940cd31dc66",
+    "rows": 347,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688648.SH.parquet": {
+    "sha256": "334b006d8254e2ccf39888c93e4d35a0069c66b2f05fa5d137654d8aa83ad2c1",
+    "rows": 277,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688651.SH.parquet": {
+    "sha256": "9d90a765507e08d78c2f8cbbff5755a3cc179760dd1f3044709ff4bca351d231",
+    "rows": 349,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688652.SH.parquet": {
+    "sha256": "b3b41a6265a57ba60d14662192aa675f5a2d376fc9026637f38f753ea9452601",
+    "rows": 265,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688653.SH.parquet": {
+    "sha256": "a85d5d98994b732ef8c0225e2ab78de56344aa04f7277ea0c49574ee53da0cc3",
+    "rows": 273,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688655.SH.parquet": {
+    "sha256": "e523a8e2a232dc324d27c5c4e7d9ae57aacc42d3e3888121920162e09eca5aad",
+    "rows": 887,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688656.SH.parquet": {
+    "sha256": "9cfe7d74b3369757194699ecbf62bfb9af14558636d574d205dcc511569f68a5",
+    "rows": 962,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688657.SH.parquet": {
+    "sha256": "fa64107f8b88847e0a455021431262e65f507e0daaed16ddd2207cb682de8908",
+    "rows": 301,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688658.SH.parquet": {
+    "sha256": "fe81e79b5b163a5ec7c57964ebbcd4ffe5718854cb471b74ea968315060aef9e",
+    "rows": 975,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688659.SH.parquet": {
+    "sha256": "0b87cdf79bfc820164c5e32a324c55d2f93c6eebee67a9dcb69aa835c1541a3f",
+    "rows": 912,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688660.SH.parquet": {
+    "sha256": "45506ea3eabae8e5984a01adad1a8b360433152fc75f247ed1a3cc7b3cae5e7c",
+    "rows": 881,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688661.SH.parquet": {
+    "sha256": "0909da2c6ba66d8c8e1d2dbc4012302f55117b256c0241dd67c282f35d2c5d52",
+    "rows": 914,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688662.SH.parquet": {
+    "sha256": "537cf5638a629c1589f9ba58ba679893e94f07bcc10a8eb97fdcef6c06c19932",
+    "rows": 911,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688663.SH.parquet": {
+    "sha256": "3fd72484540451f4a5b44098ed06e33790c1098a29c8390cfe40c3fb5e25e12f",
+    "rows": 904,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688665.SH.parquet": {
+    "sha256": "a2d5d92ed826fc8289d657bcddca358ce0832a3a1cb027c550224b9641901782",
+    "rows": 943,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688667.SH.parquet": {
+    "sha256": "31886b012500bdef30319a574aed1ee6d4786ad982316ed91ad4ad24ff806883",
+    "rows": 925,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688668.SH.parquet": {
+    "sha256": "ed1bba3e54dc2623e9b0a1777507891144ecf2c97671688a46a2da35308ee6ff",
+    "rows": 978,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688669.SH.parquet": {
+    "sha256": "b2a8d5c68ddf372b6be58091c5c3d865224d239f457bc34ff2cb78b9763a195a",
+    "rows": 954,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688670.SH.parquet": {
+    "sha256": "a7b054210051313599628726f1263af25505185bb86091b7d0869f69f2951389",
+    "rows": 829,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688671.SH.parquet": {
+    "sha256": "8176bc564d24e18afa4712d198552b6e472482eff1d9f56a61b99fc0e23cea00",
+    "rows": 339,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688676.SH.parquet": {
+    "sha256": "84335c3f6274fc009a079a0925d2622f1a9382145766c58916cf56891515ce85",
+    "rows": 928,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688677.SH.parquet": {
+    "sha256": "9e2bb57852b489e65c7b0e863e65059827a68ea354e97256ad078bd28227b16e",
+    "rows": 935,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688678.SH.parquet": {
+    "sha256": "f2a3636185b883dcb410dc3762077748c3b35e6bbcca2f03de46937949d523d7",
+    "rows": 976,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688679.SH.parquet": {
+    "sha256": "977a47c2e3e0871271e524aa6403af01f717ef12b1499870284294b9f132ab17",
+    "rows": 974,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688680.SH.parquet": {
+    "sha256": "75e4a8a446964e78060ed5450d6b97918d1a354284eb9508b5c18b661d417363",
+    "rows": 955,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688681.SH.parquet": {
+    "sha256": "be34e0d9bd1596f523c238fd0435fe122e2dbdbe4e9b37c11d268813ff9c1fe1",
+    "rows": 862,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688682.SH.parquet": {
+    "sha256": "dcacc51470aabb6d15f99171461b2c612a1d0b4b52b9379852f0ba4db2d236c4",
+    "rows": 899,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688683.SH.parquet": {
+    "sha256": "399e4aaaf3a5868a17a38c0374b4d88693e832c05215fb84c3d4291ab796a670",
+    "rows": 905,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688685.SH.parquet": {
+    "sha256": "5cf19f7b8ef03363855e55b03b72140ce1e53948b5d5f55f6a0d7e1796c863ba",
+    "rows": 885,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688686.SH.parquet": {
+    "sha256": "08630d020ea7ceede3f8f8638a8466f5e7e51129944bd025ba8f87b5b3b6c2bd",
+    "rows": 970,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688687.SH.parquet": {
+    "sha256": "a367f5d95f24fac1cd251f16720519fef052e1853a6e75feb60155813ddcf875",
+    "rows": 944,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688689.SH.parquet": {
+    "sha256": "0e670dd0052cbbe02ffb333aae74e5d9e09509ab5fcd369ac11b578d9942be77",
+    "rows": 952,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688690.SH.parquet": {
+    "sha256": "4994331a68cf7f33dae6b40bb77081555563581bef84aa8a37995e698c03f901",
+    "rows": 857,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688691.SH.parquet": {
+    "sha256": "b62edcf42d03fabb931357eaae77ede0295af2ebaf4ca965def004633f5176df",
+    "rows": 178,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688692.SH.parquet": {
+    "sha256": "2b52ea320834799e4217b1a4f59afe5432ca323bd99a1fe707adb21815b6e551",
+    "rows": 138,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688693.SH.parquet": {
+    "sha256": "3b1d539cf6b45e50ae0a7630e88638314c337199df74995f599b214eec0dc106",
+    "rows": 332,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688695.SH.parquet": {
+    "sha256": "84776fdc4cc43fb11a93cc7d08967c040dc66241ce11622e08bd063f95eb245a",
+    "rows": 197,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688696.SH.parquet": {
+    "sha256": "593810bc0c1ed1d010248c545854ee31c1407e9e4fd86571ea1ebc9434eb3a62",
+    "rows": 932,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688697.SH.parquet": {
+    "sha256": "b020f3a55caf86d843916196af052d639f3127b35979bf43cc5c0b47abc12eb8",
+    "rows": 795,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688698.SH.parquet": {
+    "sha256": "e29a5406f1fb0e666d8729e3c86135dc1be86d3d7382cfaed5fbea7dbdc8813d",
+    "rows": 972,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688699.SH.parquet": {
+    "sha256": "5ce29ac6c7b9a7f04a972f18f0f792da901e209b227fe9c46044957d955cd770",
+    "rows": 979,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688700.SH.parquet": {
+    "sha256": "1f2c8604310a757ed9d98dfa249c86c3cf8a4e1ac5a5dde175d5da98961f2852",
+    "rows": 863,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688701.SH.parquet": {
+    "sha256": "c61450a7941dd44e1980196bc4e50fafdec275a8e8d0e819e63c40c2499e6d5b",
+    "rows": 796,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688702.SH.parquet": {
+    "sha256": "52109f0092ce2725b54daf186971891a64c46be81e9cff6a4011177c5a1ae0df",
+    "rows": 313,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688707.SH.parquet": {
+    "sha256": "a5ef86db7e081ac3dd47ddc4963984d427eaeef631a82801df5394764653d0ec",
+    "rows": 798,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688708.SH.parquet": {
+    "sha256": "36ab5c7684f43b106b13568f6c5a78dde965eafda8ee60a9044114f699c60bff",
+    "rows": 19,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688709.SH.parquet": {
+    "sha256": "fee8a9429b52fad0c2247207e0173ffc1209741d2176917d1088b2d2d8fc4b56",
+    "rows": 216,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688710.SH.parquet": {
+    "sha256": "cbd863b9dd2f8a1ea0b210f667a1f0b59e0f130e6424d66f519ef150c8673a85",
+    "rows": 79,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688711.SH.parquet": {
+    "sha256": "37932292317650fe419c02e0f80685b2115f659bc4b55c67c4a47c7715c5c197",
+    "rows": 807,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688716.SH.parquet": {
+    "sha256": "d40f5cde2c894a8659233eac33d186855fa7a2585b3d169b55ec4956a84eac2b",
+    "rows": 309,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688717.SH.parquet": {
+    "sha256": "55a13fd859de5e3ab86cb716f73f5926fd1c6fd06b4215afb3c1920353607be7",
+    "rows": 241,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688718.SH.parquet": {
+    "sha256": "27bc08b33b288b6903ed9dd546f793752d13b10b194f6e78fe51e0834a657579",
+    "rows": 832,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688719.SH.parquet": {
+    "sha256": "a34ad4a44d759626d9f146883172e13b1d2a3112665d2bbc58e416969a2f7bcd",
+    "rows": 303,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688720.SH.parquet": {
+    "sha256": "3e8ce410cbd57c3a402bc7f5bffc76b381a3fd81e5c7de6bb68b00e629736a22",
+    "rows": 260,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688721.SH.parquet": {
+    "sha256": "55e1efa50f64d2d3e4ee3b805a180a61474d03acb1f273723cf523f6724d818e",
+    "rows": 99,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688722.SH.parquet": {
+    "sha256": "b1bbeeb845255b11f169ebfe8acd63a29b3a860826e11bcc667d25243417b80d",
+    "rows": 780,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688726.SH.parquet": {
+    "sha256": "13f72de6a9fe3a7a1a7ecc0448a109e9b87fda7e8fa3d5b75dd05d576e3b9480",
+    "rows": 46,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688728.SH.parquet": {
+    "sha256": "4ee0bc17297dd5088b7a3aaeed7410f9b8973859e26bb5b45335a20790d43b81",
+    "rows": 817,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688733.SH.parquet": {
+    "sha256": "e0ca7f346c6e7a32d3237d4af80758d6dd730146a58c2015e9122c84bca413e5",
+    "rows": 818,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688737.SH.parquet": {
+    "sha256": "386a98e753737e07440e8f34506fb6c5a64f2b9c08dbac3298bb4537951f8b5a",
+    "rows": 777,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688739.SH.parquet": {
+    "sha256": "80da542e24357dde22fe014490f348a28dce5e01d6bb0f39d093bac1edba67a4",
+    "rows": 773,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688750.SH.parquet": {
+    "sha256": "55fe6c56c8ca9ed8e1c44599a6c005444cd99d2017af0f64924ce1646eaa7e47",
+    "rows": 30,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688766.SH.parquet": {
+    "sha256": "d8671530a7b52242962657a8ee9d3c3d8f3f3f099aa672fbfe7673aa8055b221",
+    "rows": 814,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688767.SH.parquet": {
+    "sha256": "affe23f23af22fed1ef31f21c85d90b3a60968bc6c5f0585a921fe48ae5c659e",
+    "rows": 802,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688768.SH.parquet": {
+    "sha256": "1d6076f43b98e32e58041be5c08600c66997e001e16d4bdeecad5998eee058bb",
+    "rows": 834,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688772.SH.parquet": {
+    "sha256": "61142b01d8084fc4a82ce715548f1ffc74e7eb67ab64caee704a47f6104fc3be",
+    "rows": 782,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688776.SH.parquet": {
+    "sha256": "fcb6a80e917151b02d4a1442e8dcecc8ea45e8f3f8af205589b3c56da54aaf1a",
+    "rows": 808,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688777.SH.parquet": {
+    "sha256": "10d25b74e29e3fb9faa477f34649f6506a2e9f096a916b7562c1ce8ca2303fe1",
+    "rows": 997,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688778.SH.parquet": {
+    "sha256": "6997884926ea69aac1f7b96835db3e7ea24237c5b57d36748f29291912c2086b",
+    "rows": 826,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688779.SH.parquet": {
+    "sha256": "85cdfd7076c422676b225315fd1854e7cd6c5398ae8e762cbd5dcc2ea0c4e436",
+    "rows": 822,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688786.SH.parquet": {
+    "sha256": "825d75d66ddf93c470c81ad35855551b35d64fc715a07e9ff2d603c3e5cfa2ff",
+    "rows": 811,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688787.SH.parquet": {
+    "sha256": "a4da0be3da3811af0b0b2572aacde0adf7dd287a5517c9d25b16c9c797c3ca29",
+    "rows": 820,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688788.SH.parquet": {
+    "sha256": "d66481148b377228c80221bd99228b021b6c952c248782a87928c73e4fa8c675",
+    "rows": 1020,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688789.SH.parquet": {
+    "sha256": "4289585eb67b20b6c59d2633983bdde14f3774961b16ce2402d2d28990b790dc",
+    "rows": 846,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688793.SH.parquet": {
+    "sha256": "92f941410a734048bc6807a44abe74327c23d6e4bc46448a2d1423966ce50ea7",
+    "rows": 841,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688798.SH.parquet": {
+    "sha256": "d99026f88eda7b18cea54a0e997baae036de0adb4125d2aeac9e73ff47e5a9f4",
+    "rows": 819,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688799.SH.parquet": {
+    "sha256": "73e6370498f92dea0b370a83a7b6ff4f6e924c4166ddf1eb49ea1500eeccd754",
+    "rows": 843,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688800.SH.parquet": {
+    "sha256": "4cfbea9f2b4c085ef80d0af0b33acf063d7af9be1d2bb84046397c70cbfb5d7c",
+    "rows": 836,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688819.SH.parquet": {
+    "sha256": "7ac614596ce37936c067beb7ae4f8c626a270b7790df0f62d6b3d056c583ccf4",
+    "rows": 959,
+    "max_date": "2024-12-31"
+  },
+  "qfq/688981.SH.parquet": {
+    "sha256": "df0b7555c3a99f84049fa68c8f1857eb762c65075029d09423efa6e2143da99a",
+    "rows": 1084,
+    "max_date": "2024-12-31"
+  }
+}

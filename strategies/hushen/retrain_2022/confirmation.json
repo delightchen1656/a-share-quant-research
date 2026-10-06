@@ -1,0 +1,35 @@
+{
+  "mean_ic": 0.11696808575682335,
+  "positive_fraction": 0.75,
+  "periods": [
+    {
+      "signal_date": "2024-02-29",
+      "label_end": "2024-04-29",
+      "n": 843,
+      "ic": 0.3398879755159047,
+      "missing_terminal": 0
+    },
+    {
+      "signal_date": "2024-04-30",
+      "label_end": "2024-07-01",
+      "n": 780,
+      "ic": 0.30277084830024054,
+      "missing_terminal": 0
+    },
+    {
+      "signal_date": "2024-06-28",
+      "label_end": "2024-08-23",
+      "n": 579,
+      "ic": 0.2112003135146001,
+      "missing_terminal": 0
+    },
+    {
+      "signal_date": "2024-08-30",
+      "label_end": "2024-11-05",
+      "n": 532,
+      "ic": -0.38598679430345195,
+      "missing_terminal": 0
+    }
+  ],
+  "passed": true
+}

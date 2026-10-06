@@ -1,0 +1,23 @@
+{
+  "initial_cash": 1000000.0,
+  "start_range": [
+    "2021-01-01",
+    "2021-03-31"
+  ],
+  "end": "2026-09-30",
+  "strategy_sha256": "90159683aa8e550309ffdbc44ad605ac004b0602583f3e065358f2819e1e803c",
+  "model_retrained": false,
+  "evaluation": "retrospective start-date sensitivity, not independent OOS",
+  "commission": 0.0003,
+  "minimum_commission": 5,
+  "sell_stamp": 0.001,
+  "dividend_tax_conservative": 0.2,
+  "slippage_each_side": 0.002,
+  "daily_capacity": 0.25,
+  "max_market_order_shares": 50000,
+  "marking": "actual raw close, missing quote carried; zero residual on observed delisting",
+  "feature_parity_checks": "3 samples per eligible stock, passed",
+  "symbols": 620,
+  "candidates_symbols": 477,
+  "dividend_queries": 1760
+}

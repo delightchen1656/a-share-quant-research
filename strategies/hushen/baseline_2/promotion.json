@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-06",
+  "name": "沪深基准2",
+  "status": "formal_user_authorized",
+  "basis": "Original uploaded D11 fast v5, fixed five stocks, 20-session schedule. User-directed version promotion only.",
+  "entry": "strategies/hushen/supermind_mainboard_baseline_2.py",
+  "sha256": {
+    "strategies\\hushen\\supermind_mainboard_baseline_2.py": "15f969943623c5f51febdad9f96c6b7834b7aa7c9ea3de4b764efba8fe2866f9",
+    "strategies\\hushen\\test2_weekly\\uploaded_source.py": "15f969943623c5f51febdad9f96c6b7834b7aa7c9ea3de4b764efba8fe2866f9",
+    "strategies\\hushen\\supermind_test2_D11_fast_daily.py": "15f969943623c5f51febdad9f96c6b7834b7aa7c9ea3de4b764efba8fe2866f9"
+  },
+  "checks": {
+    "byte_identical_to_research_control_and_legacy_entry": true,
+    "python_syntax": true,
+    "frozen_identity_constants": true
+  },
+  "platform_frequency": "daily",
+  "initial_cash": 100000,
+  "count": 5,
+  "interval": 20,
+  "exposure": 0.98,
+  "factor_weights": [
+    -0.35,
+    -0.2,
+    0.25,
+    -0.2
+  ],
+  "platform_rerun": false
+}

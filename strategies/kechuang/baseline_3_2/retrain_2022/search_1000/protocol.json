@@ -1,0 +1,177 @@
+{
+  "fit": [
+    "2020-01-01",
+    "2022-12-31"
+  ],
+  "select": [
+    "2023-01-01",
+    "2023-12-31"
+  ],
+  "confirm": [
+    "2024-01-01",
+    "2024-12-31"
+  ],
+  "evaluate": [
+    "2025-01-01",
+    "2026-09-30"
+  ],
+  "event_configs": [
+    [
+      5,
+      100,
+      10,
+      120,
+      0.04
+    ],
+    [
+      3,
+      100,
+      10,
+      120,
+      0.04
+    ],
+    [
+      5,
+      250,
+      20,
+      180,
+      0.04
+    ],
+    [
+      7,
+      100,
+      10,
+      120,
+      0.04
+    ],
+    [
+      7,
+      250,
+      20,
+      180,
+      0.04
+    ],
+    [
+      15,
+      100,
+      10,
+      120,
+      0.04
+    ],
+    [
+      15,
+      250,
+      20,
+      180,
+      0.04
+    ],
+    [
+      5,
+      100,
+      10,
+      240,
+      0.02
+    ],
+    [
+      7,
+      100,
+      10,
+      240,
+      0.02
+    ],
+    [
+      7,
+      500,
+      40,
+      120,
+      0.04
+    ]
+  ],
+  "stop_configs": [
+    [
+      7,
+      20,
+      3,
+      180,
+      0.04,
+      "balanced"
+    ],
+    [
+      7,
+      100,
+      10,
+      120,
+      0.04,
+      null
+    ],
+    [
+      3,
+      250,
+      20,
+      120,
+      0.04,
+      null
+    ],
+    [
+      7,
+      100,
+      10,
+      120,
+      0.04,
+      "balanced"
+    ],
+    [
+      15,
+      100,
+      10,
+      120,
+      0.04,
+      null
+    ]
+  ],
+  "config_fields": [
+    "leaves",
+    "min_leaf",
+    "l2",
+    "iterations",
+    "learning_rate",
+    "stop_class_weight"
+  ],
+  "event_thresholds": [
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7
+  ],
+  "stop_thresholds": [
+    0.3,
+    0.35,
+    0.4,
+    0.45
+  ],
+  "count": 1000,
+  "early_stopping": false,
+  "objective": "2023 CAGR - .5*abs(maxDD) + .25*worst quarterly return",
+  "eligibility": "fills>=40 and average exposure>=15%; no near-empty winners",
+  "tie_break": [
+    "Sharpe descending",
+    "CAGR descending",
+    "candidate_id ascending"
+  ],
+  "development_gate": "positive 2023 total return and >=2 positive quarters",
+  "selection_after_confirm": false,
+  "capital": 1000000,
+  "rules": "all 3-2 execution and fee assumptions unchanged",
+  "source_hashes": {
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\supermind_baseline_3_2_audited_daily.py": "d788ab580aa8bb7e1940795e2f0e092d2aec0fb3753d96ec2cbc4012b731b817",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\start_date_study.py": "dc6a338a8bb81ab3b649118baf755b3ef72b73adfc3f3cbf97932098dc51aa5f",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\retrain_2022\\pipeline.py": "9e30c4f648c91ffd6dbc645d36839e3fcd633c8724f5b39352c10fa01c942f9d",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\retrain_2022\\tuning_v1\\supermind_baseline_3_2_tuned_daily.py": "98d42a21376d1e5a775109527448d974aa181988d0b47ebbe8cc24fc3b88e9be",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\retrain_2022\\tuning_v2\\supermind_baseline_3_2_tuning_v2_daily.py": "794dd6e33d5688f3a6f764b80bf357815240d275800a442c7bb64554ba682b91"
+  },
+  "snapshots": {
+    "2022-12-31": "a295717d3c869be29f91f8e1b6bff30b8a3e637b849955c8cc702af025f49ed2",
+    "2023-12-31": "e6ed6c66f8976af1a95513d685aba3059d82d1820a697430eb211fdc0ed793d0"
+  }
+}

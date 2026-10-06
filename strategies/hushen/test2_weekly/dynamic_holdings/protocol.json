@@ -1,0 +1,15 @@
+{
+  "start": "2020-01-02",
+  "end": "2026-09-30",
+  "initial_cash": 100000,
+  "steps": [
+    0.5,
+    1.0
+  ],
+  "base_count": 5,
+  "max_count": 15,
+  "exposure": 0.98,
+  "sizing": "Previous session closing equity, including cash and dividend receivables. Recompute only on original 20-session schedule; allow downgrades, no hysteresis.",
+  "preservation": "Original score, retention buffer multiplier, drift, execution and accounting unchanged. No fitting, feedback selection or live orders.",
+  "source_sha256": "15f969943623c5f51febdad9f96c6b7834b7aa7c9ea3de4b764efba8fe2866f9"
+}

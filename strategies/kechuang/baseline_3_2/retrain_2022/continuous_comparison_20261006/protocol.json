@@ -1,0 +1,33 @@
+{
+  "capital": 1000000,
+  "end": "2026-09-30",
+  "starts": [
+    "2020-01-01",
+    "2025-01-01"
+  ],
+  "models_fitted": false,
+  "parameters_reselected": false,
+  "full_period_includes_training": true,
+  "source_hashes": {
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\retrain_2022\\tuning_v1\\event_model.joblib": "f392a4b0a7f1dff4801f271afb318335c68f0e1502f7fa252ad4eb37ca1de833",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\retrain_2022\\tuning_v1\\stop_model.joblib": "9caf10ffae26efb567d59eae27f2c0a1f496371639338c8c524db03c07179b3f",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\retrain_2022\\tuning_v1\\results\\frozen.json": "f491d1560fd088d951a6f7bd85c5ea5cf17bf67d163b9de72a5cce3f1a1e2889",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\retrain_2022\\tuning_v2\\event_model.joblib": "d3dc1d6783c2ea5465908cf076d1bb76037e9cd39cc67a601ea45958e9673fee",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\retrain_2022\\tuning_v2\\stop_model.joblib": "dfd5a858bceb4624cb5c36ab271e5b93ff81ad9474f6f922f66b9599a2abe446",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\retrain_2022\\tuning_v2\\results\\frozen.json": "1335fb233cead5cdcfa66af854cc5955ba8524a6945c16c8b2e2f92e53596c3e",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\retrain_2022\\search_1000\\event_model.joblib": "8d5fc08a30984d347bd381d79f1f5cbb50ff6bfc86ebc9c08b67fcdb19601daa",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\retrain_2022\\search_1000\\stop_model.joblib": "f2d40b804e0ff3dc30dab748fc9e3a4984e19bd4498752cd1e1eedc8e675c3bc",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\retrain_2022\\search_1000\\results\\frozen.json": "dc790e09acd2b0ed4cc8b61d2dfd2909997e90e2b35ce8c0d26721dfca9638e5",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\retrain_2022\\exit_search_v1\\event_model.joblib": "a6fdc0267175fbd755f4d5c192c19a80849c3e7c74cbdefec2fe463d0bd197f2",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\retrain_2022\\exit_search_v1\\stop_model.joblib": "950ddfbd0c23581dd45ce086b010403d0b78d8ba8dbbdad8355dec7617b53036",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\retrain_2022\\exit_search_v1\\results\\frozen.json": "92b8543ac57802ea226bf909ff73b3405e676c5efa066e8f0e967611cb6c9781",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\supermind_baseline_3_2_audited_daily.py": "d788ab580aa8bb7e1940795e2f0e092d2aec0fb3753d96ec2cbc4012b731b817",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\start_date_study.py": "dc6a338a8bb81ab3b649118baf755b3ef72b73adfc3f3cbf97932098dc51aa5f",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\retrain_2022\\pipeline.py": "9e30c4f648c91ffd6dbc645d36839e3fcd633c8724f5b39352c10fa01c942f9d",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\retrain_2022\\search_1000\\search.py": "6d10823bdf5e8a3d9e84b02f9a45e41562a4cc03923f8900a11ef9ceae580ea8",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\retrain_2022\\exit_search_v1\\run.py": "9c2b96bc5af4a9cf007cbb3c3909aa11af3d57fb9d591323725f202d487c0525"
+  },
+  "snapshot_manifest_sha256": "6812777d49f6acdffd183c94cefc17954b22f4c4abb2f773bc7635bc7f225eb9",
+  "annualization": "(final/initial)**(365.25/calendar_days)-1",
+  "execution": "unchanged inherited 3-2 daily local replay"
+}

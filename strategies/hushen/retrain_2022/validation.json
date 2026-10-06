@@ -1,0 +1,21 @@
+{
+  "protocol_hash": true,
+  "export_hash": true,
+  "pipeline_hash": true,
+  "bounded_manifest_hashes": true,
+  "training_snapshot_physically_bounded": true,
+  "selection_snapshot_physically_bounded": true,
+  "confirmation_snapshot_physically_bounded": true,
+  "labels_not_crossing": true,
+  "bounded_search": true,
+  "shortlist_training_only": true,
+  "metrics_recomputed": true,
+  "winner_2023_only": true,
+  "execution_unchanged": true,
+  "frozen_refuses_retrain": true,
+  "evaluation_frozen_hash": true,
+  "corporate_actions_resolved": true,
+  "cash_no_borrowing": true,
+  "independent_cash_accounts": true,
+  "nonempty_execution": true
+}

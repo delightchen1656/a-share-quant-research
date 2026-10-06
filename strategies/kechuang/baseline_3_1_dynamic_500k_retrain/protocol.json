@@ -1,0 +1,55 @@
+{
+  "capital": 500000.0,
+  "fit": [
+    "2020-01-01",
+    "2022-12-31"
+  ],
+  "select": [
+    "2023-01-01",
+    "2023-12-31"
+  ],
+  "confirm": [
+    "2024-01-01",
+    "2024-12-31"
+  ],
+  "evaluate": [
+    "2025-01-01",
+    "2026-09-30"
+  ],
+  "model_candidates_leaves": [
+    7,
+    15,
+    31
+  ],
+  "iterations": 180,
+  "learning_rate": 0.04,
+  "l2": 3,
+  "class_weight": "balanced",
+  "model_selection": "2023 AP, ties fewer leaves",
+  "thresholds": {
+    "event": [
+      0.5,
+      0.63,
+      0.75
+    ],
+    "stop": [
+      0.35,
+      0.5,
+      0.65
+    ]
+  },
+  "threshold_selection": "2023 Sharpe descending then CAGR; minimum 20 fills",
+  "sizing": "max(10%, open*200*1.01/NAV); skip above20%; require full target cash*1.005",
+  "exit": "original 3-1 7/24/34 and30/60; preserve partial-profit-before-expiry precedence",
+  "execution_adaptation": "audited dynamic historical universe; previous-close exits at next open, not last_price",
+  "cost": "0.2% each-side slippage, commission0.03% min5, sellstamp0.1% throughout; dividend20% deduction",
+  "constraints": "T+1, halts, opening limits, daily volume25%, max50000 shares/order, buy>=200",
+  "source_hashes": {
+    "C:\\Users\\22241\\Desktop\\quant\\research_versions\\kechuang_high_attack\\baseline_3_1_daily_120k_dynamic20.py": "120f69dbc6db06e5d52d1aa161c4c23984abb3b7ee59079770667032d785e7ad",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\supermind_baseline_3_2_audited_daily.py": "d788ab580aa8bb7e1940795e2f0e092d2aec0fb3753d96ec2cbc4012b731b817",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\retrain_2022\\pipeline.py": "9e30c4f648c91ffd6dbc645d36839e3fcd633c8724f5b39352c10fa01c942f9d",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\retrain_2022\\search_1000\\search.py": "6d10823bdf5e8a3d9e84b02f9a45e41562a4cc03923f8900a11ef9ceae580ea8",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\start_date_study.py": "dc6a338a8bb81ab3b649118baf755b3ef72b73adfc3f3cbf97932098dc51aa5f"
+  },
+  "no_refit_on_validation": true
+}

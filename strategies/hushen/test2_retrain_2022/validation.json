@@ -1,0 +1,20 @@
+{
+  "frozen_hashes": true,
+  "feature_source_hash": true,
+  "training_physical_cutoff": true,
+  "selection_physical_cutoff": true,
+  "confirmation_physical_cutoff": true,
+  "nine_candidates_three_finalists": true,
+  "training_sort": true,
+  "selection_sort": true,
+  "training_labels_and_aggregation": true,
+  "selection_labels_and_aggregation": true,
+  "confirmation_labels_and_aggregation": true,
+  "all_platform_functions_unchanged": true,
+  "frozen_refuses_retrain": true,
+  "full_universe_export_parity": true,
+  "exported_weights": true,
+  "evaluation_after_freeze": true,
+  "cash_and_fills": true,
+  "held_corporate_actions_resolved": true
+}

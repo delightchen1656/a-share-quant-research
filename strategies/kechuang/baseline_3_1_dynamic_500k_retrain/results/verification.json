@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "exit_local_platform_cases": 384,
+  "sizing_boundary_cases": 4,
+  "frozen_hashes_unchanged": true,
+  "platform_server_tested": false,
+  "training_label_boundary": true,
+  "selection_2023_only": true,
+  "prediction_export_parity": true,
+  "platform_dynamic_order_test": true,
+  "once_daily_test": true,
+  "over20pct_skipped": true,
+  "four_stage_account_and_trade_checks": true,
+  "originals_unchanged": true
+}

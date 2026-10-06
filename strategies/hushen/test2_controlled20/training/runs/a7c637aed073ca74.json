@@ -1,0 +1,37 @@
+{
+  "id": "combined_02",
+  "config": {
+    "buffer": 1.5,
+    "interval": 10,
+    "smooth": 5,
+    "min_smooth": 3,
+    "count": 7,
+    "growth": 0.0,
+    "hysteresis": 0.0,
+    "weights": [
+      0.35,
+      0.2,
+      0.25,
+      0.2
+    ],
+    "vol_window": 120,
+    "return_window": 10,
+    "amount_min": 10000000.0,
+    "vol_max": 0.09
+  },
+  "start": "2019-01-02",
+  "end": "2022-12-30",
+  "final_equity": 242911.20999999964,
+  "cagr": 0.2488031409942908,
+  "total_return": 1.4291120999999962,
+  "max_drawdown": 0.21831791594339411,
+  "sharpe": 1.1182852646956476,
+  "trades": 1217,
+  "avg_exposure": 0.9312686719661591,
+  "fees": 19176.63000000002,
+  "dividend_tax": 1263.6399999999999,
+  "final_limit": 7,
+  "issues": {},
+  "reference_differences": {},
+  "capacity_rejections": 0
+}

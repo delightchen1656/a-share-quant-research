@@ -1,0 +1,37 @@
+{
+  "id": "expansion_10",
+  "config": {
+    "buffer": 1.5,
+    "interval": 20,
+    "smooth": 5,
+    "min_smooth": 3,
+    "count": 5,
+    "growth": 1.75,
+    "hysteresis": 0.05,
+    "weights": [
+      0.35,
+      0.2,
+      0.25,
+      0.2
+    ],
+    "vol_window": 60,
+    "return_window": 20,
+    "amount_min": 10000000.0,
+    "vol_max": 0.09
+  },
+  "start": "2019-01-02",
+  "end": "2022-12-30",
+  "final_equity": 442016.51999999984,
+  "cagr": 0.45071071022648224,
+  "total_return": 3.4201651999999987,
+  "max_drawdown": 0.2347478468155445,
+  "sharpe": 1.6899593719487713,
+  "trades": 515,
+  "avg_exposure": 0.9452517451541828,
+  "fees": 14471.699999999997,
+  "dividend_tax": 1311.08,
+  "final_limit": 7,
+  "issues": {},
+  "reference_differences": {},
+  "capacity_rejections": 0
+}

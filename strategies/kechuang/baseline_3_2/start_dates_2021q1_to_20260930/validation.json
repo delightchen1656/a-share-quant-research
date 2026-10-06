@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "starts": 58,
+  "daily_rows": 79141,
+  "fills": 120732,
+  "checks": [
+    "complete date ranges",
+    "positive NAV/nonnegative cash",
+    "50k order cap",
+    "200-share minimum buy",
+    "no same-day roundtrip",
+    "25% daily volume cap",
+    "no suspended fills",
+    "frozen platform source unchanged",
+    "no unrecorded held reference adjustment"
+  ],
+  "limits": "Does not certify model out-of-sample validity or exact platform fill parity."
+}

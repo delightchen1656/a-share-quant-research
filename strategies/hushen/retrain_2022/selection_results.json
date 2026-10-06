@@ -1,0 +1,653 @@
+[
+  {
+    "id": 1,
+    "weights": [
+      0.3,
+      0.2,
+      0.5
+    ],
+    "distance": 0.4,
+    "training": {
+      "mean_ic": 0.12215446074631299,
+      "positive_fraction": 0.8260869565217391,
+      "periods": [
+        {
+          "signal_date": "2019-02-28",
+          "label_end": "2019-04-26",
+          "n": 553,
+          "ic": 0.08789431736241105,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2019-04-30",
+          "label_end": "2019-07-01",
+          "n": 714,
+          "ic": 0.18441625511400914,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2019-06-28",
+          "label_end": "2019-08-23",
+          "n": 455,
+          "ic": 0.21599798666350864,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2019-08-30",
+          "label_end": "2019-11-04",
+          "n": 417,
+          "ic": 0.18842819302623778,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2019-10-31",
+          "label_end": "2019-12-26",
+          "n": 419,
+          "ic": 0.1103323867269839,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2019-12-31",
+          "label_end": "2020-03-05",
+          "n": 467,
+          "ic": -0.03977967184777227,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2020-02-28",
+          "label_end": "2020-04-27",
+          "n": 631,
+          "ic": 0.34806955521950717,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2020-04-30",
+          "label_end": "2020-07-02",
+          "n": 543,
+          "ic": 0.09518800942680962,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2020-06-30",
+          "label_end": "2020-08-25",
+          "n": 551,
+          "ic": 0.16587856440951013,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2020-08-31",
+          "label_end": "2020-11-03",
+          "n": 698,
+          "ic": 0.18789570291001412,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2020-10-30",
+          "label_end": "2020-12-25",
+          "n": 481,
+          "ic": -0.08484701571733816,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2020-12-31",
+          "label_end": "2021-03-05",
+          "n": 536,
+          "ic": 0.22514179127827502,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2021-02-26",
+          "label_end": "2021-04-26",
+          "n": 506,
+          "ic": 0.09255222278691358,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2021-04-30",
+          "label_end": "2021-07-01",
+          "n": 543,
+          "ic": -0.10599038395379949,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2021-06-30",
+          "label_end": "2021-08-25",
+          "n": 568,
+          "ic": 0.08194596986723879,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2021-08-31",
+          "label_end": "2021-11-04",
+          "n": 612,
+          "ic": 0.12051228364244883,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2021-10-29",
+          "label_end": "2021-12-24",
+          "n": 584,
+          "ic": 0.056310873195604114,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2021-12-31",
+          "label_end": "2022-03-07",
+          "n": 727,
+          "ic": 0.30941982887138725,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2022-02-28",
+          "label_end": "2022-04-27",
+          "n": 675,
+          "ic": 0.29530758325314377,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2022-04-29",
+          "label_end": "2022-06-30",
+          "n": 696,
+          "ic": -0.049649051836538574,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2022-06-30",
+          "label_end": "2022-08-25",
+          "n": 748,
+          "ic": 0.09070833302479749,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2022-08-31",
+          "label_end": "2022-11-03",
+          "n": 737,
+          "ic": 0.01306432878006364,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2022-10-31",
+          "label_end": "2022-12-26",
+          "n": 661,
+          "ic": 0.22075453496178327,
+          "missing_terminal": 0
+        }
+      ]
+    },
+    "selection": {
+      "mean_ic": 0.17207941867851304,
+      "positive_fraction": 1.0,
+      "periods": [
+        {
+          "signal_date": "2023-02-28",
+          "label_end": "2023-04-26",
+          "n": 745,
+          "ic": 0.25369707655604384,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2023-04-28",
+          "label_end": "2023-06-30",
+          "n": 667,
+          "ic": 0.026676990848713424,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2023-06-30",
+          "label_end": "2023-08-25",
+          "n": 648,
+          "ic": 0.3688036035932417,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2023-08-31",
+          "label_end": "2023-11-03",
+          "n": 654,
+          "ic": 0.03274965331551621,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2023-10-31",
+          "label_end": "2023-12-26",
+          "n": 626,
+          "ic": 0.17846976907905,
+          "missing_terminal": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "weights": [
+      0.4,
+      0.2,
+      0.4
+    ],
+    "distance": 0.2,
+    "training": {
+      "mean_ic": 0.11265351554497109,
+      "positive_fraction": 0.8260869565217391,
+      "periods": [
+        {
+          "signal_date": "2019-02-28",
+          "label_end": "2019-04-26",
+          "n": 553,
+          "ic": 0.09542957650251473,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2019-04-30",
+          "label_end": "2019-07-01",
+          "n": 714,
+          "ic": 0.1657987471741411,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2019-06-28",
+          "label_end": "2019-08-23",
+          "n": 455,
+          "ic": 0.20403083615505052,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2019-08-30",
+          "label_end": "2019-11-04",
+          "n": 417,
+          "ic": 0.19604996193706556,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2019-10-31",
+          "label_end": "2019-12-26",
+          "n": 419,
+          "ic": 0.14365091978786365,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2019-12-31",
+          "label_end": "2020-03-05",
+          "n": 467,
+          "ic": -0.005314621022422805,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2020-02-28",
+          "label_end": "2020-04-27",
+          "n": 631,
+          "ic": 0.300881329966815,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2020-04-30",
+          "label_end": "2020-07-02",
+          "n": 543,
+          "ic": 0.08456664183134943,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2020-06-30",
+          "label_end": "2020-08-25",
+          "n": 551,
+          "ic": 0.12627898436587193,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2020-08-31",
+          "label_end": "2020-11-03",
+          "n": 698,
+          "ic": 0.18727754285727913,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2020-10-30",
+          "label_end": "2020-12-25",
+          "n": 481,
+          "ic": -0.061035406389011226,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2020-12-31",
+          "label_end": "2021-03-05",
+          "n": 536,
+          "ic": 0.22341769402264527,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2021-02-26",
+          "label_end": "2021-04-26",
+          "n": 506,
+          "ic": 0.09911924228596941,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2021-04-30",
+          "label_end": "2021-07-01",
+          "n": 543,
+          "ic": -0.10369681893772731,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2021-06-30",
+          "label_end": "2021-08-25",
+          "n": 568,
+          "ic": 0.10101572407211541,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2021-08-31",
+          "label_end": "2021-11-04",
+          "n": 612,
+          "ic": 0.08888630447363345,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2021-10-29",
+          "label_end": "2021-12-24",
+          "n": 584,
+          "ic": 0.023467144844981955,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2021-12-31",
+          "label_end": "2022-03-07",
+          "n": 727,
+          "ic": 0.26859123116799105,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2022-02-28",
+          "label_end": "2022-04-27",
+          "n": 675,
+          "ic": 0.27077219185791296,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2022-04-29",
+          "label_end": "2022-06-30",
+          "n": 696,
+          "ic": -0.06938296450263326,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2022-06-30",
+          "label_end": "2022-08-25",
+          "n": 748,
+          "ic": 0.060383727720309775,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2022-08-31",
+          "label_end": "2022-11-03",
+          "n": 737,
+          "ic": 0.012267282610270748,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2022-10-31",
+          "label_end": "2022-12-26",
+          "n": 661,
+          "ic": 0.17857558475234886,
+          "missing_terminal": 0
+        }
+      ]
+    },
+    "selection": {
+      "mean_ic": 0.1574630336787174,
+      "positive_fraction": 1.0,
+      "periods": [
+        {
+          "signal_date": "2023-02-28",
+          "label_end": "2023-04-26",
+          "n": 745,
+          "ic": 0.2253331994204684,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2023-04-28",
+          "label_end": "2023-06-30",
+          "n": 667,
+          "ic": 0.056976149620584664,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2023-06-30",
+          "label_end": "2023-08-25",
+          "n": 648,
+          "ic": 0.32489623037019777,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2023-08-31",
+          "label_end": "2023-11-03",
+          "n": 654,
+          "ic": 0.0022183825045871894,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2023-10-31",
+          "label_end": "2023-12-26",
+          "n": 626,
+          "ic": 0.177891206477749,
+          "missing_terminal": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "weights": [
+      0.3,
+      0.3,
+      0.4
+    ],
+    "distance": 0.20000000000000007,
+    "training": {
+      "mean_ic": 0.11535843526180647,
+      "positive_fraction": 0.8260869565217391,
+      "periods": [
+        {
+          "signal_date": "2019-02-28",
+          "label_end": "2019-04-26",
+          "n": 553,
+          "ic": 0.11019692483987564,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2019-04-30",
+          "label_end": "2019-07-01",
+          "n": 714,
+          "ic": 0.19603525154928292,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2019-06-28",
+          "label_end": "2019-08-23",
+          "n": 455,
+          "ic": 0.22026145670540795,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2019-08-30",
+          "label_end": "2019-11-04",
+          "n": 417,
+          "ic": 0.2049094655445259,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2019-10-31",
+          "label_end": "2019-12-26",
+          "n": 419,
+          "ic": 0.12459286579214307,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2019-12-31",
+          "label_end": "2020-03-05",
+          "n": 467,
+          "ic": 0.01648195240556918,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2020-02-28",
+          "label_end": "2020-04-27",
+          "n": 631,
+          "ic": 0.2927112114459228,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2020-04-30",
+          "label_end": "2020-07-02",
+          "n": 543,
+          "ic": 0.12157382045165525,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2020-06-30",
+          "label_end": "2020-08-25",
+          "n": 551,
+          "ic": 0.11610297157661537,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2020-08-31",
+          "label_end": "2020-11-03",
+          "n": 698,
+          "ic": 0.17517198976385157,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2020-10-30",
+          "label_end": "2020-12-25",
+          "n": 481,
+          "ic": -0.07968576840904341,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2020-12-31",
+          "label_end": "2021-03-05",
+          "n": 536,
+          "ic": 0.23202365025103325,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2021-02-26",
+          "label_end": "2021-04-26",
+          "n": 506,
+          "ic": 0.11194651272520627,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2021-04-30",
+          "label_end": "2021-07-01",
+          "n": 543,
+          "ic": -0.09932654289176607,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2021-06-30",
+          "label_end": "2021-08-25",
+          "n": 568,
+          "ic": 0.1449761849646029,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2021-08-31",
+          "label_end": "2021-11-04",
+          "n": 612,
+          "ic": 0.05554635043491459,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2021-10-29",
+          "label_end": "2021-12-24",
+          "n": 584,
+          "ic": -0.014067990119294034,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2021-12-31",
+          "label_end": "2022-03-07",
+          "n": 727,
+          "ic": 0.2393490282746267,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2022-02-28",
+          "label_end": "2022-04-27",
+          "n": 675,
+          "ic": 0.23138458084421168,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2022-04-29",
+          "label_end": "2022-06-30",
+          "n": 696,
+          "ic": -0.03090311839673481,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2022-06-30",
+          "label_end": "2022-08-25",
+          "n": 748,
+          "ic": 0.08904326420863903,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2022-08-31",
+          "label_end": "2022-11-03",
+          "n": 737,
+          "ic": 0.015421714433645095,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2022-10-31",
+          "label_end": "2022-12-26",
+          "n": 661,
+          "ic": 0.17949823462665762,
+          "missing_terminal": 0
+        }
+      ]
+    },
+    "selection": {
+      "mean_ic": 0.15063791659203818,
+      "positive_fraction": 0.8,
+      "periods": [
+        {
+          "signal_date": "2023-02-28",
+          "label_end": "2023-04-26",
+          "n": 745,
+          "ic": 0.2080034415497095,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2023-04-28",
+          "label_end": "2023-06-30",
+          "n": 667,
+          "ic": 0.10490695053192643,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2023-06-30",
+          "label_end": "2023-08-25",
+          "n": 648,
+          "ic": 0.278178152030477,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2023-08-31",
+          "label_end": "2023-11-03",
+          "n": 654,
+          "ic": -0.023393702436994568,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2023-10-31",
+          "label_end": "2023-12-26",
+          "n": 626,
+          "ic": 0.18549474128507243,
+          "missing_terminal": 0
+        }
+      ]
+    }
+  }
+]

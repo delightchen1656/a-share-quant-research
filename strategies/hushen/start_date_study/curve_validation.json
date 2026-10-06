@@ -1,0 +1,589 @@
+{
+  "paths_checked": 116,
+  "cash_nonnegative": true,
+  "no_duplicate_daily_rows": true,
+  "buy_lots_100": true,
+  "max_drawdown_includes_initial_cash": true,
+  "drawdown_dates": [
+    {
+      "model": "R08",
+      "start": "2021-01-04",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-01-05",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-01-06",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-01-07",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-01-08",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-01-11",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-01-12",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-01-13",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-01-14",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-01-15",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-01-18",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-01-19",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-01-20",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-01-21",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-01-22",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-01-25",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-01-26",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-01-27",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-01-28",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-01-29",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-02-01",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-02-02",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-02-03",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-02-04",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-02-05",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-02-08",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-02-09",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-02-10",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-02-18",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-02-19",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-02-22",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-02-23",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-02-24",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-02-25",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-02-26",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-03-01",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-03-02",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-03-03",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-03-04",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-03-05",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-03-08",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-03-09",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-03-10",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-03-11",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-03-12",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-03-15",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-03-16",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-03-17",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-03-18",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-03-19",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-03-22",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-03-23",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-03-24",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-03-25",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-03-26",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-03-29",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-03-30",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "R08",
+      "start": "2021-03-31",
+      "drawdown_date": "2022-03-15"
+    },
+    {
+      "model": "D11",
+      "start": "2021-01-04",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-01-05",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-01-06",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-01-07",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-01-08",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-01-11",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-01-12",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-01-13",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-01-14",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-01-15",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-01-18",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-01-19",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-01-20",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-01-21",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-01-22",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-01-25",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-01-26",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-01-27",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-01-28",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-01-29",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-02-01",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-02-02",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-02-03",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-02-04",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-02-05",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-02-08",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-02-09",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-02-10",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-02-18",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-02-19",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-02-22",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-02-23",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-02-24",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-02-25",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-02-26",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-03-01",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-03-02",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-03-03",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-03-04",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-03-05",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-03-08",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-03-09",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-03-10",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-03-11",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-03-12",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-03-15",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-03-16",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-03-17",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-03-18",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-03-19",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-03-22",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-03-23",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-03-24",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-03-25",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-03-26",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-03-29",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-03-30",
+      "drawdown_date": "2024-02-07"
+    },
+    {
+      "model": "D11",
+      "start": "2021-03-31",
+      "drawdown_date": "2024-02-07"
+    }
+  ]
+}

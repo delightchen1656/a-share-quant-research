@@ -1,0 +1,37 @@
+{
+  "id": "combined_03",
+  "config": {
+    "buffer": 4.6,
+    "interval": 20,
+    "smooth": 5,
+    "min_smooth": 3,
+    "count": 7,
+    "growth": 0.0,
+    "hysteresis": 0.0,
+    "weights": [
+      0.35,
+      0.2,
+      0.25,
+      0.2
+    ],
+    "vol_window": 120,
+    "return_window": 10,
+    "amount_min": 10000000.0,
+    "vol_max": 0.09
+  },
+  "start": "2023-01-03",
+  "end": "2023-12-29",
+  "final_equity": 134481.66999999998,
+  "cagr": 0.3495153390708743,
+  "total_return": 0.34481669999999975,
+  "max_drawdown": 0.11309663029756845,
+  "sharpe": 1.757778627616333,
+  "trades": 141,
+  "avg_exposure": 0.9384316070189386,
+  "fees": 1537.53,
+  "dividend_tax": 337.79999999999995,
+  "final_limit": 7,
+  "issues": {},
+  "reference_differences": {},
+  "capacity_rejections": 0
+}

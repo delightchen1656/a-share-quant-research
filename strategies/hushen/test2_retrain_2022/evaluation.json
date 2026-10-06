@@ -1,0 +1,58 @@
+{
+  "periods": [
+    {
+      "period": "selection",
+      "start": "2023-01-03",
+      "end": "2023-12-29",
+      "initial_cash": 100000,
+      "final_equity": 112206.97,
+      "total_return": 0.12206969999999995,
+      "cagr": 0.12359218834894481,
+      "max_drawdown": 0.12799227127673252,
+      "sharpe_zero_rf": 0.769820503252983,
+      "trades": 113,
+      "fees": 1645.6299999999992,
+      "dividend_tax": 67.4,
+      "average_exposure": 0.9522500927753386,
+      "unresolved_actions": 0,
+      "capacity_rejections": 0
+    },
+    {
+      "period": "confirmation",
+      "start": "2024-01-02",
+      "end": "2024-11-29",
+      "initial_cash": 100000,
+      "final_equity": 121989.23999999996,
+      "total_return": 0.21989239999999954,
+      "cagr": 0.24360223306368467,
+      "max_drawdown": 0.3893370612463637,
+      "sharpe_zero_rf": 0.7835917678047629,
+      "trades": 97,
+      "fees": 885.2599999999999,
+      "dividend_tax": 283.6,
+      "average_exposure": 0.9322247119752977,
+      "unresolved_actions": 0,
+      "capacity_rejections": 0
+    },
+    {
+      "period": "held_out_history",
+      "start": "2025-01-02",
+      "end": "2026-09-30",
+      "initial_cash": 100000,
+      "final_equity": 165162.554,
+      "total_return": 0.65162554,
+      "cagr": 0.333363374633469,
+      "max_drawdown": 0.23249781841390404,
+      "sharpe_zero_rf": 1.367113570917045,
+      "trades": 197,
+      "fees": 2923.6099999999997,
+      "dividend_tax": 251.24,
+      "average_exposure": 0.9539151163452706,
+      "unresolved_actions": 0,
+      "capacity_rejections": 0
+    }
+  ],
+  "frozen_sha256": "b04d5f910120f29a544d071939238a36aa59e68d6718c03c0dbef4dc97af9fa9",
+  "feature_cache_sha256": "eca966a33b5b26a13c045591088f0dc6ad0bb36d267183d4bac3c297d441ca8e",
+  "note": "Frozen champion only; open-price daily approximation, not SuperMind execution reproduction. Held-out history was previously exposed."
+}

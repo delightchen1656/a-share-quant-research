@@ -1,0 +1,17 @@
+{
+  "source_attachment": "C:\\Users\\22241\\.codex\\attachments\\80e5c6cf-9b67-4344-9bf0-81aab65ce39b\\已粘贴的文本.txt",
+  "source_sha256": "48dcd8bd9840cf8241e559a288c9507dca84596c004339516b08541a3135bf2d",
+  "export_sha256": "972ac17fe6a9eee72b5b82b90bb7e926fd52419221d95fa9fc6ada415a35eedd",
+  "entrypoint": "supermind_test2_D11_fast_weekly.py",
+  "frequency": "daily",
+  "rebalance": "first entry, then first actual trading session of Monday-based calendar week",
+  "weights": [
+    -0.35,
+    -0.2,
+    0.25,
+    -0.2
+  ],
+  "initial_cash": 100000,
+  "no_training": true,
+  "no_platform_backtest": true
+}

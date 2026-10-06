@@ -1,0 +1,3909 @@
+{
+  "base": {
+    "buffer": 1.5,
+    "interval": 20,
+    "smooth": 5,
+    "min_smooth": 3,
+    "count": 5,
+    "growth": 0.0,
+    "hysteresis": 0.0,
+    "weights": [
+      0.35,
+      0.2,
+      0.25,
+      0.2
+    ],
+    "vol_window": 60,
+    "return_window": 20,
+    "amount_min": 10000000.0,
+    "vol_max": 0.09
+  },
+  "group_keys": {
+    "buffer": [
+      "buffer"
+    ],
+    "interval": [
+      "interval"
+    ],
+    "smooth": [
+      "smooth",
+      "min_smooth"
+    ],
+    "count": [
+      "count"
+    ],
+    "expansion": [
+      "growth",
+      "hysteresis"
+    ],
+    "weights": [
+      "weights"
+    ],
+    "windows": [
+      "vol_window",
+      "return_window"
+    ],
+    "filters": [
+      "amount_min",
+      "vol_max"
+    ]
+  },
+  "groups": [
+    "buffer",
+    "interval",
+    "smooth",
+    "count",
+    "expansion",
+    "weights",
+    "windows",
+    "filters"
+  ],
+  "trials": [
+    {
+      "id": "buffer_01",
+      "group": "buffer",
+      "config": {
+        "buffer": 1.0,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "buffer_02",
+      "group": "buffer",
+      "config": {
+        "buffer": 1.2,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "buffer_03",
+      "group": "buffer",
+      "config": {
+        "buffer": 1.4,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "buffer_04",
+      "group": "buffer",
+      "config": {
+        "buffer": 1.6,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "buffer_05",
+      "group": "buffer",
+      "config": {
+        "buffer": 1.8,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "buffer_06",
+      "group": "buffer",
+      "config": {
+        "buffer": 2.0,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "buffer_07",
+      "group": "buffer",
+      "config": {
+        "buffer": 2.2,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "buffer_08",
+      "group": "buffer",
+      "config": {
+        "buffer": 2.4,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "buffer_09",
+      "group": "buffer",
+      "config": {
+        "buffer": 2.6,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "buffer_10",
+      "group": "buffer",
+      "config": {
+        "buffer": 2.8,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "buffer_11",
+      "group": "buffer",
+      "config": {
+        "buffer": 3.0,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "buffer_12",
+      "group": "buffer",
+      "config": {
+        "buffer": 3.2,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "buffer_13",
+      "group": "buffer",
+      "config": {
+        "buffer": 3.4,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "buffer_14",
+      "group": "buffer",
+      "config": {
+        "buffer": 3.6,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "buffer_15",
+      "group": "buffer",
+      "config": {
+        "buffer": 3.8,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "buffer_16",
+      "group": "buffer",
+      "config": {
+        "buffer": 4.0,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "buffer_17",
+      "group": "buffer",
+      "config": {
+        "buffer": 4.2,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "buffer_18",
+      "group": "buffer",
+      "config": {
+        "buffer": 4.4,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "buffer_19",
+      "group": "buffer",
+      "config": {
+        "buffer": 4.6,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "buffer_20",
+      "group": "buffer",
+      "config": {
+        "buffer": 4.8,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "interval_01",
+      "group": "interval",
+      "config": {
+        "buffer": 1.5,
+        "interval": 5,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "interval_02",
+      "group": "interval",
+      "config": {
+        "buffer": 1.5,
+        "interval": 7,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "interval_03",
+      "group": "interval",
+      "config": {
+        "buffer": 1.5,
+        "interval": 9,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "interval_04",
+      "group": "interval",
+      "config": {
+        "buffer": 1.5,
+        "interval": 10,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "interval_05",
+      "group": "interval",
+      "config": {
+        "buffer": 1.5,
+        "interval": 12,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "interval_06",
+      "group": "interval",
+      "config": {
+        "buffer": 1.5,
+        "interval": 14,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "interval_07",
+      "group": "interval",
+      "config": {
+        "buffer": 1.5,
+        "interval": 15,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "interval_08",
+      "group": "interval",
+      "config": {
+        "buffer": 1.5,
+        "interval": 16,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "interval_09",
+      "group": "interval",
+      "config": {
+        "buffer": 1.5,
+        "interval": 18,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "interval_10",
+      "group": "interval",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "interval_11",
+      "group": "interval",
+      "config": {
+        "buffer": 1.5,
+        "interval": 21,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "interval_12",
+      "group": "interval",
+      "config": {
+        "buffer": 1.5,
+        "interval": 22,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "interval_13",
+      "group": "interval",
+      "config": {
+        "buffer": 1.5,
+        "interval": 24,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "interval_14",
+      "group": "interval",
+      "config": {
+        "buffer": 1.5,
+        "interval": 25,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "interval_15",
+      "group": "interval",
+      "config": {
+        "buffer": 1.5,
+        "interval": 27,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "interval_16",
+      "group": "interval",
+      "config": {
+        "buffer": 1.5,
+        "interval": 28,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "interval_17",
+      "group": "interval",
+      "config": {
+        "buffer": 1.5,
+        "interval": 30,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "interval_18",
+      "group": "interval",
+      "config": {
+        "buffer": 1.5,
+        "interval": 32,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "interval_19",
+      "group": "interval",
+      "config": {
+        "buffer": 1.5,
+        "interval": 35,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "interval_20",
+      "group": "interval",
+      "config": {
+        "buffer": 1.5,
+        "interval": 40,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "smooth_01",
+      "group": "smooth",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 4,
+        "min_smooth": 1,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "smooth_02",
+      "group": "smooth",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 4,
+        "min_smooth": 2,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "smooth_03",
+      "group": "smooth",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 4,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "smooth_04",
+      "group": "smooth",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 4,
+        "min_smooth": 4,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "smooth_05",
+      "group": "smooth",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 1,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "smooth_06",
+      "group": "smooth",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "smooth_07",
+      "group": "smooth",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 4,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "smooth_08",
+      "group": "smooth",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 5,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "smooth_09",
+      "group": "smooth",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 8,
+        "min_smooth": 1,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "smooth_10",
+      "group": "smooth",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 8,
+        "min_smooth": 4,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "smooth_11",
+      "group": "smooth",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 8,
+        "min_smooth": 6,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "smooth_12",
+      "group": "smooth",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 8,
+        "min_smooth": 8,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "smooth_13",
+      "group": "smooth",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 12,
+        "min_smooth": 1,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "smooth_14",
+      "group": "smooth",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 12,
+        "min_smooth": 6,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "smooth_15",
+      "group": "smooth",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 12,
+        "min_smooth": 9,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "smooth_16",
+      "group": "smooth",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 12,
+        "min_smooth": 12,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "smooth_17",
+      "group": "smooth",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 20,
+        "min_smooth": 1,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "smooth_18",
+      "group": "smooth",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 20,
+        "min_smooth": 10,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "smooth_19",
+      "group": "smooth",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 20,
+        "min_smooth": 15,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "smooth_20",
+      "group": "smooth",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 20,
+        "min_smooth": 20,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "count_01",
+      "group": "count",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 2,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "count_02",
+      "group": "count",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 3,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "count_03",
+      "group": "count",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 4,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "count_04",
+      "group": "count",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "count_05",
+      "group": "count",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 6,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "count_06",
+      "group": "count",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 7,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "count_07",
+      "group": "count",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 8,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "count_08",
+      "group": "count",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 9,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "count_09",
+      "group": "count",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 10,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "count_10",
+      "group": "count",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 11,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "count_11",
+      "group": "count",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 12,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "count_12",
+      "group": "count",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 13,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "count_13",
+      "group": "count",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 14,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "count_14",
+      "group": "count",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 15,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "count_15",
+      "group": "count",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 16,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "count_16",
+      "group": "count",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 17,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "count_17",
+      "group": "count",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 18,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "count_18",
+      "group": "count",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 19,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "count_19",
+      "group": "count",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 20,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "count_20",
+      "group": "count",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 21,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "expansion_01",
+      "group": "expansion",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 1.25,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "expansion_02",
+      "group": "expansion",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 1.25,
+        "hysteresis": 0.05,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "expansion_03",
+      "group": "expansion",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 1.25,
+        "hysteresis": 0.1,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "expansion_04",
+      "group": "expansion",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 1.25,
+        "hysteresis": 0.2,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "expansion_05",
+      "group": "expansion",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 1.5,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "expansion_06",
+      "group": "expansion",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 1.5,
+        "hysteresis": 0.05,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "expansion_07",
+      "group": "expansion",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 1.5,
+        "hysteresis": 0.1,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "expansion_08",
+      "group": "expansion",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 1.5,
+        "hysteresis": 0.2,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "expansion_09",
+      "group": "expansion",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 1.75,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "expansion_10",
+      "group": "expansion",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 1.75,
+        "hysteresis": 0.05,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "expansion_11",
+      "group": "expansion",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 1.75,
+        "hysteresis": 0.1,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "expansion_12",
+      "group": "expansion",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 1.75,
+        "hysteresis": 0.2,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "expansion_13",
+      "group": "expansion",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 2.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "expansion_14",
+      "group": "expansion",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 2.0,
+        "hysteresis": 0.05,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "expansion_15",
+      "group": "expansion",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 2.0,
+        "hysteresis": 0.1,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "expansion_16",
+      "group": "expansion",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 2.0,
+        "hysteresis": 0.2,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "expansion_17",
+      "group": "expansion",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 3.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "expansion_18",
+      "group": "expansion",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 3.0,
+        "hysteresis": 0.05,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "expansion_19",
+      "group": "expansion",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 3.0,
+        "hysteresis": 0.1,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "expansion_20",
+      "group": "expansion",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 3.0,
+        "hysteresis": 0.2,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "weights_01",
+      "group": "weights",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.2,
+          0.1,
+          0.25,
+          0.45
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "weights_02",
+      "group": "weights",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.2,
+          0.15,
+          0.25,
+          0.4
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "weights_03",
+      "group": "weights",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.2,
+          0.2,
+          0.25,
+          0.35
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "weights_04",
+      "group": "weights",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.2,
+          0.25,
+          0.25,
+          0.3
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "weights_05",
+      "group": "weights",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.2,
+          0.3,
+          0.25,
+          0.25
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "weights_06",
+      "group": "weights",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.3,
+          0.1,
+          0.25,
+          0.35
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "weights_07",
+      "group": "weights",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.3,
+          0.15,
+          0.25,
+          0.3
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "weights_08",
+      "group": "weights",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.3,
+          0.2,
+          0.25,
+          0.25
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "weights_09",
+      "group": "weights",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.3,
+          0.25,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "weights_10",
+      "group": "weights",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.3,
+          0.3,
+          0.25,
+          0.15
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "weights_11",
+      "group": "weights",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.1,
+          0.25,
+          0.3
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "weights_12",
+      "group": "weights",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.15,
+          0.25,
+          0.25
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "weights_13",
+      "group": "weights",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "weights_14",
+      "group": "weights",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.25,
+          0.25,
+          0.15
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "weights_15",
+      "group": "weights",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.3,
+          0.25,
+          0.1
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "weights_16",
+      "group": "weights",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.4,
+          0.1,
+          0.25,
+          0.25
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "weights_17",
+      "group": "weights",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.4,
+          0.15,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "weights_18",
+      "group": "weights",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.4,
+          0.2,
+          0.25,
+          0.15
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "weights_19",
+      "group": "weights",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.4,
+          0.25,
+          0.25,
+          0.1
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "weights_20",
+      "group": "weights",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.4,
+          0.3,
+          0.25,
+          0.05
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "windows_01",
+      "group": "windows",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 20,
+        "return_window": 5,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "windows_02",
+      "group": "windows",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 20,
+        "return_window": 10,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "windows_03",
+      "group": "windows",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 20,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "windows_04",
+      "group": "windows",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 20,
+        "return_window": 40,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "windows_05",
+      "group": "windows",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 20,
+        "return_window": 60,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "windows_06",
+      "group": "windows",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 40,
+        "return_window": 5,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "windows_07",
+      "group": "windows",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 40,
+        "return_window": 10,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "windows_08",
+      "group": "windows",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 40,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "windows_09",
+      "group": "windows",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 40,
+        "return_window": 40,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "windows_10",
+      "group": "windows",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 40,
+        "return_window": 60,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "windows_11",
+      "group": "windows",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 5,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "windows_12",
+      "group": "windows",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 10,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "windows_13",
+      "group": "windows",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "windows_14",
+      "group": "windows",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 40,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "windows_15",
+      "group": "windows",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 60,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "windows_16",
+      "group": "windows",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 120,
+        "return_window": 5,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "windows_17",
+      "group": "windows",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 120,
+        "return_window": 10,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "windows_18",
+      "group": "windows",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 120,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "windows_19",
+      "group": "windows",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 120,
+        "return_window": 40,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "windows_20",
+      "group": "windows",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 120,
+        "return_window": 60,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "filters_01",
+      "group": "filters",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.03
+      }
+    },
+    {
+      "id": "filters_02",
+      "group": "filters",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.05
+      }
+    },
+    {
+      "id": "filters_03",
+      "group": "filters",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.07
+      }
+    },
+    {
+      "id": "filters_04",
+      "group": "filters",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 10000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "filters_05",
+      "group": "filters",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 20000000.0,
+        "vol_max": 0.03
+      }
+    },
+    {
+      "id": "filters_06",
+      "group": "filters",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 20000000.0,
+        "vol_max": 0.05
+      }
+    },
+    {
+      "id": "filters_07",
+      "group": "filters",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 20000000.0,
+        "vol_max": 0.07
+      }
+    },
+    {
+      "id": "filters_08",
+      "group": "filters",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 20000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "filters_09",
+      "group": "filters",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 30000000.0,
+        "vol_max": 0.03
+      }
+    },
+    {
+      "id": "filters_10",
+      "group": "filters",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 30000000.0,
+        "vol_max": 0.05
+      }
+    },
+    {
+      "id": "filters_11",
+      "group": "filters",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 30000000.0,
+        "vol_max": 0.07
+      }
+    },
+    {
+      "id": "filters_12",
+      "group": "filters",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 30000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "filters_13",
+      "group": "filters",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 50000000.0,
+        "vol_max": 0.03
+      }
+    },
+    {
+      "id": "filters_14",
+      "group": "filters",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 50000000.0,
+        "vol_max": 0.05
+      }
+    },
+    {
+      "id": "filters_15",
+      "group": "filters",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 50000000.0,
+        "vol_max": 0.07
+      }
+    },
+    {
+      "id": "filters_16",
+      "group": "filters",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 50000000.0,
+        "vol_max": 0.09
+      }
+    },
+    {
+      "id": "filters_17",
+      "group": "filters",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 100000000.0,
+        "vol_max": 0.03
+      }
+    },
+    {
+      "id": "filters_18",
+      "group": "filters",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 100000000.0,
+        "vol_max": 0.05
+      }
+    },
+    {
+      "id": "filters_19",
+      "group": "filters",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 100000000.0,
+        "vol_max": 0.07
+      }
+    },
+    {
+      "id": "filters_20",
+      "group": "filters",
+      "config": {
+        "buffer": 1.5,
+        "interval": 20,
+        "smooth": 5,
+        "min_smooth": 3,
+        "count": 5,
+        "growth": 0.0,
+        "hysteresis": 0.0,
+        "weights": [
+          0.35,
+          0.2,
+          0.25,
+          0.2
+        ],
+        "vol_window": 60,
+        "return_window": 20,
+        "amount_min": 100000000.0,
+        "vol_max": 0.09
+      }
+    }
+  ],
+  "combined_subsets": [
+    [
+      "buffer",
+      "interval",
+      "smooth",
+      "count",
+      "expansion",
+      "weights",
+      "windows",
+      "filters"
+    ],
+    [
+      "interval",
+      "smooth",
+      "count",
+      "expansion",
+      "weights",
+      "windows",
+      "filters"
+    ],
+    [
+      "buffer",
+      "smooth",
+      "count",
+      "expansion",
+      "weights",
+      "windows",
+      "filters"
+    ],
+    [
+      "buffer",
+      "interval",
+      "count",
+      "expansion",
+      "weights",
+      "windows",
+      "filters"
+    ],
+    [
+      "buffer",
+      "interval",
+      "smooth",
+      "expansion",
+      "weights",
+      "windows",
+      "filters"
+    ],
+    [
+      "buffer",
+      "interval",
+      "smooth",
+      "count",
+      "weights",
+      "windows",
+      "filters"
+    ],
+    [
+      "buffer",
+      "interval",
+      "smooth",
+      "count",
+      "expansion",
+      "windows",
+      "filters"
+    ],
+    [
+      "buffer",
+      "interval",
+      "smooth",
+      "count",
+      "expansion",
+      "weights",
+      "filters"
+    ],
+    [
+      "buffer",
+      "interval",
+      "smooth",
+      "count",
+      "expansion",
+      "weights",
+      "windows"
+    ],
+    [
+      "buffer",
+      "interval"
+    ],
+    [
+      "buffer",
+      "interval",
+      "smooth"
+    ],
+    [
+      "buffer",
+      "interval",
+      "smooth",
+      "count"
+    ],
+    [
+      "buffer",
+      "interval",
+      "smooth",
+      "count",
+      "expansion"
+    ],
+    [
+      "buffer",
+      "interval",
+      "smooth",
+      "count",
+      "expansion",
+      "weights"
+    ],
+    [
+      "weights",
+      "windows"
+    ],
+    [
+      "weights",
+      "filters"
+    ],
+    [
+      "interval",
+      "expansion"
+    ],
+    [
+      "count",
+      "filters"
+    ],
+    [
+      "smooth",
+      "weights",
+      "windows"
+    ],
+    [
+      "expansion",
+      "weights",
+      "filters"
+    ]
+  ],
+  "initial_cash": 100000,
+  "exposure": 0.98,
+  "expansion_cap": "max(15, initial count)",
+  "expansion_rule": "Geometric thresholds from initial 100000. Previous close equity, rebalance only. Downgrade below threshold*(1-hysteresis); minimum initial count.",
+  "periods": {
+    "training": [
+      "2019-01-01",
+      "2022-12-31"
+    ],
+    "selection": [
+      "2023-01-01",
+      "2023-12-31"
+    ],
+    "confirmation": [
+      "2024-01-01",
+      "2024-11-29"
+    ],
+    "heldout": [
+      "2025-01-01",
+      "2026-09-30"
+    ]
+  },
+  "selection_rule": "Within each group: evaluate 20 training configurations plus original control, shortlist at most three with >=40 fills, exposure>=0.15 and DD<=original+0.02; rank by net CAGR, Sharpe, lower DD, then ID. Replay shortlist + baseline on 2023; require >=10 fills, exposure>=0.15, DD<=2023 original+0.02, choose by same order; baseline fallback. Freeze group winners. Build 20 preregistered combinations, train and shortlist three identically, choose on 2023 vs original and unique group winners; freeze all before confirmation/heldout.",
+  "confirmation_gate": "Combined champion: positive CAGR and CAGR>=original and DD<=original+0.02 on 2024-01-01..2024-11-29. Failure reported; no alternate or retuning.",
+  "heldout": "Evaluate only original, frozen group winners, and frozen combined champion. Do not select using 2024 or 2025+. Separate empty-start accounts. No parameters optimized against full 2020-2026 results.",
+  "scope": "Eight existing parameter families x20; no new stop-loss/trend/volatility timing rules without scope expansion. Fixed original uploaded D11 framework, with previously exposed history. Not unseen prospective testing."
+}

@@ -1,0 +1,34 @@
+{
+  "fixed5": {
+    "sharpe": 1.4729359137081253,
+    "annualized_volatility": 0.27404180216887,
+    "daily_mean": 0.0016017698899675626,
+    "observations": 1636,
+    "risk_free_annual": 0.0,
+    "annual_sessions": 252
+  },
+  "doubling": {
+    "sharpe": 1.404908148792531,
+    "annualized_volatility": 0.26718844737096104,
+    "daily_mean": 0.0014895842340265373,
+    "observations": 1636,
+    "risk_free_annual": 0.0,
+    "annual_sessions": 252
+  },
+  "growth50": {
+    "sharpe": 1.374626640931243,
+    "annualized_volatility": 0.25369619809527627,
+    "daily_mean": 0.001383879177002924,
+    "observations": 1636,
+    "risk_free_annual": 0.0,
+    "annual_sessions": 252
+  },
+  "growth100": {
+    "sharpe": 1.4102340047946433,
+    "annualized_volatility": 0.26149554529327873,
+    "daily_mean": 0.0014633726590273788,
+    "observations": 1636,
+    "risk_free_annual": 0.0,
+    "annual_sessions": 252
+  }
+}

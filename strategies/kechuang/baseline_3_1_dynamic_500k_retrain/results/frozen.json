@@ -1,0 +1,27 @@
+{
+  "selected": {
+    "start": "2023-01-03",
+    "end": "2023-12-31",
+    "final_asset": 440440.547108138,
+    "total_return": -0.11911890578372408,
+    "cagr": -0.12012138605403944,
+    "max_drawdown": -0.24012581316751314,
+    "sharpe_rf0": -0.6850421246515878,
+    "avg_exposure": 0.7240222598357045,
+    "fills": 222,
+    "capacity_capped_orders": 0,
+    "worst_quarter": -0.09846061239938009,
+    "positive_quarters": 2,
+    "objective": -0.264799445737641,
+    "p_threshold": 0.5,
+    "s_threshold": 0.35
+  },
+  "development_profit_gate_passed": false,
+  "frozen_at": "2026-10-06T14:12:56.211783+08:00",
+  "selection_end": "2023-12-31",
+  "platform_sha256": "6e9b85283597c5f4bed4195c083862f16e3b753de8ae357547b875667a18dbf6",
+  "model_hashes": {
+    "event_model.joblib": "6b3128f75a234a682dc3c788fc1f521a5c4aa989f833d9dac097088db3935f08",
+    "stop_model.joblib": "5bbe476806f08d8e8ed2dacef1f6f0703011d68fbab43e6133b819c5258c345d"
+  }
+}

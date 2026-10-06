@@ -1,0 +1,228 @@
+{
+  "winner": {
+    "id": 1,
+    "weights": [
+      0.3,
+      0.2,
+      0.5
+    ],
+    "distance": 0.4,
+    "training": {
+      "mean_ic": 0.12215446074631299,
+      "positive_fraction": 0.8260869565217391,
+      "periods": [
+        {
+          "signal_date": "2019-02-28",
+          "label_end": "2019-04-26",
+          "n": 553,
+          "ic": 0.08789431736241105,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2019-04-30",
+          "label_end": "2019-07-01",
+          "n": 714,
+          "ic": 0.18441625511400914,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2019-06-28",
+          "label_end": "2019-08-23",
+          "n": 455,
+          "ic": 0.21599798666350864,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2019-08-30",
+          "label_end": "2019-11-04",
+          "n": 417,
+          "ic": 0.18842819302623778,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2019-10-31",
+          "label_end": "2019-12-26",
+          "n": 419,
+          "ic": 0.1103323867269839,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2019-12-31",
+          "label_end": "2020-03-05",
+          "n": 467,
+          "ic": -0.03977967184777227,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2020-02-28",
+          "label_end": "2020-04-27",
+          "n": 631,
+          "ic": 0.34806955521950717,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2020-04-30",
+          "label_end": "2020-07-02",
+          "n": 543,
+          "ic": 0.09518800942680962,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2020-06-30",
+          "label_end": "2020-08-25",
+          "n": 551,
+          "ic": 0.16587856440951013,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2020-08-31",
+          "label_end": "2020-11-03",
+          "n": 698,
+          "ic": 0.18789570291001412,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2020-10-30",
+          "label_end": "2020-12-25",
+          "n": 481,
+          "ic": -0.08484701571733816,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2020-12-31",
+          "label_end": "2021-03-05",
+          "n": 536,
+          "ic": 0.22514179127827502,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2021-02-26",
+          "label_end": "2021-04-26",
+          "n": 506,
+          "ic": 0.09255222278691358,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2021-04-30",
+          "label_end": "2021-07-01",
+          "n": 543,
+          "ic": -0.10599038395379949,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2021-06-30",
+          "label_end": "2021-08-25",
+          "n": 568,
+          "ic": 0.08194596986723879,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2021-08-31",
+          "label_end": "2021-11-04",
+          "n": 612,
+          "ic": 0.12051228364244883,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2021-10-29",
+          "label_end": "2021-12-24",
+          "n": 584,
+          "ic": 0.056310873195604114,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2021-12-31",
+          "label_end": "2022-03-07",
+          "n": 727,
+          "ic": 0.30941982887138725,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2022-02-28",
+          "label_end": "2022-04-27",
+          "n": 675,
+          "ic": 0.29530758325314377,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2022-04-29",
+          "label_end": "2022-06-30",
+          "n": 696,
+          "ic": -0.049649051836538574,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2022-06-30",
+          "label_end": "2022-08-25",
+          "n": 748,
+          "ic": 0.09070833302479749,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2022-08-31",
+          "label_end": "2022-11-03",
+          "n": 737,
+          "ic": 0.01306432878006364,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2022-10-31",
+          "label_end": "2022-12-26",
+          "n": 661,
+          "ic": 0.22075453496178327,
+          "missing_terminal": 0
+        }
+      ]
+    },
+    "selection": {
+      "mean_ic": 0.17207941867851304,
+      "positive_fraction": 1.0,
+      "periods": [
+        {
+          "signal_date": "2023-02-28",
+          "label_end": "2023-04-26",
+          "n": 745,
+          "ic": 0.25369707655604384,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2023-04-28",
+          "label_end": "2023-06-30",
+          "n": 667,
+          "ic": 0.026676990848713424,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2023-06-30",
+          "label_end": "2023-08-25",
+          "n": 648,
+          "ic": 0.3688036035932417,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2023-08-31",
+          "label_end": "2023-11-03",
+          "n": 654,
+          "ic": 0.03274965331551621,
+          "missing_terminal": 0
+        },
+        {
+          "signal_date": "2023-10-31",
+          "label_end": "2023-12-26",
+          "n": 626,
+          "ic": 0.17846976907905,
+          "missing_terminal": 0
+        }
+      ]
+    }
+  },
+  "protocol_sha256": "2104819d76d7895a9b04c9a8ae2337a134a9867e250c8c53a891a3a92bc80337",
+  "source_sha256": "78092c5ae0ba1ad7d43ca7971b828b8b991a327cd6cd525821cb8582c01115be",
+  "export_sha256": "34c099e5ae50043b155dd5df1efecd0d427b05915d1fa0e534a3cd1dddef74cb",
+  "pipeline_sha256": "c79dbe41a3ea9f14727783f87c20775afe48d6bb7922353365a7db8a321b99b9",
+  "training_manifest_sha256": "6e5612fe5acda43be2a66b826edd73a5a74090d81acf36cb489f8b3ad55fa5b1",
+  "selection_manifest_sha256": "9d71b39545382c4296cde510170f5e6666e159f477d1652f36a203bb36243e34",
+  "max_fit_label": "2022-12-26",
+  "max_selection_label": "2023-12-26",
+  "held_out_read_before_freeze": false
+}

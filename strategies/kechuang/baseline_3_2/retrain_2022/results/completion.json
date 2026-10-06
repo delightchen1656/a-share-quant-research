@@ -1,0 +1,61 @@
+{
+  "completed": true,
+  "stages": [
+    {
+      "start": "2023-01-03",
+      "end": "2023-12-31",
+      "final_asset": 903572.645832868,
+      "total_return": -0.0964273541671318,
+      "cagr": -0.0972495454652636,
+      "max_drawdown": -0.1929517868314632,
+      "sharpe_rf0": -0.6688158585064512,
+      "avg_exposure": 0.4158789334574825,
+      "fills": 137,
+      "capacity_capped_orders": 0,
+      "p_threshold": 0.63,
+      "s_threshold": 0.35,
+      "stage": "2023_selection"
+    },
+    {
+      "start": "2020-01-02",
+      "end": "2022-12-31",
+      "final_asset": 5960338.930939836,
+      "total_return": 4.960338930939836,
+      "cagr": 0.8148345370026004,
+      "max_drawdown": -0.0723301934410158,
+      "sharpe_rf0": 3.6457337288938207,
+      "avg_exposure": 0.2919209941642764,
+      "fills": 327,
+      "capacity_capped_orders": 2,
+      "stage": "2020_2022_fit"
+    },
+    {
+      "start": "2024-01-02",
+      "end": "2024-12-31",
+      "final_asset": 1087756.700881596,
+      "total_return": 0.087756700881596,
+      "cagr": 0.0880709611639263,
+      "max_drawdown": -0.1868207984619501,
+      "sharpe_rf0": 0.4521225064572446,
+      "avg_exposure": 0.3730731852928225,
+      "fills": 204,
+      "capacity_capped_orders": 0,
+      "stage": "2024_confirmation"
+    },
+    {
+      "start": "2025-01-02",
+      "end": "2026-09-30",
+      "final_asset": 1305568.0695317427,
+      "total_return": 0.3055680695317426,
+      "cagr": 0.1654745389836924,
+      "max_drawdown": -0.2587952352045464,
+      "sharpe_rf0": 0.7639984182485561,
+      "avg_exposure": 0.5347949730159787,
+      "fills": 336,
+      "capacity_capped_orders": 0,
+      "stage": "2025_2026_test"
+    }
+  ],
+  "original_source_unchanged": true,
+  "holdout_reselection": false
+}

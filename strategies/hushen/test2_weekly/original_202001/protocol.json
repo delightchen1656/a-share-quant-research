@@ -1,0 +1,15 @@
+{
+  "strategy_sha256": "15f969943623c5f51febdad9f96c6b7834b7aa7c9ea3de4b764efba8fe2866f9",
+  "weights": [
+    -0.35,
+    -0.2,
+    0.25,
+    -0.2
+  ],
+  "starts": [
+    "2020-01-02"
+  ],
+  "end": "2026-09-30",
+  "initial_cash": 100000,
+  "notes": "Frozen uploaded original 20-session strategy; no fitting or selection. Independent empty-start accounts, daily open matching approximation. Same cash/action/tax ledger as prior studies. 2020 onwards retrospective overlapping paths, not independent samples."
+}

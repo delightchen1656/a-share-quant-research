@@ -1,0 +1,50 @@
+{
+  "fit": [
+    "2020-01-01",
+    "2022-12-31"
+  ],
+  "selection": [
+    "2023-01-01",
+    "2023-12-31"
+  ],
+  "confirmation": [
+    "2024-01-01",
+    "2024-12-31"
+  ],
+  "historical_test": [
+    "2025-01-01",
+    "2026-09-30"
+  ],
+  "model_candidates_leaves": [
+    7,
+    15,
+    31
+  ],
+  "iterations": 180,
+  "learning_rate": 0.04,
+  "early_stopping": false,
+  "event_thresholds": [
+    0.5,
+    0.63,
+    0.75
+  ],
+  "stop_thresholds": [
+    0.35,
+    0.5,
+    0.65
+  ],
+  "model_selection": "highest 2023 average precision separately for each label; ties prefer fewer leaves",
+  "threshold_selection": "highest 2023 net Sharpe, ties net CAGR; require at least 20 fills",
+  "fit_after_selection": false,
+  "feature_count": 18,
+  "feature_selection": "fixed prior 3-2 features; no search",
+  "label_event": "20 complete future bars, high/anchor close >=1.30",
+  "label_stop": "22 complete future bars, open/anchor close <=.93 before >=1.24",
+  "label_cutoff": "each label_end must be <= its stage end; form before eligibility filtering",
+  "initial_cash": 1000000,
+  "execution": "inherited local 3-2 audited approximation; prior-day signals at next open",
+  "warning": "Previously inspected 2025-2026; isolated historical test, NOT pristine independent OOS",
+  "source_sha256": "d788ab580aa8bb7e1940795e2f0e092d2aec0fb3753d96ec2cbc4012b731b817",
+  "local_replay_sha256": "dc6a338a8bb81ab3b649118baf755b3ef72b73adfc3f3cbf97932098dc51aa5f",
+  "timestamp": "2026-10-04T22:38:27.297545+08:00"
+}

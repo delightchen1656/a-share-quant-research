@@ -1,0 +1,49 @@
+{
+  "id": "interval_17",
+  "config": {
+    "buffer": 1.5,
+    "interval": 30,
+    "smooth": 5,
+    "min_smooth": 3,
+    "count": 5,
+    "growth": 0.0,
+    "hysteresis": 0.0,
+    "weights": [
+      0.35,
+      0.2,
+      0.25,
+      0.2
+    ],
+    "vol_window": 60,
+    "return_window": 20,
+    "amount_min": 10000000.0,
+    "vol_max": 0.09
+  },
+  "start": "2019-01-02",
+  "end": "2022-12-30",
+  "final_equity": 281030.40000000014,
+  "cagr": 0.29521573955614944,
+  "total_return": 1.8103040000000012,
+  "max_drawdown": 0.28104613364259134,
+  "sharpe": 1.1534845062099726,
+  "trades": 309,
+  "avg_exposure": 0.9340753841118284,
+  "fees": 7926.72,
+  "dividend_tax": 556.98,
+  "final_limit": 5,
+  "issues": {},
+  "reference_differences": {
+    "002888.SZ/2021-06-03": [
+      14.14,
+      11.72,
+      {
+        "cash": 0.0,
+        "stock": 0.0,
+        "taxable_stock": 0.0,
+        "pay": "2021-06-03 00:00:00",
+        "release": "2021-06-03 00:00:00"
+      }
+    ]
+  },
+  "capacity_rejections": 0
+}

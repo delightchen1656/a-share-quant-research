@@ -1,0 +1,102 @@
+{
+  "count": 1,
+  "metrics": {
+    "final_asset": {
+      "count": 1.0,
+      "mean": 1000000.0,
+      "std": NaN,
+      "min": 1000000.0,
+      "10%": 1000000.0,
+      "25%": 1000000.0,
+      "50%": 1000000.0,
+      "75%": 1000000.0,
+      "90%": 1000000.0,
+      "max": 1000000.0
+    },
+    "total_return": {
+      "count": 1.0,
+      "mean": 0.0,
+      "std": NaN,
+      "min": 0.0,
+      "10%": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "90%": 0.0,
+      "max": 0.0
+    },
+    "cagr": {
+      "count": 1.0,
+      "mean": 0.0,
+      "std": NaN,
+      "min": 0.0,
+      "10%": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "90%": 0.0,
+      "max": 0.0
+    },
+    "max_drawdown": {
+      "count": 1.0,
+      "mean": 0.0,
+      "std": NaN,
+      "min": 0.0,
+      "10%": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "90%": 0.0,
+      "max": 0.0
+    },
+    "sharpe_rf0": {
+      "count": 0.0,
+      "mean": NaN,
+      "std": NaN,
+      "min": NaN,
+      "10%": NaN,
+      "25%": NaN,
+      "50%": NaN,
+      "75%": NaN,
+      "90%": NaN,
+      "max": NaN
+    },
+    "avg_exposure": {
+      "count": 1.0,
+      "mean": 0.0,
+      "std": NaN,
+      "min": 0.0,
+      "10%": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "90%": 0.0,
+      "max": 0.0
+    }
+  },
+  "best_cagr": {
+    "start": "2023-01-03",
+    "end": "2023-12-31",
+    "final_asset": 1000000.0,
+    "total_return": 0.0,
+    "cagr": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_rf0": NaN,
+    "avg_exposure": 0.0,
+    "fills": 0,
+    "capacity_capped_orders": 0
+  },
+  "worst_cagr": {
+    "start": "2023-01-03",
+    "end": "2023-12-31",
+    "final_asset": 1000000.0,
+    "total_return": 0.0,
+    "cagr": 0.0,
+    "max_drawdown": 0.0,
+    "sharpe_rf0": NaN,
+    "avg_exposure": 0.0,
+    "fills": 0,
+    "capacity_capped_orders": 0
+  },
+  "asset_max_min_ratio": 1.0
+}

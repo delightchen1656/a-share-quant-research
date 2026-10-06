@@ -35,6 +35,10 @@
 
 ## 复核
 
+### 2026-10-04新增：隔离时序重训候选
+
+独立子目录`retrain_2022/`已完成用户授权的2020—2022拟合、2023选择、2024确认和2025—2026-09-30隔离历史测试，详情见其README。原平台入口及本目录原构建流程仍保持旧模型版本，不会自动指向新候选。新单文件入口为`retrain_2022/supermind_baseline_3_2_retrained_daily.py`。13项本地校验通过，尚无新版平台回测；本地最终阶段年化16.55%、回撤25.88%，不属于从未见过的独立样本外。上文“没有重训”仅描述最初审计修订版本，不适用于此新增子版本。
+
 构建：`python strategies/kechuang/baseline_3_2/build.py`
 
 回归：`python strategies/kechuang/baseline_3_2/test_revision.py -v`

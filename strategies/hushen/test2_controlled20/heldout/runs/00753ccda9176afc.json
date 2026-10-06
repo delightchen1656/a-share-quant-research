@@ -1,0 +1,37 @@
+{
+  "id": "baseline",
+  "config": {
+    "buffer": 1.5,
+    "interval": 20,
+    "smooth": 5,
+    "min_smooth": 3,
+    "count": 5,
+    "growth": 0.0,
+    "hysteresis": 0.0,
+    "weights": [
+      0.35,
+      0.2,
+      0.25,
+      0.2
+    ],
+    "vol_window": 60,
+    "return_window": 20,
+    "amount_min": 10000000.0,
+    "vol_max": 0.09
+  },
+  "start": "2025-01-02",
+  "end": "2026-09-30",
+  "final_equity": 177654.41439999995,
+  "cagr": 0.3902874675434209,
+  "total_return": 0.7765441439999996,
+  "max_drawdown": 0.19432502361118598,
+  "sharpe": 1.5187523760575303,
+  "trades": 201,
+  "avg_exposure": 0.954142242817748,
+  "fees": 3068.28,
+  "dividend_tax": 92.85,
+  "final_limit": 5,
+  "issues": {},
+  "reference_differences": {},
+  "capacity_rejections": 0
+}

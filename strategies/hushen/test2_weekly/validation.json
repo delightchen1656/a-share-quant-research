@@ -1,0 +1,28 @@
+{
+  "calendar_cases": 7,
+  "invalid_previous_session_rejected": true,
+  "unchanged_factor_and_order_functions": true,
+  "only_schedule_changed_in_callbacks": true,
+  "sessions": 65,
+  "rebalance_dates": [
+    "2019-04-10",
+    "2019-04-15",
+    "2019-04-22",
+    "2019-04-29",
+    "2019-05-06",
+    "2019-05-13",
+    "2019-05-20",
+    "2019-05-27",
+    "2019-06-03",
+    "2019-06-10",
+    "2019-06-17",
+    "2019-06-24",
+    "2019-07-01",
+    "2019-07-08"
+  ],
+  "full_ranking_calls": 14,
+  "non_rebalance_order_days": 51,
+  "order_requests": 371,
+  "duplicate_callback_orders_prevented": true,
+  "note": "Synthetic local callback tests only. No platform backtest or return claim."
+}
