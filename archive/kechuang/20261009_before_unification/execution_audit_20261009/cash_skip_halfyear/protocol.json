@@ -1,0 +1,32 @@
+{
+  "starts": [
+    "2020-01-01",
+    "2020-07-01",
+    "2021-01-01",
+    "2021-07-01",
+    "2022-01-01",
+    "2022-07-01",
+    "2023-01-01",
+    "2023-07-01",
+    "2024-01-01",
+    "2024-07-01",
+    "2025-01-01",
+    "2025-07-01",
+    "2026-01-01",
+    "2026-07-01"
+  ],
+  "end": "2026-09-30",
+  "capital": 500000,
+  "source_sha256": "5ac181275a885c574f3e16f527bf07b5976a73ca001bbfb9d63d7f44f95071f9",
+  "retrained": false,
+  "tuned": false,
+  "comparison": "A insufficient full target cash skips; C cash-limited entry >=200 shares",
+  "unchanged": "legacy dynamic 10%-20%, models, thresholds, exit branches, buy-before-sell",
+  "limitations": [
+    "local daily opening proxy, not platform replay",
+    "successful fills/callbacks assumed",
+    "common legacy cost approximation: .2% each-side slippage, .03% commission minimum5, .1% sell stamp,20% dividend tax",
+    "shared overlapping history, not independent tests",
+    "C local all entries integer-sized; platform C fully-funded entries use percent orders"
+  ]
+}

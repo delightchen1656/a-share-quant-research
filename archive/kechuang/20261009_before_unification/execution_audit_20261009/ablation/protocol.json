@@ -1,0 +1,70 @@
+{
+  "start": "2026-01-01",
+  "end": "2026-09-30",
+  "capital": 500000,
+  "configs": [
+    [
+      "A旧动态",
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      "B仅固定10%",
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      "C仅允许现金不足缩量",
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      "D仅修正到期分支",
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      "E固定加缩量",
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      "F再换新版股数预算",
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      "G新版组合",
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "source_hashes": [
+    "5ac181275a885c574f3e16f527bf07b5976a73ca001bbfb9d63d7f44f95071f9",
+    "3feaeb2a4bdafc5dd393ba2af87e3409a52463a0f0d715c42b590e99a08efaa4"
+  ],
+  "model_equal": true,
+  "retrained": false,
+  "cost": "0.2% slip each side,commission0.03%min5,sellstamp0.1%,dividend20%,local proxy",
+  "limitations": [
+    "same local signals for all variants, not platform signal parity",
+    "all callbacks assumed successful; blocking not simulated",
+    "entry dates accurate in all runs; old missing-date behavior cannot be inferred",
+    "opening price proxy for platform daily bar/last_price",
+    "historical price adjustment applied by shared engine"
+  ]
+}

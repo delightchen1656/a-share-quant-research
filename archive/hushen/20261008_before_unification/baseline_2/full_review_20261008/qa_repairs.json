@@ -1,0 +1,6 @@
+[
+  {"kind":"local adapter","failure":"Account.date absent during timing diagnostic in init","fix":"Initialize replay clock before platform init","changes_strategy":false},
+  {"kind":"local adapter","failure":"Lazy daily market lacked containment/indexing","fix":"Implement dict-compatible __contains__ and __getitem__","changes_strategy":false},
+  {"kind":"test specification","failure":"AST equality included intentionally added daily receipt reset","fix":"Compare core unchanged functions and separately prove only exec_ bookkeeping added in before_trading","changes_strategy":false},
+  {"kind":"test specification","failure":"Cash identity incorrectly equated marked-to-market holdings with trade acquisition cost","fix":"Reconcile cash with actual traded amounts; full-run per-stock contributions separately reconcile market PnL","changes_strategy":false}
+]

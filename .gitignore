@@ -19,8 +19,6 @@ models/
 node_modules/
 *.parquet
 *.joblib
-!strategies/kechuang/training_source/model_artifacts/event_model.joblib
-!strategies/kechuang/training_source/model_artifacts/stop_risk_model.joblib
 *.log
 *.pid
 *.tmp
@@ -44,3 +42,22 @@ data_updates/**/checkpoints/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Current locked baselines must remain reproducible from a fresh clone.
+!strategies/kechuang/backtest/data/
+!strategies/kechuang/backtest/data/**
+!strategies/hushen/backtest/data/
+!strategies/hushen/backtest/data/**
+!strategies/kechuang/results/**/*.parquet
+!strategies/hushen/results/**/*.parquet
+!strategies/kechuang/research/training_source/model_artifacts/*.joblib
+
+# Historical model binaries are small and part of the research record.
+!archive/**/models/
+!archive/**/models/*.joblib
+!archive/**/*.joblib
+
+# The portable migration bundle is a local/offline deliverable. Git stores its
+# manifests and recovery scripts, while the large ZIPs and installers stay out.
+/archive/packages/20261006_data_environment_bundle/*.zip
+/archive/packages/20261006_data_environment_bundle/installers/*.exe

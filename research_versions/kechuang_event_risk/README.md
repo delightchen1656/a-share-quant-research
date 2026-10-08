@@ -1,6 +1,6 @@
 # 科创事件识别与风险控制版本
 
-本方向记录科创1-1到1-3及早期平台风控演进。当前正式科创1-2仍在 `strategies/kechuang/supermind_baseline_1_2_stop_filter.py`，训练源码在 `strategies/kechuang/training_source/`。
+本方向记录科创1-1到1-3及早期平台风控演进。原科创1-2已归档至 `archive/kechuang/20261009_before_unification/`；2026-10-09后的唯一科创入口是 `strategies/kechuang/supermind_kechuang_1.py`，不得把本方向代码误作当前版本。
 
 | 代码 | 对应策略或思路 |
 |---|---|

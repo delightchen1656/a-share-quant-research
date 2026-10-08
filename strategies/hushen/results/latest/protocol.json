@@ -1,0 +1,18 @@
+{
+  "version": "baseline2-full-review-20261008",
+  "status": "frozen_before_new_results",
+  "initial_cash": 100000,
+  "end": "2026-09-30",
+  "core": {"count":5,"exposure":0.98,"interval":20,"buffer":1.5,"smooth":5,"min_smooth":3,"weights":[-0.35,-0.20,0.25,-0.20],"vol_window":60,"return_window":20},
+  "split": {"warmup":"2018","development":"2019-2022","selection":"2023","confirmation":"2024","isolated_historical_evaluation":"2025-2026-09-30"},
+  "selection_policy": "User-designated original v5 is frozen. No new parameter search, no winner selected from diagnostics, no post-2024 feedback tuning. Historical framework already exposed to later data; not genuinely unseen history.",
+  "research_questions": ["Do size, volatility, overnight and intraday ranks each carry incremental predictive information?", "Does the combined rule survive realistic costs, different starts and execution delays?", "Can asynchronous execution safely track target shares without duplicate orders, cash borrowing, stale prices or limit breaches?"],
+  "diagnostic_controls": ["original","size_only","low_vol_only","overnight_only","intraday_only","without_size","without_vol","without_overnight","without_intraday"],
+  "stress_scenarios": ["original_daily_reference","strict_daily_limits","double_commission","one_session_order_delay","capacity_10pct","capital_500k","capital_1m","exclude_vendor_anomaly_symbols"],
+  "parameter_neighborhood_development_only": {"count":[4,6],"interval":[15,25],"buffer":[1.2,1.8]},
+  "stats": {"rf":0,"annual_days":252,"std_ddof":1,"bootstrap_seed":20261008,"bootstrap_block_sessions":20,"bootstrap_repetitions":1000},
+  "technical_gates": ["no future observations in signals", "no fills outside submitted limits", "nonnegative cash", "T+1 and buy lots", "no unresolved held-security corporate actions", "receipt idempotence and cancel acknowledgement"],
+  "promotion_policy": "No claim of production readiness without actual minute inputs, platform receipts, fee reconciliation and future small-capital evidence. User risk limit not yet specified: report drawdowns, do not invent a passing threshold.",
+  "main_table": "14 independent Jan1/Jul1 starts 2020-2026, next session, end 2026-09-30. Audited daily execution approximation; never label it minute V6 realized/platform performance.",
+  "scope": "Local research and platform-compatible code only. No real brokerage orders, purchases or automatic resumption of old weekly optimization goal."
+}

@@ -1,0 +1,40 @@
+{
+  "requested_start": "2019-01-01",
+  "actual_start": "2019-01-02",
+  "end": "2022-12-30",
+  "initial_cash": 100000.0,
+  "final_equity": 195801.0999999998,
+  "total_return": 0.958010999999998,
+  "cagr": 0.1831880835195201,
+  "max_drawdown": 0.27996325452743775,
+  "sharpe": 0.8274636310635045,
+  "trades": 442,
+  "commission": 3505.2199999999993,
+  "transfer": 207.76,
+  "stamp": 5705.54,
+  "transaction_fees": 9418.520000000006,
+  "dividend_tax": 481.88,
+  "total_cost": 9900.400000000005,
+  "final_cash": 7159.099999999809,
+  "average_exposure": 0.9366600058977965,
+  "unresolved_actions": 0,
+  "reference_differences": 1,
+  "rejected_orders": 0,
+  "scenario": "strict_daily_limits",
+  "control": "without_overnight",
+  "params": null,
+  "issues": {},
+  "reference": {
+    "603319.SH/2019-04-16": [
+      24.69,
+      18.76,
+      {
+        "cash": 0.37,
+        "stock": 0.3,
+        "taxable_stock": 0.0,
+        "pay": "2019-04-16 00:00:00",
+        "release": "2019-04-17 00:00:00"
+      }
+    ]
+  }
+}

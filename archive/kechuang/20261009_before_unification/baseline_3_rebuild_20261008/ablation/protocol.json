@@ -1,0 +1,118 @@
+{
+  "capital": 500000,
+  "start": "2020-01-01",
+  "end": "2026-09-30",
+  "configs": [
+    [
+      "A",
+      "旧口径参照",
+      "static",
+      "open",
+      "old",
+      "old",
+      0.63,
+      0.5,
+      null
+    ],
+    [
+      "B",
+      "仅换历史股票池",
+      "dynamic",
+      "open",
+      "old",
+      "old",
+      0.63,
+      0.5,
+      "A"
+    ],
+    [
+      "C",
+      "仅换退出信号时点",
+      "static",
+      "previous",
+      "old",
+      "old",
+      0.63,
+      0.5,
+      "A"
+    ],
+    [
+      "D",
+      "仅换到期分支",
+      "static",
+      "open",
+      "audited",
+      "old",
+      0.63,
+      0.5,
+      "A"
+    ],
+    [
+      "E",
+      "合并三项执行修订",
+      "dynamic",
+      "previous",
+      "audited",
+      "old",
+      0.63,
+      0.5,
+      "B"
+    ],
+    [
+      "F",
+      "统一执行下换新模型",
+      "dynamic",
+      "previous",
+      "audited",
+      "new",
+      0.63,
+      0.5,
+      "E"
+    ],
+    [
+      "G",
+      "再换新门槛",
+      "dynamic",
+      "previous",
+      "audited",
+      "new",
+      0.75,
+      0.35,
+      "F"
+    ],
+    [
+      "H",
+      "旧执行下仅换新模型",
+      "static",
+      "open",
+      "old",
+      "new",
+      0.63,
+      0.5,
+      "A"
+    ],
+    [
+      "I",
+      "换池后再换信号时点",
+      "dynamic",
+      "previous",
+      "old",
+      "old",
+      0.63,
+      0.5,
+      "B"
+    ]
+  ],
+  "training": false,
+  "selection": false,
+  "hashes": {
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\supermind_baseline_3_1_high_attack_adaptive_expiry_daily.py": "7318912d321fd5126724f9ef4761f59c4385354895329c21f387b590bb110bfb",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_rebuild_20261008\\event_model.joblib": "6408a09db824509dda6234371f9efd9896026bbf0126c24e9eca7fc69b2da1a0",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_rebuild_20261008\\stop_model.joblib": "e474df8801d79ac57e7461e2f540db0528a01636942cfa6a7e1cfcc67541a9a5",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\retrain_2022\\pipeline.py": "9e30c4f648c91ffd6dbc645d36839e3fcd633c8724f5b39352c10fa01c942f9d",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\retrain_2022\\search_1000\\search.py": "6d10823bdf5e8a3d9e84b02f9a45e41562a4cc03923f8900a11ef9ceae580ea8",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\start_date_study.py": "dc6a338a8bb81ab3b649118baf755b3ef72b73adfc3f3cbf97932098dc51aa5f"
+  },
+  "purpose": "retrospective attribution only; no independent OOS claim",
+  "costs": "inherited fixed historical approximation, not actual broker cost"
+}

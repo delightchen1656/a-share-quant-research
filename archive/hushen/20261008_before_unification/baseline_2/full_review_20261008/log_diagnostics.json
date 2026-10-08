@@ -1,0 +1,145 @@
+{
+  "simulator_retrained_log.txt": {
+    "versions": [
+      "2026-10-05-D11-fast-retrained2022"
+    ],
+    "orders": {
+      "b293b0418da74a6e9bfdd83278ae4ce1": {
+        "symbol": "603329.SH",
+        "states": [
+          "REJECTED",
+          "ACTIVE",
+          "PENDING_NEW"
+        ],
+        "max_filled": 0,
+        "log_rows": 7,
+        "limit": 10.32
+      },
+      "ea66f2ee4ed340dfba426d1872d26550": {
+        "symbol": "603325.SH",
+        "states": [
+          "REJECTED",
+          "ACTIVE",
+          "PENDING_NEW"
+        ],
+        "max_filled": 0,
+        "log_rows": 6,
+        "limit": 53.94
+      },
+      "da00e81442744e9c8343b0260fee021a": {
+        "symbol": "603273.SH",
+        "states": [
+          "REJECTED",
+          "ACTIVE",
+          "PENDING_NEW"
+        ],
+        "max_filled": 0,
+        "log_rows": 5,
+        "limit": 14.51
+      },
+      "32640543785145e7b2ad1d1b6c52854a": {
+        "symbol": "002982.SZ",
+        "states": [
+          "REJECTED",
+          "ACTIVE",
+          "PENDING_NEW"
+        ],
+        "max_filled": 0,
+        "log_rows": 5,
+        "limit": 12.83
+      },
+      "d65db22806b3460dbcf392994e66fef0": {
+        "symbol": "002554.SZ",
+        "states": [
+          "REJECTED",
+          "ACTIVE",
+          "PENDING_NEW"
+        ],
+        "max_filled": 0,
+        "log_rows": 6,
+        "limit": 2.71
+      }
+    },
+    "fills": {},
+    "limitation": "End-of-day rejection proves nonfill, not its root cause; no historical bid/ask or platform matching trace supplied."
+  },
+  "simulator_v4_log.txt": {
+    "versions": [
+      "2026-09-26-compatible-v4"
+    ],
+    "orders": {
+      "fe22200821fe4f95aa9d707801c6539e": {
+        "symbol": "603325.SH",
+        "states": [
+          "REJECTED",
+          "ACTIVE",
+          "PENDING_NEW"
+        ],
+        "max_filled": 0,
+        "log_rows": 6,
+        "limit": 53.94
+      },
+      "fba98ecd65c04deca68da27344d640fb": {
+        "symbol": "603312.SH",
+        "states": [
+          "FILLED",
+          "ACTIVE",
+          "PENDING_NEW"
+        ],
+        "max_filled": 100,
+        "log_rows": 4,
+        "limit": 32.71
+      },
+      "434c82eb612f487f94ea841033821cb1": {
+        "symbol": "603325.SH",
+        "states": [
+          "REJECTED",
+          "ACTIVE",
+          "PENDING_NEW"
+        ],
+        "max_filled": 0,
+        "log_rows": 3,
+        "limit": 52.9
+      },
+      "23a14924727641d0bc3c7dee1b9a58ea": {
+        "symbol": "603312.SH",
+        "states": [
+          "REJECTED",
+          "ACTIVE",
+          "PENDING_NEW"
+        ],
+        "max_filled": 0,
+        "log_rows": 3,
+        "limit": 33.17
+      },
+      "0d097bb0297a4e73b5fc7f7bb04aab17": {
+        "symbol": "603350.SH",
+        "states": [
+          "FILLED",
+          "ACTIVE",
+          "PENDING_NEW"
+        ],
+        "max_filled": 600,
+        "log_rows": 3,
+        "limit": 28.7
+      }
+    },
+    "fills": {
+      "fcfeb25e63844d09bcd4c51ba1c50731": {
+        "order_id": "fba98ecd65c04deca68da27344d640fb",
+        "quantity": 100,
+        "price": 33.71625,
+        "tax": 3.371625,
+        "log_rows": 3
+      },
+      "aca94d75f5764228b23fadf57211d4a1": {
+        "order_id": "0d097bb0297a4e73b5fc7f7bb04aab17",
+        "quantity": 600,
+        "price": 28.7287,
+        "tax": 0.0,
+        "log_rows": 1
+      }
+    },
+    "limitation": "End-of-day rejection proves nonfill, not its root cause; no historical bid/ask or platform matching trace supplied."
+  }
+}

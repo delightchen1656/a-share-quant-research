@@ -1,0 +1,15 @@
+{
+  "source_sha256": "7318912d321fd5126724f9ef4761f59c4385354895329c21f387b590bb110bfb",
+  "output_sha256": "3feaeb2a4bdafc5dd393ba2af87e3409a52463a0f0d715c42b590e99a08efaa4",
+  "models_unchanged": true,
+  "retrained": false,
+  "platform_server_tested": false,
+  "changes": [
+    "synchronous callback buffering and polling",
+    "explicit share sizing <=10%, cash reservation, minimum200",
+    "fill date ledger",
+    "expiry fallback for unhalvable positions",
+    "signal date filter",
+    "version logs"
+  ]
+}

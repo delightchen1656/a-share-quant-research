@@ -1,0 +1,33 @@
+{
+  "old_reference_nav_exactly_reproduced": true,
+  "first_fill_difference": {
+    "index": 0,
+    "old": {
+      "model": "D11",
+      "start": "2020-01-02 00:00:00",
+      "date": "2020-01-02 00:00:00",
+      "symbol": "002533.SZ",
+      "qty": 3800,
+      "price": 5.04,
+      "commission": 5.75,
+      "transfer": 0.38,
+      "stamp": 0.0,
+      "dividend_tax": 0.0
+    },
+    "new": {
+      "model": "D11",
+      "start": "2020-01-02 00:00:00",
+      "date": "2020-01-02 00:00:00",
+      "symbol": "002533.SZ",
+      "qty": 3800,
+      "price": 5.05,
+      "commission": 5.76,
+      "transfer": 0.38,
+      "stamp": 0.0,
+      "dividend_tax": 0.0
+    }
+  },
+  "old_final": 1073553.5564000004,
+  "new_final": 1014641.1151999999,
+  "explanation": "Same independently rebuilt signals; differences arise from tick rounding, exact opening-limit matching and cash rounding reserve, with path-dependent subsequent lot/target changes. No weights were fitted."
+}

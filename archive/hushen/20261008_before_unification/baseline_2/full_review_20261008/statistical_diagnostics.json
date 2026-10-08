@@ -1,0 +1,509 @@
+{
+  "sharpe_20session_block_bootstrap_95pct": [
+    0.6482079600056012,
+    2.23221703321075
+  ],
+  "bootstrap_note": "Conditional descriptive interval for a frozen observed return stream; not independent evidence, not a correction for prior searches, nonstationarity or implementation error.",
+  "worst_daily_return": -0.10959508540252039,
+  "best_daily_return": 0.08782798559893412,
+  "worst_5pct_mean": -0.04022328037780689,
+  "max_underwater_sessions": 288,
+  "max_drawdown_date": "2024-02-07",
+  "profit_concentration": {
+    "top10": [
+      [
+        "003041.SZ",
+        115728.95999999999
+      ],
+      [
+        "002875.SZ",
+        65556.16000000002
+      ],
+      [
+        "001367.SZ",
+        59042.43000000002
+      ],
+      [
+        "603215.SH",
+        57638.47
+      ],
+      [
+        "002992.SZ",
+        50816.69
+      ],
+      [
+        "001358.SZ",
+        45437.610000000015
+      ],
+      [
+        "605122.SH",
+        38754.460000000014
+      ],
+      [
+        "600793.SH",
+        36404.96
+      ],
+      [
+        "002887.SZ",
+        34322.34
+      ],
+      [
+        "603276.SH",
+        32980.49
+      ]
+    ],
+    "top1_share_of_net_profit": 0.12652936553666094,
+    "top10_share_of_positive_contributions": 0.332923220225069,
+    "identities_note": "Per-symbol net cashflows incl dividend credits + final marked value; exactly reconciled to account net profit."
+  },
+  "benchmark": {
+    "name": "000905.SH",
+    "close_to_close_total_return": 0.385571016915893,
+    "beta": 0.6601642767751135,
+    "annualized_regression_intercept": 0.3433482673735261,
+    "note": "Descriptive close-return comparison, not a traded ETF account and not proof of factor-neutral alpha."
+  },
+  "annual_returns": [
+    {
+      "year": 2020,
+      "net_return": 0.29186219999999996
+    },
+    {
+      "year": 2021,
+      "net_return": 0.981067098332933
+    },
+    {
+      "year": 2022,
+      "net_return": 0.4701290686621564
+    },
+    {
+      "year": 2023,
+      "net_return": 0.17115681164105045
+    },
+    {
+      "year": 2024,
+      "net_return": 0.23959116470967357
+    },
+    {
+      "year": 2025,
+      "net_return": 0.5894396108147191
+    },
+    {
+      "year": 2026,
+      "net_return": 0.168702741861527
+    }
+  ],
+  "average_holdings": 5.038508557457213,
+  "max_holdings": 9,
+  "average_exposure": 0.9694132508162318,
+  "max_exposure": 0.9998181077672863,
+  "gross_traded_value": 61455959.55,
+  "strategy_return_correlations": {
+    "development": {
+      "original": {
+        "original": 1.0,
+        "size_only": 0.6313451129206565,
+        "low_vol_only": 0.4044396170033833,
+        "overnight_only": 0.3445369490228929,
+        "intraday_only": 0.5258726945281704,
+        "without_size": 0.7210999661486521,
+        "without_vol": 0.7015665783910422,
+        "without_overnight": 0.8919364083086191,
+        "without_intraday": 0.8151039981409802
+      },
+      "size_only": {
+        "original": 0.6313451129206565,
+        "size_only": 1.0,
+        "low_vol_only": 0.3634964730828786,
+        "overnight_only": 0.2836668530172494,
+        "intraday_only": 0.4809791165832232,
+        "without_size": 0.5887364195772181,
+        "without_vol": 0.6085485979957429,
+        "without_overnight": 0.6603148809900121,
+        "without_intraday": 0.6223374531723361
+      },
+      "low_vol_only": {
+        "original": 0.4044396170033833,
+        "size_only": 0.3634964730828786,
+        "low_vol_only": 1.0,
+        "overnight_only": 0.1829427503988873,
+        "intraday_only": 0.27253362348940186,
+        "without_size": 0.48666246335988117,
+        "without_vol": 0.3618704344264342,
+        "without_overnight": 0.431040234854186,
+        "without_intraday": 0.37818307557181186
+      },
+      "overnight_only": {
+        "original": 0.3445369490228929,
+        "size_only": 0.2836668530172494,
+        "low_vol_only": 0.1829427503988873,
+        "overnight_only": 1.0,
+        "intraday_only": 0.32647353836875387,
+        "without_size": 0.3494342596586785,
+        "without_vol": 0.4022642420577898,
+        "without_overnight": 0.3285597295692091,
+        "without_intraday": 0.3566205278431169
+      },
+      "intraday_only": {
+        "original": 0.5258726945281704,
+        "size_only": 0.4809791165832232,
+        "low_vol_only": 0.27253362348940186,
+        "overnight_only": 0.32647353836875387,
+        "intraday_only": 1.0,
+        "without_size": 0.5355617745670638,
+        "without_vol": 0.5850143491321443,
+        "without_overnight": 0.554432905652326,
+        "without_intraday": 0.47369414106472457
+      },
+      "without_size": {
+        "original": 0.7210999661486521,
+        "size_only": 0.5887364195772181,
+        "low_vol_only": 0.48666246335988117,
+        "overnight_only": 0.3494342596586785,
+        "intraday_only": 0.5355617745670638,
+        "without_size": 1.0,
+        "without_vol": 0.6383081900387686,
+        "without_overnight": 0.7211577827305916,
+        "without_intraday": 0.6735237237770533
+      },
+      "without_vol": {
+        "original": 0.7015665783910422,
+        "size_only": 0.6085485979957429,
+        "low_vol_only": 0.3618704344264342,
+        "overnight_only": 0.4022642420577898,
+        "intraday_only": 0.5850143491321443,
+        "without_size": 0.6383081900387686,
+        "without_vol": 1.0,
+        "without_overnight": 0.6953261348312886,
+        "without_intraday": 0.6297109496402232
+      },
+      "without_overnight": {
+        "original": 0.8919364083086191,
+        "size_only": 0.6603148809900121,
+        "low_vol_only": 0.431040234854186,
+        "overnight_only": 0.3285597295692091,
+        "intraday_only": 0.554432905652326,
+        "without_size": 0.7211577827305916,
+        "without_vol": 0.6953261348312886,
+        "without_overnight": 1.0,
+        "without_intraday": 0.7959263468763719
+      },
+      "without_intraday": {
+        "original": 0.8151039981409802,
+        "size_only": 0.6223374531723361,
+        "low_vol_only": 0.37818307557181186,
+        "overnight_only": 0.3566205278431169,
+        "intraday_only": 0.47369414106472457,
+        "without_size": 0.6735237237770533,
+        "without_vol": 0.6297109496402232,
+        "without_overnight": 0.7959263468763719,
+        "without_intraday": 1.0
+      }
+    },
+    "selection": {
+      "original": {
+        "original": 1.0,
+        "size_only": 0.5549794839446187,
+        "low_vol_only": 0.2286596533802188,
+        "overnight_only": 0.24282420575338198,
+        "intraday_only": 0.4907578801794842,
+        "without_size": 0.6908745626609234,
+        "without_vol": 0.6654859552479625,
+        "without_overnight": 0.9163319347121205,
+        "without_intraday": 0.8526637330658811
+      },
+      "size_only": {
+        "original": 0.5549794839446187,
+        "size_only": 1.0,
+        "low_vol_only": 0.2562951356236685,
+        "overnight_only": 0.250394168398614,
+        "intraday_only": 0.34688972260914336,
+        "without_size": 0.5453655673584342,
+        "without_vol": 0.550596657721368,
+        "without_overnight": 0.5390633610452612,
+        "without_intraday": 0.582202273770184
+      },
+      "low_vol_only": {
+        "original": 0.2286596533802188,
+        "size_only": 0.2562951356236685,
+        "low_vol_only": 1.0,
+        "overnight_only": 0.16344737089733322,
+        "intraday_only": 0.13941985645804209,
+        "without_size": 0.4072155447523472,
+        "without_vol": 0.18933199846693638,
+        "without_overnight": 0.2636679224880107,
+        "without_intraday": 0.2604929639111496
+      },
+      "overnight_only": {
+        "original": 0.24282420575338198,
+        "size_only": 0.250394168398614,
+        "low_vol_only": 0.16344737089733322,
+        "overnight_only": 1.0,
+        "intraday_only": 0.24258031857676227,
+        "without_size": 0.25470396133007467,
+        "without_vol": 0.2826673064899376,
+        "without_overnight": 0.2435945945253457,
+        "without_intraday": 0.2379652875199746
+      },
+      "intraday_only": {
+        "original": 0.4907578801794842,
+        "size_only": 0.34688972260914336,
+        "low_vol_only": 0.13941985645804209,
+        "overnight_only": 0.24258031857676227,
+        "intraday_only": 1.0,
+        "without_size": 0.5242374783244339,
+        "without_vol": 0.478635118728608,
+        "without_overnight": 0.5024107347550858,
+        "without_intraday": 0.4588298586522624
+      },
+      "without_size": {
+        "original": 0.6908745626609234,
+        "size_only": 0.5453655673584342,
+        "low_vol_only": 0.4072155447523472,
+        "overnight_only": 0.25470396133007467,
+        "intraday_only": 0.5242374783244339,
+        "without_size": 1.0,
+        "without_vol": 0.5987706435668789,
+        "without_overnight": 0.6943273428849187,
+        "without_intraday": 0.6759649858458033
+      },
+      "without_vol": {
+        "original": 0.6654859552479625,
+        "size_only": 0.550596657721368,
+        "low_vol_only": 0.18933199846693638,
+        "overnight_only": 0.2826673064899376,
+        "intraday_only": 0.478635118728608,
+        "without_size": 0.5987706435668789,
+        "without_vol": 1.0,
+        "without_overnight": 0.6516104248491418,
+        "without_intraday": 0.6763477441989745
+      },
+      "without_overnight": {
+        "original": 0.9163319347121205,
+        "size_only": 0.5390633610452612,
+        "low_vol_only": 0.2636679224880107,
+        "overnight_only": 0.2435945945253457,
+        "intraday_only": 0.5024107347550858,
+        "without_size": 0.6943273428849187,
+        "without_vol": 0.6516104248491418,
+        "without_overnight": 1.0,
+        "without_intraday": 0.8082643704769484
+      },
+      "without_intraday": {
+        "original": 0.8526637330658811,
+        "size_only": 0.582202273770184,
+        "low_vol_only": 0.2604929639111496,
+        "overnight_only": 0.2379652875199746,
+        "intraday_only": 0.4588298586522624,
+        "without_size": 0.6759649858458033,
+        "without_vol": 0.6763477441989745,
+        "without_overnight": 0.8082643704769484,
+        "without_intraday": 1.0
+      }
+    },
+    "confirmation": {
+      "original": {
+        "original": 1.0,
+        "size_only": 0.7603357915532634,
+        "low_vol_only": 0.30024917040096044,
+        "overnight_only": 0.5098769203885369,
+        "intraday_only": 0.6693123762210509,
+        "without_size": 0.7466477711016193,
+        "without_vol": 0.8153821471853209,
+        "without_overnight": 0.8912418062922713,
+        "without_intraday": 0.9348907462303255
+      },
+      "size_only": {
+        "original": 0.7603357915532634,
+        "size_only": 1.0,
+        "low_vol_only": 0.2992927474119552,
+        "overnight_only": 0.5300489541410192,
+        "intraday_only": 0.7128989615658348,
+        "without_size": 0.6928580480088541,
+        "without_vol": 0.8425403643957925,
+        "without_overnight": 0.8041109006662819,
+        "without_intraday": 0.784419510630073
+      },
+      "low_vol_only": {
+        "original": 0.30024917040096044,
+        "size_only": 0.2992927474119552,
+        "low_vol_only": 1.0,
+        "overnight_only": 0.2847345540746286,
+        "intraday_only": 0.32142252185761905,
+        "without_size": 0.4843721232220857,
+        "without_vol": 0.30648631990338177,
+        "without_overnight": 0.3735107327737226,
+        "without_intraday": 0.3086135748480687
+      },
+      "overnight_only": {
+        "original": 0.5098769203885369,
+        "size_only": 0.5300489541410192,
+        "low_vol_only": 0.2847345540746286,
+        "overnight_only": 1.0,
+        "intraday_only": 0.4414927366831564,
+        "without_size": 0.44022900210532,
+        "without_vol": 0.6097935903173357,
+        "without_overnight": 0.5224512222312709,
+        "without_intraday": 0.5304958814032749
+      },
+      "intraday_only": {
+        "original": 0.6693123762210509,
+        "size_only": 0.7128989615658348,
+        "low_vol_only": 0.32142252185761905,
+        "overnight_only": 0.4414927366831564,
+        "intraday_only": 1.0,
+        "without_size": 0.6970070886663057,
+        "without_vol": 0.7258943126355512,
+        "without_overnight": 0.6938353771435197,
+        "without_intraday": 0.6653283586177974
+      },
+      "without_size": {
+        "original": 0.7466477711016193,
+        "size_only": 0.6928580480088541,
+        "low_vol_only": 0.4843721232220857,
+        "overnight_only": 0.44022900210532,
+        "intraday_only": 0.6970070886663057,
+        "without_size": 1.0,
+        "without_vol": 0.7072078508570799,
+        "without_overnight": 0.8600594558651826,
+        "without_intraday": 0.7675637169250108
+      },
+      "without_vol": {
+        "original": 0.8153821471853209,
+        "size_only": 0.8425403643957925,
+        "low_vol_only": 0.30648631990338177,
+        "overnight_only": 0.6097935903173357,
+        "intraday_only": 0.7258943126355512,
+        "without_size": 0.7072078508570799,
+        "without_vol": 1.0,
+        "without_overnight": 0.8288836513778104,
+        "without_intraday": 0.8030266190547795
+      },
+      "without_overnight": {
+        "original": 0.8912418062922713,
+        "size_only": 0.8041109006662819,
+        "low_vol_only": 0.3735107327737226,
+        "overnight_only": 0.5224512222312709,
+        "intraday_only": 0.6938353771435197,
+        "without_size": 0.8600594558651826,
+        "without_vol": 0.8288836513778104,
+        "without_overnight": 1.0,
+        "without_intraday": 0.8887007302299488
+      },
+      "without_intraday": {
+        "original": 0.9348907462303255,
+        "size_only": 0.784419510630073,
+        "low_vol_only": 0.3086135748480687,
+        "overnight_only": 0.5304958814032749,
+        "intraday_only": 0.6653283586177974,
+        "without_size": 0.7675637169250108,
+        "without_vol": 0.8030266190547795,
+        "without_overnight": 0.8887007302299488,
+        "without_intraday": 1.0
+      }
+    },
+    "evaluation": {
+      "original": {
+        "original": 1.0,
+        "size_only": 0.7180753583449213,
+        "low_vol_only": 0.3415256378174463,
+        "overnight_only": 0.29999313479353584,
+        "intraday_only": 0.493659319706487,
+        "without_size": 0.7086710662075107,
+        "without_vol": 0.7093420171920458,
+        "without_overnight": 0.817974377557595,
+        "without_intraday": 0.8518038170059279
+      },
+      "size_only": {
+        "original": 0.7180753583449213,
+        "size_only": 1.0,
+        "low_vol_only": 0.26454731330659587,
+        "overnight_only": 0.2655630234464713,
+        "intraday_only": 0.4605719628477181,
+        "without_size": 0.5982516782444042,
+        "without_vol": 0.7223233318206654,
+        "without_overnight": 0.7206729046343748,
+        "without_intraday": 0.7145714059846199
+      },
+      "low_vol_only": {
+        "original": 0.3415256378174463,
+        "size_only": 0.26454731330659587,
+        "low_vol_only": 1.0,
+        "overnight_only": 0.007591494542337222,
+        "intraday_only": 0.09484581197861612,
+        "without_size": 0.5039023997679036,
+        "without_vol": 0.25510090468986607,
+        "without_overnight": 0.35826990284365967,
+        "without_intraday": 0.3341677428697973
+      },
+      "overnight_only": {
+        "original": 0.29999313479353584,
+        "size_only": 0.2655630234464713,
+        "low_vol_only": 0.007591494542337222,
+        "overnight_only": 1.0,
+        "intraday_only": 0.33438584137006067,
+        "without_size": 0.23357454535823458,
+        "without_vol": 0.35771994677419444,
+        "without_overnight": 0.24058406357943923,
+        "without_intraday": 0.26562189187404384
+      },
+      "intraday_only": {
+        "original": 0.493659319706487,
+        "size_only": 0.4605719628477181,
+        "low_vol_only": 0.09484581197861612,
+        "overnight_only": 0.33438584137006067,
+        "intraday_only": 1.0,
+        "without_size": 0.44736166788648163,
+        "without_vol": 0.5181256965078841,
+        "without_overnight": 0.44178605451662323,
+        "without_intraday": 0.44391255927870543
+      },
+      "without_size": {
+        "original": 0.7086710662075107,
+        "size_only": 0.5982516782444042,
+        "low_vol_only": 0.5039023997679036,
+        "overnight_only": 0.23357454535823458,
+        "intraday_only": 0.44736166788648163,
+        "without_size": 1.0,
+        "without_vol": 0.6118590261948287,
+        "without_overnight": 0.6797299170025886,
+        "without_intraday": 0.6783284931475047
+      },
+      "without_vol": {
+        "original": 0.7093420171920458,
+        "size_only": 0.7223233318206654,
+        "low_vol_only": 0.25510090468986607,
+        "overnight_only": 0.35771994677419444,
+        "intraday_only": 0.5181256965078841,
+        "without_size": 0.6118590261948287,
+        "without_vol": 1.0,
+        "without_overnight": 0.6424172019240006,
+        "without_intraday": 0.6493666959882542
+      },
+      "without_overnight": {
+        "original": 0.817974377557595,
+        "size_only": 0.7206729046343748,
+        "low_vol_only": 0.35826990284365967,
+        "overnight_only": 0.24058406357943923,
+        "intraday_only": 0.44178605451662323,
+        "without_size": 0.6797299170025886,
+        "without_vol": 0.6424172019240006,
+        "without_overnight": 1.0,
+        "without_intraday": 0.8264956305693681
+      },
+      "without_intraday": {
+        "original": 0.8518038170059279,
+        "size_only": 0.7145714059846199,
+        "low_vol_only": 0.3341677428697973,
+        "overnight_only": 0.26562189187404384,
+        "intraday_only": 0.44391255927870543,
+        "without_size": 0.6783284931475047,
+        "without_vol": 0.6493666959882542,
+        "without_overnight": 0.8264956305693681,
+        "without_intraday": 1.0
+      }
+    }
+  },
+  "industry_limitation": "Only current_industry_map.csv available. Historical sector-neutral attribution is NOT claimed; using current sectors would introduce retrospective classification.",
+  "search_bias_limitation": "Prior historical strategy searches exist; their complete effective trial count is unavailable. No deflated-Sharpe/PBO success is claimed. New diagnostic trials are fully counted."
+}

@@ -1,0 +1,19 @@
+{
+  "git_commit": "ca523434",
+  "sklearn_source_version": "1.9.0",
+  "event_model": {
+    "original_path": "evening_accumulation/baselines/baseline_1/model/event_model.joblib",
+    "sha256": "1F87270F6A8506DF79F06B38CACFEE6C163DFC20F9EB8AE424C2397D816B0FD4",
+    "features": 18,
+    "horizon_sessions": 20,
+    "target_return": 0.3,
+    "stored_threshold": 0.6783816096234511
+  },
+  "stop_risk_model": {
+    "original_path": "evening_accumulation/baselines/baseline_2/model/stop_risk_model.joblib",
+    "sha256": "0CF8FBC48DD6EDA524A54DDD14082F44A0B787498983D501160A2FE8F51709D9",
+    "features": 18,
+    "training_end": "2024-12-31",
+    "label": "next_22_sessions_stop7_before_profit24"
+  }
+}

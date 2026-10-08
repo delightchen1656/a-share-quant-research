@@ -1,0 +1,35 @@
+{
+  "capital": 500000,
+  "end": "2026-09-30",
+  "model_retrained": false,
+  "source": "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\dynamic_500k_execution_20261008\\supermind_3_legacy_dynamic_500k_execution_v1.py",
+  "source_sha256": "74e471815c4db3cf737f067f1cfd0a6058080693db9320ed5d0b406a260013b7",
+  "sizing": "dynamic max(.10,open*200*1.01/NAV),skip>.20; cash and local budget >=target*1.005",
+  "universe": "old embedded static",
+  "signal": "previous-day features; OPEN proxy for legacy last_price/close exit",
+  "execution": "buy before sell; T+1; halts/limit-lock skipped; 25% daily volume cap; max50000 shares/order; buy>=200",
+  "cost": "each-side .2%slip; commission .0003 min5; stamp .001 full period; dividend tax20%; no transfer fee",
+  "limitations": [
+    "not actual platform callback replay",
+    "does not simulate unresolved-order blocking/network/restart",
+    "corporate action risk reference adjusted by local engine unlike untouched legacy platform state",
+    "data only through2026-09-30"
+  ],
+  "source_files_verified": 1240,
+  "starts": [
+    "2020-01-01",
+    "2020-07-01",
+    "2021-01-01",
+    "2021-07-01",
+    "2022-01-01",
+    "2022-07-01",
+    "2023-01-01",
+    "2023-07-01",
+    "2024-01-01",
+    "2024-07-01",
+    "2025-01-01",
+    "2025-07-01",
+    "2026-01-01",
+    "2026-07-01"
+  ]
+}

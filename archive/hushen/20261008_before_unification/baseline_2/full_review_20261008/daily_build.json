@@ -1,0 +1,13 @@
+{
+  "source_sha256": "15f969943623c5f51febdad9f96c6b7834b7aa7c9ea3de4b764efba8fe2866f9",
+  "export_sha256": "40d7d516ebf6f4a07251fc8fdc1243f2bfa63f166cc236a6cdd8aa04b22836d7",
+  "changes": [
+    "daily source retained",
+    "limit tick rounding",
+    "zero extra platform slippage",
+    "cash rounding reserve",
+    "receipt dedup and fee audit",
+    "timing diagnostics"
+  ],
+  "user_steering": "Daily data only; no risk drawdown threshold. No minute-repricing performance claim."
+}

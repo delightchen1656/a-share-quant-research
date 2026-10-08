@@ -1,0 +1,100 @@
+2026-10-08 15:34:39 - [ 2026-10-08 15:30:00 ] - INFOALPHA DONE after_trading
+2026-10-08 15:34:39 - [ 2026-10-08 15:30:00 ] - INFOEND D11 remaining share differences={'603325.SH': 300}
+2026-10-08 15:34:39 - [ 2026-10-08 15:30:00 ] - INFOALPHA START after_trading model=D11 version=2026-09-26-compatible-v4
+2026-10-08 15:34:39 - [ 2026-10-08 15:30:00 ] - INFOORDER Order({'order_id': 'fe22200821fe4f95aa9d707801c6539e', 'symbol': '603325.SH', 'created': DateTime(2026, 10, 8, 9, 30), 'order_type': 'LONG', 'limit_price': 53.94, 'amount': 300, 'filled_amount': 0, 'type': ORDER_TYPE.LIMIT, 'transaction_cost': 0, 'avg_price': 0, 'status': ORDER_STATUS.REJECTED, 'datetime': DateTime(2026, 10, 8, 9, 30), 'offset_flag': None})
+2026-10-08 15:34:39 - [ 2026-10-08 15:30:00 ] - WARN下单失败: 603325.SH 当天交易结束，订单无法成交。
+2026-10-08 09:45:05 - [ 2026-10-08 09:30:00 ] - INFOALPHA DONE handle_bar
+2026-10-08 09:45:05 - [ 2026-10-08 09:30:00 ] - INFOALPHA DONE handle_bar
+2026-10-08 09:45:05 - [ 2026-10-08 09:30:00 ] - INFOSUBMIT D11 603325.SH qty=300 limit=53.94; acceptance is not a fill
+2026-10-08 09:45:05 - [ 2026-10-08 09:30:00 ] - INFOORDER Order({'order_id': 'fe22200821fe4f95aa9d707801c6539e', 'symbol': '603325.SH', 'created': DateTime(2026, 10, 8, 9, 30), 'order_type': 'LONG', 'limit_price': 53.94, 'amount': 300, 'filled_amount': 0, 'type': ORDER_TYPE.LIMIT, 'transaction_cost': 0, 'avg_price': 0, 'status': ORDER_STATUS.ACTIVE, 'datetime': DateTime(2026, 10, 8, 9, 30), 'offset_flag': None})
+2026-10-08 09:45:05 - [ 2026-10-08 09:30:00 ] - INFOORDER Order({'order_id': 'fe22200821fe4f95aa9d707801c6539e', 'symbol': '603325.SH', 'created': DateTime(2026, 10, 8, 9, 30), 'order_type': 'LONG', 'limit_price': 53.94, 'amount': 300, 'filled_amount': 0, 'type': ORDER_TYPE.LIMIT, 'transaction_cost': 0, 'avg_price': 0, 'status': ORDER_STATUS.ACTIVE, 'datetime': DateTime(2026, 10, 8, 9, 30), 'offset_flag': None})
+2026-10-08 09:45:05 - [ 2026-10-08 09:30:00 ] - INFOORDER Order({'order_id': 'fe22200821fe4f95aa9d707801c6539e', 'symbol': '603325.SH', 'created': DateTime(2026, 10, 8, 9, 30), 'order_type': 'LONG', 'limit_price': 53.94, 'amount': 300, 'filled_amount': 0, 'type': ORDER_TYPE.LIMIT, 'transaction_cost': 0, 'avg_price': 0, 'status': ORDER_STATUS.PENDING_NEW, 'datetime': DateTime(2026, 10, 8, 9, 30), 'offset_flag': None})
+2026-10-08 09:45:05 - [ 2026-10-08 09:30:00 ] - INFOORDER Order({'order_id': 'fe22200821fe4f95aa9d707801c6539e', 'symbol': '603325.SH', 'created': DateTime(2026, 10, 8, 9, 30), 'order_type': 'LONG', 'limit_price': 53.94, 'amount': 300, 'filled_amount': 0, 'type': ORDER_TYPE.LIMIT, 'transaction_cost': 0, 'avg_price': 0, 'status': ORDER_STATUS.PENDING_NEW, 'datetime': DateTime(2026, 10, 8, 9, 30), 'offset_flag': None})
+2026-10-08 09:45:05 - [ 2026-10-08 09:30:00 ] - INFOORDER Order({'order_id': 'fe22200821fe4f95aa9d707801c6539e', 'symbol': '603325.SH', 'created': DateTime(2026, 10, 8, 9, 30), 'order_type': 'LONG', 'limit_price': 53.94, 'amount': 300, 'filled_amount': 0, 'type': ORDER_TYPE.LIMIT, 'transaction_cost': 0, 'avg_price': 0, 'status': ORDER_STATUS.PENDING_NEW, 'datetime': DateTime(2026, 10, 8, 9, 30), 'offset_flag': None})
+2026-10-08 09:45:05 - [ 2026-10-08 09:30:00 ] - INFOSUBMIT D11 603312.SH qty=-100 limit=32.71; acceptance is not a fill
+2026-10-08 09:45:05 - [ 2026-10-08 09:30:00 ] - INFOSUBMIT D11 603312.SH qty=-100 limit=32.71; acceptance is not a fill
+2026-10-08 09:45:05 - [ 2026-10-08 09:30:00 ] - INFOSUBMIT D11 603312.SH qty=-100 limit=32.71; acceptance is not a fill
+2026-10-08 09:45:05 - [ 2026-10-08 09:30:00 ] - INFOSUBMIT D11 603312.SH qty=-100 limit=32.71; acceptance is not a fill
+2026-10-08 09:45:05 - [ 2026-10-08 09:30:00 ] - INFOFILL Trade({'order_book_id': '603312.SH', 'trading_datetime': DateTime(2026, 10, 8, 9, 30), 'datetime': DateTime(2026, 10, 8, 9, 30), 'order_id': 'fba98ecd65c04deca68da27344d640fb', 'last_price': 33.71625, 'last_quantity': 100, 'commission': 5.0, 'tax': 3.371625, 'transaction_cost': 8.371625, 'side': SIDE.SELL, 'position_effect': None, 'exec_id': 'fcfeb25e63844d09bcd4c51ba1c50731', 'frozen_price': 32.71, 'close_today_amount': 0, 'pnl': 176.47574269999993})
+2026-10-08 09:45:05 - [ 2026-10-08 09:30:00 ] - INFOFILL Trade({'order_book_id': '603312.SH', 'trading_datetime': DateTime(2026, 10, 8, 9, 30), 'datetime': DateTime(2026, 10, 8, 9, 30), 'order_id': 'fba98ecd65c04deca68da27344d640fb', 'last_price': 33.71625, 'last_quantity': 100, 'commission': 5.0, 'tax': 3.371625, 'transaction_cost': 8.371625, 'side': SIDE.SELL, 'position_effect': None, 'exec_id': 'fcfeb25e63844d09bcd4c51ba1c50731', 'frozen_price': 32.71, 'close_today_amount': 0, 'pnl': 176.47574269999993})
+2026-10-08 09:45:05 - [ 2026-10-08 09:30:00 ] - INFOFILL Trade({'order_book_id': '603312.SH', 'trading_datetime': DateTime(2026, 10, 8, 9, 30), 'datetime': DateTime(2026, 10, 8, 9, 30), 'order_id': 'fba98ecd65c04deca68da27344d640fb', 'last_price': 33.71625, 'last_quantity': 100, 'commission': 5.0, 'tax': 3.371625, 'transaction_cost': 8.371625, 'side': SIDE.SELL, 'position_effect': None, 'exec_id': 'fcfeb25e63844d09bcd4c51ba1c50731', 'frozen_price': 32.71, 'close_today_amount': 0, 'pnl': 176.47574269999993})
+2026-10-08 09:45:05 - [ 2026-10-08 09:30:00 ] - INFOORDER Order({'order_id': 'fba98ecd65c04deca68da27344d640fb', 'symbol': '603312.SH', 'created': DateTime(2026, 10, 8, 9, 30), 'order_type': 'SHORT', 'limit_price': 32.71, 'amount': 100, 'filled_amount': 100, 'type': ORDER_TYPE.LIMIT, 'transaction_cost': 8.371625, 'avg_price': 33.71625, 'status': ORDER_STATUS.FILLED, 'datetime': DateTime(2026, 10, 8, 9, 30), 'offset_flag': None})
+2026-10-08 09:45:05 - [ 2026-10-08 09:30:00 ] - INFOORDER Order({'order_id': 'fba98ecd65c04deca68da27344d640fb', 'symbol': '603312.SH', 'created': DateTime(2026, 10, 8, 9, 30), 'order_type': 'SHORT', 'limit_price': 32.71, 'amount': 100, 'filled_amount': 0, 'type': ORDER_TYPE.LIMIT, 'transaction_cost': 0, 'avg_price': 0, 'status': ORDER_STATUS.ACTIVE, 'datetime': DateTime(2026, 10, 8, 9, 30), 'offset_flag': None})
+2026-10-08 09:45:05 - [ 2026-10-08 09:30:00 ] - INFOORDER Order({'order_id': 'fba98ecd65c04deca68da27344d640fb', 'symbol': '603312.SH', 'created': DateTime(2026, 10, 8, 9, 30), 'order_type': 'SHORT', 'limit_price': 32.71, 'amount': 100, 'filled_amount': 0, 'type': ORDER_TYPE.LIMIT, 'transaction_cost': 0, 'avg_price': 0, 'status': ORDER_STATUS.PENDING_NEW, 'datetime': DateTime(2026, 10, 8, 9, 30), 'offset_flag': None})
+2026-10-08 09:45:05 - [ 2026-10-08 09:30:00 ] - INFOORDER Order({'order_id': 'fba98ecd65c04deca68da27344d640fb', 'symbol': '603312.SH', 'created': DateTime(2026, 10, 8, 9, 30), 'order_type': 'SHORT', 'limit_price': 32.71, 'amount': 100, 'filled_amount': 0, 'type': ORDER_TYPE.LIMIT, 'transaction_cost': 0, 'avg_price': 0, 'status': ORDER_STATUS.PENDING_NEW, 'datetime': DateTime(2026, 10, 8, 9, 30), 'offset_flag': None})
+2026-10-08 09:45:05 - [ 2026-10-08 09:30:00 ] - INFOALPHA START handle_bar model=D11 version=2026-09-26-compatible-v4
+2026-10-08 09:45:05 - [ 2026-10-08 09:30:00 ] - INFOALPHA START handle_bar model=D11 version=2026-09-26-compatible-v4
+2026-10-08 09:35:31 - [ 2026-10-08 09:00:00 ] - INFOALPHA DONE before_trading
+2026-10-08 09:35:31 - [ 2026-10-08 09:00:00 ] - INFOALPHA SIGNAL ready ranking_count=100
+2026-10-08 09:34:59 - [ 2026-10-08 09:00:00 ] - INFOALPHA SIGNAL begin symbols=3197 dates=5
+2026-10-08 09:34:56 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=22/22 symbols=46 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:54 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=21/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:53 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=20/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:53 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=20/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:53 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=20/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:51 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=19/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:51 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=19/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:49 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=18/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:49 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=18/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:47 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=17/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:47 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=17/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:45 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=16/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:45 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=16/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:43 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=15/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:41 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=14/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:39 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=13/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:39 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=13/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:38 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=12/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:38 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=12/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:36 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=11/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:33 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=10/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:33 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=10/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:31 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=9/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:29 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=8/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:27 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=7/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:27 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=7/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:25 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=6/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:23 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=5/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:22 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=4/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:20 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=3/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:18 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=2/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:16 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=1/22 symbols=150 end=2026-09-30 start=2026-09-30
+2026-10-08 09:34:16 - [ 2026-10-08 09:00:00 ] - INFOALPHA FETCH batch=1/1 symbols=1 end=2026-09-30 start=None
+2026-10-08 09:34:16 - [ 2026-10-08 09:00:00 ] - INFOALPHA UNIVERSE date=2026-09-30
+2026-10-08 09:34:16 - [ 2026-10-08 09:00:00 ] - INFOALPHA START before_trading model=D11 version=2026-09-26-compatible-v4
+2026-09-30 15:33:33 - [ 2026-09-30 15:30:00 ] - INFOALPHA DONE after_trading
+2026-09-30 15:33:33 - [ 2026-09-30 15:30:00 ] - INFOEND D11 remaining share differences={'603312.SH': -100, '603325.SH': 300}
+2026-09-30 15:33:33 - [ 2026-09-30 15:30:00 ] - INFOALPHA START after_trading model=D11 version=2026-09-26-compatible-v4
+2026-09-30 15:33:33 - [ 2026-09-30 15:30:00 ] - INFOORDER Order({'order_id': '434c82eb612f487f94ea841033821cb1', 'symbol': '603325.SH', 'created': DateTime(2026, 9, 30, 9, 30), 'order_type': 'LONG', 'limit_price': 52.9, 'amount': 300, 'filled_amount': 0, 'type': ORDER_TYPE.LIMIT, 'transaction_cost': 0, 'avg_price': 0, 'status': ORDER_STATUS.REJECTED, 'datetime': DateTime(2026, 9, 30, 9, 30), 'offset_flag': None})
+2026-09-30 15:33:33 - [ 2026-09-30 15:30:00 ] - WARN下单失败: 603325.SH 当天交易结束，订单无法成交。
+2026-09-30 15:33:33 - [ 2026-09-30 15:30:00 ] - INFOORDER Order({'order_id': '23a14924727641d0bc3c7dee1b9a58ea', 'symbol': '603312.SH', 'created': DateTime(2026, 9, 30, 9, 30), 'order_type': 'SHORT', 'limit_price': 33.17, 'amount': 100, 'filled_amount': 0, 'type': ORDER_TYPE.LIMIT, 'transaction_cost': 0, 'avg_price': 0, 'status': ORDER_STATUS.REJECTED, 'datetime': DateTime(2026, 9, 30, 9, 30), 'offset_flag': None})
+2026-09-30 15:33:33 - [ 2026-09-30 15:30:00 ] - WARN下单失败: 603312.SH 当天交易结束，订单无法成交。
+2026-09-30 09:33:37 - [ 2026-09-30 09:30:00 ] - INFOALPHA DONE handle_bar
+2026-09-30 09:33:37 - [ 2026-09-30 09:30:00 ] - INFOSUBMIT D11 603350.SH qty=600 limit=28.70; acceptance is not a fill
+2026-09-30 09:33:37 - [ 2026-09-30 09:30:00 ] - INFOFILL Trade({'order_book_id': '603350.SH', 'trading_datetime': DateTime(2026, 9, 30, 9, 30), 'datetime': DateTime(2026, 9, 30, 9, 30), 'order_id': '0d097bb0297a4e73b5fc7f7bb04aab17', 'last_price': 28.7287, 'last_quantity': 600, 'commission': 5.1711659999999995, 'tax': 0, 'transaction_cost': 5.1711659999999995, 'side': SIDE.BUY, 'position_effect': None, 'exec_id': 'aca94d75f5764228b23fadf57211d4a1', 'frozen_price': 28.7, 'close_today_amount': 0, 'pnl': None})
+2026-09-30 09:33:37 - [ 2026-09-30 09:30:00 ] - INFOORDER Order({'order_id': '0d097bb0297a4e73b5fc7f7bb04aab17', 'symbol': '603350.SH', 'created': DateTime(2026, 9, 30, 9, 30), 'order_type': 'LONG', 'limit_price': 28.7, 'amount': 600, 'filled_amount': 600, 'type': ORDER_TYPE.LIMIT, 'transaction_cost': 5.1711659999999995, 'avg_price': 28.728700000000003, 'status': ORDER_STATUS.FILLED, 'datetime': DateTime(2026, 9, 30, 9, 30), 'offset_flag': None})
+2026-09-30 09:33:37 - [ 2026-09-30 09:30:00 ] - INFOORDER Order({'order_id': '0d097bb0297a4e73b5fc7f7bb04aab17', 'symbol': '603350.SH', 'created': DateTime(2026, 9, 30, 9, 30), 'order_type': 'LONG', 'limit_price': 28.7, 'amount': 600, 'filled_amount': 0, 'type': ORDER_TYPE.LIMIT, 'transaction_cost': 0, 'avg_price': 0, 'status': ORDER_STATUS.ACTIVE, 'datetime': DateTime(2026, 9, 30, 9, 30), 'offset_flag': None})
+2026-09-30 09:33:37 - [ 2026-09-30 09:30:00 ] - INFOORDER Order({'order_id': '0d097bb0297a4e73b5fc7f7bb04aab17', 'symbol': '603350.SH', 'created': DateTime(2026, 9, 30, 9, 30), 'order_type': 'LONG', 'limit_price': 28.7, 'amount': 600, 'filled_amount': 0, 'type': ORDER_TYPE.LIMIT, 'transaction_cost': 0, 'avg_price': 0, 'status': ORDER_STATUS.PENDING_NEW, 'datetime': DateTime(2026, 9, 30, 9, 30), 'offset_flag': None})
+2026-09-30 09:33:36 - [ 2026-09-30 09:30:00 ] - INFOSUBMIT D11 603325.SH qty=300 limit=52.90; acceptance is not a fill
+2026-09-30 09:33:36 - [ 2026-09-30 09:30:00 ] - INFOORDER Order({'order_id': '434c82eb612f487f94ea841033821cb1', 'symbol': '603325.SH', 'created': DateTime(2026, 9, 30, 9, 30), 'order_type': 'LONG', 'limit_price': 52.9, 'amount': 300, 'filled_amount': 0, 'type': ORDER_TYPE.LIMIT, 'transaction_cost': 0, 'avg_price': 0, 'status': ORDER_STATUS.ACTIVE, 'datetime': DateTime(2026, 9, 30, 9, 30), 'offset_flag': None})
+2026-09-30 09:33:36 - [ 2026-09-30 09:30:00 ] - INFOORDER Order({'order_id': '434c82eb612f487f94ea841033821cb1', 'symbol': '603325.SH', 'created': DateTime(2026, 9, 30, 9, 30), 'order_type': 'LONG', 'limit_price': 52.9, 'amount': 300, 'filled_amount': 0, 'type': ORDER_TYPE.LIMIT, 'transaction_cost': 0, 'avg_price': 0, 'status': ORDER_STATUS.PENDING_NEW, 'datetime': DateTime(2026, 9, 30, 9, 30), 'offset_flag': None})
+2026-09-30 09:33:36 - [ 2026-09-30 09:30:00 ] - INFOSUBMIT D11 603312.SH qty=-100 limit=33.17; acceptance is not a fill
+2026-09-30 09:33:36 - [ 2026-09-30 09:30:00 ] - INFOORDER Order({'order_id': '23a14924727641d0bc3c7dee1b9a58ea', 'symbol': '603312.SH', 'created': DateTime(2026, 9, 30, 9, 30), 'order_type': 'SHORT', 'limit_price': 33.17, 'amount': 100, 'filled_amount': 0, 'type': ORDER_TYPE.LIMIT, 'transaction_cost': 0, 'avg_price': 0, 'status': ORDER_STATUS.ACTIVE, 'datetime': DateTime(2026, 9, 30, 9, 30), 'offset_flag': None})
+2026-09-30 09:33:36 - [ 2026-09-30 09:30:00 ] - INFOORDER Order({'order_id': '23a14924727641d0bc3c7dee1b9a58ea', 'symbol': '603312.SH', 'created': DateTime(2026, 9, 30, 9, 30), 'order_type': 'SHORT', 'limit_price': 33.17, 'amount': 100, 'filled_amount': 0, 'type': ORDER_TYPE.LIMIT, 'transaction_cost': 0, 'avg_price': 0, 'status': ORDER_STATUS.PENDING_NEW, 'datetime': DateTime(2026, 9, 30, 9, 30), 'offset_flag': None})
+2026-09-30 09:33:33 - [ 2026-09-30 09:30:00 ] - INFOALPHA START handle_bar model=D11 version=2026-09-26-compatible-v4
+2026-09-30 09:28:41 - [ 2026-09-30 09:00:00 ] - INFOALPHA DONE before_trading
+2026-09-30 09:28:41 - [ 2026-09-30 09:00:00 ] - INFOALPHA SIGNAL ready ranking_count=100
+2026-09-30 09:28:09 - [ 2026-09-30 09:00:00 ] - INFOALPHA SIGNAL begin symbols=3196 dates=5
+2026-09-30 09:28:06 - [ 2026-09-30 09:00:00 ] - INFOALPHA FETCH batch=22/22 symbols=46 end=2026-09-29 start=2026-09-29
+2026-09-30 09:28:04 - [ 2026-09-30 09:00:00 ] - INFOALPHA FETCH batch=21/22 symbols=150 end=2026-09-29 start=2026-09-29
+2026-09-30 09:28:03 - [ 2026-09-30 09:00:00 ] - INFOALPHA FETCH batch=20/22 symbols=150 end=2026-09-29 start=2026-09-29
+2026-09-30 09:28:01 - [ 2026-09-30 09:00:00 ] - INFOALPHA FETCH batch=19/22 symbols=150 end=2026-09-29 start=2026-09-29
+2026-09-30 09:27:59 - [ 2026-09-30 09:00:00 ] - INFOALPHA FETCH batch=18/22 symbols=150 end=2026-09-29 start=2026-09-29
+2026-09-30 09:27:57 - [ 2026-09-30 09:00:00 ] - INFOALPHA FETCH batch=17/22 symbols=150 end=2026-09-29 start=2026-09-29
+2026-09-30 09:27:56 - [ 2026-09-30 09:00:00 ] - INFOALPHA FETCH batch=16/22 symbols=150 end=2026-09-29 start=2026-09-29
+2026-09-30 09:27:54 - [ 2026-09-30 09:00:00 ] - INFOALPHA FETCH batch=15/22 symbols=150 end=2026-09-29 start=2026-09-29
+2026-09-30 09:27:52 - [ 2026-09-30 09:00:00 ] - INFOALPHA FETCH batch=14/22 symbols=150 end=2026-09-29 start=2026-09-29
+2026-09-30 09:27:51 - [ 2026-09-30 09:00:00 ] - INFOALPHA FETCH batch=13/22 symbols=150 end=2026-09-29 start=2026-09-29
+2026-09-30 09:27:48 - [ 2026-09-30 09:00:00 ] - INFOALPHA FETCH batch=12/22 symbols=150 end=2026-09-29 start=2026-09-29
+2026-09-30 09:27:47 - [ 2026-09-30 09:00:00 ] - INFOALPHA FETCH batch=11/22 symbols=150 end=2026-09-29 start=2026-09-29
+2026-09-30 09:27:45 - [ 2026-09-30 09:00:00 ] - INFOALPHA FETCH batch=10/22 symbols=150 end=2026-09-29 start=2026-09-29

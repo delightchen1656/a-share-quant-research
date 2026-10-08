@@ -1,6 +1,6 @@
 # 科创行业轮动与温度门控版本
 
-本方向记录从行业分组轮动到科创2-1、2-2的研究收敛。当前正式科创2-2及其必要温度构造位于 `strategies/kechuang/`。
+本方向记录从行业分组轮动到科创2-1、2-2的研究收敛。科创2-2现为历史版本，完整旧树位于 `archive/kechuang/20261009_before_unification/`；当前唯一科创入口是 `strategies/kechuang/supermind_kechuang_1.py`。
 
 | 代码 | 对应策略或思路 |
 |---|---|

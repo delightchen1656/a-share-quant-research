@@ -1,0 +1,17 @@
+{
+  "current_name": "沪深1",
+  "source": "D7f",
+  "entry_sha256": "a573941eb69f850536288ba5ce4333d943c2eb4862e7f3a518e46dd55cc653fd",
+  "archive": "archive/hushen/20261008_before_unification",
+  "market_data_moved": false,
+  "deleted_files": 0,
+  "corporate_action_responses": 11515,
+  "runtime_input_hashes": {
+    "research/protocol.json": "06fa78de12bf8bd2ab9de0b2ed00388b3a411d483fc69886c53b9cf34d103b36",
+    "results/latest/inputs.json": "51eb2fd3ad3919cadf0f5734393249026751c0f71e7154c941ab678be44a4ab5",
+    "results/latest/rankings_original.json": "8d40fc5615f766c376e09d662c8dd655a187ff105a20fc683076b5b4aa3e2647",
+    "backtest/data/benchmark.parquet": "36674be3b57ca5dd84bc30b4a3f9b4f25af812e36ca7f2a68f24a38c81cc12df"
+  },
+  "prior_D7f_sha256": "2223e077ddf342d4cd0c6f8fe0bc916a93fdb13e8f58acd7cb2be118ec798a1c",
+  "fee_diagnostic_update": "2026-10-09, no trading or factor changes"
+}

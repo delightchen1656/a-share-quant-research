@@ -1,0 +1,13 @@
+{
+  "source_sha256": "5ac181275a885c574f3e16f527bf07b5976a73ca001bbfb9d63d7f44f95071f9",
+  "output_sha256": "74e471815c4db3cf737f067f1cfd0a6058080693db9320ed5d0b406a260013b7",
+  "model_blobs_unchanged": true,
+  "retrained": false,
+  "capital_setting": 500000,
+  "platform_server_tested": false,
+  "sizing": "legacy dynamic10%-20% retained",
+  "model_hashes": {
+    "_EMBEDDED_MODEL_B64": "ddeab6c38d5bb259cc9c9d96fbb6bd53dba6536378d4c679934d7ed27ecf8e27",
+    "_EMBEDDED_STOP_MODEL_B64": "aefce4bf06d2c065a14ee52cfa0442ae18de34f9bca851058cb4857925f2359d"
+  }
+}

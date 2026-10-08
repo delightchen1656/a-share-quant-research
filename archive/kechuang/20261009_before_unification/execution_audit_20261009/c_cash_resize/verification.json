@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "boundary_cases": 44,
+  "unchanged_functions": [
+    "_load_model",
+    "_tree_probability",
+    "_batch_probabilities",
+    "_last_features",
+    "_load_stop_model",
+    "init",
+    "before_trading",
+    "_submit",
+    "_live_trade_state",
+    "_available_cash",
+    "_reconcile_position_state",
+    "on_order",
+    "after_trading"
+  ],
+  "constants_and_models_unchanged": true,
+  "source_sha256": "5ac181275a885c574f3e16f527bf07b5976a73ca001bbfb9d63d7f44f95071f9",
+  "output_sha256": "f238184368bd43dc2a06b38c494229d791bc072170b04299ea2a8cd1c604c2eb",
+  "platform_tested": false,
+  "remaining_legacy_issues": [
+    "callback race/audit zeros",
+    "missing entry date fallback",
+    "unhalvable expiry branch",
+    "no async local cash reservation"
+  ],
+  "local_comparison": "C uses common daily proxy and sizes all buys explicitly; platform retains original percent order for fully funded buys, not exact platform return reproduction"
+}

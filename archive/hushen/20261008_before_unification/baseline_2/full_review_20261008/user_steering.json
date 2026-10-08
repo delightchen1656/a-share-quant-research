@@ -1,0 +1,8 @@
+{
+  "risk_limit": null,
+  "risk_limit_reason": "User replied 没有; report risk without inventing a pass threshold.",
+  "data_frequency": "daily",
+  "data_frequency_reason": "User replied 就用日线做. D7 daily platform export and strict daily local approximation are primary, not V6 minute performance.",
+  "added_diagnostic": "252-session equal holding horizons for requested starts with sufficient history. Diagnostic only; no selection or tuning.",
+  "external_validation": "Current browser inventory has no open authenticated SuperMind tabs. No claim of running platform server or obtaining new forward receipts."
+}

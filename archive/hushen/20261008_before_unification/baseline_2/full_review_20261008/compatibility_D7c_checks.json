@@ -1,0 +1,13 @@
+{
+  "compute_signals": true,
+  "_before_trading": true,
+  "_handle_bar": true,
+  "_fetch": true,
+  "_submit": true,
+  "on_order": true,
+  "on_trade": true,
+  "_after_trading": true,
+  "init_platform_metadata_independent": true,
+  "directional_tick_rounding": true,
+  "same_D7_price_and_cash_functions": true
+}

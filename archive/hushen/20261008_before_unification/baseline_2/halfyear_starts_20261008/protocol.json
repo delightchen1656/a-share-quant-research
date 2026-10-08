@@ -1,0 +1,23 @@
+{
+  "entry": "C:\\Users\\22241\\Desktop\\quant\\strategies\\hushen\\supermind_mainboard_baseline_2.py",
+  "sha256": "15f969943623c5f51febdad9f96c6b7834b7aa7c9ea3de4b764efba8fe2866f9",
+  "requests": [
+    "2020-01-01",
+    "2020-07-01",
+    "2021-01-01",
+    "2021-07-01",
+    "2022-01-01",
+    "2022-07-01",
+    "2023-01-01",
+    "2023-07-01",
+    "2024-01-01",
+    "2024-07-01",
+    "2025-01-01",
+    "2025-07-01",
+    "2026-01-01",
+    "2026-07-01"
+  ],
+  "end": "2026-09-30",
+  "initial_cash": 100000,
+  "note": "Independent empty starts; next available session on holidays. Original global 20-session phase retained, not reset per start. No tuning. Sharpe daily simple returns including day one, ddof1, rf0, annual252."
+}

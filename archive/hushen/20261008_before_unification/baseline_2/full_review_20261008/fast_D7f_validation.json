@@ -1,0 +1,20 @@
+{
+  "days": 70,
+  "symbols": 180,
+  "scenario": "deterministic synthetic: listing,delisting,ST,pause,rejected orders",
+  "all_daily_ranks_targets_orders_positions_cash_equal": true,
+  "all_other_functions_AST_equal": true,
+  "old": {
+    "history_calls": 140,
+    "returned_rows": 107054,
+    "universe_calls": 74,
+    "local_seconds": 17.009789500036277
+  },
+  "fast": {
+    "history_calls": 75,
+    "returned_rows": 75932,
+    "universe_calls": 21,
+    "local_seconds": 6.178708800114691
+  },
+  "platform_runtime_measured": false
+}

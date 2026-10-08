@@ -1,0 +1,72 @@
+{
+  "capital": 500000,
+  "additional_capital": false,
+  "frequency": "daily",
+  "fit": [
+    "2020-01-01",
+    "2022-12-31"
+  ],
+  "select": [
+    "2023-01-01",
+    "2023-12-31"
+  ],
+  "confirm": [
+    "2024-01-01",
+    "2024-12-31"
+  ],
+  "historical_test": [
+    "2025-01-01",
+    "2026-09-30"
+  ],
+  "model": "HistGradientBoostingClassifier; fresh fit, no pretrained trees",
+  "leaves": [
+    7,
+    15,
+    31
+  ],
+  "max_iter": 180,
+  "learning_rate": 0.04,
+  "l2": 3,
+  "class_weight": "balanced",
+  "event_thresholds": [
+    0.5,
+    0.63,
+    0.75
+  ],
+  "stop_thresholds": [
+    0.35,
+    0.5,
+    0.65
+  ],
+  "trial_budget": 81,
+  "selection": "2023 net CAGR descending; ties fewer leaves then candidate id",
+  "minimum_fills": 20,
+  "drawdown_limit": null,
+  "sizing": "fixed 10%, max14, top8",
+  "features": "18 fixed technical features; no future feature selection",
+  "labels": "20 future bars high>=1.30 close; 22 future opens stop7 before profit24; label end bounded per split",
+  "hypotheses": [
+    "event scoring improves a simple trend ranking",
+    "stop head reduces adverse entries",
+    "strong trend extension retains winners"
+  ],
+  "falsification": "nonpositive development CAGR or failure of component controls prevents automatic promotion",
+  "execution": "previous-close signals, next-open fills; audited expiry priority; buy before sell; historical surviving/retired pool",
+  "cost_limitations": "0.2% slip each side, commission .0003 min5, stamp .001 throughout, dividend tax20%, no transfer fee; provisional not full historical cost audit",
+  "remaining_full_process": [
+    "historical fee/FIFO tax rebuild",
+    "equal-weight investable comparator",
+    "equal-length and start-date robustness",
+    "capacity delay cost stresses",
+    "order event fault tests",
+    "forward simulation"
+  ],
+  "source_hashes": {
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\retrain_2022\\pipeline.py": "9e30c4f648c91ffd6dbc645d36839e3fcd633c8724f5b39352c10fa01c942f9d",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\retrain_2022\\search_1000\\search.py": "6d10823bdf5e8a3d9e84b02f9a45e41562a4cc03923f8900a11ef9ceae580ea8",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\baseline_3_2\\start_date_study.py": "dc6a338a8bb81ab3b649118baf755b3ef72b73adfc3f3cbf97932098dc51aa5f",
+    "C:\\Users\\22241\\Desktop\\quant\\strategies\\kechuang\\supermind_baseline_3_2_audited_daily.py": "d788ab580aa8bb7e1940795e2f0e092d2aec0fb3753d96ec2cbc4012b731b817"
+  },
+  "no_post2023_selection": true,
+  "status": "phase1 research; not production or original 3-1 replica"
+}

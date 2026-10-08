@@ -1,0 +1,12 @@
+{
+  "platform_sha256": "9ac8f6c80e31f74ac40ddcf13f0e6564c0d120cb7897d2f7dbd4b764308b933d",
+  "local_sha256": "87056b1ed20b658077efb3b793a88aa3befcdda6b1da7d7e81742a7f17cc6454",
+  "input_manifest_sha256": "2c38b57bc71f8eeeb6e95df47fd4cffc34e5f6ac8847d8dcc671917277f13262",
+  "ranking_sha256": "71cf375e9f965f2fe145bb0927d97d850aa4f6dc9ae2cf3d87fd3e06e94c6944",
+  "minute_sha256": null,
+  "impact": 0.001,
+  "checks": {
+    "calendar": true,
+    "raw_inputs": true
+  }
+}

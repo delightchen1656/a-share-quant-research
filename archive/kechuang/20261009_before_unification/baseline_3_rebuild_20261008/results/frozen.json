@@ -1,0 +1,32 @@
+{
+  "selected": {
+    "start": "2023-01-03",
+    "end": "2023-12-31",
+    "final_asset": 496971.0384266641,
+    "total_return": -0.006057923146671862,
+    "cagr": -0.006112144028165178,
+    "max_drawdown": -0.058047085346938254,
+    "sharpe_rf0": -0.0325403913721304,
+    "avg_exposure": 0.12134383019241962,
+    "fills": 45,
+    "capacity_capped_orders": 0,
+    "worst_quarter": -0.014520736241376286,
+    "positive_quarters": 2,
+    "objective": -0.03876587076197838,
+    "stage": "trial_016",
+    "fees": 1605.484693336,
+    "reference_price_differences": 0,
+    "id": 16,
+    "event": 0,
+    "stop": 1,
+    "p_threshold": 0.75,
+    "s_threshold": 0.35
+  },
+  "development_positive": false,
+  "frozen_at": "2026-10-08T23:19:01.758385+08:00",
+  "hashes": {
+    "event_model.joblib": "6408a09db824509dda6234371f9efd9896026bbf0126c24e9eca7fc69b2da1a0",
+    "stop_model.joblib": "e474df8801d79ac57e7461e2f540db0528a01636942cfa6a7e1cfcc67541a9a5",
+    "supermind_rebuild_research_daily.py": "5d079ba418c0da4dd2c9754a36726b0897cf70d5a72417d85f2a522891ccd950"
+  }
+}

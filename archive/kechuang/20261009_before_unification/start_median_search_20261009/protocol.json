@@ -1,0 +1,38 @@
+{
+  "capital": 500000,
+  "starts": "all trading days2020-01-01..2020-06-30",
+  "end": "2026-09-30",
+  "configs": [
+    [
+      "original",
+      0.63,
+      0.5
+    ],
+    [
+      "up061",
+      0.61,
+      0.5
+    ],
+    [
+      "up065",
+      0.65,
+      0.5
+    ],
+    [
+      "stop048",
+      0.63,
+      0.48
+    ],
+    [
+      "stop052",
+      0.63,
+      0.52
+    ]
+  ],
+  "objective": "median final asset; tie original then config order",
+  "training": false,
+  "risk_limit": null,
+  "interpretation": "retrospective full-history tuning, correlated accounts, NOT OOS",
+  "source_sha256": "7318912d321fd5126724f9ef4761f59c4385354895329c21f387b590bb110bfb",
+  "cost": "inherited original fixed .001 stamp, .0003min5 commission,.002slip; local proxy"
+}

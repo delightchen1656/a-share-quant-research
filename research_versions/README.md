@@ -1,4 +1,8 @@
+> 2026-10-08：沪深九类研究方向已移至 `archive/hushen/research_versions/`；其索引见 `archive/hushen/INDEX.md`。本目录只保留科创与单股研究版本。
+
 # 研究版本代码归档
+
+2026-10-09当前入口已统一为科创基准1与沪深1。科创唯一平台为 `strategies/kechuang/supermind_kechuang_1.py`；本目录旧科创名称均为历史研究，不因名称接近而视为当前版本。原strategies科创树见 `archive/kechuang/20261009_before_unification/`。
 
 本目录保存已经退出当前入口、但能代表一次明确策略版本、冻结候选或研究假设的代码。源码从清理前提交 `ca523434` 恢复，并按策略含义重命名；当前正式代码仍以 `strategies/` 为准。
 
@@ -16,15 +20,6 @@
 | `kechuang_event_risk/` | 10 | 科创事件模型、风险控制与1-1/1-3标志版本 |
 | `kechuang_high_attack/` | 6 | 科创3-1的20方向、10结构方向及资金派生版 |
 | `kechuang_industry_temperature/` | 4 | 行业轮动、温度门控及科创2-1 |
-| `hushen_r08_rounds/` | 27 | R08从第1轮到第22轮的研究源码与核心执行引擎 |
-| `hushen_return_first/` | 25 | 沪深收益优先M02—M18研究路线 |
-| `hushen_event_prediction/` | 9 | 沪深事件预测、趋势模型与再平衡研究 |
-| `hushen_frontier_low_drawdown/` | 2 | 30路线前沿与10方向低回撤研究 |
-| `hushen_sector_rotation/` | 2 | 公开板块轮动的本地与现实撮合版本 |
-| `hushen_rapid_rally/` | 2 | 10日50%快速上涨事件筛选与频率研究 |
-| `hushen_legacy_platform/` | 1 | R08之前的状态切换红利反转平台版 |
-| `hushen_migration_experiments/` | 3 | 科创策略向沪深股票池迁移的历史实验 |
-| `hushen_legacy_baseline2/` | 45 | 已退出的沪深基准2及Monthly-A研究版本 |
 | `stock_603106/` | 4 | 603106单股模型、收益搜索和中期研究 |
 
 当前主线、候选和训练源码见仓库根目录 `README.md`。本目录是只读研究记忆，不增加正式基准数量。

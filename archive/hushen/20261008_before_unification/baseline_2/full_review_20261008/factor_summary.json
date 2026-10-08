@@ -1,0 +1,578 @@
+[
+  {
+    "control": "intraday_only",
+    "stage": "confirmation",
+    "periods": 11,
+    "mean_ic": 0.07543927925476643,
+    "positive_fraction": 0.6363636363636364,
+    "mean_quintile_returns": [
+      -0.0006193183510362962,
+      0.018151135059773185,
+      0.018019586434734985,
+      0.018649888368275736,
+      0.01946004429219457
+    ],
+    "top_minus_bottom": 0.020079362643230868,
+    "missing_labels": 0
+  },
+  {
+    "control": "intraday_only",
+    "stage": "development",
+    "periods": 47,
+    "mean_ic": 0.07261417828673564,
+    "positive_fraction": 0.8085106382978723,
+    "mean_quintile_returns": [
+      0.0038263116124798435,
+      0.013123502015163659,
+      0.01480313918880958,
+      0.01520657775882897,
+      0.0160675834746029
+    ],
+    "top_minus_bottom": 0.012241271862123055,
+    "missing_labels": 1
+  },
+  {
+    "control": "intraday_only",
+    "stage": "evaluation",
+    "periods": 21,
+    "mean_ic": 0.10828149460403591,
+    "positive_fraction": 0.7619047619047619,
+    "mean_quintile_returns": [
+      0.0034404474588992625,
+      0.012566016966551543,
+      0.018853768984051604,
+      0.02107533550951018,
+      0.02650664263008112
+    ],
+    "top_minus_bottom": 0.023066195171181858,
+    "missing_labels": 0
+  },
+  {
+    "control": "intraday_only",
+    "stage": "selection",
+    "periods": 11,
+    "mean_ic": 0.08041529633276553,
+    "positive_fraction": 0.6363636363636364,
+    "mean_quintile_returns": [
+      -0.007674566994472579,
+      0.004302374252539934,
+      0.005459403018323073,
+      0.008018583441617223,
+      0.00548293259576767
+    ],
+    "top_minus_bottom": 0.013157499590240249,
+    "missing_labels": 0
+  },
+  {
+    "control": "low_vol_only",
+    "stage": "confirmation",
+    "periods": 11,
+    "mean_ic": 0.07850093665099409,
+    "positive_fraction": 0.6363636363636364,
+    "mean_quintile_returns": [
+      0.011895747333433,
+      0.012732270639836672,
+      0.015309066443729131,
+      0.01431892574420164,
+      0.01941607902536551
+    ],
+    "top_minus_bottom": 0.007520331691932511,
+    "missing_labels": 0
+  },
+  {
+    "control": "low_vol_only",
+    "stage": "development",
+    "periods": 47,
+    "mean_ic": 0.08752874119945556,
+    "positive_fraction": 0.7021276595744681,
+    "mean_quintile_returns": [
+      0.004438077281115522,
+      0.011557953558892716,
+      0.015657356475168145,
+      0.017561922446318826,
+      0.013812235649166607
+    ],
+    "top_minus_bottom": 0.009374158368051085,
+    "missing_labels": 1
+  },
+  {
+    "control": "low_vol_only",
+    "stage": "evaluation",
+    "periods": 21,
+    "mean_ic": 0.039859595357828785,
+    "positive_fraction": 0.6666666666666666,
+    "mean_quintile_returns": [
+      0.014115143997221725,
+      0.02232719753050366,
+      0.019470491871923457,
+      0.017505192084748777,
+      0.0090473322826389
+    ],
+    "top_minus_bottom": -0.005067811714582825,
+    "missing_labels": 0
+  },
+  {
+    "control": "low_vol_only",
+    "stage": "selection",
+    "periods": 11,
+    "mean_ic": 0.11322149125307003,
+    "positive_fraction": 0.8181818181818182,
+    "mean_quintile_returns": [
+      -0.0075243895132044184,
+      0.0005582238082959529,
+      0.0055488362150114675,
+      0.008272730596621565,
+      0.0087352724999919
+    ],
+    "top_minus_bottom": 0.01625966201319632,
+    "missing_labels": 0
+  },
+  {
+    "control": "original",
+    "stage": "confirmation",
+    "periods": 11,
+    "mean_ic": 0.05210742358812039,
+    "positive_fraction": 0.6363636363636364,
+    "mean_quintile_returns": [
+      0.006979457067974987,
+      0.01368356886918602,
+      0.01962750852980512,
+      0.01721340204121147,
+      0.01616544029231398
+    ],
+    "top_minus_bottom": 0.009185983224338994,
+    "missing_labels": 0
+  },
+  {
+    "control": "original",
+    "stage": "development",
+    "periods": 47,
+    "mean_ic": 0.08420429776478083,
+    "positive_fraction": 0.7659574468085106,
+    "mean_quintile_returns": [
+      0.004381478787949764,
+      0.009253627986237202,
+      0.01223194802350575,
+      0.016186607798913923,
+      0.02096932270867676
+    ],
+    "top_minus_bottom": 0.016587843920727,
+    "missing_labels": 1
+  },
+  {
+    "control": "original",
+    "stage": "evaluation",
+    "periods": 21,
+    "mean_ic": 0.10800033540746347,
+    "positive_fraction": 0.7142857142857143,
+    "mean_quintile_returns": [
+      0.007901847604094495,
+      0.01240613645968061,
+      0.015030554582092173,
+      0.02038642359155928,
+      0.026722472120744228
+    ],
+    "top_minus_bottom": 0.01882062451664973,
+    "missing_labels": 0
+  },
+  {
+    "control": "original",
+    "stage": "selection",
+    "periods": 11,
+    "mean_ic": 0.15071579860537426,
+    "positive_fraction": 0.8181818181818182,
+    "mean_quintile_returns": [
+      -0.011256823236466899,
+      -0.001278392360978265,
+      0.004288800676483962,
+      0.007279747196842926,
+      0.016551198334209247
+    ],
+    "top_minus_bottom": 0.027808021570676147,
+    "missing_labels": 0
+  },
+  {
+    "control": "overnight_only",
+    "stage": "confirmation",
+    "periods": 11,
+    "mean_ic": 0.015834800451811196,
+    "positive_fraction": 0.7272727272727273,
+    "mean_quintile_returns": [
+      0.00866226014984558,
+      0.019848436968316067,
+      0.016216160976956537,
+      0.016093063836796623,
+      0.012853961277518132
+    ],
+    "top_minus_bottom": 0.004191701127672552,
+    "missing_labels": 0
+  },
+  {
+    "control": "overnight_only",
+    "stage": "development",
+    "periods": 47,
+    "mean_ic": 0.03813081320379222,
+    "positive_fraction": 0.7446808510638298,
+    "mean_quintile_returns": [
+      0.005504269708503965,
+      0.011685469794500658,
+      0.014079459547054841,
+      0.01562904333467719,
+      0.0161314708596083
+    ],
+    "top_minus_bottom": 0.010627201151104335,
+    "missing_labels": 1
+  },
+  {
+    "control": "overnight_only",
+    "stage": "evaluation",
+    "periods": 21,
+    "mean_ic": 0.023560829955854082,
+    "positive_fraction": 0.7142857142857143,
+    "mean_quintile_returns": [
+      0.012099602878386403,
+      0.016673718321355085,
+      0.017358902864565578,
+      0.017199801180749603,
+      0.019123393518160354
+    ],
+    "top_minus_bottom": 0.007023790639773951,
+    "missing_labels": 0
+  },
+  {
+    "control": "overnight_only",
+    "stage": "selection",
+    "periods": 11,
+    "mean_ic": 0.04232763044261082,
+    "positive_fraction": 0.6363636363636364,
+    "mean_quintile_returns": [
+      -0.0034723718277253775,
+      0.004215601500149559,
+      0.0053565164253641905,
+      0.005419018200141925,
+      0.0040814717954459285
+    ],
+    "top_minus_bottom": 0.0075538436231713055,
+    "missing_labels": 0
+  },
+  {
+    "control": "size_only",
+    "stage": "confirmation",
+    "periods": 11,
+    "mean_ic": -0.02116827979868692,
+    "positive_fraction": 0.5454545454545454,
+    "mean_quintile_returns": [
+      0.01758146150142407,
+      0.014459544644944521,
+      0.013885015438161404,
+      0.014234251204303956,
+      0.01351975029117391
+    ],
+    "top_minus_bottom": -0.004061711210250158,
+    "missing_labels": 0
+  },
+  {
+    "control": "size_only",
+    "stage": "development",
+    "periods": 47,
+    "mean_ic": 0.018254774931623755,
+    "positive_fraction": 0.5319148936170213,
+    "mean_quintile_returns": [
+      0.009564718504577213,
+      0.011900560402640117,
+      0.010090606828786906,
+      0.014420698617439429,
+      0.017050077899001276
+    ],
+    "top_minus_bottom": 0.007485359394424063,
+    "missing_labels": 1
+  },
+  {
+    "control": "size_only",
+    "stage": "evaluation",
+    "periods": 21,
+    "mean_ic": 0.07214942728325892,
+    "positive_fraction": 0.5714285714285714,
+    "mean_quintile_returns": [
+      0.010134393960891039,
+      0.011399744589289048,
+      0.014966668558052468,
+      0.01959729360473685,
+      0.026354635765390634
+    ],
+    "top_minus_bottom": 0.016220241804499595,
+    "missing_labels": 0
+  },
+  {
+    "control": "size_only",
+    "stage": "selection",
+    "periods": 11,
+    "mean_ic": 0.11413099213149604,
+    "positive_fraction": 0.6363636363636364,
+    "mean_quintile_returns": [
+      -0.007578922244836517,
+      -0.002348780862849152,
+      0.0010069243768946118,
+      0.008604764726446746,
+      0.015907746613446114
+    ],
+    "top_minus_bottom": 0.02348666885828263,
+    "missing_labels": 0
+  },
+  {
+    "control": "without_intraday",
+    "stage": "confirmation",
+    "periods": 11,
+    "mean_ic": 0.03291034353855503,
+    "positive_fraction": 0.5454545454545454,
+    "mean_quintile_returns": [
+      0.010923214145804739,
+      0.01439907984443251,
+      0.017760621840253545,
+      0.016309817563049736,
+      0.014285782337475154
+    ],
+    "top_minus_bottom": 0.0033625681916704155,
+    "missing_labels": 0
+  },
+  {
+    "control": "without_intraday",
+    "stage": "development",
+    "periods": 47,
+    "mean_ic": 0.06916129449907943,
+    "positive_fraction": 0.723404255319149,
+    "mean_quintile_returns": [
+      0.0058182601845872175,
+      0.008400815084374763,
+      0.012511679577464642,
+      0.015469033487325569,
+      0.02082607100423942
+    ],
+    "top_minus_bottom": 0.015007810819652202,
+    "missing_labels": 1
+  },
+  {
+    "control": "without_intraday",
+    "stage": "evaluation",
+    "periods": 21,
+    "mean_ic": 0.08300249403213841,
+    "positive_fraction": 0.7619047619047619,
+    "mean_quintile_returns": [
+      0.01159157980354283,
+      0.012524309900103498,
+      0.013650344030644386,
+      0.019716623560117694,
+      0.024969873770911526
+    ],
+    "top_minus_bottom": 0.013378293967368695,
+    "missing_labels": 0
+  },
+  {
+    "control": "without_intraday",
+    "stage": "selection",
+    "periods": 11,
+    "mean_ic": 0.14499679002650365,
+    "positive_fraction": 0.9090909090909091,
+    "mean_quintile_returns": [
+      -0.010851099950019049,
+      -0.001049865403183252,
+      0.003090429725828694,
+      0.008548602707729537,
+      0.015847664871712398
+    ],
+    "top_minus_bottom": 0.026698764821731447,
+    "missing_labels": 0
+  },
+  {
+    "control": "without_overnight",
+    "stage": "confirmation",
+    "periods": 11,
+    "mean_ic": 0.049534537064132626,
+    "positive_fraction": 0.5454545454545454,
+    "mean_quintile_returns": [
+      0.007031914712584277,
+      0.015409940951905095,
+      0.01750265184954562,
+      0.017813179780398637,
+      0.015910536018544988
+    ],
+    "top_minus_bottom": 0.008878621305960711,
+    "missing_labels": 0
+  },
+  {
+    "control": "without_overnight",
+    "stage": "development",
+    "periods": 47,
+    "mean_ic": 0.08186021895328763,
+    "positive_fraction": 0.7021276595744681,
+    "mean_quintile_returns": [
+      0.006249802915213813,
+      0.008871234194865301,
+      0.010593350944344805,
+      0.01678564462454013,
+      0.02052488300975725
+    ],
+    "top_minus_bottom": 0.014275080094543438,
+    "missing_labels": 1
+  },
+  {
+    "control": "without_overnight",
+    "stage": "evaluation",
+    "periods": 21,
+    "mean_ic": 0.12308984918802379,
+    "positive_fraction": 0.7142857142857143,
+    "mean_quintile_returns": [
+      0.006625818399020019,
+      0.012305291319931114,
+      0.014925478895092907,
+      0.02041447223417679,
+      0.028172934614800183
+    ],
+    "top_minus_bottom": 0.021547116215780163,
+    "missing_labels": 0
+  },
+  {
+    "control": "without_overnight",
+    "stage": "selection",
+    "periods": 11,
+    "mean_ic": 0.16862933635206187,
+    "positive_fraction": 0.8181818181818182,
+    "mean_quintile_returns": [
+      -0.01318205497879521,
+      -0.0020832030896081894,
+      0.00295226799917748,
+      0.010790755936830109,
+      0.017107202952045382
+    ],
+    "top_minus_bottom": 0.030289257930840592,
+    "missing_labels": 0
+  },
+  {
+    "control": "without_size",
+    "stage": "confirmation",
+    "periods": 11,
+    "mean_ic": 0.07207777790737975,
+    "positive_fraction": 0.7272727272727273,
+    "mean_quintile_returns": [
+      0.00545351198557229,
+      0.014615569837275395,
+      0.0185809784891089,
+      0.018241940043583857,
+      0.016776149336221402
+    ],
+    "top_minus_bottom": 0.011322637350649112,
+    "missing_labels": 0
+  },
+  {
+    "control": "without_size",
+    "stage": "development",
+    "periods": 47,
+    "mean_ic": 0.08954980816980863,
+    "positive_fraction": 0.851063829787234,
+    "mean_quintile_returns": [
+      0.003252389806004018,
+      0.010867172150958202,
+      0.014700109399192855,
+      0.016096928670394094,
+      0.01810928143093586
+    ],
+    "top_minus_bottom": 0.014856891624931843,
+    "missing_labels": 1
+  },
+  {
+    "control": "without_size",
+    "stage": "evaluation",
+    "periods": 21,
+    "mean_ic": 0.0741416297341108,
+    "positive_fraction": 0.7142857142857143,
+    "mean_quintile_returns": [
+      0.009583010891821417,
+      0.017600603693341342,
+      0.017640601068785414,
+      0.018577130467176333,
+      0.019052410893033372
+    ],
+    "top_minus_bottom": 0.009469400001211955,
+    "missing_labels": 0
+  },
+  {
+    "control": "without_size",
+    "stage": "selection",
+    "periods": 11,
+    "mean_ic": 0.10155755220790294,
+    "positive_fraction": 0.5454545454545454,
+    "mean_quintile_returns": [
+      -0.00574197927776897,
+      0.0013112699228025433,
+      0.004520534260992962,
+      0.006152912955662371,
+      0.009347327655751561
+    ],
+    "top_minus_bottom": 0.015089306933520532,
+    "missing_labels": 0
+  },
+  {
+    "control": "without_vol",
+    "stage": "confirmation",
+    "periods": 11,
+    "mean_ic": 0.024410056103336197,
+    "positive_fraction": 0.6363636363636364,
+    "mean_quintile_returns": [
+      0.011570246132849899,
+      0.014595211584962903,
+      0.013163763872453488,
+      0.017247379967989508,
+      0.017094012184732364
+    ],
+    "top_minus_bottom": 0.005523766051882465,
+    "missing_labels": 0
+  },
+  {
+    "control": "without_vol",
+    "stage": "development",
+    "periods": 47,
+    "mean_ic": 0.06012169211211639,
+    "positive_fraction": 0.7021276595744681,
+    "mean_quintile_returns": [
+      0.005845855295419891,
+      0.009267744349554302,
+      0.011434035997517269,
+      0.015604048582651913,
+      0.0208714163373253
+    ],
+    "top_minus_bottom": 0.01502556104190541,
+    "missing_labels": 1
+  },
+  {
+    "control": "without_vol",
+    "stage": "evaluation",
+    "periods": 21,
+    "mean_ic": 0.10380186334764675,
+    "positive_fraction": 0.8095238095238095,
+    "mean_quintile_returns": [
+      0.004578998834884786,
+      0.013384648749522046,
+      0.014751597534977543,
+      0.022316479549222404,
+      0.027414766091936365
+    ],
+    "top_minus_bottom": 0.022835767257051578,
+    "missing_labels": 0
+  },
+  {
+    "control": "without_vol",
+    "stage": "selection",
+    "periods": 11,
+    "mean_ic": 0.12830605004953058,
+    "positive_fraction": 0.7272727272727273,
+    "mean_quintile_returns": [
+      -0.00830213258015926,
+      -0.002367738402738807,
+      0.0034704995614869226,
+      0.00746481469350938,
+      0.015323684255166566
+    ],
+    "top_minus_bottom": 0.023625816835325823,
+    "missing_labels": 0
+  }
+]

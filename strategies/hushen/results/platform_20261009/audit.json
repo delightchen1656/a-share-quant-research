@@ -1,0 +1,2793 @@
+{
+  "summary": {
+    "trades": 91,
+    "fills": 91,
+    "days": 182,
+    "orders": 91,
+    "duplicate_exec_ids": [],
+    "failed_orders": [],
+    "issues": {
+      "stamp_rate": 43
+    },
+    "commission": 564.0469999999999,
+    "platform_stamp": 878.847,
+    "expected_stamp": 439.4235,
+    "final": {
+      "nav": 117865.11,
+      "cash": 9341.11,
+      "holdings": {
+        "603350.SH": {
+          "qty": 800,
+          "value": 22616.0,
+          "close": 28.27
+        },
+        "603325.SH": {
+          "qty": 400,
+          "value": 21384.0,
+          "close": 53.46
+        },
+        "603312.SH": {
+          "qty": 600,
+          "value": 19740.0,
+          "close": 32.9
+        },
+        "603273.SH": {
+          "qty": 1500,
+          "value": 21780.0,
+          "close": 14.52
+        },
+        "002982.SZ": {
+          "qty": 1800,
+          "value": 23004.0,
+          "close": 12.78
+        }
+      },
+      "line": 2
+    },
+    "cash_events": [
+      {
+        "date": "2026-04-30",
+        "nav": 117572.85,
+        "cash": 10328.85,
+        "nav_residual": 0.0,
+        "quantity_changes_not_in_trades": {},
+        "cash_nontrade_change": 200.0,
+        "mark_errors": [],
+        "issues": []
+      }
+    ],
+    "quantity_events": [],
+    "nav_errors": [],
+    "t1_flags": [],
+    "runtime_errors": []
+  },
+  "trade_checks": [
+    {
+      "csv_row": 2,
+      "date": "2026-09-29",
+      "symbol": "000633.SZ",
+      "qty": -4100,
+      "expected_stamp": 10.72,
+      "platform_stamp": 21.44,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 3,
+      "date": "2026-09-29",
+      "symbol": "603275.SH",
+      "qty": -600,
+      "expected_stamp": 11.1,
+      "platform_stamp": 22.2,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 4,
+      "date": "2026-09-29",
+      "symbol": "001390.SZ",
+      "qty": -1300,
+      "expected_stamp": 11.32,
+      "platform_stamp": 22.65,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 5,
+      "date": "2026-09-29",
+      "symbol": "603350.SH",
+      "qty": 800,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 6,
+      "date": "2026-09-29",
+      "symbol": "002982.SZ",
+      "qty": 1800,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 7,
+      "date": "2026-09-29",
+      "symbol": "603325.SH",
+      "qty": 400,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 8,
+      "date": "2026-09-29",
+      "symbol": "603310.SH",
+      "qty": -1500,
+      "expected_stamp": 10.99,
+      "platform_stamp": 21.98,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 9,
+      "date": "2026-09-29",
+      "symbol": "603273.SH",
+      "qty": 1500,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 10,
+      "date": "2026-09-29",
+      "symbol": "603312.SH",
+      "qty": 600,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 11,
+      "date": "2026-09-29",
+      "symbol": "603276.SH",
+      "qty": -1400,
+      "expected_stamp": 12.25,
+      "platform_stamp": 24.5,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 12,
+      "date": "2026-08-31",
+      "symbol": "600444.SH",
+      "qty": -1500,
+      "expected_stamp": 10.86,
+      "platform_stamp": 21.72,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 13,
+      "date": "2026-08-31",
+      "symbol": "600689.SH",
+      "qty": -1900,
+      "expected_stamp": 11.5,
+      "platform_stamp": 22.99,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 14,
+      "date": "2026-08-31",
+      "symbol": "001260.SZ",
+      "qty": -1200,
+      "expected_stamp": 10.68,
+      "platform_stamp": 21.36,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 15,
+      "date": "2026-08-31",
+      "symbol": "002633.SZ",
+      "qty": -1500,
+      "expected_stamp": 10.99,
+      "platform_stamp": 21.98,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 16,
+      "date": "2026-08-31",
+      "symbol": "603275.SH",
+      "qty": 600,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 17,
+      "date": "2026-08-31",
+      "symbol": "605122.SH",
+      "qty": -1900,
+      "expected_stamp": 11.1,
+      "platform_stamp": 22.19,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 18,
+      "date": "2026-08-31",
+      "symbol": "001390.SZ",
+      "qty": 1300,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 19,
+      "date": "2026-08-31",
+      "symbol": "000633.SZ",
+      "qty": 4100,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 20,
+      "date": "2026-08-31",
+      "symbol": "603276.SH",
+      "qty": 1400,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 21,
+      "date": "2026-08-31",
+      "symbol": "603310.SH",
+      "qty": 1500,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 22,
+      "date": "2026-08-03",
+      "symbol": "605122.SH",
+      "qty": 1900,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 23,
+      "date": "2026-08-03",
+      "symbol": "001202.SZ",
+      "qty": -1400,
+      "expected_stamp": 8.65,
+      "platform_stamp": 17.3,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 24,
+      "date": "2026-08-03",
+      "symbol": "002633.SZ",
+      "qty": 1500,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 25,
+      "date": "2026-08-03",
+      "symbol": "000590.SZ",
+      "qty": -2400,
+      "expected_stamp": 9.94,
+      "platform_stamp": 19.87,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 26,
+      "date": "2026-08-03",
+      "symbol": "600444.SH",
+      "qty": 1500,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 27,
+      "date": "2026-08-03",
+      "symbol": "001222.SZ",
+      "qty": -1400,
+      "expected_stamp": 9.93,
+      "platform_stamp": 19.87,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 28,
+      "date": "2026-08-03",
+      "symbol": "600689.SH",
+      "qty": -100,
+      "expected_stamp": 0.5,
+      "platform_stamp": 0.99,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 29,
+      "date": "2026-08-03",
+      "symbol": "002144.SZ",
+      "qty": -2000,
+      "expected_stamp": 10.11,
+      "platform_stamp": 20.22,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 30,
+      "date": "2026-08-03",
+      "symbol": "001260.SZ",
+      "qty": 1200,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 31,
+      "date": "2026-07-06",
+      "symbol": "001222.SZ",
+      "qty": 100,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 32,
+      "date": "2026-07-06",
+      "symbol": "003020.SZ",
+      "qty": -1300,
+      "expected_stamp": 10.5,
+      "platform_stamp": 21.01,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 33,
+      "date": "2026-07-06",
+      "symbol": "002144.SZ",
+      "qty": 2000,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 34,
+      "date": "2026-07-06",
+      "symbol": "002661.SZ",
+      "qty": -2700,
+      "expected_stamp": 9.99,
+      "platform_stamp": 19.98,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 35,
+      "date": "2026-07-06",
+      "symbol": "001387.SZ",
+      "qty": -1700,
+      "expected_stamp": 11.56,
+      "platform_stamp": 23.12,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 36,
+      "date": "2026-07-06",
+      "symbol": "001202.SZ",
+      "qty": 1400,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 37,
+      "date": "2026-07-06",
+      "symbol": "600661.SH",
+      "qty": -2500,
+      "expected_stamp": 10.03,
+      "platform_stamp": 20.05,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 38,
+      "date": "2026-07-06",
+      "symbol": "000590.SZ",
+      "qty": 2400,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 39,
+      "date": "2026-07-06",
+      "symbol": "600689.SH",
+      "qty": 2000,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 40,
+      "date": "2026-06-05",
+      "symbol": "001222.SZ",
+      "qty": 1300,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 41,
+      "date": "2026-06-05",
+      "symbol": "002687.SZ",
+      "qty": -4700,
+      "expected_stamp": 10.06,
+      "platform_stamp": 20.12,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 42,
+      "date": "2026-06-05",
+      "symbol": "001202.SZ",
+      "qty": -1300,
+      "expected_stamp": 9.69,
+      "platform_stamp": 19.38,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 43,
+      "date": "2026-06-05",
+      "symbol": "001395.SZ",
+      "qty": -500,
+      "expected_stamp": 8.94,
+      "platform_stamp": 17.88,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 44,
+      "date": "2026-06-05",
+      "symbol": "001387.SZ",
+      "qty": 1700,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 45,
+      "date": "2026-06-05",
+      "symbol": "000548.SZ",
+      "qty": -4400,
+      "expected_stamp": 10.27,
+      "platform_stamp": 20.55,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 46,
+      "date": "2026-06-05",
+      "symbol": "003020.SZ",
+      "qty": 1300,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 47,
+      "date": "2026-06-05",
+      "symbol": "002661.SZ",
+      "qty": 2700,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 48,
+      "date": "2026-06-05",
+      "symbol": "600661.SH",
+      "qty": 2500,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 49,
+      "date": "2026-06-05",
+      "symbol": "000590.SZ",
+      "qty": -2100,
+      "expected_stamp": 10.25,
+      "platform_stamp": 20.5,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 50,
+      "date": "2026-05-08",
+      "symbol": "000548.SZ",
+      "qty": 4400,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 51,
+      "date": "2026-05-08",
+      "symbol": "001358.SZ",
+      "qty": -800,
+      "expected_stamp": 11.96,
+      "platform_stamp": 23.91,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 52,
+      "date": "2026-05-08",
+      "symbol": "002991.SZ",
+      "qty": -400,
+      "expected_stamp": 10.4,
+      "platform_stamp": 20.8,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 53,
+      "date": "2026-05-08",
+      "symbol": "603270.SH",
+      "qty": -800,
+      "expected_stamp": 11.31,
+      "platform_stamp": 22.62,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 54,
+      "date": "2026-05-08",
+      "symbol": "603082.SH",
+      "qty": -600,
+      "expected_stamp": 10.43,
+      "platform_stamp": 20.85,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 55,
+      "date": "2026-05-08",
+      "symbol": "001395.SZ",
+      "qty": 500,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 56,
+      "date": "2026-05-08",
+      "symbol": "603205.SH",
+      "qty": -800,
+      "expected_stamp": 10.38,
+      "platform_stamp": 20.77,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 57,
+      "date": "2026-05-08",
+      "symbol": "000590.SZ",
+      "qty": 2100,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 58,
+      "date": "2026-05-08",
+      "symbol": "001202.SZ",
+      "qty": 1300,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 59,
+      "date": "2026-05-08",
+      "symbol": "002687.SZ",
+      "qty": 4700,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 60,
+      "date": "2026-04-07",
+      "symbol": "002873.SZ",
+      "qty": -2100,
+      "expected_stamp": 11.25,
+      "platform_stamp": 22.49,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 61,
+      "date": "2026-04-07",
+      "symbol": "000702.SZ",
+      "qty": -3200,
+      "expected_stamp": 9.73,
+      "platform_stamp": 19.46,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 62,
+      "date": "2026-04-07",
+      "symbol": "001358.SZ",
+      "qty": 800,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 63,
+      "date": "2026-04-07",
+      "symbol": "603270.SH",
+      "qty": 800,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 64,
+      "date": "2026-04-07",
+      "symbol": "603082.SH",
+      "qty": 600,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 65,
+      "date": "2026-04-07",
+      "symbol": "002932.SZ",
+      "qty": -1200,
+      "expected_stamp": 9.87,
+      "platform_stamp": 19.74,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 66,
+      "date": "2026-04-07",
+      "symbol": "001279.SZ",
+      "qty": -600,
+      "expected_stamp": 9.01,
+      "platform_stamp": 18.01,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 67,
+      "date": "2026-04-07",
+      "symbol": "001367.SZ",
+      "qty": -900,
+      "expected_stamp": 11.82,
+      "platform_stamp": 23.64,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 68,
+      "date": "2026-04-07",
+      "symbol": "002991.SZ",
+      "qty": 400,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 69,
+      "date": "2026-04-07",
+      "symbol": "603205.SH",
+      "qty": 800,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 70,
+      "date": "2026-03-09",
+      "symbol": "001279.SZ",
+      "qty": 600,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 71,
+      "date": "2026-03-09",
+      "symbol": "002982.SZ",
+      "qty": -1400,
+      "expected_stamp": 10.64,
+      "platform_stamp": 21.28,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 72,
+      "date": "2026-03-09",
+      "symbol": "002932.SZ",
+      "qty": 1200,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 73,
+      "date": "2026-03-09",
+      "symbol": "000590.SZ",
+      "qty": -1800,
+      "expected_stamp": 11.05,
+      "platform_stamp": 22.1,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 74,
+      "date": "2026-03-09",
+      "symbol": "001367.SZ",
+      "qty": 900,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 75,
+      "date": "2026-03-09",
+      "symbol": "000702.SZ",
+      "qty": 3200,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 76,
+      "date": "2026-03-09",
+      "symbol": "002247.SZ",
+      "qty": -7200,
+      "expected_stamp": 10.8,
+      "platform_stamp": 21.6,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 77,
+      "date": "2026-03-09",
+      "symbol": "603091.SH",
+      "qty": -200,
+      "expected_stamp": 8.18,
+      "platform_stamp": 16.36,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 78,
+      "date": "2026-03-09",
+      "symbol": "002873.SZ",
+      "qty": 2100,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 79,
+      "date": "2026-03-09",
+      "symbol": "002887.SZ",
+      "qty": -2100,
+      "expected_stamp": 11.99,
+      "platform_stamp": 23.98,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 80,
+      "date": "2026-01-30",
+      "symbol": "000590.SZ",
+      "qty": 1800,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 81,
+      "date": "2026-01-30",
+      "symbol": "001367.SZ",
+      "qty": -800,
+      "expected_stamp": 9.61,
+      "platform_stamp": 19.22,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 82,
+      "date": "2026-01-30",
+      "symbol": "001324.SZ",
+      "qty": -1000,
+      "expected_stamp": 9.3,
+      "platform_stamp": 18.6,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 83,
+      "date": "2026-01-30",
+      "symbol": "002802.SZ",
+      "qty": -1500,
+      "expected_stamp": 9.92,
+      "platform_stamp": 19.84,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 84,
+      "date": "2026-01-30",
+      "symbol": "002887.SZ",
+      "qty": 2100,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 85,
+      "date": "2026-01-30",
+      "symbol": "002247.SZ",
+      "qty": 7200,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 86,
+      "date": "2026-01-30",
+      "symbol": "603091.SH",
+      "qty": 200,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 87,
+      "date": "2026-01-30",
+      "symbol": "001201.SZ",
+      "qty": -1300,
+      "expected_stamp": 9.87,
+      "platform_stamp": 19.73,
+      "issues": [
+        "stamp_rate"
+      ]
+    },
+    {
+      "csv_row": 88,
+      "date": "2026-01-05",
+      "symbol": "001324.SZ",
+      "qty": 1000,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 89,
+      "date": "2026-01-05",
+      "symbol": "001367.SZ",
+      "qty": 800,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 90,
+      "date": "2026-01-05",
+      "symbol": "001201.SZ",
+      "qty": 1300,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 91,
+      "date": "2026-01-05",
+      "symbol": "002982.SZ",
+      "qty": 1400,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    },
+    {
+      "csv_row": 92,
+      "date": "2026-01-05",
+      "symbol": "002802.SZ",
+      "qty": 1500,
+      "expected_stamp": 0,
+      "platform_stamp": 0.0,
+      "issues": []
+    }
+  ],
+  "daily_checks": [
+    {
+      "date": "2025-12-31",
+      "nav": 100000.0,
+      "cash": 100000.0,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-01-05",
+      "nav": 100396.24,
+      "cash": 7447.24,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": -0.0025,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-01-06",
+      "nav": 101014.24,
+      "cash": 7447.24,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-01-07",
+      "nav": 100455.24,
+      "cash": 7447.24,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-01-08",
+      "nav": 102255.24,
+      "cash": 7447.24,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-01-09",
+      "nav": 102325.24,
+      "cash": 7447.24,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-01-12",
+      "nav": 102785.24,
+      "cash": 7447.24,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-01-13",
+      "nav": 103228.24,
+      "cash": 7447.24,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-01-14",
+      "nav": 102949.24,
+      "cash": 7447.24,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-01-15",
+      "nav": 103200.24,
+      "cash": 7447.24,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-01-16",
+      "nav": 102929.24,
+      "cash": 7447.24,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-01-19",
+      "nav": 103898.24,
+      "cash": 7447.24,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-01-20",
+      "nav": 104236.24,
+      "cash": 7447.24,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-01-21",
+      "nav": 104637.24,
+      "cash": 7447.24,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-01-22",
+      "nav": 105386.24,
+      "cash": 7447.24,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-01-23",
+      "nav": 105629.24,
+      "cash": 7447.24,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-01-26",
+      "nav": 106277.24,
+      "cash": 7447.24,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-01-27",
+      "nav": 105033.24,
+      "cash": 7447.24,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-01-28",
+      "nav": 104936.24,
+      "cash": 7447.24,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-01-29",
+      "nav": 105278.24,
+      "cash": 7447.24,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-01-30",
+      "nav": 106350.43,
+      "cash": 9208.43,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": -0.0021,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-02-02",
+      "nav": 104799.43,
+      "cash": 9208.43,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-02-03",
+      "nav": 106806.43,
+      "cash": 9208.43,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-02-04",
+      "nav": 107726.43,
+      "cash": 9208.43,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-02-05",
+      "nav": 109185.43,
+      "cash": 9208.43,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-02-06",
+      "nav": 109836.43,
+      "cash": 9208.43,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-02-09",
+      "nav": 111787.43,
+      "cash": 9208.43,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-02-10",
+      "nav": 112545.43,
+      "cash": 9208.43,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-02-11",
+      "nav": 113196.43,
+      "cash": 9208.43,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-02-12",
+      "nav": 112530.43,
+      "cash": 9208.43,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-02-13",
+      "nav": 112003.43,
+      "cash": 9208.43,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-02-24",
+      "nav": 114200.43,
+      "cash": 9208.43,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-02-25",
+      "nav": 115022.43,
+      "cash": 9208.43,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-02-26",
+      "nav": 115584.43,
+      "cash": 9208.43,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-02-27",
+      "nav": 116472.43,
+      "cash": 9208.43,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-03-02",
+      "nav": 112859.43,
+      "cash": 9208.43,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-03-03",
+      "nav": 110671.43,
+      "cash": 9208.43,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-03-04",
+      "nav": 110351.43,
+      "cash": 9208.43,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-03-05",
+      "nav": 111153.43,
+      "cash": 9208.43,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-03-06",
+      "nav": 115061.43,
+      "cash": 9208.43,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-03-09",
+      "nav": 114482.51,
+      "cash": 7993.51,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0074,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-03-10",
+      "nav": 116691.51,
+      "cash": 7993.51,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-03-11",
+      "nav": 116086.51,
+      "cash": 7993.51,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-03-12",
+      "nav": 115262.51,
+      "cash": 7993.51,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-03-13",
+      "nav": 115343.51,
+      "cash": 7993.51,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-03-16",
+      "nav": 116087.51,
+      "cash": 7993.51,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-03-17",
+      "nav": 114571.51,
+      "cash": 7993.51,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-03-18",
+      "nav": 116387.51,
+      "cash": 7993.51,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-03-19",
+      "nav": 113303.51,
+      "cash": 7993.51,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-03-20",
+      "nav": 109955.51,
+      "cash": 7993.51,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-03-23",
+      "nav": 101868.51,
+      "cash": 7993.51,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-03-24",
+      "nav": 106601.51,
+      "cash": 7993.51,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-03-25",
+      "nav": 107209.51,
+      "cash": 7993.51,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-03-26",
+      "nav": 107716.51,
+      "cash": 7993.51,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-03-27",
+      "nav": 110859.51,
+      "cash": 7993.51,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-03-30",
+      "nav": 112815.51,
+      "cash": 7993.51,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-03-31",
+      "nav": 111618.51,
+      "cash": 7993.51,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-04-01",
+      "nav": 114169.51,
+      "cash": 7993.51,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-04-02",
+      "nav": 113055.51,
+      "cash": 7993.51,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-04-03",
+      "nav": 111748.51,
+      "cash": 7993.51,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-04-07",
+      "nav": 112570.85,
+      "cash": 10128.85,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": -0.0028,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-04-08",
+      "nav": 115298.85,
+      "cash": 10128.85,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-04-09",
+      "nav": 113856.85,
+      "cash": 10128.85,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-04-10",
+      "nav": 114574.85,
+      "cash": 10128.85,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-04-13",
+      "nav": 115068.85,
+      "cash": 10128.85,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-04-14",
+      "nav": 114392.85,
+      "cash": 10128.85,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-04-15",
+      "nav": 114394.85,
+      "cash": 10128.85,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-04-16",
+      "nav": 115616.85,
+      "cash": 10128.85,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-04-17",
+      "nav": 115768.85,
+      "cash": 10128.85,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-04-20",
+      "nav": 116796.85,
+      "cash": 10128.85,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-04-21",
+      "nav": 118024.85,
+      "cash": 10128.85,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-04-22",
+      "nav": 117070.85,
+      "cash": 10128.85,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-04-23",
+      "nav": 115752.85,
+      "cash": 10128.85,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-04-24",
+      "nav": 117104.85,
+      "cash": 10128.85,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-04-27",
+      "nav": 118096.85,
+      "cash": 10128.85,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-04-28",
+      "nav": 118336.85,
+      "cash": 10128.85,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-04-29",
+      "nav": 117620.85,
+      "cash": 10128.85,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-04-30",
+      "nav": 117572.85,
+      "cash": 10328.85,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 200.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-05-06",
+      "nav": 118614.85,
+      "cash": 10328.85,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-05-07",
+      "nav": 119204.85,
+      "cash": 10328.85,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-05-08",
+      "nav": 119860.54,
+      "cash": 6838.54,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0045,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-05-11",
+      "nav": 119160.54,
+      "cash": 6838.54,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-05-12",
+      "nav": 116992.54,
+      "cash": 6838.54,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-05-13",
+      "nav": 117097.54,
+      "cash": 6838.54,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-05-14",
+      "nav": 115356.54,
+      "cash": 6838.54,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-05-15",
+      "nav": 114663.54,
+      "cash": 6838.54,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-05-18",
+      "nav": 114462.54,
+      "cash": 6838.54,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-05-19",
+      "nav": 115318.54,
+      "cash": 6838.54,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-05-20",
+      "nav": 114289.54,
+      "cash": 6838.54,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-05-21",
+      "nav": 111819.54,
+      "cash": 6838.54,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-05-22",
+      "nav": 114502.54,
+      "cash": 6838.54,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-05-25",
+      "nav": 113647.54,
+      "cash": 6838.54,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-05-26",
+      "nav": 111297.54,
+      "cash": 6838.54,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-05-27",
+      "nav": 108720.54,
+      "cash": 6838.54,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-05-28",
+      "nav": 109050.54,
+      "cash": 6838.54,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-05-29",
+      "nav": 107659.54,
+      "cash": 6838.54,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-06-01",
+      "nav": 111006.54,
+      "cash": 6838.54,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-06-02",
+      "nav": 108270.54,
+      "cash": 6838.54,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-06-03",
+      "nav": 106527.54,
+      "cash": 6838.54,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-06-04",
+      "nav": 105131.54,
+      "cash": 6838.54,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-06-05",
+      "nav": 106726.36,
+      "cash": 4331.36,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": -0.0065,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-06-08",
+      "nav": 104744.36,
+      "cash": 4331.36,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-06-09",
+      "nav": 105699.36,
+      "cash": 4331.36,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-06-10",
+      "nav": 105082.36,
+      "cash": 4331.36,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-06-11",
+      "nav": 103482.36,
+      "cash": 4331.36,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-06-12",
+      "nav": 105118.36,
+      "cash": 4331.36,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-06-15",
+      "nav": 103512.36,
+      "cash": 4331.36,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-06-16",
+      "nav": 105020.36,
+      "cash": 4331.36,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-06-17",
+      "nav": 103207.36,
+      "cash": 4331.36,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-06-18",
+      "nav": 102428.36,
+      "cash": 4331.36,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-06-22",
+      "nav": 103257.36,
+      "cash": 4331.36,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-06-23",
+      "nav": 104505.36,
+      "cash": 4331.36,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-06-24",
+      "nav": 102400.36,
+      "cash": 4331.36,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-06-25",
+      "nav": 100841.36,
+      "cash": 4331.36,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-06-26",
+      "nav": 98279.36,
+      "cash": 4331.36,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-06-29",
+      "nav": 99404.36,
+      "cash": 4331.36,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-06-30",
+      "nav": 98543.36,
+      "cash": 4331.36,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-07-01",
+      "nav": 103369.36,
+      "cash": 4331.36,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-07-02",
+      "nav": 103298.36,
+      "cash": 4331.36,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-07-03",
+      "nav": 105099.36,
+      "cash": 4331.36,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-07-06",
+      "nav": 105201.15,
+      "cash": 4263.15,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0006,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-07-07",
+      "nav": 102211.15,
+      "cash": 4263.15,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-07-08",
+      "nav": 101453.15,
+      "cash": 4263.15,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-07-09",
+      "nav": 99839.15,
+      "cash": 4263.15,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-07-10",
+      "nav": 104055.15,
+      "cash": 4263.15,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-07-13",
+      "nav": 100325.15,
+      "cash": 4263.15,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-07-14",
+      "nav": 102145.15,
+      "cash": 4263.15,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-07-15",
+      "nav": 104073.15,
+      "cash": 4263.15,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-07-16",
+      "nav": 105785.15,
+      "cash": 4263.15,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-07-17",
+      "nav": 102453.15,
+      "cash": 4263.15,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-07-20",
+      "nav": 99009.15,
+      "cash": 4263.15,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-07-21",
+      "nav": 96903.15,
+      "cash": 4263.15,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-07-22",
+      "nav": 97641.15,
+      "cash": 4263.15,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-07-23",
+      "nav": 101027.15,
+      "cash": 4263.15,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-07-24",
+      "nav": 96861.15,
+      "cash": 4263.15,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-07-27",
+      "nav": 97713.15,
+      "cash": 4263.15,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-07-28",
+      "nav": 98415.15,
+      "cash": 4263.15,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-07-29",
+      "nav": 99685.15,
+      "cash": 4263.15,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-07-30",
+      "nav": 99473.15,
+      "cash": 4263.15,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-07-31",
+      "nav": 101111.15,
+      "cash": 4263.15,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-08-03",
+      "nav": 104640.32,
+      "cash": 4391.32,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0053,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-08-04",
+      "nav": 105714.32,
+      "cash": 4391.32,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-08-05",
+      "nav": 105936.32,
+      "cash": 4391.32,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-08-06",
+      "nav": 106842.32,
+      "cash": 4391.32,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-08-07",
+      "nav": 106812.32,
+      "cash": 4391.32,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-08-10",
+      "nav": 110293.32,
+      "cash": 4391.32,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-08-11",
+      "nav": 109925.32,
+      "cash": 4391.32,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-08-12",
+      "nav": 112136.32,
+      "cash": 4391.32,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-08-13",
+      "nav": 112847.32,
+      "cash": 4391.32,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-08-14",
+      "nav": 115616.32,
+      "cash": 4391.32,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-08-17",
+      "nav": 115474.32,
+      "cash": 4391.32,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-08-18",
+      "nav": 113473.32,
+      "cash": 4391.32,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-08-19",
+      "nav": 110454.32,
+      "cash": 4391.32,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-08-20",
+      "nav": 110604.32,
+      "cash": 4391.32,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-08-21",
+      "nav": 111077.32,
+      "cash": 4391.32,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-08-24",
+      "nav": 110411.32,
+      "cash": 4391.32,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-08-25",
+      "nav": 112721.32,
+      "cash": 4391.32,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-08-26",
+      "nav": 112872.32,
+      "cash": 4391.32,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-08-27",
+      "nav": 112873.32,
+      "cash": 4391.32,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-08-28",
+      "nav": 115263.32,
+      "cash": 4391.32,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-08-31",
+      "nav": 115620.13,
+      "cash": 4867.13,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": -0.0064,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-09-01",
+      "nav": 117296.13,
+      "cash": 4867.13,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-09-02",
+      "nav": 116885.13,
+      "cash": 4867.13,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-09-03",
+      "nav": 116110.13,
+      "cash": 4867.13,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-09-04",
+      "nav": 115438.13,
+      "cash": 4867.13,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-09-07",
+      "nav": 116205.13,
+      "cash": 4867.13,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-09-08",
+      "nav": 117232.13,
+      "cash": 4867.13,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-09-09",
+      "nav": 116818.13,
+      "cash": 4867.13,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-09-10",
+      "nav": 116062.13,
+      "cash": 4867.13,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-09-11",
+      "nav": 114600.13,
+      "cash": 4867.13,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-09-14",
+      "nav": 114219.13,
+      "cash": 4867.13,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-09-15",
+      "nav": 112646.13,
+      "cash": 4867.13,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-09-16",
+      "nav": 116062.13,
+      "cash": 4867.13,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-09-17",
+      "nav": 115760.13,
+      "cash": 4867.13,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-09-18",
+      "nav": 117245.13,
+      "cash": 4867.13,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-09-21",
+      "nav": 119487.13,
+      "cash": 4867.13,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-09-22",
+      "nav": 119205.13,
+      "cash": 4867.13,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-09-23",
+      "nav": 119665.13,
+      "cash": 4867.13,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-09-24",
+      "nav": 119046.13,
+      "cash": 4867.13,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-09-28",
+      "nav": 117136.13,
+      "cash": 4867.13,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-09-29",
+      "nav": 118007.11,
+      "cash": 9341.11,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0065,
+      "mark_errors": [],
+      "issues": []
+    },
+    {
+      "date": "2026-09-30",
+      "nav": 117865.11,
+      "cash": 9341.11,
+      "nav_residual": 0.0,
+      "quantity_changes_not_in_trades": {},
+      "cash_nontrade_change": 0.0,
+      "mark_errors": [],
+      "issues": []
+    }
+  ]
+}

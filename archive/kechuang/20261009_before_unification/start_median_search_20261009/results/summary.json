@@ -1,0 +1,72 @@
+[
+  {
+    "name": "original",
+    "p": 0.63,
+    "s": 0.5,
+    "accounts": 117,
+    "median_asset": 16965708.24493336,
+    "p10_asset": 10333896.604797304,
+    "min_asset": 8863306.1714338,
+    "median_cagr": 0.710155448999559,
+    "median_drawdown": 0.3507851826377937,
+    "worst_drawdown": 0.3532908453189574,
+    "loss_fraction": 0.0,
+    "longest_underwater_sessions": 131
+  },
+  {
+    "name": "up061",
+    "p": 0.61,
+    "s": 0.5,
+    "accounts": 117,
+    "median_asset": 10828005.143386995,
+    "p10_asset": 8065345.60915322,
+    "min_asset": 7529616.409310093,
+    "median_cagr": 0.5935907908577904,
+    "median_drawdown": 0.355493378633858,
+    "worst_drawdown": 0.3729289057112031,
+    "loss_fraction": 0.0,
+    "longest_underwater_sessions": 166
+  },
+  {
+    "name": "up065",
+    "p": 0.65,
+    "s": 0.5,
+    "accounts": 117,
+    "median_asset": 11971887.336224537,
+    "p10_asset": 9680956.158890994,
+    "min_asset": 8485837.720559396,
+    "median_cagr": 0.6225123172339369,
+    "median_drawdown": 0.3512370110930002,
+    "worst_drawdown": 0.3650740425538269,
+    "loss_fraction": 0.0,
+    "longest_underwater_sessions": 130
+  },
+  {
+    "name": "stop048",
+    "p": 0.63,
+    "s": 0.48,
+    "accounts": 117,
+    "median_asset": 14254534.021774702,
+    "p10_asset": 9971708.667731222,
+    "min_asset": 9001126.004271578,
+    "median_cagr": 0.6627157961585308,
+    "median_drawdown": 0.33158271206681245,
+    "worst_drawdown": 0.3336313591771408,
+    "loss_fraction": 0.0,
+    "longest_underwater_sessions": 129
+  },
+  {
+    "name": "stop052",
+    "p": 0.63,
+    "s": 0.52,
+    "accounts": 117,
+    "median_asset": 11347762.026600078,
+    "p10_asset": 8199013.246222503,
+    "min_asset": 7894823.2414589645,
+    "median_cagr": 0.6031496069906177,
+    "median_drawdown": 0.35004442426420945,
+    "worst_drawdown": 0.3760628328910687,
+    "loss_fraction": 0.0,
+    "longest_underwater_sessions": 166
+  }
+]

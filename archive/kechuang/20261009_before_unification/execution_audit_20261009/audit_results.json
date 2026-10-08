@@ -1,0 +1,94 @@
+{
+  "trades": 309,
+  "days": 182,
+  "buys": 151,
+  "sells": 158,
+  "buy_value": 6007045.66,
+  "sell_value": 5516421.7299999995,
+  "fees": 9021.15,
+  "final_nav": 436462.88,
+  "return": -0.12707424,
+  "small_buys": [
+    {
+      "日期": "2026-09-22",
+      "时间": "09:31:00",
+      "代码": "688165.SH",
+      "名称": "埃夫特",
+      "操作": "买入",
+      "成交价": 14.86,
+      "数量": 110.0,
+      "金额": 1634.56,
+      "佣金": 5.0,
+      "印花税": 0.0,
+      "source_line": 17
+    }
+  ],
+  "duplicate_rows": 0,
+  "zero_audit_with_trades": 131,
+  "holding_checks": [],
+  "nav_residual_max": 0.0,
+  "cash_residual_sum": 1065.89,
+  "cash_residual_days": [
+    {
+      "date": "2026-01-15",
+      "nav": 505483.28,
+      "cash": 97617.44,
+      "buy": 51090.8,
+      "sell": 0,
+      "fees": 15.33,
+      "cash_residual": 237.01,
+      "nav_residual": 0.0
+    },
+    {
+      "date": "2026-02-06",
+      "nav": 493398.56,
+      "cash": 46309.07,
+      "buy": 0,
+      "sell": 45954.79,
+      "fees": 59.74,
+      "cash_residual": 395.99,
+      "nav_residual": 0.0
+    },
+    {
+      "date": "2026-06-26",
+      "nav": 461750.6,
+      "cash": 98582.51,
+      "buy": 0,
+      "sell": 98519.39,
+      "fees": 128.07999999999998,
+      "cash_residual": 172.53,
+      "nav_residual": -0.0
+    },
+    {
+      "date": "2026-07-08",
+      "nav": 467351.84,
+      "cash": 39158.13,
+      "buy": 48325.0,
+      "sell": 15843.23,
+      "fees": 35.34,
+      "cash_residual": 160.71,
+      "nav_residual": 0.0
+    },
+    {
+      "date": "2026-07-10",
+      "nav": 468138.84,
+      "cash": 46022.05,
+      "buy": 129234.95000000001,
+      "sell": 45998.6,
+      "fees": 98.57,
+      "cash_residual": 99.59,
+      "nav_residual": 0.0
+    }
+  ],
+  "warnings": [
+    "2026-01-14 09:31:00WARN688235.SH 下单股数小于最低下单数量 200,订单无效",
+    "2026-06-08 09:31:00WARN688196.SH 下单股数小于最低下单数量 200,订单无效",
+    "2026-09-22 09:31:00WARN可用资金不足，688165.SH委托数量从210股调整至110股",
+    "2026-09-30 09:31:00WARN可用资金不足，688728.SH委托数量从703股调整至603股"
+  ],
+  "limitations": [
+    "No order IDs or submission sizes in exported trades; sub200 fill alone cannot distinguish partial fill from illegal submission.",
+    "Cash residuals include corporate actions and taxes; not automatically errors.",
+    "Daily data cannot prove intraday queue/limit tradability."
+  ]
+}

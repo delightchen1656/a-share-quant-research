@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "completed_date": "2026-10-09",
+  "removed": [
+    {
+      "path": "20261008_before_unification/baseline_2/full_review_20261008/factor_cache.npz",
+      "bytes": 120208389,
+      "sha256": "2b5501e39e1ef94f1bb5a432769d7e48fe24813052060687dc40ddd80ad438a1",
+      "reason": "rebuildable factor cache; source, protocol, rankings, reports and results retained"
+    }
+  ],
+  "python_bytecode_removed_in_repository_cleanup": 40,
+  "protected_sources_models_results_inputs_untouched": true
+}

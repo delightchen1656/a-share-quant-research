@@ -1,0 +1,40 @@
+{
+  "requested_start": "2025-01-01",
+  "actual_start": "2025-01-02",
+  "end": "2026-09-30",
+  "initial_cash": 100000.0,
+  "final_equity": 38055.10999999997,
+  "total_return": -0.6194489000000003,
+  "cagr": -0.4253378093534267,
+  "max_drawdown": 0.6769616195351456,
+  "sharpe": -1.120228219089591,
+  "trades": 219,
+  "commission": 1131.81,
+  "transfer": 28.410000000000004,
+  "stamp": 687.55,
+  "transaction_fees": 1847.7699999999966,
+  "dividend_tax": 228.24,
+  "total_cost": 2076.0099999999966,
+  "final_cash": 5339.1099999999715,
+  "average_exposure": 0.9061780499293727,
+  "unresolved_actions": 0,
+  "reference_differences": 1,
+  "rejected_orders": 0,
+  "scenario": "strict_daily_limits",
+  "control": "overnight_only",
+  "params": null,
+  "issues": {},
+  "reference": {
+    "001212.SZ/2025-05-29": [
+      72.05,
+      51.56,
+      {
+        "cash": 0.1,
+        "stock": 0.4,
+        "taxable_stock": 0.0,
+        "pay": "2025-05-29 00:00:00",
+        "release": "2025-05-29 00:00:00"
+      }
+    ]
+  }
+}

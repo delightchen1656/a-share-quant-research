@@ -1,0 +1,30 @@
+{
+  "requested_start": "2019-01-01",
+  "actual_start": "2019-01-02",
+  "end": "2022-12-30",
+  "initial_cash": 100000.0,
+  "final_equity": 434169.13,
+  "total_return": 3.3416913,
+  "cagr": 0.4442196887652692,
+  "max_drawdown": 0.23921591850557478,
+  "sharpe": 1.6236906902035293,
+  "trades": 460,
+  "commission": 5102.74,
+  "transfer": 285.46999999999997,
+  "stamp": 8229.83,
+  "transaction_fees": 13618.04000000001,
+  "dividend_tax": 1169.73,
+  "total_cost": 14787.77000000001,
+  "final_cash": 9720.13000000002,
+  "average_exposure": 0.9475224955718835,
+  "unresolved_actions": 0,
+  "reference_differences": 0,
+  "rejected_orders": 0,
+  "scenario": "strict_daily_limits",
+  "control": "original",
+  "params": {
+    "BUFFER": 1.8
+  },
+  "issues": {},
+  "reference": {}
+}

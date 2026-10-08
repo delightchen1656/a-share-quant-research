@@ -1,0 +1,20 @@
+{
+  "mode": "daily-proxy",
+  "start": "2020-01-02",
+  "end": "2026-09-30",
+  "initial_cash": 100000,
+  "final_equity": 981024.0159999996,
+  "total_return": 8.810240159999996,
+  "cagr": 0.4028176219067434,
+  "max_drawdown": 0.31922703843845257,
+  "sharpe": 1.4596422082716805,
+  "fill_count": 1033,
+  "submitted_orders": 1322,
+  "transaction_fees": 41125.68999999996,
+  "dividend_tax": 3633.6699999999996,
+  "unresolved_actions": 0,
+  "reference_differences": 0,
+  "audit_alerts": 0,
+  "final_cash": 405017.01599999965,
+  "limitation": "Daily opening proxy: two synthetic open events, fills at open (zero realized price impact), daily volume capacity, asynchronous cash may defer purchases; NOT minute strategy performance"
+}
