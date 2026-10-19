@@ -1,0 +1,10 @@
+# Hash-locked Hushen 2 assets must retain repository bytes on every platform.
+strategies/hushen_2/model/*.txt -text
+strategies/hushen_2/runtime/*.py -text
+strategies/hushen_2/backtest/compute_risk_metrics.py -text
+strategies/hushen_2/results/PERFORMANCE_SUMMARY.csv -text
+strategies/hushen_2/results/RISK_SUMMARY.json -text
+strategies/hushen_2/results/RISK_METRICS_2020Q1_STARTS_TO_20261019.csv -text
+strategies/hushen_2/results/EQUITY_CURVES_2020Q1_STARTS_TO_20261019.parquet -text
+strategies/hushen_2/tracker/market.py -text
+strategies/hushen_2/tracker/verify_pipeline.py -text

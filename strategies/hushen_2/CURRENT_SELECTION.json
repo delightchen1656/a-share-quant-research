@@ -31,6 +31,19 @@
     "blind_test_status": "not_blind_after_registration",
     "risk_population": "all 58 Shanghai Composite Q1-2020 starts through 2026-10-19"
   },
+  "model_runtime": {
+    "status": "verified",
+    "directory": "model",
+    "manifest": "model/manifest.json",
+    "required_nonzero_weight_models": ["utility", "pen025"],
+    "retained_zero_weight_model": "pen100",
+    "conversion": "lossless numerical tree export; no retraining; executable bytes differ from the original txt files",
+    "historical_prediction_rows": 2595713,
+    "historical_max_abs_error": 0.0,
+    "historical_signal_rows": 3549,
+    "historical_signals_identical": true,
+    "latest_pipeline_verification": "model/END_TO_END_VERIFICATION.json"
+  },
   "hashes_sha256": {
     "runtime_strategy_py": "76A66DA303BBBC6036AE2BB55A373839A32534BD34399140600B6816C27B4C34",
     "frozen_builder_source": "876B242D705A347BABCDB3A88E08A7E27A83DABFFA5F7B36AE8ACC2D61FB1454",
@@ -50,6 +63,7 @@
     "source_relocated_at": "2026-10-20",
     "source_archive": "archive/hushen_2/pre_registration_research_20261020",
     "active_runtime_self_contained": true,
+    "active_model_directory": "strategies/hushen_2/model",
     "implementation_extracted": true,
     "equivalence_record": "runtime/EQUIVALENCE.json",
     "strategy_logic_changed": false

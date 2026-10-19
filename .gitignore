@@ -67,3 +67,6 @@ Thumbs.db
 # manifests and recovery scripts, while the large ZIPs and installers stay out.
 /archive/packages/20261006_data_environment_bundle/*.zip
 /archive/packages/20261006_data_environment_bundle/installers/*.exe
+
+# Actual broker ledger and backups are private local user data.
+/strategies/hushen_2/tracker/data/

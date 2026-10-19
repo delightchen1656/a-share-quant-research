@@ -34,6 +34,16 @@ CURRENT_REQUIRED = [
     ROOT / "strategies/hushen_2/runtime/EQUIVALENCE.json",
     ROOT / "strategies/hushen_2/runtime/verify.py",
     ROOT / "strategies/hushen_2/backtest/compute_risk_metrics.py",
+    ROOT / "strategies/hushen_2/model/utility.txt",
+    ROOT / "strategies/hushen_2/model/pen025.txt",
+    ROOT / "strategies/hushen_2/model/pen100.txt",
+    ROOT / "strategies/hushen_2/model/manifest.json",
+    ROOT / "strategies/hushen_2/model/VERIFICATION.json",
+    ROOT / "strategies/hushen_2/model/END_TO_END_VERIFICATION.json",
+    ROOT / "strategies/hushen_2/tracker/market.py",
+    ROOT / "strategies/hushen_2/tracker/test_ledger.py",
+    ROOT / "strategies/hushen_2/tracker/test_pipeline.py",
+    ROOT / "strategies/hushen_2/tracker/smoke_integration.py",
     ROOT / "strategies/hushen_2/results/PERFORMANCE_SUMMARY.csv",
     ROOT / "strategies/hushen_2/results/RISK_SUMMARY.json",
     ROOT / "strategies/hushen_2/results/RISK_METRICS_2020Q1_STARTS_TO_20261019.csv",
@@ -160,6 +170,66 @@ def main() -> None:
             errors.append(f"missing Hushen 2 dependency: {relative}")
         elif not expected or sha256(path) != expected:
             errors.append(f"Hushen 2 hash mismatch: {name} ({relative})")
+
+    model_root = ROOT / "strategies/hushen_2/model"
+    model_manifest = load_json(model_root / "manifest.json")
+    model_verification = load_json(model_root / "VERIFICATION.json")
+    for name in ("utility", "pen025", "pen100"):
+        model_path = model_root / f"{name}.txt"
+        expected = str(model_manifest.get(name, "")).lower()
+        if not expected or sha256(model_path) != expected:
+            errors.append(f"Hushen 2 model hash mismatch: {name}")
+        evidence = model_verification.get("models", {}).get(name, {})
+        if (
+            evidence.get("trees") != 200
+            or evidence.get("historical_rows") != 2_595_713
+            or evidence.get("historical_max_abs_error") != 0.0
+            or evidence.get("executable_sha256") != expected
+        ):
+            errors.append(f"Hushen 2 model equivalence evidence mismatch: {name}")
+    signal_evidence = model_verification.get("signals", {})
+    if (
+        signal_evidence.get("rows") != 3_549
+        or signal_evidence.get("date_symbol_order_identical") is not True
+        or signal_evidence.get("max_abs_score_error") != 0.0
+    ):
+        errors.append("Hushen 2 historical signal equivalence evidence mismatch")
+    pipeline_evidence = load_json(model_root / "END_TO_END_VERIFICATION.json")
+    if (
+        pipeline_evidence.get("status") != "passed"
+        or pipeline_evidence.get("data_audit_status") != "ok"
+        or pipeline_evidence.get("market_py_sha256")
+        != sha256(ROOT / "strategies/hushen_2/tracker/market.py")
+        or pipeline_evidence.get("verify_pipeline_py_sha256")
+        != sha256(ROOT / "strategies/hushen_2/tracker/verify_pipeline.py")
+        or pipeline_evidence.get("reference_rows") != 3_889_665
+        or pipeline_evidence.get("eligible_universe_identical") is not True
+        or pipeline_evidence.get("component_max_abs_error") != 0.0
+        or pipeline_evidence.get("signals_checked") != 4_926
+        or pipeline_evidence.get("signal_order_identical") is not True
+        or pipeline_evidence.get("max_abs_score_error") != 0.0
+        or pipeline_evidence.get("causal_cutoff_checks")
+        != {
+            "2020-03-31": True,
+            "2022-06-30": True,
+            "2024-11-22": True,
+            "2026-10-19": True,
+        }
+        or pipeline_evidence.get("signal_count") != 3
+        or pipeline_evidence.get("account_write_performed") is not False
+        or pipeline_evidence.get("broker_action_performed") is not False
+        or pipeline_evidence.get("protected_market_data_changed") is not False
+        or pipeline_evidence.get("localhost_app_smoke")
+        != {
+            "status": "passed",
+            "signals_match_reference": True,
+            "triggers_match_unadjusted_close": True,
+            "cache_reuse_byte_identical": True,
+            "account_events_unchanged": True,
+            "review_gate_preserved": True,
+        }
+    ):
+        errors.append("Hushen 2 end-to-end verification evidence mismatch")
 
     for name in CURRENT_RESEARCH_DIRECTIONS:
         directory = ROOT / "research_versions" / name

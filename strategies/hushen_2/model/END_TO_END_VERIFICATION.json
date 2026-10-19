@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "verified_at": "2026-10-20T02:31:06+08:00",
+  "market_date": "2026-10-19",
+  "next_session": "2026-10-20",
+  "data_audit": "data_updates/20261019/audit.json",
+  "data_audit_status": "ok",
+  "market_update_process_running": false,
+  "missing_models": [],
+  "pipeline_id": "d6ed75330031e2e7640b012db41480739a08bd741eba52168f57fee0f2c01dfb",
+  "pipeline_version": "hushen2-original-intersection-full-history-v1",
+  "market_py_sha256": "a41ee20cc6bba005f4880c86be0c1fe73d337bc982de4d50b9f25552c7f02c00",
+  "verify_pipeline_py_sha256": "03163b4fa1de0757fcf7d56f315f30c54a0cfa17329c6646999b0e24894e4360",
+  "reference_rows": 3889665,
+  "eligible_universe_identical": true,
+  "component_max_abs_error": 0.0,
+  "signals_checked": 4926,
+  "signal_order_identical": true,
+  "max_abs_score_error": 0.0,
+  "causal_cutoff_checks": {
+    "2020-03-31": true,
+    "2022-06-30": true,
+    "2024-11-22": true,
+    "2026-10-19": true
+  },
+  "signal_count": 3,
+  "signal_ranks": [1, 2, 3],
+  "all_signal_dates_match_market_date": true,
+  "account_write_performed": false,
+  "broker_action_performed": false,
+  "protected_market_data_changed": false,
+  "localhost_app_smoke": {
+    "status": "passed",
+    "signals_match_reference": true,
+    "triggers_match_unadjusted_close": true,
+    "cache_reuse_byte_identical": true,
+    "account_events_unchanged": true,
+    "review_gate_preserved": true
+  },
+  "scope": "Implementation parity on identical current committed inputs; not a new performance backtest"
+}

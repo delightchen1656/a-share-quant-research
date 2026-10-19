@@ -7,12 +7,12 @@
 | 名称 | 平台入口 | 本地回测 | 说明 |
 |---|---|---|---|
 | 沪深1 | [supermind_hushen_1.py](strategies/hushen/supermind_hushen_1.py) | [backtest/run.py](strategies/hushen/backtest/run.py) | [沪深说明](strategies/hushen/README.md) |
-| 沪深2 | 暂无SuperMind入口 | [风险复算](strategies/hushen_2/backtest/compute_risk_metrics.py) | [登记与边界](strategies/hushen_2/README.md) |
+| 沪深2 | 暂无SuperMind入口；本地晚间工作台 | [风险复算](strategies/hushen_2/backtest/compute_risk_metrics.py) | [登记与边界](strategies/hushen_2/README.md) |
 | 科创基准1 | [supermind_kechuang_1.py](strategies/kechuang/supermind_kechuang_1.py) | [backtest/run.py](strategies/kechuang/backtest/run.py) | [科创说明](strategies/kechuang/README.md) |
 
 科创基准1为用户2026-10-09指定的旧动态基准三，动态10%—20%入场目标、现金不足整笔跳过，源码不变。本轮50万元、每日频率、独立空仓。内部120K标题仅为历史命名，不设置账户本金；不是固定10%标准3-1或现金缩量C版。
 
-沪深1与科创基准1沿用各自独立的平台、本地回测和迁移边界。沪深2当前以 `CURRENT_SELECTION.json` 为唯一登记，冻结运行公式和风险复算，但尚无SuperMind入口，也没有实盘下单授权。三条基线的设置、账户与结果不能混用。
+沪深1与科创基准1沿用各自独立的平台、本地回测和迁移边界。沪深2当前以 `CURRENT_SELECTION.json` 为唯一登记，冻结运行公式、三份可执行模型和风险复算；本地工作台只记录人工执行，没有SuperMind入口或自动实盘下单授权。三条基线的设置、账户与结果不能混用。
 
 ## 工程结构
 
@@ -20,7 +20,7 @@
 quant/
 ├── strategies/
 │   ├── hushen/                   # 沪深1：平台、研究、回测、结果与跟踪
-│   ├── hushen_2/                 # 沪深2：唯一登记、冻结运行公式与风险复算
+│   ├── hushen_2/                 # 沪深2：唯一登记、冻结模型、工作台与风险复算
 │   └── kechuang/
 │   │   ├── supermind_kechuang_1.py
 │   │   ├── research/             # 训练源码、模型与来源记录
