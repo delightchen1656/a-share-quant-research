@@ -1,8 +1,11 @@
 {
   "name": "科创基准1",
   "source_attachment": "f3b7e3dc-7fff-4d89-a1e4-c0209e7e52a6",
-  "platform_sha256": "5ac181275a885c574f3e16f527bf07b5976a73ca001bbfb9d63d7f44f95071f9",
-  "source_unchanged": true,
+  "platform_sha256": "3c4a5b41691b431b0a419900382c4e9cd47e11ee9b6c163f9d80a863134f1d8e",
+  "source_sha256": "5ac181275a885c574f3e16f527bf07b5976a73ca001bbfb9d63d7f44f95071f9",
+  "source_unchanged": false,
+  "only_module_docstring_changed": true,
+  "executable_ast_unchanged": true,
   "retrained": false,
   "archive": "archive\\kechuang\\20261009_before_unification",
   "extraction_sources": {

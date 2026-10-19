@@ -1,0 +1,50 @@
+{
+  "status": "complete",
+  "audited_candidate": "R100_Q00",
+  "selection_basis": "migration_priority",
+  "audit_did_not_trigger_reselection": true,
+  "raw_summary": {
+    "candidate": "R100_Q00",
+    "target_retention_percent": 100,
+    "historical_quantile": 0.0,
+    "signal_count_total": 3549,
+    "realized_retention_vs_baseline": 1.0,
+    "strategy_cagr": 0.22171053207711222,
+    "benchmark_cagr": 0.01903992024971135,
+    "annualized_excess": 0.20267061182740087,
+    "worst_annual_return": -0.012626894272371847,
+    "mean_annual_return": 0.23444448016880282,
+    "worst_annual_excess": 0.1169568569907764,
+    "mean_annual_excess": 0.20942924027786208,
+    "profitable_years": 4,
+    "outperform_years": 5,
+    "annual_signal_frequency_cv_ddof0": 0.04572486335181242,
+    "completed_trades": 1044,
+    "open_positions_at_end": 0,
+    "pending_orders_at_end": 0,
+    "final_equity": 272170.83721365087
+  },
+  "missing_corporate_action_keys": [],
+  "raw_q1": {
+    "run_count": 25,
+    "positive_excess_fraction": 0.96,
+    "minimum_excess": -0.012263505799106955,
+    "all_terminal_empty": true
+  },
+  "assertions": {
+    "maximum_raw_date": "2024-12-31",
+    "maximum_execution_date": "2024-12-31",
+    "pre2025_boundary_passed": true,
+    "corporate_action_coverage_complete": true,
+    "production_change": false
+  },
+  "source_hashes": {
+    "protocol": "453d21a97a0aa6c5702704755c0893b5a446c0c4cc3e68e093d39f0869f4a9e9",
+    "selection": "3d9604364ec535c032b52c092770c60856fea97053f9051c9e52262e7bc45ee6",
+    "runner": "7018e07d0d4791814b1a97d764487513ef60b7f64805eda370181ad87af9aba3",
+    "base_actions": "ef8cff49ed6f2fb86c6a4f06fc304bc0afc0932979921b6068a32c6f59700d8d",
+    "batch006_actions": "b2120c187e89fd5b4594f0f8f6467a4ebb0ceb1f8f988dfcf3ced3dc46ba0f25",
+    "batch007_actions": "173ddedffa1f7042455629e742aea8735e1de9b632f0d7b89410d348d1ecd88d",
+    "batch010_actions": "7bb6a5ab113f0aef0f6901f6ff99edce14fc196fef4e476173c282ab7f3b8301"
+  }
+}

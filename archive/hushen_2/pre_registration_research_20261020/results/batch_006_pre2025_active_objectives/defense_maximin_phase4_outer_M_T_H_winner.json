@@ -1,0 +1,89 @@
+{
+  "objective": "defense_maximin",
+  "phase": 4,
+  "name": "outer_M_T_H",
+  "candidate_count": 66,
+  "winner": {
+    "candidate": "DEF_P4_OUTER_060_000_040",
+    "factor": "DEF_P4_OUTER_060_000_040",
+    "entry_offset_atr": 0.0,
+    "exit_set": "take4.00_stop1.50",
+    "take_atr": 4.0,
+    "stop_atr": 1.5,
+    "hold_calendar_days": 30,
+    "eligible": true,
+    "cagr": 0.21733157087400912,
+    "final_equity": 267327.98620968853,
+    "worst_annual_return": 0.034018081957604585,
+    "profitable_years": 5,
+    "annual_return_std": 0.1328834854559404,
+    "trade_count_cv": 0.06675216219240772,
+    "completed_trades": 1034,
+    "open_positions_at_end": 0,
+    "pending_orders_at_end": 0,
+    "expired_entry_orders": 53,
+    "capacity_limited_orders": 0,
+    "blocked_exit_attempts": 8,
+    "blocked_exit_reason_counts": {
+      "stop": 8
+    },
+    "corporate_action_events": 0,
+    "corporate_action_source_counts": {},
+    "delisting_freezes": 0,
+    "unpaid_receivables": 0.0,
+    "return_2020": 0.28318697591452313,
+    "trades_2020": 209,
+    "return_2021": 0.360627188910287,
+    "trades_2021": 205,
+    "return_2022": 0.034018081957604585,
+    "trades_2022": 230,
+    "return_2023": 0.10049033550813835,
+    "trades_2023": 187,
+    "return_2024": 0.34555350704487964,
+    "trades_2024": 203,
+    "benchmark_return_2020": 0.1386666754094923,
+    "active_return_2020": 0.14452030050503084,
+    "benchmark_return_2021": 0.048000760134405684,
+    "active_return_2021": 0.3126264287758813,
+    "benchmark_return_2022": -0.151250899779657,
+    "active_return_2022": 0.18526898173726158,
+    "benchmark_return_2023": -0.03700886296394623,
+    "active_return_2023": 0.13749919847208458,
+    "benchmark_return_2024": 0.12666852665440875,
+    "active_return_2024": 0.21888498039047088,
+    "active_min": 0.13749919847208458,
+    "active_mean": 0.19975997797614584,
+    "active_std_ddof0": 0.06362769371435452,
+    "active_variance_check": 0.004048483407407709,
+    "positive_active_years": 5,
+    "objective": "defense_maximin",
+    "phase": "outer_M_T_H_weights",
+    "eligible_trade_count": true,
+    "eligible_profitable_years": true,
+    "spec_json": "{\"H_internal\": [0.25, 0.25, 0.5, 0.0], \"M_internal\": [0.5, 0.5, 0.0], \"T_internal\": [0.5, 0.0, 0.5, 0.0], \"outer\": [0.6, 0.0, 0.4]}"
+  },
+  "winning_spec": {
+    "M_internal": [
+      0.5,
+      0.5,
+      0.0
+    ],
+    "T_internal": [
+      0.5,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "H_internal": [
+      0.25,
+      0.25,
+      0.5,
+      0.0
+    ],
+    "outer": [
+      0.6,
+      0.0,
+      0.4
+    ]
+  }
+}

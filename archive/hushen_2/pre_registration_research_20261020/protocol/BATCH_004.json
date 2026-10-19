@@ -1,0 +1,105 @@
+{
+  "protocol_id": "hushen_smart_1_batch_004_pre2025_factor_tuning",
+  "registered_at": "2026-10-19T19:45:00+08:00",
+  "status": "preregistered_before_batch_004_results",
+  "purpose": "Sequential broad equal-step prior factor tuning of the frozen 30-calendar-day Smart-1 version, using only information and outcomes through 2024-12-31.",
+  "inherits_execution_and_boundaries_from": "PROTOCOL.json",
+  "reference_selection": "results/batch_003/SELECTION.json#winners.30cal",
+  "output_directory": "results/batch_004_pre2025_factor_tuning",
+  "post_2024_forbidden": true,
+  "execution": {
+    "initial_cash": 100000,
+    "slots": 10,
+    "maximum_daily_signals": 3,
+    "conditional_buy_lifetime_calendar_days": 7,
+    "holding_calendar_days": 30,
+    "entry_atr": 0.0,
+    "take_atr": 4.0,
+    "stop_atr": 1.5,
+    "t_plus_one": true,
+    "same_day_double_touch": "stop_first",
+    "daily_volume_capacity_fraction": 0.02,
+    "fees_slippage_and_corporate_actions": "same as batch_003; final champion requires raw-price and corporate-action audit"
+  },
+  "component_construction": {
+    "cross_sectional_ranks": "causal same-day ranks using only values known by that close, identical to batch_003",
+    "M": "direct nonnegative weighted sum of the three frozen models' raw predictions, followed by same-day cross-sectional percentile rank minus 0.5",
+    "T": "nonnegative weighted sum of four directed same-day ranks: +mom120, +(close/high60-1), +mom20, and -vol60; then same-day cross-sectional percentile rank minus 0.5",
+    "H": "nonnegative weighted sum of four directed same-day ranks: -size proxy, -vol60, +overnight20, and -intraday20; then causal per-symbol rolling 5-session mean with min_periods=3, followed by same-day cross-sectional percentile rank minus 0.5",
+    "H_size_proxy": "f_log_amount - log(max(f_turn,1e-6)), monotone with amount/turnover_rate",
+    "signal_selection": "rank outer score descending within each date, stable symbol-ascending tie break, take inherited batch_003 30cal daily_top_k subject to maximum 3"
+  },
+  "sequential_phases": [
+    {
+      "phase": 1,
+      "name": "M_internal_weights",
+      "dimensions": ["utility", "pen025", "pen100"],
+      "constraints": "weights nonnegative, sum to 1",
+      "step": 0.25,
+      "candidate_count": 15,
+      "inherit": "batch_003 30cal T and H internal formulas, outer M/T/H weights, and daily_top_k"
+    },
+    {
+      "phase": 2,
+      "name": "T_internal_weights",
+      "dimensions": ["mom120_positive", "close_to_high60_positive", "mom20_positive", "vol60_negative"],
+      "constraints": "weights nonnegative, sum to 1",
+      "step": 0.25,
+      "candidate_count": 35,
+      "inherit": "phase 1 unique winner plus batch_003 30cal H internal formula, outer M/T/H weights, and daily_top_k"
+    },
+    {
+      "phase": 3,
+      "name": "H_internal_weights",
+      "dimensions": ["size_negative", "vol60_negative", "overnight_positive", "intraday_negative"],
+      "constraints": "weights nonnegative, sum to 1",
+      "step": 0.25,
+      "candidate_count": 35,
+      "inherit": "phase 1 and phase 2 unique winners plus batch_003 30cal outer M/T/H weights and daily_top_k"
+    },
+    {
+      "phase": 4,
+      "name": "outer_M_T_H_weights",
+      "dimensions": ["M", "T", "H"],
+      "constraints": "weights nonnegative, sum to 1",
+      "step": 0.10,
+      "candidate_count": 66,
+      "inherit": "all three internal unique winners and batch_003 30cal daily_top_k"
+    }
+  ],
+  "total_screening_runs": 151,
+  "eligibility": {
+    "evaluation_years": [2020, 2021, 2022, 2023, 2024],
+    "minimum_completed_trades_each_year": 20,
+    "minimum_profitable_years": 3
+  },
+  "selection_order_each_phase": [
+    "eligible descending",
+    "continuous_account_cagr descending",
+    "worst_annual_return descending",
+    "profitable_year_count descending",
+    "annual_return_std ascending",
+    "trade_count_cv ascending",
+    "candidate_id ascending deterministic tie break"
+  ],
+  "controls": {
+    "no_grid_expansion_after_results": true,
+    "save_every_candidate_and_unique_winner_each_phase": true,
+    "retain_failures": true,
+    "boundary_winner_only_reported_not_expanded": true,
+    "final_champion_raw_price_corporate_action_audit": true,
+    "audit_data_limit": "pre2025 only",
+    "production_change": false,
+    "current_research_selection_change": false,
+    "live_orders": false
+  },
+  "reporting": {
+    "annual_returns_and_trades": true,
+    "continuous_account_cagr": true,
+    "final_equity": true,
+    "worst_annual_return": true,
+    "development_subperiod_2022_2024": true,
+    "development_note": "2022-2024 is development data, not a holdout or blind test",
+    "hashes_and_assertions": true
+  }
+}

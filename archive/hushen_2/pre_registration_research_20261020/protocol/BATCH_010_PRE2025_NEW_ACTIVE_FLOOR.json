@@ -1,0 +1,124 @@
+{
+  "protocol_id": "hushen_smart_1_batch_010_pre2025_new_active_floor",
+  "registered_at": "2026-10-19T23:50:00+08:00",
+  "status": "preregistered_before_batch_010_results",
+  "instruction_boundary_version": "public-pre2025-v1",
+  "purpose": "在冻结 NEW 精确结构附近，以跨年份相对上证综指价格指数的超额收益下限为第一目标，检验小幅单模块扰动是否提高时间稳健性。",
+  "output_directory": "results/batch_010_pre2025_new_active_floor",
+  "post_2024_forbidden": true,
+  "development_period": ["2020-01-01", "2024-12-31"],
+  "all_years_are_development_not_holdout": true,
+  "frozen_new": {
+    "M_internal": [0.5, 0.5, 0.0],
+    "T_internal": [0.5, 0.0, 0.5, 0.0],
+    "H_internal": [0.25, 0.25, 0.5, 0.0],
+    "outer": [0.6, 0.0, 0.4]
+  },
+  "candidate_construction": "Exactly 15 specifications fixed before results. N00 is frozen NEW. M candidates move 0.05 or 0.10 mass between utility and pen025. H candidates move 0.05 mass between one component and overnight, introduce at most 0.05 intraday weight funded by overnight, or move 0.025 each from size and volatility to overnight. Outer candidates move 0.05 or 0.10 mass between M and H while outer T remains exactly zero. Each candidate changes at most one block from NEW; no OLD-wide search and no result-contingent expansion.",
+  "null_module_note": "T_internal is frozen for every candidate because outer T is exactly zero; changing T_internal would be a mathematical no-op and is not counted as robustness evidence.",
+  "candidates": {
+    "N00_NEW": {"M_internal": [0.5, 0.5, 0.0], "T_internal": [0.5, 0.0, 0.5, 0.0], "H_internal": [0.25, 0.25, 0.5, 0.0], "outer": [0.6, 0.0, 0.4]},
+    "N01_M45": {"M_internal": [0.45, 0.55, 0.0], "T_internal": [0.5, 0.0, 0.5, 0.0], "H_internal": [0.25, 0.25, 0.5, 0.0], "outer": [0.6, 0.0, 0.4]},
+    "N02_M40": {"M_internal": [0.4, 0.6, 0.0], "T_internal": [0.5, 0.0, 0.5, 0.0], "H_internal": [0.25, 0.25, 0.5, 0.0], "outer": [0.6, 0.0, 0.4]},
+    "N03_M55": {"M_internal": [0.55, 0.45, 0.0], "T_internal": [0.5, 0.0, 0.5, 0.0], "H_internal": [0.25, 0.25, 0.5, 0.0], "outer": [0.6, 0.0, 0.4]},
+    "N04_M60": {"M_internal": [0.6, 0.4, 0.0], "T_internal": [0.5, 0.0, 0.5, 0.0], "H_internal": [0.25, 0.25, 0.5, 0.0], "outer": [0.6, 0.0, 0.4]},
+    "N05_H_SIZE_DOWN": {"M_internal": [0.5, 0.5, 0.0], "T_internal": [0.5, 0.0, 0.5, 0.0], "H_internal": [0.2, 0.25, 0.55, 0.0], "outer": [0.6, 0.0, 0.4]},
+    "N06_H_SIZE_UP": {"M_internal": [0.5, 0.5, 0.0], "T_internal": [0.5, 0.0, 0.5, 0.0], "H_internal": [0.3, 0.25, 0.45, 0.0], "outer": [0.6, 0.0, 0.4]},
+    "N07_H_VOL_DOWN": {"M_internal": [0.5, 0.5, 0.0], "T_internal": [0.5, 0.0, 0.5, 0.0], "H_internal": [0.25, 0.2, 0.55, 0.0], "outer": [0.6, 0.0, 0.4]},
+    "N08_H_VOL_UP": {"M_internal": [0.5, 0.5, 0.0], "T_internal": [0.5, 0.0, 0.5, 0.0], "H_internal": [0.25, 0.3, 0.45, 0.0], "outer": [0.6, 0.0, 0.4]},
+    "N09_H_INTRADAY05": {"M_internal": [0.5, 0.5, 0.0], "T_internal": [0.5, 0.0, 0.5, 0.0], "H_internal": [0.25, 0.25, 0.45, 0.05], "outer": [0.6, 0.0, 0.4]},
+    "N10_H_BALANCED_OVERNIGHT": {"M_internal": [0.5, 0.5, 0.0], "T_internal": [0.5, 0.0, 0.5, 0.0], "H_internal": [0.225, 0.225, 0.55, 0.0], "outer": [0.6, 0.0, 0.4]},
+    "N11_O_M55_H45": {"M_internal": [0.5, 0.5, 0.0], "T_internal": [0.5, 0.0, 0.5, 0.0], "H_internal": [0.25, 0.25, 0.5, 0.0], "outer": [0.55, 0.0, 0.45]},
+    "N12_O_M50_H50": {"M_internal": [0.5, 0.5, 0.0], "T_internal": [0.5, 0.0, 0.5, 0.0], "H_internal": [0.25, 0.25, 0.5, 0.0], "outer": [0.5, 0.0, 0.5]},
+    "N13_O_M65_H35": {"M_internal": [0.5, 0.5, 0.0], "T_internal": [0.5, 0.0, 0.5, 0.0], "H_internal": [0.25, 0.25, 0.5, 0.0], "outer": [0.65, 0.0, 0.35]},
+    "N14_O_M70_H30": {"M_internal": [0.5, 0.5, 0.0], "T_internal": [0.5, 0.0, 0.5, 0.0], "H_internal": [0.25, 0.25, 0.5, 0.0], "outer": [0.7, 0.0, 0.3]}
+  },
+  "candidate_count": 15,
+  "neighbors": {
+    "N00_NEW": ["N01_M45", "N03_M55", "N05_H_SIZE_DOWN", "N06_H_SIZE_UP", "N07_H_VOL_DOWN", "N08_H_VOL_UP", "N09_H_INTRADAY05", "N10_H_BALANCED_OVERNIGHT", "N11_O_M55_H45", "N13_O_M65_H35"],
+    "N01_M45": ["N00_NEW", "N02_M40"],
+    "N02_M40": ["N01_M45"],
+    "N03_M55": ["N00_NEW", "N04_M60"],
+    "N04_M60": ["N03_M55"],
+    "N05_H_SIZE_DOWN": ["N00_NEW", "N10_H_BALANCED_OVERNIGHT"],
+    "N06_H_SIZE_UP": ["N00_NEW"],
+    "N07_H_VOL_DOWN": ["N00_NEW", "N10_H_BALANCED_OVERNIGHT"],
+    "N08_H_VOL_UP": ["N00_NEW"],
+    "N09_H_INTRADAY05": ["N00_NEW"],
+    "N10_H_BALANCED_OVERNIGHT": ["N00_NEW", "N05_H_SIZE_DOWN", "N07_H_VOL_DOWN"],
+    "N11_O_M55_H45": ["N00_NEW", "N12_O_M50_H50"],
+    "N12_O_M50_H50": ["N11_O_M55_H45"],
+    "N13_O_M65_H35": ["N00_NEW", "N14_O_M70_H30"],
+    "N14_O_M70_H30": ["N13_O_M65_H35"]
+  },
+  "execution": {
+    "initial_cash": 100000,
+    "slots": 10,
+    "maximum_daily_signals": 3,
+    "conditional_buy_lifetime_calendar_days": 7,
+    "holding_calendar_days": 30,
+    "entry_atr": 0.0,
+    "take_atr": 4.0,
+    "stop_atr": 1.5,
+    "t_plus_one": true,
+    "same_day_double_touch": "stop_first",
+    "daily_volume_capacity_fraction": 0.02,
+    "fees_and_slippage": "unchanged from the frozen Batch004/006/009 engine"
+  },
+  "shared_q1_random_starts": {
+    "seed": 20261019,
+    "bit_generator": "numpy.random.PCG64",
+    "starts_per_year": 5,
+    "sampling": "For each year 2020 through 2024, sample without replacement from sorted January-March execution sessions and share the exact starts across all candidates.",
+    "benchmark_return": "Shanghai Composite year-end close divided by the last index close strictly before the sampled start session, minus one.",
+    "last_signal_date": "calendar year end minus 37 calendar days",
+    "total_runs": 375
+  },
+  "hard_robustness_gates": {
+    "annual": "For every year 2020-2024: annual strategy return >0, annual excess over Shanghai Composite price-index return >0, generated signals >=180, and completed trades >=150.",
+    "leave_one_year_out": "For each omitted-year fold, geometric strategy return >0 and excess over the geometric Shanghai Composite return >0.",
+    "expanding_time": "For 2020-2022, 2020-2023, and 2020-2024 prefixes, geometric strategy return >0 and excess over the geometric benchmark return >0.",
+    "shared_q1_random_starts": "All 25 runs end empty and each completes >=120 trades; every one of the five per-year mean contemporaneous excess returns is >0; at least 80% of the 25 individual runs have positive contemporaneous excess.",
+    "parameter_neighborhood": "Candidate and every listed neighbor independently pass annual, leave-one-year-out, expanding-time, and random-start gates. Neighborhood lower bounds for worst annual excess, LOO excess, expanding excess, and yearly-mean random-start excess must all be >0.",
+    "audit": "Freeze exactly one champion, then independently rerun it on original unadjusted OHLC plus complete pre-2025 corporate actions and delistings. Audit failure ends the batch without reselection."
+  },
+  "selection_rule": {
+    "eligible_first": true,
+    "lexicographic_descending": [
+      "worst_annual_excess",
+      "loo_min_excess",
+      "start_min_year_mean_excess",
+      "neighbor_min_worst_annual_excess",
+      "neighbor_min_loo_excess",
+      "neighbor_min_start_year_mean_excess",
+      "mean_annual_excess",
+      "annualized_excess",
+      "strategy_cagr"
+    ],
+    "final_tie_breaker": "candidate_id ascending",
+    "no_high_single_year_compensation": true
+  },
+  "benchmark": {
+    "instrument_name": "上证综合指数（价格指数）",
+    "instrument_code": "000001.SH",
+    "provider_request_symbol": "sh000001",
+    "provider": "Eastmoney via AkShare stock_zh_index_daily_em",
+    "dividends_included": false
+  },
+  "audit": {
+    "freeze_exactly_one_champion_before_raw_audit": true,
+    "raw_input": "original unadjusted OHLC through 2024-12-31 plus complete pre-2025 corporate actions and delistings",
+    "audit_does_not_trigger_reselection": true,
+    "maximum_signal_date": "2024-11-22",
+    "maximum_input_or_execution_date": "2024-12-31"
+  },
+  "controls": {
+    "no_candidate_expansion": true,
+    "retain_all_failures": true,
+    "production_change": false,
+    "current_selection_change": false,
+    "prior_result_change": false,
+    "live_orders": false,
+    "post_2024_access": false
+  }
+}

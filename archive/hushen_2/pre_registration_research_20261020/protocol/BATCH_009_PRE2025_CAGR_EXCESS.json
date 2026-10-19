@@ -1,0 +1,105 @@
+{
+  "protocol_id": "hushen_smart_1_batch_009_pre2025_cagr_excess",
+  "registered_at": "2026-10-19T23:10:00+08:00",
+  "status": "preregistered_before_batch_009_results",
+  "instruction_boundary_version": "public-pre2025-v1",
+  "purpose": "Within a fixed OLD/NEW interpolation and module-neighborhood family, first enforce absolute cross-time robustness gates, then jointly maximize account CAGR and annualized excess over the Shanghai Composite price index.",
+  "output_directory": "results/batch_009_pre2025_cagr_excess",
+  "post_2024_forbidden": true,
+  "development_period": ["2020-01-01", "2024-12-31"],
+  "all_years_are_development_not_holdout": true,
+  "frozen_endpoints": {
+    "OLD": {"M_internal": [0.25, 0.75, 0.0], "T_internal": [0.5, 0.25, 0.25, 0.0], "H_internal": [0.25, 0.25, 0.25, 0.25], "outer": [0.3, 0.3, 0.4]},
+    "NEW": {"M_internal": [0.5, 0.5, 0.0], "T_internal": [0.5, 0.0, 0.5, 0.0], "H_internal": [0.25, 0.25, 0.5, 0.0], "outer": [0.6, 0.0, 0.4]}
+  },
+  "candidate_construction": "Exactly 13 specifications fixed before results: both endpoints; full linear interpolation at alpha 0.25/0.50/0.75; and OLD-based one-module bridges for each of M,T,H,outer at alpha 0.25/0.50. Weight formula is (1-alpha)*OLD + alpha*NEW within named blocks. No result-contingent additions, deletions, or altered weights.",
+  "candidates": {
+    "C00_OLD": {"M_internal": [0.25, 0.75, 0.0], "T_internal": [0.5, 0.25, 0.25, 0.0], "H_internal": [0.25, 0.25, 0.25, 0.25], "outer": [0.3, 0.3, 0.4]},
+    "C01_FULL25": {"M_internal": [0.3125, 0.6875, 0.0], "T_internal": [0.5, 0.1875, 0.3125, 0.0], "H_internal": [0.25, 0.25, 0.3125, 0.1875], "outer": [0.375, 0.225, 0.4]},
+    "C02_FULL50": {"M_internal": [0.375, 0.625, 0.0], "T_internal": [0.5, 0.125, 0.375, 0.0], "H_internal": [0.25, 0.25, 0.375, 0.125], "outer": [0.45, 0.15, 0.4]},
+    "C03_FULL75": {"M_internal": [0.4375, 0.5625, 0.0], "T_internal": [0.5, 0.0625, 0.4375, 0.0], "H_internal": [0.25, 0.25, 0.4375, 0.0625], "outer": [0.525, 0.075, 0.4]},
+    "C04_NEW": {"M_internal": [0.5, 0.5, 0.0], "T_internal": [0.5, 0.0, 0.5, 0.0], "H_internal": [0.25, 0.25, 0.5, 0.0], "outer": [0.6, 0.0, 0.4]},
+    "C05_M25": {"M_internal": [0.3125, 0.6875, 0.0], "T_internal": [0.5, 0.25, 0.25, 0.0], "H_internal": [0.25, 0.25, 0.25, 0.25], "outer": [0.3, 0.3, 0.4]},
+    "C06_M50": {"M_internal": [0.375, 0.625, 0.0], "T_internal": [0.5, 0.25, 0.25, 0.0], "H_internal": [0.25, 0.25, 0.25, 0.25], "outer": [0.3, 0.3, 0.4]},
+    "C07_T25": {"M_internal": [0.25, 0.75, 0.0], "T_internal": [0.5, 0.1875, 0.3125, 0.0], "H_internal": [0.25, 0.25, 0.25, 0.25], "outer": [0.3, 0.3, 0.4]},
+    "C08_T50": {"M_internal": [0.25, 0.75, 0.0], "T_internal": [0.5, 0.125, 0.375, 0.0], "H_internal": [0.25, 0.25, 0.25, 0.25], "outer": [0.3, 0.3, 0.4]},
+    "C09_H25": {"M_internal": [0.25, 0.75, 0.0], "T_internal": [0.5, 0.25, 0.25, 0.0], "H_internal": [0.25, 0.25, 0.3125, 0.1875], "outer": [0.3, 0.3, 0.4]},
+    "C10_H50": {"M_internal": [0.25, 0.75, 0.0], "T_internal": [0.5, 0.25, 0.25, 0.0], "H_internal": [0.25, 0.25, 0.375, 0.125], "outer": [0.3, 0.3, 0.4]},
+    "C11_O25": {"M_internal": [0.25, 0.75, 0.0], "T_internal": [0.5, 0.25, 0.25, 0.0], "H_internal": [0.25, 0.25, 0.25, 0.25], "outer": [0.375, 0.225, 0.4]},
+    "C12_O50": {"M_internal": [0.25, 0.75, 0.0], "T_internal": [0.5, 0.25, 0.25, 0.0], "H_internal": [0.25, 0.25, 0.25, 0.25], "outer": [0.45, 0.15, 0.4]}
+  },
+  "candidate_count": 13,
+  "execution": {
+    "initial_cash": 100000,
+    "slots": 10,
+    "maximum_daily_signals": 3,
+    "conditional_buy_lifetime_calendar_days": 7,
+    "holding_calendar_days": 30,
+    "entry_atr": 0.0,
+    "take_atr": 4.0,
+    "stop_atr": 1.5,
+    "t_plus_one": true,
+    "same_day_double_touch": "stop_first",
+    "daily_volume_capacity_fraction": 0.02,
+    "fees_and_slippage": "unchanged from the frozen Batch004/006/008 engine"
+  },
+  "shared_q1_random_starts": {
+    "seed": 20261021,
+    "bit_generator": "numpy.random.PCG64",
+    "starts_per_year": 5,
+    "sampling": "For each year 2020 through 2024, sample without replacement from sorted January-March execution sessions and share the exact starts across all candidates.",
+    "last_signal_date": "calendar year end minus 37 calendar days",
+    "total_runs": 325
+  },
+  "hard_robustness_gates": {
+    "annual": "Every 2020-2024 full-window account return must be >0; every year must contain at least 180 generated signals and at least 150 completed trades; worst annual excess must be >= -0.10; mean annual excess must be >0.",
+    "leave_one_year_out": "For each of five omitted-year folds, the geometric mean of the remaining four annual strategy returns must be >0 and its difference from the geometric mean Shanghai Composite return must be >0.",
+    "expanding_time": "For 2020-2022, 2020-2023, and 2020-2024 prefixes, strategy geometric CAGR and its difference from benchmark geometric CAGR must both be >0.",
+    "shared_q1_random_starts": "All 25 runs must end with no positions or pending orders; each run must complete >=120 trades; the minimum of the five per-year mean returns must be >0; at least 80% of all runs must have positive return.",
+    "parameter_neighborhood": "Predefined path-adjacent candidates are the neighborhood. The candidate and every listed neighbor must independently pass annual, leave-one-year-out, expanding-time, and Q1-start gates; neighborhood minimum full-window CAGR and annualized excess must both be >0.",
+    "audit": "The frozen champion must pass raw unadjusted OHLC, complete corporate-action and delisting coverage, all annual signal/trade minima, and empty terminal state. Audit failure ends the batch without reselection."
+  },
+  "neighbors": {
+    "C00_OLD": ["C01_FULL25", "C05_M25", "C07_T25", "C09_H25", "C11_O25"],
+    "C01_FULL25": ["C00_OLD", "C02_FULL50"],
+    "C02_FULL50": ["C01_FULL25", "C03_FULL75"],
+    "C03_FULL75": ["C02_FULL50", "C04_NEW"],
+    "C04_NEW": ["C03_FULL75"],
+    "C05_M25": ["C00_OLD", "C06_M50"],
+    "C06_M50": ["C05_M25"],
+    "C07_T25": ["C00_OLD", "C08_T50"],
+    "C08_T50": ["C07_T25"],
+    "C09_H25": ["C00_OLD", "C10_H50"],
+    "C10_H50": ["C09_H25"],
+    "C11_O25": ["C00_OLD", "C12_O50"],
+    "C12_O50": ["C11_O25"]
+  },
+  "return_definitions": {
+    "strategy_cagr": "(ending_equity/100000)^(1/5)-1 for the continuous 2020-2024 account.",
+    "benchmark_cagr": "(Shanghai Composite 2024 last close / 2019 last close)^(1/5)-1, price index without dividends.",
+    "annualized_excess": "strategy_cagr - benchmark_cagr.",
+    "annual_excess": "calendar-year strategy account return minus the same calendar-year Shanghai Composite price-index return. Report arithmetic mean and minimum."
+  },
+  "selection_rule": {
+    "eligible_first": true,
+    "joint_score": "Among hard-gate passers only, 0.5*percentile_rank(strategy_cagr)+0.5*percentile_rank(annualized_excess), higher is better. Because every candidate shares the same benchmark interval, these two ranks are mathematically identical; both are retained to make the dual objective explicit.",
+    "tie_breakers": ["mean annual excess descending", "worst annual excess descending", "minimum Q1-start yearly mean descending", "candidate_id ascending"],
+    "no_full_sample_only_selection": true
+  },
+  "audit": {
+    "freeze_exactly_one_champion_before_raw_audit": true,
+    "raw_input": "original unadjusted OHLC through 2024-12-31 plus complete pre-2025 corporate actions and delistings",
+    "audit_does_not_trigger_reselection": true,
+    "maximum_signal_date": "2024-11-22",
+    "maximum_input_or_execution_date": "2024-12-31"
+  },
+  "controls": {
+    "no_candidate_expansion": true,
+    "retain_all_failures": true,
+    "production_change": false,
+    "current_selection_change": false,
+    "prior_result_change": false,
+    "live_orders": false,
+    "post_2024_access": false
+  }
+}

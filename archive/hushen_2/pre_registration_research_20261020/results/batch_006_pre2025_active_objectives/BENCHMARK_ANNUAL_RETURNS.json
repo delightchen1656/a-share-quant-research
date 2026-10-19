@@ -1,0 +1,67 @@
+{
+  "instrument_name": "上证综合指数（价格指数）",
+  "instrument_code": "000001.SH",
+  "provider_request_symbol": "sh000001",
+  "provider": "Eastmoney via AkShare stock_zh_index_daily_em",
+  "data_sha256": "439de32fec838a96bf096e7a10dcef9d471c3f873f7d548ad18e38db89c7653f",
+  "metadata_sha256": "16c14599f76d740350671efa90d77d94e3848e69a585bc54e82e6e80aefb0c19",
+  "columns": [
+    "date",
+    "open",
+    "close",
+    "high",
+    "low",
+    "volume",
+    "amount"
+  ],
+  "minimum_date": "2019-01-02",
+  "maximum_date": "2024-12-31",
+  "annual_returns": [
+    {
+      "year": 2020,
+      "prior_year_last_date": "2019-12-31",
+      "prior_year_last_close": 3050.12,
+      "year_last_date": "2020-12-31",
+      "year_last_close": 3473.07,
+      "price_index_return": 0.1386666754094923
+    },
+    {
+      "year": 2021,
+      "prior_year_last_date": "2020-12-31",
+      "prior_year_last_close": 3473.07,
+      "year_last_date": "2021-12-31",
+      "year_last_close": 3639.78,
+      "price_index_return": 0.048000760134405684
+    },
+    {
+      "year": 2022,
+      "prior_year_last_date": "2021-12-31",
+      "prior_year_last_close": 3639.78,
+      "year_last_date": "2022-12-30",
+      "year_last_close": 3089.26,
+      "price_index_return": -0.151250899779657
+    },
+    {
+      "year": 2023,
+      "prior_year_last_date": "2022-12-30",
+      "prior_year_last_close": 3089.26,
+      "year_last_date": "2023-12-29",
+      "year_last_close": 2974.93,
+      "price_index_return": -0.03700886296394623
+    },
+    {
+      "year": 2024,
+      "prior_year_last_date": "2023-12-29",
+      "prior_year_last_close": 2974.93,
+      "year_last_date": "2024-12-31",
+      "year_last_close": 3351.76,
+      "price_index_return": 0.12666852665440875
+    }
+  ],
+  "return_formula": "last close in calendar year / last close in prior calendar year - 1",
+  "comparison_limitation": "This is an ordinary price index excluding dividends; the audited strategy account includes corporate-action cash dividends.",
+  "rejected_unidentified_input": {
+    "path": "strategies/hushen/backtest/data/benchmark.parquet",
+    "reason": "Only date and close were present and neither columns nor parquet metadata established Shanghai Composite identity; it is not used for Batch006 returns."
+  }
+}

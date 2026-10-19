@@ -1,0 +1,180 @@
+{
+  "status": "unique_champion_frozen_pending_independent_raw_audit",
+  "protocol_id": "hushen_smart_1_batch_010_pre2025_new_active_floor",
+  "champion": "N01_M45",
+  "champion_spec": {
+    "M_internal": [
+      0.45,
+      0.55,
+      0.0
+    ],
+    "T_internal": [
+      0.5,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "H_internal": [
+      0.25,
+      0.25,
+      0.5,
+      0.0
+    ],
+    "outer": [
+      0.6,
+      0.0,
+      0.4
+    ]
+  },
+  "selection_row": {
+    "candidate": "N01_M45",
+    "factor": "N01_M45",
+    "entry_offset_atr": 0.0,
+    "exit_set": "take4.00_stop1.50",
+    "take_atr": 4.0,
+    "stop_atr": 1.5,
+    "hold_calendar_days": 30,
+    "eligible": true,
+    "cagr": 0.23072349979404838,
+    "final_equity": 282359.5402657133,
+    "worst_annual_return": 0.08009448711830136,
+    "profitable_years": 5,
+    "annual_return_std": 0.11358313975652637,
+    "trade_count_cv": 0.05388111283043386,
+    "completed_trades": 1029,
+    "open_positions_at_end": 0,
+    "pending_orders_at_end": 0,
+    "expired_entry_orders": 52,
+    "capacity_limited_orders": 0,
+    "blocked_exit_attempts": 8,
+    "blocked_exit_reason_counts": {
+      "stop": 8
+    },
+    "corporate_action_events": 0,
+    "corporate_action_source_counts": {},
+    "delisting_freezes": 0,
+    "unpaid_receivables": 0.0,
+    "return_2020": 0.24527581764782136,
+    "trades_2020": 211,
+    "return_2021": 0.40020237200964837,
+    "trades_2021": 200,
+    "return_2022": 0.08009448711830136,
+    "trades_2022": 225,
+    "return_2023": 0.14650410989067852,
+    "trades_2023": 194,
+    "return_2024": 0.30770184743316964,
+    "trades_2024": 199,
+    "spec_json": "{\"H_internal\": [0.25, 0.25, 0.5, 0.0], \"M_internal\": [0.45, 0.55, 0.0], \"T_internal\": [0.5, 0.0, 0.5, 0.0], \"outer\": [0.6, 0.0, 0.4]}",
+    "benchmark_cagr": 0.01903992024971135,
+    "annualized_excess": 0.21168357954433703,
+    "mean_annual_excess": 0.21094048692898318,
+    "worst_annual_excess": 0.10660914223832907,
+    "min_annual_signals": 645,
+    "min_annual_trades": 194,
+    "loo_min_cagr": 0.19166151594631686,
+    "loo_min_excess": 0.17973588200095847,
+    "expanding_min_cagr": 0.2121976345603056,
+    "expanding_min_excess": 0.21168357954433703,
+    "start_min_year_mean": 0.029671840432293272,
+    "start_min_year_mean_excess": 0.09587469860369913,
+    "start_positive_excess_fraction": 0.96,
+    "start_min_completed_trades": 133,
+    "start_terminal_empty": true,
+    "annual_gate": true,
+    "loo_gate": true,
+    "expanding_gate": true,
+    "start_gate": true,
+    "base_gate": true,
+    "neighbor_min_worst_annual_excess": 0.10267155442877773,
+    "neighbor_min_loo_min_excess": 0.15969976079457715,
+    "neighbor_min_expanding_min_excess": 0.19345341459615117,
+    "neighbor_min_start_min_year_mean_excess": 0.07396885855331739,
+    "neighbor_members": "[\"N01_M45\", \"N00_NEW\", \"N02_M40\"]",
+    "neighborhood_gate": true
+  },
+  "qualified_candidate_count": 8,
+  "candidate_count": 15,
+  "random_start_runs": 375,
+  "benchmark": {
+    "instrument_name": "上证综合指数（价格指数）",
+    "instrument_code": "000001.SH",
+    "provider_request_symbol": "sh000001",
+    "provider": "Eastmoney via AkShare stock_zh_index_daily_em",
+    "data_sha256": "439de32fec838a96bf096e7a10dcef9d471c3f873f7d548ad18e38db89c7653f",
+    "metadata_sha256": "16c14599f76d740350671efa90d77d94e3848e69a585bc54e82e6e80aefb0c19",
+    "columns": [
+      "date",
+      "open",
+      "close",
+      "high",
+      "low",
+      "volume",
+      "amount"
+    ],
+    "minimum_date": "2019-01-02",
+    "maximum_date": "2024-12-31",
+    "annual_returns": [
+      {
+        "year": 2020,
+        "prior_year_last_date": "2019-12-31",
+        "prior_year_last_close": 3050.12,
+        "year_last_date": "2020-12-31",
+        "year_last_close": 3473.07,
+        "price_index_return": 0.1386666754094923
+      },
+      {
+        "year": 2021,
+        "prior_year_last_date": "2020-12-31",
+        "prior_year_last_close": 3473.07,
+        "year_last_date": "2021-12-31",
+        "year_last_close": 3639.78,
+        "price_index_return": 0.048000760134405684
+      },
+      {
+        "year": 2022,
+        "prior_year_last_date": "2021-12-31",
+        "prior_year_last_close": 3639.78,
+        "year_last_date": "2022-12-30",
+        "year_last_close": 3089.26,
+        "price_index_return": -0.151250899779657
+      },
+      {
+        "year": 2023,
+        "prior_year_last_date": "2022-12-30",
+        "prior_year_last_close": 3089.26,
+        "year_last_date": "2023-12-29",
+        "year_last_close": 2974.93,
+        "price_index_return": -0.03700886296394623
+      },
+      {
+        "year": 2024,
+        "prior_year_last_date": "2023-12-29",
+        "prior_year_last_close": 2974.93,
+        "year_last_date": "2024-12-31",
+        "year_last_close": 3351.76,
+        "price_index_return": 0.12666852665440875
+      }
+    ],
+    "return_formula": "last close in calendar year / last close in prior calendar year - 1",
+    "comparison_limitation": "This is an ordinary price index excluding dividends; the audited strategy account includes corporate-action cash dividends.",
+    "rejected_unidentified_input": {
+      "path": "strategies/hushen/backtest/data/benchmark.parquet",
+      "reason": "Only date and close were present and neither columns nor parquet metadata established Shanghai Composite identity; it is not used for Batch006 returns."
+    }
+  },
+  "assertions": {
+    "instruction_boundary_version": "public-pre2025-v1",
+    "post_2024_access": false,
+    "maximum_panel_date": "2024-11-22",
+    "maximum_execution_date": "2024-12-31",
+    "no_candidate_expansion": true,
+    "active_floor_ranked_first": true,
+    "production_change": false
+  },
+  "source_hashes": {
+    "protocol": "b6c78f90c05ee9070e104dd13fdda4b224f2f67c2f4dedb5831a49d7aa94876f",
+    "base_panel": "b7ccc01b9d39af7cd4d147bab6400dc62433afab6c116d74bb86d3d2467e389d",
+    "benchmark": "439de32fec838a96bf096e7a10dcef9d471c3f873f7d548ad18e38db89c7653f",
+    "runner": "d16a3409b9647db36ba9f29b55c9c1f0ccfa3fe5d2f5d434fcba5f5783f46e2e"
+  }
+}

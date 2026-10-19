@@ -1,0 +1,20 @@
+{
+  "status": "audit_failed",
+  "champion_frozen_before_audit": "N01_M45",
+  "audit_did_not_trigger_reselection": true,
+  "reason": "Seven symbol/year corporate-action coverage keys were missing before the scoped public pre-2025 lookup.",
+  "missing_corporate_action_keys": [
+    "000836.SZ/2020",
+    "002274.SZ/2020",
+    "002412.SZ/2024",
+    "600888.SH/2020",
+    "600989.SH/2020",
+    "600997.SH/2020",
+    "603186.SH/2022"
+  ],
+  "raw_hard_gates_passed_before_coverage_completion": true,
+  "pre2025_boundary_passed": true,
+  "full_window_terminal_empty": true,
+  "random_start_run_count_exact_25": true,
+  "next_action": "Query only these seven keys through 2024-12-31 and rerun the same frozen champion; do not reselect."
+}

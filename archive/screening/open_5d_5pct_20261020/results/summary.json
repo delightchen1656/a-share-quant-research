@@ -1,0 +1,17 @@
+{
+  "raw_rows": 6514624,
+  "eligible": 6416111,
+  "x": 2302251,
+  "y": 2102986,
+  "special_limit_unknown": 522,
+  "open_limit_excluded": 26261,
+  "incomplete_excluded": 16152,
+  "stocks": 3396,
+  "x_rate": 0.3588234368139828,
+  "y_given_x": 0.9134477517872726,
+  "y_rate": 0.327766461646315,
+  "synthetic_tests_passed": 10,
+  "calendar_file": "C:\\Users\\22241\\Desktop\\quant\\sh_sz_market_research\\data_pipeline\\data\\metadata\\trade_calendar_20261012.csv",
+  "definition": "t开盘买入；只查t+1至t+5；high>=open_t*1.05为x；t至首次触及日low均>open_t*.95为y；按股票-买入日计次，完整6日窗口，非独立交易",
+  "limitations": "原始价格，不加现金分红；非涨停为历史日线规则筛选，非真实成交保证；特殊涨幅日/旧制IPO首日单列。此全库描述统计不反馈隔离优化代理。"
+}

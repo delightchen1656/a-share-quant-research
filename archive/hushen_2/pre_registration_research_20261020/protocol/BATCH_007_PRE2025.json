@@ -1,0 +1,96 @@
+{
+  "protocol_id": "hushen_smart_1_batch_007_pre2025_start_robustness",
+  "registered_at": "2026-10-19T00:00:00+08:00",
+  "status": "preregistered_before_batch_007_results",
+  "purpose": "Evaluate start-date robustness of two already frozen pre-2025 specifications. This batch performs no tuning, winner selection, parameter adjustment, resampling, or production change.",
+  "output_directory": "results/batch_007_pre2025_start_robustness",
+  "post_2024_forbidden": true,
+  "development_years": [2020, 2021, 2022, 2023, 2024],
+  "frozen_versions": {
+    "OLD": {
+      "source": "results/batch_004_pre2025_factor_tuning/audit/FINAL_AUDIT.json",
+      "M_internal": [0.25, 0.75, 0.0],
+      "T_internal": [0.5, 0.25, 0.25, 0.0],
+      "H_internal": [0.25, 0.25, 0.25, 0.25],
+      "outer": [0.3, 0.3, 0.4]
+    },
+    "NEW": {
+      "source": "results/batch_006_pre2025_active_objectives/audit/FINAL_AUDIT.json#audited_champions.defense_maximin",
+      "M_internal": [0.5, 0.5, 0.0],
+      "T_internal": [0.5, 0.0, 0.5, 0.0],
+      "H_internal": [0.25, 0.25, 0.5, 0.0],
+      "outer": [0.6, 0.0, 0.4]
+    }
+  },
+  "execution": {
+    "initial_cash_each_run": 100000,
+    "initial_state": "empty portfolio and no pending orders",
+    "slots": 10,
+    "maximum_daily_signals": 3,
+    "conditional_buy_lifetime_calendar_days": 7,
+    "holding_calendar_days": 30,
+    "entry_atr": 0.0,
+    "take_atr": 4.0,
+    "stop_atr": 1.5,
+    "t_plus_one": true,
+    "same_day_double_touch": "stop_first",
+    "daily_volume_capacity_fraction": 0.02,
+    "fees_slippage_corporate_actions_delistings": "identical to the Batch004/Batch006 raw-price corporate-action audit"
+  },
+  "start_sampling": {
+    "random_seed": 20261019,
+    "bit_generator": "numpy.random.PCG64",
+    "algorithm": "Create one numpy Generator(PCG64(20261019)); iterate years ascending; for each year build the sorted unique execution trading dates from January 1 through March 31 inclusive, draw 20 integer positions using Generator.choice(n, size=20, replace=false), and sort the selected dates ascending for storage and execution.",
+    "without_replacement_within_year": true,
+    "starts_per_year": 20,
+    "versions_share_identical_starts": true,
+    "redraw_after_results": false
+  },
+  "run_window": {
+    "signals_allowed_from": "sampled start date inclusive",
+    "last_signal_date_each_year": "calendar year end minus 37 calendar days",
+    "reason_for_37_days": "allow the fixed seven-calendar-day entry-order lifetime plus thirty-calendar-day holding horizon to mature",
+    "execution_end": "last trading day of the same calendar year",
+    "required_terminal_state": "zero open positions and zero pending orders",
+    "unexitable_objective_halt_or_other_terminal_residue": "record the run as failed/anomalous; never silently drop it"
+  },
+  "run_counts": {
+    "years": 5,
+    "starts_per_year": 20,
+    "runs_per_version": 100,
+    "versions": 2,
+    "total_runs": 200
+  },
+  "reporting": {
+    "per_year_per_version": [
+      "mean return",
+      "median return",
+      "population standard deviation ddof=0",
+      "variance check equal to std squared",
+      "minimum return",
+      "maximum return",
+      "positive-return fraction",
+      "mean completed trades",
+      "median completed trades",
+      "failed run count"
+    ],
+    "overall_per_version_across_100_runs": "same metrics; do not label as CAGR because run holding lengths differ",
+    "retain_all_runs_including_failures": true,
+    "save_sampled_starts": true,
+    "save_reproducible_trade_details": true,
+    "save_corporate_action_coverage_hashes_and_assertions": true
+  },
+  "controls": {
+    "parameter_changes": false,
+    "candidate_selection": false,
+    "seed_changes": false,
+    "start_redraw": false,
+    "bad_start_exclusion": false,
+    "production_change": false,
+    "current_selection_change": false,
+    "prior_result_change": false,
+    "live_orders": false,
+    "maximum_input_or_execution_date": "2024-12-31",
+    "post_2024_access": false
+  }
+}

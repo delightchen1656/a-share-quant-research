@@ -1,0 +1,85 @@
+{
+  "protocol_id": "hushen_smart_1_batch_008_pre2025_migration",
+  "registered_at": "2026-10-19T20:20:00+08:00",
+  "status": "preregistered_before_batch_008_results",
+  "instruction_boundary_version": "public-pre2025-v1",
+  "purpose": "Select one finite pre-2025 30-calendar-day specification with cross-year migration robustness as the first priority, while secondarily improving mean/worst annual account returns and annual excess returns over the Shanghai Composite.",
+  "output_directory": "results/batch_008_pre2025_migration",
+  "post_2024_forbidden": true,
+  "development_period": ["2020-01-01", "2024-12-31"],
+  "all_years_are_development_not_holdout": true,
+  "prior_sources_reviewed": {
+    "BATCH_004.json_sha256": "fe9b5d282a49bbdbc05080322b72c704b59657e4eeae3499b5a202c901456dbf",
+    "BATCH_006.json_sha256": "d19f5567f52e51ed14b84b99e5f632174bc11c8cc16e96f551d888c8ce3caebb",
+    "BATCH_007_PRE2025.json_sha256": "7018e2502007bda75ecdbc8f6fc7e87a8de422cf0402d92f8d095686b36748ac"
+  },
+  "execution": {
+    "initial_cash": 100000,
+    "slots": 10,
+    "maximum_daily_signals": 3,
+    "conditional_buy_lifetime_calendar_days": 7,
+    "holding_calendar_days": 30,
+    "entry_atr": 0.0,
+    "take_atr": 4.0,
+    "stop_atr": 1.5,
+    "t_plus_one": true,
+    "same_day_double_touch": "stop_first",
+    "daily_volume_capacity_fraction": 0.02,
+    "screening_execution": "verified pre-2025 QFQ approximation identical to Batch004/006",
+    "final_audit_execution": "raw unadjusted OHLC plus complete pre-2025 corporate actions and delistings, identical to Batch007"
+  },
+  "candidate_origin": "Nine fixed structural bridge/ablation specifications formed only from the already frozen OLD and NEW pre-2025 specifications. No Batch008 result is used to add, delete, or alter a candidate.",
+  "candidates": {
+    "C00_OLD": {"M_internal": [0.25, 0.75, 0.0], "T_internal": [0.5, 0.25, 0.25, 0.0], "H_internal": [0.25, 0.25, 0.25, 0.25], "outer": [0.3, 0.3, 0.4]},
+    "C01_NEW": {"M_internal": [0.5, 0.5, 0.0], "T_internal": [0.5, 0.0, 0.5, 0.0], "H_internal": [0.25, 0.25, 0.5, 0.0], "outer": [0.6, 0.0, 0.4]},
+    "C02_MID_ALL": {"M_internal": [0.375, 0.625, 0.0], "T_internal": [0.5, 0.125, 0.375, 0.0], "H_internal": [0.25, 0.25, 0.375, 0.125], "outer": [0.45, 0.15, 0.4]},
+    "C03_M_MID": {"M_internal": [0.375, 0.625, 0.0], "T_internal": [0.5, 0.25, 0.25, 0.0], "H_internal": [0.25, 0.25, 0.25, 0.25], "outer": [0.3, 0.3, 0.4]},
+    "C04_T_MID": {"M_internal": [0.25, 0.75, 0.0], "T_internal": [0.5, 0.125, 0.375, 0.0], "H_internal": [0.25, 0.25, 0.25, 0.25], "outer": [0.3, 0.3, 0.4]},
+    "C05_H_MID": {"M_internal": [0.25, 0.75, 0.0], "T_internal": [0.5, 0.25, 0.25, 0.0], "H_internal": [0.25, 0.25, 0.375, 0.125], "outer": [0.3, 0.3, 0.4]},
+    "C06_OUTER_MID": {"M_internal": [0.25, 0.75, 0.0], "T_internal": [0.5, 0.25, 0.25, 0.0], "H_internal": [0.25, 0.25, 0.25, 0.25], "outer": [0.45, 0.15, 0.4]},
+    "C07_NEW_INTERNAL_OLD_OUTER": {"M_internal": [0.5, 0.5, 0.0], "T_internal": [0.5, 0.0, 0.5, 0.0], "H_internal": [0.25, 0.25, 0.5, 0.0], "outer": [0.3, 0.3, 0.4]},
+    "C08_OLD_INTERNAL_NEW_OUTER": {"M_internal": [0.25, 0.75, 0.0], "T_internal": [0.5, 0.25, 0.25, 0.0], "H_internal": [0.25, 0.25, 0.25, 0.25], "outer": [0.6, 0.0, 0.4]}
+  },
+  "candidate_count": 9,
+  "random_start_screen": {
+    "seed": 20261020,
+    "bit_generator": "numpy.random.PCG64",
+    "starts_per_year": 5,
+    "sampling": "For each year ascending, sample without replacement from sorted execution sessions in January through March, then sort selected starts. All candidates share the same starts; no redraw.",
+    "last_signal_date": "calendar year end minus 37 calendar days",
+    "screening_run_count": 225
+  },
+  "eligibility": {
+    "minimum_completed_full_window_trades_each_year": 20,
+    "minimum_profitable_full_window_years": 3,
+    "all_random_start_runs_must_finish_without_open_positions_or_pending_orders": true
+  },
+  "selection_rule": {
+    "rank_normalization": "Across the nine fixed candidates, higher-is-better percentile rank using average ties.",
+    "annual_components": ["worst annual absolute account return", "mean annual absolute account return", "worst annual active return", "mean annual active return"],
+    "annual_core": "minimum percentile rank among the four annual components",
+    "leave_one_year_out": "For each omitted year, recompute the four components on the remaining four years and take their minimum percentile rank; loo_floor is the minimum across five omitted-year folds.",
+    "random_start_component": "For each candidate and year, mean the five fixed-start returns; start_floor_rank is the percentile rank of the minimum of those five annual means.",
+    "parameter_neighborhood": "Distance is the count of differing parameter blocks among M_internal, T_internal, H_internal, outer. A candidate's neighborhood is itself plus every fixed candidate at distance one. neighbor_floor is the minimum annual_core among that neighborhood; isolated candidates fall back to self only.",
+    "migration_floor": "minimum of annual_core, loo_floor, start_floor_rank, and neighbor_floor",
+    "strict_order": ["eligible descending", "migration_floor descending", "mean of annual_core, loo_floor, start_floor_rank, neighbor_floor descending", "worst annual absolute return descending", "worst annual active return descending", "mean annual absolute return descending", "mean annual active return descending", "candidate_id ascending"],
+    "cagr_role": "reported only and never used for selection"
+  },
+  "audit": {
+    "freeze_exactly_one_champion_before_raw_audit": true,
+    "raw_full_window_audit": true,
+    "raw_random_start_audit": "Repeat all 25 preregistered champion start runs with raw prices and corporate actions.",
+    "audit_does_not_trigger_reselection": true,
+    "maximum_signal_date": "2024-11-22",
+    "maximum_input_or_execution_date": "2024-12-31"
+  },
+  "controls": {
+    "no_candidate_expansion": true,
+    "retain_all_failures": true,
+    "production_change": false,
+    "current_selection_change": false,
+    "prior_result_change": false,
+    "live_orders": false,
+    "post_2024_access": false
+  }
+}

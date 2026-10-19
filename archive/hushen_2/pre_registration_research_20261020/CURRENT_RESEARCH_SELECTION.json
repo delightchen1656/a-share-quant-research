@@ -1,0 +1,50 @@
+{
+  "name": "沪深智能1",
+  "status": "research_only_not_production",
+  "selected_on": "2026-10-19",
+  "source_batch": "batch_003_equal_step",
+  "signal_formula": {
+    "formula": "0.25*rank(M)+0.25*rank(T)+0.50*rank(H)",
+    "M": "mean(utility,pen025,pen100) from Hushen Screen 1",
+    "T": "0.35*rank(mom120)+0.25*rank(close/high60-1)+0.20*rank(mom20)-0.20*rank(vol60)",
+    "H": "5-session smooth[-0.35*rank(amount/turn)-0.20*rank(vol60)+0.25*rank(overnight20)-0.20*rank(intraday20)]"
+  },
+  "seven_calendar_day": {
+    "daily_top_k": 1,
+    "buy_trigger": "signal_close",
+    "take_profit": "executed_buy_price*(1+4.0*clipped_ATR_fraction)",
+    "stop_loss": "executed_buy_price*(1-2.5*clipped_ATR_fraction)",
+    "raw_action_audited_cagr_2020_2024": 0.0803113062600227,
+    "raw_action_audited_final_equity": 147144.69416085404,
+    "profitable_years": 5,
+    "worst_year_return": 0.02693805423288631,
+    "completed_trades": 635,
+    "cross_time_2022_2024_cumulative_return": 0.28466014891545655,
+    "cross_time_2022_2024_cagr": 0.08708311642874378
+  },
+  "thirty_calendar_day": {
+    "daily_top_k": 3,
+    "buy_trigger": "signal_close",
+    "take_profit": "executed_buy_price*(1+4.0*clipped_ATR_fraction)",
+    "stop_loss": "executed_buy_price*(1-1.5*clipped_ATR_fraction)",
+    "raw_action_audited_cagr_2020_2024": 0.21511046212688334,
+    "raw_action_audited_final_equity": 264898.07409492193,
+    "profitable_years": 5,
+    "worst_year_return": 0.09759757836995808,
+    "completed_trades": 995,
+    "cross_time_2022_2024_cumulative_return": 0.571455218580275,
+    "cross_time_2022_2024_cagr": 0.16260986354888374
+  },
+  "account": {
+    "initial_cash": 100000,
+    "slots": 10,
+    "entry_order_valid_calendar_days": 7,
+    "order_type": "best_five_immediate_or_cancel",
+    "full_fill_daily_volume_fraction": 0.02
+  },
+  "boundary_warning": "Both winners are development-set selections. Entry offset is at the tested lower boundary and take-profit is at the tested upper boundary; no automatic grid expansion was performed.",
+  "decision": "Batch 003 supersedes Batch 002 as the current research-only selection. It does not change Hushen 1, Hushen Screen 1, production tasks, or live orders.",
+  "audit": "results/batch_003/audit/FINAL_AUDIT.json",
+  "protocol": "protocol/BATCH_003.json",
+  "post_2024_access": false
+}

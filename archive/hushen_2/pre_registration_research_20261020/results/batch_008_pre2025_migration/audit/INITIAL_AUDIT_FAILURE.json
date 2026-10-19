@@ -1,0 +1,43 @@
+{
+  "status": "audit_failed_missing_corporate_action_coverage",
+  "champion_frozen_before_audit": "C04_T_MID",
+  "audit_did_not_trigger_reselection": true,
+  "recorded_before_supplemental_pre2025_action_query": true,
+  "full_window_snapshot": {
+    "cagr": 0.25225704593054354,
+    "final_equity": 307940.931971887,
+    "worst_annual_return": 0.07356235127405464,
+    "annual_mean_return": 0.2592163793328332,
+    "active_min": -0.053106175380354115,
+    "active_mean": 0.2342011394418925,
+    "completed_trades": 1018,
+    "open_positions_at_end": 0,
+    "pending_orders_at_end": 0
+  },
+  "raw_random_start_snapshot": {
+    "run_count": 25,
+    "mean_return": 0.24360929280233562,
+    "minimum_return": 0.02659870240473472,
+    "positive_fraction": 1.0
+  },
+  "missing_corporate_action_keys": [
+    "000151.SZ/2024",
+    "000419.SZ/2020",
+    "000695.SZ/2023",
+    "002164.SZ/2022",
+    "002305.SZ/2021",
+    "002578.SZ/2022",
+    "002853.SZ/2022",
+    "600246.SH/2021",
+    "600530.SH/2024",
+    "600575.SH/2022",
+    "600676.SH/2024",
+    "601512.SH/2023",
+    "601702.SH/2024",
+    "603078.SH/2023",
+    "603331.SH/2023",
+    "605288.SH/2020"
+  ],
+  "resolution": "Only these 16 pre-2025 stock-year keys were queried from the public Eastmoney table. Three contained events and thirteen were confirmed empty. The same frozen champion was then re-audited without reselection.",
+  "production_change": false
+}

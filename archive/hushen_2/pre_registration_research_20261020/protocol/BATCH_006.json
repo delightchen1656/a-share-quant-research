@@ -1,0 +1,144 @@
+{
+  "protocol_id": "hushen_smart_1_batch_006_pre2025_active_objectives",
+  "registered_at": "2026-10-19T00:00:00+08:00",
+  "status": "preregistered_before_batch_006_results",
+  "purpose": "Run the Batch004 broad equal-step four-stage factor grid independently for two pre-2025 active-return objectives relative to the Shanghai Composite price index.",
+  "inherits_execution_and_factor_construction_from": "BATCH_004.json",
+  "output_directory": "results/batch_006_pre2025_active_objectives",
+  "post_2024_forbidden": true,
+  "development_period": ["2020-01-01", "2024-12-31"],
+  "execution": {
+    "initial_cash": 100000,
+    "slots": 10,
+    "maximum_daily_signals": 3,
+    "conditional_buy_lifetime_calendar_days": 7,
+    "holding_calendar_days": 30,
+    "entry_atr": 0.0,
+    "take_atr": 4.0,
+    "stop_atr": 1.5,
+    "t_plus_one": true,
+    "same_day_double_touch": "stop_first",
+    "daily_volume_capacity_fraction": 0.02,
+    "fees_slippage_and_corporate_actions": "identical to Batch004; screening uses the verified QFQ execution approximation and each frozen champion receives a raw-price plus corporate-action audit"
+  },
+  "benchmark": {
+    "requested_identity": "Shanghai Composite Index (上证指数)",
+    "source": "strategies/hushen/backtest/data/benchmark.parquet",
+    "required_identity_evidence": "the parquet content or metadata must audibly establish that the series is the Shanghai Composite Index; otherwise stop and request an additional explicit whitelist",
+    "required_input_record": ["sha256", "columns", "minimum_date", "maximum_date", "identity_evidence"],
+    "annual_return_formula": "last trading day close of calendar year / last trading day close of prior calendar year - 1",
+    "required_price_date": "a valid final trading close for 2019 is mandatory; stop if absent",
+    "annual_years": [2020, 2021, 2022, 2023, 2024],
+    "boundary_alignment": "calendar-year boundaries identical to strategy account annual-return reporting",
+    "comparison_limitation": "the benchmark is an ordinary price index excluding dividends, while the audited strategy account includes corporate-action cash dividends"
+  },
+  "active_return": {
+    "definition": "E_y = strategy account annual return R_y - Shanghai Composite annual price-index return B_y",
+    "mean": "arithmetic mean across 2020-2024",
+    "std": "population standard deviation across 2020-2024 with ddof=0",
+    "variance": "std squared, recorded only as a validation field and never used for selection"
+  },
+  "common_eligibility": {
+    "evaluation_years": [2020, 2021, 2022, 2023, 2024],
+    "minimum_completed_trades_each_year": 20,
+    "minimum_profitable_strategy_years": 3
+  },
+  "objectives": [
+    {
+      "id": "defense_maximin",
+      "additional_eligibility": null,
+      "selection_order_each_phase": [
+        "eligible descending",
+        "minimum annual active return descending",
+        "mean annual active return descending",
+        "annual active return std ddof=0 ascending",
+        "continuous account CAGR descending",
+        "candidate_id ascending deterministic stable tie break"
+      ]
+    },
+    {
+      "id": "stability_min_std",
+      "additional_eligibility": {
+        "mean_annual_active_return_strictly_greater_than": 0,
+        "minimum_positive_active_return_years": 3
+      },
+      "selection_order_each_phase": [
+        "eligible descending",
+        "annual active return std ddof=0 ascending",
+        "minimum annual active return descending",
+        "mean annual active return descending",
+        "continuous account CAGR descending",
+        "candidate_id ascending deterministic stable tie break"
+      ],
+      "variance_not_selection_metric": true
+    }
+  ],
+  "independent_sequential_grid_per_objective": [
+    {
+      "phase": 1,
+      "name": "M_internal_weights",
+      "dimensions": ["utility", "pen025", "pen100"],
+      "constraints": "weights nonnegative, sum to 1",
+      "step": 0.25,
+      "candidate_count": 15,
+      "inherit": "Batch004 default T and H internal formulas, Batch003 frozen outer M/T/H weights, and daily_top_k=3"
+    },
+    {
+      "phase": 2,
+      "name": "T_internal_weights",
+      "dimensions": ["mom120_positive", "close_to_high60_positive", "mom20_positive", "vol60_negative"],
+      "constraints": "weights nonnegative, sum to 1",
+      "step": 0.25,
+      "candidate_count": 35,
+      "inherit": "this objective's phase 1 unique winner plus Batch004 default H, Batch003 frozen outer weights, and daily_top_k=3"
+    },
+    {
+      "phase": 3,
+      "name": "H_internal_weights",
+      "dimensions": ["size_negative", "vol60_negative", "overnight_positive", "intraday_negative"],
+      "constraints": "weights nonnegative, sum to 1",
+      "step": 0.25,
+      "candidate_count": 35,
+      "inherit": "this objective's phase 1 and phase 2 unique winners plus Batch003 frozen outer weights and daily_top_k=3"
+    },
+    {
+      "phase": 4,
+      "name": "outer_M_T_H_weights",
+      "dimensions": ["M", "T", "H"],
+      "constraints": "weights nonnegative, sum to 1",
+      "step": 0.10,
+      "candidate_count": 66,
+      "inherit": "this objective's three internal unique winners and daily_top_k=3"
+    }
+  ],
+  "screening_counts": {
+    "per_objective": 151,
+    "objective_count": 2,
+    "total": 302,
+    "reuse_batch004_ordering_only": false,
+    "grid_expansion_after_results": false
+  },
+  "outputs": {
+    "save_each_phase_full_grid_and_winner": true,
+    "save_all_302_results": true,
+    "save_benchmark_annual_returns": true,
+    "save_candidate_annual_active_returns": true,
+    "save_two_final_champions": true,
+    "retain_ineligible_candidates": true
+  },
+  "audit": {
+    "champions": "audit both final champions using pre-2025 raw prices and complete corporate actions; if identical, one execution audit may be reused with explicit disclosure",
+    "recompute_active_metrics_from_audited_strategy_annual_returns": true,
+    "audit_does_not_trigger_reselection": true,
+    "maximum_signal_date": "2024-11-22",
+    "maximum_execution_date": "2024-12-31",
+    "post_2024_access": false
+  },
+  "controls": {
+    "production_change": false,
+    "current_selection_change": false,
+    "batch005_change": false,
+    "prior_result_change": false,
+    "live_orders": false
+  }
+}

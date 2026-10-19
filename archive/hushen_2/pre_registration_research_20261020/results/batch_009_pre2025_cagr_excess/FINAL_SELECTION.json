@@ -1,0 +1,23 @@
+{
+  "status": "complete_unique_champion_audited",
+  "protocol_id": "hushen_smart_1_batch_009_pre2025_cagr_excess",
+  "champion": "C05_M25",
+  "exact_spec": {
+    "M_internal": [0.3125, 0.6875, 0.0],
+    "T_internal": [0.5, 0.25, 0.25, 0.0],
+    "H_internal": [0.25, 0.25, 0.25, 0.25],
+    "outer": [0.3, 0.3, 0.4]
+  },
+  "qualified_candidates": 8,
+  "total_candidates": 13,
+  "screening_cagr": 0.3007431195632857,
+  "screening_annualized_excess": 0.28170319931357435,
+  "raw_audit_cagr": 0.3061070257750025,
+  "raw_audit_annualized_excess": 0.28706710552529113,
+  "raw_audit_status": "complete",
+  "raw_audit_file": "audit/FINAL_AUDIT_RECHECK.json",
+  "initial_audit_failure_retained": "audit/FINAL_AUDIT.json",
+  "audit_did_not_trigger_reselection": true,
+  "production_change": false,
+  "post_2024_access": false
+}

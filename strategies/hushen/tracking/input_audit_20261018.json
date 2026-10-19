@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-10-18T18:44:45+08:00",
+  "symbol": "601059.SH",
+  "finding": "suspended_until_termination_not_missing_active_quote",
+  "vendor_last_date": "2026-10-12",
+  "vendor_last_tradestatus": 0,
+  "security_master_status_asof_2026_10_16": 0,
+  "security_master_out_date": "2026-10-19",
+  "exchange_evidence": "https://www.sse.com.cn/disclosure/announcement/listing/stock/c/c_20261012_10834561.shtml",
+  "exchange_finding": "SSE announced termination of listing from 2026-10-19 after continuous suspension; no delisting-consolidation trading period.",
+  "handling": "Keep symbol in each historical date universe before 2026-10-19. Do not fabricate missing bars. It remains ineligible on dates without a completed bar.",
+  "future_information_used_for_selection": false
+}

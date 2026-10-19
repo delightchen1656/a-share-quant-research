@@ -1,0 +1,4458 @@
+{
+  "cutoff": "2024-12-31",
+  "requested_keys": 117,
+  "successful_empty_keys": 96,
+  "keys_with_events": 21,
+  "report_receipts": [
+    {
+      "report_date": "20191231",
+      "rows": 2779
+    },
+    {
+      "report_date": "20200331",
+      "rows": 2
+    },
+    {
+      "report_date": "20200630",
+      "rows": 172
+    },
+    {
+      "report_date": "20200930",
+      "rows": 28
+    },
+    {
+      "report_date": "20201231",
+      "rows": 3124
+    },
+    {
+      "report_date": "20210331",
+      "rows": 2
+    },
+    {
+      "report_date": "20210630",
+      "rows": 185
+    },
+    {
+      "report_date": "20210930",
+      "rows": 25
+    },
+    {
+      "report_date": "20211231",
+      "rows": 3376
+    },
+    {
+      "report_date": "20220331",
+      "rows": 4
+    },
+    {
+      "report_date": "20220630",
+      "rows": 138
+    },
+    {
+      "report_date": "20220930",
+      "rows": 31
+    },
+    {
+      "report_date": "20221231",
+      "rows": 3480
+    },
+    {
+      "report_date": "20230331",
+      "rows": 6
+    },
+    {
+      "report_date": "20230630",
+      "rows": 195
+    },
+    {
+      "report_date": "20230930",
+      "rows": 63
+    },
+    {
+      "report_date": "20231231",
+      "rows": 3853
+    },
+    {
+      "report_date": "20240331",
+      "rows": 14
+    },
+    {
+      "report_date": "20240630",
+      "rows": 723
+    },
+    {
+      "report_date": "20240930",
+      "rows": 350
+    }
+  ],
+  "records": {
+    "601226.SH/2021": [
+      {
+        "code": "sh.601226",
+        "dividRegistDate": "2021-07-29",
+        "dividOperateDate": "2021-07-30",
+        "dividPayDate": "2021-07-30",
+        "dividStockMarketDate": "2021-07-30",
+        "dividCashPsBeforeTax": "0.025729999999999996",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002356.SZ/2022": [],
+    "000069.SZ/2021": [
+      {
+        "code": "sz.000069",
+        "dividRegistDate": "2021-06-08",
+        "dividOperateDate": "2021-06-09",
+        "dividPayDate": "2021-06-09",
+        "dividStockMarketDate": "2021-06-09",
+        "dividCashPsBeforeTax": "0.4",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601018.SH/2024": [
+      {
+        "code": "sh.601018",
+        "dividRegistDate": "2024-05-15",
+        "dividOperateDate": "2024-05-16",
+        "dividPayDate": "2024-05-16",
+        "dividStockMarketDate": "2024-05-16",
+        "dividCashPsBeforeTax": "0.091",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600297.SH/2020": [],
+    "002430.SZ/2022": [
+      {
+        "code": "sz.002430",
+        "dividRegistDate": "2022-04-28",
+        "dividOperateDate": "2022-04-29",
+        "dividPayDate": "2022-04-29",
+        "dividStockMarketDate": "2022-04-29",
+        "dividCashPsBeforeTax": "0.6",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600320.SH/2021": [],
+    "000066.SZ/2023": [
+      {
+        "code": "sz.000066",
+        "dividRegistDate": "2023-07-18",
+        "dividOperateDate": "2023-07-19",
+        "dividPayDate": "2023-07-19",
+        "dividStockMarketDate": "2023-07-19",
+        "dividCashPsBeforeTax": "0.007000000000000001",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000895.SZ/2020": [
+      {
+        "code": "sz.000895",
+        "dividRegistDate": "2020-06-09",
+        "dividOperateDate": "2020-06-10",
+        "dividPayDate": "2020-06-10",
+        "dividStockMarketDate": "2020-06-10",
+        "dividCashPsBeforeTax": "1.0",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      },
+      {
+        "code": "sz.000895",
+        "dividRegistDate": "2020-11-24",
+        "dividOperateDate": "2020-11-25",
+        "dividPayDate": "2020-11-25",
+        "dividStockMarketDate": "2020-11-25",
+        "dividCashPsBeforeTax": "0.64",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20200930",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600293.SH/2021": [],
+    "600079.SH/2020": [
+      {
+        "code": "sh.600079",
+        "dividRegistDate": "2020-07-27",
+        "dividOperateDate": "2020-07-28",
+        "dividPayDate": "2020-07-28",
+        "dividStockMarketDate": "2020-07-28",
+        "dividCashPsBeforeTax": "0.05",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600664.SH/2023": [],
+    "000667.SZ/2020": [],
+    "601808.SH/2022": [
+      {
+        "code": "sh.601808",
+        "dividRegistDate": "2022-06-16",
+        "dividOperateDate": "2022-06-17",
+        "dividPayDate": "2022-06-17",
+        "dividStockMarketDate": "2022-06-17",
+        "dividCashPsBeforeTax": "0.02",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002294.SZ/2024": [
+      {
+        "code": "sz.002294",
+        "dividRegistDate": "2024-06-18",
+        "dividOperateDate": "2024-06-19",
+        "dividPayDate": "2024-06-19",
+        "dividStockMarketDate": "2024-06-19",
+        "dividCashPsBeforeTax": "0.5",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600219.SH/2024": [
+      {
+        "code": "sh.600219",
+        "dividRegistDate": "2024-04-22",
+        "dividOperateDate": "2024-04-23",
+        "dividPayDate": "2024-04-23",
+        "dividStockMarketDate": "2024-04-23",
+        "dividCashPsBeforeTax": "0.12",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      },
+      {
+        "code": "sh.600219",
+        "dividRegistDate": "2024-10-10",
+        "dividOperateDate": "2024-10-11",
+        "dividPayDate": "2024-10-11",
+        "dividStockMarketDate": "2024-10-11",
+        "dividCashPsBeforeTax": "0.04",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20240630",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      },
+      {
+        "code": "sh.600219",
+        "dividRegistDate": "2024-11-22",
+        "dividOperateDate": "2024-11-25",
+        "dividPayDate": "2024-11-25",
+        "dividStockMarketDate": "2024-11-25",
+        "dividCashPsBeforeTax": "0.04",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20240930",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000428.SZ/2020": [],
+    "601818.SH/2020": [
+      {
+        "code": "sh.601818",
+        "dividRegistDate": "2020-06-23",
+        "dividOperateDate": "2020-06-24",
+        "dividPayDate": "2020-06-24",
+        "dividStockMarketDate": "2020-06-24",
+        "dividCashPsBeforeTax": "0.21400000000000002",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002938.SZ/2020": [
+      {
+        "code": "sz.002938",
+        "dividRegistDate": "2020-06-16",
+        "dividOperateDate": "2020-06-17",
+        "dividPayDate": "2020-06-17",
+        "dividStockMarketDate": "2020-06-17",
+        "dividCashPsBeforeTax": "0.5",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000626.SZ/2022": [],
+    "603707.SH/2020": [
+      {
+        "code": "sh.603707",
+        "dividRegistDate": "2020-07-22",
+        "dividOperateDate": "2020-07-23",
+        "dividPayDate": "2020-07-23",
+        "dividStockMarketDate": "2020-07-23",
+        "dividCashPsBeforeTax": "0.3",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.3",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002011.SZ/2021": [],
+    "600068.SH/2021": [],
+    "603633.SH/2022": [],
+    "000729.SZ/2022": [
+      {
+        "code": "sz.000729",
+        "dividRegistDate": "2022-07-13",
+        "dividOperateDate": "2022-07-14",
+        "dividPayDate": "2022-07-14",
+        "dividStockMarketDate": "2022-07-14",
+        "dividCashPsBeforeTax": "0.04",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002340.SZ/2024": [
+      {
+        "code": "sz.002340",
+        "dividRegistDate": "2024-07-03",
+        "dividOperateDate": "2024-07-04",
+        "dividPayDate": "2024-07-04",
+        "dividStockMarketDate": "2024-07-04",
+        "dividCashPsBeforeTax": "0.08",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000534.SZ/2020": [
+      {
+        "code": "sz.000534",
+        "dividRegistDate": "2020-08-26",
+        "dividOperateDate": "2020-08-27",
+        "dividPayDate": "2020-08-27",
+        "dividStockMarketDate": "2020-08-27",
+        "dividCashPsBeforeTax": "0.05",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603113.SH/2024": [
+      {
+        "code": "sh.603113",
+        "dividRegistDate": "2024-06-03",
+        "dividOperateDate": "2024-06-04",
+        "dividPayDate": "2024-06-04",
+        "dividStockMarketDate": "2024-06-04",
+        "dividCashPsBeforeTax": "0.094",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002172.SZ/2023": [],
+    "600337.SH/2020": [],
+    "002059.SZ/2023": [],
+    "600256.SH/2020": [],
+    "000630.SZ/2021": [
+      {
+        "code": "sz.000630",
+        "dividRegistDate": "2021-05-28",
+        "dividOperateDate": "2021-05-31",
+        "dividPayDate": "2021-05-31",
+        "dividStockMarketDate": "2021-05-31",
+        "dividCashPsBeforeTax": "0.04",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600208.SH/2022": [],
+    "601225.SH/2021": [
+      {
+        "code": "sh.601225",
+        "dividRegistDate": "2021-07-08",
+        "dividOperateDate": "2021-07-09",
+        "dividPayDate": "2021-07-09",
+        "dividStockMarketDate": "2021-07-09",
+        "dividCashPsBeforeTax": "0.8",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600782.SH/2020": [
+      {
+        "code": "sh.600782",
+        "dividRegistDate": "2020-06-11",
+        "dividOperateDate": "2020-06-12",
+        "dividPayDate": "2020-06-12",
+        "dividStockMarketDate": "2020-06-12",
+        "dividCashPsBeforeTax": "0.2",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600143.SH/2020": [
+      {
+        "code": "sh.600143",
+        "dividRegistDate": "2020-06-23",
+        "dividOperateDate": "2020-06-24",
+        "dividPayDate": "2020-06-24",
+        "dividStockMarketDate": "2020-06-24",
+        "dividCashPsBeforeTax": "0.1",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601658.SH/2021": [
+      {
+        "code": "sh.601658",
+        "dividRegistDate": "2021-07-21",
+        "dividOperateDate": "2021-07-22",
+        "dividPayDate": "2021-07-22",
+        "dividStockMarketDate": "2021-07-22",
+        "dividCashPsBeforeTax": "0.2085",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002851.SZ/2020": [
+      {
+        "code": "sz.002851",
+        "dividRegistDate": "2020-06-22",
+        "dividOperateDate": "2020-06-23",
+        "dividPayDate": "2020-06-23",
+        "dividStockMarketDate": "2020-06-23",
+        "dividCashPsBeforeTax": "0.16",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600718.SH/2024": [
+      {
+        "code": "sh.600718",
+        "dividRegistDate": "2024-07-16",
+        "dividOperateDate": "2024-07-17",
+        "dividPayDate": "2024-07-17",
+        "dividStockMarketDate": "2024-07-17",
+        "dividCashPsBeforeTax": "0.13",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601666.SH/2020": [
+      {
+        "code": "sh.601666",
+        "dividRegistDate": "2020-06-11",
+        "dividOperateDate": "2020-06-12",
+        "dividPayDate": "2020-06-12",
+        "dividStockMarketDate": "2020-06-12",
+        "dividCashPsBeforeTax": "0.302",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603679.SH/2023": [],
+    "002517.SZ/2022": [],
+    "000727.SZ/2024": [],
+    "601838.SH/2021": [
+      {
+        "code": "sh.601838",
+        "dividRegistDate": "2021-06-25",
+        "dividOperateDate": "2021-06-28",
+        "dividPayDate": "2021-06-28",
+        "dividStockMarketDate": "2021-06-28",
+        "dividCashPsBeforeTax": "0.45999999999999996",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600023.SH/2024": [
+      {
+        "code": "sh.600023",
+        "dividRegistDate": "2024-07-08",
+        "dividOperateDate": "2024-07-09",
+        "dividPayDate": "2024-07-09",
+        "dividStockMarketDate": "2024-07-09",
+        "dividCashPsBeforeTax": "0.25",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600537.SH/2022": [],
+    "603337.SH/2024": [
+      {
+        "code": "sh.603337",
+        "dividRegistDate": "2024-07-08",
+        "dividOperateDate": "2024-07-09",
+        "dividPayDate": "2024-07-09",
+        "dividStockMarketDate": "2024-07-09",
+        "dividCashPsBeforeTax": "0.5",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      },
+      {
+        "code": "sh.603337",
+        "dividRegistDate": "2024-11-08",
+        "dividOperateDate": "2024-11-11",
+        "dividPayDate": "2024-11-11",
+        "dividStockMarketDate": "2024-11-11",
+        "dividCashPsBeforeTax": "0.3",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20240630",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601118.SH/2023": [],
+    "600202.SH/2021": [],
+    "000031.SZ/2023": [],
+    "002236.SZ/2021": [
+      {
+        "code": "sz.002236",
+        "dividRegistDate": "2021-05-11",
+        "dividOperateDate": "2021-05-12",
+        "dividPayDate": "2021-05-12",
+        "dividStockMarketDate": "2021-05-12",
+        "dividCashPsBeforeTax": "0.268",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000036.SZ/2020": [
+      {
+        "code": "sz.000036",
+        "dividRegistDate": "2020-07-08",
+        "dividOperateDate": "2020-07-09",
+        "dividPayDate": "2020-07-09",
+        "dividStockMarketDate": "2020-07-09",
+        "dividCashPsBeforeTax": "0.4",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600236.SH/2024": [
+      {
+        "code": "sh.600236",
+        "dividRegistDate": "2024-07-11",
+        "dividOperateDate": "2024-07-12",
+        "dividPayDate": "2024-07-12",
+        "dividStockMarketDate": "2024-07-12",
+        "dividCashPsBeforeTax": "0.12",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      },
+      {
+        "code": "sh.600236",
+        "dividRegistDate": "2024-10-21",
+        "dividOperateDate": "2024-10-22",
+        "dividPayDate": "2024-10-22",
+        "dividStockMarketDate": "2024-10-22",
+        "dividCashPsBeforeTax": "0.08499999999999999",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20240630",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600094.SH/2023": [],
+    "000976.SZ/2020": [],
+    "603077.SH/2024": [
+      {
+        "code": "sh.603077",
+        "dividRegistDate": "2024-10-14",
+        "dividOperateDate": "2024-10-15",
+        "dividPayDate": "2024-10-15",
+        "dividStockMarketDate": "2024-10-15",
+        "dividCashPsBeforeTax": "0.02",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20240630",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600029.SH/2023": [],
+    "600452.SH/2020": [
+      {
+        "code": "sh.600452",
+        "dividRegistDate": "2020-06-22",
+        "dividOperateDate": "2020-06-23",
+        "dividPayDate": "2020-06-23",
+        "dividStockMarketDate": "2020-06-23",
+        "dividCashPsBeforeTax": "0.22000000000000003",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.4",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600486.SH/2020": [
+      {
+        "code": "sh.600486",
+        "dividRegistDate": "2020-08-27",
+        "dividOperateDate": "2020-08-28",
+        "dividPayDate": "2020-08-28",
+        "dividStockMarketDate": "2020-08-28",
+        "dividCashPsBeforeTax": "0.65",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601658.SH/2022": [
+      {
+        "code": "sh.601658",
+        "dividRegistDate": "2022-07-11",
+        "dividOperateDate": "2022-07-12",
+        "dividPayDate": "2022-07-12",
+        "dividStockMarketDate": "2022-07-12",
+        "dividCashPsBeforeTax": "0.2474",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600028.SH/2022": [
+      {
+        "code": "sh.600028",
+        "dividRegistDate": "2022-06-09",
+        "dividOperateDate": "2022-06-10",
+        "dividPayDate": "2022-06-10",
+        "dividStockMarketDate": "2022-06-10",
+        "dividCashPsBeforeTax": "0.31",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      },
+      {
+        "code": "sh.600028",
+        "dividRegistDate": "2022-09-16",
+        "dividOperateDate": "2022-09-19",
+        "dividPayDate": "2022-09-19",
+        "dividStockMarketDate": "2022-09-19",
+        "dividCashPsBeforeTax": "0.16",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20220630",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603077.SH/2023": [
+      {
+        "code": "sh.603077",
+        "dividRegistDate": "2023-06-06",
+        "dividOperateDate": "2023-06-07",
+        "dividPayDate": "2023-06-07",
+        "dividStockMarketDate": "2023-06-07",
+        "dividCashPsBeforeTax": "0.045",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000060.SZ/2023": [
+      {
+        "code": "sz.000060",
+        "dividRegistDate": "2023-06-27",
+        "dividOperateDate": "2023-06-28",
+        "dividPayDate": "2023-06-28",
+        "dividStockMarketDate": "2023-06-28",
+        "dividCashPsBeforeTax": "0.0999999",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601991.SH/2024": [
+      {
+        "code": "sh.601991",
+        "dividRegistDate": "2024-08-22",
+        "dividOperateDate": "2024-08-23",
+        "dividPayDate": "2024-08-23",
+        "dividStockMarketDate": "2024-08-23",
+        "dividCashPsBeforeTax": "0.0075",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600879.SH/2024": [
+      {
+        "code": "sh.600879",
+        "dividRegistDate": "2024-07-11",
+        "dividOperateDate": "2024-07-12",
+        "dividPayDate": "2024-07-12",
+        "dividStockMarketDate": "2024-07-12",
+        "dividCashPsBeforeTax": "0.048",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600998.SH/2023": [
+      {
+        "code": "sh.600998",
+        "dividRegistDate": "2023-06-28",
+        "dividOperateDate": "2023-06-29",
+        "dividPayDate": "2023-06-29",
+        "dividStockMarketDate": "2023-06-29",
+        "dividCashPsBeforeTax": "0.5",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.49000000000000005",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      },
+      {
+        "code": "sh.600998",
+        "dividRegistDate": "2023-10-11",
+        "dividOperateDate": "2023-10-12",
+        "dividPayDate": "2023-10-12",
+        "dividStockMarketDate": "2023-10-12",
+        "dividCashPsBeforeTax": "0.0",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.4",
+        "source_report_date": "20230630",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600186.SH/2021": [],
+    "002505.SZ/2021": [],
+    "000802.SZ/2023": [],
+    "002085.SZ/2022": [],
+    "600101.SH/2021": [
+      {
+        "code": "sh.600101",
+        "dividRegistDate": "2021-06-17",
+        "dividOperateDate": "2021-06-18",
+        "dividPayDate": "2021-06-18",
+        "dividStockMarketDate": "2021-06-18",
+        "dividCashPsBeforeTax": "0.05",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002484.SZ/2021": [
+      {
+        "code": "sz.002484",
+        "dividRegistDate": "2021-05-07",
+        "dividOperateDate": "2021-05-10",
+        "dividPayDate": "2021-05-10",
+        "dividStockMarketDate": "2021-05-10",
+        "dividCashPsBeforeTax": "0.12",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600151.SH/2021": [],
+    "000060.SZ/2020": [
+      {
+        "code": "sz.000060",
+        "dividRegistDate": "2020-05-21",
+        "dividOperateDate": "2020-05-22",
+        "dividPayDate": "2020-05-22",
+        "dividStockMarketDate": "2020-05-22",
+        "dividCashPsBeforeTax": "0.072",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603223.SH/2020": [
+      {
+        "code": "sh.603223",
+        "dividRegistDate": "2020-05-29",
+        "dividOperateDate": "2020-06-01",
+        "dividPayDate": "2020-06-01",
+        "dividStockMarketDate": "2020-06-01",
+        "dividCashPsBeforeTax": "0.003",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002906.SZ/2021": [
+      {
+        "code": "sz.002906",
+        "dividRegistDate": "2021-05-27",
+        "dividOperateDate": "2021-05-28",
+        "dividPayDate": "2021-05-28",
+        "dividStockMarketDate": "2021-05-28",
+        "dividCashPsBeforeTax": "0.2",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600885.SH/2021": [
+      {
+        "code": "sh.600885",
+        "dividRegistDate": "2021-04-20",
+        "dividOperateDate": "2021-04-21",
+        "dividPayDate": "2021-04-21",
+        "dividStockMarketDate": "2021-04-21",
+        "dividCashPsBeforeTax": "0.33999999999999997",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601633.SH/2021": [
+      {
+        "code": "sh.601633",
+        "dividRegistDate": "2021-03-08",
+        "dividOperateDate": "2021-03-09",
+        "dividPayDate": "2021-03-09",
+        "dividStockMarketDate": "2021-03-09",
+        "dividCashPsBeforeTax": "0.27999999999999997",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20200930",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      },
+      {
+        "code": "sh.601633",
+        "dividRegistDate": "2021-10-20",
+        "dividOperateDate": "2021-10-21",
+        "dividPayDate": "2021-10-21",
+        "dividStockMarketDate": "2021-10-21",
+        "dividCashPsBeforeTax": "0.3",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20210630",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601333.SH/2021": [],
+    "600866.SH/2021": [],
+    "600105.SH/2023": [],
+    "002352.SZ/2020": [
+      {
+        "code": "sz.002352",
+        "dividRegistDate": "2020-04-23",
+        "dividOperateDate": "2020-04-24",
+        "dividPayDate": "2020-04-24",
+        "dividStockMarketDate": "2020-04-24",
+        "dividCashPsBeforeTax": "0.27",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601872.SH/2022": [
+      {
+        "code": "sh.601872",
+        "dividRegistDate": "2022-07-06",
+        "dividOperateDate": "2022-07-07",
+        "dividPayDate": "2022-07-07",
+        "dividStockMarketDate": "2022-07-07",
+        "dividCashPsBeforeTax": "0.11000000000000001",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600777.SH/2022": [],
+    "600512.SH/2023": [],
+    "600179.SH/2022": [],
+    "603818.SH/2021": [],
+    "603868.SH/2022": [
+      {
+        "code": "sh.603868",
+        "dividRegistDate": "2022-05-31",
+        "dividOperateDate": "2022-06-01",
+        "dividPayDate": "2022-06-01",
+        "dividStockMarketDate": "2022-06-01",
+        "dividCashPsBeforeTax": "1.0",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600415.SH/2023": [
+      {
+        "code": "sh.600415",
+        "dividRegistDate": "2023-05-23",
+        "dividOperateDate": "2023-05-24",
+        "dividPayDate": "2023-05-24",
+        "dividStockMarketDate": "2023-05-24",
+        "dividCashPsBeforeTax": "0.065",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "003816.SZ/2023": [
+      {
+        "code": "sz.003816",
+        "dividRegistDate": "2023-07-06",
+        "dividOperateDate": "2023-07-07",
+        "dividPayDate": "2023-07-07",
+        "dividStockMarketDate": "2023-07-07",
+        "dividCashPsBeforeTax": "0.087",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600039.SH/2020": [
+      {
+        "code": "sh.600039",
+        "dividRegistDate": "2020-07-07",
+        "dividOperateDate": "2020-07-08",
+        "dividPayDate": "2020-07-08",
+        "dividStockMarketDate": "2020-07-08",
+        "dividCashPsBeforeTax": "0.06999999999999999",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603338.SH/2023": [
+      {
+        "code": "sh.603338",
+        "dividRegistDate": "2023-07-05",
+        "dividOperateDate": "2023-07-06",
+        "dividPayDate": "2023-07-06",
+        "dividStockMarketDate": "2023-07-06",
+        "dividCashPsBeforeTax": "0.5",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000415.SZ/2024": [],
+    "000677.SZ/2022": [],
+    "600583.SH/2021": [
+      {
+        "code": "sh.600583",
+        "dividRegistDate": "2021-06-11",
+        "dividOperateDate": "2021-06-15",
+        "dividPayDate": "2021-06-15",
+        "dividStockMarketDate": "2021-06-15",
+        "dividCashPsBeforeTax": "0.06999999999999999",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600158.SH/2021": [
+      {
+        "code": "sh.600158",
+        "dividRegistDate": "2021-07-05",
+        "dividOperateDate": "2021-07-06",
+        "dividPayDate": "2021-07-06",
+        "dividStockMarketDate": "2021-07-06",
+        "dividCashPsBeforeTax": "0.017",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600658.SH/2022": [
+      {
+        "code": "sh.600658",
+        "dividRegistDate": "2022-06-28",
+        "dividOperateDate": "2022-06-29",
+        "dividPayDate": "2022-06-29",
+        "dividStockMarketDate": "2022-06-29",
+        "dividCashPsBeforeTax": "0.015",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000888.SZ/2023": [],
+    "600337.SH/2021": [],
+    "601228.SH/2022": [
+      {
+        "code": "sh.601228",
+        "dividRegistDate": "2022-05-26",
+        "dividOperateDate": "2022-05-27",
+        "dividPayDate": "2022-05-27",
+        "dividStockMarketDate": "2022-05-27",
+        "dividCashPsBeforeTax": "0.056999999999999995",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600023.SH/2023": [],
+    "600332.SH/2021": [
+      {
+        "code": "sh.600332",
+        "dividRegistDate": "2021-06-18",
+        "dividOperateDate": "2021-06-21",
+        "dividPayDate": "2021-06-21",
+        "dividStockMarketDate": "2021-06-21",
+        "dividCashPsBeforeTax": "0.538",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "003035.SZ/2023": [
+      {
+        "code": "sz.003035",
+        "dividRegistDate": "2023-07-27",
+        "dividOperateDate": "2023-07-28",
+        "dividPayDate": "2023-07-28",
+        "dividStockMarketDate": "2023-07-28",
+        "dividCashPsBeforeTax": "0.0147",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600023.SH/2021": [
+      {
+        "code": "sh.600023",
+        "dividRegistDate": "2021-07-05",
+        "dividOperateDate": "2021-07-06",
+        "dividPayDate": "2021-07-06",
+        "dividStockMarketDate": "2021-07-06",
+        "dividCashPsBeforeTax": "0.225",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002920.SZ/2020": [
+      {
+        "code": "sz.002920",
+        "dividRegistDate": "2020-05-28",
+        "dividOperateDate": "2020-05-29",
+        "dividPayDate": "2020-05-29",
+        "dividStockMarketDate": "2020-05-29",
+        "dividCashPsBeforeTax": "0.2",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600988.SH/2024": [
+      {
+        "code": "sh.600988",
+        "dividRegistDate": "2024-05-28",
+        "dividOperateDate": "2024-05-29",
+        "dividPayDate": "2024-05-29",
+        "dividStockMarketDate": "2024-05-29",
+        "dividCashPsBeforeTax": "0.05",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600578.SH/2024": [
+      {
+        "code": "sh.600578",
+        "dividRegistDate": "2024-07-22",
+        "dividOperateDate": "2024-07-23",
+        "dividPayDate": "2024-07-23",
+        "dividStockMarketDate": "2024-07-23",
+        "dividCashPsBeforeTax": "0.10500000000000001",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600704.SH/2023": [
+      {
+        "code": "sh.600704",
+        "dividRegistDate": "2023-07-05",
+        "dividOperateDate": "2023-07-06",
+        "dividPayDate": "2023-07-06",
+        "dividStockMarketDate": "2023-07-06",
+        "dividCashPsBeforeTax": "0.15",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002159.SZ/2022": [],
+    "600337.SH/2023": [],
+    "600358.SH/2021": [],
+    "603305.SH/2021": [
+      {
+        "code": "sh.603305",
+        "dividRegistDate": "2021-05-19",
+        "dividOperateDate": "2021-05-20",
+        "dividPayDate": "2021-05-20",
+        "dividStockMarketDate": "2021-05-20",
+        "dividCashPsBeforeTax": "0.32999999999999996",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600193.SH/2022": [],
+    "600879.SH/2021": [],
+    "603505.SH/2023": [
+      {
+        "code": "sh.603505",
+        "dividRegistDate": "2023-06-12",
+        "dividOperateDate": "2023-06-13",
+        "dividPayDate": "2023-06-13",
+        "dividStockMarketDate": "2023-06-13",
+        "dividCashPsBeforeTax": "0.16",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.4",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600077.SH/2020": [],
+    "603816.SH/2020": [
+      {
+        "code": "sh.603816",
+        "dividRegistDate": "2020-06-10",
+        "dividOperateDate": "2020-06-11",
+        "dividPayDate": "2020-06-11",
+        "dividStockMarketDate": "2020-06-11",
+        "dividCashPsBeforeTax": "1.17",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600570.SH/2020": [
+      {
+        "code": "sh.600570",
+        "dividRegistDate": "2020-06-04",
+        "dividOperateDate": "2020-06-05",
+        "dividPayDate": "2020-06-05",
+        "dividStockMarketDate": "2020-06-05",
+        "dividCashPsBeforeTax": "0.53",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.3",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600350.SH/2024": [
+      {
+        "code": "sh.600350",
+        "dividRegistDate": "2024-06-24",
+        "dividOperateDate": "2024-06-25",
+        "dividPayDate": "2024-06-25",
+        "dividStockMarketDate": "2024-06-25",
+        "dividCashPsBeforeTax": "0.42000000000000004",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601718.SH/2022": [],
+    "600845.SH/2020": [
+      {
+        "code": "sh.600845",
+        "dividRegistDate": "2020-06-11",
+        "dividOperateDate": "2020-06-12",
+        "dividPayDate": "2020-06-12",
+        "dividStockMarketDate": "2020-06-12",
+        "dividCashPsBeforeTax": "0.4",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601600.SH/2020": [],
+    "000739.SZ/2020": [
+      {
+        "code": "sz.000739",
+        "dividRegistDate": "2020-05-18",
+        "dividOperateDate": "2020-05-19",
+        "dividPayDate": "2020-05-19",
+        "dividStockMarketDate": "2020-05-19",
+        "dividCashPsBeforeTax": "0.16499999999999998",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603169.SH/2021": [],
+    "000630.SZ/2024": [
+      {
+        "code": "sz.000630",
+        "dividRegistDate": "2024-06-06",
+        "dividOperateDate": "2024-06-07",
+        "dividPayDate": "2024-06-07",
+        "dividStockMarketDate": "2024-06-07",
+        "dividCashPsBeforeTax": "0.0792126",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002650.SZ/2023": [],
+    "603390.SH/2023": [],
+    "002019.SZ/2020": [
+      {
+        "code": "sz.002019",
+        "dividRegistDate": "2020-05-25",
+        "dividOperateDate": "2020-05-26",
+        "dividPayDate": "2020-05-26",
+        "dividStockMarketDate": "2020-05-26",
+        "dividCashPsBeforeTax": "0.1",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000426.SZ/2023": [
+      {
+        "code": "sz.000426",
+        "dividRegistDate": "2023-08-28",
+        "dividOperateDate": "2023-08-29",
+        "dividPayDate": "2023-08-29",
+        "dividStockMarketDate": "2023-08-29",
+        "dividCashPsBeforeTax": "0.017",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600008.SH/2022": [
+      {
+        "code": "sh.600008",
+        "dividRegistDate": "2022-05-26",
+        "dividOperateDate": "2022-05-27",
+        "dividPayDate": "2022-05-27",
+        "dividStockMarketDate": "2022-05-27",
+        "dividCashPsBeforeTax": "0.1",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600780.SH/2023": [],
+    "000157.SZ/2020": [
+      {
+        "code": "sz.000157",
+        "dividRegistDate": "2020-10-26",
+        "dividOperateDate": "2020-10-27",
+        "dividPayDate": "2020-10-27",
+        "dividStockMarketDate": "2020-10-27",
+        "dividCashPsBeforeTax": "0.21000000000000002",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20200630",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002042.SZ/2023": [],
+    "600535.SH/2023": [
+      {
+        "code": "sh.600535",
+        "dividRegistDate": "2023-05-19",
+        "dividOperateDate": "2023-05-22",
+        "dividPayDate": "2023-05-22",
+        "dividStockMarketDate": "2023-05-22",
+        "dividCashPsBeforeTax": "0.32999999999999996",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000932.SZ/2023": [
+      {
+        "code": "sz.000932",
+        "dividRegistDate": "2023-06-29",
+        "dividOperateDate": "2023-06-30",
+        "dividPayDate": "2023-06-30",
+        "dividStockMarketDate": "2023-06-30",
+        "dividCashPsBeforeTax": "0.24",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000927.SZ/2023": [],
+    "601818.SH/2022": [
+      {
+        "code": "sh.601818",
+        "dividRegistDate": "2022-06-28",
+        "dividOperateDate": "2022-06-29",
+        "dividPayDate": "2022-06-29",
+        "dividStockMarketDate": "2022-06-29",
+        "dividCashPsBeforeTax": "0.20099999999999998",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600502.SH/2020": [
+      {
+        "code": "sh.600502",
+        "dividRegistDate": "2020-07-10",
+        "dividOperateDate": "2020-07-13",
+        "dividPayDate": "2020-07-13",
+        "dividStockMarketDate": "2020-07-13",
+        "dividCashPsBeforeTax": "0.15",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600052.SH/2021": [],
+    "600770.SH/2021": [],
+    "000927.SZ/2022": [],
+    "002675.SZ/2023": [
+      {
+        "code": "sz.002675",
+        "dividRegistDate": "2023-07-07",
+        "dividOperateDate": "2023-07-10",
+        "dividPayDate": "2023-07-10",
+        "dividStockMarketDate": "2023-07-10",
+        "dividCashPsBeforeTax": "0.15",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002593.SZ/2023": [],
+    "600871.SH/2023": [],
+    "002810.SZ/2020": [
+      {
+        "code": "sz.002810",
+        "dividRegistDate": "2020-07-06",
+        "dividOperateDate": "2020-07-07",
+        "dividPayDate": "2020-07-07",
+        "dividStockMarketDate": "2020-07-07",
+        "dividCashPsBeforeTax": "0.4",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600027.SH/2022": [
+      {
+        "code": "sh.600027",
+        "dividRegistDate": "2022-07-27",
+        "dividOperateDate": "2022-07-28",
+        "dividPayDate": "2022-07-28",
+        "dividStockMarketDate": "2022-07-28",
+        "dividCashPsBeforeTax": "0.25",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600881.SH/2020": [],
+    "600333.SH/2023": [],
+    "600751.SH/2023": [],
+    "603868.SH/2020": [
+      {
+        "code": "sh.603868",
+        "dividRegistDate": "2020-06-01",
+        "dividOperateDate": "2020-06-02",
+        "dividPayDate": "2020-06-02",
+        "dividStockMarketDate": "2020-06-02",
+        "dividCashPsBeforeTax": "1.0",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600027.SH/2021": [
+      {
+        "code": "sh.600027",
+        "dividRegistDate": "2021-07-22",
+        "dividOperateDate": "2021-07-23",
+        "dividPayDate": "2021-07-23",
+        "dividStockMarketDate": "2021-07-23",
+        "dividCashPsBeforeTax": "0.25",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002312.SZ/2021": [],
+    "600510.SH/2020": [
+      {
+        "code": "sh.600510",
+        "dividRegistDate": "2020-07-08",
+        "dividOperateDate": "2020-07-09",
+        "dividPayDate": "2020-07-09",
+        "dividStockMarketDate": "2020-07-09",
+        "dividCashPsBeforeTax": "0.231",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600293.SH/2024": [],
+    "002178.SZ/2020": [],
+    "002701.SZ/2020": [
+      {
+        "code": "sz.002701",
+        "dividRegistDate": "2020-06-17",
+        "dividOperateDate": "2020-06-18",
+        "dividPayDate": "2020-06-18",
+        "dividStockMarketDate": "2020-06-18",
+        "dividCashPsBeforeTax": "0.063",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      },
+      {
+        "code": "sz.002701",
+        "dividRegistDate": "2020-10-19",
+        "dividOperateDate": "2020-10-20",
+        "dividPayDate": "2020-10-20",
+        "dividStockMarketDate": "2020-10-20",
+        "dividCashPsBeforeTax": "0.11699999999999999",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20200630",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603826.SH/2020": [],
+    "600538.SH/2024": [],
+    "600307.SH/2021": [],
+    "600795.SH/2022": [],
+    "601828.SH/2021": [],
+    "603939.SH/2022": [
+      {
+        "code": "sh.603939",
+        "dividRegistDate": "2022-06-27",
+        "dividOperateDate": "2022-06-28",
+        "dividPayDate": "2022-06-28",
+        "dividStockMarketDate": "2022-06-28",
+        "dividCashPsBeforeTax": "0.3",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600004.SH/2022": [],
+    "601222.SH/2020": [
+      {
+        "code": "sh.601222",
+        "dividRegistDate": "2020-07-16",
+        "dividOperateDate": "2020-07-17",
+        "dividPayDate": "2020-07-17",
+        "dividStockMarketDate": "2020-07-17",
+        "dividCashPsBeforeTax": "0.05",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002109.SZ/2021": [],
+    "600170.SH/2020": [
+      {
+        "code": "sh.600170",
+        "dividRegistDate": "2020-07-15",
+        "dividOperateDate": "2020-07-16",
+        "dividPayDate": "2020-07-16",
+        "dividStockMarketDate": "2020-07-16",
+        "dividCashPsBeforeTax": "0.13999999999999999",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000425.SZ/2024": [
+      {
+        "code": "sz.000425",
+        "dividRegistDate": "2024-07-02",
+        "dividOperateDate": "2024-07-03",
+        "dividPayDate": "2024-07-03",
+        "dividStockMarketDate": "2024-07-03",
+        "dividCashPsBeforeTax": "0.18",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000999.SZ/2024": [
+      {
+        "code": "sz.000999",
+        "dividRegistDate": "2024-06-13",
+        "dividOperateDate": "2024-06-14",
+        "dividPayDate": "2024-06-14",
+        "dividStockMarketDate": "2024-06-14",
+        "dividCashPsBeforeTax": "1.5",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.3",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      },
+      {
+        "code": "sz.000999",
+        "dividRegistDate": "2024-11-28",
+        "dividOperateDate": "2024-11-29",
+        "dividPayDate": "2024-11-29",
+        "dividStockMarketDate": "2024-11-29",
+        "dividCashPsBeforeTax": "1.0",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20240930",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601163.SH/2020": [
+      {
+        "code": "sh.601163",
+        "dividRegistDate": "2020-07-22",
+        "dividOperateDate": "2020-07-23",
+        "dividPayDate": "2020-07-23",
+        "dividStockMarketDate": "2020-07-23",
+        "dividCashPsBeforeTax": "0.35",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600962.SH/2020": [],
+    "601077.SH/2022": [
+      {
+        "code": "sh.601077",
+        "dividRegistDate": "2022-06-28",
+        "dividOperateDate": "2022-06-29",
+        "dividPayDate": "2022-06-29",
+        "dividStockMarketDate": "2022-06-29",
+        "dividCashPsBeforeTax": "0.2525",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600477.SH/2020": [
+      {
+        "code": "sh.600477",
+        "dividRegistDate": "2020-04-30",
+        "dividOperateDate": "2020-05-06",
+        "dividPayDate": "2020-05-06",
+        "dividStockMarketDate": "2020-05-06",
+        "dividCashPsBeforeTax": "0.1",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601228.SH/2024": [
+      {
+        "code": "sh.601228",
+        "dividRegistDate": "2024-07-11",
+        "dividOperateDate": "2024-07-12",
+        "dividPayDate": "2024-07-12",
+        "dividStockMarketDate": "2024-07-12",
+        "dividCashPsBeforeTax": "0.043",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601117.SH/2020": [
+      {
+        "code": "sh.601117",
+        "dividRegistDate": "2020-07-14",
+        "dividOperateDate": "2020-07-15",
+        "dividPayDate": "2020-07-15",
+        "dividStockMarketDate": "2020-07-15",
+        "dividCashPsBeforeTax": "0.187",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000875.SZ/2020": [],
+    "002508.SZ/2020": [
+      {
+        "code": "sz.002508",
+        "dividRegistDate": "2020-05-29",
+        "dividOperateDate": "2020-06-01",
+        "dividPayDate": "2020-06-01",
+        "dividStockMarketDate": "2020-06-01",
+        "dividCashPsBeforeTax": "0.5",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601866.SH/2023": [
+      {
+        "code": "sh.601866",
+        "dividRegistDate": "2023-07-27",
+        "dividOperateDate": "2023-07-28",
+        "dividPayDate": "2023-07-28",
+        "dividStockMarketDate": "2023-07-28",
+        "dividCashPsBeforeTax": "0.087",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600132.SH/2020": [
+      {
+        "code": "sh.600132",
+        "dividRegistDate": "2020-05-28",
+        "dividOperateDate": "2020-05-29",
+        "dividPayDate": "2020-05-29",
+        "dividStockMarketDate": "2020-05-29",
+        "dividCashPsBeforeTax": "1.4",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600738.SH/2021": [],
+    "600225.SH/2022": [],
+    "600186.SH/2023": [],
+    "002557.SZ/2020": [
+      {
+        "code": "sz.002557",
+        "dividRegistDate": "2020-06-10",
+        "dividOperateDate": "2020-06-11",
+        "dividPayDate": "2020-06-11",
+        "dividStockMarketDate": "2020-06-11",
+        "dividCashPsBeforeTax": "0.7",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002456.SZ/2023": [],
+    "002519.SZ/2021": [],
+    "002115.SZ/2023": [],
+    "601399.SH/2024": [],
+    "600503.SH/2022": [
+      {
+        "code": "sh.600503",
+        "dividRegistDate": "2022-07-12",
+        "dividOperateDate": "2022-07-13",
+        "dividPayDate": "2022-07-13",
+        "dividStockMarketDate": "2022-07-13",
+        "dividCashPsBeforeTax": "0.005",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600355.SH/2021": [],
+    "601658.SH/2023": [
+      {
+        "code": "sh.601658",
+        "dividRegistDate": "2023-07-12",
+        "dividOperateDate": "2023-07-13",
+        "dividPayDate": "2023-07-13",
+        "dividStockMarketDate": "2023-07-13",
+        "dividCashPsBeforeTax": "0.2579",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601857.SH/2022": [
+      {
+        "code": "sh.601857",
+        "dividRegistDate": "2022-06-27",
+        "dividOperateDate": "2022-06-28",
+        "dividPayDate": "2022-06-28",
+        "dividStockMarketDate": "2022-06-28",
+        "dividCashPsBeforeTax": "0.09622",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      },
+      {
+        "code": "sh.601857",
+        "dividRegistDate": "2022-09-19",
+        "dividOperateDate": "2022-09-20",
+        "dividPayDate": "2022-09-20",
+        "dividStockMarketDate": "2022-09-20",
+        "dividCashPsBeforeTax": "0.20257999999999998",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20220630",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600008.SH/2023": [
+      {
+        "code": "sh.600008",
+        "dividRegistDate": "2023-06-14",
+        "dividOperateDate": "2023-06-15",
+        "dividPayDate": "2023-06-15",
+        "dividStockMarketDate": "2023-06-15",
+        "dividCashPsBeforeTax": "0.13",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600973.SH/2020": [
+      {
+        "code": "sh.600973",
+        "dividRegistDate": "2020-06-19",
+        "dividOperateDate": "2020-06-22",
+        "dividPayDate": "2020-06-22",
+        "dividStockMarketDate": "2020-06-22",
+        "dividCashPsBeforeTax": "0.034",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002198.SZ/2023": [],
+    "002311.SZ/2020": [
+      {
+        "code": "sz.002311",
+        "dividRegistDate": "2020-05-19",
+        "dividOperateDate": "2020-05-20",
+        "dividPayDate": "2020-05-20",
+        "dividStockMarketDate": "2020-05-20",
+        "dividCashPsBeforeTax": "0.35",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600017.SH/2020": [
+      {
+        "code": "sh.600017",
+        "dividRegistDate": "2020-06-04",
+        "dividOperateDate": "2020-06-05",
+        "dividPayDate": "2020-06-05",
+        "dividStockMarketDate": "2020-06-05",
+        "dividCashPsBeforeTax": "0.025",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000561.SZ/2023": [],
+    "601618.SH/2024": [
+      {
+        "code": "sh.601618",
+        "dividRegistDate": "2024-07-18",
+        "dividOperateDate": "2024-07-19",
+        "dividPayDate": "2024-07-19",
+        "dividStockMarketDate": "2024-07-19",
+        "dividCashPsBeforeTax": "0.072",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002372.SZ/2020": [
+      {
+        "code": "sz.002372",
+        "dividRegistDate": "2020-05-27",
+        "dividOperateDate": "2020-05-28",
+        "dividPayDate": "2020-05-28",
+        "dividStockMarketDate": "2020-05-28",
+        "dividCashPsBeforeTax": "0.5",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "003816.SZ/2022": [
+      {
+        "code": "sz.003816",
+        "dividRegistDate": "2022-07-06",
+        "dividOperateDate": "2022-07-07",
+        "dividPayDate": "2022-07-07",
+        "dividStockMarketDate": "2022-07-07",
+        "dividCashPsBeforeTax": "0.08399999999999999",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000932.SZ/2024": [
+      {
+        "code": "sz.000932",
+        "dividRegistDate": "2024-06-12",
+        "dividOperateDate": "2024-06-13",
+        "dividPayDate": "2024-06-13",
+        "dividStockMarketDate": "2024-06-13",
+        "dividCashPsBeforeTax": "0.22999999999999998",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600879.SH/2023": [
+      {
+        "code": "sh.600879",
+        "dividRegistDate": "2023-05-11",
+        "dividOperateDate": "2023-05-12",
+        "dividPayDate": "2023-05-12",
+        "dividStockMarketDate": "2023-05-12",
+        "dividCashPsBeforeTax": "0.06999999999999999",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603043.SH/2020": [
+      {
+        "code": "sh.603043",
+        "dividRegistDate": "2020-06-09",
+        "dividOperateDate": "2020-06-10",
+        "dividPayDate": "2020-06-10",
+        "dividStockMarketDate": "2020-06-10",
+        "dividCashPsBeforeTax": "0.3",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603298.SH/2020": [
+      {
+        "code": "sh.603298",
+        "dividRegistDate": "2020-05-28",
+        "dividOperateDate": "2020-05-29",
+        "dividPayDate": "2020-05-29",
+        "dividStockMarketDate": "2020-05-29",
+        "dividCashPsBeforeTax": "0.35",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.4",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600675.SH/2023": [
+      {
+        "code": "sh.600675",
+        "dividRegistDate": "2023-07-28",
+        "dividOperateDate": "2023-07-31",
+        "dividPayDate": "2023-07-31",
+        "dividStockMarketDate": "2023-07-31",
+        "dividCashPsBeforeTax": "0.002",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600057.SH/2020": [
+      {
+        "code": "sh.600057",
+        "dividRegistDate": "2020-06-02",
+        "dividOperateDate": "2020-06-03",
+        "dividPayDate": "2020-06-03",
+        "dividStockMarketDate": "2020-06-03",
+        "dividCashPsBeforeTax": "0.25",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603156.SH/2023": [
+      {
+        "code": "sh.603156",
+        "dividRegistDate": "2023-05-26",
+        "dividOperateDate": "2023-05-29",
+        "dividPayDate": "2023-05-29",
+        "dividStockMarketDate": "2023-05-29",
+        "dividCashPsBeforeTax": "1.8",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600572.SH/2021": [],
+    "600575.SH/2023": [],
+    "600158.SH/2022": [
+      {
+        "code": "sh.600158",
+        "dividRegistDate": "2022-06-29",
+        "dividOperateDate": "2022-06-30",
+        "dividPayDate": "2022-06-30",
+        "dividStockMarketDate": "2022-06-30",
+        "dividCashPsBeforeTax": "0.018",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600482.SH/2024": [
+      {
+        "code": "sh.600482",
+        "dividRegistDate": "2024-08-07",
+        "dividOperateDate": "2024-08-08",
+        "dividPayDate": "2024-08-08",
+        "dividStockMarketDate": "2024-08-08",
+        "dividCashPsBeforeTax": "0.10641",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600873.SH/2020": [
+      {
+        "code": "sh.600873",
+        "dividRegistDate": "2020-06-29",
+        "dividOperateDate": "2020-06-30",
+        "dividPayDate": "2020-06-30",
+        "dividStockMarketDate": "2020-06-30",
+        "dividCashPsBeforeTax": "0.26",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000875.SZ/2021": [],
+    "002471.SZ/2022": [],
+    "002514.SZ/2022": [],
+    "601865.SH/2023": [
+      {
+        "code": "sh.601865",
+        "dividRegistDate": "2023-11-24",
+        "dividOperateDate": "2023-11-27",
+        "dividPayDate": "2023-11-27",
+        "dividStockMarketDate": "2023-11-27",
+        "dividCashPsBeforeTax": "0.238",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20230630",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600025.SH/2022": [
+      {
+        "code": "sh.600025",
+        "dividRegistDate": "2022-06-17",
+        "dividOperateDate": "2022-06-20",
+        "dividPayDate": "2022-06-20",
+        "dividStockMarketDate": "2022-06-20",
+        "dividCashPsBeforeTax": "0.16999999999999998",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600889.SH/2020": [],
+    "601668.SH/2022": [
+      {
+        "code": "sh.601668",
+        "dividRegistDate": "2022-06-29",
+        "dividOperateDate": "2022-06-30",
+        "dividPayDate": "2022-06-30",
+        "dividStockMarketDate": "2022-06-30",
+        "dividCashPsBeforeTax": "0.25",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603885.SH/2021": [
+      {
+        "code": "sh.603885",
+        "dividRegistDate": "2021-06-04",
+        "dividOperateDate": "2021-06-07",
+        "dividPayDate": "2021-06-07",
+        "dividStockMarketDate": "2021-06-07",
+        "dividCashPsBeforeTax": "0.1",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603568.SH/2020": [
+      {
+        "code": "sh.603568",
+        "dividRegistDate": "2020-06-22",
+        "dividOperateDate": "2020-06-23",
+        "dividPayDate": "2020-06-23",
+        "dividStockMarketDate": "2020-06-23",
+        "dividCashPsBeforeTax": "0.31",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.3",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603218.SH/2020": [
+      {
+        "code": "sh.603218",
+        "dividRegistDate": "2020-06-02",
+        "dividOperateDate": "2020-06-03",
+        "dividPayDate": "2020-06-03",
+        "dividStockMarketDate": "2020-06-03",
+        "dividCashPsBeforeTax": "0.3",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.4",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002627.SZ/2021": [
+      {
+        "code": "sz.002627",
+        "dividRegistDate": "2021-06-02",
+        "dividOperateDate": "2021-06-03",
+        "dividPayDate": "2021-06-03",
+        "dividStockMarketDate": "2021-06-03",
+        "dividCashPsBeforeTax": "0.05",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601179.SH/2021": [
+      {
+        "code": "sh.601179",
+        "dividRegistDate": "2021-06-18",
+        "dividOperateDate": "2021-06-21",
+        "dividPayDate": "2021-06-21",
+        "dividStockMarketDate": "2021-06-21",
+        "dividCashPsBeforeTax": "0.03",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600496.SH/2020": [
+      {
+        "code": "sh.600496",
+        "dividRegistDate": "2020-08-04",
+        "dividOperateDate": "2020-08-05",
+        "dividPayDate": "2020-08-05",
+        "dividStockMarketDate": "2020-08-05",
+        "dividCashPsBeforeTax": "0.023",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600415.SH/2024": [
+      {
+        "code": "sh.600415",
+        "dividRegistDate": "2024-06-25",
+        "dividOperateDate": "2024-06-26",
+        "dividPayDate": "2024-06-26",
+        "dividStockMarketDate": "2024-06-26",
+        "dividCashPsBeforeTax": "0.2",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600927.SH/2024": [
+      {
+        "code": "sh.600927",
+        "dividRegistDate": "2024-06-13",
+        "dividOperateDate": "2024-06-14",
+        "dividPayDate": "2024-06-14",
+        "dividStockMarketDate": "2024-06-14",
+        "dividCashPsBeforeTax": "0.081",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      },
+      {
+        "code": "sh.600927",
+        "dividRegistDate": "2024-11-04",
+        "dividOperateDate": "2024-11-05",
+        "dividPayDate": "2024-11-05",
+        "dividStockMarketDate": "2024-11-05",
+        "dividCashPsBeforeTax": "0.05",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20240630",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600188.SH/2020": [
+      {
+        "code": "sh.600188",
+        "dividRegistDate": "2020-07-06",
+        "dividOperateDate": "2020-07-07",
+        "dividPayDate": "2020-07-07",
+        "dividStockMarketDate": "2020-07-07",
+        "dividCashPsBeforeTax": "0.58",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600722.SH/2024": [],
+    "600276.SH/2022": [
+      {
+        "code": "sh.600276",
+        "dividRegistDate": "2022-07-04",
+        "dividOperateDate": "2022-07-05",
+        "dividPayDate": "2022-07-05",
+        "dividStockMarketDate": "2022-07-05",
+        "dividCashPsBeforeTax": "0.16",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000637.SZ/2024": [],
+    "601998.SH/2022": [
+      {
+        "code": "sh.601998",
+        "dividRegistDate": "2022-07-27",
+        "dividOperateDate": "2022-07-28",
+        "dividPayDate": "2022-07-28",
+        "dividStockMarketDate": "2022-07-28",
+        "dividCashPsBeforeTax": "0.302",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601618.SH/2023": [
+      {
+        "code": "sh.601618",
+        "dividRegistDate": "2023-07-24",
+        "dividOperateDate": "2023-07-25",
+        "dividPayDate": "2023-07-25",
+        "dividStockMarketDate": "2023-07-25",
+        "dividCashPsBeforeTax": "0.08299999999999999",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600495.SH/2022": [
+      {
+        "code": "sh.600495",
+        "dividRegistDate": "2022-07-05",
+        "dividOperateDate": "2022-07-06",
+        "dividPayDate": "2022-07-06",
+        "dividStockMarketDate": "2022-07-06",
+        "dividCashPsBeforeTax": "0.01",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603879.SH/2023": [],
+    "600369.SH/2024": [
+      {
+        "code": "sh.600369",
+        "dividRegistDate": "2024-06-06",
+        "dividOperateDate": "2024-06-07",
+        "dividPayDate": "2024-06-07",
+        "dividStockMarketDate": "2024-06-07",
+        "dividCashPsBeforeTax": "0.034999999999999996",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      },
+      {
+        "code": "sh.600369",
+        "dividRegistDate": "2024-10-23",
+        "dividOperateDate": "2024-10-24",
+        "dividPayDate": "2024-10-24",
+        "dividStockMarketDate": "2024-10-24",
+        "dividCashPsBeforeTax": "0.01",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20240630",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      },
+      {
+        "code": "sh.600369",
+        "dividRegistDate": "2024-12-04",
+        "dividOperateDate": "2024-12-05",
+        "dividPayDate": "2024-12-05",
+        "dividStockMarketDate": "2024-12-05",
+        "dividCashPsBeforeTax": "0.01",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20240930",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600515.SH/2024": [],
+    "600220.SH/2020": [],
+    "600808.SH/2024": [],
+    "002514.SZ/2021": [],
+    "002442.SZ/2023": [],
+    "601989.SH/2024": [],
+    "600085.SH/2022": [
+      {
+        "code": "sh.600085",
+        "dividRegistDate": "2022-08-17",
+        "dividOperateDate": "2022-08-18",
+        "dividPayDate": "2022-08-18",
+        "dividStockMarketDate": "2022-08-18",
+        "dividCashPsBeforeTax": "0.29",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601975.SH/2024": [],
+    "002539.SZ/2020": [
+      {
+        "code": "sz.002539",
+        "dividRegistDate": "2020-06-16",
+        "dividOperateDate": "2020-06-17",
+        "dividPayDate": "2020-06-17",
+        "dividStockMarketDate": "2020-06-17",
+        "dividCashPsBeforeTax": "0.15",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002617.SZ/2024": [],
+    "002013.SZ/2022": [],
+    "001979.SZ/2022": [
+      {
+        "code": "sz.001979",
+        "dividRegistDate": "2022-08-22",
+        "dividOperateDate": "2022-08-23",
+        "dividPayDate": "2022-08-23",
+        "dividStockMarketDate": "2022-08-23",
+        "dividCashPsBeforeTax": "0.54",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000727.SZ/2023": [],
+    "603993.SH/2022": [
+      {
+        "code": "sh.603993",
+        "dividRegistDate": "2022-07-06",
+        "dividOperateDate": "2022-07-07",
+        "dividPayDate": "2022-07-07",
+        "dividStockMarketDate": "2022-07-07",
+        "dividCashPsBeforeTax": "0.07125000000000001",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600305.SH/2020": [
+      {
+        "code": "sh.600305",
+        "dividRegistDate": "2020-06-03",
+        "dividOperateDate": "2020-06-04",
+        "dividPayDate": "2020-06-04",
+        "dividStockMarketDate": "2020-06-04",
+        "dividCashPsBeforeTax": "0.207",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.27999999999999997",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600583.SH/2024": [
+      {
+        "code": "sh.600583",
+        "dividRegistDate": "2024-06-17",
+        "dividOperateDate": "2024-06-18",
+        "dividPayDate": "2024-06-18",
+        "dividStockMarketDate": "2024-06-18",
+        "dividCashPsBeforeTax": "0.147",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002126.SZ/2021": [
+      {
+        "code": "sz.002126",
+        "dividRegistDate": "2021-05-17",
+        "dividOperateDate": "2021-05-18",
+        "dividPayDate": "2021-05-18",
+        "dividStockMarketDate": "2021-05-18",
+        "dividCashPsBeforeTax": "0.08",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601118.SH/2024": [
+      {
+        "code": "sh.601118",
+        "dividRegistDate": "2024-07-16",
+        "dividOperateDate": "2024-07-17",
+        "dividPayDate": "2024-07-17",
+        "dividStockMarketDate": "2024-07-17",
+        "dividCashPsBeforeTax": "0.0209",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600499.SH/2020": [],
+    "000761.SZ/2022": [
+      {
+        "code": "sz.000761",
+        "dividRegistDate": "2022-06-15",
+        "dividOperateDate": "2022-06-16",
+        "dividPayDate": "2022-06-16",
+        "dividStockMarketDate": "2022-06-16",
+        "dividCashPsBeforeTax": "0.5999975",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000415.SZ/2023": [],
+    "002025.SZ/2021": [
+      {
+        "code": "sz.002025",
+        "dividRegistDate": "2021-06-24",
+        "dividOperateDate": "2021-06-25",
+        "dividPayDate": "2021-06-25",
+        "dividStockMarketDate": "2021-06-25",
+        "dividCashPsBeforeTax": "0.2",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600023.SH/2020": [
+      {
+        "code": "sh.600023",
+        "dividRegistDate": "2020-07-06",
+        "dividOperateDate": "2020-07-07",
+        "dividPayDate": "2020-07-07",
+        "dividStockMarketDate": "2020-07-07",
+        "dividCashPsBeforeTax": "0.2",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600358.SH/2022": [],
+    "600429.SH/2021": [
+      {
+        "code": "sh.600429",
+        "dividRegistDate": "2021-07-14",
+        "dividOperateDate": "2021-07-15",
+        "dividPayDate": "2021-07-15",
+        "dividStockMarketDate": "2021-07-15",
+        "dividCashPsBeforeTax": "0.005",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002685.SZ/2021": [],
+    "600901.SH/2020": [
+      {
+        "code": "sh.600901",
+        "dividRegistDate": "2020-06-19",
+        "dividOperateDate": "2020-06-22",
+        "dividPayDate": "2020-06-22",
+        "dividStockMarketDate": "2020-06-22",
+        "dividCashPsBeforeTax": "0.24",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000761.SZ/2023": [],
+    "600578.SH/2023": [
+      {
+        "code": "sh.600578",
+        "dividRegistDate": "2023-08-15",
+        "dividOperateDate": "2023-08-16",
+        "dividPayDate": "2023-08-16",
+        "dividStockMarketDate": "2023-08-16",
+        "dividCashPsBeforeTax": "0.12",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600532.SH/2020": [],
+    "600859.SH/2022": [
+      {
+        "code": "sh.600859",
+        "dividRegistDate": "2022-07-07",
+        "dividOperateDate": "2022-07-08",
+        "dividPayDate": "2022-07-08",
+        "dividStockMarketDate": "2022-07-08",
+        "dividCashPsBeforeTax": "0.4",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000035.SZ/2022": [
+      {
+        "code": "sz.000035",
+        "dividRegistDate": "2022-06-15",
+        "dividOperateDate": "2022-06-16",
+        "dividPayDate": "2022-06-16",
+        "dividStockMarketDate": "2022-06-16",
+        "dividCashPsBeforeTax": "0.1",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600019.SH/2020": [
+      {
+        "code": "sh.600019",
+        "dividRegistDate": "2020-06-02",
+        "dividOperateDate": "2020-06-03",
+        "dividPayDate": "2020-06-03",
+        "dividStockMarketDate": "2020-06-03",
+        "dividCashPsBeforeTax": "0.27999999999999997",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600076.SH/2021": [],
+    "000983.SZ/2020": [
+      {
+        "code": "sz.000983",
+        "dividRegistDate": "2020-06-23",
+        "dividOperateDate": "2020-06-24",
+        "dividPayDate": "2020-06-24",
+        "dividStockMarketDate": "2020-06-24",
+        "dividCashPsBeforeTax": "0.1",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.3",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603712.SH/2020": [
+      {
+        "code": "sh.603712",
+        "dividRegistDate": "2020-06-10",
+        "dividOperateDate": "2020-06-11",
+        "dividPayDate": "2020-06-11",
+        "dividStockMarketDate": "2020-06-11",
+        "dividCashPsBeforeTax": "0.1",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600705.SH/2022": [],
+    "600052.SH/2023": [],
+    "600170.SH/2022": [
+      {
+        "code": "sh.600170",
+        "dividRegistDate": "2022-07-29",
+        "dividOperateDate": "2022-08-01",
+        "dividPayDate": "2022-08-01",
+        "dividStockMarketDate": "2022-08-01",
+        "dividCashPsBeforeTax": "0.145",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002063.SZ/2022": [
+      {
+        "code": "sz.002063",
+        "dividRegistDate": "2022-07-04",
+        "dividOperateDate": "2022-07-05",
+        "dividPayDate": "2022-07-05",
+        "dividStockMarketDate": "2022-07-05",
+        "dividCashPsBeforeTax": "0.05",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.2",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002545.SZ/2020": [
+      {
+        "code": "sz.002545",
+        "dividRegistDate": "2020-07-15",
+        "dividOperateDate": "2020-07-16",
+        "dividPayDate": "2020-07-16",
+        "dividStockMarketDate": "2020-07-16",
+        "dividCashPsBeforeTax": "0.08",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000510.SZ/2020": [],
+    "003816.SZ/2024": [
+      {
+        "code": "sz.003816",
+        "dividRegistDate": "2024-07-09",
+        "dividOperateDate": "2024-07-10",
+        "dividPayDate": "2024-07-10",
+        "dividStockMarketDate": "2024-07-10",
+        "dividCashPsBeforeTax": "0.094",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603505.SH/2020": [
+      {
+        "code": "sh.603505",
+        "dividRegistDate": "2020-07-16",
+        "dividOperateDate": "2020-07-17",
+        "dividPayDate": "2020-07-17",
+        "dividStockMarketDate": "2020-07-17",
+        "dividCashPsBeforeTax": "0.3",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000690.SZ/2020": [
+      {
+        "code": "sz.000690",
+        "dividRegistDate": "2020-05-20",
+        "dividOperateDate": "2020-05-21",
+        "dividPayDate": "2020-05-21",
+        "dividStockMarketDate": "2020-05-21",
+        "dividCashPsBeforeTax": "0.2",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000906.SZ/2020": [
+      {
+        "code": "sz.000906",
+        "dividRegistDate": "2020-07-07",
+        "dividOperateDate": "2020-07-08",
+        "dividPayDate": "2020-07-08",
+        "dividStockMarketDate": "2020-07-08",
+        "dividCashPsBeforeTax": "0.25008210000000003",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600398.SH/2021": [
+      {
+        "code": "sh.600398",
+        "dividRegistDate": "2021-06-16",
+        "dividOperateDate": "2021-06-17",
+        "dividPayDate": "2021-06-17",
+        "dividStockMarketDate": "2021-06-17",
+        "dividCashPsBeforeTax": "0.256",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600250.SH/2020": [],
+    "601333.SH/2022": [],
+    "000823.SZ/2021": [
+      {
+        "code": "sz.000823",
+        "dividRegistDate": "2021-06-04",
+        "dividOperateDate": "2021-06-07",
+        "dividPayDate": "2021-06-07",
+        "dividStockMarketDate": "2021-06-07",
+        "dividCashPsBeforeTax": "0.13",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000682.SZ/2024": [
+      {
+        "code": "sz.000682",
+        "dividRegistDate": "2024-07-08",
+        "dividOperateDate": "2024-07-09",
+        "dividPayDate": "2024-07-09",
+        "dividStockMarketDate": "2024-07-09",
+        "dividCashPsBeforeTax": "0.08",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      },
+      {
+        "code": "sz.000682",
+        "dividRegistDate": "2024-12-09",
+        "dividOperateDate": "2024-12-10",
+        "dividPayDate": "2024-12-10",
+        "dividStockMarketDate": "2024-12-10",
+        "dividCashPsBeforeTax": "0.037",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20240930",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002643.SZ/2021": [
+      {
+        "code": "sz.002643",
+        "dividRegistDate": "2021-06-08",
+        "dividOperateDate": "2021-06-09",
+        "dividPayDate": "2021-06-09",
+        "dividStockMarketDate": "2021-06-09",
+        "dividCashPsBeforeTax": "0.205",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000100.SZ/2023": [
+      {
+        "code": "sz.000100",
+        "dividRegistDate": "2023-05-05",
+        "dividOperateDate": "2023-05-08",
+        "dividPayDate": "2023-05-08",
+        "dividStockMarketDate": "2023-05-08",
+        "dividCashPsBeforeTax": "0.0",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.1",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601212.SH/2023": [
+      {
+        "code": "sh.601212",
+        "dividRegistDate": "2023-07-18",
+        "dividOperateDate": "2023-07-19",
+        "dividPayDate": "2023-07-19",
+        "dividStockMarketDate": "2023-07-19",
+        "dividCashPsBeforeTax": "0.0014",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002175.SZ/2022": [],
+    "601117.SH/2024": [
+      {
+        "code": "sh.601117",
+        "dividRegistDate": "2024-07-12",
+        "dividOperateDate": "2024-07-15",
+        "dividPayDate": "2024-07-15",
+        "dividStockMarketDate": "2024-07-15",
+        "dividCashPsBeforeTax": "0.178",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002453.SZ/2020": [],
+    "000725.SZ/2021": [
+      {
+        "code": "sz.000725",
+        "dividRegistDate": "2021-06-03",
+        "dividOperateDate": "2021-06-04",
+        "dividPayDate": "2021-06-04",
+        "dividStockMarketDate": "2021-06-04",
+        "dividCashPsBeforeTax": "0.1",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603606.SH/2020": [
+      {
+        "code": "sh.603606",
+        "dividRegistDate": "2020-05-21",
+        "dividOperateDate": "2020-05-22",
+        "dividPayDate": "2020-05-22",
+        "dividStockMarketDate": "2020-05-22",
+        "dividCashPsBeforeTax": "0.13",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603826.SH/2023": [],
+    "002709.SZ/2020": [
+      {
+        "code": "sz.002709",
+        "dividRegistDate": "2020-06-22",
+        "dividOperateDate": "2020-06-23",
+        "dividPayDate": "2020-06-23",
+        "dividStockMarketDate": "2020-06-23",
+        "dividCashPsBeforeTax": "0.05",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002343.SZ/2022": [],
+    "603989.SH/2021": [
+      {
+        "code": "sh.603989",
+        "dividRegistDate": "2021-06-23",
+        "dividOperateDate": "2021-06-24",
+        "dividPayDate": "2021-06-24",
+        "dividStockMarketDate": "2021-06-24",
+        "dividCashPsBeforeTax": "0.32",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601998.SH/2023": [
+      {
+        "code": "sh.601998",
+        "dividRegistDate": "2023-07-19",
+        "dividOperateDate": "2023-07-20",
+        "dividPayDate": "2023-07-20",
+        "dividStockMarketDate": "2023-07-20",
+        "dividCashPsBeforeTax": "0.329",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603665.SH/2022": [],
+    "002293.SZ/2020": [
+      {
+        "code": "sz.002293",
+        "dividRegistDate": "2020-05-28",
+        "dividOperateDate": "2020-05-29",
+        "dividPayDate": "2020-05-29",
+        "dividStockMarketDate": "2020-05-29",
+        "dividCashPsBeforeTax": "0.5",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600970.SH/2020": [
+      {
+        "code": "sh.600970",
+        "dividRegistDate": "2020-06-10",
+        "dividOperateDate": "2020-06-11",
+        "dividPayDate": "2020-06-11",
+        "dividStockMarketDate": "2020-06-11",
+        "dividCashPsBeforeTax": "0.301",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600919.SH/2022": [
+      {
+        "code": "sh.600919",
+        "dividRegistDate": "2022-05-25",
+        "dividOperateDate": "2022-05-26",
+        "dividPayDate": "2022-05-26",
+        "dividStockMarketDate": "2022-05-26",
+        "dividCashPsBeforeTax": "0.4",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600160.SH/2024": [
+      {
+        "code": "sh.600160",
+        "dividRegistDate": "2024-06-04",
+        "dividOperateDate": "2024-06-05",
+        "dividPayDate": "2024-06-05",
+        "dividStockMarketDate": "2024-06-05",
+        "dividCashPsBeforeTax": "0.11000000000000001",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002548.SZ/2023": [],
+    "603826.SH/2022": [],
+    "000983.SZ/2021": [
+      {
+        "code": "sz.000983",
+        "dividRegistDate": "2021-07-15",
+        "dividOperateDate": "2021-07-16",
+        "dividPayDate": "2021-07-16",
+        "dividStockMarketDate": "2021-07-16",
+        "dividCashPsBeforeTax": "0.1",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000888.SZ/2020": [
+      {
+        "code": "sz.000888",
+        "dividRegistDate": "2020-06-04",
+        "dividOperateDate": "2020-06-05",
+        "dividPayDate": "2020-06-05",
+        "dividStockMarketDate": "2020-06-05",
+        "dividCashPsBeforeTax": "0.1",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002356.SZ/2023": [],
+    "603033.SH/2020": [
+      {
+        "code": "sh.603033",
+        "dividRegistDate": "2020-06-03",
+        "dividOperateDate": "2020-06-04",
+        "dividPayDate": "2020-06-04",
+        "dividStockMarketDate": "2020-06-04",
+        "dividCashPsBeforeTax": "0.22999999999999998",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.4",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600743.SH/2020": [
+      {
+        "code": "sh.600743",
+        "dividRegistDate": "2020-06-11",
+        "dividOperateDate": "2020-06-12",
+        "dividPayDate": "2020-06-12",
+        "dividStockMarketDate": "2020-06-12",
+        "dividCashPsBeforeTax": "0.12",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600971.SH/2020": [
+      {
+        "code": "sh.600971",
+        "dividRegistDate": "2020-06-23",
+        "dividOperateDate": "2020-06-24",
+        "dividPayDate": "2020-06-24",
+        "dividStockMarketDate": "2020-06-24",
+        "dividCashPsBeforeTax": "0.35",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601968.SH/2020": [
+      {
+        "code": "sh.601968",
+        "dividRegistDate": "2020-07-16",
+        "dividOperateDate": "2020-07-17",
+        "dividPayDate": "2020-07-17",
+        "dividStockMarketDate": "2020-07-17",
+        "dividCashPsBeforeTax": "0.077",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002385.SZ/2022": [],
+    "600054.SH/2023": [],
+    "601991.SH/2021": [
+      {
+        "code": "sh.601991",
+        "dividRegistDate": "2021-08-26",
+        "dividOperateDate": "2021-08-27",
+        "dividPayDate": "2021-08-27",
+        "dividStockMarketDate": "2021-08-27",
+        "dividCashPsBeforeTax": "0.091",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000591.SZ/2020": [
+      {
+        "code": "sz.000591",
+        "dividRegistDate": "2020-07-03",
+        "dividOperateDate": "2020-07-06",
+        "dividPayDate": "2020-07-06",
+        "dividStockMarketDate": "2020-07-06",
+        "dividCashPsBeforeTax": "0.11000000000000001",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000682.SZ/2021": [],
+    "600300.SH/2020": [],
+    "600664.SH/2022": [],
+    "600796.SH/2020": [],
+    "600649.SH/2020": [
+      {
+        "code": "sh.600649",
+        "dividRegistDate": "2020-07-30",
+        "dividOperateDate": "2020-07-31",
+        "dividPayDate": "2020-07-31",
+        "dividStockMarketDate": "2020-07-31",
+        "dividCashPsBeforeTax": "0.072",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600979.SH/2021": [
+      {
+        "code": "sh.600979",
+        "dividRegistDate": "2021-05-26",
+        "dividOperateDate": "2021-05-27",
+        "dividPayDate": "2021-05-27",
+        "dividStockMarketDate": "2021-05-27",
+        "dividCashPsBeforeTax": "0.05",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600398.SH/2023": [
+      {
+        "code": "sh.600398",
+        "dividRegistDate": "2023-06-05",
+        "dividOperateDate": "2023-06-06",
+        "dividPayDate": "2023-06-06",
+        "dividStockMarketDate": "2023-06-06",
+        "dividCashPsBeforeTax": "0.43",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603300.SH/2021": [],
+    "002034.SZ/2020": [
+      {
+        "code": "sz.002034",
+        "dividRegistDate": "2020-06-04",
+        "dividOperateDate": "2020-06-05",
+        "dividPayDate": "2020-06-05",
+        "dividStockMarketDate": "2020-06-05",
+        "dividCashPsBeforeTax": "0.1",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603909.SH/2020": [],
+    "002500.SZ/2023": [
+      {
+        "code": "sz.002500",
+        "dividRegistDate": "2023-06-29",
+        "dividOperateDate": "2023-06-30",
+        "dividPayDate": "2023-06-30",
+        "dividStockMarketDate": "2023-06-30",
+        "dividCashPsBeforeTax": "0.08",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000883.SZ/2021": [
+      {
+        "code": "sz.000883",
+        "dividRegistDate": "2021-07-15",
+        "dividOperateDate": "2021-07-16",
+        "dividPayDate": "2021-07-16",
+        "dividStockMarketDate": "2021-07-16",
+        "dividCashPsBeforeTax": "0.12",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600845.SH/2022": [
+      {
+        "code": "sh.600845",
+        "dividRegistDate": "2022-07-14",
+        "dividOperateDate": "2022-07-15",
+        "dividPayDate": "2022-07-15",
+        "dividStockMarketDate": "2022-07-15",
+        "dividCashPsBeforeTax": "1.0",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.3",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000090.SZ/2020": [
+      {
+        "code": "sz.000090",
+        "dividRegistDate": "2020-05-28",
+        "dividOperateDate": "2020-05-29",
+        "dividPayDate": "2020-05-29",
+        "dividStockMarketDate": "2020-05-29",
+        "dividCashPsBeforeTax": "0.38",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002410.SZ/2020": [
+      {
+        "code": "sz.002410",
+        "dividRegistDate": "2020-05-07",
+        "dividOperateDate": "2020-05-08",
+        "dividPayDate": "2020-05-08",
+        "dividStockMarketDate": "2020-05-08",
+        "dividCashPsBeforeTax": "0.1",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002073.SZ/2021": [],
+    "600169.SH/2021": [],
+    "603083.SH/2023": [],
+    "603707.SH/2024": [
+      {
+        "code": "sh.603707",
+        "dividRegistDate": "2024-07-05",
+        "dividOperateDate": "2024-07-08",
+        "dividPayDate": "2024-07-08",
+        "dividStockMarketDate": "2024-07-08",
+        "dividCashPsBeforeTax": "0.1",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603638.SH/2020": [
+      {
+        "code": "sh.603638",
+        "dividRegistDate": "2020-05-29",
+        "dividOperateDate": "2020-06-01",
+        "dividPayDate": "2020-06-01",
+        "dividStockMarketDate": "2020-06-01",
+        "dividCashPsBeforeTax": "0.16999999999999998",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.45",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600009.SH/2022": [],
+    "002549.SZ/2020": [
+      {
+        "code": "sz.002549",
+        "dividRegistDate": "2020-06-09",
+        "dividOperateDate": "2020-06-10",
+        "dividPayDate": "2020-06-10",
+        "dividStockMarketDate": "2020-06-10",
+        "dividCashPsBeforeTax": "0.1",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601028.SH/2020": [],
+    "603199.SH/2023": [],
+    "600170.SH/2023": [
+      {
+        "code": "sh.600170",
+        "dividRegistDate": "2023-08-09",
+        "dividOperateDate": "2023-08-10",
+        "dividPayDate": "2023-08-10",
+        "dividStockMarketDate": "2023-08-10",
+        "dividCashPsBeforeTax": "0.05",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601117.SH/2021": [
+      {
+        "code": "sh.601117",
+        "dividRegistDate": "2021-06-09",
+        "dividOperateDate": "2021-06-10",
+        "dividPayDate": "2021-06-10",
+        "dividStockMarketDate": "2021-06-10",
+        "dividCashPsBeforeTax": "0.223",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002262.SZ/2020": [
+      {
+        "code": "sz.002262",
+        "dividRegistDate": "2020-06-19",
+        "dividOperateDate": "2020-06-22",
+        "dividPayDate": "2020-06-22",
+        "dividStockMarketDate": "2020-06-22",
+        "dividCashPsBeforeTax": "0.1",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002588.SZ/2020": [
+      {
+        "code": "sz.002588",
+        "dividRegistDate": "2020-06-11",
+        "dividOperateDate": "2020-06-12",
+        "dividPayDate": "2020-06-12",
+        "dividStockMarketDate": "2020-06-12",
+        "dividCashPsBeforeTax": "0.02",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600395.SH/2020": [
+      {
+        "code": "sh.600395",
+        "dividRegistDate": "2020-08-05",
+        "dividOperateDate": "2020-08-06",
+        "dividPayDate": "2020-08-06",
+        "dividStockMarketDate": "2020-08-06",
+        "dividCashPsBeforeTax": "0.4",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002624.SZ/2020": [
+      {
+        "code": "sz.002624",
+        "dividRegistDate": "2020-07-20",
+        "dividOperateDate": "2020-07-21",
+        "dividPayDate": "2020-07-21",
+        "dividStockMarketDate": "2020-07-21",
+        "dividCashPsBeforeTax": "0.24",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.5",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000534.SZ/2023": [
+      {
+        "code": "sz.000534",
+        "dividRegistDate": "2023-08-28",
+        "dividOperateDate": "2023-08-29",
+        "dividPayDate": "2023-08-29",
+        "dividStockMarketDate": "2023-08-29",
+        "dividCashPsBeforeTax": "0.05",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000159.SZ/2024": [],
+    "600236.SH/2021": [
+      {
+        "code": "sh.600236",
+        "dividRegistDate": "2021-07-22",
+        "dividOperateDate": "2021-07-23",
+        "dividPayDate": "2021-07-23",
+        "dividStockMarketDate": "2021-07-23",
+        "dividCashPsBeforeTax": "0.19",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600331.SH/2024": [],
+    "002390.SZ/2021": [],
+    "600805.SH/2021": [],
+    "600403.SH/2024": [],
+    "002429.SZ/2023": [
+      {
+        "code": "sz.002429",
+        "dividRegistDate": "2023-06-13",
+        "dividOperateDate": "2023-06-14",
+        "dividPayDate": "2023-06-14",
+        "dividStockMarketDate": "2023-06-14",
+        "dividCashPsBeforeTax": "0.076",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000861.SZ/2021": [],
+    "002343.SZ/2021": [],
+    "601939.SH/2023": [
+      {
+        "code": "sh.601939",
+        "dividRegistDate": "2023-07-13",
+        "dividOperateDate": "2023-07-14",
+        "dividPayDate": "2023-07-14",
+        "dividStockMarketDate": "2023-07-14",
+        "dividCashPsBeforeTax": "0.389",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601168.SH/2024": [
+      {
+        "code": "sh.601168",
+        "dividRegistDate": "2024-05-30",
+        "dividOperateDate": "2024-05-31",
+        "dividPayDate": "2024-05-31",
+        "dividStockMarketDate": "2024-05-31",
+        "dividCashPsBeforeTax": "0.5",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603456.SH/2020": [
+      {
+        "code": "sh.603456",
+        "dividRegistDate": "2020-07-07",
+        "dividOperateDate": "2020-07-08",
+        "dividPayDate": "2020-07-08",
+        "dividStockMarketDate": "2020-07-08",
+        "dividCashPsBeforeTax": "0.2",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600089.SH/2020": [
+      {
+        "code": "sh.600089",
+        "dividRegistDate": "2020-07-03",
+        "dividOperateDate": "2020-07-06",
+        "dividPayDate": "2020-07-06",
+        "dividStockMarketDate": "2020-07-06",
+        "dividCashPsBeforeTax": "0.16499999999999998",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600226.SH/2024": [],
+    "002476.SZ/2023": [],
+    "000626.SZ/2021": [],
+    "600008.SH/2021": [
+      {
+        "code": "sh.600008",
+        "dividRegistDate": "2021-05-27",
+        "dividOperateDate": "2021-05-28",
+        "dividPayDate": "2021-05-28",
+        "dividStockMarketDate": "2021-05-28",
+        "dividCashPsBeforeTax": "0.06999999999999999",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002160.SZ/2021": [],
+    "002925.SZ/2021": [
+      {
+        "code": "sz.002925",
+        "dividRegistDate": "2021-04-20",
+        "dividOperateDate": "2021-04-21",
+        "dividPayDate": "2021-04-21",
+        "dividStockMarketDate": "2021-04-21",
+        "dividCashPsBeforeTax": "1.0",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.7",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600025.SH/2021": [
+      {
+        "code": "sh.600025",
+        "dividRegistDate": "2021-06-17",
+        "dividOperateDate": "2021-06-18",
+        "dividPayDate": "2021-06-18",
+        "dividStockMarketDate": "2021-06-18",
+        "dividCashPsBeforeTax": "0.16",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603707.SH/2021": [
+      {
+        "code": "sh.603707",
+        "dividRegistDate": "2021-07-14",
+        "dividOperateDate": "2021-07-15",
+        "dividPayDate": "2021-07-15",
+        "dividStockMarketDate": "2021-07-15",
+        "dividCashPsBeforeTax": "0.15",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.3",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601818.SH/2023": [
+      {
+        "code": "sh.601818",
+        "dividRegistDate": "2023-07-18",
+        "dividOperateDate": "2023-07-19",
+        "dividPayDate": "2023-07-19",
+        "dividStockMarketDate": "2023-07-19",
+        "dividCashPsBeforeTax": "0.19",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601390.SH/2022": [
+      {
+        "code": "sh.601390",
+        "dividRegistDate": "2022-07-28",
+        "dividOperateDate": "2022-07-29",
+        "dividPayDate": "2022-07-29",
+        "dividStockMarketDate": "2022-07-29",
+        "dividCashPsBeforeTax": "0.196",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600740.SH/2020": [
+      {
+        "code": "sh.600740",
+        "dividRegistDate": "2020-06-22",
+        "dividOperateDate": "2020-06-23",
+        "dividPayDate": "2020-06-23",
+        "dividStockMarketDate": "2020-06-23",
+        "dividCashPsBeforeTax": "0.1",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.3",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600750.SH/2020": [
+      {
+        "code": "sh.600750",
+        "dividRegistDate": "2020-06-11",
+        "dividOperateDate": "2020-06-12",
+        "dividPayDate": "2020-06-12",
+        "dividStockMarketDate": "2020-06-12",
+        "dividCashPsBeforeTax": "0.3",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.2",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600276.SH/2020": [
+      {
+        "code": "sh.600276",
+        "dividRegistDate": "2020-05-22",
+        "dividOperateDate": "2020-05-25",
+        "dividPayDate": "2020-05-25",
+        "dividStockMarketDate": "2020-05-25",
+        "dividCashPsBeforeTax": "0.22999999999999998",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.2",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600495.SH/2021": [
+      {
+        "code": "sh.600495",
+        "dividRegistDate": "2021-07-29",
+        "dividOperateDate": "2021-07-30",
+        "dividPayDate": "2021-07-30",
+        "dividStockMarketDate": "2021-07-30",
+        "dividCashPsBeforeTax": "0.007000000000000001",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000927.SZ/2021": [],
+    "000783.SZ/2023": [
+      {
+        "code": "sz.000783",
+        "dividRegistDate": "2023-07-12",
+        "dividOperateDate": "2023-07-13",
+        "dividPayDate": "2023-07-13",
+        "dividStockMarketDate": "2023-07-13",
+        "dividCashPsBeforeTax": "0.12",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600975.SH/2022": [],
+    "002074.SZ/2021": [],
+    "600050.SH/2022": [
+      {
+        "code": "sh.600050",
+        "dividRegistDate": "2022-06-28",
+        "dividOperateDate": "2022-06-29",
+        "dividPayDate": "2022-06-29",
+        "dividStockMarketDate": "2022-06-29",
+        "dividCashPsBeforeTax": "0.0391",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      },
+      {
+        "code": "sh.600050",
+        "dividRegistDate": "2022-11-08",
+        "dividOperateDate": "2022-11-09",
+        "dividPayDate": "2022-11-09",
+        "dividStockMarketDate": "2022-11-09",
+        "dividCashPsBeforeTax": "0.0663",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20220630",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002028.SZ/2021": [
+      {
+        "code": "sz.002028",
+        "dividRegistDate": "2021-06-22",
+        "dividOperateDate": "2021-06-23",
+        "dividPayDate": "2021-06-23",
+        "dividStockMarketDate": "2021-06-23",
+        "dividCashPsBeforeTax": "0.19997979999999999",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000728.SZ/2023": [
+      {
+        "code": "sz.000728",
+        "dividRegistDate": "2023-05-22",
+        "dividOperateDate": "2023-05-23",
+        "dividPayDate": "2023-05-23",
+        "dividStockMarketDate": "2023-05-23",
+        "dividCashPsBeforeTax": "0.15",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000680.SZ/2023": [
+      {
+        "code": "sz.000680",
+        "dividRegistDate": "2023-06-27",
+        "dividOperateDate": "2023-06-28",
+        "dividPayDate": "2023-06-28",
+        "dividStockMarketDate": "2023-06-28",
+        "dividCashPsBeforeTax": "0.076",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600707.SH/2023": [],
+    "002001.SZ/2024": [
+      {
+        "code": "sz.002001",
+        "dividRegistDate": "2024-05-28",
+        "dividOperateDate": "2024-05-29",
+        "dividPayDate": "2024-05-29",
+        "dividStockMarketDate": "2024-05-29",
+        "dividCashPsBeforeTax": "0.45",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600578.SH/2022": [],
+    "600570.SH/2023": [
+      {
+        "code": "sh.600570",
+        "dividRegistDate": "2023-06-16",
+        "dividOperateDate": "2023-06-19",
+        "dividPayDate": "2023-06-19",
+        "dividStockMarketDate": "2023-06-19",
+        "dividCashPsBeforeTax": "0.13",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601333.SH/2023": [],
+    "600079.SH/2024": [
+      {
+        "code": "sh.600079",
+        "dividRegistDate": "2024-06-21",
+        "dividOperateDate": "2024-06-24",
+        "dividPayDate": "2024-06-24",
+        "dividStockMarketDate": "2024-06-24",
+        "dividCashPsBeforeTax": "0.45999999999999996",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      },
+      {
+        "code": "sh.600079",
+        "dividRegistDate": "2024-10-10",
+        "dividOperateDate": "2024-10-11",
+        "dividPayDate": "2024-10-11",
+        "dividStockMarketDate": "2024-10-11",
+        "dividCashPsBeforeTax": "0.15",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20240630",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600108.SH/2021": [],
+    "603077.SH/2022": [
+      {
+        "code": "sh.603077",
+        "dividRegistDate": "2022-05-11",
+        "dividOperateDate": "2022-05-12",
+        "dividPayDate": "2022-05-12",
+        "dividStockMarketDate": "2022-05-12",
+        "dividCashPsBeforeTax": "0.015",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600100.SH/2023": [],
+    "603789.SH/2020": [],
+    "002607.SZ/2020": [
+      {
+        "code": "sz.002607",
+        "dividRegistDate": "2020-05-19",
+        "dividOperateDate": "2020-05-20",
+        "dividPayDate": "2020-05-20",
+        "dividStockMarketDate": "2020-05-20",
+        "dividCashPsBeforeTax": "0.24",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601028.SH/2022": [],
+    "000967.SZ/2020": [
+      {
+        "code": "sz.000967",
+        "dividRegistDate": "2020-07-09",
+        "dividOperateDate": "2020-07-10",
+        "dividPayDate": "2020-07-10",
+        "dividStockMarketDate": "2020-07-10",
+        "dividCashPsBeforeTax": "0.11000000000000001",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603869.SH/2020": [],
+    "603103.SH/2023": [],
+    "600136.SH/2021": [],
+    "600760.SH/2022": [
+      {
+        "code": "sh.600760",
+        "dividRegistDate": "2022-05-25",
+        "dividOperateDate": "2022-05-26",
+        "dividPayDate": "2022-05-26",
+        "dividStockMarketDate": "2022-05-26",
+        "dividCashPsBeforeTax": "0.35",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002665.SZ/2023": [],
+    "600191.SH/2021": [],
+    "603021.SH/2024": [],
+    "002339.SZ/2022": [],
+    "600358.SH/2024": [],
+    "002650.SZ/2024": [],
+    "002717.SZ/2021": [],
+    "002061.SZ/2020": [
+      {
+        "code": "sz.002061",
+        "dividRegistDate": "2020-06-02",
+        "dividOperateDate": "2020-06-03",
+        "dividPayDate": "2020-06-03",
+        "dividStockMarketDate": "2020-06-03",
+        "dividCashPsBeforeTax": "0.12",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002633.SZ/2024": [],
+    "002329.SZ/2024": [],
+    "000639.SZ/2024": [],
+    "002520.SZ/2024": [],
+    "002494.SZ/2022": [],
+    "002329.SZ/2023": [],
+    "002193.SZ/2024": [],
+    "002650.SZ/2022": [
+      {
+        "code": "sz.002650",
+        "dividRegistDate": "2022-11-10",
+        "dividOperateDate": "2022-11-11",
+        "dividPayDate": "2022-11-11",
+        "dividStockMarketDate": "2022-11-11",
+        "dividCashPsBeforeTax": "0.088",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20220630",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002699.SZ/2021": [],
+    "600243.SH/2020": [],
+    "002044.SZ/2023": [],
+    "600706.SH/2022": [],
+    "000078.SZ/2021": [],
+    "000835.SZ/2020": [],
+    "600491.SH/2021": [
+      {
+        "code": "sh.600491",
+        "dividRegistDate": "2021-07-07",
+        "dividOperateDate": "2021-07-08",
+        "dividPayDate": "2021-07-08",
+        "dividStockMarketDate": "2021-07-08",
+        "dividCashPsBeforeTax": "0.05",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000068.SZ/2024": [],
+    "603859.SH/2022": [
+      {
+        "code": "sh.603859",
+        "dividRegistDate": "2022-05-23",
+        "dividOperateDate": "2022-05-24",
+        "dividPayDate": "2022-05-24",
+        "dividStockMarketDate": "2022-05-24",
+        "dividCashPsBeforeTax": "0.1",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603133.SH/2023": [],
+    "601933.SH/2022": [
+      {
+        "code": "sh.601933",
+        "dividRegistDate": "2022-06-16",
+        "dividOperateDate": "2022-06-17",
+        "dividPayDate": "2022-06-17",
+        "dividStockMarketDate": "2022-06-17",
+        "dividCashPsBeforeTax": "0.02",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002464.SZ/2020": [],
+    "002270.SZ/2020": [
+      {
+        "code": "sz.002270",
+        "dividRegistDate": "2020-06-09",
+        "dividOperateDate": "2020-06-10",
+        "dividPayDate": "2020-06-10",
+        "dividStockMarketDate": "2020-06-10",
+        "dividCashPsBeforeTax": "0.041999999999999996",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      },
+      {
+        "code": "sz.002270",
+        "dividRegistDate": "2020-09-15",
+        "dividOperateDate": "2020-09-16",
+        "dividPayDate": "2020-09-16",
+        "dividStockMarketDate": "2020-09-16",
+        "dividCashPsBeforeTax": "0.05",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20200630",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603669.SH/2024": [],
+    "600831.SH/2020": [],
+    "600468.SH/2020": [],
+    "002378.SZ/2022": [
+      {
+        "code": "sz.002378",
+        "dividRegistDate": "2022-05-23",
+        "dividOperateDate": "2022-05-24",
+        "dividPayDate": "2022-05-24",
+        "dividStockMarketDate": "2022-05-24",
+        "dividCashPsBeforeTax": "0.1",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002307.SZ/2020": [],
+    "000721.SZ/2020": [],
+    "600165.SH/2023": [],
+    "002397.SZ/2023": [],
+    "002723.SZ/2023": [],
+    "002250.SZ/2022": [
+      {
+        "code": "sz.002250",
+        "dividRegistDate": "2022-07-21",
+        "dividOperateDate": "2022-07-22",
+        "dividPayDate": "2022-07-22",
+        "dividStockMarketDate": "2022-07-22",
+        "dividCashPsBeforeTax": "0.05",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002691.SZ/2024": [],
+    "002685.SZ/2022": [],
+    "000046.SZ/2021": [],
+    "603429.SH/2023": [],
+    "600561.SH/2024": [],
+    "002560.SZ/2021": [],
+    "000620.SZ/2020": [],
+    "002798.SZ/2024": [],
+    "600381.SH/2024": [],
+    "000635.SZ/2022": [],
+    "600053.SH/2022": [],
+    "000507.SZ/2020": [
+      {
+        "code": "sz.000507",
+        "dividRegistDate": "2020-06-11",
+        "dividOperateDate": "2020-06-12",
+        "dividPayDate": "2020-06-12",
+        "dividStockMarketDate": "2020-06-12",
+        "dividCashPsBeforeTax": "0.05",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002201.SZ/2021": [
+      {
+        "code": "sz.002201",
+        "dividRegistDate": "2021-06-15",
+        "dividOperateDate": "2021-06-16",
+        "dividPayDate": "2021-06-16",
+        "dividStockMarketDate": "2021-06-16",
+        "dividCashPsBeforeTax": "0.011",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.4",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002793.SZ/2023": [],
+    "002806.SZ/2024": [],
+    "600225.SH/2024": [],
+    "002433.SZ/2022": [],
+    "600707.SH/2020": [],
+    "002118.SZ/2020": [],
+    "002453.SZ/2024": [],
+    "600818.SH/2021": [],
+    "603052.SH/2023": [
+      {
+        "code": "sh.603052",
+        "dividRegistDate": "2023-05-15",
+        "dividOperateDate": "2023-05-16",
+        "dividPayDate": "2023-05-16",
+        "dividStockMarketDate": "2023-05-16",
+        "dividCashPsBeforeTax": "0.5",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.4",
+        "source_report_date": "20221231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "002662.SZ/2021": [],
+    "000757.SZ/2024": [],
+    "002388.SZ/2024": [],
+    "600094.SH/2024": [],
+    "603603.SH/2022": [],
+    "603399.SH/2020": [],
+    "600831.SH/2024": [],
+    "002366.SZ/2020": [],
+    "600497.SH/2022": [
+      {
+        "code": "sh.600497",
+        "dividRegistDate": "2022-07-07",
+        "dividOperateDate": "2022-07-08",
+        "dividPayDate": "2022-07-08",
+        "dividStockMarketDate": "2022-07-08",
+        "dividCashPsBeforeTax": "0.12",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600525.SH/2024": [],
+    "002146.SZ/2022": [],
+    "000766.SZ/2021": [],
+    "603011.SH/2023": [],
+    "000892.SZ/2020": [],
+    "001330.SZ/2024": [],
+    "000042.SZ/2024": [],
+    "002310.SZ/2021": [],
+    "002002.SZ/2020": [],
+    "600026.SH/2022": [],
+    "600545.SH/2021": [],
+    "600238.SH/2024": [],
+    "601798.SH/2024": [],
+    "603099.SH/2022": [],
+    "600696.SH/2023": [],
+    "600818.SH/2020": [],
+    "600606.SH/2022": [
+      {
+        "code": "sh.600606",
+        "dividRegistDate": "2022-08-01",
+        "dividOperateDate": "2022-08-02",
+        "dividPayDate": "2022-08-02",
+        "dividStockMarketDate": "2022-08-02",
+        "dividCashPsBeforeTax": "0.0",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.1",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603638.SH/2022": [
+      {
+        "code": "sh.603638",
+        "dividRegistDate": "2022-06-07",
+        "dividOperateDate": "2022-06-08",
+        "dividPayDate": "2022-06-08",
+        "dividStockMarketDate": "2022-06-08",
+        "dividCashPsBeforeTax": "0.12",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600151.SH/2024": [],
+    "000068.SZ/2020": [],
+    "000632.SZ/2024": [],
+    "002157.SZ/2023": [],
+    "600766.SH/2023": [],
+    "600239.SH/2020": [],
+    "002236.SZ/2022": [
+      {
+        "code": "sz.002236",
+        "dividRegistDate": "2022-05-31",
+        "dividOperateDate": "2022-06-01",
+        "dividPayDate": "2022-06-01",
+        "dividStockMarketDate": "2022-06-01",
+        "dividCashPsBeforeTax": "0.27",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601933.SH/2021": [
+      {
+        "code": "sh.601933",
+        "dividRegistDate": "2021-07-20",
+        "dividOperateDate": "2021-07-21",
+        "dividPayDate": "2021-07-21",
+        "dividStockMarketDate": "2021-07-21",
+        "dividCashPsBeforeTax": "0.020399999999999998",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603336.SH/2024": [],
+    "601127.SH/2020": [
+      {
+        "code": "sh.601127",
+        "dividRegistDate": "2020-07-21",
+        "dividOperateDate": "2020-07-22",
+        "dividPayDate": "2020-07-22",
+        "dividStockMarketDate": "2020-07-22",
+        "dividCashPsBeforeTax": "0.04",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20191231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603188.SH/2024": [],
+    "002115.SZ/2022": [],
+    "002196.SZ/2024": [],
+    "002044.SZ/2022": [],
+    "000567.SZ/2020": [],
+    "600778.SH/2023": [],
+    "002622.SZ/2022": [],
+    "002596.SZ/2023": [],
+    "002027.SZ/2022": [
+      {
+        "code": "sz.002027",
+        "dividRegistDate": "2022-08-02",
+        "dividOperateDate": "2022-08-03",
+        "dividPayDate": "2022-08-03",
+        "dividStockMarketDate": "2022-08-03",
+        "dividCashPsBeforeTax": "0.13",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20211231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "603528.SH/2021": [
+      {
+        "code": "sh.603528",
+        "dividRegistDate": "2021-06-10",
+        "dividOperateDate": "2021-06-11",
+        "dividPayDate": "2021-06-11",
+        "dividStockMarketDate": "2021-06-11",
+        "dividCashPsBeforeTax": "0.04",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "000720.SZ/2021": [],
+    "002145.SZ/2024": [
+      {
+        "code": "sz.002145",
+        "dividRegistDate": "2024-05-20",
+        "dividOperateDate": "2024-05-21",
+        "dividPayDate": "2024-05-21",
+        "dividStockMarketDate": "2024-05-21",
+        "dividCashPsBeforeTax": "0.050516799999999994",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20231231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "601727.SH/2021": [
+      {
+        "code": "sh.601727",
+        "dividRegistDate": "2021-08-06",
+        "dividOperateDate": "2021-08-09",
+        "dividPayDate": "2021-08-09",
+        "dividStockMarketDate": "2021-08-09",
+        "dividCashPsBeforeTax": "0.07178",
+        "dividCashPsAfterTax": "",
+        "dividStocksPs": "0.0",
+        "dividReserveToStockPs": "0.0",
+        "source_report_date": "20201231",
+        "source": "Eastmoney stock_fhps_em via AkShare"
+      }
+    ],
+    "600665.SH/2024": [],
+    "600726.SH/2020": [],
+    "002442.SZ/2020": [],
+    "000918.SZ/2021": [],
+    "002647.SZ/2024": [],
+    "002655.SZ/2021": []
+  },
+  "limitations": [
+    "The public table supplies record and ex-right dates but not separate cash-payment or bonus-share listing dates in this endpoint.",
+    "Payment and release dates are conservatively set to the ex-right date; this must be disclosed in the final audit."
+  ]
+}

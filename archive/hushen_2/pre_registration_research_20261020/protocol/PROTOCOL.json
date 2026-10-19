@@ -1,0 +1,83 @@
+{
+  "protocol_id": "hushen_smart_1_batch_001",
+  "registered_at": "2026-10-19T17:00:00+08:00",
+  "status": "preregistered_before_results",
+  "production_change": false,
+  "live_orders": false,
+  "data": {
+    "source": "sh_sz_market_research/data_pipeline/data/qfq",
+    "warmup": ["2018-01-01", "2019-12-31"],
+    "development": ["2020-01-01", "2024-12-31"],
+    "hard_max_date": "2024-12-31",
+    "post_2024_forbidden": true
+  },
+  "universe": {
+    "exchanges": ["SH", "SZ"],
+    "exclude_st": true,
+    "minimum_observations": 120,
+    "signal_close_range": [2.0, 80.0],
+    "minimum_signal_day_amount": 20000000,
+    "minimum_20d_median_amount": 30000000
+  },
+  "account": {
+    "initial_cash": 100000,
+    "slots": 10,
+    "lot_size": 100,
+    "same_symbol_unique": true,
+    "sale_cash_reusable": "next_trading_day",
+    "commission_rate": 0.0003,
+    "minimum_commission": 5.0,
+    "sell_stamp_rate": 0.001,
+    "market_slippage_each_side": 0.002
+  },
+  "entry": {
+    "signals_per_day": 2,
+    "valid_calendar_days": 7,
+    "order": "best_five_immediate_or_cancel",
+    "full_fill_if_order_not_above_daily_volume_fraction": 0.02,
+    "atr14_fraction_clamp": [0.015, 0.05],
+    "entry_atr_offsets": [0.25, 0.5, 0.75]
+  },
+  "exit": {
+    "holding_calendar_days": [7, 30],
+    "t_plus_one": true,
+    "same_day_both": "stop_first",
+    "expiry_holiday": "last_trading_day_on_or_before_deadline",
+    "atr_take_stop_pairs": [
+      {"name": "tight", "take": 1.5, "stop": 1.0},
+      {"name": "balanced", "take": 2.0, "stop": 1.25},
+      {"name": "wide", "take": 2.5, "stop": 1.5}
+    ]
+  },
+  "factor_formulas": [
+    {
+      "name": "baseline_lowvol",
+      "formula": "-0.35*rank(vol60)-0.20*rank(overnight20)+0.25*rank(intraday20)-0.20*rank(turn20)"
+    },
+    {
+      "name": "trend_pullback",
+      "formula": "0.40*rank(mom60)+0.25*rank(mom20)-0.20*rank(vol20)-0.15*rank(ret5)"
+    },
+    {
+      "name": "stable_breakout",
+      "formula": "0.35*rank(mom120)+0.25*rank(close_to_high60)+0.20*rank(mom20)-0.20*rank(vol60)"
+    }
+  ],
+  "candidate_count": 54,
+  "eligibility": {
+    "evaluation_years": [2020, 2021, 2022, 2023, 2024],
+    "minimum_completed_trades_each_year": 20,
+    "any_year_below_minimum_is_ineligible": true
+  },
+  "selection": {
+    "primary": "continuous_account_cagr",
+    "secondary": [
+      "worst_annual_return",
+      "profitable_year_count",
+      "negative_annual_return_std",
+      "negative_completed_trade_count_cv"
+    ],
+    "freeze_one_champion_only": true,
+    "complete_execution_and_corporate_action_audit_after_selection": true
+  }
+}

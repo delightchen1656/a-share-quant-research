@@ -1,9 +1,13 @@
-"""SuperMind daily-frequency execution strategy with 120K dynamic STAR sizing.
+"""科创基准1：高进攻强势延持，旧版动态仓位。
 
-The single-file build embeds the model and needs no project attachment.
-Set the SuperMind backtest/simulation frequency to daily. Signals, entries and
-risk exits are evaluated once per trading day at the platform daily callback.
-This is not investment advice.
+单文件内嵌预测模型，无需上传项目附件。
+SuperMind设置：股票策略、每日频率、初始资金500000元、独立空仓账户。
+初始资金需在平台界面设置，本说明不会修改账户资金。
+单股入场目标通常为10%，为满足科创板最低200股买入量可提高至20%；
+现金不足以覆盖完整目标及预留时整笔跳过，不主动缩量买入。
+信号、入场与风险退出在每日回调中执行一次，不是盘中实时止损。
+保留旧版模型及交易逻辑；仅更名，不包含订单回报等执行问题的修复。
+本策略用于量化研究与模拟验证，历史回测不代表未来收益，不构成投资建议。
 """
 from mindgo_api import *
 import base64

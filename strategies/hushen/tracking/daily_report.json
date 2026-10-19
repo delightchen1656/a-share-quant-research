@@ -1,0 +1,128 @@
+{
+  "asof": "2026-10-19",
+  "account": {
+    "initial_cash": 100000.0,
+    "equity": 100308.12,
+    "cash": 6795.119999999995,
+    "market_value": 93513.0,
+    "exposure": 0.9322575281044048,
+    "daily_pnl": 308.11999999999534,
+    "cumulative_pnl": 308.11999999999534,
+    "cumulative_return": 0.003081200000000006,
+    "cumulative_fees": 28.880000000000003
+  },
+  "positions": [
+    {
+      "symbol": "001379.SZ",
+      "name": "腾达科技",
+      "quantity": 1300,
+      "average_buy_price": 15.08,
+      "close": 15.14,
+      "market_value": 19682.0,
+      "unrealized_pnl": 78.0,
+      "unrealized_return": 0.003978779840848806
+    },
+    {
+      "symbol": "002801.SZ",
+      "name": "微光股份",
+      "quantity": 700,
+      "average_buy_price": 24.8,
+      "close": 25.19,
+      "market_value": 17633.0,
+      "unrealized_pnl": 273.0,
+      "unrealized_return": 0.015725806451612902
+    },
+    {
+      "symbol": "002982.SZ",
+      "name": "湘佳股份",
+      "quantity": 1500,
+      "average_buy_price": 12.31,
+      "close": 12.3,
+      "market_value": 18450.0,
+      "unrealized_pnl": -15.0,
+      "unrealized_return": -0.0008123476848090983
+    },
+    {
+      "symbol": "603208.SH",
+      "name": "江山欧派",
+      "quantity": 1800,
+      "average_buy_price": 10.49,
+      "close": 10.44,
+      "market_value": 18792.0,
+      "unrealized_pnl": -90.0,
+      "unrealized_return": -0.004766444232602479
+    },
+    {
+      "symbol": "603350.SH",
+      "name": "安乃达",
+      "quantity": 700,
+      "average_buy_price": 26.95,
+      "close": 27.08,
+      "market_value": 18956.0,
+      "unrealized_pnl": 91.0,
+      "unrealized_return": 0.004823747680890538
+    }
+  ],
+  "today_trades": [
+    {
+      "model": "D11",
+      "start": "2026-10-19 00:00:00",
+      "date": "2026-10-19",
+      "symbol": "001379.SZ",
+      "qty": 1300,
+      "price": 15.08,
+      "commission": 5.88,
+      "transfer": 0.2,
+      "stamp": 0.0,
+      "dividend_tax": 0.0
+    },
+    {
+      "model": "D11",
+      "start": "2026-10-19 00:00:00",
+      "date": "2026-10-19",
+      "symbol": "002801.SZ",
+      "qty": 700,
+      "price": 24.8,
+      "commission": 5.21,
+      "transfer": 0.17,
+      "stamp": 0.0,
+      "dividend_tax": 0.0
+    },
+    {
+      "model": "D11",
+      "start": "2026-10-19 00:00:00",
+      "date": "2026-10-19",
+      "symbol": "002982.SZ",
+      "qty": 1500,
+      "price": 12.31,
+      "commission": 5.54,
+      "transfer": 0.18,
+      "stamp": 0.0,
+      "dividend_tax": 0.0
+    },
+    {
+      "model": "D11",
+      "start": "2026-10-19 00:00:00",
+      "date": "2026-10-19",
+      "symbol": "603208.SH",
+      "qty": 1800,
+      "price": 10.49,
+      "commission": 5.66,
+      "transfer": 0.19,
+      "stamp": 0.0,
+      "dividend_tax": 0.0
+    },
+    {
+      "model": "D11",
+      "start": "2026-10-19 00:00:00",
+      "date": "2026-10-19",
+      "symbol": "603350.SH",
+      "qty": 700,
+      "price": 26.95,
+      "commission": 5.66,
+      "transfer": 0.19,
+      "stamp": 0.0,
+      "dividend_tax": 0.0
+    }
+  ]
+}

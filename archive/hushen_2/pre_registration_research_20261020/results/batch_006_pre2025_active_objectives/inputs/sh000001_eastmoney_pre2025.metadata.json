@@ -1,0 +1,24 @@
+{
+  "instrument_name": "上证综合指数（价格指数）",
+  "instrument_code": "000001.SH",
+  "provider_request_symbol": "sh000001",
+  "provider": "Eastmoney via AkShare stock_zh_index_daily_em",
+  "akshare_version": "1.18.88",
+  "requested_start": "2019-01-01",
+  "requested_end": "2024-12-31",
+  "actual_start": "2019-01-02",
+  "actual_end": "2024-12-31",
+  "rows": 1456,
+  "columns": [
+    "date",
+    "open",
+    "close",
+    "high",
+    "low",
+    "volume",
+    "amount"
+  ],
+  "data_sha256": "439de32fec838a96bf096e7a10dcef9d471c3f873f7d548ad18e38db89c7653f",
+  "boundary": "pre2025 only",
+  "return_type": "close-to-close price return; dividends are not included"
+}

@@ -21,6 +21,7 @@ node_modules/
 *.joblib
 *.log
 *.pid
+strategies/**/tracking/run.lock
 *.tmp
 *.bak
 *.inspect.ndjson
@@ -50,7 +51,12 @@ Thumbs.db
 !strategies/hushen/backtest/data/**
 !strategies/kechuang/results/**/*.parquet
 !strategies/hushen/results/**/*.parquet
+!strategies/hushen_2/results/EQUITY_CURVES_2020Q1_STARTS_TO_20261019.parquet
 !strategies/kechuang/research/training_source/model_artifacts/*.joblib
+
+# Holdout/posterior evidence remains local and is never part of the public
+# pre-2025 repository context.
+**/holdout_restricted/**
 
 # Historical model binaries are small and part of the research record.
 !archive/**/models/

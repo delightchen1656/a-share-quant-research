@@ -1,0 +1,27 @@
+{
+  "status": "unique_summary_candidate_frozen_pending_pre2025_raw_audit",
+  "protocol_id": "hushen_smart_1_batch_012_pre2025_new_slot_grid",
+  "selected_candidate": "SLOTS_10",
+  "selected_slots": 10,
+  "selection_basis": "hard_gate_then_cagr_mean_excess",
+  "hard_gate_count": 2,
+  "candidate_count": 7,
+  "shared_q1_run_count": 175,
+  "assertions": {
+    "instruction_boundary_version": "public-pre2025-v1",
+    "post_2024_access": false,
+    "maximum_panel_date": "2024-11-22",
+    "maximum_execution_date": "2024-12-31",
+    "exact_frozen_new_top3_100_percent": true,
+    "all_slot_candidates_retained": true,
+    "production_change": false
+  },
+  "source_hashes": {
+    "protocol": "6663bbcaf3299b1e8366b12fecf9e703e1e650c03a00ce8af147d2f0e7861bbf",
+    "base_panel": "b7ccc01b9d39af7cd4d147bab6400dc62433afab6c116d74bb86d3d2467e389d",
+    "benchmark": "439de32fec838a96bf096e7a10dcef9d471c3f873f7d548ad18e38db89c7653f",
+    "starts": "4da67221abd294426c67a5de01a6df5a7a95833128c45cebbbb3929fc11d6831",
+    "core_engine": "d711ea4019abf983f0dee5c249e0de55f61410ecc93004dcbca7ff2da65ffd43",
+    "runner": "cb7782e3bf2203846885abb41f5a9596279712cf8beb3c403736f2d4915eeebc"
+  }
+}

@@ -1,0 +1,3 @@
+﻿version,aggregation_scope,run_count,valid_return_count,mean_return,median_return,std_return_ddof0,variance_return_ddof0,std_squared_variance_check,variance_check_abs_difference,minimum_return,maximum_return,positive_return_fraction,mean_completed_trades,median_completed_trades,failed_run_count
+NEW,100 independent year/start runs; not CAGR,100,100,0.2303207992689733,0.27508739197008314,0.19028335301825214,0.036207754435868766,0.036207754435868766,0.0,-0.046794218643565366,0.6235378818518109,0.87,163.17,159.5,0
+OLD,100 independent year/start runs; not CAGR,100,100,0.29366794661990725,0.2813806385162737,0.12910138379990008,0.016667167299049105,0.0166671672990491,3.469446951953614e-18,0.07893587389615986,0.5502016301202033,1.0,159.32,156.0,0

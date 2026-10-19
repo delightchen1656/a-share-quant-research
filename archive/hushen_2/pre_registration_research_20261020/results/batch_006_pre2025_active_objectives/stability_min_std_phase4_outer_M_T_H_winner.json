@@ -1,0 +1,89 @@
+{
+  "objective": "stability_min_std",
+  "phase": 4,
+  "name": "outer_M_T_H",
+  "candidate_count": 66,
+  "winner": {
+    "candidate": "STAB_P4_OUTER_020_030_050",
+    "factor": "STAB_P4_OUTER_020_030_050",
+    "entry_offset_atr": 0.0,
+    "exit_set": "take4.00_stop1.50",
+    "take_atr": 4.0,
+    "stop_atr": 1.5,
+    "hold_calendar_days": 30,
+    "eligible": true,
+    "cagr": 0.04559607745614924,
+    "final_equity": 124974.0161894298,
+    "worst_annual_return": -0.12678423596443977,
+    "profitable_years": 3,
+    "annual_return_std": 0.10916764185488421,
+    "trade_count_cv": 0.055154203638021516,
+    "completed_trades": 957,
+    "open_positions_at_end": 0,
+    "pending_orders_at_end": 0,
+    "expired_entry_orders": 54,
+    "capacity_limited_orders": 0,
+    "blocked_exit_attempts": 2,
+    "blocked_exit_reason_counts": {
+      "stop": 2
+    },
+    "corporate_action_events": 0,
+    "corporate_action_source_counts": {},
+    "delisting_freezes": 0,
+    "unpaid_receivables": 0.0,
+    "return_2020": 0.13795884598528274,
+    "trades_2020": 195,
+    "return_2021": 0.10053609894654425,
+    "trades_2021": 209,
+    "return_2022": -0.12678423596443977,
+    "trades_2022": 191,
+    "return_2023": -0.019212312055877145,
+    "trades_2023": 178,
+    "return_2024": 0.16517807814506957,
+    "trades_2024": 184,
+    "benchmark_return_2020": 0.1386666754094923,
+    "active_return_2020": -0.0007078294242095495,
+    "benchmark_return_2021": 0.048000760134405684,
+    "active_return_2021": 0.052535338812138566,
+    "benchmark_return_2022": -0.151250899779657,
+    "active_return_2022": 0.024466663815217227,
+    "benchmark_return_2023": -0.03700886296394623,
+    "active_return_2023": 0.017796550908069086,
+    "benchmark_return_2024": 0.12666852665440875,
+    "active_return_2024": 0.03850955149066082,
+    "active_min": -0.0007078294242095495,
+    "active_mean": 0.02652005512037523,
+    "active_std_ddof0": 0.018123005529676797,
+    "active_variance_check": 0.00032844332942869573,
+    "positive_active_years": 4,
+    "objective": "stability_min_std",
+    "phase": "outer_M_T_H_weights",
+    "eligible_trade_count": true,
+    "eligible_profitable_years": true,
+    "spec_json": "{\"H_internal\": [0.0, 1.0, 0.0, 0.0], \"M_internal\": [0.5, 0.5, 0.0], \"T_internal\": [0.5, 0.0, 0.25, 0.25], \"outer\": [0.2, 0.3, 0.5]}"
+  },
+  "winning_spec": {
+    "M_internal": [
+      0.5,
+      0.5,
+      0.0
+    ],
+    "T_internal": [
+      0.5,
+      0.0,
+      0.25,
+      0.25
+    ],
+    "H_internal": [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "outer": [
+      0.2,
+      0.3,
+      0.5
+    ]
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "status": "active",
+  "asof": "2026-10-19",
+  "metrics": {
+    "requested_start": "2026-10-19",
+    "actual_start": "2026-10-19",
+    "end": "2026-10-19",
+    "initial_cash": 100000.0,
+    "final_equity": 100308.12,
+    "total_return": 0.003081200000000006,
+    "cagr": 2.0761476441126097,
+    "max_drawdown": 0.0,
+    "sharpe": null,
+    "trades": 5,
+    "commission": 27.95,
+    "transfer": 0.9299999999999999,
+    "stamp": 0.0,
+    "transaction_fees": 28.880000000000003,
+    "dividend_tax": 0.0,
+    "total_cost": 28.880000000000003,
+    "final_cash": 6795.119999999995,
+    "average_exposure": 0.9322575281044048,
+    "unresolved_actions": 0,
+    "reference_differences": 0,
+    "rejected_orders": 0,
+    "scenario": "strict_daily_limits",
+    "control": "original",
+    "params": null,
+    "issues": {},
+    "reference": {}
+  },
+  "cash": 6795.119999999995,
+  "equity": 100308.12,
+  "holdings": {
+    "001379.SZ": {
+      "qty": 1300,
+      "last": 15.14,
+      "lots": [
+        {
+          "q": 1300,
+          "buy": "2026-10-19 00:00:00",
+          "release": "2026-10-20 00:00:00",
+          "div": 0.0
+        }
+      ]
+    },
+    "002801.SZ": {
+      "qty": 700,
+      "last": 25.19,
+      "lots": [
+        {
+          "q": 700,
+          "buy": "2026-10-19 00:00:00",
+          "release": "2026-10-20 00:00:00",
+          "div": 0.0
+        }
+      ]
+    },
+    "002982.SZ": {
+      "qty": 1500,
+      "last": 12.3,
+      "lots": [
+        {
+          "q": 1500,
+          "buy": "2026-10-19 00:00:00",
+          "release": "2026-10-20 00:00:00",
+          "div": 0.0
+        }
+      ]
+    },
+    "603208.SH": {
+      "qty": 1800,
+      "last": 10.44,
+      "lots": [
+        {
+          "q": 1800,
+          "buy": "2026-10-19 00:00:00",
+          "release": "2026-10-20 00:00:00",
+          "div": 0.0
+        }
+      ]
+    },
+    "603350.SH": {
+      "qty": 700,
+      "last": 27.08,
+      "lots": [
+        {
+          "q": 700,
+          "buy": "2026-10-19 00:00:00",
+          "release": "2026-10-20 00:00:00",
+          "div": 0.0
+        }
+      ]
+    }
+  },
+  "trades": [
+    {
+      "model": "D11",
+      "start": "2026-10-19 00:00:00",
+      "date": "2026-10-19",
+      "symbol": "001379.SZ",
+      "qty": 1300,
+      "price": 15.08,
+      "commission": 5.88,
+      "transfer": 0.2,
+      "stamp": 0.0,
+      "dividend_tax": 0.0
+    },
+    {
+      "model": "D11",
+      "start": "2026-10-19 00:00:00",
+      "date": "2026-10-19",
+      "symbol": "002801.SZ",
+      "qty": 700,
+      "price": 24.8,
+      "commission": 5.21,
+      "transfer": 0.17,
+      "stamp": 0.0,
+      "dividend_tax": 0.0
+    },
+    {
+      "model": "D11",
+      "start": "2026-10-19 00:00:00",
+      "date": "2026-10-19",
+      "symbol": "002982.SZ",
+      "qty": 1500,
+      "price": 12.31,
+      "commission": 5.54,
+      "transfer": 0.18,
+      "stamp": 0.0,
+      "dividend_tax": 0.0
+    },
+    {
+      "model": "D11",
+      "start": "2026-10-19 00:00:00",
+      "date": "2026-10-19",
+      "symbol": "603208.SH",
+      "qty": 1800,
+      "price": 10.49,
+      "commission": 5.66,
+      "transfer": 0.19,
+      "stamp": 0.0,
+      "dividend_tax": 0.0
+    },
+    {
+      "model": "D11",
+      "start": "2026-10-19 00:00:00",
+      "date": "2026-10-19",
+      "symbol": "603350.SH",
+      "qty": 700,
+      "price": 26.95,
+      "commission": 5.66,
+      "transfer": 0.19,
+      "stamp": 0.0,
+      "dividend_tax": 0.0
+    }
+  ]
+}

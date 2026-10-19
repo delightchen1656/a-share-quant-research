@@ -1,0 +1,69 @@
+{
+  "phase": 3,
+  "name": "H_internal",
+  "winner": {
+    "candidate": "P3_H_025_025_025_025",
+    "factor": "P3_H_025_025_025_025",
+    "entry_offset_atr": 0.0,
+    "exit_set": "take4.00_stop1.50",
+    "take_atr": 4.0,
+    "stop_atr": 1.5,
+    "hold_calendar_days": 30,
+    "eligible": true,
+    "cagr": 0.29154645697668347,
+    "final_equity": 359376.9031242066,
+    "worst_annual_return": 0.09509156111354011,
+    "profitable_years": 5,
+    "annual_return_std": 0.17302727103990148,
+    "trade_count_cv": 0.09434138852875876,
+    "completed_trades": 1029,
+    "open_positions_at_end": 0,
+    "pending_orders_at_end": 0,
+    "expired_entry_orders": 48,
+    "capacity_limited_orders": 0,
+    "blocked_exit_attempts": 2,
+    "blocked_exit_reason_counts": {
+      "stop": 2
+    },
+    "corporate_action_events": 0,
+    "corporate_action_source_counts": {},
+    "delisting_freezes": 0,
+    "unpaid_receivables": 0.0,
+    "return_2020": 0.5050614499232502,
+    "trades_2020": 238,
+    "return_2021": 0.49666409107319587,
+    "trades_2021": 195,
+    "return_2022": 0.28175002236883273,
+    "trades_2022": 218,
+    "return_2023": 0.09509156111354011,
+    "trades_2023": 192,
+    "return_2024": 0.13662662502813516,
+    "trades_2024": 186,
+    "phase": "H_internal_weights",
+    "eligible_trade_count": true,
+    "spec_json": "{\"H_internal\": [0.25, 0.25, 0.25, 0.25], \"M_internal\": [0.25, 0.75, 0.0], \"T_internal\": [0.5, 0.25, 0.25, 0.0], \"outer\": [0.25, 0.25, 0.5]}",
+    "cumulative_return_2022_2024": 0.5954073589995759,
+    "cagr_2022_2024": 0.1684869425255877,
+    "profitable_years_2022_2024": 3
+  },
+  "winning_spec": {
+    "M_internal": [
+      0.25,
+      0.75,
+      0.0
+    ],
+    "T_internal": [
+      0.5,
+      0.25,
+      0.25,
+      0.0
+    ],
+    "H_internal": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ]
+  },
+  "candidate_count": 35
+}

@@ -1,0 +1,55 @@
+{
+  "status": "complete_research_only_no_production_change",
+  "protocol_id": "hushen_smart_1_batch_010_pre2025_new_active_floor",
+  "champion": "N01_M45",
+  "champion_formula": {
+    "M_internal": [0.45, 0.55, 0.0],
+    "T_internal": [0.5, 0.0, 0.5, 0.0],
+    "H_internal": [0.25, 0.25, 0.5, 0.0],
+    "outer": [0.6, 0.0, 0.4]
+  },
+  "only_change_from_frozen_NEW": "M_internal changes from [0.5,0.5,0] to [0.45,0.55,0]; every other signal and execution parameter is unchanged.",
+  "screening": {
+    "candidate_count": 15,
+    "eligible_count": 8,
+    "champion_worst_annual_excess": 0.106609142238329,
+    "champion_loo_min_excess": 0.1797358820009584,
+    "champion_start_min_year_mean_excess": 0.0958746986036991,
+    "champion_neighbor_min_worst_annual_excess": 0.1026715544287777,
+    "champion_neighbor_min_loo_excess": 0.1596997607945771,
+    "champion_neighbor_min_start_year_mean_excess": 0.0739688585533173,
+    "champion_cagr": 0.2307234997940483,
+    "champion_annualized_excess": 0.211683579544337
+  },
+  "raw_audit": {
+    "status": "complete",
+    "cagr": 0.2458997684560682,
+    "annualized_excess": 0.22685984820635685,
+    "worst_annual_excess": 0.10233799826353351,
+    "mean_annual_excess": 0.22879684644979364,
+    "loo_min_excess": 0.1798406461833093,
+    "expanding_min_excess": 0.22685984820635685,
+    "start_min_year_mean_excess": 0.06860614411656148,
+    "start_positive_excess_fraction": 0.92,
+    "completed_trades": 1031,
+    "corporate_action_coverage_complete": true,
+    "terminal_empty": true
+  },
+  "comparison_to_frozen_NEW_raw_audit": {
+    "NEW_worst_annual_excess": 0.1169568569907764,
+    "champion_worst_annual_excess": 0.10233799826353351,
+    "point_floor_improved": false,
+    "screening_neighborhood_floor_improved": true,
+    "interpretation": "The preregistered champion improves the local neighborhood lower bound but not the frozen NEW point estimate's raw-audit worst annual excess. It therefore does not establish a direct point-floor improvement over NEW and does not replace production or the frozen NEW research endpoint."
+  },
+  "assertions": {
+    "instruction_boundary_version": "public-pre2025-v1",
+    "post_2024_access": false,
+    "maximum_signal_date": "2024-11-22",
+    "maximum_input_and_execution_date": "2024-12-31",
+    "all_failures_retained": true,
+    "audit_failure_did_not_trigger_reselection": true,
+    "production_change": false,
+    "live_orders": false
+  }
+}

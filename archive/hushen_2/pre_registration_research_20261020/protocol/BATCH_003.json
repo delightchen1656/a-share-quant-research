@@ -1,0 +1,58 @@
+{
+  "protocol_id": "hushen_smart_1_batch_003_equal_step",
+  "registered_at": "2026-10-19T18:20:00+08:00",
+  "status": "preregistered_before_batch_003_results",
+  "purpose": "Reference both existing Hushen selectors and test broad, equal-step changes without accessing post-2024 data.",
+  "inherits_execution_and_boundaries_from": "PROTOCOL.json",
+  "post_2024_forbidden": true,
+  "components": {
+    "M": "daily percentile rank of mean(utility,pen025,pen100) from the frozen Hushen Screen 1 models",
+    "T": "daily percentile rank of 0.35*rank(mom120)+0.25*rank(close/high60-1)+0.20*rank(mom20)-0.20*rank(vol60)",
+    "H": "daily percentile rank of the Hushen 1 reference score, then 5-session smoothing: -0.35*rank(cap_proxy)-0.20*rank(vol60)+0.25*rank(overnight20)-0.20*rank(intraday20); cap_proxy=amount/turnover_rate"
+  },
+  "important_component_note": "H is a logical transplant into the Smart-1 eligible pool, not a replay of Hushen 1's original universe or 20-session rebalance account.",
+  "sequential_phases": [
+    {
+      "phase": "factor_blend_and_daily_count",
+      "weights": "all nonnegative M/T/H weights summing to 1.00 at step 0.25",
+      "daily_signal_counts": [1, 2, 3],
+      "fixed_7cal": {"entry_atr": 0.25, "take_atr": 2.0, "stop_atr": 1.25},
+      "fixed_30cal": {"entry_atr": 0.25, "take_atr": 2.5, "stop_atr": 1.5},
+      "candidate_count_each_horizon": 45
+    },
+    {
+      "phase": "entry_offset",
+      "entry_atr_start": 0.0,
+      "entry_atr_end": 1.5,
+      "entry_atr_step": 0.25,
+      "candidate_count_each_horizon": 7
+    },
+    {
+      "phase": "exit_width",
+      "take_atr_start": 1.0,
+      "take_atr_end": 4.0,
+      "take_atr_step": 0.5,
+      "stop_atr_start": 0.5,
+      "stop_atr_end": 2.5,
+      "stop_atr_step": 0.5,
+      "candidate_count_each_horizon": 35
+    }
+  ],
+  "total_screening_runs": 174,
+  "eligibility": {
+    "minimum_completed_trades_each_year": 20,
+    "minimum_profitable_years": 3
+  },
+  "selection_within_each_phase_and_horizon": {
+    "primary": "continuous_account_cagr",
+    "secondary": ["worst_annual_return", "profitable_year_count", "annual_return_std", "trade_count_cv"],
+    "no_grid_expansion_after_results": true
+  },
+  "final_reporting": {
+    "separate_7_and_30_calendar_day_winners": true,
+    "cross_time_period": [2022, 2023, 2024],
+    "fit_overlap_period": [2020, 2021],
+    "production_change": false,
+    "live_orders": false
+  }
+}

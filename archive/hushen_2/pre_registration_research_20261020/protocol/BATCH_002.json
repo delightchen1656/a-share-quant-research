@@ -1,0 +1,32 @@
+{
+  "protocol_id": "hushen_smart_1_batch_002",
+  "registered_at": "2026-10-19T17:30:00+08:00",
+  "status": "preregistered_before_batch_002_results",
+  "reason": "Batch 001 showed weak cross-year validity; compare the frozen Hushen Screen 1 model score with limited causal technical blends without changing the frozen models.",
+  "inherits_execution_and_boundaries_from": "PROTOCOL.json",
+  "model_source": "strategies/hushen_screen_1/model",
+  "model_training_years": [2018, 2019, 2020, 2021],
+  "post_2024_forbidden": true,
+  "signal_scores": [
+    {"name": "model_mean", "formula": "mean(utility,pen025,pen100)", "minimum_raw_model_score": 0.10},
+    {"name": "model_stable_75", "formula": "0.75*rank(model_mean)+0.25*rank(stable_breakout)"},
+    {"name": "model_stable_50", "formula": "0.50*rank(model_mean)+0.50*rank(stable_breakout)"},
+    {"name": "model_unanimous", "formula": "min(rank(utility),rank(pen025),rank(pen100))"}
+  ],
+  "entry_atr_offsets": [0.25, 0.5, 0.75],
+  "holding_calendar_days": [7, 30],
+  "atr_take_stop_pairs": [
+    {"name": "balanced", "take": 2.0, "stop": 1.25},
+    {"name": "wide", "take": 2.5, "stop": 1.5}
+  ],
+  "candidate_count": 48,
+  "eligibility": {
+    "minimum_completed_trades_each_year": 20,
+    "minimum_profitable_years": 3
+  },
+  "selection": {
+    "primary": "continuous_account_cagr",
+    "secondary": ["worst_annual_return", "profitable_year_count", "annual_return_std", "trade_count_cv"],
+    "freeze_one_champion_only": true
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "protocol_id": "hushen_smart_1_batch_013_pre2025_new_slots_2_10",
+  "registered_at": "2026-10-19T00:00:00+08:00",
+  "status": "preregistered_before_batch_013_results",
+  "instruction_boundary_version": "public-pre2025-v1",
+  "purpose": "冻结 NEW 公式、100% Top3 信号及全部交易规则，追加研究2至10的每个整数槽位。",
+  "output_directory": "results/batch_013_pre2025_new_slots_2_10",
+  "post_2024_forbidden": true,
+  "development_period": ["2020-01-01", "2024-12-31"],
+  "all_years_are_development_not_holdout": true,
+  "frozen_new": {
+    "M_internal": [0.5, 0.5, 0.0],
+    "T_internal": [0.5, 0.0, 0.5, 0.0],
+    "H_internal": [0.25, 0.25, 0.5, 0.0],
+    "outer": [0.6, 0.0, 0.4],
+    "ranking": "score descending, symbol ascending, stable; daily Top3 without threshold",
+    "signal_retention_percent": 100
+  },
+  "slot_grid": {
+    "slots": [2, 3, 4, 5, 6, 7, 8, 9, 10],
+    "candidate_count": 9,
+    "no_result_contingent_expansion": true
+  },
+  "execution": {
+    "initial_cash": 100000,
+    "order_budget": "equity at signal close divided by candidate slots",
+    "pending_order_occupies_slot": true,
+    "maximum_daily_signals": 3,
+    "conditional_buy_lifetime_calendar_days": 7,
+    "holding_calendar_days": 30,
+    "entry_atr": 0.0,
+    "take_atr": 4.0,
+    "stop_atr": 1.5,
+    "t_plus_one": true,
+    "same_day_double_touch": "stop_first",
+    "daily_volume_capacity_fraction": 0.02,
+    "commission_buy_and_sell": 0.0003,
+    "minimum_commission": 5.0,
+    "stamp_tax_sell": 0.001,
+    "slippage_each_side": 0.002,
+    "corporate_actions_and_delistings": "unchanged from verified pre-2025 raw audit"
+  },
+  "read_only_execution_counts": {
+    "classification_order": "duplicate symbol first, then no free slot; a signal receives at most one skip reason",
+    "occupancy_sampling": "end of each evaluated trading session after new pending orders; occupied=pending+holdings",
+    "capacity_cash_lot_counts_may_overlap": true,
+    "signal_utilization_primary": "pending_orders_created / total_signals"
+  },
+  "shared_q1_random_starts": {
+    "source": "Reuse exactly the 25 fixed Batch010 dates; five per year for 2020-2024, PCG64 seed 20261019.",
+    "total_runs": 225,
+    "last_signal_date": "calendar year end minus 37 calendar days"
+  },
+  "selection_rules": {
+    "hard_gate": "Every 2020-2024 full-window year has positive excess and worst annual strategy return is positive; each year's mean shared-Q1 excess is positive; full-window and all shared-Q1 runs end without positions or pending orders.",
+    "priority_within_hard_gate": "Sort descending by strategy CAGR, then mean annual excess, then worst annual excess, then worst annual return, then ascending slots.",
+    "fallback_if_hard_gate_empty": "Sort descending by outperform years, profitable years, worst annual excess, worst annual return, strategy CAGR, mean annual excess, then ascending slots.",
+    "raw_audit": "Audit exactly the unique selected summary candidate. Raw data-integrity or raw performance-gate failure is retained and does not trigger reselection."
+  },
+  "audit": {
+    "freeze_exactly_one_summary_candidate_before_raw_audit": true,
+    "raw_input": "original unadjusted OHLC through 2024-12-31 plus verified complete pre-2025 corporate actions and delistings",
+    "maximum_signal_date": "2024-11-22",
+    "maximum_input_or_execution_date": "2024-12-31",
+    "audit_does_not_trigger_reselection": true
+  },
+  "controls": {
+    "retain_all_slots_and_failures": true,
+    "production_change": false,
+    "current_selection_change": false,
+    "prior_result_change": false,
+    "live_orders": false,
+    "post_2024_access": false
+  }
+}

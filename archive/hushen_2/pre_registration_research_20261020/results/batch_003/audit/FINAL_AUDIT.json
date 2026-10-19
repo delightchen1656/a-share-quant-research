@@ -1,0 +1,131 @@
+{
+  "status": "complete",
+  "separate_horizon_audits": {
+    "7cal": {
+      "candidate": "M025_T025_H050_K1__entry0.00atr__take4.00_stop2.50__7cal",
+      "factor": "M025_T025_H050_K1",
+      "entry_offset_atr": 0.0,
+      "exit_set": "take4.00_stop2.50",
+      "take_atr": 4.0,
+      "stop_atr": 2.5,
+      "hold_calendar_days": 7,
+      "eligible": true,
+      "cagr": 0.0803113062600227,
+      "final_equity": 147144.69416085404,
+      "worst_annual_return": 0.02693805423288631,
+      "profitable_years": 5,
+      "annual_return_std": 0.06691222467918553,
+      "trade_count_cv": 0.13109704181585768,
+      "completed_trades": 635,
+      "open_positions_at_end": 0,
+      "pending_orders_at_end": 0,
+      "expired_entry_orders": 24,
+      "capacity_limited_orders": 0,
+      "blocked_exit_attempts": 0,
+      "blocked_exit_reason_counts": {},
+      "corporate_action_events": 8,
+      "corporate_action_source_counts": {
+        "baostock_cache": 8
+      },
+      "delisting_freezes": 0,
+      "unpaid_receivables": 0.0,
+      "return_2020": 0.10262847412979093,
+      "trades_2020": 130,
+      "return_2021": 0.038788542822502325,
+      "trades_2021": 120,
+      "return_2022": 0.2050298962675916,
+      "trades_2022": 147,
+      "return_2023": 0.02693805423288631,
+      "trades_2023": 139,
+      "return_2024": 0.03811671339720579,
+      "trades_2024": 99,
+      "eligible_trade_count": true,
+      "eligible_cross_year": true,
+      "audit_passed": true,
+      "cross_time": {
+        "cumulative_2022_2024": 0.28466014891545655,
+        "cagr_2022_2024": 0.08708311642874378,
+        "profitable_years_2022_2024": 3
+      },
+      "formula": {
+        "M": 0.25,
+        "T": 0.25,
+        "H": 0.5,
+        "daily_top_k": 1
+      }
+    },
+    "30cal": {
+      "candidate": "M025_T025_H050_K3__entry0.00atr__take4.00_stop1.50__30cal",
+      "factor": "M025_T025_H050_K3",
+      "entry_offset_atr": 0.0,
+      "exit_set": "take4.00_stop1.50",
+      "take_atr": 4.0,
+      "stop_atr": 1.5,
+      "hold_calendar_days": 30,
+      "eligible": true,
+      "cagr": 0.21511046212688334,
+      "final_equity": 264898.07409492193,
+      "worst_annual_return": 0.09759757836995808,
+      "profitable_years": 5,
+      "annual_return_std": 0.09570010217861259,
+      "trade_count_cv": 0.03719950858959145,
+      "completed_trades": 995,
+      "open_positions_at_end": 0,
+      "pending_orders_at_end": 0,
+      "expired_entry_orders": 38,
+      "capacity_limited_orders": 0,
+      "blocked_exit_attempts": 3,
+      "blocked_exit_reason_counts": {
+        "stop": 3
+      },
+      "corporate_action_events": 39,
+      "corporate_action_source_counts": {
+        "baostock_cache": 38,
+        "Eastmoney stock_fhps_em via AkShare": 1
+      },
+      "delisting_freezes": 0,
+      "unpaid_receivables": 0.0,
+      "return_2020": 0.30355448260364204,
+      "trades_2020": 204,
+      "return_2021": 0.29314612838179244,
+      "trades_2021": 194,
+      "return_2022": 0.29432147335489023,
+      "trades_2022": 211,
+      "return_2023": 0.10615684971627748,
+      "trades_2023": 191,
+      "return_2024": 0.09759757836995808,
+      "trades_2024": 195,
+      "eligible_trade_count": true,
+      "eligible_cross_year": true,
+      "audit_passed": true,
+      "cross_time": {
+        "cumulative_2022_2024": 0.571455218580275,
+        "cagr_2022_2024": 0.16260986354888374,
+        "profitable_years_2022_2024": 3
+      },
+      "formula": {
+        "M": 0.25,
+        "T": 0.25,
+        "H": 0.5,
+        "daily_top_k": 3
+      }
+    }
+  },
+  "known_action_stock_years": 12196,
+  "source_hashes": {
+    "audit_batch_003.py": "1745d970caea721a811f03085733c9d4128c7310ab1cecdcb85815d834a711c1",
+    "run_batch.py": "724160a7bb309921e5faf98ec1a129709cfa3e6e3f7f1b21ae69b4388261e11a",
+    "run_batch_003.py": "8e41138c218b8974ce0319fa25c0e6e82a6901291d4ef88955e00626cbfca431",
+    "BATCH_003.json": "1bd6492bc5cbc47f3e2d91ab270de5bf584cd8d32dccde7d244a512ffc007e15",
+    "eastmoney_actions_batch002.json": "1a4122fae8fe0aec71605276af3e1be48fff2c2cf6d966ed537955138ceb2b12",
+    "eastmoney_actions_batch003.json": "7a19b661b2d3e8fdc25e1a3289fe9815e822f04fdb90cee0fd134b63588f2af1"
+  },
+  "post_2024_access": false,
+  "production_change": false,
+  "notes": [
+    "Raw unadjusted OHLC drives fills and exits; QFQ data is used only for causal signal features.",
+    "Corporate actions use the previously audited Baostock/Eastmoney stock-year response set.",
+    "Historical level-2 depth is unavailable; orders not above 2% of daily volume are assumed fully filled with 0.2% one-side slippage.",
+    "The H component is a Hushen-1 formula transplant into the Smart-1 eligible pool, not a replay of the Hushen-1 account."
+  ]
+}

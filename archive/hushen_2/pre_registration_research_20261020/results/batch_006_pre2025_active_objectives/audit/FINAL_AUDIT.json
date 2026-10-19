@@ -1,0 +1,310 @@
+{
+  "status": "complete",
+  "screening_champions_frozen_before_audit": {
+    "defense_maximin": "DEF_P4_OUTER_060_000_040",
+    "stability_min_std": "STAB_P4_OUTER_020_030_050"
+  },
+  "audit_did_not_trigger_reselection": true,
+  "same_effective_spec_audit_reused": false,
+  "audited_champions": {
+    "defense_maximin": {
+      "candidate": "DEF_P4_OUTER_060_000_040__entry0.00atr__take4.00_stop1.50__30cal",
+      "factor": "DEF_P4_OUTER_060_000_040",
+      "entry_offset_atr": 0.0,
+      "exit_set": "take4.00_stop1.50",
+      "take_atr": 4.0,
+      "stop_atr": 1.5,
+      "hold_calendar_days": 30,
+      "eligible": true,
+      "cagr": 0.22171053207711222,
+      "final_equity": 272170.83721365087,
+      "worst_annual_return": -0.012626894272371847,
+      "profitable_years": 4,
+      "annual_return_std": 0.17462525133491433,
+      "trade_count_cv": 0.05938697318007663,
+      "completed_trades": 1044,
+      "open_positions_at_end": 0,
+      "pending_orders_at_end": 0,
+      "expired_entry_orders": 52,
+      "capacity_limited_orders": 0,
+      "blocked_exit_attempts": 8,
+      "blocked_exit_reason_counts": {
+        "stop": 8
+      },
+      "corporate_action_events": 28,
+      "corporate_action_source_counts": {
+        "baostock_cache": 25,
+        "Eastmoney stock_fhps_em via AkShare": 3
+      },
+      "delisting_freezes": 0,
+      "unpaid_receivables": 0.0,
+      "return_2020": 0.2937552065207243,
+      "trades_2020": 207,
+      "return_2021": 0.45786419612417606,
+      "trades_2021": 209,
+      "return_2022": -0.012626894272371847,
+      "trades_2022": 231,
+      "return_2023": 0.07994799402683017,
+      "trades_2023": 193,
+      "return_2024": 0.3532818984446553,
+      "trades_2024": 204,
+      "benchmark_return_2020": 0.1386666754094923,
+      "active_return_2020": 0.155088531111232,
+      "benchmark_return_2021": 0.048000760134405684,
+      "active_return_2021": 0.4098634359897704,
+      "benchmark_return_2022": -0.151250899779657,
+      "active_return_2022": 0.13862400550728515,
+      "benchmark_return_2023": -0.03700886296394623,
+      "active_return_2023": 0.1169568569907764,
+      "benchmark_return_2024": 0.12666852665440875,
+      "active_return_2024": 0.22661337179024654,
+      "active_min": 0.1169568569907764,
+      "active_mean": 0.20942924027786208,
+      "active_std_ddof0": 0.10675822853621818,
+      "active_variance_check": 0.011397319360191388,
+      "positive_active_years": 5,
+      "eligible_trade_count": true,
+      "eligible_profitable_strategy_years": true,
+      "eligible_objective": true,
+      "no_open_positions_at_end": true,
+      "audit_passed": true,
+      "objective": "defense_maximin",
+      "screening_candidate": "DEF_P4_OUTER_060_000_040",
+      "annual": [
+        {
+          "year": 2020,
+          "strategy_return": 0.2937552065207243,
+          "benchmark_price_return": 0.1386666754094923,
+          "active_return": 0.155088531111232,
+          "completed_trades": 207
+        },
+        {
+          "year": 2021,
+          "strategy_return": 0.45786419612417606,
+          "benchmark_price_return": 0.048000760134405684,
+          "active_return": 0.4098634359897704,
+          "completed_trades": 209
+        },
+        {
+          "year": 2022,
+          "strategy_return": -0.012626894272371847,
+          "benchmark_price_return": -0.151250899779657,
+          "active_return": 0.13862400550728515,
+          "completed_trades": 231
+        },
+        {
+          "year": 2023,
+          "strategy_return": 0.07994799402683017,
+          "benchmark_price_return": -0.03700886296394623,
+          "active_return": 0.1169568569907764,
+          "completed_trades": 193
+        },
+        {
+          "year": 2024,
+          "strategy_return": 0.3532818984446553,
+          "benchmark_price_return": 0.12666852665440875,
+          "active_return": 0.22661337179024654,
+          "completed_trades": 204
+        }
+      ]
+    },
+    "stability_min_std": {
+      "candidate": "STAB_P4_OUTER_020_030_050__entry0.00atr__take4.00_stop1.50__30cal",
+      "factor": "STAB_P4_OUTER_020_030_050",
+      "entry_offset_atr": 0.0,
+      "exit_set": "take4.00_stop1.50",
+      "take_atr": 4.0,
+      "stop_atr": 1.5,
+      "hold_calendar_days": 30,
+      "eligible": true,
+      "cagr": 0.061679461368219446,
+      "final_equity": 134886.06309648632,
+      "worst_annual_return": -0.12835625056050026,
+      "profitable_years": 3,
+      "annual_return_std": 0.1184112864516178,
+      "trade_count_cv": 0.04657234732588818,
+      "completed_trades": 966,
+      "open_positions_at_end": 0,
+      "pending_orders_at_end": 0,
+      "expired_entry_orders": 55,
+      "capacity_limited_orders": 0,
+      "blocked_exit_attempts": 2,
+      "blocked_exit_reason_counts": {
+        "stop": 2
+      },
+      "corporate_action_events": 44,
+      "corporate_action_source_counts": {
+        "Eastmoney stock_fhps_em via AkShare": 15,
+        "baostock_cache": 29
+      },
+      "delisting_freezes": 0,
+      "unpaid_receivables": 0.0,
+      "return_2020": 0.16848887332614826,
+      "trades_2020": 194,
+      "return_2021": 0.12306208855313971,
+      "trades_2021": 208,
+      "return_2022": -0.12835625056050026,
+      "trades_2022": 194,
+      "return_2023": -0.0034970545630792493,
+      "trades_2023": 180,
+      "return_2024": 0.1833715502121358,
+      "trades_2024": 190,
+      "benchmark_return_2020": 0.1386666754094923,
+      "active_return_2020": 0.029822197916655968,
+      "benchmark_return_2021": 0.048000760134405684,
+      "active_return_2021": 0.07506132841873403,
+      "benchmark_return_2022": -0.151250899779657,
+      "active_return_2022": 0.022894649219156737,
+      "benchmark_return_2023": -0.03700886296394623,
+      "active_return_2023": 0.03351180840086698,
+      "benchmark_return_2024": 0.12666852665440875,
+      "active_return_2024": 0.05670302355772705,
+      "active_min": 0.022894649219156737,
+      "active_mean": 0.043598601502628155,
+      "active_std_ddof0": 0.019400079347225367,
+      "active_variance_check": 0.0003763630786786402,
+      "positive_active_years": 5,
+      "eligible_trade_count": true,
+      "eligible_profitable_strategy_years": true,
+      "eligible_objective": true,
+      "no_open_positions_at_end": true,
+      "audit_passed": true,
+      "objective": "stability_min_std",
+      "screening_candidate": "STAB_P4_OUTER_020_030_050",
+      "annual": [
+        {
+          "year": 2020,
+          "strategy_return": 0.16848887332614826,
+          "benchmark_price_return": 0.1386666754094923,
+          "active_return": 0.029822197916655968,
+          "completed_trades": 194
+        },
+        {
+          "year": 2021,
+          "strategy_return": 0.12306208855313971,
+          "benchmark_price_return": 0.048000760134405684,
+          "active_return": 0.07506132841873403,
+          "completed_trades": 208
+        },
+        {
+          "year": 2022,
+          "strategy_return": -0.12835625056050026,
+          "benchmark_price_return": -0.151250899779657,
+          "active_return": 0.022894649219156737,
+          "completed_trades": 194
+        },
+        {
+          "year": 2023,
+          "strategy_return": -0.0034970545630792493,
+          "benchmark_price_return": -0.03700886296394623,
+          "active_return": 0.03351180840086698,
+          "completed_trades": 180
+        },
+        {
+          "year": 2024,
+          "strategy_return": 0.1833715502121358,
+          "benchmark_price_return": 0.12666852665440875,
+          "active_return": 0.05670302355772705,
+          "completed_trades": 190
+        }
+      ]
+    }
+  },
+  "benchmark": {
+    "instrument_name": "上证综合指数（价格指数）",
+    "instrument_code": "000001.SH",
+    "provider_request_symbol": "sh000001",
+    "provider": "Eastmoney via AkShare stock_zh_index_daily_em",
+    "data_sha256": "439de32fec838a96bf096e7a10dcef9d471c3f873f7d548ad18e38db89c7653f",
+    "metadata_sha256": "16c14599f76d740350671efa90d77d94e3848e69a585bc54e82e6e80aefb0c19",
+    "columns": [
+      "date",
+      "open",
+      "close",
+      "high",
+      "low",
+      "volume",
+      "amount"
+    ],
+    "minimum_date": "2019-01-02",
+    "maximum_date": "2024-12-31",
+    "annual_returns": [
+      {
+        "year": 2020,
+        "prior_year_last_date": "2019-12-31",
+        "prior_year_last_close": 3050.12,
+        "year_last_date": "2020-12-31",
+        "year_last_close": 3473.07,
+        "price_index_return": 0.1386666754094923
+      },
+      {
+        "year": 2021,
+        "prior_year_last_date": "2020-12-31",
+        "prior_year_last_close": 3473.07,
+        "year_last_date": "2021-12-31",
+        "year_last_close": 3639.78,
+        "price_index_return": 0.048000760134405684
+      },
+      {
+        "year": 2022,
+        "prior_year_last_date": "2021-12-31",
+        "prior_year_last_close": 3639.78,
+        "year_last_date": "2022-12-30",
+        "year_last_close": 3089.26,
+        "price_index_return": -0.151250899779657
+      },
+      {
+        "year": 2023,
+        "prior_year_last_date": "2022-12-30",
+        "prior_year_last_close": 3089.26,
+        "year_last_date": "2023-12-29",
+        "year_last_close": 2974.93,
+        "price_index_return": -0.03700886296394623
+      },
+      {
+        "year": 2024,
+        "prior_year_last_date": "2023-12-29",
+        "prior_year_last_close": 2974.93,
+        "year_last_date": "2024-12-31",
+        "year_last_close": 3351.76,
+        "price_index_return": 0.12666852665440875
+      }
+    ],
+    "return_formula": "last close in calendar year / last close in prior calendar year - 1",
+    "comparison_limitation": "This is an ordinary price index excluding dividends; the audited strategy account includes corporate-action cash dividends.",
+    "rejected_unidentified_input": {
+      "path": "strategies/hushen/backtest/data/benchmark.parquet",
+      "reason": "Only date and close were present and neither columns nor parquet metadata established Shanghai Composite identity; it is not used for Batch006 returns."
+    }
+  },
+  "known_action_stock_years": 12634,
+  "source_hashes": {
+    "audit_batch_006.py": "efd1c6efd0ed99bd068a4258f589f4944cf606bb10c3f5422fc5abb750bf983f",
+    "run_batch_006.py": "633def9ef35941530abaea462809bc8268509a6c81448ea2d6115b49d21f4f59",
+    "run_batch.py": "724160a7bb309921e5faf98ec1a129709cfa3e6e3f7f1b21ae69b4388261e11a",
+    "audit_batch_004.py": "e1f50fa011dce46f77567bff25987e158bb01b67f448ff214c699611efb75312",
+    "fetch_actions_eastmoney.py": "a345323f4c53056a5b24b1e3123b872b96701822d05e533f7e2fcef11fb48963",
+    "BATCH_006.json": "d19f5567f52e51ed14b84b99e5f632174bc11c8cc16e96f551d888c8ce3caebb",
+    "SELECTION.json": "c5759affd1f719b431ea521124b9df09de1f76bd5df945b7ca495d7a8550ef29",
+    "actions_base": "ef8cff49ed6f2fb86c6a4f06fc304bc0afc0932979921b6068a32c6f59700d8d",
+    "eastmoney_actions_batch002.json": "1a4122fae8fe0aec71605276af3e1be48fff2c2cf6d966ed537955138ceb2b12",
+    "eastmoney_actions_batch003.json": "7a19b661b2d3e8fdc25e1a3289fe9815e822f04fdb90cee0fd134b63588f2af1",
+    "eastmoney_actions_batch004.json": "e68d5d539dda0edccc2e74382b70c8ee18fbb0de5955ab5e2e90a185fab012ad",
+    "eastmoney_actions_batch006.json": "b2120c187e89fd5b4594f0f8f6467a4ebb0ceb1f8f988dfcf3ced3dc46ba0f25",
+    "sh000001_eastmoney_pre2025.parquet": "439de32fec838a96bf096e7a10dcef9d471c3f873f7d548ad18e38db89c7653f",
+    "sh000001_eastmoney_pre2025.metadata.json": "16c14599f76d740350671efa90d77d94e3848e69a585bc54e82e6e80aefb0c19"
+  },
+  "assertions": {
+    "screening_run_count_exact_302": true,
+    "maximum_signal_date": "2024-11-22",
+    "maximum_signal_date_at_or_before_2024_11_22": true,
+    "maximum_raw_execution_date": "2024-12-31",
+    "maximum_execution_date_at_or_before_2024_12_31": true,
+    "corporate_action_coverage_complete": true,
+    "post_2024_access": false,
+    "grid_expanded": false,
+    "production_change": false
+  },
+  "comparison_limitation": "Shanghai Composite is an ordinary price index excluding dividends; audited strategy returns include corporate-action cash dividends.",
+  "development_note": "All 2020-2024 results are development evidence and are not blind or holdout evidence."
+}

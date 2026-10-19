@@ -1,0 +1,88 @@
+{
+  "protocol_id": "hushen_smart_1_batch_005_pre2025_signal_filters",
+  "registered_at": "2026-10-19T18:33:20+08:00",
+  "status": "preregistered_before_batch_005_results",
+  "purpose": "Test signal count and a causal rolling score threshold as two strictly separated one-variable experiments on the frozen Batch004 30-calendar-day champion, using only information and outcomes through 2024-12-31.",
+  "inherits_execution_and_boundaries_from": "PROTOCOL.json",
+  "reference_audit": "results/batch_004_pre2025_factor_tuning/audit/FINAL_AUDIT.json",
+  "output_directory": "results/batch_005_pre2025_signal_filters",
+  "post_2024_forbidden": true,
+  "frozen_factor_spec": {
+    "M_internal_utility_pen025_pen100": [0.25, 0.75, 0.0],
+    "T_internal_mom120_close_high60_mom20_neg_vol60": [0.5, 0.25, 0.25, 0.0],
+    "H_internal_neg_size_neg_vol60_overnight_neg_intraday": [0.25, 0.25, 0.25, 0.25],
+    "outer_M_T_H": [0.3, 0.3, 0.4]
+  },
+  "frozen_execution": {
+    "initial_cash": 100000,
+    "slots": 10,
+    "conditional_buy_lifetime_calendar_days": 7,
+    "holding_calendar_days": 30,
+    "entry_atr": 0.0,
+    "take_atr": 4.0,
+    "stop_atr": 1.5,
+    "t_plus_one": true,
+    "same_day_double_touch": "stop_first",
+    "daily_volume_capacity_fraction": 0.02,
+    "fees_slippage_and_corporate_actions": "identical to the Batch004 audited champion"
+  },
+  "experiments": [
+    {
+      "name": "count_only",
+      "changed_variable": "maximum_daily_signals",
+      "maximum_daily_signals": [1, 2, 3],
+      "additional_score_threshold": null,
+      "candidate_count": 3
+    },
+    {
+      "name": "threshold_only",
+      "changed_variable": "rolling_quantile",
+      "maximum_daily_signals": 3,
+      "rolling_history_sessions": 252,
+      "history_excludes_current_session": true,
+      "threshold_source": "daily maximum frozen-factor score",
+      "rolling_quantiles": [0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95],
+      "selection_rule": "score greater than or equal to the causal shifted rolling threshold, then take at most three by descending score with stable symbol-ascending tie break",
+      "insufficient_history_rule": "emit no signal until 252 prior trading sessions exist",
+      "candidate_count": 10
+    }
+  ],
+  "separation_controls": {
+    "count_only_never_inherits_threshold": true,
+    "threshold_only_daily_count_fixed_at_3": true,
+    "no_cross_combinations": true,
+    "total_screening_runs": 13,
+    "no_grid_expansion_after_results": true
+  },
+  "eligibility": {
+    "evaluation_years": [2020, 2021, 2022, 2023, 2024],
+    "minimum_completed_trades_each_year": 20,
+    "minimum_profitable_years": 3
+  },
+  "selection_order_within_each_experiment": [
+    "eligible descending",
+    "continuous_account_cagr descending",
+    "worst_annual_return descending",
+    "profitable_year_count descending",
+    "annual_return_std ascending",
+    "trade_count_cv ascending",
+    "candidate_id ascending deterministic tie break"
+  ],
+  "reporting": {
+    "save_separate_grids": true,
+    "save_separate_unique_champions": true,
+    "save_signal_frequency_by_year_and_overall": true,
+    "save_annual_account_metrics": true,
+    "audit_both_experiment_champions_with_raw_prices_and_corporate_actions": true,
+    "identical_champions_may_reuse_one_audit": true,
+    "development_note": "All 2020-2024 results are development results and are not blind or holdout evidence."
+  },
+  "assertions": {
+    "maximum_signal_date": "2024-11-22",
+    "maximum_execution_date": "2024-12-31",
+    "post_2024_access": false,
+    "production_change": false,
+    "current_research_selection_change": false,
+    "live_orders": false
+  }
+}

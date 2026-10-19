@@ -1,0 +1,182 @@
+{
+  "status": "unique_champion_frozen_pending_independent_raw_audit",
+  "protocol_id": "hushen_smart_1_batch_008_pre2025_migration",
+  "champion": "C04_T_MID",
+  "champion_spec": {
+    "M_internal": [
+      0.25,
+      0.75,
+      0.0
+    ],
+    "T_internal": [
+      0.5,
+      0.125,
+      0.375,
+      0.0
+    ],
+    "H_internal": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "outer": [
+      0.3,
+      0.3,
+      0.4
+    ]
+  },
+  "selection_row": {
+    "candidate": "C04_T_MID",
+    "factor": "C04_T_MID",
+    "entry_offset_atr": 0.0,
+    "exit_set": "take4.00_stop1.50",
+    "take_atr": 4.0,
+    "stop_atr": 1.5,
+    "hold_calendar_days": 30,
+    "eligible": true,
+    "cagr": 0.2552823450541819,
+    "final_equity": 311678.68553286727,
+    "worst_annual_return": 0.1024387354034626,
+    "profitable_years": 5,
+    "annual_return_std": 0.12208047911668174,
+    "trade_count_cv": 0.058741552948759775,
+    "completed_trades": 1008,
+    "open_positions_at_end": 0,
+    "pending_orders_at_end": 0,
+    "expired_entry_orders": 43,
+    "capacity_limited_orders": 0,
+    "blocked_exit_attempts": 1,
+    "blocked_exit_reason_counts": {
+      "stop": 1
+    },
+    "corporate_action_events": 0,
+    "corporate_action_source_counts": {},
+    "delisting_freezes": 0,
+    "unpaid_receivables": 0.0,
+    "return_2020": 0.4792775911655678,
+    "trades_2020": 214,
+    "return_2021": 0.22276872184973673,
+    "trades_2021": 199,
+    "return_2022": 0.25449773401177933,
+    "trades_2022": 216,
+    "return_2023": 0.24591598764213551,
+    "trades_2023": 194,
+    "return_2024": 0.1024387354034626,
+    "trades_2024": 185,
+    "spec_json": "{\"H_internal\": [0.25, 0.25, 0.25, 0.25], \"M_internal\": [0.25, 0.75, 0.0], \"T_internal\": [0.5, 0.125, 0.375, 0.0], \"outer\": [0.3, 0.3, 0.4]}",
+    "active_2020": 0.3406109157560755,
+    "active_2021": 0.17476796171533104,
+    "active_2022": 0.40574863379143633,
+    "active_2023": 0.28292485060608175,
+    "active_2024": -0.024229791250946153,
+    "annual_abs_min": 0.1024387354034626,
+    "annual_abs_mean": 0.2609797540145364,
+    "annual_active_min": -0.024229791250946153,
+    "annual_active_mean": 0.23596451412359568,
+    "rank_annual_abs_min": 0.8888888888888888,
+    "rank_annual_abs_mean": 0.7777777777777778,
+    "rank_annual_active_min": 0.6666666666666666,
+    "rank_annual_active_mean": 0.7777777777777778,
+    "annual_core": 0.6666666666666666,
+    "loo_core_omit_2020": 0.4444444444444444,
+    "loo_core_omit_2021": 0.6666666666666666,
+    "loo_core_omit_2022": 0.5555555555555556,
+    "loo_core_omit_2023": 0.6666666666666666,
+    "loo_core_omit_2024": 0.7777777777777778,
+    "loo_floor": 0.4444444444444444,
+    "start_worst_year_mean": 0.08510248451143813,
+    "start_mean": 0.23885615190387677,
+    "start_positive_fraction": 1.0,
+    "start_floor_rank": 0.7777777777777778,
+    "neighbor_members": "[\"C00_OLD\", \"C04_T_MID\"]",
+    "neighbor_floor": 0.6666666666666666,
+    "migration_floor": 0.4444444444444444,
+    "migration_mean": 0.6388888888888888
+  },
+  "candidate_count": 9,
+  "random_start_screening_runs": 225,
+  "benchmark": {
+    "instrument_name": "上证综合指数（价格指数）",
+    "instrument_code": "000001.SH",
+    "provider_request_symbol": "sh000001",
+    "provider": "Eastmoney via AkShare stock_zh_index_daily_em",
+    "data_sha256": "439de32fec838a96bf096e7a10dcef9d471c3f873f7d548ad18e38db89c7653f",
+    "metadata_sha256": "16c14599f76d740350671efa90d77d94e3848e69a585bc54e82e6e80aefb0c19",
+    "columns": [
+      "date",
+      "open",
+      "close",
+      "high",
+      "low",
+      "volume",
+      "amount"
+    ],
+    "minimum_date": "2019-01-02",
+    "maximum_date": "2024-12-31",
+    "annual_returns": [
+      {
+        "year": 2020,
+        "prior_year_last_date": "2019-12-31",
+        "prior_year_last_close": 3050.12,
+        "year_last_date": "2020-12-31",
+        "year_last_close": 3473.07,
+        "price_index_return": 0.1386666754094923
+      },
+      {
+        "year": 2021,
+        "prior_year_last_date": "2020-12-31",
+        "prior_year_last_close": 3473.07,
+        "year_last_date": "2021-12-31",
+        "year_last_close": 3639.78,
+        "price_index_return": 0.048000760134405684
+      },
+      {
+        "year": 2022,
+        "prior_year_last_date": "2021-12-31",
+        "prior_year_last_close": 3639.78,
+        "year_last_date": "2022-12-30",
+        "year_last_close": 3089.26,
+        "price_index_return": -0.151250899779657
+      },
+      {
+        "year": 2023,
+        "prior_year_last_date": "2022-12-30",
+        "prior_year_last_close": 3089.26,
+        "year_last_date": "2023-12-29",
+        "year_last_close": 2974.93,
+        "price_index_return": -0.03700886296394623
+      },
+      {
+        "year": 2024,
+        "prior_year_last_date": "2023-12-29",
+        "prior_year_last_close": 2974.93,
+        "year_last_date": "2024-12-31",
+        "year_last_close": 3351.76,
+        "price_index_return": 0.12666852665440875
+      }
+    ],
+    "return_formula": "last close in calendar year / last close in prior calendar year - 1",
+    "comparison_limitation": "This is an ordinary price index excluding dividends; the audited strategy account includes corporate-action cash dividends.",
+    "rejected_unidentified_input": {
+      "path": "strategies/hushen/backtest/data/benchmark.parquet",
+      "reason": "Only date and close were present and neither columns nor parquet metadata established Shanghai Composite identity; it is not used for Batch006 returns."
+    }
+  },
+  "assertions": {
+    "instruction_boundary_version": "public-pre2025-v1",
+    "post_2024_access": false,
+    "maximum_panel_date": "2024-11-22",
+    "maximum_execution_date": "2024-12-31",
+    "candidate_count_exact_9": true,
+    "random_start_runs_exact_225": true,
+    "no_candidate_expansion": true,
+    "cagr_not_used_for_selection": true
+  },
+  "source_hashes": {
+    "protocol": "b81cdb7726c5e87eeaa80fddd39377109d4a0ceb4a3414c37b505712becf0164",
+    "base_panel": "b7ccc01b9d39af7cd4d147bab6400dc62433afab6c116d74bb86d3d2467e389d",
+    "benchmark": "439de32fec838a96bf096e7a10dcef9d471c3f873f7d548ad18e38db89c7653f"
+  },
+  "production_change": false
+}

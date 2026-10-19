@@ -1,0 +1,87 @@
+{
+  "protocol_id": "hushen_smart_1_batch_011_pre2025_new_threshold_grid",
+  "registered_at": "2026-10-19T00:00:00+08:00",
+  "status": "preregistered_before_batch_011_results",
+  "instruction_boundary_version": "public-pre2025-v1",
+  "purpose": "冻结 NEW 选股、Top3 排序和账户执行，仅以严格因果的历史 Top3 score 动态分位数门槛做等频步长研究。",
+  "output_directory": "results/batch_011_pre2025_new_threshold_grid",
+  "post_2024_forbidden": true,
+  "development_period": ["2020-01-01", "2024-12-31"],
+  "all_years_are_development_not_holdout": true,
+  "frozen_new": {
+    "M_internal": [0.5, 0.5, 0.0],
+    "T_internal": [0.5, 0.0, 0.5, 0.0],
+    "H_internal": [0.25, 0.25, 0.5, 0.0],
+    "outer": [0.6, 0.0, 0.4],
+    "ranking": "score descending, symbol ascending, stable; first take daily Top3, then apply threshold"
+  },
+  "threshold_grid": {
+    "target_retention_percent": [100, 90, 80, 70, 60, 50, 40, 30, 20, 10],
+    "historical_quantile": [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+    "mapping": "retention r uses historical quantile 1-r; 100% is the explicit no-threshold baseline",
+    "history_object": "all scores of frozen-NEW daily Top3 candidates from prior signal dates",
+    "window_trading_dates": 252,
+    "causality": "For each signal date use only the prior 252 distinct signal dates, equivalent to strict shift(1); never use same-day or future scores.",
+    "quantile_interpolation": "linear",
+    "comparison": "keep score >= threshold",
+    "pre_2020_history": "Unavailable in the verified base panel; no synthetic or future backfill is allowed.",
+    "cold_start": "For the first 20 signal dates, or whenever fewer than 20 prior distinct signal dates exist, threshold is disabled and all Top3 are retained. From the 21st signal date onward use all available prior dates until 252 are available.",
+    "min_prior_trading_dates": 20,
+    "candidate_count": 10,
+    "no_result_contingent_expansion": true
+  },
+  "execution": {
+    "initial_cash": 100000,
+    "slots": 10,
+    "maximum_daily_signals_before_threshold": 3,
+    "signals_after_threshold": "0 to 3",
+    "conditional_buy_lifetime_calendar_days": 7,
+    "holding_calendar_days": 30,
+    "entry_atr": 0.0,
+    "take_atr": 4.0,
+    "stop_atr": 1.5,
+    "t_plus_one": true,
+    "same_day_double_touch": "stop_first",
+    "daily_volume_capacity_fraction": 0.02,
+    "fees_and_slippage": "unchanged from the frozen Batch004/006/009/010 engine"
+  },
+  "full_window_outputs": {
+    "annual": ["signal_count", "signal_days", "mean_signals_per_signal_day", "completed_trades", "strategy_return", "benchmark_return", "excess_return"],
+    "aggregate": ["strategy_cagr", "annualized_excess", "worst_annual_return", "mean_annual_return", "worst_annual_excess", "mean_annual_excess", "profitable_years", "outperform_years", "annual_signal_frequency_cv_ddof0"]
+  },
+  "shared_q1_random_starts": {
+    "source": "Reuse exactly the 25 fixed dates preregistered and materialized by Batch010; five per year for 2020-2024, PCG64 seed 20261019.",
+    "benchmark_return": "Shanghai Composite year-end close divided by the last index close strictly before the sampled start session, minus one.",
+    "last_signal_date": "calendar year end minus 37 calendar days",
+    "total_runs": 250,
+    "required_summary": "per threshold and year: mean strategy return, mean benchmark return, mean excess, minimum excess, positive-excess fraction, minimum completed trades, terminal-empty fraction"
+  },
+  "selection_rules": {
+    "robust_pool": "Every development year has positive strategy return and positive excess; each year's mean shared-Q1 excess is positive; all shared-Q1 runs and the full-window run end without open positions or pending orders.",
+    "migration_priority": "Within the robust pool sort descending by worst annual excess, then minimum yearly mean shared-Q1 excess, then annualized excess, then ascending frequency CV, then ascending target retention percent, then candidate id.",
+    "return_priority": "Sort all candidates descending by strategy CAGR, then annualized excess, then worst annual excess, then candidate id.",
+    "raw_audit": "Audit only the unique migration-priority candidate. If the robust pool is empty, audit the first return-priority candidate. Audit failure is retained and does not trigger reselection."
+  },
+  "benchmark": {
+    "instrument_name": "上证综合指数（价格指数）",
+    "instrument_code": "000001.SH",
+    "provider_request_symbol": "sh000001",
+    "provider": "Eastmoney via AkShare stock_zh_index_daily_em",
+    "dividends_included": false
+  },
+  "audit": {
+    "freeze_exactly_one_summary_candidate_before_raw_audit": true,
+    "raw_input": "original unadjusted OHLC through 2024-12-31 plus verified pre-2025 corporate actions and delistings",
+    "audit_does_not_trigger_reselection": true,
+    "maximum_signal_date": "2024-11-22",
+    "maximum_input_or_execution_date": "2024-12-31"
+  },
+  "controls": {
+    "retain_all_thresholds_and_failures": true,
+    "production_change": false,
+    "current_selection_change": false,
+    "prior_result_change": false,
+    "live_orders": false,
+    "post_2024_access": false
+  }
+}

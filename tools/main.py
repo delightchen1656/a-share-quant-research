@@ -27,10 +27,22 @@ CURRENT_REQUIRED = [
     ROOT / "strategies/hushen/research/migration.json",
     ROOT / "strategies/hushen/results/latest/migration_validation.json",
     ROOT / "strategies/hushen/results/platform_20261009/fee_patch_validation.json",
+    ROOT / "strategies/hushen_2/README.md",
+    ROOT / "strategies/hushen_2/CURRENT_SELECTION.json",
+    ROOT / "strategies/hushen_2/runtime/strategy.py",
+    ROOT / "strategies/hushen_2/runtime/frozen_builder.py",
+    ROOT / "strategies/hushen_2/runtime/EQUIVALENCE.json",
+    ROOT / "strategies/hushen_2/runtime/verify.py",
+    ROOT / "strategies/hushen_2/backtest/compute_risk_metrics.py",
+    ROOT / "strategies/hushen_2/results/PERFORMANCE_SUMMARY.csv",
+    ROOT / "strategies/hushen_2/results/RISK_SUMMARY.json",
+    ROOT / "strategies/hushen_2/results/RISK_METRICS_2020Q1_STARTS_TO_20261019.csv",
+    ROOT / "strategies/hushen_2/results/EQUITY_CURVES_2020Q1_STARTS_TO_20261019.parquet",
     ROOT / "archive/kechuang/20261009_manifest_before.json",
     ROOT / "archive/kechuang/20261009_manifest_after_cache_cleanup.json",
     ROOT / "archive/kechuang/20261009_cache_cleanup.json",
     ROOT / "archive/hushen/INDEX.md",
+    ROOT / "archive/hushen_2/README.md",
     ROOT / "research_versions/README.md",
     ROOT / "evening_accumulation/data/metadata/refresh_20261004.json",
     ROOT / "sh_sz_market_research/data_pipeline/data/metadata/refresh_20261004.json",
@@ -39,7 +51,7 @@ CURRENT_REQUIRED = [
 
 EXPECTED_HASHES = {
     "strategies/kechuang/supermind_kechuang_1.py":
-        "5ac181275a885c574f3e16f527bf07b5976a73ca001bbfb9d63d7f44f95071f9",
+        "3c4a5b41691b431b0a419900382c4e9cd47e11ee9b6c163f9d80a863134f1d8e",
     "strategies/hushen/supermind_hushen_1.py":
         "a573941eb69f850536288ba5ce4333d943c2eb4862e7f3a518e46dd55cc653fd",
     "strategies/kechuang/research/training_source/model_artifacts/event_model.joblib":
@@ -50,6 +62,17 @@ EXPECTED_HASHES = {
         "36674be3b57ca5dd84bc30b4a3f9b4f25af812e36ca7f2a68f24a38c81cc12df",
     "strategies/hushen/backtest/data/actions_merged.json":
         "ef8cff49ed6f2fb86c6a4f06fc304bc0afc0932979921b6068a32c6f59700d8d",
+}
+
+HUSHEN2_HASH_PATHS = {
+    "runtime_strategy_py": "strategies/hushen_2/runtime/strategy.py",
+    "frozen_builder_source": "strategies/hushen_2/runtime/frozen_builder.py",
+    "risk_runner_py": "strategies/hushen_2/backtest/compute_risk_metrics.py",
+    "performance_summary_csv": "strategies/hushen_2/results/PERFORMANCE_SUMMARY.csv",
+    "risk_summary_json": "strategies/hushen_2/results/RISK_SUMMARY.json",
+    "risk_metrics_csv": "strategies/hushen_2/results/RISK_METRICS_2020Q1_STARTS_TO_20261019.csv",
+    "equity_curves_parquet": "strategies/hushen_2/results/EQUITY_CURVES_2020Q1_STARTS_TO_20261019.parquet",
+    "equivalence_json": "strategies/hushen_2/runtime/EQUIVALENCE.json",
 }
 
 CURRENT_RESEARCH_DIRECTIONS = [
@@ -82,7 +105,7 @@ def verify_manifest(root: Path, rows, full_hash: bool, errors: list[str]) -> Non
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Verify the two locked baselines and protected research assets.")
+    parser = argparse.ArgumentParser(description="Verify the three registered baselines and protected research assets.")
     parser.add_argument(
         "--full-archive",
         action="store_true",
@@ -124,6 +147,20 @@ def main() -> None:
     if migration.get("entry_sha256") != EXPECTED_HASHES["strategies/hushen/supermind_hushen_1.py"]:
         errors.append("Hushen migration metadata does not match the current entry")
 
+    hushen2 = load_json(ROOT / "strategies/hushen_2/CURRENT_SELECTION.json")
+    if hushen2.get("strategy_name") != "沪深2" or hushen2.get("status") != "registered":
+        errors.append("Hushen 2 is not the registered current selection")
+    if hushen2.get("supermind_entry") is not None or hushen2.get("live_trading_authorized") is not False:
+        errors.append("Hushen 2 execution authorization boundary changed")
+    hushen2_hashes = hushen2.get("hashes_sha256", {})
+    for name, relative in HUSHEN2_HASH_PATHS.items():
+        path = ROOT / relative
+        expected = str(hushen2_hashes.get(name, "")).lower()
+        if not path.is_file():
+            errors.append(f"missing Hushen 2 dependency: {relative}")
+        elif not expected or sha256(path) != expected:
+            errors.append(f"Hushen 2 hash mismatch: {name} ({relative})")
+
     for name in CURRENT_RESEARCH_DIRECTIONS:
         directory = ROOT / "research_versions" / name
         if not directory.is_dir():
@@ -159,7 +196,7 @@ def main() -> None:
     if errors:
         raise SystemExit("Repository verification failed:\n- " + "\n- ".join(errors[:50]))
 
-    scope = "entries, current data, models, results, indexes, cache state"
+    scope = "three baselines, current data, models, results, indexes, cache state"
     if args.full_archive:
         scope += ", and all 6280 cleaned Kechuang archive files"
     print(f"Quant repository ready: verified {scope}.")
