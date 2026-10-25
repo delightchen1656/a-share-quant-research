@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib
 import json
 from pathlib import Path
+from signal_policy import configuration as signal_filter_configuration
 
 
 BASE = Path(__file__).resolve().parents[1]
@@ -20,6 +21,7 @@ def main() -> None:
     selection = json.loads((BASE / "CURRENT_SELECTION.json").read_text(encoding="utf-8"))
     paths = {
         "runtime_strategy_py": BASE / "runtime" / "strategy.py",
+        "signal_policy_py": BASE / "runtime" / "signal_policy.py",
         "frozen_builder_source": BASE / "runtime" / "frozen_builder.py",
         "risk_runner_py": BASE / "backtest" / "compute_risk_metrics.py",
         "performance_summary_csv": BASE / "results" / "PERFORMANCE_SUMMARY.csv",
@@ -29,6 +31,8 @@ def main() -> None:
         "equivalence_json": BASE / "runtime" / "EQUIVALENCE.json",
     }
     expected = selection["hashes_sha256"]
+    if selection.get('selection',{}).get('signal_filter') != signal_filter_configuration():
+        raise RuntimeError('Registered ATR signal filter does not match active policy')
     checks = {name: path.is_file() and sha256(path) == expected[name] for name, path in paths.items()}
     if not all(checks.values()):
         raise RuntimeError(

@@ -1,0 +1,21 @@
+{
+  "package": "沪深2_K线练习",
+  "policy": "original_top3_atr_ge025_no_refill_v1",
+  "runtime": {
+    "runtime/baseline_fixed_ioc.py": "0cc7e29b510116af3cce4a902a8ebdeb81277fbcb159086b5aa2b1fd376776a9",
+    "runtime/run_batch.py": "2474856294d95f52868f82a256b7f557c9d01d00a80a935f5dc24f88f51c843d"
+  },
+  "inputs": {
+    "frozen_inputs/cases/INPUT_SIGNALS.parquet": "222b00b508593e26bef247ab512418f1380dc6b18536695ca0ecc32edb9e2de0",
+    "frozen_inputs/cases/INPUT_PACK.pkl": "991f98e12cdd628cf68d917c231064839b6d273c3ee929b23c98a2e6a8c79e7a",
+    "frozen_inputs/market/DOWNLOAD_COMPLETE.json": "de8ad496c9e74cb4f64e83b8d4e0b8d2ecf4097711206a330734389d9a822fe0"
+  },
+  "shared_dependencies": [
+    "quant_env",
+    "sh_sz_market_research/data_pipeline/data/metadata/historical_mainboard_universe.csv"
+  ],
+  "forbidden_runtime_dependencies": [
+    "strategies/hushen_2/results/holdout_restricted",
+    "archive/hushen_2"
+  ]
+}

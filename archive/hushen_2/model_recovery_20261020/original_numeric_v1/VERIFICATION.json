@@ -1,0 +1,49 @@
+{
+  "source_git_object": "1702b35e0cadf60a38f069b28e6ea9b3f5ffa84b",
+  "source_sha256": "54d6aeb682b72d0a1e5b5fd865c67703cdabb1f9fcac5917939182beca439359",
+  "method": "Original embedded numeric trees converted losslessly to executable LightGBM text; NOT original text bytes; no retraining",
+  "original_source_hashes": {
+    "utility.txt": "bd084d19ad0b7369e19adc003e3741f18764cc38f87962ae582ecac1dd7d14fd",
+    "pen025.txt": "24713b76d0ad6d22f6a56aa9f0fb022977ec4bbd5780d509198f6094d0795057",
+    "pen100.txt": "dc609240d02267d4c5ce21ea0d87c077a3ab11f27abc4115faa60628735ae2f6"
+  },
+  "post2024_market_input_read": false,
+  "production_changed": false,
+  "models": {
+    "utility": {
+      "trees": 200,
+      "json_sha256": "e6a4aea7da91210079f8f3cd09b6ae3d91791375135a62228d13198cd912322a",
+      "executable_sha256": "b46be1e9638056a1a251a56bfb1ad68edbdd24281506bea28f7858f16ea89912",
+      "original_evaluator_probe_max_error": 0.0,
+      "historical_rows": 2595713,
+      "historical_max_abs_error": 0.0,
+      "historical_rmse": 0.0,
+      "rows_above_1e12_tolerance": 0
+    },
+    "pen025": {
+      "trees": 200,
+      "json_sha256": "355b068e14f6650d94fb4225ecbd0d449f43cba20967ad03dcce2a084f258c80",
+      "executable_sha256": "ae0f7110cce3b41dc45c1f30fffedf155535eee441496f07d2970483bfaaedd8",
+      "original_evaluator_probe_max_error": 0.0,
+      "historical_rows": 2595713,
+      "historical_max_abs_error": 0.0,
+      "historical_rmse": 0.0,
+      "rows_above_1e12_tolerance": 0
+    },
+    "pen100": {
+      "trees": 200,
+      "json_sha256": "14dc6fa7b91cdf7c55d8b8b72bc97886bc0b2cc97f070148458bbf3484ed48e2",
+      "executable_sha256": "d9ac6b247dedd89e6df558cf57b96d47321eb27f4e5c405416607e40c821e8c9",
+      "original_evaluator_probe_max_error": 0.0,
+      "historical_rows": 2595713,
+      "historical_max_abs_error": 0.0,
+      "historical_rmse": 0.0,
+      "rows_above_1e12_tolerance": 0
+    }
+  },
+  "signals": {
+    "rows": 3549,
+    "date_symbol_order_identical": true,
+    "max_abs_score_error": 0.0
+  }
+}

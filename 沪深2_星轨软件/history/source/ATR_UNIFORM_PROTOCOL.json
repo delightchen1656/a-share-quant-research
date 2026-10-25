@@ -1,0 +1,15 @@
+{
+  "version": "fixed-ioc-uniform-atr-comparison-v1",
+  "authorized_on": "2026-10-20",
+  "scope": "Execution ATR only: full-period relative-TR SMA14 versus full-period price-TR SMA14/signal-close; compare to original mixed ATR",
+  "frozen_selection": "C04_NEW, original frozen signal dates, symbols, order, scores and model features unchanged",
+  "relative_formula": "Reproduce run_batch_002: r=(close/preclose-1).where(tradestatus==1), chain=cumprod(1+r.fillna(0)); prior=chain.shift(1); adjusted high/low=chain*high_or_low/close; relative_TR=max(adjusted_high-adjusted_low,abs(adjusted_high-prior),abs(adjusted_low-prior))/prior; clip(SMA14(relative_TR),.015,.05)",
+  "price_formula": "Reproduce post2024 builder: price_TR=max(high-low,abs(high-preclose),abs(low-preclose)); clip(SMA14(price_TR)/signal_close,.015,.05)",
+  "data": "Pre2025 both ATR formulas use retained original model/technical panel outputs to avoid revised qfq rounding (49 relative signal rows drift on latest qfq). Post2024 alternatives computed causally on verified local qfq bars; price ATR must match frozen post outputs. No future records beyond signal date affect ATR; input hashes and overlap checks retained.",
+  "required_execution": "fixed_ioc_engine(manual_expiry_open=False,filled_slots=False)",
+  "unchanged": ["100000 initial cash", "5 slots including pending buys", "original equity/5 budget", "quantity with original .2% slippage buffer floored to 100 shares", "IOC one trigger attempt", "original cash rejection and reuse", "7/30 calendar days", "expiry at original session close", "T+1", "same-day double-touch stop first", "2% daily buy-volume assumption", "original fees, slippage and precision", "company actions and delisting", "37-calendar-day final signal cutoff"],
+  "groups": {"2020Q1":58,"2020June":20,"2025Q1":57,"2026Q1":56},
+  "end": "2026-10-19",
+  "evaluation_status": "Historical execution sensitivity including already-seen posterior, not new blind test; no training, selection or production replacement",
+  "software_and_account_changes": false
+}

@@ -2,16 +2,44 @@
   "strategy_name": "沪深2",
   "status": "registered",
   "registered_at": "2026-10-20T01:00:00+08:00",
+  "baseline_registered_on": "2026-10-23",
   "selection": {
+    "baseline_id": "C04_NEW_ATR_GE025_ROLLBACK_20261023",
     "candidate_id": "C04_NEW",
     "slots": 5,
     "initial_cash": 100000,
     "maximum_daily_signals": 3,
+    "signal_filter": {
+      "policy": "original_top3_atr_ge025_no_refill_v1",
+      "minimum_atr": 0.025,
+      "comparison": ">=",
+      "applied_after": "original_daily_top3",
+      "refill": false,
+      "preserve_original_rank": true
+    },
     "factor_spec": {
-      "M_internal": [0.5, 0.5, 0.0],
-      "T_internal": [0.5, 0.0, 0.5, 0.0],
-      "H_internal": [0.25, 0.25, 0.5, 0.0],
-      "outer": [0.6, 0.0, 0.4]
+      "M_internal": [
+        0.5,
+        0.5,
+        0.0
+      ],
+      "T_internal": [
+        0.5,
+        0.0,
+        0.5,
+        0.0
+      ],
+      "H_internal": [
+        0.25,
+        0.25,
+        0.5,
+        0.0
+      ],
+      "outer": [
+        0.6,
+        0.0,
+        0.4
+      ]
     },
     "execution": {
       "conditional_buy_lifetime_calendar_days": 7,
@@ -25,26 +53,40 @@
     }
   },
   "evidence": {
-    "development_period": ["2020-01-01", "2024-12-31"],
+    "development_period": [
+      "2020-01-01",
+      "2024-12-31"
+    ],
     "posterior_evaluation_end": "2026-10-19",
+    "latest_baseline_evaluation_end": "2026-10-22",
+    "latest_baseline_selection_date": "2026-10-23",
     "selection_is_post2024_informed": true,
     "blind_test_status": "not_blind_after_registration",
-    "risk_population": "all 58 Shanghai Composite Q1-2020 starts through 2026-10-19"
+    "risk_population": "ATR025 same-snapshot 2015 Q1 starts; retain legacy risk files as history",
+    "legacy_risk_population": "all 58 Shanghai Composite Q1-2020 starts through 2026-10-19",
+    "latest_baseline_results": null,
+    "latest_baseline_source": "../../沪深2_星轨软件/history/source/CURRENT_SELECTION_ATR025_BEFORE_P12.json",
+    "latest_baseline_results_version": "ATR025"
   },
   "model_runtime": {
     "status": "verified",
     "directory": "model",
     "manifest": "model/manifest.json",
-    "required_nonzero_weight_models": ["utility", "pen025"],
+    "required_nonzero_weight_models": [
+      "utility",
+      "pen025"
+    ],
     "retained_zero_weight_model": "pen100",
     "conversion": "lossless numerical tree export; no retraining; executable bytes differ from the original txt files",
     "historical_prediction_rows": 2595713,
     "historical_max_abs_error": 0.0,
     "historical_signal_rows": 3549,
     "historical_signals_identical": true,
+    "historical_signal_equivalence_scope": "Original unfiltered C04_NEW builder; ATR025-only post-top3 filter, no retraining",
     "latest_pipeline_verification": "model/END_TO_END_VERIFICATION.json"
   },
   "hashes_sha256": {
+    "signal_policy_py": "061D1FBDBF3F4D72075FFD78C5DAA95A3A8C32E8201F94CEA6839325C909D796",
     "runtime_strategy_py": "76A66DA303BBBC6036AE2BB55A373839A32534BD34399140600B6816C27B4C34",
     "frozen_builder_source": "876B242D705A347BABCDB3A88E08A7E27A83DABFFA5F7B36AE8ACC2D61FB1454",
     "risk_runner_py": "A3320B0A80B273DE2F614EC2C34337F59E2A79A6B7EE78370703202946241F49",
@@ -66,7 +108,36 @@
     "active_model_directory": "strategies/hushen_2/model",
     "implementation_extracted": true,
     "equivalence_record": "runtime/EQUIVALENCE.json",
-    "strategy_logic_changed": false
+    "strategy_logic_changed": true,
+    "factor_builder_logic_changed": false
+  },
+  "operational_overrides": {
+    "signal_filter": {
+      "authorized_on": "2026-10-23",
+      "policy": "original_top3_atr_ge025_no_refill_v1",
+      "scope": "New recommendations only; today unsubmitted recommendations explicitly reset; historical accepted orders, positions and cash preserved",
+      "previous_baseline_backup": "archive/hushen_2/production_baseline_backups/before_p12_20261023_001422",
+      "model_features_and_weights_changed": false,
+      "other_execution_rules_changed": false,
+      "selection_is_post2024_informed": true,
+      "production_verification": "../../沪深2_星轨软件/tracker/data/atr025_rollback_verification.json"
+    },
+    "execution_atr": {
+      "authorized_on": "2026-10-20",
+      "policy": "price_tr_sma14_over_signal_close_clip015_050_v1",
+      "scope": "User-selected full-period price-TR execution policy and all new tracker signals; preserve existing accepted-order/position frozen terms until explicitly reset or rebooked",
+      "source": "Original post-2024 account replay price-TR formula on qfq bars",
+      "model_features_and_weights_changed": false,
+      "historical_performance_tables_recomputed": true,
+      "historical_tables_use_mixed_atr_policy": true,
+      "legacy_tables_note": "Original registered risk/performance files remain immutable mixed-ATR history, not the selected uniform-price results",
+      "selected_on": "2026-10-20",
+      "selected_comparison": "results/holdout_restricted/uniform_atr_comparison/attempt_20261020_051840/COMPARISON.json",
+      "selected_variant": "price",
+      "selected_backtest_entry": "../../沪深2_星轨软件/history/source/replay_selected_price_atr.py",
+      "tracker_policy_already_matches": true,
+      "expiry_execution_difference": "Selected historical fixed-IOC replay exits expiry-session close; tracker still reminds manual next-session open; ATR selection does not erase this difference"
+    }
   },
   "live_trading_authorized": false,
   "supermind_entry": null

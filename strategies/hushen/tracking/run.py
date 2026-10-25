@@ -135,6 +135,9 @@ def run():
     text=(HOME/'backtest/engine.py').read_text(encoding='utf-8')
     text=text.replace("BASE/'data/benchmark.parquet'","HERE/'calendar.parquet'")
     exec(compile(text,str(HOME/'backtest/engine.py'),'exec'),e.__dict__)
+    # Tracking has its own audited action responses.  Make them visible to the
+    # shared engine without copying local account evidence into backtest data.
+    e.actions.OWN_PATH=work/'additional_actions.json'
     market=e.Market()
     try:result,account=e.simulate(market,str(sessions[0].date()),target,initial=cfg['initial_cash'])
     finally:market.actions.close()

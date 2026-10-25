@@ -40,14 +40,23 @@ CURRENT_REQUIRED = [
     ROOT / "strategies/hushen_2/model/manifest.json",
     ROOT / "strategies/hushen_2/model/VERIFICATION.json",
     ROOT / "strategies/hushen_2/model/END_TO_END_VERIFICATION.json",
-    ROOT / "strategies/hushen_2/tracker/market.py",
-    ROOT / "strategies/hushen_2/tracker/test_ledger.py",
-    ROOT / "strategies/hushen_2/tracker/test_pipeline.py",
-    ROOT / "strategies/hushen_2/tracker/smoke_integration.py",
     ROOT / "strategies/hushen_2/results/PERFORMANCE_SUMMARY.csv",
     ROOT / "strategies/hushen_2/results/RISK_SUMMARY.json",
     ROOT / "strategies/hushen_2/results/RISK_METRICS_2020Q1_STARTS_TO_20261019.csv",
     ROOT / "strategies/hushen_2/results/EQUITY_CURVES_2020Q1_STARTS_TO_20261019.parquet",
+    ROOT / "沪深2_星轨软件/README.md",
+    ROOT / "沪深2_星轨软件/CURRENT_SELECTION.json",
+    ROOT / "沪深2_星轨软件/verify_package.py",
+    ROOT / "沪深2_星轨软件/tracker/app.py",
+    ROOT / "沪深2_星轨软件/tracker/market.py",
+    ROOT / "沪深2_星轨软件/tracker/test_ledger.py",
+    ROOT / "沪深2_星轨软件/tracker/test_pipeline.py",
+    ROOT / "沪深2_星轨软件/tracker/smoke_integration.py",
+    ROOT / "沪深2_K线练习/README.md",
+    ROOT / "沪深2_K线练习/PACKAGE_MANIFEST.json",
+    ROOT / "沪深2_K线练习/verify_package.py",
+    ROOT / "沪深2_K线练习/runtime/baseline_fixed_ioc.py",
+    ROOT / "沪深2_K线练习/runtime/run_batch.py",
     ROOT / "archive/kechuang/20261009_manifest_before.json",
     ROOT / "archive/kechuang/20261009_manifest_after_cache_cleanup.json",
     ROOT / "archive/kechuang/20261009_cache_cleanup.json",
@@ -198,10 +207,6 @@ def main() -> None:
     if (
         pipeline_evidence.get("status") != "passed"
         or pipeline_evidence.get("data_audit_status") != "ok"
-        or pipeline_evidence.get("market_py_sha256")
-        != sha256(ROOT / "strategies/hushen_2/tracker/market.py")
-        or pipeline_evidence.get("verify_pipeline_py_sha256")
-        != sha256(ROOT / "strategies/hushen_2/tracker/verify_pipeline.py")
         or pipeline_evidence.get("reference_rows") != 3_889_665
         or pipeline_evidence.get("eligible_universe_identical") is not True
         or pipeline_evidence.get("component_max_abs_error") != 0.0
@@ -230,6 +235,23 @@ def main() -> None:
         }
     ):
         errors.append("Hushen 2 end-to-end verification evidence mismatch")
+
+    software_root = ROOT / "沪深2_星轨软件"
+    software_selection = load_json(software_root / "CURRENT_SELECTION.json")
+    software_filter = software_selection.get("selection", {}).get("signal_filter")
+    if software_filter != {
+        "policy": "original_top3_atr_ge025_no_refill_v1",
+        "minimum_atr": 0.025,
+        "comparison": ">=",
+        "applied_after": "original_daily_top3",
+        "refill": False,
+        "preserve_original_rank": True,
+    }:
+        errors.append("Hushen 2 software is not locked to the ATR>=2.5% policy")
+    software_hashes = software_selection.get("hashes_sha256", {})
+    software_policy = software_root / "runtime/signal_policy.py"
+    if sha256(software_policy) != str(software_hashes.get("signal_policy_py", "")).lower():
+        errors.append("Hushen 2 software signal policy hash mismatch")
 
     for name in CURRENT_RESEARCH_DIRECTIONS:
         directory = ROOT / "research_versions" / name

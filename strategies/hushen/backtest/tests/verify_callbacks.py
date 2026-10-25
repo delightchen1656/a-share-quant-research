@@ -5,7 +5,7 @@ import ast,json,time,sys
 import numpy as np
 import pandas as pd
 HOME=Path(__file__).resolve().parents[2]
-HERE=HOME.parents[1]/'archive/hushen/20261008_before_unification/baseline_2/full_review_20261008'
+REFERENCE=Path(__file__).resolve().parent/'reference'
 rng=np.random.RandomState(812)
 dates=pd.bdate_range('2018-01-01',periods=430)
 raw={}
@@ -34,7 +34,7 @@ if real:
         if len(raw)==180:break
 class Adapter:
     def __init__(self,file):
-        self.ns={};exec(((HOME/'supermind_hushen_1.py' if file=='supermind_baseline2_D7f_fast_daily.py' else HERE/file)).read_text(encoding='utf-8').replace('from mindgo_api import *',''),self.ns)
+        self.ns={};exec(((HOME/'supermind_hushen_1.py' if file=='supermind_baseline2_D7f_fast_daily.py' else REFERENCE/file)).read_text(encoding='utf-8').replace('from mindgo_api import *',''),self.ns)
         self.calls=0;self.rows=0;self.universes=0;self.orders=[];self.i=320
         account=N(available_cash=100000.,frozen_cash=0.)
         self.context=N(portfolio=N(positions={},stock_account=account))
@@ -76,7 +76,7 @@ for i in range(320,390):
         if s in a.ns['g'].alpha_info and s in b.ns['g'].alpha_info:
             av=a.ns['g'].alpha_info[s];bv=b.ns['g'].alpha_info[s]
             assert np.isclose(av['volume20'],bv['volume20']) and av['previous_st']==bv['previous_st']
-funcs=lambda file:{n.name:ast.dump(n,include_attributes=False) for n in ast.parse(((HOME/'supermind_hushen_1.py' if file=='supermind_baseline2_D7f_fast_daily.py' else HERE/file)).read_text(encoding='utf-8')).body if isinstance(n,ast.FunctionDef)}
+funcs=lambda file:{n.name:ast.dump(n,include_attributes=False) for n in ast.parse(((HOME/'supermind_hushen_1.py' if file=='supermind_baseline2_D7f_fast_daily.py' else REFERENCE/file)).read_text(encoding='utf-8')).body if isinstance(n,ast.FunctionDef)}
 af=funcs('supermind_baseline2_D7c_compatible_daily.py');bf=funcs('supermind_baseline2_D7f_fast_daily.py')
 assert all(af[k]==bf[k] for k in af if k not in ('_before_trading','on_trade'))
 result=dict(days=70,symbols=180,scenario='local real 180-symbol subset; mocked execution' if real else 'deterministic synthetic: listing,delisting,ST,pause,rejected orders',all_daily_ranks_targets_orders_positions_cash_equal=True,all_other_functions_AST_equal=True,old=dict(history_calls=a.calls,returned_rows=a.rows,universe_calls=a.universes,local_seconds=elapsed[0]),fast=dict(history_calls=b.calls,returned_rows=b.rows,universe_calls=b.universes,local_seconds=elapsed[1]),platform_runtime_measured=False)

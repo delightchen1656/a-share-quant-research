@@ -53,6 +53,7 @@ Thumbs.db
 !strategies/hushen/results/**/*.parquet
 !strategies/hushen_2/results/EQUITY_CURVES_2020Q1_STARTS_TO_20261019.parquet
 !strategies/kechuang/research/training_source/model_artifacts/*.joblib
+!沪深2_星轨软件/results/EQUITY_CURVES_2020Q1_STARTS_TO_20261019.parquet
 
 # Holdout/posterior evidence remains local and is never part of the public
 # pre-2025 repository context.
@@ -69,4 +70,8 @@ Thumbs.db
 /archive/packages/20261006_data_environment_bundle/installers/*.exe
 
 # Actual broker ledger and backups are private local user data.
-/strategies/hushen_2/tracker/data/
+/沪深2_星轨软件/tracker/data/
+
+# K-line practice keeps a local 1.5 GB frozen input bundle. Git stores the
+# package code and hash manifest; the protected market/case payload stays local.
+/沪深2_K线练习/frozen_inputs/

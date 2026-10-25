@@ -1,0 +1,23 @@
+const fs=require('node:fs');
+const vm=require('node:vm');
+const assert=require('node:assert/strict');
+const source=fs.readFileSync(__dirname+'/tracking.js','utf8');
+const section=source.slice(source.indexOf('function defaultRecordQuantity('),source.indexOf('// End record quantity defaults.'));
+let selected,quantity,price;
+const account={orders:[{signal_id:'a',quantity:700,filled:0,trigger:2.51},{signal_id:'b',quantity:700,filled:300,trigger:10.25}],positions:[{symbol:'x',quantity:200}]};
+const context={state:account,record:(kind,id)=>{
+    selected={value:id||(kind==='buy'?'a':'x'),addEventListener:(event,fn)=>selected.change=fn};
+    quantity={value:''};price={value:''};
+},$:selector=>selector.includes('select')?selected:selector.includes('price')?price:quantity};
+vm.createContext(context);vm.runInContext(section,context);
+assert.equal(context.defaultRecordQuantity('buy','a',account),700);
+assert.equal(context.defaultRecordQuantity('buy','b',account),400);
+assert.equal(context.defaultRecordQuantity('sell','x',account),200);
+assert.equal(context.defaultRecordQuantity('buy','missing',account),0);
+context.record('buy','a');assert.equal(quantity.value,'700');assert.equal(quantity.max,'700');assert.equal(price.value,'2.51');
+quantity.value='100';assert.equal(quantity.value,'100');
+price.value='2.49';assert.equal(price.value,'2.49');
+selected.value='b';selected.change();assert.equal(quantity.value,'400');assert.equal(price.value,'10.25');
+context.record('sell','x');assert.equal(quantity.value,'200');assert.equal(price.value,'');
+context.record();assert.equal(quantity.value,'700');
+console.log('PASS: quantity defaults, buy trigger-price defaults, selection change, manual editing, no fabricated sell price');

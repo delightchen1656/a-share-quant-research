@@ -1,36 +1,28 @@
-# 沪深2
+# 沪深2基线
 
-本地晚间工作台位于 `tracker/`，桌面快捷方式为“沪深2 星轨”。操作流程见 `tracker/README.md`。原模型数值树已恢复并保存到 `model/`：三份模型在2,595,713条历史样本上的预测误差为0，重建后的3,549条历史信号完全一致。2026-10-20又用已提交的2026-10-19行情完成了行情到三只候选的端到端只读验证；证据见 `model/VERIFICATION.json` 和 `model/END_TO_END_VERIFICATION.json`。
+唯一生产登记为 [CURRENT_SELECTION.json](CURRENT_SELECTION.json)。当前版本由原冻结 `C04_NEW` 衍生，生产血缘是：原版 → ATR≥2.5% → P12 → 撤销P12并回到ATR-only。现行规则不是P12：先生成原每日前三，再仅保留信号日 `ATR比例 >= 0.025` 的股票，不递补、不重排、不重训模型。
 
-当前唯一登记：冻结 `C04_NEW` 因子、5槽、10万元独立账户。
+## 当前保留内容
 
-## 因子
+- `CURRENT_SELECTION.json`：唯一登记与哈希。
+- `runtime/`：冻结因子构建、排序和ATR-only信号过滤。
+- `model/`：`utility.txt`、`pen025.txt`、`pen100.txt` 及等价性证据；当前非零权重模型为utility和pen025。
+- `backtest/compute_risk_metrics.py`：从冻结权益曲线复算风险指标的最小入口。
+- `results/`：当前登记的四份汇总/权益结果；历史大规模研究结果不属于运行依赖。
 
-- M内部权重：`[0.5, 0.5, 0.0]`
-- T内部权重：`[0.5, 0.0, 0.5, 0.0]`
-- H内部权重：`[0.25, 0.25, 0.5, 0.0]`
-- 外层权重：`M=0.6, T=0.0, H=0.4`
-- 每日最多3只信号。
+执行规则仍为10万元、5槽、7个自然日条件买入、最长持有30个自然日、4ATR止盈、1.5ATR止损、T+1、同日双触止损优先。登记已受2025年后结果影响，不称为新盲测，也不包含券商自动下单授权。
 
-## 执行
+## 独立应用
 
-- 10万元，5槽；同股同时唯一。
-- 信号后设置7个自然日条件买单，触及目标价成交；历史容量不超过当日成交量2%时假定可成交。
-- 买入后设置4ATR止盈、1.5ATR止损，最长持有30个自然日。
-- T+1可卖；同日止盈止损同时触发时止损优先；到期未触发则退出。
-- 包含佣金、印花税、滑点、涨跌停/停牌、公司行动及退市处理。
+- 根目录 `沪深2_星轨软件/`：当前晚间工作台，包含自己的代码、模型、登记、测试与本地账本历史。只读访问公共沪深日线和更新审计。
+- 根目录 `沪深2_K线练习/`：自包含练习代码、冻结执行引擎与本地冻结题库/行情，不依赖本目录或归档运行。
 
-## 文件
+P12和回退的标志性代码、登记及说明保存在 `沪深2_星轨软件/history/`；更早的登记前研究源码在 `archive/hushen_2/`。它们只用于溯源，不参与当前运行。
 
-- `CURRENT_SELECTION.json`：唯一登记。
-- `runtime/strategy.py`：冻结公式和执行常量；只调用同目录冻结构建器。
-- `runtime/frozen_builder.py`：从登记前研究最小化抽取的因子合成、排名与每日前三选择，不读取归档。
-- `runtime/EQUIVALENCE.json`：在完整2020—2024公共面板上与原构建器逐项一致的校验记录。
-- `runtime/verify.py`：核对当前代码、结果、权益曲线和登记哈希，不读取归档。
-- `backtest/compute_risk_metrics.py`：直接从冻结日权益曲线复算58个起点的收益、最大回撤和Sharpe。
-- `results/PERFORMANCE_SUMMARY.csv`：保留的收益表。
-- `results/RISK_SUMMARY.json`：2020年Q1全量起点至2026-10-19风险汇总。
+## 验证
 
-本登记是查看2025—2026后作出的后验选择，不是新的盲测结论；不包含实盘下单授权。
-
-登记前的完整研究、输入、比较表和审计来源已归档至 `archive/hushen_2/pre_registration_research_20261020/`，仅用于溯源，不是额外的当前策略入口，也不是当前运行依赖。
+```powershell
+& .\quant_env\Scripts\python.exe -B .\strategies\hushen_2\runtime\verify.py
+& .\quant_env\Scripts\python.exe -B .\沪深2_星轨软件\verify_package.py
+& .\quant_env\Scripts\python.exe -B .\沪深2_K线练习\verify_package.py
+```

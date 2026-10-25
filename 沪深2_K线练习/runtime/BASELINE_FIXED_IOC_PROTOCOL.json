@@ -1,0 +1,14 @@
+{
+  "version": "baseline-fixed-quantity-ioc-manual-expiry-open-v2",
+  "authorization": "Fixed pre-submitted quantity and five-best immediate-or-cancel; additionally align expiry exit with tracker manual next-session open; retain baseline otherwise",
+  "expiry_exit": "At original expiry session retain intraday protection but do not close for expiry. If still held, attempt exit at next verified calendar session open; expiry open precedes that day's intraday take/stop. Suspended, locked or one-price-limit-down positions retry on later tradable session opens under original restrictions.",
+  "historical_results": "Existing expiry-close tables retained unchanged; new replay outputs use separate fixed_ioc_manual_expiry_open directories. No next-open returns claimed before replay.",
+  "fixed_quantity": "floor(baseline_order_budget / (baseline_trigger_price * (1 + baseline_slippage)) / 100) * 100",
+  "budget": "Original mark_equity / slots at signal close; no new cash reservation or available-cash budget cap",
+  "cash_shortfall": "Reject the fixed order if actual modeled full quantity plus commission exceeds cash; never resize the submitted order to fit cash",
+  "capacity": "Original buy-side 2% full-day volume proxy retained; partial fill allowed, unfilled remainder cancelled",
+  "ioc_parent_assumption": "Original one trigger attempt per conditional buy; actual broker parent rearming remains unverified",
+  "unchanged": ["frozen models and signals", "original mixed ATR", "original stitched signal gap", "100000 initial cash", "5 slots", "7 calendar-day entry window", "30 calendar-day holding", "T+1", "stop-first double touch", "original take/stop precision", "original company-action and delisting execution", "original commissions stamp and slippage", "original buy/sell price formulas", "original pending expiry cleanup", "original proceeds reuse", "37-calendar-day maturity tail"],
+  "price_data_limit": "No historical five-level book; original OHLC and slippage price proxy retained, except expiry base changes from close to next-session open; not a true quote-price reconstruction",
+  "production_changes": false
+}

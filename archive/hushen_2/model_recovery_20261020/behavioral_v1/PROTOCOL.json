@@ -1,0 +1,56 @@
+{
+  "status": "shadow_only_not_original",
+  "purpose": "Approximate missing original predictions, not train on future returns",
+  "train_years": [
+    2020,
+    2021
+  ],
+  "evaluation_years": [
+    2022,
+    2023,
+    2024
+  ],
+  "no_post2024_inputs": true,
+  "no_production_replacement": true,
+  "fixed_rounds": 500,
+  "parameters": {
+    "objective": "regression",
+    "metric": "l2",
+    "learning_rate": 0.04,
+    "num_leaves": 63,
+    "min_data_in_leaf": 100,
+    "lambda_l2": 1.0,
+    "feature_fraction": 1.0,
+    "bagging_fraction": 1.0,
+    "seed": 20261020,
+    "deterministic": true,
+    "force_col_wise": true,
+    "num_threads": 6,
+    "verbosity": -1
+  },
+  "features": [
+    "f_ret1",
+    "f_ret5",
+    "f_ret20",
+    "f_ret60",
+    "f_vol20",
+    "f_ma20",
+    "f_amount_ratio5",
+    "f_log_amount",
+    "f_log_price",
+    "f_turn",
+    "f_range",
+    "f_downside20",
+    "f_ohlc_rsi14",
+    "f_ohlc_atr_compress5_20"
+  ],
+  "inputs": {
+    "archive\\hushen_2\\pre_registration_research_20261020\\cache\\model_panel_batch002_pre2025.parquet": "8bfd4bd31c0d6f89f48c65662f9a7481ce8085001bb32a3f1b2882aa070ed157",
+    "archive\\hushen_2\\pre_registration_research_20261020\\results\\batch_004_pre2025_factor_tuning\\base_component_panel_pre2025.parquet": "b7ccc01b9d39af7cd4d147bab6400dc62433afab6c116d74bb86d3d2467e389d"
+  },
+  "limitations": [
+    "Original trees, training labels and full parameters unavailable.",
+    "Teacher was originally trained through 2021; imitation is not exact restoration.",
+    "Historical investment returns cannot be inherited by the reconstructed model."
+  ]
+}

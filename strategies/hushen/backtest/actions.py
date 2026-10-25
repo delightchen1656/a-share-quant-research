@@ -3,6 +3,7 @@ import json,socket,time
 import pandas as pd
 BASE=Path(__file__).resolve().parent/'data'
 HERE=BASE
+OWN_PATH=BASE/'additional_actions.json'
 def read(p):return json.loads(Path(p).read_text(encoding='utf-8'))
 
 def dump(p,x):
@@ -12,8 +13,9 @@ def dump(p,x):
 class Actions:
     """Fetch only missing stock-year events actually encountered by held shares."""
     def __init__(self,end):
-        self.end=end;self.cache={};self.own=HERE/'additional_actions.json';self.connected=False;self.lookup={}
+        self.end=end;self.cache={};self.own=Path(OWN_PATH);self.connected=False;self.lookup={}
         paths=set(BASE.rglob('actions_*.json'))|set(BASE.rglob('action_part_*.json'))|set(BASE.rglob('additional_actions.json'))
+        if self.own.exists():paths.add(self.own)
         for p in sorted(paths):
             # Files are response caches, never result/ranking files.
             self.cache.update(read(p))
