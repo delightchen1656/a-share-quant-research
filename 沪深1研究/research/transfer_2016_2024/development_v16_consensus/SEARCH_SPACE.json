@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "instruction_boundary_version": "public-pre2025-v2",
+  "protocol": "PROTOCOL_V16_CONSENSUS.md",
+  "data_cutoff": "2024-12-31",
+  "development_period": [
+    "2016-01-01",
+    "2024-12-31"
+  ],
+  "blocks": {
+    "early": [
+      2016,
+      2019
+    ],
+    "late": [
+      2020,
+      2024
+    ]
+  },
+  "start_dates": "every trading day in Q1 of each year",
+  "baseline": {
+    "weights": {
+      "cap": -0.35,
+      "vol": -0.2,
+      "overnight": 0.25,
+      "intraday": -0.2,
+      "mom60": 0.0,
+      "mom120": 0.0
+    },
+    "smooth": 5,
+    "min_smooth": 3,
+    "count": 5,
+    "interval": 20,
+    "buffer": 1.5,
+    "exposure": 0.98,
+    "participation_20d_mean_volume": 0.005,
+    "trend_days": 0,
+    "market_ma_days": 0,
+    "risk_off_multiplier": 1.0,
+    "allocation_inv_vol_power": 0.0,
+    "rank_lag_days": 0,
+    "max_vol_rank": 1.0,
+    "market_vol_target": 0.0,
+    "breadth_threshold": 0.0
+  },
+  "explicit_candidates": [
+    {
+      "candidate_id": "center_score",
+      "changes": {
+        "weights": {
+          "cap": -0.25,
+          "overnight": 0.4
+        },
+        "rank_lag_days": 10,
+        "allocation_inv_vol_power": 1.0
+      }
+    },
+    {
+      "candidate_id": "cross5_consensus",
+      "changes": {
+        "ensemble_weights": [
+          {
+            "cap": -0.25,
+            "vol": -0.2,
+            "overnight": 0.4,
+            "intraday": -0.2,
+            "mom60": 0.0,
+            "mom120": 0.0
+          },
+          {
+            "cap": -0.225,
+            "vol": -0.2,
+            "overnight": 0.4,
+            "intraday": -0.2,
+            "mom60": 0.0,
+            "mom120": 0.0
+          },
+          {
+            "cap": -0.275,
+            "vol": -0.2,
+            "overnight": 0.4,
+            "intraday": -0.2,
+            "mom60": 0.0,
+            "mom120": 0.0
+          },
+          {
+            "cap": -0.25,
+            "vol": -0.2,
+            "overnight": 0.375,
+            "intraday": -0.2,
+            "mom60": 0.0,
+            "mom120": 0.0
+          },
+          {
+            "cap": -0.25,
+            "vol": -0.2,
+            "overnight": 0.425,
+            "intraday": -0.2,
+            "mom60": 0.0,
+            "mom120": 0.0
+          }
+        ],
+        "rank_lag_days": 10,
+        "allocation_inv_vol_power": 1.0
+      }
+    },
+    {
+      "candidate_id": "grid9_consensus",
+      "changes": {
+        "ensemble_weights": [
+          {
+            "cap": -0.225,
+            "vol": -0.2,
+            "overnight": 0.375,
+            "intraday": -0.2,
+            "mom60": 0.0,
+            "mom120": 0.0
+          },
+          {
+            "cap": -0.225,
+            "vol": -0.2,
+            "overnight": 0.4,
+            "intraday": -0.2,
+            "mom60": 0.0,
+            "mom120": 0.0
+          },
+          {
+            "cap": -0.225,
+            "vol": -0.2,
+            "overnight": 0.425,
+            "intraday": -0.2,
+            "mom60": 0.0,
+            "mom120": 0.0
+          },
+          {
+            "cap": -0.25,
+            "vol": -0.2,
+            "overnight": 0.375,
+            "intraday": -0.2,
+            "mom60": 0.0,
+            "mom120": 0.0
+          },
+          {
+            "cap": -0.25,
+            "vol": -0.2,
+            "overnight": 0.4,
+            "intraday": -0.2,
+            "mom60": 0.0,
+            "mom120": 0.0
+          },
+          {
+            "cap": -0.25,
+            "vol": -0.2,
+            "overnight": 0.425,
+            "intraday": -0.2,
+            "mom60": 0.0,
+            "mom120": 0.0
+          },
+          {
+            "cap": -0.275,
+            "vol": -0.2,
+            "overnight": 0.375,
+            "intraday": -0.2,
+            "mom60": 0.0,
+            "mom120": 0.0
+          },
+          {
+            "cap": -0.275,
+            "vol": -0.2,
+            "overnight": 0.4,
+            "intraday": -0.2,
+            "mom60": 0.0,
+            "mom120": 0.0
+          },
+          {
+            "cap": -0.275,
+            "vol": -0.2,
+            "overnight": 0.425,
+            "intraday": -0.2,
+            "mom60": 0.0,
+            "mom120": 0.0
+          }
+        ],
+        "rank_lag_days": 10,
+        "allocation_inv_vol_power": 1.0
+      }
+    }
+  ],
+  "candidate_count_including_baseline": 4,
+  "consensus": "average cross-sectional percentile rank after each member score is smoothed",
+  "gates": {
+    "grid9_only_can_advance": true,
+    "center_and_cross5_improve_both_blocks": true,
+    "both_block_mean_excess_gain": ">0",
+    "both_block_mean_cagr_gain": ">=0",
+    "positive_years": ">=8 of 9",
+    "worst_year_median_excess": ">=-0.02",
+    "cross_year_std": "<= baseline",
+    "starts_improved_fraction": ">0.5",
+    "leave_one_year_out_gain_positive": true,
+    "single_year_positive_gain_share": "<0.5"
+  },
+  "stress": [
+    {
+      "name": "double_commission",
+      "commission_rate": 0.0006,
+      "minimum_commission": 10.0
+    },
+    {
+      "name": "capacity_40pct",
+      "participation_multiplier": 0.4
+    }
+  ],
+  "freeze": {
+    "hash_algorithm": "sha256",
+    "frozen_spec_sha256": "43aea806c22b196001ad4add21730a486d6cd1ba5fdc24b01ca2d30e58202658"
+  }
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "issue": "Missing scheduled-entry quote",
+    "evidence": "002157 2023-05-04 raw tradestatus=0; zero tradability",
+    "resolution": "Keep every signal, audit all absent entries; uniformly skip confirmed snapshot suspension without deferred entry. Unknown gaps remain blocking.",
+    "timing": "Before any completed account result or candidate performance was viewed",
+    "rule_parameters_changed": false
+  },
+  {
+    "issue": "Query-plan cross-year evidence missing",
+    "resolution": "Parent corrected November 1 boundary and added all 24 missing responses; final freeze was fully reverified before successful account runs",
+    "search_parameters_changed": false
+  },
+  {
+    "issue": "Suspended entry handling authorization",
+    "resolution": "Parent explicitly confirmed uniform suspended_entry skip, retain signal, no fabricated fill, no deferred entry; unknown quote gaps remain blocking",
+    "outcome_evidence": "ENTRY_AVAILABILITY.json"
+  }
+]

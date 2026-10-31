@@ -1,0 +1,35 @@
+{
+  "symbol": "601688.SH",
+  "event_date": "2024-10-25",
+  "kind": "dividend_fields",
+  "start": "2024-08-06",
+  "query_files": [
+    {
+      "path": "sources\\action_evidence_v2\\601688.SH_2024-10-25\\query_01.json",
+      "sha256": "de21497ce25f299c7caeae14a1736fbda6ab1baab5d4bea2f58177c9ab409759"
+    }
+  ],
+  "exact_code_announcements": 24,
+  "documents": [
+    {
+      "title": "华泰证券股份有限公司2023年年度权益分派实施公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-08-09/1220824764.PDF",
+      "published_date": "2024-08-09",
+      "pdf": "sources\\action_evidence_v2\\601688.SH_2024-10-25\\1220824764.pdf",
+      "text": "sources\\action_evidence_v2\\601688.SH_2024-10-25\\1220824764.txt",
+      "sha256": "ef2c2b45c942d4a0f2749b7418863cb89fe292a5d7747640e95e8360c387c5ef",
+      "pages": 7
+    },
+    {
+      "title": "华泰证券股份有限公司2024年半年度权益分派实施公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-10-17/1221406755.PDF",
+      "published_date": "2024-10-17",
+      "pdf": "sources\\action_evidence_v2\\601688.SH_2024-10-25\\1221406755.pdf",
+      "text": "sources\\action_evidence_v2\\601688.SH_2024-10-25\\1221406755.txt",
+      "sha256": "5ac8e85bd4cd3dafcd16ddfd7e715a60742507969604aac281997e0344be0e5d",
+      "pages": 7
+    }
+  ],
+  "no_document_is_not_no_event_proof": true,
+  "fields_verified": false
+}

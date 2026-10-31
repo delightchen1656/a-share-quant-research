@@ -1,0 +1,24 @@
+{
+  "symbol": "002852.SZ",
+  "event_date": "2019-05-22",
+  "kind": "dividend_fields",
+  "start": "2019-03-03",
+  "query_files": [
+    {
+      "path": "sources\\action_evidence_v2\\002852.SZ_2019-05-22\\query_01.json",
+      "sha256": "9df06d743b679b69a8a06075c2a61ba729797427f36cbfa99eeddfbfd013d63e"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002852.SZ_2019-05-22\\query_02.json",
+      "sha256": "9df06d743b679b69a8a06075c2a61ba729797427f36cbfa99eeddfbfd013d63e"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002852.SZ_2019-05-22\\query_03.json",
+      "sha256": "b7ecabb085a98fcc388817ad09fa9ecaae00a5ec29ad6b29fb2196d3c9837785"
+    }
+  ],
+  "exact_code_announcements": 87,
+  "documents": [],
+  "no_document_is_not_no_event_proof": true,
+  "fields_verified": false
+}

@@ -1,0 +1,11 @@
+{
+  "boundary": "public-pre2025-v2",
+  "kind": "prior_frozen_v3_trade_settings_reference_only",
+  "take_profit": 0.08,
+  "forced_close_buy_offset": 3,
+  "stop_loss": null,
+  "old_account_capital": 100000,
+  "old_account_slots": 5,
+  "entry": "Signal next official session open, user guaranteed-fill assumption",
+  "warning": "This prior study used a different historical subset and ex-post exclusions. Do not import exclusions or performance. If compared, recompute on current full fixed signal cohort and current account capital/slots."
+}

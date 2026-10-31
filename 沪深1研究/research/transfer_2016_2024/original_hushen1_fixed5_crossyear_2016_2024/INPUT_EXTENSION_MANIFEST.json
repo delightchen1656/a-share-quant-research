@@ -1,0 +1,40 @@
+{
+  "base_manifest": {
+    "path": "../inputs_pre2025/PUBLIC_INPUT_MANIFEST.json",
+    "sha256": "fd4bfbc19b7af7155d5047615e1f5e94c0a84303bc219251f3564d131aa71ce2"
+  },
+  "approved_extensions": [
+    {
+      "path": "../inputs_pre2025/actions_pre2025_repaired_20261024.json",
+      "sha256": "b8210ba72187320e55a2ad122dbc6c8b737946f2a533ad1d0f23e862833b8faa",
+      "purpose": "repaired pre-boundary corporate-action snapshot"
+    },
+    {
+      "path": "../inputs_pre2025/ORIGINAL_HUSHEN1_CORE_APPROVED.py",
+      "sha256": "87118464a8648e81364e63e09683ffa00169084647a1c2b375a84e0257b9903b",
+      "purpose": "approved pure D11 signal and trading core"
+    },
+    {
+      "path": "../inputs_pre2025/ORIGINAL_PLATFORM_REFERENCE.txt",
+      "sha256": "3bd9948193a8ada9d45dfbc33bc897f54b2395bf0415066f3cc84bdfc654df0a",
+      "purpose": "sanitized platform lifecycle and order semantics"
+    },
+    {
+      "path": "../inputs_pre2025/ORIGINAL_LEDGER_REFERENCE.txt",
+      "sha256": "f3ae61698968c9c94d4787002bc58be80412a62ea98407a2cd08d9458271b15c",
+      "purpose": "sanitized local ledger, fee and T+1 semantics"
+    },
+    {
+      "path": "../inputs_pre2025/ORIGINAL_ENGINE_REFERENCE.txt",
+      "sha256": "9e2f9f025664125119fb5ae3e4f52245d234c97c7e82bd2791776e35eaf80610",
+      "purpose": "sanitized strict daily fill semantics"
+    },
+    {
+      "path": "../inputs_pre2025/ORIGINAL_ACTION_SEMANTICS_REFERENCE.txt",
+      "sha256": "c38764ea213138b36ce741e2529f13d7f8e32d835f589afc61be28614d1d6f8b",
+      "purpose": "sanitized corporate-action field semantics"
+    }
+  ],
+  "binding_rule": "References are read only as text or isolated pure functions. No path, network, cache scan, broker, platform, or production import in a reference may execute. All data bindings resolve only inside ../inputs_pre2025/.",
+  "base_manifest_is_unchanged": true
+}

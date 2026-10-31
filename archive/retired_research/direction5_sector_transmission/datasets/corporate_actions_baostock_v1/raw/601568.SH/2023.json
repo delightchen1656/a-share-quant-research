@@ -1,0 +1,60 @@
+{
+  "symbol": "601568.SH",
+  "year": 2023,
+  "year_type": "operate",
+  "provider": "BaoStock",
+  "status": "returned_events",
+  "complete_corporate_action_ledger": false,
+  "fields": [
+    "code",
+    "dividPreNoticeDate",
+    "dividAgmPumDate",
+    "dividPlanAnnounceDate",
+    "dividPlanDate",
+    "dividRegistDate",
+    "dividOperateDate",
+    "dividPayDate",
+    "dividStockMarketDate",
+    "dividCashPsBeforeTax",
+    "dividCashPsAfterTax",
+    "dividStocksPs",
+    "dividCashStock",
+    "dividReserveToStockPs"
+  ],
+  "rows": [
+    [
+      "sh.601568",
+      "",
+      "2023-06-09",
+      "2023-04-19",
+      "2023-06-16",
+      "2023-06-21",
+      "2023-06-26",
+      "2023-06-26",
+      "",
+      "0.26",
+      "0.234或0.26",
+      "0.000000",
+      "10派2.6元（含税，扣税后2.34或2.6元）",
+      ""
+    ],
+    [
+      "sh.601568",
+      "",
+      "2023-10-21",
+      "2023-09-28",
+      "2023-10-28",
+      "2023-11-02",
+      "2023-11-03",
+      "2023-11-03",
+      "",
+      "0.3",
+      "0.27或0.3",
+      "0.000000",
+      "10派3元（含税，扣税后2.7或3元）",
+      ""
+    ]
+  ],
+  "attempts": 1,
+  "elapsed_seconds": 0.5335
+}

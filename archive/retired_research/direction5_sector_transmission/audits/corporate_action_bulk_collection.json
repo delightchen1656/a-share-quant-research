@@ -1,0 +1,16 @@
+{
+  "server_query_complete": true,
+  "provider_matching_rows_all_markets": 24080,
+  "pages": 49,
+  "scope_symbols": 3336,
+  "scope_events": 15648,
+  "scope_symbol_year_combinations": 23352,
+  "normalized_amount_rows": 15644,
+  "duplicate_event_key_rows": 4,
+  "missing_payment_dates": 15648,
+  "missing_bonus_listing_dates": 1779,
+  "cash_and_listing_dates_require_supplement": true,
+  "complete_corporate_action_ledger": false,
+  "approved_for_economic_labels": false,
+  "request_contract_sha256": "a5ad9c86c8da58534cb55f4ea6ca43d462155fcfc0e29da241b93a5e95875393"
+}

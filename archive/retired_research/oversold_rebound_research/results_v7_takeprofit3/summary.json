@@ -1,0 +1,1741 @@
+{
+  "results": {
+    "样本池": {
+      "price_touch": {
+        "n": 4641,
+        "hit": 4308,
+        "hit_rate": 0.9282482223658695,
+        "no_hit": 333,
+        "no_hit_rate": 0.07175177763413057,
+        "by_day": [
+          {
+            "day": 0,
+            "count": 1401,
+            "share": 0.30187459599224303,
+            "cumulative_count": 1401,
+            "cumulative_share": 0.30187459599224303
+          },
+          {
+            "day": 1,
+            "count": 814,
+            "share": 0.17539323421676362,
+            "cumulative_count": 2215,
+            "cumulative_share": 0.4772678302090067
+          },
+          {
+            "day": 2,
+            "count": 432,
+            "share": 0.09308338720103426,
+            "cumulative_count": 2647,
+            "cumulative_share": 0.5703512174100409
+          },
+          {
+            "day": 3,
+            "count": 275,
+            "share": 0.0592544710191769,
+            "cumulative_count": 2922,
+            "cumulative_share": 0.6296056884292178
+          },
+          {
+            "day": 4,
+            "count": 187,
+            "share": 0.040293040293040296,
+            "cumulative_count": 3109,
+            "cumulative_share": 0.6698987287222581
+          },
+          {
+            "day": 5,
+            "count": 146,
+            "share": 0.03145873734109028,
+            "cumulative_count": 3255,
+            "cumulative_share": 0.7013574660633484
+          },
+          {
+            "day": 6,
+            "count": 117,
+            "share": 0.025210084033613446,
+            "cumulative_count": 3372,
+            "cumulative_share": 0.7265675500969618
+          },
+          {
+            "day": 7,
+            "count": 112,
+            "share": 0.024132730015082957,
+            "cumulative_count": 3484,
+            "cumulative_share": 0.7507002801120448
+          },
+          {
+            "day": 8,
+            "count": 54,
+            "share": 0.011635423400129283,
+            "cumulative_count": 3538,
+            "cumulative_share": 0.7623357035121741
+          },
+          {
+            "day": 9,
+            "count": 43,
+            "share": 0.009265244559362206,
+            "cumulative_count": 3581,
+            "cumulative_share": 0.7716009480715363
+          },
+          {
+            "day": 10,
+            "count": 48,
+            "share": 0.010342598577892695,
+            "cumulative_count": 3629,
+            "cumulative_share": 0.781943546649429
+          },
+          {
+            "day": 11,
+            "count": 50,
+            "share": 0.010773540185304891,
+            "cumulative_count": 3679,
+            "cumulative_share": 0.7927170868347339
+          },
+          {
+            "day": 12,
+            "count": 35,
+            "share": 0.007541478129713424,
+            "cumulative_count": 3714,
+            "cumulative_share": 0.8002585649644474
+          },
+          {
+            "day": 13,
+            "count": 38,
+            "share": 0.008187890540831718,
+            "cumulative_count": 3752,
+            "cumulative_share": 0.808446455505279
+          },
+          {
+            "day": 14,
+            "count": 33,
+            "share": 0.007110536522301228,
+            "cumulative_count": 3785,
+            "cumulative_share": 0.8155569920275803
+          },
+          {
+            "day": 15,
+            "count": 31,
+            "share": 0.006679594914889032,
+            "cumulative_count": 3816,
+            "cumulative_share": 0.8222365869424693
+          },
+          {
+            "day": 16,
+            "count": 27,
+            "share": 0.005817711700064641,
+            "cumulative_count": 3843,
+            "cumulative_share": 0.8280542986425339
+          },
+          {
+            "day": 17,
+            "count": 26,
+            "share": 0.0056022408963585435,
+            "cumulative_count": 3869,
+            "cumulative_share": 0.8336565395388925
+          },
+          {
+            "day": 18,
+            "count": 21,
+            "share": 0.004524886877828055,
+            "cumulative_count": 3890,
+            "cumulative_share": 0.8381814264167206
+          },
+          {
+            "day": 19,
+            "count": 24,
+            "share": 0.005171299288946348,
+            "cumulative_count": 3914,
+            "cumulative_share": 0.8433527257056669
+          },
+          {
+            "day": 20,
+            "count": 28,
+            "share": 0.006033182503770739,
+            "cumulative_count": 3942,
+            "cumulative_share": 0.8493859082094376
+          },
+          {
+            "day": 21,
+            "count": 30,
+            "share": 0.006464124111182934,
+            "cumulative_count": 3972,
+            "cumulative_share": 0.8558500323206205
+          },
+          {
+            "day": 22,
+            "count": 17,
+            "share": 0.003663003663003663,
+            "cumulative_count": 3989,
+            "cumulative_share": 0.8595130359836243
+          },
+          {
+            "day": 23,
+            "count": 26,
+            "share": 0.0056022408963585435,
+            "cumulative_count": 4015,
+            "cumulative_share": 0.8651152768799828
+          },
+          {
+            "day": 24,
+            "count": 19,
+            "share": 0.004093945270415859,
+            "cumulative_count": 4034,
+            "cumulative_share": 0.8692092221503986
+          },
+          {
+            "day": 25,
+            "count": 16,
+            "share": 0.003447532859297565,
+            "cumulative_count": 4050,
+            "cumulative_share": 0.8726567550096962
+          },
+          {
+            "day": 26,
+            "count": 14,
+            "share": 0.0030165912518853697,
+            "cumulative_count": 4064,
+            "cumulative_share": 0.8756733462615816
+          },
+          {
+            "day": 27,
+            "count": 12,
+            "share": 0.002585649644473174,
+            "cumulative_count": 4076,
+            "cumulative_share": 0.8782589959060547
+          },
+          {
+            "day": 28,
+            "count": 21,
+            "share": 0.004524886877828055,
+            "cumulative_count": 4097,
+            "cumulative_share": 0.8827838827838828
+          },
+          {
+            "day": 29,
+            "count": 9,
+            "share": 0.0019392372333548805,
+            "cumulative_count": 4106,
+            "cumulative_share": 0.8847231200172376
+          },
+          {
+            "day": 30,
+            "count": 13,
+            "share": 0.0028011204481792717,
+            "cumulative_count": 4119,
+            "cumulative_share": 0.8875242404654169
+          },
+          {
+            "day": 31,
+            "count": 10,
+            "share": 0.0021547080370609784,
+            "cumulative_count": 4129,
+            "cumulative_share": 0.8896789485024779
+          },
+          {
+            "day": 32,
+            "count": 13,
+            "share": 0.0028011204481792717,
+            "cumulative_count": 4142,
+            "cumulative_share": 0.8924800689506572
+          },
+          {
+            "day": 33,
+            "count": 17,
+            "share": 0.003663003663003663,
+            "cumulative_count": 4159,
+            "cumulative_share": 0.8961430726136609
+          },
+          {
+            "day": 34,
+            "count": 8,
+            "share": 0.0017237664296487825,
+            "cumulative_count": 4167,
+            "cumulative_share": 0.8978668390433097
+          },
+          {
+            "day": 35,
+            "count": 10,
+            "share": 0.0021547080370609784,
+            "cumulative_count": 4177,
+            "cumulative_share": 0.9000215470803706
+          },
+          {
+            "day": 36,
+            "count": 9,
+            "share": 0.0019392372333548805,
+            "cumulative_count": 4186,
+            "cumulative_share": 0.9019607843137255
+          },
+          {
+            "day": 37,
+            "count": 7,
+            "share": 0.0015082956259426848,
+            "cumulative_count": 4193,
+            "cumulative_share": 0.9034690799396682
+          },
+          {
+            "day": 38,
+            "count": 8,
+            "share": 0.0017237664296487825,
+            "cumulative_count": 4201,
+            "cumulative_share": 0.905192846369317
+          },
+          {
+            "day": 39,
+            "count": 9,
+            "share": 0.0019392372333548805,
+            "cumulative_count": 4210,
+            "cumulative_share": 0.9071320836026718
+          },
+          {
+            "day": 40,
+            "count": 7,
+            "share": 0.0015082956259426848,
+            "cumulative_count": 4217,
+            "cumulative_share": 0.9086403792286145
+          },
+          {
+            "day": 41,
+            "count": 3,
+            "share": 0.0006464124111182935,
+            "cumulative_count": 4220,
+            "cumulative_share": 0.9092867916397328
+          },
+          {
+            "day": 42,
+            "count": 5,
+            "share": 0.0010773540185304892,
+            "cumulative_count": 4225,
+            "cumulative_share": 0.9103641456582633
+          },
+          {
+            "day": 43,
+            "count": 12,
+            "share": 0.002585649644473174,
+            "cumulative_count": 4237,
+            "cumulative_share": 0.9129497953027365
+          },
+          {
+            "day": 44,
+            "count": 14,
+            "share": 0.0030165912518853697,
+            "cumulative_count": 4251,
+            "cumulative_share": 0.9159663865546218
+          },
+          {
+            "day": 45,
+            "count": 4,
+            "share": 0.0008618832148243913,
+            "cumulative_count": 4255,
+            "cumulative_share": 0.9168282697694462
+          },
+          {
+            "day": 46,
+            "count": 6,
+            "share": 0.001292824822236587,
+            "cumulative_count": 4261,
+            "cumulative_share": 0.9181210945916828
+          },
+          {
+            "day": 47,
+            "count": 5,
+            "share": 0.0010773540185304892,
+            "cumulative_count": 4266,
+            "cumulative_share": 0.9191984486102133
+          },
+          {
+            "day": 48,
+            "count": 5,
+            "share": 0.0010773540185304892,
+            "cumulative_count": 4271,
+            "cumulative_share": 0.9202758026287438
+          },
+          {
+            "day": 49,
+            "count": 4,
+            "share": 0.0008618832148243913,
+            "cumulative_count": 4275,
+            "cumulative_share": 0.9211376858435681
+          },
+          {
+            "day": 50,
+            "count": 3,
+            "share": 0.0006464124111182935,
+            "cumulative_count": 4278,
+            "cumulative_share": 0.9217840982546864
+          },
+          {
+            "day": 51,
+            "count": 8,
+            "share": 0.0017237664296487825,
+            "cumulative_count": 4286,
+            "cumulative_share": 0.9235078646843353
+          },
+          {
+            "day": 52,
+            "count": 5,
+            "share": 0.0010773540185304892,
+            "cumulative_count": 4291,
+            "cumulative_share": 0.9245852187028658
+          },
+          {
+            "day": 53,
+            "count": 4,
+            "share": 0.0008618832148243913,
+            "cumulative_count": 4295,
+            "cumulative_share": 0.9254471019176902
+          },
+          {
+            "day": 54,
+            "count": 5,
+            "share": 0.0010773540185304892,
+            "cumulative_count": 4300,
+            "cumulative_share": 0.9265244559362207
+          },
+          {
+            "day": 55,
+            "count": 2,
+            "share": 0.00043094160741219563,
+            "cumulative_count": 4302,
+            "cumulative_share": 0.9269553975436329
+          },
+          {
+            "day": 56,
+            "count": 1,
+            "share": 0.00021547080370609782,
+            "cumulative_count": 4303,
+            "cumulative_share": 0.927170868347339
+          },
+          {
+            "day": 57,
+            "count": 3,
+            "share": 0.0006464124111182935,
+            "cumulative_count": 4306,
+            "cumulative_share": 0.9278172807584573
+          },
+          {
+            "day": 58,
+            "count": 2,
+            "share": 0.00043094160741219563,
+            "cumulative_count": 4308,
+            "cumulative_share": 0.9282482223658695
+          },
+          {
+            "day": 59,
+            "count": 0,
+            "share": 0.0,
+            "cumulative_count": 4308,
+            "cumulative_share": 0.9282482223658695
+          }
+        ],
+        "median_hit_day": 1.0,
+        "mean_hit_day": 5.474001857010213
+      },
+      "t1_eligible": {
+        "n": 4641,
+        "hit": 4278,
+        "hit_rate": 0.9217840982546864,
+        "no_hit": 363,
+        "no_hit_rate": 0.07821590174531351,
+        "by_day": [
+          {
+            "day": 0,
+            "count": 0,
+            "share": 0.0,
+            "cumulative_count": 0,
+            "cumulative_share": 0.0
+          },
+          {
+            "day": 1,
+            "count": 1926,
+            "share": 0.41499676793794443,
+            "cumulative_count": 1926,
+            "cumulative_share": 0.41499676793794443
+          },
+          {
+            "day": 2,
+            "count": 523,
+            "share": 0.11269123033828916,
+            "cumulative_count": 2449,
+            "cumulative_share": 0.5276879982762336
+          },
+          {
+            "day": 3,
+            "count": 310,
+            "share": 0.06679594914889032,
+            "cumulative_count": 2759,
+            "cumulative_share": 0.5944839474251239
+          },
+          {
+            "day": 4,
+            "count": 209,
+            "share": 0.045033397974574445,
+            "cumulative_count": 2968,
+            "cumulative_share": 0.6395173453996983
+          },
+          {
+            "day": 5,
+            "count": 158,
+            "share": 0.03404438698556345,
+            "cumulative_count": 3126,
+            "cumulative_share": 0.6735617323852618
+          },
+          {
+            "day": 6,
+            "count": 134,
+            "share": 0.02887308769661711,
+            "cumulative_count": 3260,
+            "cumulative_share": 0.7024348200818789
+          },
+          {
+            "day": 7,
+            "count": 127,
+            "share": 0.027364792070674424,
+            "cumulative_count": 3387,
+            "cumulative_share": 0.7297996121525533
+          },
+          {
+            "day": 8,
+            "count": 60,
+            "share": 0.012928248222365869,
+            "cumulative_count": 3447,
+            "cumulative_share": 0.7427278603749192
+          },
+          {
+            "day": 9,
+            "count": 47,
+            "share": 0.010127127774186598,
+            "cumulative_count": 3494,
+            "cumulative_share": 0.7528549881491058
+          },
+          {
+            "day": 10,
+            "count": 50,
+            "share": 0.010773540185304891,
+            "cumulative_count": 3544,
+            "cumulative_share": 0.7636285283344106
+          },
+          {
+            "day": 11,
+            "count": 54,
+            "share": 0.011635423400129283,
+            "cumulative_count": 3598,
+            "cumulative_share": 0.77526395173454
+          },
+          {
+            "day": 12,
+            "count": 40,
+            "share": 0.008618832148243914,
+            "cumulative_count": 3638,
+            "cumulative_share": 0.7838827838827839
+          },
+          {
+            "day": 13,
+            "count": 44,
+            "share": 0.009480715363068304,
+            "cumulative_count": 3682,
+            "cumulative_share": 0.7933634992458521
+          },
+          {
+            "day": 14,
+            "count": 34,
+            "share": 0.007326007326007326,
+            "cumulative_count": 3716,
+            "cumulative_share": 0.8006895065718596
+          },
+          {
+            "day": 15,
+            "count": 39,
+            "share": 0.008403361344537815,
+            "cumulative_count": 3755,
+            "cumulative_share": 0.8090928679163973
+          },
+          {
+            "day": 16,
+            "count": 28,
+            "share": 0.006033182503770739,
+            "cumulative_count": 3783,
+            "cumulative_share": 0.8151260504201681
+          },
+          {
+            "day": 17,
+            "count": 29,
+            "share": 0.006248653307476837,
+            "cumulative_count": 3812,
+            "cumulative_share": 0.8213747037276449
+          },
+          {
+            "day": 18,
+            "count": 23,
+            "share": 0.00495582848524025,
+            "cumulative_count": 3835,
+            "cumulative_share": 0.8263305322128851
+          },
+          {
+            "day": 19,
+            "count": 25,
+            "share": 0.0053867700926524455,
+            "cumulative_count": 3860,
+            "cumulative_share": 0.8317173023055376
+          },
+          {
+            "day": 20,
+            "count": 31,
+            "share": 0.006679594914889032,
+            "cumulative_count": 3891,
+            "cumulative_share": 0.8383968972204267
+          },
+          {
+            "day": 21,
+            "count": 32,
+            "share": 0.00689506571859513,
+            "cumulative_count": 3923,
+            "cumulative_share": 0.8452919629390218
+          },
+          {
+            "day": 22,
+            "count": 18,
+            "share": 0.003878474466709761,
+            "cumulative_count": 3941,
+            "cumulative_share": 0.8491704374057315
+          },
+          {
+            "day": 23,
+            "count": 28,
+            "share": 0.006033182503770739,
+            "cumulative_count": 3969,
+            "cumulative_share": 0.8552036199095022
+          },
+          {
+            "day": 24,
+            "count": 19,
+            "share": 0.004093945270415859,
+            "cumulative_count": 3988,
+            "cumulative_share": 0.8592975651799181
+          },
+          {
+            "day": 25,
+            "count": 16,
+            "share": 0.003447532859297565,
+            "cumulative_count": 4004,
+            "cumulative_share": 0.8627450980392157
+          },
+          {
+            "day": 26,
+            "count": 16,
+            "share": 0.003447532859297565,
+            "cumulative_count": 4020,
+            "cumulative_share": 0.8661926308985133
+          },
+          {
+            "day": 27,
+            "count": 14,
+            "share": 0.0030165912518853697,
+            "cumulative_count": 4034,
+            "cumulative_share": 0.8692092221503986
+          },
+          {
+            "day": 28,
+            "count": 21,
+            "share": 0.004524886877828055,
+            "cumulative_count": 4055,
+            "cumulative_share": 0.8737341090282267
+          },
+          {
+            "day": 29,
+            "count": 9,
+            "share": 0.0019392372333548805,
+            "cumulative_count": 4064,
+            "cumulative_share": 0.8756733462615816
+          },
+          {
+            "day": 30,
+            "count": 14,
+            "share": 0.0030165912518853697,
+            "cumulative_count": 4078,
+            "cumulative_share": 0.8786899375134669
+          },
+          {
+            "day": 31,
+            "count": 12,
+            "share": 0.002585649644473174,
+            "cumulative_count": 4090,
+            "cumulative_share": 0.8812755871579401
+          },
+          {
+            "day": 32,
+            "count": 13,
+            "share": 0.0028011204481792717,
+            "cumulative_count": 4103,
+            "cumulative_share": 0.8840767076061193
+          },
+          {
+            "day": 33,
+            "count": 17,
+            "share": 0.003663003663003663,
+            "cumulative_count": 4120,
+            "cumulative_share": 0.887739711269123
+          },
+          {
+            "day": 34,
+            "count": 9,
+            "share": 0.0019392372333548805,
+            "cumulative_count": 4129,
+            "cumulative_share": 0.8896789485024779
+          },
+          {
+            "day": 35,
+            "count": 10,
+            "share": 0.0021547080370609784,
+            "cumulative_count": 4139,
+            "cumulative_share": 0.8918336565395389
+          },
+          {
+            "day": 36,
+            "count": 9,
+            "share": 0.0019392372333548805,
+            "cumulative_count": 4148,
+            "cumulative_share": 0.8937728937728938
+          },
+          {
+            "day": 37,
+            "count": 7,
+            "share": 0.0015082956259426848,
+            "cumulative_count": 4155,
+            "cumulative_share": 0.8952811893988365
+          },
+          {
+            "day": 38,
+            "count": 8,
+            "share": 0.0017237664296487825,
+            "cumulative_count": 4163,
+            "cumulative_share": 0.8970049558284853
+          },
+          {
+            "day": 39,
+            "count": 10,
+            "share": 0.0021547080370609784,
+            "cumulative_count": 4173,
+            "cumulative_share": 0.8991596638655462
+          },
+          {
+            "day": 40,
+            "count": 8,
+            "share": 0.0017237664296487825,
+            "cumulative_count": 4181,
+            "cumulative_share": 0.900883430295195
+          },
+          {
+            "day": 41,
+            "count": 3,
+            "share": 0.0006464124111182935,
+            "cumulative_count": 4184,
+            "cumulative_share": 0.9015298427063133
+          },
+          {
+            "day": 42,
+            "count": 5,
+            "share": 0.0010773540185304892,
+            "cumulative_count": 4189,
+            "cumulative_share": 0.9026071967248438
+          },
+          {
+            "day": 43,
+            "count": 13,
+            "share": 0.0028011204481792717,
+            "cumulative_count": 4202,
+            "cumulative_share": 0.9054083171730231
+          },
+          {
+            "day": 44,
+            "count": 14,
+            "share": 0.0030165912518853697,
+            "cumulative_count": 4216,
+            "cumulative_share": 0.9084249084249084
+          },
+          {
+            "day": 45,
+            "count": 5,
+            "share": 0.0010773540185304892,
+            "cumulative_count": 4221,
+            "cumulative_share": 0.9095022624434389
+          },
+          {
+            "day": 46,
+            "count": 6,
+            "share": 0.001292824822236587,
+            "cumulative_count": 4227,
+            "cumulative_share": 0.9107950872656755
+          },
+          {
+            "day": 47,
+            "count": 5,
+            "share": 0.0010773540185304892,
+            "cumulative_count": 4232,
+            "cumulative_share": 0.911872441284206
+          },
+          {
+            "day": 48,
+            "count": 6,
+            "share": 0.001292824822236587,
+            "cumulative_count": 4238,
+            "cumulative_share": 0.9131652661064426
+          },
+          {
+            "day": 49,
+            "count": 4,
+            "share": 0.0008618832148243913,
+            "cumulative_count": 4242,
+            "cumulative_share": 0.9140271493212669
+          },
+          {
+            "day": 50,
+            "count": 3,
+            "share": 0.0006464124111182935,
+            "cumulative_count": 4245,
+            "cumulative_share": 0.9146735617323852
+          },
+          {
+            "day": 51,
+            "count": 8,
+            "share": 0.0017237664296487825,
+            "cumulative_count": 4253,
+            "cumulative_share": 0.916397328162034
+          },
+          {
+            "day": 52,
+            "count": 6,
+            "share": 0.001292824822236587,
+            "cumulative_count": 4259,
+            "cumulative_share": 0.9176901529842706
+          },
+          {
+            "day": 53,
+            "count": 6,
+            "share": 0.001292824822236587,
+            "cumulative_count": 4265,
+            "cumulative_share": 0.9189829778065072
+          },
+          {
+            "day": 54,
+            "count": 5,
+            "share": 0.0010773540185304892,
+            "cumulative_count": 4270,
+            "cumulative_share": 0.9200603318250377
+          },
+          {
+            "day": 55,
+            "count": 2,
+            "share": 0.00043094160741219563,
+            "cumulative_count": 4272,
+            "cumulative_share": 0.9204912734324499
+          },
+          {
+            "day": 56,
+            "count": 1,
+            "share": 0.00021547080370609782,
+            "cumulative_count": 4273,
+            "cumulative_share": 0.920706744236156
+          },
+          {
+            "day": 57,
+            "count": 3,
+            "share": 0.0006464124111182935,
+            "cumulative_count": 4276,
+            "cumulative_share": 0.9213531566472742
+          },
+          {
+            "day": 58,
+            "count": 2,
+            "share": 0.00043094160741219563,
+            "cumulative_count": 4278,
+            "cumulative_share": 0.9217840982546864
+          },
+          {
+            "day": 59,
+            "count": 0,
+            "share": 0.0,
+            "cumulative_count": 4278,
+            "cumulative_share": 0.9217840982546864
+          }
+        ],
+        "median_hit_day": 2.0,
+        "mean_hit_day": 6.230247779336138
+      },
+      "buy_day_touch": 1401,
+      "buy_day_only": 30
+    },
+    "龙头子样本": {
+      "price_touch": {
+        "n": 881,
+        "hit": 817,
+        "hit_rate": 0.927355278093076,
+        "no_hit": 64,
+        "no_hit_rate": 0.07264472190692395,
+        "by_day": [
+          {
+            "day": 0,
+            "count": 244,
+            "share": 0.27695800227014755,
+            "cumulative_count": 244,
+            "cumulative_share": 0.27695800227014755
+          },
+          {
+            "day": 1,
+            "count": 174,
+            "share": 0.19750283768444948,
+            "cumulative_count": 418,
+            "cumulative_share": 0.47446083995459704
+          },
+          {
+            "day": 2,
+            "count": 72,
+            "share": 0.08172531214528944,
+            "cumulative_count": 490,
+            "cumulative_share": 0.5561861520998865
+          },
+          {
+            "day": 3,
+            "count": 64,
+            "share": 0.07264472190692395,
+            "cumulative_count": 554,
+            "cumulative_share": 0.6288308740068105
+          },
+          {
+            "day": 4,
+            "count": 31,
+            "share": 0.03518728717366629,
+            "cumulative_count": 585,
+            "cumulative_share": 0.6640181611804767
+          },
+          {
+            "day": 5,
+            "count": 31,
+            "share": 0.03518728717366629,
+            "cumulative_count": 616,
+            "cumulative_share": 0.699205448354143
+          },
+          {
+            "day": 6,
+            "count": 26,
+            "share": 0.029511918274687854,
+            "cumulative_count": 642,
+            "cumulative_share": 0.7287173666288309
+          },
+          {
+            "day": 7,
+            "count": 19,
+            "share": 0.021566401816118047,
+            "cumulative_count": 661,
+            "cumulative_share": 0.7502837684449489
+          },
+          {
+            "day": 8,
+            "count": 9,
+            "share": 0.01021566401816118,
+            "cumulative_count": 670,
+            "cumulative_share": 0.7604994324631101
+          },
+          {
+            "day": 9,
+            "count": 9,
+            "share": 0.01021566401816118,
+            "cumulative_count": 679,
+            "cumulative_share": 0.7707150964812712
+          },
+          {
+            "day": 10,
+            "count": 7,
+            "share": 0.007945516458569807,
+            "cumulative_count": 686,
+            "cumulative_share": 0.7786606129398411
+          },
+          {
+            "day": 11,
+            "count": 8,
+            "share": 0.009080590238365494,
+            "cumulative_count": 694,
+            "cumulative_share": 0.7877412031782066
+          },
+          {
+            "day": 12,
+            "count": 8,
+            "share": 0.009080590238365494,
+            "cumulative_count": 702,
+            "cumulative_share": 0.7968217934165721
+          },
+          {
+            "day": 13,
+            "count": 2,
+            "share": 0.0022701475595913734,
+            "cumulative_count": 704,
+            "cumulative_share": 0.7990919409761634
+          },
+          {
+            "day": 14,
+            "count": 7,
+            "share": 0.007945516458569807,
+            "cumulative_count": 711,
+            "cumulative_share": 0.8070374574347332
+          },
+          {
+            "day": 15,
+            "count": 7,
+            "share": 0.007945516458569807,
+            "cumulative_count": 718,
+            "cumulative_share": 0.8149829738933031
+          },
+          {
+            "day": 16,
+            "count": 6,
+            "share": 0.00681044267877412,
+            "cumulative_count": 724,
+            "cumulative_share": 0.8217934165720772
+          },
+          {
+            "day": 17,
+            "count": 5,
+            "share": 0.0056753688989784334,
+            "cumulative_count": 729,
+            "cumulative_share": 0.8274687854710556
+          },
+          {
+            "day": 18,
+            "count": 3,
+            "share": 0.00340522133938706,
+            "cumulative_count": 732,
+            "cumulative_share": 0.8308740068104427
+          },
+          {
+            "day": 19,
+            "count": 3,
+            "share": 0.00340522133938706,
+            "cumulative_count": 735,
+            "cumulative_share": 0.8342792281498297
+          },
+          {
+            "day": 20,
+            "count": 5,
+            "share": 0.0056753688989784334,
+            "cumulative_count": 740,
+            "cumulative_share": 0.8399545970488081
+          },
+          {
+            "day": 21,
+            "count": 5,
+            "share": 0.0056753688989784334,
+            "cumulative_count": 745,
+            "cumulative_share": 0.8456299659477866
+          },
+          {
+            "day": 22,
+            "count": 5,
+            "share": 0.0056753688989784334,
+            "cumulative_count": 750,
+            "cumulative_share": 0.8513053348467651
+          },
+          {
+            "day": 23,
+            "count": 5,
+            "share": 0.0056753688989784334,
+            "cumulative_count": 755,
+            "cumulative_share": 0.8569807037457434
+          },
+          {
+            "day": 24,
+            "count": 3,
+            "share": 0.00340522133938706,
+            "cumulative_count": 758,
+            "cumulative_share": 0.8603859250851306
+          },
+          {
+            "day": 25,
+            "count": 3,
+            "share": 0.00340522133938706,
+            "cumulative_count": 761,
+            "cumulative_share": 0.8637911464245176
+          },
+          {
+            "day": 26,
+            "count": 2,
+            "share": 0.0022701475595913734,
+            "cumulative_count": 763,
+            "cumulative_share": 0.8660612939841089
+          },
+          {
+            "day": 27,
+            "count": 2,
+            "share": 0.0022701475595913734,
+            "cumulative_count": 765,
+            "cumulative_share": 0.8683314415437003
+          },
+          {
+            "day": 28,
+            "count": 4,
+            "share": 0.004540295119182747,
+            "cumulative_count": 769,
+            "cumulative_share": 0.8728717366628831
+          },
+          {
+            "day": 29,
+            "count": 4,
+            "share": 0.004540295119182747,
+            "cumulative_count": 773,
+            "cumulative_share": 0.8774120317820658
+          },
+          {
+            "day": 30,
+            "count": 2,
+            "share": 0.0022701475595913734,
+            "cumulative_count": 775,
+            "cumulative_share": 0.8796821793416572
+          },
+          {
+            "day": 31,
+            "count": 4,
+            "share": 0.004540295119182747,
+            "cumulative_count": 779,
+            "cumulative_share": 0.8842224744608399
+          },
+          {
+            "day": 32,
+            "count": 3,
+            "share": 0.00340522133938706,
+            "cumulative_count": 782,
+            "cumulative_share": 0.887627695800227
+          },
+          {
+            "day": 33,
+            "count": 10,
+            "share": 0.011350737797956867,
+            "cumulative_count": 792,
+            "cumulative_share": 0.8989784335981839
+          },
+          {
+            "day": 34,
+            "count": 1,
+            "share": 0.0011350737797956867,
+            "cumulative_count": 793,
+            "cumulative_share": 0.9001135073779796
+          },
+          {
+            "day": 35,
+            "count": 2,
+            "share": 0.0022701475595913734,
+            "cumulative_count": 795,
+            "cumulative_share": 0.9023836549375709
+          },
+          {
+            "day": 36,
+            "count": 1,
+            "share": 0.0011350737797956867,
+            "cumulative_count": 796,
+            "cumulative_share": 0.9035187287173666
+          },
+          {
+            "day": 37,
+            "count": 4,
+            "share": 0.004540295119182747,
+            "cumulative_count": 800,
+            "cumulative_share": 0.9080590238365494
+          },
+          {
+            "day": 38,
+            "count": 0,
+            "share": 0.0,
+            "cumulative_count": 800,
+            "cumulative_share": 0.9080590238365494
+          },
+          {
+            "day": 39,
+            "count": 0,
+            "share": 0.0,
+            "cumulative_count": 800,
+            "cumulative_share": 0.9080590238365494
+          },
+          {
+            "day": 40,
+            "count": 2,
+            "share": 0.0022701475595913734,
+            "cumulative_count": 802,
+            "cumulative_share": 0.9103291713961408
+          },
+          {
+            "day": 41,
+            "count": 1,
+            "share": 0.0011350737797956867,
+            "cumulative_count": 803,
+            "cumulative_share": 0.9114642451759364
+          },
+          {
+            "day": 42,
+            "count": 2,
+            "share": 0.0022701475595913734,
+            "cumulative_count": 805,
+            "cumulative_share": 0.9137343927355278
+          },
+          {
+            "day": 43,
+            "count": 2,
+            "share": 0.0022701475595913734,
+            "cumulative_count": 807,
+            "cumulative_share": 0.9160045402951191
+          },
+          {
+            "day": 44,
+            "count": 2,
+            "share": 0.0022701475595913734,
+            "cumulative_count": 809,
+            "cumulative_share": 0.9182746878547106
+          },
+          {
+            "day": 45,
+            "count": 1,
+            "share": 0.0011350737797956867,
+            "cumulative_count": 810,
+            "cumulative_share": 0.9194097616345063
+          },
+          {
+            "day": 46,
+            "count": 0,
+            "share": 0.0,
+            "cumulative_count": 810,
+            "cumulative_share": 0.9194097616345063
+          },
+          {
+            "day": 47,
+            "count": 1,
+            "share": 0.0011350737797956867,
+            "cumulative_count": 811,
+            "cumulative_share": 0.9205448354143019
+          },
+          {
+            "day": 48,
+            "count": 1,
+            "share": 0.0011350737797956867,
+            "cumulative_count": 812,
+            "cumulative_share": 0.9216799091940976
+          },
+          {
+            "day": 49,
+            "count": 0,
+            "share": 0.0,
+            "cumulative_count": 812,
+            "cumulative_share": 0.9216799091940976
+          },
+          {
+            "day": 50,
+            "count": 1,
+            "share": 0.0011350737797956867,
+            "cumulative_count": 813,
+            "cumulative_share": 0.9228149829738933
+          },
+          {
+            "day": 51,
+            "count": 0,
+            "share": 0.0,
+            "cumulative_count": 813,
+            "cumulative_share": 0.9228149829738933
+          },
+          {
+            "day": 52,
+            "count": 0,
+            "share": 0.0,
+            "cumulative_count": 813,
+            "cumulative_share": 0.9228149829738933
+          },
+          {
+            "day": 53,
+            "count": 2,
+            "share": 0.0022701475595913734,
+            "cumulative_count": 815,
+            "cumulative_share": 0.9250851305334846
+          },
+          {
+            "day": 54,
+            "count": 0,
+            "share": 0.0,
+            "cumulative_count": 815,
+            "cumulative_share": 0.9250851305334846
+          },
+          {
+            "day": 55,
+            "count": 0,
+            "share": 0.0,
+            "cumulative_count": 815,
+            "cumulative_share": 0.9250851305334846
+          },
+          {
+            "day": 56,
+            "count": 1,
+            "share": 0.0011350737797956867,
+            "cumulative_count": 816,
+            "cumulative_share": 0.9262202043132803
+          },
+          {
+            "day": 57,
+            "count": 0,
+            "share": 0.0,
+            "cumulative_count": 816,
+            "cumulative_share": 0.9262202043132803
+          },
+          {
+            "day": 58,
+            "count": 1,
+            "share": 0.0011350737797956867,
+            "cumulative_count": 817,
+            "cumulative_share": 0.927355278093076
+          },
+          {
+            "day": 59,
+            "count": 0,
+            "share": 0.0,
+            "cumulative_count": 817,
+            "cumulative_share": 0.927355278093076
+          }
+        ],
+        "median_hit_day": 1.0,
+        "mean_hit_day": 5.635250917992656
+      },
+      "t1_eligible": {
+        "n": 881,
+        "hit": 808,
+        "hit_rate": 0.9171396140749148,
+        "no_hit": 73,
+        "no_hit_rate": 0.08286038592508513,
+        "by_day": [
+          {
+            "day": 0,
+            "count": 0,
+            "share": 0.0,
+            "cumulative_count": 0,
+            "cumulative_share": 0.0
+          },
+          {
+            "day": 1,
+            "count": 362,
+            "share": 0.4108967082860386,
+            "cumulative_count": 362,
+            "cumulative_share": 0.4108967082860386
+          },
+          {
+            "day": 2,
+            "count": 87,
+            "share": 0.09875141884222474,
+            "cumulative_count": 449,
+            "cumulative_share": 0.5096481271282634
+          },
+          {
+            "day": 3,
+            "count": 71,
+            "share": 0.08059023836549375,
+            "cumulative_count": 520,
+            "cumulative_share": 0.5902383654937571
+          },
+          {
+            "day": 4,
+            "count": 33,
+            "share": 0.03745743473325766,
+            "cumulative_count": 553,
+            "cumulative_share": 0.6276958002270148
+          },
+          {
+            "day": 5,
+            "count": 33,
+            "share": 0.03745743473325766,
+            "cumulative_count": 586,
+            "cumulative_share": 0.6651532349602725
+          },
+          {
+            "day": 6,
+            "count": 29,
+            "share": 0.032917139614074914,
+            "cumulative_count": 615,
+            "cumulative_share": 0.6980703745743473
+          },
+          {
+            "day": 7,
+            "count": 22,
+            "share": 0.024971623155505107,
+            "cumulative_count": 637,
+            "cumulative_share": 0.7230419977298524
+          },
+          {
+            "day": 8,
+            "count": 11,
+            "share": 0.012485811577752554,
+            "cumulative_count": 648,
+            "cumulative_share": 0.735527809307605
+          },
+          {
+            "day": 9,
+            "count": 9,
+            "share": 0.01021566401816118,
+            "cumulative_count": 657,
+            "cumulative_share": 0.7457434733257662
+          },
+          {
+            "day": 10,
+            "count": 9,
+            "share": 0.01021566401816118,
+            "cumulative_count": 666,
+            "cumulative_share": 0.7559591373439274
+          },
+          {
+            "day": 11,
+            "count": 8,
+            "share": 0.009080590238365494,
+            "cumulative_count": 674,
+            "cumulative_share": 0.7650397275822929
+          },
+          {
+            "day": 12,
+            "count": 8,
+            "share": 0.009080590238365494,
+            "cumulative_count": 682,
+            "cumulative_share": 0.7741203178206584
+          },
+          {
+            "day": 13,
+            "count": 5,
+            "share": 0.0056753688989784334,
+            "cumulative_count": 687,
+            "cumulative_share": 0.7797956867196367
+          },
+          {
+            "day": 14,
+            "count": 7,
+            "share": 0.007945516458569807,
+            "cumulative_count": 694,
+            "cumulative_share": 0.7877412031782066
+          },
+          {
+            "day": 15,
+            "count": 9,
+            "share": 0.01021566401816118,
+            "cumulative_count": 703,
+            "cumulative_share": 0.7979568671963677
+          },
+          {
+            "day": 16,
+            "count": 6,
+            "share": 0.00681044267877412,
+            "cumulative_count": 709,
+            "cumulative_share": 0.8047673098751419
+          },
+          {
+            "day": 17,
+            "count": 5,
+            "share": 0.0056753688989784334,
+            "cumulative_count": 714,
+            "cumulative_share": 0.8104426787741204
+          },
+          {
+            "day": 18,
+            "count": 3,
+            "share": 0.00340522133938706,
+            "cumulative_count": 717,
+            "cumulative_share": 0.8138479001135074
+          },
+          {
+            "day": 19,
+            "count": 3,
+            "share": 0.00340522133938706,
+            "cumulative_count": 720,
+            "cumulative_share": 0.8172531214528944
+          },
+          {
+            "day": 20,
+            "count": 6,
+            "share": 0.00681044267877412,
+            "cumulative_count": 726,
+            "cumulative_share": 0.8240635641316686
+          },
+          {
+            "day": 21,
+            "count": 6,
+            "share": 0.00681044267877412,
+            "cumulative_count": 732,
+            "cumulative_share": 0.8308740068104427
+          },
+          {
+            "day": 22,
+            "count": 5,
+            "share": 0.0056753688989784334,
+            "cumulative_count": 737,
+            "cumulative_share": 0.8365493757094211
+          },
+          {
+            "day": 23,
+            "count": 6,
+            "share": 0.00681044267877412,
+            "cumulative_count": 743,
+            "cumulative_share": 0.8433598183881952
+          },
+          {
+            "day": 24,
+            "count": 3,
+            "share": 0.00340522133938706,
+            "cumulative_count": 746,
+            "cumulative_share": 0.8467650397275823
+          },
+          {
+            "day": 25,
+            "count": 3,
+            "share": 0.00340522133938706,
+            "cumulative_count": 749,
+            "cumulative_share": 0.8501702610669694
+          },
+          {
+            "day": 26,
+            "count": 2,
+            "share": 0.0022701475595913734,
+            "cumulative_count": 751,
+            "cumulative_share": 0.8524404086265607
+          },
+          {
+            "day": 27,
+            "count": 3,
+            "share": 0.00340522133938706,
+            "cumulative_count": 754,
+            "cumulative_share": 0.8558456299659478
+          },
+          {
+            "day": 28,
+            "count": 4,
+            "share": 0.004540295119182747,
+            "cumulative_count": 758,
+            "cumulative_share": 0.8603859250851306
+          },
+          {
+            "day": 29,
+            "count": 4,
+            "share": 0.004540295119182747,
+            "cumulative_count": 762,
+            "cumulative_share": 0.8649262202043133
+          },
+          {
+            "day": 30,
+            "count": 2,
+            "share": 0.0022701475595913734,
+            "cumulative_count": 764,
+            "cumulative_share": 0.8671963677639046
+          },
+          {
+            "day": 31,
+            "count": 4,
+            "share": 0.004540295119182747,
+            "cumulative_count": 768,
+            "cumulative_share": 0.8717366628830874
+          },
+          {
+            "day": 32,
+            "count": 3,
+            "share": 0.00340522133938706,
+            "cumulative_count": 771,
+            "cumulative_share": 0.8751418842224744
+          },
+          {
+            "day": 33,
+            "count": 10,
+            "share": 0.011350737797956867,
+            "cumulative_count": 781,
+            "cumulative_share": 0.8864926220204313
+          },
+          {
+            "day": 34,
+            "count": 1,
+            "share": 0.0011350737797956867,
+            "cumulative_count": 782,
+            "cumulative_share": 0.887627695800227
+          },
+          {
+            "day": 35,
+            "count": 2,
+            "share": 0.0022701475595913734,
+            "cumulative_count": 784,
+            "cumulative_share": 0.8898978433598184
+          },
+          {
+            "day": 36,
+            "count": 1,
+            "share": 0.0011350737797956867,
+            "cumulative_count": 785,
+            "cumulative_share": 0.8910329171396141
+          },
+          {
+            "day": 37,
+            "count": 4,
+            "share": 0.004540295119182747,
+            "cumulative_count": 789,
+            "cumulative_share": 0.8955732122587968
+          },
+          {
+            "day": 38,
+            "count": 0,
+            "share": 0.0,
+            "cumulative_count": 789,
+            "cumulative_share": 0.8955732122587968
+          },
+          {
+            "day": 39,
+            "count": 1,
+            "share": 0.0011350737797956867,
+            "cumulative_count": 790,
+            "cumulative_share": 0.8967082860385925
+          },
+          {
+            "day": 40,
+            "count": 2,
+            "share": 0.0022701475595913734,
+            "cumulative_count": 792,
+            "cumulative_share": 0.8989784335981839
+          },
+          {
+            "day": 41,
+            "count": 1,
+            "share": 0.0011350737797956867,
+            "cumulative_count": 793,
+            "cumulative_share": 0.9001135073779796
+          },
+          {
+            "day": 42,
+            "count": 2,
+            "share": 0.0022701475595913734,
+            "cumulative_count": 795,
+            "cumulative_share": 0.9023836549375709
+          },
+          {
+            "day": 43,
+            "count": 2,
+            "share": 0.0022701475595913734,
+            "cumulative_count": 797,
+            "cumulative_share": 0.9046538024971623
+          },
+          {
+            "day": 44,
+            "count": 2,
+            "share": 0.0022701475595913734,
+            "cumulative_count": 799,
+            "cumulative_share": 0.9069239500567536
+          },
+          {
+            "day": 45,
+            "count": 1,
+            "share": 0.0011350737797956867,
+            "cumulative_count": 800,
+            "cumulative_share": 0.9080590238365494
+          },
+          {
+            "day": 46,
+            "count": 0,
+            "share": 0.0,
+            "cumulative_count": 800,
+            "cumulative_share": 0.9080590238365494
+          },
+          {
+            "day": 47,
+            "count": 1,
+            "share": 0.0011350737797956867,
+            "cumulative_count": 801,
+            "cumulative_share": 0.9091940976163451
+          },
+          {
+            "day": 48,
+            "count": 2,
+            "share": 0.0022701475595913734,
+            "cumulative_count": 803,
+            "cumulative_share": 0.9114642451759364
+          },
+          {
+            "day": 49,
+            "count": 0,
+            "share": 0.0,
+            "cumulative_count": 803,
+            "cumulative_share": 0.9114642451759364
+          },
+          {
+            "day": 50,
+            "count": 1,
+            "share": 0.0011350737797956867,
+            "cumulative_count": 804,
+            "cumulative_share": 0.9125993189557321
+          },
+          {
+            "day": 51,
+            "count": 0,
+            "share": 0.0,
+            "cumulative_count": 804,
+            "cumulative_share": 0.9125993189557321
+          },
+          {
+            "day": 52,
+            "count": 0,
+            "share": 0.0,
+            "cumulative_count": 804,
+            "cumulative_share": 0.9125993189557321
+          },
+          {
+            "day": 53,
+            "count": 2,
+            "share": 0.0022701475595913734,
+            "cumulative_count": 806,
+            "cumulative_share": 0.9148694665153235
+          },
+          {
+            "day": 54,
+            "count": 0,
+            "share": 0.0,
+            "cumulative_count": 806,
+            "cumulative_share": 0.9148694665153235
+          },
+          {
+            "day": 55,
+            "count": 0,
+            "share": 0.0,
+            "cumulative_count": 806,
+            "cumulative_share": 0.9148694665153235
+          },
+          {
+            "day": 56,
+            "count": 1,
+            "share": 0.0011350737797956867,
+            "cumulative_count": 807,
+            "cumulative_share": 0.9160045402951191
+          },
+          {
+            "day": 57,
+            "count": 0,
+            "share": 0.0,
+            "cumulative_count": 807,
+            "cumulative_share": 0.9160045402951191
+          },
+          {
+            "day": 58,
+            "count": 1,
+            "share": 0.0011350737797956867,
+            "cumulative_count": 808,
+            "cumulative_share": 0.9171396140749148
+          },
+          {
+            "day": 59,
+            "count": 0,
+            "share": 0.0,
+            "cumulative_count": 808,
+            "cumulative_share": 0.9171396140749148
+          }
+        ],
+        "median_hit_day": 2.0,
+        "mean_hit_day": 6.41460396039604
+      },
+      "buy_day_touch": 244,
+      "buy_day_only": 9
+    }
+  },
+  "boundary": "2024-12-31",
+  "rule": "Assume entry at signal next official-session open; high >= entry*1.03 is touch. No stop loss. Keep original D1-D60 window=B0-B59.",
+  "t1": "B0 touch only observational; eligible touch starts B1, even if B0 had already touched. Missing sessions skipped without fabricating bars or changing day numbering.",
+  "caveat": "Touch-date proxy conditional on assumed successful entry. Not actual fills, net 3% after fees, or share/dividend economic-account simulation. Adjusted price path; current-universe/leader retrospective cohort.",
+  "verification": "4 synthetic first-touch tests, quote/calendar hashes, event counts and ordering checks passed."
+}

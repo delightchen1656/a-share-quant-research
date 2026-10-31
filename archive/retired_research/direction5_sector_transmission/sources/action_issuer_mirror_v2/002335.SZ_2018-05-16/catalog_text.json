@@ -1,0 +1,44 @@
+{
+  "symbol": "002335.SZ",
+  "event_date": "2018-05-16",
+  "kind": "dividend_fields",
+  "start": "2018-02-25",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\002335.SZ_2018-05-16\\query_01.json",
+      "sha256": "4d22c88a5d31a4adbdb6d28b1345e5b37bd17c1331bbfe351105bc8c79c493f7",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "002335",
+        "begin_time": "2018-02-25",
+        "end_time": "2018-05-16"
+      }
+    }
+  ],
+  "announcement_count": 60,
+  "documents": [
+    {
+      "title": "科华恒盛:2017年年度权益分派实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2018-05-10",
+      "raw_response": "sources\\action_issuer_mirror_v2\\002335.SZ_2018-05-16\\AN201805091140396467_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\002335.SZ_2018-05-16\\AN201805091140396467.txt",
+      "sha256": "c5f9a55ecbf30fb7391e3d4f9af9257e3c3a1d2efd48d5bf790578b0bd6b4c70",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\002335.SZ_2018-05-16\\AN201805091140396467_content.json",
+          "sha256": "c5f9a55ecbf30fb7391e3d4f9af9257e3c3a1d2efd48d5bf790578b0bd6b4c70"
+        }
+      ],
+      "article_code": "AN201805091140396467",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201805091140396467_1.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

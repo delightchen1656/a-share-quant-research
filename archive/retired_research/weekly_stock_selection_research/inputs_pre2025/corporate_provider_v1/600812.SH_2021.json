@@ -1,0 +1,27 @@
+{
+  "symbol": "600812.SH",
+  "year": 2021,
+  "ok": true,
+  "rows": 1,
+  "fields": [
+    "code",
+    "dividPreNoticeDate",
+    "dividAgmPumDate",
+    "dividPlanAnnounceDate",
+    "dividPlanDate",
+    "dividRegistDate",
+    "dividOperateDate",
+    "dividPayDate",
+    "dividStockMarketDate",
+    "dividCashPsBeforeTax",
+    "dividCashPsAfterTax",
+    "dividStocksPs",
+    "dividCashStock",
+    "dividReserveToStockPs"
+  ],
+  "sha256": "3ec774f07221d99145171dd4e4cd0a5f8f8e89f568be8964fbcd0aa815470cd9",
+  "year_type": "operate",
+  "source": "BaoStock query_dividend_data independent new collection",
+  "query_utc": "2026-10-26T20:32:18.271391+00:00",
+  "zero_rows_not_proof_of_complete_company_action_history": true
+}

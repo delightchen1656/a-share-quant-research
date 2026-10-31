@@ -1,0 +1,21 @@
+{
+  "research_only": true,
+  "selected_before_2024_account_runs": true,
+  "configuration": {
+    "id": "priority_oversold",
+    "slots": 5,
+    "forced_day": 3,
+    "take_profit": 0.08,
+    "stop_loss": null,
+    "priority": "ret20_ascending"
+  },
+  "capital": 100000,
+  "signal_rule": "Rescanned current structure and RULE, see PROTOCOL.json",
+  "protocol_sha256": "2d7777b2667d57c8c6fb0ef7c02ca212169ead6c42f031b02be9fe7bc901e88d",
+  "selection_sha256": "64c2ce685330517df868597eae5a72ff2ba257af3953786e3ba893a966bc0b72",
+  "account_sha256": "1e63efef98f732e0eaa7b394c8981ba7ee23b0f042f40c670065d279513effae",
+  "runner_sha256": "cf14801282a722472e23e99a3a6fa8cccd8ed4e95b6a8f3adcf70fa57df62c47",
+  "input_manifest": "inputs_pre2025/RESEARCH_2020_2024_MANIFEST.json",
+  "input_manifest_sha256": "986c45c71eb28bc42410316201ea5e370bc090ebb261e37439fb25f967e3c51f",
+  "production_registration_changed": false
+}

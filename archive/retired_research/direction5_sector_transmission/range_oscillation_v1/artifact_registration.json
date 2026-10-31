@@ -1,0 +1,77 @@
+{
+  "spec_sha256": "156bee8ef84b7ceb9ceef096e55e6fec2dda25e9f148d6e002fa04360dfaba9a",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "51e5b525780dc3796cf6bc44b4047f4dbdda68359bdd4da2061aefdb79f30428"
+    },
+    {
+      "path": "registration.json",
+      "sha256": "4d89950b5a6b0f9ba61a388d386f9249982b0e91d97f762159d3ab7b6d6b67a8"
+    },
+    {
+      "path": "REPORT.txt",
+      "sha256": "308897e5e7ecf032b8543a4c57365f1d26eaef018e37404d54e84f841fac6b2e"
+    },
+    {
+      "path": "results\\all_stock_metrics.parquet",
+      "sha256": "8375112196c3be69c87e075a4da7acdb6057de7f7e7ac916c52711f70f547b49"
+    },
+    {
+      "path": "results\\audit.json",
+      "sha256": "38bad94c08d8c605f8d93899a18cbd19fbf45e559449c1df0d7563b53fac72cd"
+    },
+    {
+      "path": "results\\charts\\candidates_01.png",
+      "sha256": "9a3c7a4699ffacf5d317ccada9c350d4a5b5dc51a25cfddc876a37fb460a93ae"
+    },
+    {
+      "path": "results\\charts\\candidates_02.png",
+      "sha256": "4895d18e43b4ac5de8b160d4ecaefc5caf2457098ddad202d8ce83497496a47d"
+    },
+    {
+      "path": "results\\charts\\candidates_03.png",
+      "sha256": "1c7a5a0874b9ecd8d5e8a28ba1d584f0e32a1cbbbb47bd1a6e2517d3159bf2c1"
+    },
+    {
+      "path": "results\\charts\\candidates_04.png",
+      "sha256": "b08442a8624a774bb5ee2fad86a538cbe61aaf9d441e40a485a0ef74584a3a03"
+    },
+    {
+      "path": "results\\charts\\candidates_05.png",
+      "sha256": "2689cd0f953b92369630ea95a922db72c18089196a5550dd86b3294cbb855e43"
+    },
+    {
+      "path": "results\\forward_persistence.parquet",
+      "sha256": "1995aa3130e52dbbfea46cfa014f0ebf37bfcf713b9ae7c54c3c8d5be623804c"
+    },
+    {
+      "path": "results\\historical_candidates_2023.json",
+      "sha256": "04a5ece6e7769e87a892d8ef542c6e4c10de5ebdc7e9e424668e8456a2d7932b"
+    },
+    {
+      "path": "results\\input_file_audit.parquet",
+      "sha256": "6a1ae9e34a54220285b5f28406f227e8f7198f5397eb73766511a1eca9a62dee"
+    },
+    {
+      "path": "results\\primary_candidates.parquet",
+      "sha256": "30eda6923e0f3bf4018fcd5e92bb290f52a89cd94fc36a934da78d7b2485f160"
+    },
+    {
+      "path": "results\\validation.json",
+      "sha256": "1ecfd93b3b236c9293977bb2d426d9c0ed8512142e5e296a9b6f7a47d77f12c1"
+    },
+    {
+      "path": "run_scan.py",
+      "sha256": "1266168617868baf655343ff82debe158166d5cf58c4e1e5f8ac1e362dc30659"
+    },
+    {
+      "path": "spec.json",
+      "sha256": "156bee8ef84b7ceb9ceef096e55e6fec2dda25e9f148d6e002fa04360dfaba9a"
+    },
+    {
+      "path": "validate_and_report.py",
+      "sha256": "13ec594582f3a8338b029bbae0230ee5ee5f0e282cbb5928bae3ea9af0144489"
+    }
+  ]
+}

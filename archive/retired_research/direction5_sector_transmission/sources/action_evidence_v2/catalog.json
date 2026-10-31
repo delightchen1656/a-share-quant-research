@@ -1,0 +1,1474 @@
+[
+  {
+    "symbol": "000042.SZ",
+    "event_date": "2018-06-28",
+    "kind": "dividend_fields",
+    "start": "2018-04-09",
+    "error": "RuntimeError(\"Announcement pagination exceeded bounded limit: {'symbol': '000042.SZ', 'event_date': '2018-06-28', 'kind': 'dividend_fields', 'start': '2018-04-09'}\")"
+  },
+  {
+    "symbol": "000525.SZ",
+    "event_date": "2024-12-13",
+    "kind": "unknown_reference",
+    "start": "2024-09-24",
+    "error": "RuntimeError(\"Announcement pagination exceeded bounded limit: {'symbol': '000525.SZ', 'event_date': '2024-12-13', 'kind': 'unknown_reference', 'start': '2024-09-24'}\")"
+  },
+  {
+    "symbol": "000538.SZ",
+    "event_date": "2024-11-25",
+    "kind": "unknown_reference",
+    "start": "2024-10-08",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\000538.SZ_2024-11-25\\query_01.json",
+        "sha256": "9e6ca866537baa8a34a235e4e0b4828485ab80cdb6301c4ab560c07d36b5198f"
+      }
+    ],
+    "exact_code_announcements": 13,
+    "documents": [
+      {
+        "title": "2024年特别分红权益分派实施公告",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-11-19/1221767436.PDF",
+        "published_date": "2024-11-19",
+        "pdf": "sources\\action_evidence_v2\\000538.SZ_2024-11-25\\1221767436.pdf",
+        "text": "sources\\action_evidence_v2\\000538.SZ_2024-11-25\\1221767436.txt",
+        "sha256": "4ab5e2be23e81810b271ce0e3398fbddfb04dbb932714ca5c485cc2d178407a9",
+        "pages": 3
+      }
+    ],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "000550.SZ",
+    "event_date": "2018-03-27",
+    "kind": "unknown_reference",
+    "start": "2018-02-09",
+    "error": "RuntimeError(\"Announcement pagination exceeded bounded limit: {'symbol': '000550.SZ', 'event_date': '2018-03-27', 'kind': 'unknown_reference', 'start': '2018-02-09'}\")"
+  },
+  {
+    "symbol": "000564.SZ",
+    "event_date": "2021-12-31",
+    "kind": "unknown_reference",
+    "start": "2021-11-14",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\000564.SZ_2021-12-31\\query_01.json",
+        "sha256": "04069635e98d54a862a826a25d95673fccea7b2ac71980365b6813014b4876a7"
+      }
+    ],
+    "exact_code_announcements": 0,
+    "documents": [],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "000756.SZ",
+    "event_date": "2018-02-14",
+    "kind": "unknown_reference",
+    "start": "2017-12-10",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\000756.SZ_2018-02-14\\query_01.json",
+        "sha256": "801bc4556e26810f06858c2a57a3adbad1a8c18f28a3f0599b67ecb28a7aa942"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\000756.SZ_2018-02-14\\query_02.json",
+        "sha256": "dfd0d5c2f94e276301225d8344ddff61f7a89cefa629aebab9917cb297b4d7e7"
+      }
+    ],
+    "exact_code_announcements": 24,
+    "documents": [
+      {
+        "title": "2017年度A股特别派息实施公告",
+        "url": "https://static.cninfo.com.cn/finalpage/2018-01-20/1204347117.PDF",
+        "published_date": "2018-01-20",
+        "pdf": "sources\\action_evidence_v2\\000756.SZ_2018-02-14\\1204347117.pdf",
+        "text": "sources\\action_evidence_v2\\000756.SZ_2018-02-14\\1204347117.txt",
+        "sha256": "62f33c459b74d61c8d6d2f58cd8b01c7e79ffadace7a7409b32b4501ddf441ad",
+        "pages": 2
+      },
+      {
+        "title": "关于终止筹划发行A股股份购买资产暨股票复牌公告",
+        "url": "https://static.cninfo.com.cn/finalpage/2018-02-14/1204421816.PDF",
+        "published_date": "2018-02-14",
+        "pdf": "sources\\action_evidence_v2\\000756.SZ_2018-02-14\\1204421816.pdf",
+        "text": "sources\\action_evidence_v2\\000756.SZ_2018-02-14\\1204421816.txt",
+        "sha256": "19c0444a28c33e956d790bb78e7cdaae704c0683db6fc9b9ace2ff00c75f7ef0",
+        "pages": 2
+      }
+    ],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "000796.SZ",
+    "event_date": "2023-12-20",
+    "kind": "unknown_reference",
+    "start": "2023-11-03",
+    "error": "RuntimeError(\"Announcement pagination exceeded bounded limit: {'symbol': '000796.SZ', 'event_date': '2023-12-20', 'kind': 'unknown_reference', 'start': '2023-11-03'}\")"
+  },
+  {
+    "symbol": "000819.SZ",
+    "event_date": "2021-06-25",
+    "kind": "dividend_fields",
+    "start": "2021-04-06",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\000819.SZ_2021-06-25\\query_01.json",
+        "sha256": "04069635e98d54a862a826a25d95673fccea7b2ac71980365b6813014b4876a7"
+      }
+    ],
+    "exact_code_announcements": 0,
+    "documents": [],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "000863.SZ",
+    "event_date": "2018-07-26",
+    "kind": "dividend_fields",
+    "start": "2018-05-07",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\000863.SZ_2018-07-26\\query_01.json",
+        "sha256": "2fcd253de7895884cd122811c1e6955173b40df8340226b392793cffa3d667b7"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\000863.SZ_2018-07-26\\query_02.json",
+        "sha256": "2fcd253de7895884cd122811c1e6955173b40df8340226b392793cffa3d667b7"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\000863.SZ_2018-07-26\\query_03.json",
+        "sha256": "2fcd253de7895884cd122811c1e6955173b40df8340226b392793cffa3d667b7"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\000863.SZ_2018-07-26\\query_04.json",
+        "sha256": "2fcd253de7895884cd122811c1e6955173b40df8340226b392793cffa3d667b7"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\000863.SZ_2018-07-26\\query_05.json",
+        "sha256": "2fcd253de7895884cd122811c1e6955173b40df8340226b392793cffa3d667b7"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\000863.SZ_2018-07-26\\query_06.json",
+        "sha256": "2fcd253de7895884cd122811c1e6955173b40df8340226b392793cffa3d667b7"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\000863.SZ_2018-07-26\\query_07.json",
+        "sha256": "2fcd253de7895884cd122811c1e6955173b40df8340226b392793cffa3d667b7"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\000863.SZ_2018-07-26\\query_08.json",
+        "sha256": "2fcd253de7895884cd122811c1e6955173b40df8340226b392793cffa3d667b7"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\000863.SZ_2018-07-26\\query_09.json",
+        "sha256": "2fcd253de7895884cd122811c1e6955173b40df8340226b392793cffa3d667b7"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\000863.SZ_2018-07-26\\query_10.json",
+        "sha256": "2fcd253de7895884cd122811c1e6955173b40df8340226b392793cffa3d667b7"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\000863.SZ_2018-07-26\\query_11.json",
+        "sha256": "3e4a9563d2d79d6e3805bb9704a0a256bb334acc07686c66ca5db2be260aa392"
+      }
+    ],
+    "exact_code_announcements": 312,
+    "documents": [],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "000981.SZ",
+    "event_date": "2022-02-25",
+    "kind": "unknown_reference",
+    "start": "2022-01-04",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\000981.SZ_2022-02-25\\query_01.json",
+        "sha256": "19bb95118a24148e361b314927a8b38edc1db9d362c461bbfccb25530b6f6f52"
+      }
+    ],
+    "exact_code_announcements": 1,
+    "documents": [
+      {
+        "title": "关于公司资本公积转增股本实施进展暨公司股票复牌的提示性公告",
+        "url": "https://static.cninfo.com.cn/finalpage/2022-02-25/1212454276.PDF",
+        "published_date": "2022-02-25",
+        "pdf": "sources\\action_evidence_v2\\000981.SZ_2022-02-25\\1212454276.pdf",
+        "text": "sources\\action_evidence_v2\\000981.SZ_2022-02-25\\1212454276.txt",
+        "sha256": "19e77c8f6ee2d6ac5c57ff786504dd1fe12e12e1861e78e8da9a14ebff9d33f5",
+        "pages": 5
+      }
+    ],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "001872.SZ",
+    "event_date": "2018-05-23",
+    "kind": "dividend_fields",
+    "start": "2018-03-04",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\001872.SZ_2018-05-23\\query_01.json",
+        "sha256": "f22ab9ae5cbc5013161046133e15db087b45ee3898f8b45bb0706000ba787663"
+      }
+    ],
+    "exact_code_announcements": 0,
+    "documents": [],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "001914.SZ",
+    "event_date": "2018-06-06",
+    "kind": "dividend_fields",
+    "start": "2018-03-18",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\001914.SZ_2018-06-06\\query_01.json",
+        "sha256": "04069635e98d54a862a826a25d95673fccea7b2ac71980365b6813014b4876a7"
+      }
+    ],
+    "exact_code_announcements": 0,
+    "documents": [],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "002016.SZ",
+    "event_date": "2024-04-19",
+    "kind": "dividend_fields",
+    "start": "2024-01-30",
+    "error": "RuntimeError(\"Announcement pagination exceeded bounded limit: {'symbol': '002016.SZ', 'event_date': '2024-04-19', 'kind': 'dividend_fields', 'start': '2024-01-30'}\")"
+  },
+  {
+    "symbol": "002021.SZ",
+    "event_date": "2023-12-29",
+    "kind": "unknown_reference",
+    "start": "2023-11-12",
+    "error": "RuntimeError(\"Announcement pagination exceeded bounded limit: {'symbol': '002021.SZ', 'event_date': '2023-12-29', 'kind': 'unknown_reference', 'start': '2023-11-12'}\")"
+  },
+  {
+    "symbol": "002076.SZ",
+    "event_date": "2022-12-21",
+    "kind": "unknown_reference",
+    "start": "2022-11-04",
+    "error": "RuntimeError(\"Announcement pagination exceeded bounded limit: {'symbol': '002076.SZ', 'event_date': '2022-12-21', 'kind': 'unknown_reference', 'start': '2022-11-04'}\")"
+  },
+  {
+    "symbol": "002087.SZ",
+    "event_date": "2024-06-14",
+    "kind": "unknown_reference",
+    "start": "2024-04-28",
+    "error": "RuntimeError(\"Announcement pagination exceeded bounded limit: {'symbol': '002087.SZ', 'event_date': '2024-06-14', 'kind': 'unknown_reference', 'start': '2024-04-28'}\")"
+  },
+  {
+    "symbol": "002219.SZ",
+    "event_date": "2022-06-23",
+    "kind": "unknown_reference",
+    "start": "2022-05-07",
+    "error": "RuntimeError(\"Announcement pagination exceeded bounded limit: {'symbol': '002219.SZ', 'event_date': '2022-06-23', 'kind': 'unknown_reference', 'start': '2022-05-07'}\")"
+  },
+  {
+    "symbol": "002227.SZ",
+    "event_date": "2018-06-01",
+    "kind": "dividend_fields",
+    "start": "2018-03-13",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\002227.SZ_2018-06-01\\query_01.json",
+        "sha256": "6f512e3a7d3192ab09e674c276d22a5b92f8a1b4ee18b9a6f9e7ef24600b532a"
+      }
+    ],
+    "exact_code_announcements": 1,
+    "documents": [],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "002321.SZ",
+    "event_date": "2022-01-04",
+    "kind": "unknown_reference",
+    "start": "2021-11-15",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\002321.SZ_2022-01-04\\query_01.json",
+        "sha256": "04069635e98d54a862a826a25d95673fccea7b2ac71980365b6813014b4876a7"
+      }
+    ],
+    "exact_code_announcements": 0,
+    "documents": [],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "002323.SZ",
+    "event_date": "2022-01-06",
+    "kind": "unknown_reference",
+    "start": "2021-11-14",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\002323.SZ_2022-01-06\\query_01.json",
+        "sha256": "7f9a7d7d068441da8d2ecf6fece0f2045b26f979b7b955221c87f09de667cac5"
+      }
+    ],
+    "exact_code_announcements": 24,
+    "documents": [
+      {
+        "title": "中国银河证券股份有限公司关于山东雅博科技股份有限公司调整资本公积金转增股本除权参考价格的计算公式的专项意见",
+        "url": "https://static.cninfo.com.cn/finalpage/2021-12-27/1212017888.PDF",
+        "published_date": "2021-12-27",
+        "pdf": "sources\\action_evidence_v2\\002323.SZ_2022-01-06\\1212017888.pdf",
+        "text": "sources\\action_evidence_v2\\002323.SZ_2022-01-06\\1212017888.txt",
+        "sha256": "ec10a201a9bcd57f3365a4d32b99517fd715ead791226ab09fee2a541b9b0280",
+        "pages": 6
+      },
+      {
+        "title": "关于山东雅博科技股份有限公司调整资本公积金转增股本除权参考价格的计算公式法律意见书",
+        "url": "https://static.cninfo.com.cn/finalpage/2021-12-27/1212017889.PDF",
+        "published_date": "2021-12-27",
+        "pdf": "sources\\action_evidence_v2\\002323.SZ_2022-01-06\\1212017889.pdf",
+        "text": "sources\\action_evidence_v2\\002323.SZ_2022-01-06\\1212017889.txt",
+        "sha256": "3d870e92797e9f331d62d9fac58bc821db22509b055bb0497961461ee53a3c01",
+        "pages": 7
+      },
+      {
+        "title": "关于重整计划中资本公积转增股本事项实施的公告",
+        "url": "https://static.cninfo.com.cn/finalpage/2021-12-27/1212017890.PDF",
+        "published_date": "2021-12-27",
+        "pdf": "sources\\action_evidence_v2\\002323.SZ_2022-01-06\\1212017890.pdf",
+        "text": "sources\\action_evidence_v2\\002323.SZ_2022-01-06\\1212017890.txt",
+        "sha256": "2f70fb70fe866f472ee6d16aa06111fbeef4a389571e743ca1248a7d7a97e962",
+        "pages": 9
+      },
+      {
+        "title": "中国银河证券股份有限公司关于山东雅博科技股份有限公司调整资本公积金转增股本除权参考价格的计算结果的专项意见",
+        "url": "https://static.cninfo.com.cn/finalpage/2021-12-30/1212056748.PDF",
+        "published_date": "2021-12-30",
+        "pdf": "sources\\action_evidence_v2\\002323.SZ_2022-01-06\\1212056748.pdf",
+        "text": "sources\\action_evidence_v2\\002323.SZ_2022-01-06\\1212056748.txt",
+        "sha256": "8c4b1e7cb7718d1372c25bdd896d535976465becf6f4cfe82b486b6d275ce63b",
+        "pages": 3
+      },
+      {
+        "title": "关于资本公积转增股本除权事项的提示性公告",
+        "url": "https://static.cninfo.com.cn/finalpage/2021-12-30/1212056746.PDF",
+        "published_date": "2021-12-30",
+        "pdf": "sources\\action_evidence_v2\\002323.SZ_2022-01-06\\1212056746.pdf",
+        "text": "sources\\action_evidence_v2\\002323.SZ_2022-01-06\\1212056746.txt",
+        "sha256": "49ac8cbb90dc0ab7a6d2c2686cbeb4a6d41430951d3286a3eb99eada603f2bc5",
+        "pages": 8
+      },
+      {
+        "title": "海华永泰律所-法律意见书-除权参考价格的计算结果",
+        "url": "https://static.cninfo.com.cn/finalpage/2021-12-30/1212056749.PDF",
+        "published_date": "2021-12-30",
+        "pdf": "sources\\action_evidence_v2\\002323.SZ_2022-01-06\\1212056749.pdf",
+        "text": "sources\\action_evidence_v2\\002323.SZ_2022-01-06\\1212056749.txt",
+        "sha256": "d7183314fcd12c739a9e5b608a9c4f8b38d0a1bf51242d91a7ff643516cab9e9",
+        "pages": 5
+      },
+      {
+        "title": "关于资本公积转增股本除权事项进展暨公司股票复牌公告",
+        "url": "https://static.cninfo.com.cn/finalpage/2022-01-06/1212104022.PDF",
+        "published_date": "2022-01-06",
+        "pdf": "sources\\action_evidence_v2\\002323.SZ_2022-01-06\\1212104022.pdf",
+        "text": "sources\\action_evidence_v2\\002323.SZ_2022-01-06\\1212104022.txt",
+        "sha256": "8c3172b17de32ed127c0fbef2885e6bb854e7ec694556c93c63992627fed0854",
+        "pages": 4
+      }
+    ],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "002326.SZ",
+    "event_date": "2019-09-30",
+    "kind": "unknown_reference",
+    "start": "2019-08-13",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\002326.SZ_2019-09-30\\query_01.json",
+        "sha256": "9bba0a72874683a3e1599ce1d6610609db3c8d524d64729c59543fae84ce7246"
+      }
+    ],
+    "exact_code_announcements": 5,
+    "documents": [],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "002335.SZ",
+    "event_date": "2018-05-16",
+    "kind": "dividend_fields",
+    "start": "2018-02-25",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_01.json",
+        "sha256": "87eb3a83a729087ebd80b6feed0483d735d4a209ab260e7d2742888fef314419"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_02.json",
+        "sha256": "87eb3a83a729087ebd80b6feed0483d735d4a209ab260e7d2742888fef314419"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_03.json",
+        "sha256": "a2992922cf8d5d5d60f98d2d886f4ddbc597a885f64295eeaa52d81b6b02fec4"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_04.json",
+        "sha256": "87eb3a83a729087ebd80b6feed0483d735d4a209ab260e7d2742888fef314419"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_05.json",
+        "sha256": "87eb3a83a729087ebd80b6feed0483d735d4a209ab260e7d2742888fef314419"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_06.json",
+        "sha256": "a2992922cf8d5d5d60f98d2d886f4ddbc597a885f64295eeaa52d81b6b02fec4"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_07.json",
+        "sha256": "87eb3a83a729087ebd80b6feed0483d735d4a209ab260e7d2742888fef314419"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_08.json",
+        "sha256": "87eb3a83a729087ebd80b6feed0483d735d4a209ab260e7d2742888fef314419"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_09.json",
+        "sha256": "87eb3a83a729087ebd80b6feed0483d735d4a209ab260e7d2742888fef314419"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_10.json",
+        "sha256": "87eb3a83a729087ebd80b6feed0483d735d4a209ab260e7d2742888fef314419"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_11.json",
+        "sha256": "87eb3a83a729087ebd80b6feed0483d735d4a209ab260e7d2742888fef314419"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_12.json",
+        "sha256": "87eb3a83a729087ebd80b6feed0483d735d4a209ab260e7d2742888fef314419"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_13.json",
+        "sha256": "87eb3a83a729087ebd80b6feed0483d735d4a209ab260e7d2742888fef314419"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_14.json",
+        "sha256": "87eb3a83a729087ebd80b6feed0483d735d4a209ab260e7d2742888fef314419"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_15.json",
+        "sha256": "87eb3a83a729087ebd80b6feed0483d735d4a209ab260e7d2742888fef314419"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_16.json",
+        "sha256": "34c0cb3a61c5b6c383498053dfd73e7c573dfba23f8ada91481e3f8f1925a9aa"
+      }
+    ],
+    "exact_code_announcements": 472,
+    "documents": [],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "002349.SZ",
+    "event_date": "2021-06-30",
+    "kind": "dividend_fields",
+    "start": "2021-04-11",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\002349.SZ_2021-06-30\\query_01.json",
+        "sha256": "3c5de954f65792447212d23a472366bb62ffb2458ad117c19f913317476cf0ec"
+      }
+    ],
+    "exact_code_announcements": 19,
+    "documents": [],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "002358.SZ",
+    "event_date": "2019-07-05",
+    "kind": "dividend_fields",
+    "start": "2019-04-16",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\002358.SZ_2019-07-05\\query_01.json",
+        "sha256": "1c11456fcc2268a02c188203766546ff21c09e6e4a3dbb962bf2b3f61f810dd7"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002358.SZ_2019-07-05\\query_02.json",
+        "sha256": "1c11456fcc2268a02c188203766546ff21c09e6e4a3dbb962bf2b3f61f810dd7"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002358.SZ_2019-07-05\\query_03.json",
+        "sha256": "3435c84293270f2f70e3bb5f522bdc5f7e157322e129fff59242807b5b236969"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002358.SZ_2019-07-05\\query_04.json",
+        "sha256": "d644e0df1081dd16541e6570341cd8f9f67bf1830c00c89c633600b8c13677ca"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002358.SZ_2019-07-05\\query_05.json",
+        "sha256": "3435c84293270f2f70e3bb5f522bdc5f7e157322e129fff59242807b5b236969"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002358.SZ_2019-07-05\\query_06.json",
+        "sha256": "1c11456fcc2268a02c188203766546ff21c09e6e4a3dbb962bf2b3f61f810dd7"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002358.SZ_2019-07-05\\query_07.json",
+        "sha256": "d566cd0b69ffa26b715c000a553b40e63ec39c20bd2e066d78a65fc813bbb984"
+      }
+    ],
+    "exact_code_announcements": 208,
+    "documents": [],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "002434.SZ",
+    "event_date": "2018-05-22",
+    "kind": "dividend_fields",
+    "start": "2018-03-03",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\002434.SZ_2018-05-22\\query_01.json",
+        "sha256": "e31bd85d8d876fa828032f3e00ff3e85257344c9fa0ba770efb0e39221dc9e15"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002434.SZ_2018-05-22\\query_02.json",
+        "sha256": "49f1f905f1b3c534c2790c1c3fd5ea1f082abd2774d810a7f96d5ad09f94f428"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002434.SZ_2018-05-22\\query_03.json",
+        "sha256": "7063034f437f46cd5bf2f66942de25eca8976148d30bf495c0bd6c9657452c80"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002434.SZ_2018-05-22\\query_04.json",
+        "sha256": "7063034f437f46cd5bf2f66942de25eca8976148d30bf495c0bd6c9657452c80"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002434.SZ_2018-05-22\\query_05.json",
+        "sha256": "7063034f437f46cd5bf2f66942de25eca8976148d30bf495c0bd6c9657452c80"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002434.SZ_2018-05-22\\query_06.json",
+        "sha256": "e31bd85d8d876fa828032f3e00ff3e85257344c9fa0ba770efb0e39221dc9e15"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002434.SZ_2018-05-22\\query_07.json",
+        "sha256": "01137880fa4a9774bb320cb375adb250e4c367a658f951b76a74d951e1be1fc3"
+      }
+    ],
+    "exact_code_announcements": 209,
+    "documents": [],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "002435.SZ",
+    "event_date": "2021-06-18",
+    "kind": "dividend_fields",
+    "start": "2021-03-30",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\002435.SZ_2021-06-18\\query_01.json",
+        "sha256": "04069635e98d54a862a826a25d95673fccea7b2ac71980365b6813014b4876a7"
+      }
+    ],
+    "exact_code_announcements": 0,
+    "documents": [],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "002508.SZ",
+    "event_date": "2024-01-10",
+    "kind": "unknown_reference",
+    "start": "2023-11-25",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\002508.SZ_2024-01-10\\query_01.json",
+        "sha256": "7517d5121276ae0d2de5be1ec57ee6c322cd49c5dd96901bcbe96a1b145e9a4d"
+      }
+    ],
+    "exact_code_announcements": 16,
+    "documents": [
+      {
+        "title": "特别分红权益分派实施公告",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-01-03/1218790856.PDF",
+        "published_date": "2024-01-03",
+        "pdf": "sources\\action_evidence_v2\\002508.SZ_2024-01-10\\1218790856.pdf",
+        "text": "sources\\action_evidence_v2\\002508.SZ_2024-01-10\\1218790856.txt",
+        "sha256": "96d2e7dcea440e26e44a67f40aed356b87b8053cb625ee518911021971a7d7c0",
+        "pages": 4
+      }
+    ],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "002601.SZ",
+    "event_date": "2018-10-25",
+    "kind": "dividend_fields",
+    "start": "2018-08-06",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_01.json",
+        "sha256": "056248476df02300a328057f1c0218df67f74a4c8d4ea44ce116a54bc0226199"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_02.json",
+        "sha256": "056248476df02300a328057f1c0218df67f74a4c8d4ea44ce116a54bc0226199"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_03.json",
+        "sha256": "056248476df02300a328057f1c0218df67f74a4c8d4ea44ce116a54bc0226199"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_04.json",
+        "sha256": "056248476df02300a328057f1c0218df67f74a4c8d4ea44ce116a54bc0226199"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_05.json",
+        "sha256": "056248476df02300a328057f1c0218df67f74a4c8d4ea44ce116a54bc0226199"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_06.json",
+        "sha256": "056248476df02300a328057f1c0218df67f74a4c8d4ea44ce116a54bc0226199"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_07.json",
+        "sha256": "056248476df02300a328057f1c0218df67f74a4c8d4ea44ce116a54bc0226199"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_08.json",
+        "sha256": "8f1c979e6fed32545364de9f911223662563756f40436e2830212b080c32da0f"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_09.json",
+        "sha256": "056248476df02300a328057f1c0218df67f74a4c8d4ea44ce116a54bc0226199"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_10.json",
+        "sha256": "056248476df02300a328057f1c0218df67f74a4c8d4ea44ce116a54bc0226199"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_11.json",
+        "sha256": "056248476df02300a328057f1c0218df67f74a4c8d4ea44ce116a54bc0226199"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_12.json",
+        "sha256": "dd85f126ad40740157256a3102734cafbd6cb2845eb4984108fce4e4b65977d0"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_13.json",
+        "sha256": "056248476df02300a328057f1c0218df67f74a4c8d4ea44ce116a54bc0226199"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_14.json",
+        "sha256": "056248476df02300a328057f1c0218df67f74a4c8d4ea44ce116a54bc0226199"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_15.json",
+        "sha256": "056248476df02300a328057f1c0218df67f74a4c8d4ea44ce116a54bc0226199"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_16.json",
+        "sha256": "8f1c979e6fed32545364de9f911223662563756f40436e2830212b080c32da0f"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_17.json",
+        "sha256": "056248476df02300a328057f1c0218df67f74a4c8d4ea44ce116a54bc0226199"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_18.json",
+        "sha256": "056248476df02300a328057f1c0218df67f74a4c8d4ea44ce116a54bc0226199"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_19.json",
+        "sha256": "9fa4aae5023ca7a5025b4666ecb6206395f362d0fe4a4e987b55dcb6d45f995c"
+      }
+    ],
+    "exact_code_announcements": 375,
+    "documents": [
+      {
+        "title": "2018年半年度权益分派实施公告",
+        "url": "https://static.cninfo.com.cn/finalpage/2018-10-17/1205508532.PDF",
+        "published_date": "2018-10-17",
+        "pdf": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\1205508532.pdf",
+        "text": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\1205508532.txt",
+        "sha256": "8b9f40a8d4731792ac2883ff2697530d5705cf8ba8962c18c4abecd78a32519f",
+        "pages": 3
+      },
+      {
+        "title": "2018年半年度权益分派实施公告",
+        "url": "https://static.cninfo.com.cn/finalpage/2018-10-17/1205508532.PDF",
+        "published_date": "2018-10-17",
+        "pdf": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\1205508532.pdf",
+        "text": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\1205508532.txt",
+        "sha256": "8b9f40a8d4731792ac2883ff2697530d5705cf8ba8962c18c4abecd78a32519f",
+        "pages": 3
+      },
+      {
+        "title": "2018年半年度权益分派实施公告",
+        "url": "https://static.cninfo.com.cn/finalpage/2018-10-17/1205508532.PDF",
+        "published_date": "2018-10-17",
+        "pdf": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\1205508532.pdf",
+        "text": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\1205508532.txt",
+        "sha256": "8b9f40a8d4731792ac2883ff2697530d5705cf8ba8962c18c4abecd78a32519f",
+        "pages": 3
+      },
+      {
+        "title": "2018年半年度权益分派实施公告",
+        "url": "https://static.cninfo.com.cn/finalpage/2018-10-17/1205508532.PDF",
+        "published_date": "2018-10-17",
+        "pdf": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\1205508532.pdf",
+        "text": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\1205508532.txt",
+        "sha256": "8b9f40a8d4731792ac2883ff2697530d5705cf8ba8962c18c4abecd78a32519f",
+        "pages": 3
+      }
+    ],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "002649.SZ",
+    "event_date": "2018-06-07",
+    "kind": "dividend_fields",
+    "start": "2018-03-19",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\002649.SZ_2018-06-07\\query_01.json",
+        "sha256": "ec1dcbf8681e8e0d0c400f8275a94aa29e0937c862ff53a225de1dbef162c835"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002649.SZ_2018-06-07\\query_02.json",
+        "sha256": "e40a598d40c108849caab6b688853085c8ebb416ebb7845828d78e7198eb88c7"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002649.SZ_2018-06-07\\query_03.json",
+        "sha256": "ec1dcbf8681e8e0d0c400f8275a94aa29e0937c862ff53a225de1dbef162c835"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002649.SZ_2018-06-07\\query_04.json",
+        "sha256": "a8327236fd8e3f32dbbdc1ec8ec5238032bdcc2738b71b5fdee2448ed9049ef3"
+      }
+    ],
+    "exact_code_announcements": 107,
+    "documents": [],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "002727.SZ",
+    "event_date": "2019-04-02",
+    "kind": "dividend_fields",
+    "start": "2019-01-12",
+    "error": "RuntimeError(\"Announcement pagination exceeded bounded limit: {'symbol': '002727.SZ', 'event_date': '2019-04-02', 'kind': 'dividend_fields', 'start': '2019-01-12'}\")"
+  },
+  {
+    "symbol": "002792.SZ",
+    "event_date": "2018-06-29",
+    "kind": "dividend_fields",
+    "start": "2018-04-10",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\002792.SZ_2018-06-29\\query_01.json",
+        "sha256": "a0a4eb9389bdd0f377fb99e5561c54d48b1e8bd0280173cdb2c148f8164fda6b"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002792.SZ_2018-06-29\\query_02.json",
+        "sha256": "ffb7727ae1946eb6ca558a19fc48a0ef7e427bb75f731403ae705ff4996c0935"
+      }
+    ],
+    "exact_code_announcements": 55,
+    "documents": [],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "002840.SZ",
+    "event_date": "2021-06-30",
+    "kind": "dividend_fields",
+    "start": "2021-04-11",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\002840.SZ_2021-06-30\\query_01.json",
+        "sha256": "f62df84bccc1cf6badc6abd443379af00aec777f8d42e24bed96e4dcc4d4e4ab"
+      }
+    ],
+    "exact_code_announcements": 1,
+    "documents": [],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "002852.SZ",
+    "event_date": "2019-05-22",
+    "kind": "dividend_fields",
+    "start": "2019-03-03",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\002852.SZ_2019-05-22\\query_01.json",
+        "sha256": "9df06d743b679b69a8a06075c2a61ba729797427f36cbfa99eeddfbfd013d63e"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002852.SZ_2019-05-22\\query_02.json",
+        "sha256": "9df06d743b679b69a8a06075c2a61ba729797427f36cbfa99eeddfbfd013d63e"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002852.SZ_2019-05-22\\query_03.json",
+        "sha256": "b7ecabb085a98fcc388817ad09fa9ecaae00a5ec29ad6b29fb2196d3c9837785"
+      }
+    ],
+    "exact_code_announcements": 87,
+    "documents": [],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "002969.SZ",
+    "event_date": "2024-01-24",
+    "kind": "unknown_reference",
+    "start": "2023-12-09",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\002969.SZ_2024-01-24\\query_01.json",
+        "sha256": "7e98bf072841f1fa1ee76d916f6b4092ff982514b77e9a98a24910b5afbcc101"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002969.SZ_2024-01-24\\query_02.json",
+        "sha256": "579a608dc8cb0637b82f3e74beb50bec8ee6b2f29da7e78f4728f7b6e4631569"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002969.SZ_2024-01-24\\query_03.json",
+        "sha256": "7e98bf072841f1fa1ee76d916f6b4092ff982514b77e9a98a24910b5afbcc101"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002969.SZ_2024-01-24\\query_04.json",
+        "sha256": "579a608dc8cb0637b82f3e74beb50bec8ee6b2f29da7e78f4728f7b6e4631569"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\002969.SZ_2024-01-24\\query_05.json",
+        "sha256": "bf1419e18afda83bd868fd697b34dddee1f751f70b658b445d414b23ed02acc6"
+      }
+    ],
+    "exact_code_announcements": 77,
+    "documents": [
+      {
+        "title": "特别分红权益分派实施公告",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-01-18/1218933923.PDF",
+        "published_date": "2024-01-18",
+        "pdf": "sources\\action_evidence_v2\\002969.SZ_2024-01-24\\1218933923.pdf",
+        "text": "sources\\action_evidence_v2\\002969.SZ_2024-01-24\\1218933923.txt",
+        "sha256": "7456cbc1c4e7cca98e972311aface0fae0dfe7e5935f7d4d6b91029ffab3d1e8",
+        "pages": 3
+      }
+    ],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "600094.SH",
+    "event_date": "2024-09-11",
+    "kind": "unknown_reference",
+    "start": "2024-07-27",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\600094.SH_2024-09-11\\query_01.json",
+        "sha256": "301ece41980f16d6f73500ce1674499b6b535f28d40b737bbf47f28ed610df78"
+      }
+    ],
+    "exact_code_announcements": 21,
+    "documents": [
+      {
+        "title": "公司2024年临时权益分派实施公告",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-09-04/1221123307.PDF",
+        "published_date": "2024-09-04",
+        "pdf": "sources\\action_evidence_v2\\600094.SH_2024-09-11\\1221123307.pdf",
+        "text": "sources\\action_evidence_v2\\600094.SH_2024-09-11\\1221123307.txt",
+        "sha256": "d14cd9c1d2aa74df4119399564e3eb85a3fddfd6c8a84f90cc005722fc6a8a37",
+        "pages": 5
+      }
+    ],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "600167.SH",
+    "event_date": "2024-12-27",
+    "kind": "unknown_reference",
+    "start": "2024-11-11",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\600167.SH_2024-12-27\\query_01.json",
+        "sha256": "8197e0144179fb925b2e9e86c51ffb17604538b2fe87a08a9b7873df9ce3eac1"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\600167.SH_2024-12-27\\query_02.json",
+        "sha256": "b6e38f023a20de011edf859a72ad3ec3b4bf930e917cce21346a052d44fbb501"
+      }
+    ],
+    "exact_code_announcements": 55,
+    "documents": [],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "600179.SH",
+    "event_date": "2020-12-07",
+    "kind": "unknown_reference",
+    "start": "2020-10-19",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\600179.SH_2020-12-07\\query_01.json",
+        "sha256": "3fedfebe061054519c05202f5c4db2e6877a84654d5e582174204d545a2101ed"
+      }
+    ],
+    "exact_code_announcements": 1,
+    "documents": [],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "600186.SH",
+    "event_date": "2020-01-21",
+    "kind": "unknown_reference",
+    "start": "2019-12-03",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\600186.SH_2020-01-21\\query_01.json",
+        "sha256": "73ba77d70a524db4aacb1553213682501a9158c44c69238b747e6a39cc2302c2"
+      }
+    ],
+    "exact_code_announcements": 3,
+    "documents": [
+      {
+        "title": "中信证券股份有限公司关于莲花健康产业集团股份有限公司调整资本公积金转增股本除权参考价格的计算公式的专项意见",
+        "url": "https://static.cninfo.com.cn/finalpage/2020-01-15/1207249758.PDF",
+        "published_date": "2020-01-15",
+        "pdf": "sources\\action_evidence_v2\\600186.SH_2020-01-21\\1207249758.pdf",
+        "text": "sources\\action_evidence_v2\\600186.SH_2020-01-21\\1207249758.txt",
+        "sha256": "469edbca88b224359b4bc703bc179d3090c26381434a6b274e3ab2adacf0f2e2",
+        "pages": 4
+      },
+      {
+        "title": "中信证券股份有限公司关于莲花健康产业集团股份有限公司资本公积金转增股本除权参考价格的计算结果的专项意见",
+        "url": "https://static.cninfo.com.cn/finalpage/2020-01-18/1207264232.PDF",
+        "published_date": "2020-01-18",
+        "pdf": "sources\\action_evidence_v2\\600186.SH_2020-01-21\\1207264232.pdf",
+        "text": "sources\\action_evidence_v2\\600186.SH_2020-01-21\\1207264232.txt",
+        "sha256": "9d6c31b376e1f4ef1c919d0852b9a174114af93bf6e0720bf3e4319a590cc80e",
+        "pages": 3
+      }
+    ],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "600306.SH",
+    "event_date": "2023-12-26",
+    "kind": "unknown_reference",
+    "start": "2023-11-07",
+    "error": "RuntimeError(\"Announcement pagination exceeded bounded limit: {'symbol': '600306.SH', 'event_date': '2023-12-26', 'kind': 'unknown_reference', 'start': '2023-11-07'}\")"
+  },
+  {
+    "symbol": "600375.SH",
+    "event_date": "2024-12-26",
+    "kind": "unknown_reference",
+    "start": "2024-11-09",
+    "error": "RuntimeError(\"Announcement pagination exceeded bounded limit: {'symbol': '600375.SH', 'event_date': '2024-12-26', 'kind': 'unknown_reference', 'start': '2024-11-09'}\")"
+  },
+  {
+    "symbol": "600423.SH",
+    "event_date": "2018-12-26",
+    "kind": "unknown_reference",
+    "start": "2018-01-22",
+    "error": "RuntimeError(\"Announcement pagination exceeded bounded limit: {'symbol': '600423.SH', 'event_date': '2018-12-26', 'kind': 'unknown_reference', 'start': '2018-01-22'}\")"
+  },
+  {
+    "symbol": "600482.SH",
+    "event_date": "2024-11-22",
+    "kind": "unknown_reference",
+    "start": "2024-10-07",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\600482.SH_2024-11-22\\query_01.json",
+        "sha256": "fde0225227cf37b77a6f8cacad153c93529540e53544862c7c2a046c4aa777c1"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\600482.SH_2024-11-22\\query_02.json",
+        "sha256": "0bb5636879f79838e8ba765c008348d7fe0d2a0a7b508a05649f54f4cdc1c755"
+      },
+      {
+        "path": "sources\\action_evidence_v2\\600482.SH_2024-11-22\\query_03.json",
+        "sha256": "b10c83621ac5713b77908d2f203e56a826ac07c3961a5c197120a49ccc6f951a"
+      }
+    ],
+    "exact_code_announcements": 73,
+    "documents": [
+      {
+        "title": "中国船舶重工集团动力股份有限公司关于披露重组预案的一般风险提示暨复牌的公告",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-11-09/1221663233.PDF",
+        "published_date": "2024-11-09",
+        "pdf": "sources\\action_evidence_v2\\600482.SH_2024-11-22\\1221663233.pdf",
+        "text": "sources\\action_evidence_v2\\600482.SH_2024-11-22\\1221663233.txt",
+        "sha256": "37f068c9afb772eb5dfe17552d17e0e383def1b6c22e3f79a639855d573fd6e5",
+        "pages": 2
+      },
+      {
+        "title": "中国船舶重工集团动力股份有限公司关于披露重组预案的一般风险提示暨复牌的公告",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-11-09/1221663233.PDF",
+        "published_date": "2024-11-09",
+        "pdf": "sources\\action_evidence_v2\\600482.SH_2024-11-22\\1221663233.pdf",
+        "text": "sources\\action_evidence_v2\\600482.SH_2024-11-22\\1221663233.txt",
+        "sha256": "37f068c9afb772eb5dfe17552d17e0e383def1b6c22e3f79a639855d573fd6e5",
+        "pages": 2
+      },
+      {
+        "title": "中国船舶重工集团动力股份有限公司2024年特别分红权益分派实施公告",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-11-15/1221725633.PDF",
+        "published_date": "2024-11-15",
+        "pdf": "sources\\action_evidence_v2\\600482.SH_2024-11-22\\1221725633.pdf",
+        "text": "sources\\action_evidence_v2\\600482.SH_2024-11-22\\1221725633.txt",
+        "sha256": "451aedacd31a99f8a6a0b36e8aafba4cee8f2a4931d22afe025272ebe46464c1",
+        "pages": 3
+      },
+      {
+        "title": "中国船舶重工集团动力股份有限公司关于可转债转股价格调整暨转股复牌的公告",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-11-15/1221725634.PDF",
+        "published_date": "2024-11-15",
+        "pdf": "sources\\action_evidence_v2\\600482.SH_2024-11-22\\1221725634.pdf",
+        "text": "sources\\action_evidence_v2\\600482.SH_2024-11-22\\1221725634.txt",
+        "sha256": "def5c2588b826e0e3993ff81197606e1b4c6b51c50f245c8dda54ae3d11936c3",
+        "pages": 3
+      }
+    ],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "600515.SH",
+    "event_date": "2021-12-22",
+    "kind": "unknown_reference",
+    "start": "2021-11-05",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\600515.SH_2021-12-22\\query_01.json",
+        "sha256": "38eaa0ab1fa39dc8a349e5431f404afa115ae53711bfa8f5b7c95ffb43f82ac1"
+      }
+    ],
+    "exact_code_announcements": 28,
+    "documents": [
+      {
+        "title": "海航基础设施投资集团股份有限公司关于重整计划资本公积金转增股本事项实施的公告",
+        "url": "https://static.cninfo.com.cn/finalpage/2021-12-16/1211922576.PDF",
+        "published_date": "2021-12-16",
+        "pdf": "sources\\action_evidence_v2\\600515.SH_2021-12-22\\1211922576.pdf",
+        "text": "sources\\action_evidence_v2\\600515.SH_2021-12-22\\1211922576.txt",
+        "sha256": "4d7a6aebf853e26229db1416b44e97b315fd4b72baf5616adda4ba37c71956cc",
+        "pages": 7
+      },
+      {
+        "title": "天风证券股份有限公司关于海航基础设施投资集团股份有限公司调整资本公积金转增股本除权参考价格的计算公式的专项意见",
+        "url": "https://static.cninfo.com.cn/finalpage/2021-12-16/1211922577.PDF",
+        "published_date": "2021-12-16",
+        "pdf": "sources\\action_evidence_v2\\600515.SH_2021-12-22\\1211922577.pdf",
+        "text": "sources\\action_evidence_v2\\600515.SH_2021-12-22\\1211922577.txt",
+        "sha256": "ec42ff32408daee759a4b3ccba16fbca669603d396f6003f187313ebabb2008d",
+        "pages": 8
+      },
+      {
+        "title": "天风证券股份有限公司关于海航基础设施投资集团股份有限公司调整资本公积金转增股本除权参考价格的计算结果的专项意见",
+        "url": "https://static.cninfo.com.cn/finalpage/2021-12-21/1211970833.PDF",
+        "published_date": "2021-12-21",
+        "pdf": "sources\\action_evidence_v2\\600515.SH_2021-12-22\\1211970833.pdf",
+        "text": "sources\\action_evidence_v2\\600515.SH_2021-12-22\\1211970833.txt",
+        "sha256": "f21d2392dc64289f170d83d3999602586153a35a42c69ce3e26d9c2695806cef",
+        "pages": 4
+      },
+      {
+        "title": "海航基础设施投资集团股份有限公司关于重整计划资本公积金转增股本除权事项的提示性公告",
+        "url": "https://static.cninfo.com.cn/finalpage/2021-12-21/1211970832.PDF",
+        "published_date": "2021-12-21",
+        "pdf": "sources\\action_evidence_v2\\600515.SH_2021-12-22\\1211970832.pdf",
+        "text": "sources\\action_evidence_v2\\600515.SH_2021-12-22\\1211970832.txt",
+        "sha256": "1713b6823f0a4ef74a83d15be52e93e32b3ea96e0caf07f38f38d0c2a8a38c88",
+        "pages": 7
+      }
+    ],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "600518.SH",
+    "event_date": "2021-12-15",
+    "kind": "unknown_reference",
+    "start": "2021-10-29",
+    "error": "RuntimeError(\"Announcement pagination exceeded bounded limit: {'symbol': '600518.SH', 'event_date': '2021-12-15', 'kind': 'unknown_reference', 'start': '2021-10-29'}\")"
+  },
+  {
+    "symbol": "600519.SH",
+    "event_date": "2022-12-27",
+    "kind": "unknown_reference",
+    "start": "2022-11-11",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\600519.SH_2022-12-27\\query_01.json",
+        "sha256": "f2ca3341c1606226b5639c956de48b1cff12a54184bb6e2436f8ebde529125af"
+      }
+    ],
+    "exact_code_announcements": 16,
+    "documents": [
+      {
+        "title": "贵州茅台2022年度回报股东特别分红实施公告",
+        "url": "https://static.cninfo.com.cn/finalpage/2022-12-21/1215407396.PDF",
+        "published_date": "2022-12-21",
+        "pdf": "sources\\action_evidence_v2\\600519.SH_2022-12-27\\1215407396.pdf",
+        "text": "sources\\action_evidence_v2\\600519.SH_2022-12-27\\1215407396.txt",
+        "sha256": "2686df87a57d91f7348cf58155963531e9731b7b8a966b191d081ac9493b0601",
+        "pages": 4
+      }
+    ],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "600519.SH",
+    "event_date": "2023-12-20",
+    "kind": "unknown_reference",
+    "start": "2023-11-04",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\600519.SH_2023-12-20\\query_01.json",
+        "sha256": "52f8bd74f43d297b222035aaf9ea196207ec0172b9a49b90d46cf705db807314"
+      }
+    ],
+    "exact_code_announcements": 9,
+    "documents": [
+      {
+        "title": "贵州茅台2023年度回报股东特别分红实施公告",
+        "url": "https://static.cninfo.com.cn/finalpage/2023-12-14/1218606528.PDF",
+        "published_date": "2023-12-14",
+        "pdf": "sources\\action_evidence_v2\\600519.SH_2023-12-20\\1218606528.pdf",
+        "text": "sources\\action_evidence_v2\\600519.SH_2023-12-20\\1218606528.txt",
+        "sha256": "6d17512b6f5a0000d53d8053201ef8a3f934714fdca31e8220ef6f1a9bb67f14",
+        "pages": 3
+      }
+    ],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "600565.SH",
+    "event_date": "2021-06-04",
+    "kind": "dividend_fields",
+    "start": "2021-03-16",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\600565.SH_2021-06-04\\query_01.json",
+        "sha256": "04069635e98d54a862a826a25d95673fccea7b2ac71980365b6813014b4876a7"
+      }
+    ],
+    "exact_code_announcements": 0,
+    "documents": [],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "600589.SH",
+    "event_date": "2023-12-29",
+    "kind": "unknown_reference",
+    "start": "2023-11-12",
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://www.cninfo.com.cn/new/hisAnnouncement/query')"
+  },
+  {
+    "symbol": "600601.SH",
+    "event_date": "2022-12-23",
+    "kind": "unknown_reference",
+    "start": "2022-11-06",
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://www.cninfo.com.cn/new/hisAnnouncement/query')"
+  },
+  {
+    "symbol": "600647.SH",
+    "event_date": "2024-06-14",
+    "kind": "unknown_reference",
+    "start": "2024-04-28",
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://www.cninfo.com.cn/new/hisAnnouncement/query')"
+  },
+  {
+    "symbol": "600654.SH",
+    "event_date": "2022-12-23",
+    "kind": "unknown_reference",
+    "start": "2022-11-06",
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://www.cninfo.com.cn/new/hisAnnouncement/query')"
+  },
+  {
+    "symbol": "600666.SH",
+    "event_date": "2023-02-20",
+    "kind": "unknown_reference",
+    "start": "2023-01-02",
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://www.cninfo.com.cn/new/hisAnnouncement/query')"
+  },
+  {
+    "symbol": "600715.SH",
+    "event_date": "2024-12-16",
+    "kind": "unknown_reference",
+    "start": "2024-10-28",
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://www.cninfo.com.cn/new/hisAnnouncement/query')"
+  },
+  {
+    "symbol": "600733.SH",
+    "event_date": "2018-09-27",
+    "kind": "unknown_reference",
+    "start": "2017-12-18",
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://www.cninfo.com.cn/new/hisAnnouncement/query')"
+  },
+  {
+    "symbol": "600734.SH",
+    "event_date": "2022-02-15",
+    "kind": "unknown_reference",
+    "start": "2021-12-28",
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://www.cninfo.com.cn/new/hisAnnouncement/query')"
+  },
+  {
+    "symbol": "600766.SH",
+    "event_date": "2024-06-14",
+    "kind": "unknown_reference",
+    "start": "2024-04-28",
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://www.cninfo.com.cn/new/hisAnnouncement/query')"
+  },
+  {
+    "symbol": "600815.SH",
+    "event_date": "2019-12-23",
+    "kind": "unknown_reference",
+    "start": "2019-11-04",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\600815.SH_2019-12-23\\query_01.json",
+        "sha256": "aaf08336fbe8b5dc1a697a104ca43af45abdf86f36df0eb52dd04f00911980bc"
+      }
+    ],
+    "exact_code_announcements": 21,
+    "documents": [
+      {
+        "title": "关于重整计划资本公积金转增股本事项实施的公告",
+        "url": "https://static.cninfo.com.cn/finalpage/2019-12-17/1207169325.PDF",
+        "published_date": "2019-12-17",
+        "pdf": "sources\\action_evidence_v2\\600815.SH_2019-12-23\\1207169325.pdf",
+        "text": "sources\\action_evidence_v2\\600815.SH_2019-12-23\\1207169325.txt",
+        "sha256": "14069ea880d2ce138673076a25df017954deebaa27a06220c4300d72c55026ea",
+        "pages": 5
+      },
+      {
+        "title": "兴业证券股份有限公司关于公司调整资本公积金转增股本除权参考价格的计算公式的专项意见",
+        "url": "https://static.cninfo.com.cn/finalpage/2019-12-17/1207169324.PDF",
+        "published_date": "2019-12-17",
+        "pdf": "sources\\action_evidence_v2\\600815.SH_2019-12-23\\1207169324.pdf",
+        "text": "sources\\action_evidence_v2\\600815.SH_2019-12-23\\1207169324.txt",
+        "sha256": "7efcac2ad53715140f4caa5b821753d0947a52fd7de46cdf89a5a30c0b81110c",
+        "pages": 6
+      },
+      {
+        "title": "兴业证券股份有限公司关于厦门厦工机械股份有限公司资本公积金转增股本除权参考价格的计算结果的专项意见",
+        "url": "https://static.cninfo.com.cn/finalpage/2019-12-20/1207180288.PDF",
+        "published_date": "2019-12-20",
+        "pdf": "sources\\action_evidence_v2\\600815.SH_2019-12-23\\1207180288.pdf",
+        "text": "sources\\action_evidence_v2\\600815.SH_2019-12-23\\1207180288.txt",
+        "sha256": "eddc0a6462eababb39666fa95974d8d597d980fb258471a7d1f2295655007a96",
+        "pages": 3
+      },
+      {
+        "title": "关于资本公积转增股本除权事项的提示性公告",
+        "url": "https://static.cninfo.com.cn/finalpage/2019-12-20/1207180289.PDF",
+        "published_date": "2019-12-20",
+        "pdf": "sources\\action_evidence_v2\\600815.SH_2019-12-23\\1207180289.pdf",
+        "text": "sources\\action_evidence_v2\\600815.SH_2019-12-23\\1207180289.txt",
+        "sha256": "5455d6922debd0340918de4955a1dc5721d686bac2d2950a477b5d93b8085b38",
+        "pages": 4
+      }
+    ],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "600938.SH",
+    "event_date": "2022-07-15",
+    "kind": "unknown_reference",
+    "start": "2022-05-30",
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://www.cninfo.com.cn/new/hisAnnouncement/query')"
+  },
+  {
+    "symbol": "600989.SH",
+    "event_date": "2021-05-20",
+    "kind": "dividend_fields",
+    "start": "2021-03-01",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\600989.SH_2021-05-20\\query_01.json",
+        "sha256": "0eafcb2b46fbbf175118985d2400cc2b2fbb9e1bd1984d9fcb6e061c7857f089"
+      }
+    ],
+    "exact_code_announcements": 2,
+    "documents": [],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "601258.SH",
+    "event_date": "2019-12-30",
+    "kind": "unknown_reference",
+    "start": "2019-11-11",
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://www.cninfo.com.cn/new/hisAnnouncement/query')"
+  },
+  {
+    "symbol": "601318.SH",
+    "event_date": "2018-09-06",
+    "kind": "dividend_fields",
+    "start": "2018-06-18",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\601318.SH_2018-09-06\\query_01.json",
+        "sha256": "1f33dbfe52af7563883e28d33f8f5dc3dd03c615518970d8a43ee633b0948429"
+      }
+    ],
+    "exact_code_announcements": 15,
+    "documents": [
+      {
+        "title": "2018年半年度分红派息实施公告",
+        "url": "https://static.cninfo.com.cn/finalpage/2018-08-30/1205357751.PDF",
+        "published_date": "2018-08-30",
+        "pdf": "sources\\action_evidence_v2\\601318.SH_2018-09-06\\1205357751.pdf",
+        "text": "sources\\action_evidence_v2\\601318.SH_2018-09-06\\1205357751.txt",
+        "sha256": "3532e6a31eec8dc56cef1b65567d56bac90773f64b07b8c57305261c37b1de01",
+        "pages": 3
+      }
+    ],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "601688.SH",
+    "event_date": "2024-10-25",
+    "kind": "dividend_fields",
+    "start": "2024-08-06",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\601688.SH_2024-10-25\\query_01.json",
+        "sha256": "de21497ce25f299c7caeae14a1736fbda6ab1baab5d4bea2f58177c9ab409759"
+      }
+    ],
+    "exact_code_announcements": 24,
+    "documents": [
+      {
+        "title": "华泰证券股份有限公司2023年年度权益分派实施公告",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-08-09/1220824764.PDF",
+        "published_date": "2024-08-09",
+        "pdf": "sources\\action_evidence_v2\\601688.SH_2024-10-25\\1220824764.pdf",
+        "text": "sources\\action_evidence_v2\\601688.SH_2024-10-25\\1220824764.txt",
+        "sha256": "ef2c2b45c942d4a0f2749b7418863cb89fe292a5d7747640e95e8360c387c5ef",
+        "pages": 7
+      },
+      {
+        "title": "华泰证券股份有限公司2024年半年度权益分派实施公告",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-10-17/1221406755.PDF",
+        "published_date": "2024-10-17",
+        "pdf": "sources\\action_evidence_v2\\601688.SH_2024-10-25\\1221406755.pdf",
+        "text": "sources\\action_evidence_v2\\601688.SH_2024-10-25\\1221406755.txt",
+        "sha256": "5ac8e85bd4cd3dafcd16ddfd7e715a60742507969604aac281997e0344be0e5d",
+        "pages": 7
+      }
+    ],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "601919.SH",
+    "event_date": "2024-10-10",
+    "kind": "dividend_fields",
+    "start": "2024-07-22",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\601919.SH_2024-10-10\\query_01.json",
+        "sha256": "9cb27db1ba1da3b28d1707eb7b8a5c84d7e4e45bab2d9ada296e768c35c56dab"
+      }
+    ],
+    "exact_code_announcements": 16,
+    "documents": [
+      {
+        "title": "中远海控2024年中期权益分派实施公告",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-09-26/1221290881.PDF",
+        "published_date": "2024-09-26",
+        "pdf": "sources\\action_evidence_v2\\601919.SH_2024-10-10\\1221290881.pdf",
+        "text": "sources\\action_evidence_v2\\601919.SH_2024-10-10\\1221290881.txt",
+        "sha256": "d16325381291e6de96ce7dda1bb0292a32e869dd3d244e8e7ed425081d28d6f9",
+        "pages": 5
+      }
+    ],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "601985.SH",
+    "event_date": "2024-12-02",
+    "kind": "unknown_reference",
+    "start": "2024-10-15",
+    "query_files": [
+      {
+        "path": "sources\\action_evidence_v2\\601985.SH_2024-12-02\\query_01.json",
+        "sha256": "808af511db4f0059cf2893ddc4f1326d8b6de0186a9210ff855b7afd738c8bc8"
+      }
+    ],
+    "exact_code_announcements": 17,
+    "documents": [
+      {
+        "title": "中国核电2024年临时权益分派实施公告",
+        "url": "https://static.cninfo.com.cn/finalpage/2024-11-25/1221831318.PDF",
+        "published_date": "2024-11-25",
+        "pdf": "sources\\action_evidence_v2\\601985.SH_2024-12-02\\1221831318.pdf",
+        "text": "sources\\action_evidence_v2\\601985.SH_2024-12-02\\1221831318.txt",
+        "sha256": "815bc49e6884c98feef291f55ab4cfc6c2e6f4fdc8764a829a349ac0fd8c89fb",
+        "pages": 3
+      }
+    ],
+    "no_document_is_not_no_event_proof": true,
+    "fields_verified": false
+  },
+  {
+    "symbol": "603007.SH",
+    "event_date": "2024-12-26",
+    "kind": "unknown_reference",
+    "start": "2024-11-09",
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://www.cninfo.com.cn/new/hisAnnouncement/query')"
+  },
+  {
+    "symbol": "603030.SH",
+    "event_date": "2023-12-26",
+    "kind": "unknown_reference",
+    "start": "2023-11-07",
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://www.cninfo.com.cn/new/hisAnnouncement/query')"
+  },
+  {
+    "symbol": "603285.SH",
+    "event_date": "2024-09-05",
+    "kind": "unknown_reference",
+    "start": "2024-07-21",
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://www.cninfo.com.cn/new/hisAnnouncement/query')"
+  },
+  {
+    "symbol": "603559.SH",
+    "event_date": "2024-12-26",
+    "kind": "unknown_reference",
+    "start": "2024-11-09",
+    "error": "HTTPError('403 Client Error: Forbidden for url: https://www.cninfo.com.cn/new/hisAnnouncement/query')"
+  }
+]

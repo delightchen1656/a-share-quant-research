@@ -1,0 +1,27 @@
+{
+  "symbol": "003007.SZ",
+  "year": 2023,
+  "ok": true,
+  "rows": 1,
+  "fields": [
+    "code",
+    "dividPreNoticeDate",
+    "dividAgmPumDate",
+    "dividPlanAnnounceDate",
+    "dividPlanDate",
+    "dividRegistDate",
+    "dividOperateDate",
+    "dividPayDate",
+    "dividStockMarketDate",
+    "dividCashPsBeforeTax",
+    "dividCashPsAfterTax",
+    "dividStocksPs",
+    "dividCashStock",
+    "dividReserveToStockPs"
+  ],
+  "sha256": "7ce41556795dcd5f5c819f65e1dfb825757e4c333472ae82fc04640fc30b8a40",
+  "year_type": "operate",
+  "source": "BaoStock query_dividend_data independent new collection",
+  "query_utc": "2026-10-26T20:31:46.378213+00:00",
+  "zero_rows_not_proof_of_complete_company_action_history": true
+}

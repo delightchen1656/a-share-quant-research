@@ -1,0 +1,587 @@
+[
+  {
+    "id": "code_TP10_SL0_H20",
+    "rank": "code",
+    "tp": 0.1,
+    "sl": null,
+    "h": 20,
+    "trail": false,
+    "all_signals": 3805,
+    "entered": 702,
+    "no_open": 6,
+    "oneprice_up": 16,
+    "duplicate": 36,
+    "capacity": 3045,
+    "unaffordable": 0,
+    "fee": 52380.74754126192,
+    "stale_valuation_days": 1730,
+    "total_return": 0.2202701118848458,
+    "max_drawdown": -0.20510464705215725,
+    "open_positions": 17,
+    "avg_exposure": 0.3887473107331112,
+    "trades": 685,
+    "annual": [
+      {
+        "year": 2020,
+        "return": 0.05203812617730086,
+        "drawdown": -0.1260974936698731,
+        "avg_exposure": 0.42366702058949773,
+        "avg_positions": 9.39917695473251,
+        "year_end_equity": 1052038.126177301
+      },
+      {
+        "year": 2021,
+        "return": 0.16899328115878287,
+        "drawdown": -0.11672781844343916,
+        "avg_exposure": 0.4390249275986202,
+        "avg_positions": 9.975308641975309,
+        "year_end_equity": 1229825.5010241407
+      },
+      {
+        "year": 2022,
+        "return": 0.0762333664384669,
+        "drawdown": -0.133151173637575,
+        "avg_exposure": 0.4094582507062729,
+        "avg_positions": 10.276859504132231,
+        "year_end_equity": 1323579.2390990853
+      },
+      {
+        "year": 2023,
+        "return": -0.021315581339913736,
+        "drawdown": -0.1293200789584925,
+        "avg_exposure": 0.30521001160234557,
+        "avg_positions": 8.347107438016529,
+        "year_end_equity": 1295366.3781682476
+      },
+      {
+        "year": 2024,
+        "return": -0.05797299323886573,
+        "drawdown": -0.14904267227547574,
+        "avg_exposure": 0.3660242880997209,
+        "avg_positions": 9.925619834710744,
+        "year_end_equity": 1220270.111884846
+      }
+    ],
+    "score": -0.062100579308465936
+  },
+  {
+    "id": "code_TP10_SL8_H20",
+    "rank": "code",
+    "tp": 0.1,
+    "sl": 0.08,
+    "h": 20,
+    "trail": false,
+    "all_signals": 3805,
+    "entered": 983,
+    "no_open": 6,
+    "oneprice_up": 16,
+    "duplicate": 0,
+    "capacity": 2800,
+    "unaffordable": 0,
+    "fee": 73281.96227157461,
+    "stale_valuation_days": 1299,
+    "total_return": 0.3754188000497327,
+    "max_drawdown": -0.1717021805076333,
+    "open_positions": 12,
+    "avg_exposure": 0.35352261855922085,
+    "trades": 971,
+    "annual": [
+      {
+        "year": 2020,
+        "return": 0.020224192769600746,
+        "drawdown": -0.1316614944450477,
+        "avg_exposure": 0.4106463550021343,
+        "avg_positions": 8.580246913580247,
+        "year_end_equity": 1020224.1927696008
+      },
+      {
+        "year": 2021,
+        "return": 0.15740804969326283,
+        "drawdown": -0.0942706764297635,
+        "avg_exposure": 0.40654676800585876,
+        "avg_positions": 8.814814814814815,
+        "year_end_equity": 1180815.693203347
+      },
+      {
+        "year": 2022,
+        "return": 0.08477544867579656,
+        "drawdown": -0.1128690411326172,
+        "avg_exposure": 0.3890294891338979,
+        "avg_positions": 9.132231404958677,
+        "year_end_equity": 1280919.8733980826
+      },
+      {
+        "year": 2023,
+        "return": 0.05314557099056216,
+        "drawdown": -0.05981933435924791,
+        "avg_exposure": 0.2630809914719399,
+        "avg_positions": 6.896694214876033,
+        "year_end_equity": 1348995.0914629824
+      },
+      {
+        "year": 2024,
+        "return": 0.01958769809762151,
+        "drawdown": -0.08849519511670345,
+        "avg_exposure": 0.29785433262901084,
+        "avg_positions": 8.355371900826446,
+        "year_end_equity": 1375418.8000497327
+      }
+    ],
+    "score": -0.038295160386509264
+  },
+  {
+    "id": "code_TP10_SL12_H20",
+    "rank": "code",
+    "tp": 0.1,
+    "sl": 0.12,
+    "h": 20,
+    "trail": false,
+    "all_signals": 3805,
+    "entered": 867,
+    "no_open": 6,
+    "oneprice_up": 16,
+    "duplicate": 2,
+    "capacity": 2914,
+    "unaffordable": 0,
+    "fee": 64532.23207684467,
+    "stale_valuation_days": 1290,
+    "total_return": 0.3476360948690065,
+    "max_drawdown": -0.1690612220313945,
+    "open_positions": 15,
+    "avg_exposure": 0.36429655310971976,
+    "trades": 852,
+    "annual": [
+      {
+        "year": 2020,
+        "return": 0.101173585874901,
+        "drawdown": -0.08566541369546288,
+        "avg_exposure": 0.4128903765924077,
+        "avg_positions": 9.148148148148149,
+        "year_end_equity": 1101173.585874901
+      },
+      {
+        "year": 2021,
+        "return": 0.1265556973552262,
+        "drawdown": -0.13079961396054085,
+        "avg_exposure": 0.42481031648508777,
+        "avg_positions": 9.580246913580247,
+        "year_end_equity": 1240533.3769444542
+      },
+      {
+        "year": 2022,
+        "return": 0.09269765410174324,
+        "drawdown": -0.11484401947479461,
+        "avg_exposure": 0.392194372473427,
+        "avg_positions": 9.87603305785124,
+        "year_end_equity": 1355527.9108221186
+      },
+      {
+        "year": 2023,
+        "return": 0.027163628074637458,
+        "drawdown": -0.07545649077361205,
+        "avg_exposure": 0.268968660914256,
+        "avg_positions": 7.367768595041323,
+        "year_end_equity": 1392348.966836481
+      },
+      {
+        "year": 2024,
+        "return": -0.03211326544742976,
+        "drawdown": -0.12020711567350595,
+        "avg_exposure": 0.32216818128648617,
+        "avg_positions": 9.00413223140496,
+        "year_end_equity": 1347636.0948690064
+      }
+    ],
+    "score": -0.001606506562531515
+  },
+  {
+    "id": "code_TP15_SL0_H20",
+    "rank": "code",
+    "tp": 0.15,
+    "sl": null,
+    "h": 20,
+    "trail": false,
+    "all_signals": 3805,
+    "entered": 665,
+    "no_open": 6,
+    "oneprice_up": 16,
+    "duplicate": 38,
+    "capacity": 3080,
+    "unaffordable": 0,
+    "fee": 49600.03432647903,
+    "stale_valuation_days": 2129,
+    "total_return": 0.24852758394377328,
+    "max_drawdown": -0.245493059797941,
+    "open_positions": 19,
+    "avg_exposure": 0.4196601523333588,
+    "trades": 646,
+    "annual": [
+      {
+        "year": 2020,
+        "return": 0.08449337573929983,
+        "drawdown": -0.11108823141956237,
+        "avg_exposure": 0.44885208236177404,
+        "avg_positions": 10.168724279835391,
+        "year_end_equity": 1084493.3757393
+      },
+      {
+        "year": 2021,
+        "return": 0.18604932551597453,
+        "drawdown": -0.11258511369680646,
+        "avg_exposure": 0.488285203150754,
+        "avg_positions": 11.279835390946502,
+        "year_end_equity": 1286262.636822139
+      },
+      {
+        "year": 2022,
+        "return": 0.10373613078835997,
+        "drawdown": -0.11894024149227089,
+        "avg_exposure": 0.42830523674278237,
+        "avg_positions": 11.194214876033058,
+        "year_end_equity": 1419694.5459437012
+      },
+      {
+        "year": 2023,
+        "return": -0.06568046207009837,
+        "drawdown": -0.16974527777228388,
+        "avg_exposure": 0.32640732771617054,
+        "avg_positions": 9.611570247933884,
+        "year_end_equity": 1326448.3521677204
+      },
+      {
+        "year": 2024,
+        "return": -0.058743914225236726,
+        "drawdown": -0.15372637855383797,
+        "avg_exposure": 0.40604670929512376,
+        "avg_positions": 11.574380165289256,
+        "year_end_equity": 1248527.5839437733
+      }
+    ],
+    "score": -0.04926381471709747
+  },
+  {
+    "id": "code_TP15_SL8_H20",
+    "rank": "code",
+    "tp": 0.15,
+    "sl": 0.08,
+    "h": 20,
+    "trail": false,
+    "all_signals": 3805,
+    "entered": 919,
+    "no_open": 6,
+    "oneprice_up": 16,
+    "duplicate": 0,
+    "capacity": 2864,
+    "unaffordable": 0,
+    "fee": 68590.59852720705,
+    "stale_valuation_days": 1302,
+    "total_return": 0.46143558503938675,
+    "max_drawdown": -0.16403449841029616,
+    "open_positions": 13,
+    "avg_exposure": 0.3899190129421385,
+    "trades": 906,
+    "annual": [
+      {
+        "year": 2020,
+        "return": 0.07195964383959974,
+        "drawdown": -0.12368666499882852,
+        "avg_exposure": 0.4431925841705641,
+        "avg_positions": 9.506172839506172,
+        "year_end_equity": 1071959.6438395998
+      },
+      {
+        "year": 2021,
+        "return": 0.1364763017746924,
+        "drawdown": -0.10833265343688292,
+        "avg_exposure": 0.478449375321089,
+        "avg_positions": 10.489711934156379,
+        "year_end_equity": 1218256.7316825448
+      },
+      {
+        "year": 2022,
+        "return": 0.13948264968949697,
+        "drawdown": -0.09036382435500845,
+        "avg_exposure": 0.4161251554150043,
+        "avg_positions": 10.347107438016529,
+        "year_end_equity": 1388182.4086196928
+      },
+      {
+        "year": 2023,
+        "return": 0.03388374512183834,
+        "drawdown": -0.06534907094078024,
+        "avg_exposure": 0.27331764478482884,
+        "avg_positions": 7.68595041322314,
+        "year_end_equity": 1435219.2275359822
+      },
+      {
+        "year": 2024,
+        "return": 0.018266448080139996,
+        "drawdown": -0.11131411505029332,
+        "avg_exposure": 0.3379243383514071,
+        "avg_positions": 9.818181818181818,
+        "year_end_equity": 1461435.5850393868
+      }
+    ],
+    "score": -0.015112784019808641
+  },
+  {
+    "id": "code_TP15_SL12_H20",
+    "rank": "code",
+    "tp": 0.15,
+    "sl": 0.12,
+    "h": 20,
+    "trail": false,
+    "all_signals": 3805,
+    "entered": 809,
+    "no_open": 6,
+    "oneprice_up": 16,
+    "duplicate": 3,
+    "capacity": 2971,
+    "unaffordable": 0,
+    "fee": 60171.2079630772,
+    "stale_valuation_days": 1697,
+    "total_return": 0.3733028902280633,
+    "max_drawdown": -0.18691653520112816,
+    "open_positions": 17,
+    "avg_exposure": 0.4089603735420157,
+    "trades": 792,
+    "annual": [
+      {
+        "year": 2020,
+        "return": 0.11898392907209976,
+        "drawdown": -0.11003988596881287,
+        "avg_exposure": 0.4417829443141559,
+        "avg_positions": 9.868312757201647,
+        "year_end_equity": 1118983.9290720997
+      },
+      {
+        "year": 2021,
+        "return": 0.10850827616428571,
+        "drawdown": -0.1391734486874041,
+        "avg_exposure": 0.4958363475840208,
+        "avg_positions": 11.189300411522634,
+        "year_end_equity": 1240402.9462712526
+      },
+      {
+        "year": 2022,
+        "return": 0.1419254222747388,
+        "drawdown": -0.1033798057509937,
+        "avg_exposure": 0.43374077529414806,
+        "avg_positions": 11.041322314049587,
+        "year_end_equity": 1416447.6582116303
+      },
+      {
+        "year": 2023,
+        "return": -0.0103040934470352,
+        "drawdown": -0.11202798545183168,
+        "avg_exposure": 0.30001653968088693,
+        "avg_positions": 8.760330578512397,
+        "year_end_equity": 1401852.4491785835
+      },
+      {
+        "year": 2024,
+        "return": -0.020365594800828557,
+        "drawdown": -0.13896291577751674,
+        "avg_exposure": 0.37293063875085786,
+        "avg_positions": 10.880165289256198,
+        "year_end_equity": 1373302.8902280633
+      }
+    ],
+    "score": 0.004537729037348857
+  },
+  {
+    "id": "code_TP20_SL0_H20",
+    "rank": "code",
+    "tp": 0.2,
+    "sl": null,
+    "h": 20,
+    "trail": false,
+    "all_signals": 3805,
+    "entered": 643,
+    "no_open": 6,
+    "oneprice_up": 16,
+    "duplicate": 34,
+    "capacity": 3106,
+    "unaffordable": 0,
+    "fee": 47840.27141858752,
+    "stale_valuation_days": 2133,
+    "total_return": 0.2576932705751265,
+    "max_drawdown": -0.23357084442916265,
+    "open_positions": 20,
+    "avg_exposure": 0.44557555727041886,
+    "trades": 623,
+    "annual": [
+      {
+        "year": 2020,
+        "return": 0.09638789747729981,
+        "drawdown": -0.14544932510282016,
+        "avg_exposure": 0.4669067033874353,
+        "avg_positions": 10.534979423868313,
+        "year_end_equity": 1096387.8974773
+      },
+      {
+        "year": 2021,
+        "return": 0.10851674085770902,
+        "drawdown": -0.12534874780538274,
+        "avg_exposure": 0.5353351771540387,
+        "avg_positions": 12.008230452674898,
+        "year_end_equity": 1215364.3388273725
+      },
+      {
+        "year": 2022,
+        "return": 0.1404781755706197,
+        "drawdown": -0.13511543674560234,
+        "avg_exposure": 0.4526205831989874,
+        "avg_positions": 11.334710743801653,
+        "year_end_equity": 1386096.5037994343
+      },
+      {
+        "year": 2023,
+        "return": -0.04873674752023982,
+        "drawdown": -0.17020174542127797,
+        "avg_exposure": 0.35204787058094994,
+        "avg_positions": 10.09504132231405,
+        "year_end_equity": 1318542.668455074
+      },
+      {
+        "year": 2024,
+        "return": -0.04614897897179504,
+        "drawdown": -0.15361717791878704,
+        "avg_exposure": 0.42050839927861444,
+        "avg_positions": 11.801652892561984,
+        "year_end_equity": 1257693.2705751264
+      }
+    ],
+    "score": -0.029182635657276232
+  },
+  {
+    "id": "code_TP20_SL8_H20",
+    "rank": "code",
+    "tp": 0.2,
+    "sl": 0.08,
+    "h": 20,
+    "trail": false,
+    "all_signals": 3805,
+    "entered": 881,
+    "no_open": 6,
+    "oneprice_up": 16,
+    "duplicate": 0,
+    "capacity": 2902,
+    "unaffordable": 0,
+    "fee": 65724.80966691858,
+    "stale_valuation_days": 1304,
+    "total_return": 0.4957428487899549,
+    "max_drawdown": -0.17357781265414385,
+    "open_positions": 14,
+    "avg_exposure": 0.41113546784513266,
+    "trades": 867,
+    "annual": [
+      {
+        "year": 2020,
+        "return": 0.09053877143199984,
+        "drawdown": -0.14016789441544886,
+        "avg_exposure": 0.4622222040341223,
+        "avg_positions": 10.0,
+        "year_end_equity": 1090538.7714319997
+      },
+      {
+        "year": 2021,
+        "return": 0.1122879509686665,
+        "drawdown": -0.10758206005013682,
+        "avg_exposure": 0.5078165687411901,
+        "avg_positions": 11.275720164609053,
+        "year_end_equity": 1212993.1355279859
+      },
+      {
+        "year": 2022,
+        "return": 0.16017039557335955,
+        "drawdown": -0.10563116275499451,
+        "avg_exposure": 0.43857325193249436,
+        "avg_positions": 10.809917355371901,
+        "year_end_equity": 1407278.725873273
+      },
+      {
+        "year": 2023,
+        "return": 0.05820024253052836,
+        "drawdown": -0.06004084674887211,
+        "avg_exposure": 0.285298939849336,
+        "avg_positions": 8.169421487603305,
+        "year_end_equity": 1489182.6890271506
+      },
+      {
+        "year": 2024,
+        "return": 0.004405208179723008,
+        "drawdown": -0.11516104556488982,
+        "avg_exposure": 0.3611557637714749,
+        "avg_positions": 10.53305785123967,
+        "year_end_equity": 1495742.8487899548
+      }
+    ],
+    "score": -0.005659897178481376
+  },
+  {
+    "id": "code_TP20_SL12_H20",
+    "rank": "code",
+    "tp": 0.2,
+    "sl": 0.12,
+    "h": 20,
+    "trail": false,
+    "all_signals": 3805,
+    "entered": 779,
+    "no_open": 6,
+    "oneprice_up": 16,
+    "duplicate": 3,
+    "capacity": 3001,
+    "unaffordable": 0,
+    "fee": 58021.730617654364,
+    "stale_valuation_days": 1701,
+    "total_return": 0.45510615081504024,
+    "max_drawdown": -0.1659272215137988,
+    "open_positions": 18,
+    "avg_exposure": 0.4251686814396151,
+    "trades": 761,
+    "annual": [
+      {
+        "year": 2020,
+        "return": 0.1469686207941001,
+        "drawdown": -0.11777834143348875,
+        "avg_exposure": 0.4608807675983337,
+        "avg_positions": 10.366255144032921,
+        "year_end_equity": 1146968.6207941002
+      },
+      {
+        "year": 2021,
+        "return": 0.08428262181144697,
+        "drawdown": -0.13094474271689438,
+        "avg_exposure": 0.5265393489464426,
+        "avg_positions": 12.012345679012345,
+        "year_end_equity": 1243638.1432900864
+      },
+      {
+        "year": 2022,
+        "return": 0.17645177124938605,
+        "drawdown": -0.1155647685536133,
+        "avg_exposure": 0.44875908011431187,
+        "avg_positions": 11.524793388429751,
+        "year_end_equity": 1463080.2964669198
+      },
+      {
+        "year": 2023,
+        "return": 0.009082104520598211,
+        "drawdown": -0.10401467483964122,
+        "avg_exposure": 0.3060533964334229,
+        "avg_positions": 9.243801652892563,
+        "year_end_equity": 1476368.1446414602
+      },
+      {
+        "year": 2024,
+        "return": -0.014401552826502684,
+        "drawdown": -0.12574859837537644,
+        "avg_exposure": 0.3830443564457897,
+        "avg_positions": 11.53305785123967,
+        "year_end_equity": 1455106.1508150403
+      }
+    ],
+    "score": -0.018436189642749498
+  }
+]

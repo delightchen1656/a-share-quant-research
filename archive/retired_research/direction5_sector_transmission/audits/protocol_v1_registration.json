@@ -1,0 +1,62 @@
+{
+  "protocol_id": "direction5_v1",
+  "protocol_sha256": "502c0f7f652295b4ba4b3dcf1a4595a7944bafabe0685bdff263eb7348483e50",
+  "readable_spec_sha256": "5b506215d09308812f754c3511b72a5f76ee5d866438034cb6957276ba27df7f",
+  "input_manifests": [
+    {
+      "path": "inputs_pre2025\\kline_v1\\manifest.json",
+      "sha256": "f10f353b5021f6ddb028be038103f757433f958ebbf4992fb65383f42160b1a1"
+    },
+    {
+      "path": "inputs_pre2025\\industry_official_v1\\manifest.json",
+      "sha256": "88d786f669eeeaacd1aa690bae16528f75cc4a1c0c352edf855bae40e35a6861"
+    }
+  ],
+  "schema_and_time_order_checks_passed": true,
+  "settings_origin": "assistant_proposed_initial_research_defaults_under_user_next_step_instruction",
+  "development_schedule": [
+    {
+      "id": "dev_2021",
+      "train_start": "2018-01-02",
+      "train_end": "2020-12-31",
+      "validation_start": "2021-01-01",
+      "validation_end": "2021-12-31",
+      "training_label_maturity_required": true,
+      "returns_or_factors_computed": false
+    },
+    {
+      "id": "dev_2022",
+      "train_start": "2018-01-02",
+      "train_end": "2021-12-31",
+      "validation_start": "2022-01-01",
+      "validation_end": "2022-12-31",
+      "training_label_maturity_required": true,
+      "returns_or_factors_computed": false
+    },
+    {
+      "id": "dev_2023",
+      "train_start": "2018-01-02",
+      "train_end": "2022-12-31",
+      "validation_start": "2023-01-01",
+      "validation_end": "2023-12-31",
+      "training_label_maturity_required": true,
+      "returns_or_factors_computed": false
+    }
+  ],
+  "final_holdout": {
+    "start": "2024-01-01",
+    "end": "2024-12-31",
+    "locked_for_return_feature_model_selection": true
+  },
+  "registration_scope": "design only; no targets, factors, model scores, or strategy returns computed",
+  "unresolved_gates": [
+    "unit_and_corporate_action_audits_passed",
+    "daily_eligibility_panel_ready",
+    "labels_ready",
+    "execution_engine_ready",
+    "factor_experiments_enabled",
+    "model_experiments_enabled",
+    "account_backtest_enabled"
+  ],
+  "change_policy": "Preserve v1 registration. Changes require a new protocol version and explanation; never redefine acceptance using holdout outcomes."
+}

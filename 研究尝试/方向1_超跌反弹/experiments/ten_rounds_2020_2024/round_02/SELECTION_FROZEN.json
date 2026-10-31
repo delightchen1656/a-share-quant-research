@@ -1,0 +1,297 @@
+{
+  "round": 2,
+  "question": "最低流动性约束是否减少脆弱信号",
+  "candidate_count": 6,
+  "inherited": "anchor_prior",
+  "selected": "anchor_prior",
+  "promoted": false,
+  "candidate_register_sha256": "b292f00114662c5ddcc81bb1cd4b0c7a4a366fe594b663a5e982811c4ef3b8ce",
+  "selected_config": {
+    "slots": 5,
+    "forced_day": 3,
+    "take_profit": 0.08,
+    "stop_loss": null,
+    "priority": "ret20_ascending",
+    "filters": [],
+    "max_new_entries": null
+  },
+  "selected_config_sha256": "0da49517ced272c613ff83fd01361ed4c19ab08dcd082d4505b21e49dbc18aee",
+  "training_statistics": {
+    "score": 0.08039427962451334,
+    "mean_annual_return": 0.12518364615106053,
+    "worst_annual_return": 0.07636980008623606,
+    "largest_annual_drawdown": 0.08957873305309438,
+    "returns": [
+      0.15617069520000082,
+      0.1262303089032668,
+      0.14196378041473845,
+      0.07636980008623606
+    ],
+    "total_return": 0.6005269895000023,
+    "full_drawdown": 0.0931240211190969,
+    "terminal_equity": 160052.69895000022,
+    "eligible": true,
+    "guard_reasons": [],
+    "improved_years_vs_v3": 2
+  },
+  "attempts": [
+    {
+      "round": 2,
+      "candidate": "R02_mean10m",
+      "question": "最低流动性约束是否减少脆弱信号",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "amount20",
+            "op": ">=",
+            "value": 10000000.0
+          }
+        ],
+        "max_new_entries": null
+      },
+      "config_sha256": "5c9e3cba01a62f98d065f2d1b3dc739474201fcebb33c6e5727512ddb72e6a55",
+      "score": 0.06850351959568357,
+      "mean_annual_return": 0.11397954856257014,
+      "worst_annual_return": 0.07969642175216074,
+      "largest_annual_drawdown": 0.09095205793377314,
+      "returns": [
+        0.11278477880000093,
+        0.11423376381646899,
+        0.1492032298816499,
+        0.07969642175216074
+      ],
+      "total_return": 0.5384592274000024,
+      "full_drawdown": 0.10662996005378045,
+      "terminal_equity": 153845.92274000024,
+      "eligible": true,
+      "guard_reasons": [],
+      "improved_years_vs_v3": 2,
+      "promotable": false,
+      "rejection_reasons": [
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 2,
+      "candidate": "R02_mean30m",
+      "question": "最低流动性约束是否减少脆弱信号",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "amount20",
+            "op": ">=",
+            "value": 30000000.0
+          }
+        ],
+        "max_new_entries": null
+      },
+      "config_sha256": "19b6d138d977c0a8c2aa0dde1e67df906efb74a24c33ade75f5d2b1d16987b23",
+      "score": 0.07364229431834513,
+      "mean_annual_return": 0.11681249474101701,
+      "worst_annual_return": 0.05948934777608672,
+      "largest_annual_drawdown": 0.08634040084534378,
+      "returns": [
+        0.17168272960000053,
+        0.0961184781126263,
+        0.1399594234753545,
+        0.05948934777608672
+      ],
+      "total_return": 0.5511489930000011,
+      "full_drawdown": 0.08634040084534378,
+      "terminal_equity": 155114.8993000001,
+      "eligible": false,
+      "guard_reasons": [
+        "worst_year_floor_failed"
+      ],
+      "improved_years_vs_v3": 2,
+      "promotable": false,
+      "rejection_reasons": [
+        "worst_year_floor_failed",
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 2,
+      "candidate": "R02_mean50m",
+      "question": "最低流动性约束是否减少脆弱信号",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "amount20",
+            "op": ">=",
+            "value": 50000000.0
+          }
+        ],
+        "max_new_entries": null
+      },
+      "config_sha256": "a7e6304d3b8a2550d6e3c8b00561b978c2700b3d9c982781a1814b9b1289072c",
+      "score": 0.03713948761054231,
+      "mean_annual_return": 0.09055366645899704,
+      "worst_annual_return": 0.0013421036423033605,
+      "largest_annual_drawdown": 0.10682835769690946,
+      "returns": [
+        0.18439765000000063,
+        0.0013421036423033605,
+        0.11853087623756609,
+        0.05794403595611808
+      ],
+      "total_return": 0.40342977440000105,
+      "full_drawdown": 0.1209181573112299,
+      "terminal_equity": 140342.9774400001,
+      "eligible": false,
+      "guard_reasons": [
+        "worst_year_floor_failed",
+        "fewer_than_two_years_above_fixed_v3"
+      ],
+      "improved_years_vs_v3": 1,
+      "promotable": false,
+      "rejection_reasons": [
+        "worst_year_floor_failed",
+        "fewer_than_two_years_above_fixed_v3",
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 2,
+      "candidate": "R02_today10m",
+      "question": "最低流动性约束是否减少脆弱信号",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "current_amount",
+            "op": ">=",
+            "value": 10000000.0
+          }
+        ],
+        "max_new_entries": null
+      },
+      "config_sha256": "51a5268a4c88970051b9b0c83ef42fd17f06cbc854aca54928108b1b18a7724b",
+      "score": 0.0770161866857425,
+      "mean_annual_return": 0.12233326943655787,
+      "worst_annual_return": 0.07718389113192003,
+      "largest_annual_drawdown": 0.09063416550163073,
+      "returns": [
+        0.14061526520000078,
+        0.12783937270419843,
+        0.14369454871011222,
+        0.07718389113192003
+      ],
+      "total_return": 0.5848433155000023,
+      "full_drawdown": 0.09107067046599293,
+      "terminal_equity": 158484.33155000024,
+      "eligible": true,
+      "guard_reasons": [],
+      "improved_years_vs_v3": 2,
+      "promotable": false,
+      "rejection_reasons": [
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 2,
+      "candidate": "R02_today30m",
+      "question": "最低流动性约束是否减少脆弱信号",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "current_amount",
+            "op": ">=",
+            "value": 30000000.0
+          }
+        ],
+        "max_new_entries": null
+      },
+      "config_sha256": "d0b108221473df5ae6d081c95fc23cc6d1c374eee9d6327ee4f5a86dad7972e4",
+      "score": 0.0477757532312198,
+      "mean_annual_return": 0.09911337141834081,
+      "worst_annual_return": 0.06773283572124345,
+      "largest_annual_drawdown": 0.10267523637424203,
+      "returns": [
+        0.14999963120000048,
+        0.07685972690945087,
+        0.10186129184266846,
+        0.06773283572124345
+      ],
+      "total_return": 0.4569557496000016,
+      "full_drawdown": 0.11221456697805399,
+      "terminal_equity": 145695.57496000017,
+      "eligible": false,
+      "guard_reasons": [
+        "fewer_than_two_years_above_fixed_v3"
+      ],
+      "improved_years_vs_v3": 1,
+      "promotable": false,
+      "rejection_reasons": [
+        "fewer_than_two_years_above_fixed_v3",
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 2,
+      "candidate": "R02_volume08",
+      "question": "最低流动性约束是否减少脆弱信号",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "volume_ratio",
+            "op": ">=",
+            "value": 0.8
+          }
+        ],
+        "max_new_entries": null
+      },
+      "config_sha256": "c1c88c7a4006731c8d17cb054a893f382a351677aeb301f75ea9d6f9f9409b7d",
+      "score": 0.06421440752083563,
+      "mean_annual_return": 0.10869428622063843,
+      "worst_annual_return": 0.06160818203808338,
+      "largest_annual_drawdown": 0.0889597573996056,
+      "returns": [
+        0.13947261199999983,
+        0.16644452460082548,
+        0.06160818203808338,
+        0.06725182624364501
+      ],
+      "total_return": 0.5059104382000015,
+      "full_drawdown": 0.0889597573996056,
+      "terminal_equity": 150591.04382000014,
+      "eligible": true,
+      "guard_reasons": [],
+      "improved_years_vs_v3": 2,
+      "promotable": false,
+      "rejection_reasons": [
+        "no_strict_score_gain_over_incumbent"
+      ]
+    }
+  ],
+  "stage": "frozen_before_any_new_batch_2024_account_run"
+}

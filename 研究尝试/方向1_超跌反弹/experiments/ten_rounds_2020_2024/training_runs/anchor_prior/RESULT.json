@@ -1,0 +1,95 @@
+{
+  "key": "sample_after_100000_5",
+  "summary": {
+    "pool": "sample",
+    "filtered": true,
+    "capital": 100000,
+    "slots": 5,
+    "slot_budget": 20000.0,
+    "forced_day": 3,
+    "take_profit": 0.08,
+    "stop_loss": null,
+    "annual_rules": null,
+    "signals": 627,
+    "trades": 223,
+    "skipped": 403,
+    "final_equity": 160052.69895000022,
+    "total_return": 0.6005269895000023,
+    "annualized_return": 0.12477524768630688,
+    "max_drawdown": -0.0931240211190969,
+    "takeprofit": 56,
+    "stoploss": 0,
+    "forced": 167,
+    "net_win_rate": 0.5695067264573991,
+    "mean_trade_return": 0.013563139963738124,
+    "fees": 7222.13236,
+    "max_positions": 5,
+    "average_positions": 0.6350515463917525,
+    "corporate_events": 0,
+    "delayed_exits": 0,
+    "skipped_slots": 403
+  },
+  "yearly": [
+    {
+      "year": 2020,
+      "return_pct": 0.15617069520000082,
+      "max_drawdown": -0.07578241478014724,
+      "end_equity": 115617.06952000009
+    },
+    {
+      "year": 2021,
+      "return_pct": 0.1262303089032668,
+      "max_drawdown": -0.055954168245726854,
+      "end_equity": 130211.44792000018
+    },
+    {
+      "year": 2022,
+      "return_pct": 0.14196378041473845,
+      "max_drawdown": -0.08957873305309438,
+      "end_equity": 148696.75732000024
+    },
+    {
+      "year": 2023,
+      "return_pct": 0.07636980008623606,
+      "max_drawdown": -0.011414567880111415,
+      "end_equity": 160052.69895000022
+    }
+  ],
+  "specials": [],
+  "yearly_trades": {
+    "2020": 58,
+    "2021": 72,
+    "2022": 72,
+    "2023": 21
+  },
+  "open_positions": [
+    {
+      "code": "603363",
+      "name": "603363",
+      "signal_date": "2023-12-28",
+      "buy_date": "2023-12-29",
+      "buy_price": 6.03,
+      "buy_qty": 3300,
+      "buy_notional": 19899.0,
+      "cost": 19905.16869,
+      "buy_fee": 6.16869,
+      "available": 3300,
+      "locked": [],
+      "due_date": "2024-01-04",
+      "take_profit": 0.08,
+      "forced_day": 3,
+      "stop_loss": null,
+      "last_price": 6.07,
+      "last_factor": 1.0,
+      "sale_net": 0.0,
+      "sale_gross": 0.0,
+      "sell_fee": 0.0,
+      "div_net": 0.0,
+      "div_gross": 0.0,
+      "corporate_events": 0,
+      "reasons": []
+    }
+  ],
+  "receivables": [],
+  "pending_signals": []
+}

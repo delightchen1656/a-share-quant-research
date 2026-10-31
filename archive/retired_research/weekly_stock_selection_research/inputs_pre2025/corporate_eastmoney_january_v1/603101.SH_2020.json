@@ -1,0 +1,31 @@
+{
+  "query": {
+    "reportName": "RPT_SHAREBONUS_DET",
+    "columns": "SECURITY_CODE,SECUCODE,SECURITY_NAME_ABBR,BONUS_IT_RATIO,BONUS_RATIO,IT_RATIO,PRETAX_BONUS_RMB,EQUITY_RECORD_DATE,EX_DIVIDEND_DATE,REPORT_DATE,ASSIGN_PROGRESS,IMPL_PLAN_PROFILE,NOTICE_DATE",
+    "filter": "(SECURITY_CODE=\"603101\")(EX_DIVIDEND_DATE>='2020-01-01')(EX_DIVIDEND_DATE<='2020-12-31')",
+    "pageSize": 100,
+    "pageNumber": 1,
+    "source": "WEB",
+    "client": "WEB"
+  },
+  "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get",
+  "data": [
+    {
+      "SECURITY_CODE": "603101",
+      "SECUCODE": "603101.SH",
+      "SECURITY_NAME_ABBR": "汇嘉时代",
+      "BONUS_IT_RATIO": 4,
+      "BONUS_RATIO": null,
+      "IT_RATIO": 4,
+      "PRETAX_BONUS_RMB": null,
+      "EQUITY_RECORD_DATE": "2020-06-09 00:00:00",
+      "EX_DIVIDEND_DATE": "2020-06-10 00:00:00",
+      "REPORT_DATE": "2019-12-31 00:00:00",
+      "ASSIGN_PROGRESS": "实施分配",
+      "IMPL_PLAN_PROFILE": "10转4.00",
+      "NOTICE_DATE": "2020-06-04 00:00:00"
+    }
+  ],
+  "before2024_only": true,
+  "no_price_or_performance_fields_requested": true
+}

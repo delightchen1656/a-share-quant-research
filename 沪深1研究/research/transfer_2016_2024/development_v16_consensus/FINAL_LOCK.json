@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "permanently_locked": true,
+  "search_space_sha256": "43aea806c22b196001ad4add21730a486d6cd1ba5fdc24b01ca2d30e58202658",
+  "selected_candidate_id": "grid9_consensus",
+  "final_decision": "candidate_frozen_pending_one_way_post_boundary_audit",
+  "parameters": {
+    "weights": {
+      "cap": -0.35,
+      "vol": -0.2,
+      "overnight": 0.25,
+      "intraday": -0.2,
+      "mom60": 0.0,
+      "mom120": 0.0
+    },
+    "smooth": 5,
+    "min_smooth": 3,
+    "count": 5,
+    "interval": 20,
+    "buffer": 1.5,
+    "exposure": 0.98,
+    "participation_20d_mean_volume": 0.005,
+    "trend_days": 0,
+    "market_ma_days": 0,
+    "risk_off_multiplier": 1.0,
+    "allocation_inv_vol_power": 1.0,
+    "rank_lag_days": 10,
+    "max_vol_rank": 1.0,
+    "market_vol_target": 0.0,
+    "breadth_threshold": 0.0,
+    "ensemble_weights": [
+      {
+        "cap": -0.225,
+        "vol": -0.2,
+        "overnight": 0.375,
+        "intraday": -0.2,
+        "mom60": 0.0,
+        "mom120": 0.0
+      },
+      {
+        "cap": -0.225,
+        "vol": -0.2,
+        "overnight": 0.4,
+        "intraday": -0.2,
+        "mom60": 0.0,
+        "mom120": 0.0
+      },
+      {
+        "cap": -0.225,
+        "vol": -0.2,
+        "overnight": 0.425,
+        "intraday": -0.2,
+        "mom60": 0.0,
+        "mom120": 0.0
+      },
+      {
+        "cap": -0.25,
+        "vol": -0.2,
+        "overnight": 0.375,
+        "intraday": -0.2,
+        "mom60": 0.0,
+        "mom120": 0.0
+      },
+      {
+        "cap": -0.25,
+        "vol": -0.2,
+        "overnight": 0.4,
+        "intraday": -0.2,
+        "mom60": 0.0,
+        "mom120": 0.0
+      },
+      {
+        "cap": -0.25,
+        "vol": -0.2,
+        "overnight": 0.425,
+        "intraday": -0.2,
+        "mom60": 0.0,
+        "mom120": 0.0
+      },
+      {
+        "cap": -0.275,
+        "vol": -0.2,
+        "overnight": 0.375,
+        "intraday": -0.2,
+        "mom60": 0.0,
+        "mom120": 0.0
+      },
+      {
+        "cap": -0.275,
+        "vol": -0.2,
+        "overnight": 0.4,
+        "intraday": -0.2,
+        "mom60": 0.0,
+        "mom120": 0.0
+      },
+      {
+        "cap": -0.275,
+        "vol": -0.2,
+        "overnight": 0.425,
+        "intraday": -0.2,
+        "mom60": 0.0,
+        "mom120": 0.0
+      }
+    ],
+    "candidate_id": "grid9_consensus"
+  },
+  "development_summary": {
+    "candidate_id": "grid9_consensus",
+    "mean_cagr": 0.301093474315146,
+    "min_cagr": -0.28534576434621906,
+    "mean_excess": 0.236839462722706,
+    "mean_drawdown": 0.1860798561324362,
+    "mean_sharpe": 1.0692323190904356,
+    "mean_cost_rate": 0.017779117680608362,
+    "mean_turnover": 21.04252122243346,
+    "starts": 526,
+    "worst_year_median_excess": -0.016412223815694738,
+    "year_median_excess_std": 0.20740223842730257,
+    "passed": true,
+    "failure_reasons": "",
+    "neighbor_ids": "cross5_consensus",
+    "early_mean_excess_gain": 0.029184214710449775,
+    "late_mean_excess_gain": 0.019648583173966727,
+    "min_block_excess_gain": 0.019648583173966727,
+    "min_block_mean_excess": 0.08122233949029077,
+    "years_improved": 5.0,
+    "starts_improved_fraction": 0.6825095057034221,
+    "min_loo_mean_excess_gain": 0.016060337099487676,
+    "largest_year_positive_gain_share": 0.2569441567652114
+  },
+  "development_last_date": "2024-12-31",
+  "result_files": [
+    "development_all_starts.csv",
+    "development_yearly.csv",
+    "development_blocks.csv",
+    "candidate_summary.csv",
+    "baseline_block_assessment.csv",
+    "development_stress_all_starts.csv",
+    "development_stress_yearly.csv",
+    "development_stress_summary.csv"
+  ],
+  "frozen_candidate_sha256": "413f0e26dc769dbe53f2146c9820320901a7bf300d37757bf0f2447f394b06a9"
+}

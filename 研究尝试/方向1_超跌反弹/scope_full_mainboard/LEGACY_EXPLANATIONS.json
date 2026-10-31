@@ -1,0 +1,36 @@
+{
+  "retained": 820,
+  "new_within_old947": 200,
+  "new_outside_old947": 2785,
+  "missing": 0,
+  "new_explanation_counts": {
+    "historical_scope_expansion_outside_old947": 2785,
+    "new_2020_signal_window_inside_old947": 191,
+    "absent_from_old_frozen_set_no_future_eligibility_reconstruction": 5,
+    "original_rule_special_event_not_excluded_here": 3,
+    "structure_retained_despite_next_session_suspension": 1
+  },
+  "limitation": "Only legacy code/date/entry_date projected. Five 2024 legacy-absent keys are recorded without assuming their original future-label, holding or retirement eligibility cause; no old outcome labels or account data read.",
+  "remaining_unattributed_keys": [
+    {
+      "code": "002513",
+      "signal_date": "2024-12-27"
+    },
+    {
+      "code": "002693",
+      "signal_date": "2024-06-07"
+    },
+    {
+      "code": "002694",
+      "signal_date": "2024-12-27"
+    },
+    {
+      "code": "600189",
+      "signal_date": "2024-11-20"
+    },
+    {
+      "code": "603363",
+      "signal_date": "2024-10-11"
+    }
+  ]
+}

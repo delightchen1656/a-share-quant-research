@@ -1,0 +1,185 @@
+{
+  "round": 10,
+  "question": "限制每天实际新开仓数能否缓解信号集中风险",
+  "candidate_count": 4,
+  "inherited": "R07_tp15",
+  "selected": "R07_tp15",
+  "promoted": false,
+  "candidate_register_sha256": "0bdf4b8be461eea47d6750f6949bc252e311a1f5bb9b42bce779732bfe92f2f3",
+  "selected_config": {
+    "slots": 5,
+    "forced_day": 3,
+    "take_profit": 0.15,
+    "stop_loss": null,
+    "priority": "ret20_ascending",
+    "filters": [],
+    "max_new_entries": null
+  },
+  "selected_config_sha256": "4e08b931a0cef23810bb58965233688ffd16514f2c7363890c7c8ab5edda21d3",
+  "training_statistics": {
+    "score": 0.09254052567115162,
+    "mean_annual_return": 0.13640786588054177,
+    "worst_annual_return": 0.08734810300355833,
+    "largest_annual_drawdown": 0.0877346804187803,
+    "returns": [
+      0.19918554120000054,
+      0.15368019215407158,
+      0.10541762716453662,
+      0.08734810300355833
+    ],
+    "total_return": 0.6629025774000004,
+    "full_drawdown": 0.09122114624403554,
+    "terminal_equity": 166290.25774000003,
+    "eligible": true,
+    "guard_reasons": [],
+    "improved_years_vs_v3": 2
+  },
+  "attempts": [
+    {
+      "round": 10,
+      "candidate": "R10_cap1",
+      "question": "限制每天实际新开仓数能否缓解信号集中风险",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.15,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": 1
+      },
+      "config_sha256": "5df4895997083c8568d5aa2bbeed43fd53f6aadf9e139ffa23cfc14143fa5063",
+      "score": 0.0005365149462616958,
+      "mean_annual_return": 0.049560729662994046,
+      "worst_annual_return": -0.01008477599999924,
+      "largest_annual_drawdown": 0.0980484294334647,
+      "returns": [
+        -0.01008477599999924,
+        0.07424850352639822,
+        0.04126562597463157,
+        0.09281356515094563
+      ],
+      "total_return": 0.21006965380000042,
+      "full_drawdown": 0.12926688179615464,
+      "terminal_equity": 121006.96538000004,
+      "eligible": false,
+      "guard_reasons": [
+        "worst_year_floor_failed",
+        "fewer_than_two_years_above_fixed_v3"
+      ],
+      "improved_years_vs_v3": 1,
+      "promotable": false,
+      "rejection_reasons": [
+        "worst_year_floor_failed",
+        "fewer_than_two_years_above_fixed_v3",
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 10,
+      "candidate": "R10_cap2",
+      "question": "限制每天实际新开仓数能否缓解信号集中风险",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.15,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": 2
+      },
+      "config_sha256": "10e5e2fa2f67a2d340d0e041767379085e5174764f577fbe7266794a3da8bc9d",
+      "score": 0.052771962451301946,
+      "mean_annual_return": 0.10225718003730316,
+      "worst_annual_return": 0.08508637974128974,
+      "largest_annual_drawdown": 0.09897043517200244,
+      "returns": [
+        0.11281798040000068,
+        0.11793962167364036,
+        0.09318473833428187,
+        0.08508637974128974
+      ],
+      "total_return": 0.4757077391000011,
+      "full_drawdown": 0.10558890712944013,
+      "terminal_equity": 147570.7739100001,
+      "eligible": true,
+      "guard_reasons": [],
+      "improved_years_vs_v3": 2,
+      "promotable": false,
+      "rejection_reasons": [
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 10,
+      "candidate": "R10_cap3",
+      "question": "限制每天实际新开仓数能否缓解信号集中风险",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.15,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": 3
+      },
+      "config_sha256": "06eb9e449eddd7005e6c650a4cd95268203182f7daedc40996565926d7e3f5ac",
+      "score": 0.06797812972336831,
+      "mean_annual_return": 0.1120410759890959,
+      "worst_annual_return": 0.08525596882568998,
+      "largest_annual_drawdown": 0.0881258925314552,
+      "returns": [
+        0.13723141120000082,
+        0.11216105213397753,
+        0.1135158717967153,
+        0.08525596882568998
+      ],
+      "total_return": 0.5284284873000002,
+      "full_drawdown": 0.09172400166470074,
+      "terminal_equity": 152842.84873000003,
+      "eligible": true,
+      "guard_reasons": [],
+      "improved_years_vs_v3": 2,
+      "promotable": false,
+      "rejection_reasons": [
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 10,
+      "candidate": "R10_cap4",
+      "question": "限制每天实际新开仓数能否缓解信号集中风险",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.15,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": 4
+      },
+      "config_sha256": "f99f2d14cfd173d9467729b00c87d50538385e52ff2622da5a573914032d5a0d",
+      "score": 0.07737729794855819,
+      "mean_annual_return": 0.12325185463191235,
+      "worst_annual_return": 0.09171237193810211,
+      "largest_annual_drawdown": 0.09174911336670832,
+      "returns": [
+        0.14985613120000063,
+        0.14864091373033927,
+        0.10279800165920738,
+        0.09171237193810211
+      ],
+      "total_return": 0.5901276494000014,
+      "full_drawdown": 0.09497404870037518,
+      "terminal_equity": 159012.76494000014,
+      "eligible": true,
+      "guard_reasons": [],
+      "improved_years_vs_v3": 2,
+      "promotable": false,
+      "rejection_reasons": [
+        "no_strict_score_gain_over_incumbent"
+      ]
+    }
+  ],
+  "stage": "frozen_before_any_new_batch_2024_account_run"
+}

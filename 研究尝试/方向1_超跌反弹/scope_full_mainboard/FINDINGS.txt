@@ -1,0 +1,15 @@
+方向1全量历史沪深主板结构扫描（仅2020—2024）
+
+固定原v3结构顺序：scan基础条件→10个已观察有效交易bar冷却→连续推断跌停排除→原始收盘价<8→qfq收盘/MA20≤0.92。未套用旧四项事后特殊事件剔除，不因未来入场、持有或退市资格删结构。更早有效行情只供预热和原函数连续冷却历史。
+
+冻结历史主板名录3336只，其中3319只在研究期有原始及有效行情，17只无研究期行。17只仍保留在范围覆盖文件，不按当前状态或未来outDate删股票。名单、IPO日期与实际bar来自明确冻结白名单；名录只投影code/name/ipoDate，没有读取outDate。
+
+结构总数3805；按年：2020=658，2021=455，2022=1158，2023=131，2024=1403。严格正式次日状态：3799条有有效开盘，6条停牌，其他状态0。六条停牌结构全部保留，未延期入场、未填造价格。next_valid_open是严格bool；next_raw_open即使存在也不表示可交易。
+
+旧947代码全部在新名录内。旧820个code/date键全部保留，缺失0，正式entry_date差异0。新增旧947池内200条：2020新增191条，原事后特殊事件3条重新保留，次日停牌结构1条保留，另5条2024结构不在旧冻结集合。最后5条不读取旧未来标签或账户，因此不假称已证明每条原先被排除的具体原因；逐条列于LEGACY_EXPLANATIONS.json。另新增旧947池外2785条，来自历史全主板范围扩展。无需也没有将新范围凑成820。
+
+覆盖、唯一键、时间边界、IPO下界、固定价格/MA条件、正式次日映射、CSV/parquet布尔类型与旧集合映射均通过。CSV与parquet的事件/状态集合一致；字段修复前后事件/状态摘要完全一致。
+
+只导出结构、已知信号前诊断和下一正式交易日状态，没有账户、优化、未来路径或经济收益。新输入无完整公司行动，不可从本导出推导账户业绩。qfq已按最后边界内raw收盘统一归一，去除更晚统一缩放；供应商历史修订无法回溯。未读取方向2结果、受限目录、软件或龙头分类。龙头分组由父代理单独处理，本导出没有leader列。原RULE/CURRENT及输入未修改。
+
+主文件FULL_SIGNALS.csv、FULL_SIGNALS.parquet；核验VALIDATION.json；范围覆盖SCOPE_COVERAGE.csv、SCAN_STAGES.csv；旧集合LEGACY_SET_COMPARISON.csv、LEGACY_DIAGNOSTICS.csv、ADDITION_EXPLANATIONS.csv、LEGACY_EXPLANATIONS.json；边界/访问PROTOCOL.json、CONTEXT_AUDIT.json、INPUT_ACCESS_AUDIT.json；字段修复EXPORT_FIX_AUDIT.json。

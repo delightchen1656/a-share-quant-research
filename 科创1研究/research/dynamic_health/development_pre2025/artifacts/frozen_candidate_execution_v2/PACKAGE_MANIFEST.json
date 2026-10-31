@@ -1,0 +1,57 @@
+{
+  "schema": 2,
+  "boundary_version": "public-pre2025-v2",
+  "change_class": "execution_compliance_fix_not_strategy_upgrade",
+  "prior_package_manifest_sha256": "88d4e074a454ca9c3b812e711b9a6946366a81b50939b03921f77bfc8edc9a37",
+  "prior_candidate_spec_canonical_sha256": "f9ba1ff06c41b698a21263d1047621bd6ca3884764ea05e28470f7e06c51ffb9",
+  "prior_candidate_file_sha256": "e4748e259fdd027eddd5b67b2e03251e2c9893931116b17f99201bf3dcb2d4ec",
+  "candidate_config_sha256": "f9ba1ff06c41b698a21263d1047621bd6ca3884764ea05e28470f7e06c51ffb9",
+  "immutable_artifacts": {
+    "candidate.json": {
+      "sha256": "e4748e259fdd027eddd5b67b2e03251e2c9893931116b17f99201bf3dcb2d4ec",
+      "relationship_to_prior": "byte_identical"
+    },
+    "event_model.joblib": {
+      "sha256": "1f87270f6a8506df79f06b38cacfee6c163dfc20f9eb8ae424c2397d816b0fd4",
+      "relationship_to_prior": "byte_identical"
+    },
+    "stop_risk_model.joblib": {
+      "sha256": "0cf8fbc48dd6eda524a54ddd14082f44a0b787498983d501160a2fe8f51709d9",
+      "relationship_to_prior": "byte_identical"
+    }
+  },
+  "execution_rules": {
+    "integer_shares": true,
+    "star_minimum_buy_shares": 200,
+    "star_buy_increment_shares": 1,
+    "t_plus_one": true,
+    "suspension_and_zero_volume_blocking": true,
+    "open_limit_up_buy_blocking": true,
+    "open_limit_down_sell_blocking": true,
+    "all_in_affordability_and_nonnegative_cash": true
+  },
+  "environment_lock_sha256": "a96fb64f94b97ea10ef86baa00c4e56d5d9a796615e02075821df124e684cd0a",
+  "source_run": {
+    "scope": "inputs_pre2025_only",
+    "cutoff": "2024-12-31",
+    "input_manifest_sha256": "16d0877a399588ff61ec548da6c5ab3c1d20cdc622bcf4786f8576a299a448bf",
+    "reproduction_sha256": "32e6cc2ce7c7b3e01d3f7a77742de9a4ca1e6079d2d260c9683e5d740320168f",
+    "execution_rule_tests_sha256": "168a261d05012514e6ab66e05f371f1fc9bdbebb86962abd96def8d56c997e54"
+  },
+  "manifest_scope": "all package files except PACKAGE_MANIFEST.json itself",
+  "files": {
+    "README.md": {"bytes": 823, "sha256": "dbf61801b87baa1703f4811deaa90f3cf28d7b35fc8eb2629956ebc98d50b44d"},
+    "candidate.json": {"bytes": 1830, "sha256": "e4748e259fdd027eddd5b67b2e03251e2c9893931116b17f99201bf3dcb2d4ec"},
+    "engine.py": {"bytes": 18663, "sha256": "8f3ab47dc9f45c65415c35fad0dbefc0194e2682ae91ce900d5182abe8d92b76"},
+    "environment.json": {"bytes": 1309, "sha256": "371f65c8b647d37a29fc2b9d9c26df3aa7a06b025aed84df5501ce4ba02ea53f"},
+    "environment.lock.txt": {"bytes": 2587, "sha256": "a96fb64f94b97ea10ef86baa00c4e56d5d9a796615e02075821df124e684cd0a"},
+    "event_model.joblib": {"bytes": 592950, "sha256": "1f87270f6a8506df79f06b38cacfee6c163dfc20f9eb8ae424c2397d816b0fd4"},
+    "execution_rule_tests.json": {"bytes": 441, "sha256": "168a261d05012514e6ab66e05f371f1fc9bdbebb86962abd96def8d56c997e54"},
+    "preboundary_reproduction.json": {"bytes": 917, "sha256": "32e6cc2ce7c7b3e01d3f7a77742de9a4ca1e6079d2d260c9683e5d740320168f"},
+    "reproduce_pre2025.py": {"bytes": 2592, "sha256": "ce8445fa42acac29369d41de529b6d74984ae73eff44eca4665da6f9dba7aa5f"},
+    "stop_risk_model.joblib": {"bytes": 262272, "sha256": "0cf8fbc48dd6eda524a54ddd14082f44a0b787498983d501160a2fe8f51709d9"},
+    "test_execution_rules.py": {"bytes": 4931, "sha256": "80a1e4306331f9a9336ed303578d44483debbf3193f383ace5813fa3050c0dd9"},
+    "validate_frozen.py": {"bytes": 2549, "sha256": "78eafc6d023b3e8dd4eef1f305f9f72dcbf2b5f06c7b19d6538fc914892ed5a2"},
+    "validate_package.py": {"bytes": 1712, "sha256": "4be6e74b2062e544ef9dbd48d02e06d21ff3d9d08cb7a3e89078e52cef8f88d5"}
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "key": "600941.SH/2022",
+  "request": {
+    "code": "sh.600941",
+    "year": "2022",
+    "yearType": "operate"
+  },
+  "fields": [
+    "code",
+    "dividPreNoticeDate",
+    "dividAgmPumDate",
+    "dividPlanAnnounceDate",
+    "dividPlanDate",
+    "dividRegistDate",
+    "dividOperateDate",
+    "dividPayDate",
+    "dividStockMarketDate",
+    "dividCashPsBeforeTax",
+    "dividCashPsAfterTax",
+    "dividStocksPs",
+    "dividCashStock",
+    "dividReserveToStockPs"
+  ],
+  "records": [
+    {
+      "code": "sh.600941",
+      "dividPreNoticeDate": "",
+      "dividAgmPumDate": "2022-05-19",
+      "dividPlanAnnounceDate": "2022-03-24",
+      "dividPlanDate": "2022-05-26",
+      "dividRegistDate": "2022-05-31",
+      "dividOperateDate": "2022-06-01",
+      "dividPayDate": "2022-06-01",
+      "dividStockMarketDate": "",
+      "dividCashPsBeforeTax": "2.0939",
+      "dividCashPsAfterTax": "1.88451或2.0939",
+      "dividStocksPs": "0.000000",
+      "dividCashStock": "10派20.939元（含税，扣税后18.8451或20.939元）",
+      "dividReserveToStockPs": ""
+    },
+    {
+      "code": "sh.600941",
+      "dividPreNoticeDate": "",
+      "dividAgmPumDate": "",
+      "dividPlanAnnounceDate": "2022-08-12",
+      "dividPlanDate": "2022-08-31",
+      "dividRegistDate": "2022-09-05",
+      "dividOperateDate": "2022-09-06",
+      "dividPayDate": "2022-09-06",
+      "dividStockMarketDate": "",
+      "dividCashPsBeforeTax": "1.8942",
+      "dividCashPsAfterTax": "1.70478或1.8942",
+      "dividStocksPs": "0.000000",
+      "dividCashStock": "10派18.942元（含税，扣税后17.0478或18.942元）",
+      "dividReserveToStockPs": ""
+    }
+  ],
+  "row_count": 2,
+  "successful_empty": false,
+  "cutoff": "2024-12-31"
+}

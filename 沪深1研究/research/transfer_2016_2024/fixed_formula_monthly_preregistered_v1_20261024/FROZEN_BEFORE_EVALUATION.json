@@ -1,0 +1,26 @@
+{
+  "status": "frozen_before_any_performance_calculation",
+  "instruction_boundary_version": "public-pre2025-v2",
+  "frozen_at_local": "2026-10-24T17:40:13.4363000+08:00",
+  "research_cutoff": "2024-12-31",
+  "planned_evaluation_runs": 1,
+  "self_test_used_only_synthetic_data": true,
+  "frozen_files": {
+    "PROTOCOL_FROZEN.md": "89de452245af1c33ab66e5476f9967a676cc6bf6c134b381bcb3e4179de23a4f",
+    "frozen_config.json": "c9af057e246ceb27d209652b6d49dd525fcc0f7932e2c18029640b4771a24ab2",
+    "run_once.py": "2ab1f2fec7fd65d928686c317588d07e7edd0f6054feff9b1224bb213b2acdeb"
+  },
+  "input_files": {
+    "PUBLIC_INPUT_MANIFEST.json": "fd4bfbc19b7af7155d5047615e1f5e94c0a84303bc219251f3564d131aa71ce2",
+    "calendar.csv": "11aaf134eff50d830e1c1c24ba9f6412a696d88b8922d4b7005a37d2ab83a412",
+    "universe.csv": "6e5a0ea2cd10d49537731a0b3c2969bc34e2e0f7a83216f0ce8982966c25661a",
+    "sse_price_index.parquet": "1c7d838cff3085c70f370d272506f3a3ee136851170882700522a3436cadb722",
+    "actions_pre2025.json": "e1a9a41116ea92bb18ecff54f7bdc06acfa462dffa57f1842376bbbccca3c480",
+    "actions_pre2025_repaired_20261024.json": "b8210ba72187320e55a2ad122dbc6c8b737946f2a533ad1d0f23e862833b8faa"
+  },
+  "raw_input_binding": {
+    "method": "PUBLIC_INPUT_MANIFEST.json contains per-file SHA-256 for all 3354 raw parquets",
+    "runtime_rule": "run_once.py verifies every raw parquet against the frozen manifest and writes RAW_INPUT_HASH_VERIFICATION.csv before computing signals or performance"
+  },
+  "command": "quant_env/Scripts/python.exe -B run_once.py --execute-frozen"
+}

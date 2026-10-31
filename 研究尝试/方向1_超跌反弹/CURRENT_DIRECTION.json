@@ -1,0 +1,29 @@
+{
+  "direction": "方向1",
+  "name": "超跌反弹",
+  "current_version": "v3",
+  "idea": "研究固定超跌结构出现后的反弹路径，以及该路径在不同市场状态下的一致性和收益稳定性。",
+  "program_objective": "检验固定结构后的走势是否具有跨市场状态稳定性；不预设完全不受市场影响。",
+  "rule": "RULE.json",
+  "status": "full_scope_signals_complete_account_not_retested",
+  "other_directions": "方向2已停止并删除，未经用户明确授权不得恢复",
+  "development_boundary": "2024-12-31",
+  "posterior": "holdout_restricted/",
+  "posterior_feedback_to_optimization": false,
+  "active_signal_scope": "CURRENT_SIGNAL_SCOPE.json",
+  "current_signal_file": "scope_full_mainboard/FULL_SIGNALS.csv",
+  "signal_scope": "历史沪深主板全量；查看器可切龙头",
+  "current_structure_counts": {
+    "events": 3805,
+    "stocks": 1616
+  },
+  "legacy_947_statistics_are_not_full_scope": true,
+  "signal_scope_revision": "full_mainboard_v1",
+  "legacy_account_rule_scope": "RULE.json与旧账户结果仍对应原947冻结范围；新全量信号范围以CURRENT_SIGNAL_SCOPE.json为准",
+  "current_path_summary": "scope_full_mainboard/path_D0_D20/summary_D0_D20.csv",
+  "current_path_report": "scope_full_mainboard/path_D0_D20/STATISTICS.md",
+  "price_path_analysis_pending": false,
+  "path_statistics_cohort": "v3结构全量3805固定信号",
+  "path_statistics_observation": "D0至D+20，严格次日开盘，复权价格路径而非账户净经济收益",
+  "current_leader_path_report": "holdout_restricted/full_scope_paths_D0_D20/direction1_full_and_leaders_D0_D20.csv"
+}

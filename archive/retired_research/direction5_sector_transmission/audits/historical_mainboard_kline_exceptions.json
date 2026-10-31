@@ -1,0 +1,48 @@
+{
+  "source_membership_without_kline": [
+    {
+      "symbol": "000033.SZ",
+      "source_id": "73e89f7cc994",
+      "published_date": "2017-09-11",
+      "knowledge_start": "2017-09-12",
+      "knowledge_end_exclusive": "2017-11-15"
+    },
+    {
+      "symbol": "000916.SZ",
+      "source_id": "73e89f7cc994",
+      "published_date": "2017-09-11",
+      "knowledge_start": "2017-09-12",
+      "knowledge_end_exclusive": "2017-11-15"
+    },
+    {
+      "symbol": "601313.SH",
+      "source_id": "73e89f7cc994",
+      "published_date": "2017-09-11",
+      "knowledge_start": "2017-09-12",
+      "knowledge_end_exclusive": "2017-11-15"
+    },
+    {
+      "symbol": "000916.SZ",
+      "source_id": "be87410c06ca",
+      "published_date": "2017-11-14",
+      "knowledge_start": "2017-11-15",
+      "knowledge_end_exclusive": "2018-01-20"
+    },
+    {
+      "symbol": "601313.SH",
+      "source_id": "be87410c06ca",
+      "published_date": "2017-11-14",
+      "knowledge_start": "2017-11-15",
+      "knowledge_end_exclusive": "2018-01-20"
+    },
+    {
+      "symbol": "601313.SH",
+      "source_id": "f93cfff91bb4",
+      "published_date": "2018-01-19",
+      "knowledge_start": "2018-01-20",
+      "knowledge_end_exclusive": "2018-05-22"
+    }
+  ],
+  "interpretation": "An industry publication lists the security but no authorized Kline file exists. This alone does not establish listing, tradability, or delisting status at a later date.",
+  "policy": "Keep exception visible; never synthesize prices or use later delisting information to remove historical names."
+}

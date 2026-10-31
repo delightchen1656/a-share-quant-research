@@ -1,0 +1,459 @@
+[
+  {
+    "code": "000488",
+    "ex_date": "2021-08-12",
+    "source_ids": [
+      "000488.SZ/2021:0",
+      "000488.SZ/2021:1"
+    ],
+    "variants": 1,
+    "conflict_unresolved": false,
+    "resolution": "identical_entitlement_rows_merged",
+    "selected_source": "000488.SZ/2021:0",
+    "tests": []
+  },
+  {
+    "code": "000903",
+    "ex_date": "2021-07-29",
+    "source_ids": [
+      "000903.SZ/2021:0",
+      "000903.SZ/2021:1"
+    ],
+    "variants": 1,
+    "conflict_unresolved": false,
+    "resolution": "identical_entitlement_rows_merged",
+    "selected_source": "000903.SZ/2021:0",
+    "tests": []
+  },
+  {
+    "code": "000920",
+    "ex_date": "2021-06-17",
+    "source_ids": [
+      "000920.SZ/2021:0",
+      "000920.SZ/2021:1"
+    ],
+    "variants": 2,
+    "conflict_unresolved": false,
+    "resolution": "unique_rounded_ex_reference_and_factor_match",
+    "selected_source": "000920.SZ/2021:1",
+    "tests": [
+      {
+        "source": "000920.SZ/2021:0",
+        "cash_ps": "0",
+        "stock_ps": "0.000000",
+        "predicted_rounded_reference": "7.22",
+        "raw_reference": "7.13",
+        "observed_factor_jump": 1.0126220980468699,
+        "predicted_factor_from_rounded_reference": 1.0,
+        "relative_error": 0.012622098046869867,
+        "match": false
+      },
+      {
+        "source": "000920.SZ/2021:1",
+        "cash_ps": "0.088",
+        "stock_ps": "0.000000",
+        "predicted_rounded_reference": "7.13",
+        "raw_reference": "7.13",
+        "observed_factor_jump": 1.0126220980468699,
+        "predicted_factor_from_rounded_reference": 1.0126227208976157,
+        "relative_error": -6.150866783682929e-07,
+        "match": true
+      }
+    ]
+  },
+  {
+    "code": "002012",
+    "ex_date": "2021-06-08",
+    "source_ids": [
+      "002012.SZ/2021:0",
+      "002012.SZ/2021:1"
+    ],
+    "variants": 1,
+    "conflict_unresolved": false,
+    "resolution": "identical_entitlement_rows_merged",
+    "selected_source": "002012.SZ/2021:0",
+    "tests": []
+  },
+  {
+    "code": "002033",
+    "ex_date": "2021-05-18",
+    "source_ids": [
+      "002033.SZ/2021:0",
+      "002033.SZ/2021:1"
+    ],
+    "variants": 1,
+    "conflict_unresolved": false,
+    "resolution": "identical_entitlement_rows_merged",
+    "selected_source": "002033.SZ/2021:0",
+    "tests": []
+  },
+  {
+    "code": "002047",
+    "ex_date": "2021-06-04",
+    "source_ids": [
+      "002047.SZ/2021:0",
+      "002047.SZ/2021:1"
+    ],
+    "variants": 2,
+    "conflict_unresolved": false,
+    "resolution": "unique_rounded_ex_reference_and_factor_match",
+    "selected_source": "002047.SZ/2021:0",
+    "tests": [
+      {
+        "source": "002047.SZ/2021:0",
+        "cash_ps": "0.01",
+        "stock_ps": "0.000000",
+        "predicted_rounded_reference": "3.23",
+        "raw_reference": "3.23",
+        "observed_factor_jump": 1.003095552876176,
+        "predicted_factor_from_rounded_reference": 1.0030959752321982,
+        "relative_error": -4.2105245423584847e-07,
+        "match": true
+      },
+      {
+        "source": "002047.SZ/2021:1",
+        "cash_ps": "0",
+        "stock_ps": "0.000000",
+        "predicted_rounded_reference": "3.24",
+        "raw_reference": "3.23",
+        "observed_factor_jump": 1.003095552876176,
+        "predicted_factor_from_rounded_reference": 1.0,
+        "relative_error": 0.003095552876176022,
+        "match": false
+      }
+    ]
+  },
+  {
+    "code": "002091",
+    "ex_date": "2020-09-22",
+    "source_ids": [
+      "002091.SZ/2020:1",
+      "002091.SZ/2020:2"
+    ],
+    "variants": 1,
+    "conflict_unresolved": false,
+    "resolution": "identical_entitlement_rows_merged",
+    "selected_source": "002091.SZ/2020:1",
+    "tests": []
+  },
+  {
+    "code": "002583",
+    "ex_date": "2021-05-24",
+    "source_ids": [
+      "002583.SZ/2021:0",
+      "002583.SZ/2021:1"
+    ],
+    "variants": 1,
+    "conflict_unresolved": false,
+    "resolution": "identical_entitlement_rows_merged",
+    "selected_source": "002583.SZ/2021:0",
+    "tests": []
+  },
+  {
+    "code": "002658",
+    "ex_date": "2021-10-19",
+    "source_ids": [
+      "002658.SZ/2021:1",
+      "002658.SZ/2021:2"
+    ],
+    "variants": 1,
+    "conflict_unresolved": false,
+    "resolution": "identical_entitlement_rows_merged",
+    "selected_source": "002658.SZ/2021:1",
+    "tests": []
+  },
+  {
+    "code": "600178",
+    "ex_date": "2021-06-24",
+    "source_ids": [
+      "600178.SH/2021:0",
+      "600178.SH/2021:1"
+    ],
+    "variants": 2,
+    "conflict_unresolved": false,
+    "resolution": "unique_rounded_ex_reference_and_factor_match",
+    "selected_source": "600178.SH/2021:0",
+    "tests": [
+      {
+        "source": "600178.SH/2021:0",
+        "cash_ps": "0.03",
+        "stock_ps": "0.000000",
+        "predicted_rounded_reference": "7.95",
+        "raw_reference": "7.95",
+        "observed_factor_jump": 1.0037733729563023,
+        "predicted_factor_from_rounded_reference": 1.0037735849056604,
+        "relative_error": -2.1115255599557514e-07,
+        "match": true
+      },
+      {
+        "source": "600178.SH/2021:1",
+        "cash_ps": "0",
+        "stock_ps": "0.000000",
+        "predicted_rounded_reference": "7.98",
+        "raw_reference": "7.95",
+        "observed_factor_jump": 1.0037733729563023,
+        "predicted_factor_from_rounded_reference": 1.0,
+        "relative_error": 0.003773372956302312,
+        "match": false
+      }
+    ]
+  },
+  {
+    "code": "600333",
+    "ex_date": "2021-08-23",
+    "source_ids": [
+      "600333.SH/2021:0",
+      "600333.SH/2021:1"
+    ],
+    "variants": 1,
+    "conflict_unresolved": false,
+    "resolution": "identical_entitlement_rows_merged",
+    "selected_source": "600333.SH/2021:0",
+    "tests": []
+  },
+  {
+    "code": "600495",
+    "ex_date": "2021-07-30",
+    "source_ids": [
+      "600495.SH/2021:0",
+      "600495.SH/2021:1"
+    ],
+    "variants": 2,
+    "conflict_unresolved": false,
+    "resolution": "unique_rounded_ex_reference_and_factor_match",
+    "selected_source": "600495.SH/2021:0",
+    "tests": [
+      {
+        "source": "600495.SH/2021:0",
+        "cash_ps": "0.007",
+        "stock_ps": "0.000000",
+        "predicted_rounded_reference": "3.36",
+        "raw_reference": "3.36",
+        "observed_factor_jump": 1.0029760210760839,
+        "predicted_factor_from_rounded_reference": 1.0029761904761905,
+        "relative_error": -1.6889743570391857e-07,
+        "match": true
+      },
+      {
+        "source": "600495.SH/2021:1",
+        "cash_ps": "0",
+        "stock_ps": "0.000000",
+        "predicted_rounded_reference": "3.37",
+        "raw_reference": "3.36",
+        "observed_factor_jump": 1.0029760210760839,
+        "predicted_factor_from_rounded_reference": 1.0,
+        "relative_error": 0.002976021076083857,
+        "match": false
+      }
+    ]
+  },
+  {
+    "code": "600527",
+    "ex_date": "2021-06-30",
+    "source_ids": [
+      "600527.SH/2021:0",
+      "600527.SH/2021:1"
+    ],
+    "variants": 2,
+    "conflict_unresolved": false,
+    "resolution": "unique_rounded_ex_reference_and_factor_match",
+    "selected_source": "600527.SH/2021:0",
+    "tests": [
+      {
+        "source": "600527.SH/2021:0",
+        "cash_ps": "0.1",
+        "stock_ps": "0.000000",
+        "predicted_rounded_reference": "2.52",
+        "raw_reference": "2.52",
+        "observed_factor_jump": 1.0396831992253412,
+        "predicted_factor_from_rounded_reference": 1.0396825396825398,
+        "relative_error": 6.343694121113685e-07,
+        "match": true
+      },
+      {
+        "source": "600527.SH/2021:1",
+        "cash_ps": "0",
+        "stock_ps": "0.000000",
+        "predicted_rounded_reference": "2.62",
+        "raw_reference": "2.52",
+        "observed_factor_jump": 1.0396831992253412,
+        "predicted_factor_from_rounded_reference": 1.0,
+        "relative_error": 0.03968319922534125,
+        "match": false
+      }
+    ]
+  },
+  {
+    "code": "600565",
+    "ex_date": "2021-06-04",
+    "source_ids": [
+      "600565.SH/2021:0",
+      "600565.SH/2021:1"
+    ],
+    "variants": 2,
+    "conflict_unresolved": false,
+    "resolution": "unique_rounded_ex_reference_and_factor_match",
+    "selected_source": "600565.SH/2021:1",
+    "tests": [
+      {
+        "source": "600565.SH/2021:0",
+        "cash_ps": "0",
+        "stock_ps": "0.000000",
+        "predicted_rounded_reference": "2.82",
+        "raw_reference": "2.74",
+        "observed_factor_jump": 1.0291972981512527,
+        "predicted_factor_from_rounded_reference": 1.0,
+        "relative_error": 0.029197298151252715,
+        "match": false
+      },
+      {
+        "source": "600565.SH/2021:1",
+        "cash_ps": "0.08",
+        "stock_ps": "0.000000",
+        "predicted_rounded_reference": "2.74",
+        "raw_reference": "2.74",
+        "observed_factor_jump": 1.0291972981512527,
+        "predicted_factor_from_rounded_reference": 1.0291970802919708,
+        "relative_error": 2.1167887687134623e-07,
+        "match": true
+      }
+    ]
+  },
+  {
+    "code": "600681",
+    "ex_date": "2021-09-07",
+    "source_ids": [
+      "600681.SH/2021:1",
+      "600681.SH/2021:2"
+    ],
+    "variants": 1,
+    "conflict_unresolved": false,
+    "resolution": "identical_entitlement_rows_merged",
+    "selected_source": "600681.SH/2021:1",
+    "tests": []
+  },
+  {
+    "code": "600686",
+    "ex_date": "2021-07-19",
+    "source_ids": [
+      "600686.SH/2021:0",
+      "600686.SH/2021:1"
+    ],
+    "variants": 1,
+    "conflict_unresolved": false,
+    "resolution": "identical_entitlement_rows_merged",
+    "selected_source": "600686.SH/2021:0",
+    "tests": []
+  },
+  {
+    "code": "600710",
+    "ex_date": "2021-06-10",
+    "source_ids": [
+      "600710.SH/2021:0",
+      "600710.SH/2021:1"
+    ],
+    "variants": 2,
+    "conflict_unresolved": false,
+    "resolution": "unique_rounded_ex_reference_and_factor_match",
+    "selected_source": "600710.SH/2021:1",
+    "tests": [
+      {
+        "source": "600710.SH/2021:0",
+        "cash_ps": "0",
+        "stock_ps": "0.000000",
+        "predicted_rounded_reference": "6.84",
+        "raw_reference": "6.59",
+        "observed_factor_jump": 1.0379355271278259,
+        "predicted_factor_from_rounded_reference": 1.0,
+        "relative_error": 0.037935527127825885,
+        "match": false
+      },
+      {
+        "source": "600710.SH/2021:1",
+        "cash_ps": "0.251",
+        "stock_ps": "0.000000",
+        "predicted_rounded_reference": "6.59",
+        "raw_reference": "6.59",
+        "observed_factor_jump": 1.0379355271278259,
+        "predicted_factor_from_rounded_reference": 1.0379362670713201,
+        "relative_error": -7.128987759008609e-07,
+        "match": true
+      }
+    ]
+  },
+  {
+    "code": "600812",
+    "ex_date": "2020-07-30",
+    "source_ids": [
+      "600812.SH/2020:0",
+      "600812.SH/2020:1"
+    ],
+    "variants": 1,
+    "conflict_unresolved": false,
+    "resolution": "identical_entitlement_rows_merged",
+    "selected_source": "600812.SH/2020:0",
+    "tests": []
+  },
+  {
+    "code": "601018",
+    "ex_date": "2021-06-30",
+    "source_ids": [
+      "601018.SH/2021:0",
+      "601018.SH/2021:1"
+    ],
+    "variants": 1,
+    "conflict_unresolved": false,
+    "resolution": "identical_entitlement_rows_merged",
+    "selected_source": "601018.SH/2021:0",
+    "tests": []
+  },
+  {
+    "code": "601919",
+    "ex_date": "2024-10-10",
+    "source_ids": [
+      "601919.SH/2024:1",
+      "601919.SH/2024:2"
+    ],
+    "variants": 1,
+    "conflict_unresolved": false,
+    "resolution": "identical_entitlement_rows_merged",
+    "selected_source": "601919.SH/2024:1",
+    "tests": []
+  },
+  {
+    "code": "603887",
+    "ex_date": "2021-06-24",
+    "source_ids": [
+      "603887.SH/2021:0",
+      "603887.SH/2021:1"
+    ],
+    "variants": 2,
+    "conflict_unresolved": false,
+    "resolution": "unique_rounded_ex_reference_and_factor_match",
+    "selected_source": "603887.SH/2021:1",
+    "tests": [
+      {
+        "source": "603887.SH/2021:0",
+        "cash_ps": "0",
+        "stock_ps": "0.200000",
+        "predicted_rounded_reference": "10.53",
+        "raw_reference": "10.45",
+        "observed_factor_jump": 1.2095686557216832,
+        "predicted_factor_from_rounded_reference": 1.2003798670465338,
+        "relative_error": 0.007654900692193323,
+        "match": false
+      },
+      {
+        "source": "603887.SH/2021:1",
+        "cash_ps": "0.1",
+        "stock_ps": "0.200000",
+        "predicted_rounded_reference": "10.45",
+        "raw_reference": "10.45",
+        "observed_factor_jump": 1.2095686557216832,
+        "predicted_factor_from_rounded_reference": 1.2095693779904306,
+        "relative_error": -5.971288300488098e-07,
+        "match": true
+      }
+    ]
+  }
+]

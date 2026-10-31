@@ -1,0 +1,58 @@
+{
+  "round": 8,
+  "question": "固定初始名义本金止损能否缓解回撤",
+  "protocol_sha256": "6669ecead9fff845469cb6fd861583b637d5070232c6564ad3c64a4d3b4f8e4e",
+  "inherited_candidate": "R07_tp15",
+  "inherited_config_hash": "4e08b931a0cef23810bb58965233688ffd16514f2c7363890c7c8ab5edda21d3",
+  "candidate_count": 4,
+  "candidates": {
+    "R08_sl03": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.15,
+        "stop_loss": 0.03,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "sha256": "1040da75d4bbf64fc22109ac8a2bf341f3ad08b11e40455c842a20464b08342a"
+    },
+    "R08_sl05": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.15,
+        "stop_loss": 0.05,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "sha256": "297710a4bc66761974f0043b492dfa0bdd637f127b44118242fe6a4d805b66c0"
+    },
+    "R08_sl08": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.15,
+        "stop_loss": 0.08,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "sha256": "59ebaaa3779a9e08a0d4ab5753d021ddf66c020308699ba9740d03be29e39c17"
+    },
+    "R08_sl10": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.15,
+        "stop_loss": 0.1,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "sha256": "2adf32122599a765092fe3e4275c3caac5efb6455e13a0480e94bfa533ef2ed2"
+    }
+  }
+}

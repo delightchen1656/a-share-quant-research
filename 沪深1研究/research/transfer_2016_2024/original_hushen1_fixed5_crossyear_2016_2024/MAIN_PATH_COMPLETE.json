@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "stage": "main_path",
+  "start": "2016-01-04",
+  "end": "2024-12-31",
+  "daily_rows": 2187,
+  "hashes": {
+    "daily": "6e084f1665e63d41b5203efd7c43c327c1ea320490d163697d7149fcb7405885",
+    "trades": "bcdc6dd9855f2879aa814c4e26acc7ed66bcf4a777236026543826bae9de2ced",
+    "orders": "da19d3a1a17459f1547f7cbe8c5faab0a996f78b5a54dce67acb74cc5865385d",
+    "actions": "132aa98fe126cf0c55be9b1a71b3a60285ee75ea7713387d3ef97c105c13b49a",
+    "rebalances": "acdb3f8e950e45011d4f75e7bccd79d9c7405fcc04f1cab81a5257478c2a5ba3",
+    "audit": "70edd8d37a1f2f3ab33877bbc7157558c1f85b4b41734b18af9d2a035ded4a78",
+    "period_metrics": "105ec120c98f0ee1aca3b35de9817216a32803540b694a3b7b98d28e24c134f0",
+    "yearly_metrics": "c50c6a95bf9f60bc77ae1d8b3bd3a8a2aa82175f7caa252b87eb7c9dfbf92dcc",
+    "leave_one_year_out_metrics": "43f8e3011c47ce8a0cf30f6c41ab13789819372372a53565145f89cf999e54ae"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": "002919.SZ/2023",
+  "request": {
+    "code": "sz.002919",
+    "year": "2023",
+    "yearType": "operate"
+  },
+  "fields": [
+    "code",
+    "dividPreNoticeDate",
+    "dividAgmPumDate",
+    "dividPlanAnnounceDate",
+    "dividPlanDate",
+    "dividRegistDate",
+    "dividOperateDate",
+    "dividPayDate",
+    "dividStockMarketDate",
+    "dividCashPsBeforeTax",
+    "dividCashPsAfterTax",
+    "dividStocksPs",
+    "dividCashStock",
+    "dividReserveToStockPs"
+  ],
+  "records": [
+    {
+      "code": "sz.002919",
+      "dividPreNoticeDate": "",
+      "dividAgmPumDate": "2023-05-19",
+      "dividPlanAnnounceDate": "2023-04-27",
+      "dividPlanDate": "2023-05-25",
+      "dividRegistDate": "2023-05-30",
+      "dividOperateDate": "2023-05-31",
+      "dividPayDate": "",
+      "dividStockMarketDate": "2023-05-31",
+      "dividCashPsBeforeTax": "",
+      "dividCashPsAfterTax": "",
+      "dividStocksPs": "0.000000",
+      "dividCashStock": "10转3",
+      "dividReserveToStockPs": "0.300000"
+    }
+  ],
+  "row_count": 1,
+  "successful_empty": false,
+  "cutoff": "2024-12-31"
+}

@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "checks": {
+    "signal": [
+      {
+        "end": "2014-01-15",
+        "ranking_count": 3,
+        "exact": true
+      },
+      {
+        "end": "2014-01-29",
+        "ranking_count": 4,
+        "exact": true
+      },
+      {
+        "end": "2014-02-11",
+        "ranking_count": 3,
+        "exact": true
+      }
+    ],
+    "t_plus_one": {
+      "buy_filled": true,
+      "same_day_sell_rejected": true,
+      "next_day_sell_filled": true
+    },
+    "corporate_action": {
+      "shares_after_bonus": 110,
+      "cash_receivable": 10.0,
+      "release_enforced": true
+    },
+    "phase": {
+      "anchor_due_without_force": false,
+      "next_session_due": true,
+      "backward_extension_due": true
+    }
+  },
+  "performance_computed": false
+}

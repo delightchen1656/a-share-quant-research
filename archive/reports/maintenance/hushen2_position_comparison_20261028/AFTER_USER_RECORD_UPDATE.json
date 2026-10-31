@@ -1,0 +1,120 @@
+{
+  "ledger_revision": 70,
+  "new_events": [
+    {
+      "id": 66,
+      "kind": "reject",
+      "at": "2026-10-28T17:34:21.315131+08:00",
+      "data": {
+        "signal_id": "2026-10-27_002656.SZ",
+        "automatic": true
+      }
+    },
+    {
+      "id": 67,
+      "kind": "reject",
+      "at": "2026-10-28T17:34:21.324322+08:00",
+      "data": {
+        "signal_id": "2026-10-27_600794.SH",
+        "automatic": true
+      }
+    },
+    {
+      "id": 68,
+      "kind": "buy",
+      "at": "2026-10-28T17:34:42.019220+08:00",
+      "data": {
+        "date": "2026-10-28",
+        "quantity": 300,
+        "price": 5.02,
+        "fee": 0.0,
+        "reference": "",
+        "order_id": "2026-10-27_002492.SZ"
+      }
+    },
+    {
+      "id": 69,
+      "kind": "sell",
+      "at": "2026-10-28T17:35:05.890375+08:00",
+      "data": {
+        "date": "2026-10-28",
+        "quantity": 300,
+        "price": 5.23,
+        "fee": 0.0,
+        "reference": "",
+        "symbol": "000788.SZ"
+      }
+    },
+    {
+      "id": 70,
+      "kind": "cash_adjust",
+      "at": "2026-10-28T17:35:37.777340+08:00",
+      "data": {
+        "amount": -10.78,
+        "note": "1",
+        "date": "2026-10-28",
+        "source": "cash_window",
+        "previous_cash": 2645.76,
+        "target_cash": 2634.98,
+        "flow_type": "reconciliation"
+      }
+    }
+  ],
+  "positions": [
+    {
+      "symbol": "000652.SZ",
+      "name": "泰达股份",
+      "quantity": 600,
+      "average_price": 3.1,
+      "close28": 3.11,
+      "stop": 2.98,
+      "take": 3.42,
+      "protection_confirmed": true
+    },
+    {
+      "symbol": "002476.SZ",
+      "name": "新叶股份",
+      "quantity": 400,
+      "average_price": 4.43,
+      "close28": 4.49,
+      "stop": 4.14,
+      "take": 5.2,
+      "protection_confirmed": true
+    },
+    {
+      "symbol": "002767.SZ",
+      "name": "先锋电子",
+      "quantity": 100,
+      "average_price": 16.0,
+      "close28": 15.86,
+      "stop": 14.8,
+      "take": 19.2,
+      "protection_confirmed": true
+    },
+    {
+      "symbol": "002492.SZ",
+      "name": "恒基达鑫",
+      "quantity": 300,
+      "average_price": 5.02,
+      "close28": 5.07,
+      "stop": 4.64,
+      "take": 6.02,
+      "protection_confirmed": false
+    }
+  ],
+  "cash_including_today_sales": 2634.98,
+  "market_value28": 6769.0,
+  "estimated_equity28": 9403.98,
+  "prior_equity27": 9439.76,
+  "daily_change": -35.780000000000655,
+  "daily_return": -0.0037903506021340627,
+  "equity_if_still_marked_to27": 9326.98,
+  "north_actual_sell_vs_stop": {
+    "actual_price": 5.23,
+    "stop_line": 5.42,
+    "adverse_price_gap": 0.19,
+    "shares": 300,
+    "value_gap": 57.0
+  },
+  "no_account_or_software_writes": true
+}

@@ -1,0 +1,44 @@
+{
+  "symbol": "002649.SZ",
+  "event_date": "2018-06-07",
+  "kind": "dividend_fields",
+  "start": "2018-03-19",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\002649.SZ_2018-06-07\\query_01.json",
+      "sha256": "ab6401c6a99516a5c4c90987cabc85909ba360f3517a95471c08a6314cfb77df",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "002649",
+        "begin_time": "2018-03-19",
+        "end_time": "2018-06-07"
+      }
+    }
+  ],
+  "announcement_count": 50,
+  "documents": [
+    {
+      "title": "博彦科技:2017年年度权益分派实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2018-06-01",
+      "raw_response": "sources\\action_issuer_mirror_v2\\002649.SZ_2018-06-07\\AN201805311151099274_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\002649.SZ_2018-06-07\\AN201805311151099274.txt",
+      "sha256": "36cd0c6f71cf6b181b7664a97ca98dfcc142647e3e4134000c2da93601a5e92d",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\002649.SZ_2018-06-07\\AN201805311151099274_content.json",
+          "sha256": "36cd0c6f71cf6b181b7664a97ca98dfcc142647e3e4134000c2da93601a5e92d"
+        }
+      ],
+      "article_code": "AN201805311151099274",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201805311151099274_1.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

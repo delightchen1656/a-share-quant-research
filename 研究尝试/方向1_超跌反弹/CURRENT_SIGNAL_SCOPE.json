@@ -1,0 +1,24 @@
+{
+  "version": "historical_mainboard_full_v1",
+  "period": [
+    "2020-01-01",
+    "2024-12-31"
+  ],
+  "registry_stocks": 3336,
+  "stocks_with_period_data": 3319,
+  "signal_events": 3805,
+  "stocks_with_signals": 1616,
+  "signals": "scope_full_mainboard/FULL_SIGNALS.csv",
+  "signals_sha256": "70ea8125a426c3d7a54aa39fcbe01e5bc1f71c6190e17fbd346bdf76b41843f7",
+  "protocol": "scope_full_mainboard/PROTOCOL.json",
+  "input_manifest": "inputs_pre2025/full_mainboard/MANIFEST.json",
+  "input_manifest_sha256": "8d1c78aa55e7667462a95fa3a8e87fd4b14af4075a1b3e2d14ca713503d9f7c3",
+  "scope": "historical SH/SZ mainboard including delisted; no future status filter",
+  "viewer_scopes": [
+    "full",
+    "leaders"
+  ],
+  "leader_grouping": "Parent-only current list retrospective display, not historical membership and not development input",
+  "accounts_retested": false,
+  "posterior_run": false
+}

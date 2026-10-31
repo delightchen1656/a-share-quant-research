@@ -1,0 +1,28 @@
+{
+  "candidate_config_sha256": "f9ba1ff06c41b698a21263d1047621bd6ca3884764ea05e28470f7e06c51ffb9",
+  "change_class": "execution_compliance_fix_not_strategy_upgrade",
+  "cutoff": "2024-12-31",
+  "execution_invariants": {
+    "cash_nonnegative": true,
+    "star_buy_minimum_and_unit": true,
+    "t_plus_one": true,
+    "trade_share_counts_integer": true
+  },
+  "input_manifest_sha256": "16d0877a399588ff61ec548da6c5ab3c1d20cdc622bcf4786f8576a299a448bf",
+  "metrics": {
+    "annualized_return": 0.09379266101135553,
+    "ending_equity": 1539071.6339470642,
+    "max_drawdown": -0.03932746831549816,
+    "mean_trade_return": 0.06959281099386949,
+    "return": 0.5390716339470643,
+    "sharpe": 1.5660380374295646,
+    "trades": 52,
+    "win_rate": 0.6153846153846154
+  },
+  "rows": {
+    "decisions": 1212,
+    "equity": 1212,
+    "trades": 52
+  },
+  "scope": "approved inputs_pre2025 only"
+}

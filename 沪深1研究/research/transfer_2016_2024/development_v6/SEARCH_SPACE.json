@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "instruction_boundary_version": "public-pre2025-v2",
+  "protocol": "PROTOCOL_V6.md",
+  "data_cutoff": "2024-12-31",
+  "development_period": [
+    "2016-01-01",
+    "2024-12-31"
+  ],
+  "fixed_center_candidate": "rank_persistence_10p0",
+  "baseline": {
+    "weights": {
+      "cap": -0.35,
+      "vol": -0.2,
+      "overnight": 0.25,
+      "intraday": -0.2,
+      "mom60": 0.0,
+      "mom120": 0.0
+    },
+    "smooth": 5,
+    "min_smooth": 3,
+    "count": 5,
+    "interval": 20,
+    "buffer": 1.5,
+    "exposure": 0.98,
+    "participation_20d_mean_volume": 0.005,
+    "trend_days": 0,
+    "market_ma_days": 0,
+    "risk_off_multiplier": 1.0,
+    "allocation_inv_vol_power": 0.0,
+    "rank_lag_days": 0,
+    "max_vol_rank": 1.0,
+    "market_vol_target": 0.0,
+    "breadth_threshold": 0.0
+  },
+  "candidate_families": {
+    "rank_persistence": [
+      {
+        "rank_lag_days": 5
+      },
+      {
+        "rank_lag_days": 10
+      },
+      {
+        "rank_lag_days": 15
+      }
+    ]
+  },
+  "freeze": {
+    "hash_algorithm": "sha256",
+    "frozen_spec_sha256": "466c6c1a0a52c0cf54a76e746a5e98935150011450b46a3ca067e09daf4c2478"
+  }
+}

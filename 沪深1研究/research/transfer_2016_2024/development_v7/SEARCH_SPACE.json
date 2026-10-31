@@ -1,0 +1,117 @@
+{
+  "protocol": "V7",
+  "instruction_boundary_version": "public-pre2025-v2",
+  "data_boundary": {
+    "warmup": ["2013-01-01", "2015-12-31"],
+    "evaluation": ["2016-01-01", "2024-12-31"],
+    "allowed_input_root": "../inputs_pre2025",
+    "forbid_post_2024": true
+  },
+  "baseline": {
+    "id": "baseline",
+    "factor_order": ["cap", "vol60", "overnight20", "intraday20"],
+    "signed_weights": [-0.35, -0.20, 0.25, -0.20],
+    "score_smoothing_sessions": 5,
+    "score_smoothing_min_periods": 3,
+    "holding_count": 5,
+    "rebalance_interval_sessions": 20,
+    "buffer_multiple": 1.5,
+    "exposure": 0.98
+  },
+  "factor_definition": {
+    "cross_section_transform": "eligible-universe percentile rank, average ties",
+    "cap": "close * volume / (turn / 100)",
+    "vol60": "std(close/preclose-1 with paused sessions set to zero, 60 rows, pandas ddof=1)",
+    "overnight20": "rolling sum log(open/preclose), invalid ratios replaced by zero",
+    "intraday20": "rolling sum log(close/open), invalid ratios replaced by zero",
+    "float_precision_before_rank": "float32",
+    "eligibility": "listed main-board member; row age>=252; amount 20-row mean>=1e7; close>=2; not ST; trading; 0.001<vol60<0.09"
+  },
+  "online_update": {
+    "ic_anchor": "2013-01-04",
+    "ic_stride_sessions": 5,
+    "label": "product of close/preclose for the next 20 trading sessions minus one",
+    "label_completion": "source-session index + 20; completion must be <= current signal-session index",
+    "label_missing_rule": "all 20 daily close/preclose values must be finite and positive",
+    "ic": "Spearman correlation of factor percentile rank and future-return percentile rank",
+    "minimum_cross_section": 30,
+    "windows_sessions": [504, 756],
+    "window_rule": "IC source session must be within [current_index-window+1,current_index] and its label complete",
+    "minimum_ic_sections": 60,
+    "direction": [-1, -1, 1, -1],
+    "reliability": "componentwise median(raw_ic*direction), clip below zero, normalize to sum one",
+    "fallback": "baseline absolute weights when fewer than 60 complete IC sections or all clipped medians are zero",
+    "mixes": [0.25, 0.50],
+    "final_absolute_weight": "(1-mix)*baseline_absolute_weight + mix*reliability",
+    "temporal_application": "each signal session uses its own then-available weight; historical scores are never recomputed with later weights; 5-session smoothing is applied after daily weighting"
+  },
+  "candidates": [
+    {"id": "online_w504_m025", "window_sessions": 504, "mix": 0.25},
+    {"id": "online_w504_m050", "window_sessions": 504, "mix": 0.50},
+    {"id": "online_w756_m025", "window_sessions": 756, "mix": 0.25},
+    {"id": "online_w756_m050", "window_sessions": 756, "mix": 0.50}
+  ],
+  "ranking": {
+    "descending_score": true,
+    "tie_break": "lexical symbol order through stable mergesort",
+    "stored_depth": 100
+  },
+  "evaluation": {
+    "starts": "every trading session in Q1 of each year 2016 through 2024",
+    "end": "last trading session of the same calendar year",
+    "signal": "previous complete trading session",
+    "execution": "next-session open daily-bar reconstruction matching the permitted Hushen1 execution source",
+    "rebalance_phase_anchor": "2018-01-02",
+    "benchmark": "SSE price index; start-session open to year-end close",
+    "excess": "strategy CAGR minus benchmark CAGR",
+    "segments": [[2016, 2019], [2020, 2024]],
+    "hard_gates": [
+      "each of nine annual median excess values > 0",
+      "each segment mean start-level excess > exact baseline",
+      "each segment mean start-level CAGR is no more than 0.02 below exact baseline"
+    ],
+    "robustness_gates": [
+      "annual median excess improves versus baseline in at least seven years",
+      "paired start-level excess improves versus baseline for more than half of starts",
+      "sample standard deviation of nine annual median excess values <= baseline",
+      "leave-one-year-out mean paired excess improvement > 0 for every omitted year",
+      "largest positive annual mean excess-improvement contribution / sum positive annual contributions < 0.50",
+      "the other mix for the same window has positive mean excess improvement in both segments",
+      "no unresolved corporate-action or execution-integrity issue"
+    ],
+    "pass_order": [
+      "worst annual median excess descending",
+      "smaller of two segment mean excess improvements descending",
+      "annual median excess standard deviation ascending",
+      "full-period mean CAGR descending",
+      "minimum start CAGR descending",
+      "mean max drawdown ascending",
+      "mean Sharpe descending",
+      "mean total cost ascending"
+    ]
+  },
+  "execution_assumptions": {
+    "initial_cash": 100000,
+    "lot_size": 100,
+    "T_plus_1": true,
+    "one_side_price_tolerance": 0.001,
+    "normal_average_volume_participation": 0.005,
+    "normal_daily_volume_limit": 0.25,
+    "maximum_order_shares": 1000000,
+    "commission_rate": 0.0003,
+    "minimum_commission": 5.0,
+    "transfer_fee_rate_before_2022_04_29": 0.00002,
+    "transfer_fee_rate_from_2022_04_29": 0.00001,
+    "sell_stamp_rate_before_2023_08_28": 0.001,
+    "sell_stamp_rate_from_2023_08_28": 0.0005,
+    "corporate_actions": "cash, bonus/transfer shares, pay date, listing/release date and FIFO dividend tax from actions_pre2025.json",
+    "delisting": "zero recovery at historical outDate if still held, recorded as an integrity failure"
+  },
+  "stress": {
+    "scenarios": ["double_commission", "capacity_40pct"],
+    "double_commission": {"commission_rate": 0.0006, "minimum_commission": 10.0},
+    "capacity_40pct": "multiply both average-volume participation and daily-volume acceptance limits by 0.40",
+    "scope": "baseline and all four frozen candidates; failures retained"
+  },
+  "no_relaxation": true
+}

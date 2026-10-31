@@ -1,0 +1,11 @@
+{
+  "parameter_origins": "All new grid values, feature windows, floors/caps, family definitions, split and objectives were fixed in SEARCH_PLAN before adaptive results; not inferred from later market results. Grid anchors are explanatory round-number hypotheses, not independently validated economic constants.",
+  "user_intent": "volatility adaptation, avoid causal downtrends and buy recovery; test against original OR MA/breakout family.",
+  "observed_original_comparators": "reference20/120/.02/.02/90/.08/5 and earlier full-training winner30/40/0/.02/10/.06/5, recomputed here with fixed parameters.",
+  "causal_volatility": "ATR14 or RV20, current signal-close data and past data only; vol floor.005 cap.15; stop fraction clip(multiplier*vol,.03,.35).",
+  "trend": "close>MAslow and MAslow >= its value slope5/10/20 bars ago.",
+  "recovery": "past60-close-peak drawdown, previous20-bar maximum >=2*currentvol, close above previous5-close maximum.",
+  "diagnostic_regimes": "previous close/MA60 and previous MA60 versus20 bars earlier; fixed before adaptive results; not trading filters except separately specified family rules.",
+  "supplemental_reporting_metric": "positive_stock_days_log_capture added only to reporting after discovering that predeclared up-regime stock return denominator was negative; contemporaneous realized positive days, never used for strategy selection or trade filters, not a win rate.",
+  "selection_status": "all training selections are finite-grid in-sample; chronological split uses already observed data and carries portfolio state."
+}

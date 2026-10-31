@@ -1,0 +1,118 @@
+{
+  "round": 2,
+  "question": "最低流动性约束是否减少脆弱信号",
+  "protocol_sha256": "6669ecead9fff845469cb6fd861583b637d5070232c6564ad3c64a4d3b4f8e4e",
+  "inherited_candidate": "anchor_prior",
+  "inherited_config_hash": "0da49517ced272c613ff83fd01361ed4c19ab08dcd082d4505b21e49dbc18aee",
+  "candidate_count": 6,
+  "candidates": {
+    "R02_mean10m": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "amount20",
+            "op": ">=",
+            "value": 10000000.0
+          }
+        ],
+        "max_new_entries": null
+      },
+      "sha256": "5c9e3cba01a62f98d065f2d1b3dc739474201fcebb33c6e5727512ddb72e6a55"
+    },
+    "R02_mean30m": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "amount20",
+            "op": ">=",
+            "value": 30000000.0
+          }
+        ],
+        "max_new_entries": null
+      },
+      "sha256": "19b6d138d977c0a8c2aa0dde1e67df906efb74a24c33ade75f5d2b1d16987b23"
+    },
+    "R02_mean50m": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "amount20",
+            "op": ">=",
+            "value": 50000000.0
+          }
+        ],
+        "max_new_entries": null
+      },
+      "sha256": "a7e6304d3b8a2550d6e3c8b00561b978c2700b3d9c982781a1814b9b1289072c"
+    },
+    "R02_today10m": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "current_amount",
+            "op": ">=",
+            "value": 10000000.0
+          }
+        ],
+        "max_new_entries": null
+      },
+      "sha256": "51a5268a4c88970051b9b0c83ef42fd17f06cbc854aca54928108b1b18a7724b"
+    },
+    "R02_today30m": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "current_amount",
+            "op": ">=",
+            "value": 30000000.0
+          }
+        ],
+        "max_new_entries": null
+      },
+      "sha256": "d0b108221473df5ae6d081c95fc23cc6d1c374eee9d6327ee4f5a86dad7972e4"
+    },
+    "R02_volume08": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "volume_ratio",
+            "op": ">=",
+            "value": 0.8
+          }
+        ],
+        "max_new_entries": null
+      },
+      "sha256": "c1c88c7a4006731c8d17cb054a893f382a351677aeb301f75ea9d6f9f9409b7d"
+    }
+  }
+}

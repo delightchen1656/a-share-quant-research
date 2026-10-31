@@ -1,0 +1,98 @@
+{
+  "status": "passed",
+  "date": "2026-10-26",
+  "model_loading": "Python verified UTF8 bytes -> LightGBM model_str; never pass Unicode filename to native parser",
+  "model_equivalence": [
+    {
+      "name": "utility",
+      "sha256": "b46be1e9638056a1a251a56bfb1ad68edbdd24281506bea28f7858f16ea89912",
+      "trees": 200,
+      "features": 14,
+      "prediction_max_abs_delta": 0.0
+    },
+    {
+      "name": "pen025",
+      "sha256": "ae0f7110cce3b41dc45c1f30fffedf155535eee441496f07d2970483bfaaedd8",
+      "trees": 200,
+      "features": 14,
+      "prediction_max_abs_delta": 0.0
+    },
+    {
+      "name": "pen100",
+      "sha256": "d9ac6b247dedd89e6df558cf57b96d47321eb27f4e5c405416607e40c821e8c9",
+      "trees": 200,
+      "features": 14,
+      "prediction_max_abs_delta": 0.0
+    }
+  ],
+  "protected_files_unchanged": {
+    "strategies\\hushen_2\\CURRENT_SELECTION.json": true,
+    "沪深2_星轨软件\\CURRENT_SELECTION.json": true,
+    "沪深2_星轨软件\\model\\manifest.json": true,
+    "沪深2_星轨软件\\model\\utility.txt": true,
+    "沪深2_星轨软件\\model\\pen025.txt": true,
+    "沪深2_星轨软件\\model\\pen100.txt": true,
+    "沪深2_星轨软件\\runtime\\frozen_builder.py": true,
+    "沪深2_星轨软件\\runtime\\signal_policy.py": true,
+    "沪深2_星轨软件\\runtime\\strategy.py": true,
+    "沪深2_星轨软件\\runtime\\verify.py": true
+  },
+  "financial_tables_unchanged": true,
+  "events_count": 52,
+  "unit_tests": 60,
+  "unit_tests_passed": true,
+  "pipeline_version": "hushen2-original-intersection-price-atr025-unicode-loader-v6",
+  "pipeline_id": "fc1b6a61c77049dbc522c2c920d20bc8b35c1d70920501318882b6253077d49e",
+  "market_date": "2026-10-26",
+  "feature_rows": 3903166,
+  "latest_eligible_symbols": 2706,
+  "signal_count": 3,
+  "signals": [
+    {
+      "id": "2026-10-26_002656.SZ",
+      "symbol": "002656.SZ",
+      "name": "摩登大道",
+      "rank": 1,
+      "signal_date": "2026-10-26",
+      "valid_from": "2026-10-27",
+      "trigger": 2.68,
+      "atr": 0.04024520255863539,
+      "atr_policy": "price_tr_sma14_over_signal_close_clip015_050_v1",
+      "score": 0.48654841093865486,
+      "signal_filter_policy": "original_top3_atr_ge025_no_refill_v1"
+    },
+    {
+      "id": "2026-10-26_000788.SZ",
+      "symbol": "000788.SZ",
+      "name": "北大医药",
+      "rank": 2,
+      "signal_date": "2026-10-26",
+      "valid_from": "2026-10-27",
+      "trigger": 5.82,
+      "atr": 0.045409916543937154,
+      "atr_policy": "price_tr_sma14_over_signal_close_clip015_050_v1",
+      "score": 0.48240946045824096,
+      "signal_filter_policy": "original_top3_atr_ge025_no_refill_v1"
+    },
+    {
+      "id": "2026-10-26_002374.SZ",
+      "symbol": "002374.SZ",
+      "name": "中锐股份",
+      "rank": 3,
+      "signal_date": "2026-10-26",
+      "valid_from": "2026-10-27",
+      "trigger": 3.07,
+      "atr": 0.04094927873429503,
+      "atr_policy": "price_tr_sma14_over_signal_close_clip015_050_v1",
+      "score": 0.47997043606799705,
+      "signal_filter_policy": "original_top3_atr_ge025_no_refill_v1"
+    }
+  ],
+  "cache": "沪深2_星轨软件\\tracker\\data\\signals_2026-10-26_price_tr_sma14_over_signal_close_clip015_050_v1_original_top3_atr_ge025_no_refill_v1.json",
+  "pipeline_audit": "沪深2_星轨软件\\tracker\\data\\pipeline_audits\\2026-10-26_fc1b6a61c77049dbc522c2c920d20bc8b35c1d70920501318882b6253077d49e.json",
+  "running": false,
+  "displayed_status": "已完成",
+  "models_retrained": false,
+  "strategy_changed": false,
+  "account_adjusted": false
+}

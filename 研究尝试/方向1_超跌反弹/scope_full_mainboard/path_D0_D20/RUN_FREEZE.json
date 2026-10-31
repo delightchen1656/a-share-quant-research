@@ -1,0 +1,17 @@
+{
+  "config_sha256": "8e3e569f1ee297ed48d1c4dae12bff19b37536ce6d224bd039143fc37ce219a7",
+  "engine_sha256": "4f01b79300a9587e3e55d19bc1af1aa316cd879c5cf9d74974f43f671cf485fd",
+  "cohort_sha256": "2c1bf2ccbd1f39d09f8c4149e36736012654c50ccaa65c4790eac6319bbae7e7",
+  "price_manifest_sha256": "8d1c78aa55e7667462a95fa3a8e87fd4b14af4075a1b3e2d14ca713503d9f7c3",
+  "action_manifest_sha256": "e71ea2f44336d6c5f6a6c88a25294d28a9a54a1849edaa9d6eb43d931fb1d559",
+  "before_labels": false,
+  "original_config_sha256": "615278a3dcb706253d28d992bdeadb6780935365101c0e2e1cca0f1a355a6e3b",
+  "initial_freeze_before_labels": true,
+  "migration_only_no_recompute": true,
+  "layout_migration": {
+    "original_config_sha256": "e2cee1cd43493279935af56a2034dfbaa2ed8a482eb69b77f73b7ff75991d203",
+    "parameters_changed": false,
+    "inputs_changed": false,
+    "new_research_freeze": false
+  }
+}

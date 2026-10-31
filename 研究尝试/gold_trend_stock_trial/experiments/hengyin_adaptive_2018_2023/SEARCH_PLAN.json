@@ -1,0 +1,125 @@
+{
+  "status": "PREDECLARED_BEFORE_ADAPTIVE_RESULTS",
+  "grid": {
+    "fast": [
+      10,
+      20,
+      30
+    ],
+    "slow": [
+      40,
+      60,
+      90,
+      120
+    ],
+    "entry_vol_multiplier": [
+      0,
+      0.5,
+      1,
+      2
+    ],
+    "exit_vol_multiplier": [
+      0,
+      0.5,
+      1
+    ],
+    "breakout": [
+      10,
+      20,
+      40
+    ],
+    "stop_vol_multiplier": [
+      2,
+      3,
+      4,
+      6
+    ],
+    "cooldown": [
+      3,
+      5,
+      10,
+      20
+    ],
+    "volatility": [
+      "ATR14",
+      "RV20"
+    ]
+  },
+  "families": {
+    "adaptive": {
+      "slope_lookbacks": [
+        0
+      ]
+    },
+    "trend": {
+      "slope_lookbacks": [
+        5,
+        10,
+        20
+      ]
+    },
+    "recovery": {
+      "slope_lookbacks": [
+        5,
+        10,
+        20
+      ]
+    }
+  },
+  "configuration_count": 96768,
+  "search": "One finite Cartesian grid; no expansion or post-result rule additions.",
+  "rules": {
+    "volatility": "ATR14 = mean(max(high-low,abs(high-prevclose),abs(low-prevclose)),14)/close; RV20 = rolling standard deviation(ddof0) of daily log close returns,20. At signal close, current bar permitted. Vol floors 0.005 and caps 0.15 fixed before results.",
+    "entry": "(MAfast>MAslow*(1+entry_multiplier*vol)) OR (close>previous breakout closes maximum AND close>MAslow)",
+    "exit": "(MAfast<MAslow*(1-exit_multiplier*vol)) OR (close<highest close from entry signal*(1-min(0.35,max(0.03,stop_multiplier*vol))))",
+    "adaptive": "Entry formula only; no additional trend filter.",
+    "trend": "Entry formula AND close>MAslow AND MAslow>=MAslow.shift(slope_lookback).",
+    "recovery": "Trend family plus close>previous 5 closes maximum AND max drawdown-from-trailing-60-close-peak in previous20 bars >= 2*current_vol. This requires only historical pullback and recovery; no future trough labels.",
+    "warmup": "all used indicators ready, including full relevant slope/recovery windows. adaptive needs max(slow,breakout+1,volwindow+1), trend adds slow+slope, recovery also requires 80 bars.",
+    "execution": "next tradable quoted bar open after close signal; exit i permits next entry check no earlier than close i+cooldown; peak from buy signal close; fractional all-in/cash; cash return0; no costs; final close mark only.",
+    "suspensions": "exclude tradestatus0 before indicators, cooldown and fills, as prior study."
+  },
+  "selection": {
+    "primary": "Highest full-observed-2018..2023 cumulative return among maximum daily-close drawdown <=30%; if none report none.",
+    "secondary": "Same with drawdown<=35%.",
+    "unconstrained": "Highest full-observed cumulative return, disclosed separately.",
+    "ties": "lower max drawdown, then lexicographic configuration order",
+    "pareto": "Non-dominated return/max-drawdown frontier; not out-of-sample evidence."
+  },
+  "diagnostics": {
+    "time_split": "For each stated drawdown cap and unconstrained objective, select on 2018..2021 only and hold parameters fixed for 2022..2023, carrying signals/positions across split. Also separately show continuously selected full-training candidates. Both periods were previously observed in original grid: this is observed-interval chronological diagnostic, not blind validation.",
+    "regimes": "day i uses previous close only: down if prior close<prior MA60 and prior MA60<MA60 20 bars earlier; up if both inequalities reverse. Else neutral.",
+    "down_exposure": "fraction of historically down-regime days holding at close; never a retrospective trading filter.",
+    "up_capture": "sum(log(strategy NAV daily ratio)) / sum(log(stock close daily ratio)) over historically up-regime days, only if stock denominator>0. First stock return uses first open.",
+    "cost_proxy": "buy/sell fill counts and round-trip counts; no fee assumptions or fee optimization."
+  },
+  "comparators": {
+    "reference": [
+      20,
+      120,
+      0.02,
+      0.02,
+      90,
+      0.08,
+      5
+    ],
+    "prior_frozen_best": [
+      30,
+      40,
+      0,
+      0.02,
+      10,
+      0.06,
+      5
+    ]
+  },
+  "read_scope": [
+    "AGENTS.md",
+    "explicit WHITELIST.json and its two listed parquet files",
+    "own prior experiment artifacts allowed by continuation"
+  ],
+  "limitations": [
+    "Observed full training interval selection, no claim of generalization.",
+    "Gross qfq ratio observation, not actual corporate-action account or guaranteed fills."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "evaluation_lock_verified": true,
+  "raw_hash_rows": 3354,
+  "all_raw_hashes_match": true,
+  "main_daily_rows": 2187,
+  "expected_main_daily_rows": 2187,
+  "main_dates_exact": true,
+  "main_null_equity": 0,
+  "main_min_cash": 18.27999999997928,
+  "main_max_actual_holdings": 8,
+  "q1_unique_starts": 526,
+  "expected_q1_unique_starts": 526,
+  "q1_scenario_rows": 761,
+  "expected_q1_scenario_rows": 761,
+  "q1_checkpoints": {
+    "2016": true,
+    "2017": true,
+    "2018": true,
+    "2019": true,
+    "2020": true,
+    "2021": true,
+    "2022": true,
+    "2023": true,
+    "2024": true
+  },
+  "fee_multipliers": [
+    1,
+    2,
+    3
+  ],
+  "latest_evaluation_date": "2024-12-31",
+  "action_input_audit": {
+    "events": 23634,
+    "missing_pay_date_fallbacks": 451,
+    "missing_stock_market_date_fallbacks": 20006,
+    "post_cutoff_events_skipped": 0,
+    "exact_duplicate_rows_skipped": 1,
+    "canonical_duplicate_rows": [
+      {
+        "symbol": "600660.SH",
+        "operate_date": "2017-05-15",
+        "kept_source_key": "600660.SH/2017",
+        "skipped_source_key": "600660.SH/2023",
+        "skipped_source_index": 0
+      }
+    ],
+    "canonical_policy": "skip full-record exact duplicates; raise on any field difference; never sum duplicates"
+  },
+  "main_unresolved_action_or_adjustment_issues": 0,
+  "main_action_reference_differences": 0,
+  "special_limit_semantics_limitation": "The whitelist cannot identify listing/special no-limit sessions; observed opens outside computed 10%/5% limits are invalid bars and are recorded, not reclassified.",
+  "intraday_limitation": "Authorized strict daily fill approximation; minute order queue is unavailable.",
+  "passed": true
+}

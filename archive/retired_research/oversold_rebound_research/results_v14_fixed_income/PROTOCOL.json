@@ -1,0 +1,2406 @@
+{
+  "candidates": [
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "basic",
+      "take_profit": 0.05,
+      "forced_day": 2,
+      "stop_loss": 0.05,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 193,
+          "return_pct": -0.004832165732157834,
+          "max_drawdown": -0.1694026062751941
+        },
+        {
+          "year": 2023,
+          "n": 103,
+          "return_pct": 0.04376044546032909,
+          "max_drawdown": -0.05722339932473064
+        }
+      ],
+      "score": -0.08466743390373348,
+      "eligible": false
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "basic",
+      "take_profit": 0.05,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 278,
+          "return_pct": -0.013979709810157948,
+          "max_drawdown": -0.19962247107702613
+        },
+        {
+          "year": 2023,
+          "n": 115,
+          "return_pct": 0.055539545464999396,
+          "max_drawdown": -0.030760337432582774
+        }
+      ],
+      "score": -0.10859596589181583,
+      "eligible": false
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "basic",
+      "take_profit": 0.03,
+      "forced_day": 2,
+      "stop_loss": null,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 440,
+          "return_pct": 0.0009172921113846932,
+          "max_drawdown": -0.10447593307716796
+        },
+        {
+          "year": 2023,
+          "n": 130,
+          "return_pct": 0.005499250183001347,
+          "max_drawdown": -0.013798381108915958
+        }
+      ],
+      "score": -0.05051860664040103,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "price10",
+      "take_profit": 0.05,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 110,
+          "return_pct": 0.16703236569472435,
+          "max_drawdown": -0.09975831026776216
+        },
+        {
+          "year": 2023,
+          "n": 38,
+          "return_pct": 0.08899849390999992,
+          "max_drawdown": -0.02073626293266395
+        }
+      ],
+      "score": 0.07112319622670937,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "price10",
+      "take_profit": 0.05,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 161,
+          "return_pct": 0.10318733673870573,
+          "max_drawdown": -0.08707158338531162
+        },
+        {
+          "year": 2023,
+          "n": 44,
+          "return_pct": 0.054652748514999905,
+          "max_drawdown": -0.014366079546051957
+        }
+      ],
+      "score": 0.030846967479057297,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "price10",
+      "take_profit": 0.05,
+      "forced_day": 5,
+      "stop_loss": null,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 204,
+          "return_pct": 0.08777942856685317,
+          "max_drawdown": -0.06313903279731392
+        },
+        {
+          "year": 2023,
+          "n": 48,
+          "return_pct": 0.03436305643500037,
+          "max_drawdown": -0.010118948597229283
+        }
+      ],
+      "score": 0.018061350661575104,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "price20",
+      "take_profit": 0.05,
+      "forced_day": 3,
+      "stop_loss": 0.05,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 155,
+          "return_pct": 0.0015636562364278461,
+          "max_drawdown": -0.253271206880167
+        },
+        {
+          "year": 2023,
+          "n": 65,
+          "return_pct": 0.05078949753500006,
+          "max_drawdown": -0.050043794845203715
+        }
+      ],
+      "score": -0.11852780298222718,
+      "eligible": false
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "price20",
+      "take_profit": 0.05,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 230,
+          "return_pct": -0.007416049992154616,
+          "max_drawdown": -0.19600180521795185
+        },
+        {
+          "year": 2023,
+          "n": 78,
+          "return_pct": 0.04465864843499889,
+          "max_drawdown": -0.020495345026718237
+        }
+      ],
+      "score": -0.10076162779577501,
+      "eligible": false
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "price20",
+      "take_profit": 0.03,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 349,
+          "return_pct": 0.006159429206709532,
+          "max_drawdown": -0.10746783505689117
+        },
+        {
+          "year": 2023,
+          "n": 95,
+          "return_pct": 0.004905861718000004,
+          "max_drawdown": -0.01901361026688242
+        }
+      ],
+      "score": -0.04744489444485689,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "price5to20",
+      "take_profit": 0.05,
+      "forced_day": 3,
+      "stop_loss": 0.05,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 149,
+          "return_pct": -0.044885613673646296,
+          "max_drawdown": -0.25305399010383844
+        },
+        {
+          "year": 2023,
+          "n": 57,
+          "return_pct": 0.021799605545000045,
+          "max_drawdown": -0.050515605606812786
+        }
+      ],
+      "score": -0.1742983597416463,
+      "eligible": false
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "price5to20",
+      "take_profit": 0.05,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 213,
+          "return_pct": -0.016557764010275755,
+          "max_drawdown": -0.18718882418923122
+        },
+        {
+          "year": 2023,
+          "n": 69,
+          "return_pct": 0.020590850929999682,
+          "max_drawdown": -0.022536565274034137
+        }
+      ],
+      "score": -0.10964804023992587,
+      "eligible": false
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "price5to20",
+      "take_profit": 0.05,
+      "forced_day": 2,
+      "stop_loss": null,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 305,
+          "return_pct": -0.015113118636842948,
+          "max_drawdown": -0.1109257259961689
+        },
+        {
+          "year": 2023,
+          "n": 81,
+          "return_pct": 0.0033312698116234607,
+          "max_drawdown": -0.013657658680463536
+        }
+      ],
+      "score": -0.07204871273807983,
+      "eligible": false
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "deep",
+      "take_profit": 0.05,
+      "forced_day": 2,
+      "stop_loss": 0.05,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 135,
+          "return_pct": 0.06103022747717235,
+          "max_drawdown": -0.1284159657208982
+        },
+        {
+          "year": 2023,
+          "n": 54,
+          "return_pct": 0.05822939756032808,
+          "max_drawdown": -0.0333452747764289
+        }
+      ],
+      "score": 0.008928867829566534,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "deep",
+      "take_profit": 0.05,
+      "forced_day": 5,
+      "stop_loss": null,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 154,
+          "return_pct": 0.07169724279539458,
+          "max_drawdown": -0.1343066588518802
+        },
+        {
+          "year": 2023,
+          "n": 56,
+          "return_pct": 0.036547757129999026,
+          "max_drawdown": -0.02635266369758138
+        }
+      ],
+      "score": -0.017074947305266874,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "deep",
+      "take_profit": 0.05,
+      "forced_day": 2,
+      "stop_loss": 0.05,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 250,
+          "return_pct": 0.02071217482796528,
+          "max_drawdown": -0.07846369173171241
+        },
+        {
+          "year": 2023,
+          "n": 66,
+          "return_pct": 0.01583546048162332,
+          "max_drawdown": -0.009244269564170127
+        }
+      ],
+      "score": -0.018827930970534312,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "deep_price20",
+      "take_profit": 0.05,
+      "forced_day": 2,
+      "stop_loss": 0.05,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 109,
+          "return_pct": 0.01249569769205583,
+          "max_drawdown": -0.16667561597289637
+        },
+        {
+          "year": 2023,
+          "n": 34,
+          "return_pct": 0.02050983184532784,
+          "max_drawdown": -0.02965264700364678
+        }
+      ],
+      "score": -0.0667164191022194,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "deep_price20",
+      "take_profit": 0.05,
+      "forced_day": 2,
+      "stop_loss": 0.05,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 152,
+          "return_pct": 0.014368549549966358,
+          "max_drawdown": -0.11631626983558796
+        },
+        {
+          "year": 2023,
+          "n": 41,
+          "return_pct": 0.025916041307120663,
+          "max_drawdown": -0.015381570465871297
+        }
+      ],
+      "score": -0.038754011510691744,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "deep_price20",
+      "take_profit": 0.05,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 186,
+          "return_pct": 0.019558664615310528,
+          "max_drawdown": -0.07388567791352751
+        },
+        {
+          "year": 2023,
+          "n": 47,
+          "return_pct": 0.005601238065000125,
+          "max_drawdown": -0.008448953760033073
+        }
+      ],
+      "score": -0.0281966130567248,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "deep_price10",
+      "take_profit": 0.05,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 67,
+          "return_pct": 0.09354260610676723,
+          "max_drawdown": -0.11624016358318312
+        },
+        {
+          "year": 2023,
+          "n": 21,
+          "return_pct": 0.06364403974499977,
+          "max_drawdown": -0.016309276296268105
+        }
+      ],
+      "score": 0.025172288684879085,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "deep_price10",
+      "take_profit": 0.05,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 85,
+          "return_pct": 0.07817974827880625,
+          "max_drawdown": -0.05539777362067699
+        },
+        {
+          "year": 2023,
+          "n": 21,
+          "return_pct": 0.030984121965,
+          "max_drawdown": -0.008247951841170886
+        }
+      ],
+      "score": 0.016930718935137284,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "deep_price10",
+      "take_profit": 0.05,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 99,
+          "return_pct": 0.04913655488578628,
+          "max_drawdown": -0.038039977811053505
+        },
+        {
+          "year": 2023,
+          "n": 21,
+          "return_pct": 0.01454470746000025,
+          "max_drawdown": -0.004232305767471578
+        }
+      ],
+      "score": 0.0034848763476968136,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "pos1_20",
+      "take_profit": 0.03,
+      "forced_day": 2,
+      "stop_loss": 0.05,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 115,
+          "return_pct": 0.07203445679198839,
+          "max_drawdown": -0.06656325509816652
+        },
+        {
+          "year": 2023,
+          "n": 52,
+          "return_pct": 0.09632950682100105,
+          "max_drawdown": -0.021736250707747873
+        }
+      ],
+      "score": 0.05979832469452881,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "pos1_20",
+      "take_profit": 0.03,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 167,
+          "return_pct": 0.03704307959895781,
+          "max_drawdown": -0.09301779686302059
+        },
+        {
+          "year": 2023,
+          "n": 61,
+          "return_pct": 0.06911772244299974,
+          "max_drawdown": -0.018796922814269368
+        }
+      ],
+      "score": 0.0038042814226922073,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "pos1_20",
+      "take_profit": 0.03,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 224,
+          "return_pct": 0.036493500415771374,
+          "max_drawdown": -0.062466044129429577
+        },
+        {
+          "year": 2023,
+          "n": 68,
+          "return_pct": 0.03189552716000099,
+          "max_drawdown": -0.010486723961659838
+        }
+      ],
+      "score": 0.009211133542257749,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "pos1_40",
+      "take_profit": 0.05,
+      "forced_day": 2,
+      "stop_loss": 0.05,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 150,
+          "return_pct": 0.019680048945115658,
+          "max_drawdown": -0.14247430262488414
+        },
+        {
+          "year": 2023,
+          "n": 76,
+          "return_pct": 0.09695184518000044,
+          "max_drawdown": -0.029259162772274028
+        }
+      ],
+      "score": -0.0369781156016869,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "pos1_40",
+      "take_profit": 0.03,
+      "forced_day": 2,
+      "stop_loss": null,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 239,
+          "return_pct": 0.004610197793690984,
+          "max_drawdown": -0.11524001011871299
+        },
+        {
+          "year": 2023,
+          "n": 85,
+          "return_pct": 0.05212699370499996,
+          "max_drawdown": -0.011626878735347956
+        }
+      ],
+      "score": -0.04591765832832914,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "pos1_40",
+      "take_profit": 0.03,
+      "forced_day": 2,
+      "stop_loss": null,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 346,
+          "return_pct": 0.002224628678080709,
+          "max_drawdown": -0.09588781578968686
+        },
+        {
+          "year": 2023,
+          "n": 100,
+          "return_pct": 0.024183636965001254,
+          "max_drawdown": -0.00731464539927329
+        }
+      ],
+      "score": -0.042418246011377475,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "pos1_40_price20",
+      "take_profit": 0.03,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 123,
+          "return_pct": 0.021420840473368452,
+          "max_drawdown": -0.1749717734836317
+        },
+        {
+          "year": 2023,
+          "n": 48,
+          "return_pct": 0.08199057298799972,
+          "max_drawdown": -0.018899978816113494
+        }
+      ],
+      "score": -0.05313861958577637,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "pos1_40_price20",
+      "take_profit": 0.03,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 190,
+          "return_pct": 0.055134180592034454,
+          "max_drawdown": -0.12093801884046018
+        },
+        {
+          "year": 2023,
+          "n": 60,
+          "return_pct": 0.0524757815179997,
+          "max_drawdown": -0.011850823883893136
+        }
+      ],
+      "score": 0.005458017361523876,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "pos1_40_price20",
+      "take_profit": 0.03,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 276,
+          "return_pct": 0.030182941728692736,
+          "max_drawdown": -0.07761404499650926
+        },
+        {
+          "year": 2023,
+          "n": 77,
+          "return_pct": 0.029032491275000405,
+          "max_drawdown": -0.010395772516352597
+        }
+      ],
+      "score": -0.002372602097792581,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "volume12",
+      "take_profit": 0.05,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 90,
+          "return_pct": 0.19815682639426457,
+          "max_drawdown": -0.07837550490565992
+        },
+        {
+          "year": 2023,
+          "n": 50,
+          "return_pct": 0.12902385002000005,
+          "max_drawdown": -0.04793194119255262
+        }
+      ],
+      "score": 0.13073368211895317,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "volume12",
+      "take_profit": 0.05,
+      "forced_day": 3,
+      "stop_loss": 0.08,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 128,
+          "return_pct": 0.11850311706833039,
+          "max_drawdown": -0.05036205988910225
+        },
+        {
+          "year": 2023,
+          "n": 60,
+          "return_pct": 0.07142502637599968,
+          "max_drawdown": -0.020890790734919062
+        }
+      ],
+      "score": 0.06998501436198981,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "volume12",
+      "take_profit": 0.05,
+      "forced_day": 3,
+      "stop_loss": 0.05,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 167,
+          "return_pct": 0.060168379930821914,
+          "max_drawdown": -0.03757129186779018
+        },
+        {
+          "year": 2023,
+          "n": 61,
+          "return_pct": 0.03414616735500031,
+          "max_drawdown": -0.009407625474681658
+        }
+      ],
+      "score": 0.027149839831833,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "volume15",
+      "take_profit": 0.05,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 66,
+          "return_pct": 0.28326540183926463,
+          "max_drawdown": -0.039803708980180263
+        },
+        {
+          "year": 2023,
+          "n": 36,
+          "return_pct": 0.07231287643227224,
+          "max_drawdown": -0.02346501778582666
+        }
+      ],
+      "score": 0.09685830672612422,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "volume15",
+      "take_profit": 0.05,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 89,
+          "return_pct": 0.19280641501741402,
+          "max_drawdown": -0.033768700861562806
+        },
+        {
+          "year": 2023,
+          "n": 43,
+          "return_pct": 0.03805164418242368,
+          "max_drawdown": -0.012558427977179543
+        }
+      ],
+      "score": 0.05002455115162199,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "volume15",
+      "take_profit": 0.03,
+      "forced_day": 5,
+      "stop_loss": null,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 111,
+          "return_pct": 0.08486198441365578,
+          "max_drawdown": -0.020457215631263792
+        },
+        {
+          "year": 2023,
+          "n": 36,
+          "return_pct": 0.019283188302000376,
+          "max_drawdown": -0.005154945288068036
+        }
+      ],
+      "score": 0.0220727270758255,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "price20_volume12",
+      "take_profit": 0.05,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 65,
+          "return_pct": 0.14429434095707228,
+          "max_drawdown": -0.051640552926937366
+        },
+        {
+          "year": 2023,
+          "n": 33,
+          "return_pct": 0.09298758589,
+          "max_drawdown": -0.028123860906936637
+        }
+      ],
+      "score": 0.09682755028241535,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "price20_volume12",
+      "take_profit": 0.03,
+      "forced_day": 3,
+      "stop_loss": 0.08,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 98,
+          "return_pct": 0.07686742816600067,
+          "max_drawdown": -0.030624887503061582
+        },
+        {
+          "year": 2023,
+          "n": 39,
+          "return_pct": 0.04769391472200013,
+          "max_drawdown": -0.01397350197717584
+        }
+      ],
+      "score": 0.04795163883146944,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "price20_volume12",
+      "take_profit": 0.03,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 126,
+          "return_pct": 0.0647153176860018,
+          "max_drawdown": -0.025850571908357822
+        },
+        {
+          "year": 2023,
+          "n": 39,
+          "return_pct": 0.021056328118999712,
+          "max_drawdown": -0.00647093155535472
+        }
+      ],
+      "score": 0.01885249789044599,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "shrink",
+      "take_profit": 0.05,
+      "forced_day": 5,
+      "stop_loss": 0.05,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 100,
+          "return_pct": -0.023244212292456212,
+          "max_drawdown": -0.17961324860000027
+        },
+        {
+          "year": 2023,
+          "n": 23,
+          "return_pct": 0.07582573148499994,
+          "max_drawdown": -0.020522580714045557
+        }
+      ],
+      "score": -0.10647814669338838,
+      "eligible": false
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "shrink",
+      "take_profit": 0.05,
+      "forced_day": 2,
+      "stop_loss": 0.05,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 154,
+          "return_pct": -0.006702261525954767,
+          "max_drawdown": -0.09990952026999966
+        },
+        {
+          "year": 2023,
+          "n": 29,
+          "return_pct": 0.03104757811999992,
+          "max_drawdown": -0.009982846319110616
+        }
+      ],
+      "score": -0.053613857086698954,
+      "eligible": false
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "shrink",
+      "take_profit": 0.05,
+      "forced_day": 5,
+      "stop_loss": 0.05,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 180,
+          "return_pct": 0.03553348613891716,
+          "max_drawdown": -0.06178515799000028
+        },
+        {
+          "year": 2023,
+          "n": 34,
+          "return_pct": 0.026397102515000492,
+          "max_drawdown": -0.008214135725489236
+        }
+      ],
+      "score": 0.003245847101740057,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "deep_shrink",
+      "take_profit": 0.05,
+      "forced_day": 5,
+      "stop_loss": null,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 55,
+          "return_pct": 0.047476269162544105,
+          "max_drawdown": -0.17968459560441918
+        },
+        {
+          "year": 2023,
+          "n": 13,
+          "return_pct": 0.08186129341499981,
+          "max_drawdown": -0.017512264974666736
+        }
+      ],
+      "score": -0.026198833317472497,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "deep_shrink",
+      "take_profit": 0.05,
+      "forced_day": 2,
+      "stop_loss": 0.05,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 78,
+          "return_pct": 0.020758402681922306,
+          "max_drawdown": -0.07460991115195759
+        },
+        {
+          "year": 2023,
+          "n": 18,
+          "return_pct": 0.020938726994999657,
+          "max_drawdown": -0.00547047136616563
+        }
+      ],
+      "score": -0.011334411684441242,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "deep_shrink",
+      "take_profit": 0.05,
+      "forced_day": 5,
+      "stop_loss": 0.05,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 89,
+          "return_pct": 0.02433602058910367,
+          "max_drawdown": -0.04247188383347378
+        },
+        {
+          "year": 2023,
+          "n": 18,
+          "return_pct": 0.013455834210000184,
+          "max_drawdown": -0.0049292390877097025
+        }
+      ],
+      "score": -0.0030561258568487237,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "pos2_20",
+      "take_profit": 0.03,
+      "forced_day": 2,
+      "stop_loss": 0.05,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 104,
+          "return_pct": 0.09324016833828908,
+          "max_drawdown": -0.06822016497896577
+        },
+        {
+          "year": 2023,
+          "n": 45,
+          "return_pct": 0.09881411582300026,
+          "max_drawdown": -0.020707100808193157
+        }
+      ],
+      "score": 0.08313687136896736,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "pos2_20",
+      "take_profit": 0.03,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 139,
+          "return_pct": 0.09165083126685447,
+          "max_drawdown": -0.07421157906105091
+        },
+        {
+          "year": 2023,
+          "n": 54,
+          "return_pct": 0.06747840615700018,
+          "max_drawdown": -0.01567940755353081
+        }
+      ],
+      "score": 0.050263771304456556,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "pos2_20",
+      "take_profit": 0.05,
+      "forced_day": 2,
+      "stop_loss": 0.05,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 186,
+          "return_pct": 0.04024508240595148,
+          "max_drawdown": -0.07184318229499698
+        },
+        {
+          "year": 2023,
+          "n": 51,
+          "return_pct": 0.03275132427500038,
+          "max_drawdown": -0.0038657352849272852
+        }
+      ],
+      "score": 0.0059542839626208766,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "price10_pos1_40",
+      "take_profit": 0.05,
+      "forced_day": 5,
+      "stop_loss": null,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 81,
+          "return_pct": 0.1551943230146393,
+          "max_drawdown": -0.1302180273932262
+        },
+        {
+          "year": 2023,
+          "n": 29,
+          "return_pct": 0.11712474468499989,
+          "max_drawdown": -0.023493033526164164
+        }
+      ],
+      "score": 0.0860556144508417,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "price10_pos1_40",
+      "take_profit": 0.05,
+      "forced_day": 5,
+      "stop_loss": null,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 121,
+          "return_pct": 0.12406797484215581,
+          "max_drawdown": -0.0924481286775295
+        },
+        {
+          "year": 2023,
+          "n": 33,
+          "return_pct": 0.0694117041650002,
+          "max_drawdown": -0.012415025343030073
+        }
+      ],
+      "score": 0.04737259970212995,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "price10_pos1_40",
+      "take_profit": 0.05,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 180,
+          "return_pct": 0.0801355803796222,
+          "max_drawdown": -0.03939956384776555
+        },
+        {
+          "year": 2023,
+          "n": 33,
+          "return_pct": 0.027898594220000295,
+          "max_drawdown": -0.004572266143113679
+        }
+      ],
+      "score": 0.021703084121070332,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "price20_ma60slow",
+      "take_profit": 0.05,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 127,
+          "return_pct": 0.04088513858757725,
+          "max_drawdown": -0.16967208908256903
+        },
+        {
+          "year": 2023,
+          "n": 50,
+          "return_pct": -0.00015422497000006086,
+          "max_drawdown": -0.043882463042865694
+        }
+      ],
+      "score": -0.07989890530908743,
+      "eligible": false
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "price20_ma60slow",
+      "take_profit": 0.05,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 188,
+          "return_pct": 0.04304782193446277,
+          "max_drawdown": -0.09196896819139844
+        },
+        {
+          "year": 2023,
+          "n": 62,
+          "return_pct": 0.02562700641999971,
+          "max_drawdown": -0.020605332668543364
+        }
+      ],
+      "score": -0.011773124131391699,
+      "eligible": true
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "filter": "price20_ma60slow",
+      "take_profit": 0.05,
+      "forced_day": 2,
+      "stop_loss": null,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 270,
+          "return_pct": 0.028955455432348343,
+          "max_drawdown": -0.06715794421711319
+        },
+        {
+          "year": 2023,
+          "n": 73,
+          "return_pct": 0.013632844811623412,
+          "max_drawdown": -0.01050858788657627
+        }
+      ],
+      "score": -0.014622589766436711,
+      "eligible": true
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "basic",
+      "take_profit": 0.05,
+      "forced_day": 2,
+      "stop_loss": 0.05,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 95,
+          "return_pct": -0.015132033815166923,
+          "max_drawdown": -0.1143277237839676
+        },
+        {
+          "year": 2023,
+          "n": 31,
+          "return_pct": 0.016946785055327984,
+          "max_drawdown": -0.03135482761349706
+        }
+      ],
+      "score": -0.0720690518021306,
+      "eligible": false
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "basic",
+      "take_profit": 0.03,
+      "forced_day": 2,
+      "stop_loss": 0.05,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 130,
+          "return_pct": -0.005061053166466101,
+          "max_drawdown": -0.0703838635202163
+        },
+        {
+          "year": 2023,
+          "n": 35,
+          "return_pct": -0.0006022712330000513,
+          "max_drawdown": -0.013605914173635325
+        }
+      ],
+      "score": -0.04096090047650752,
+      "eligible": false
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "basic",
+      "take_profit": 0.05,
+      "forced_day": 2,
+      "stop_loss": null,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 127,
+          "return_pct": 0.007428721096539137,
+          "max_drawdown": -0.04382257057644068
+        },
+        {
+          "year": 2023,
+          "n": 31,
+          "return_pct": 0.0026752175966233693,
+          "max_drawdown": -0.006455409516403443
+        }
+      ],
+      "score": -0.017973075354951656,
+      "eligible": true
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "price20",
+      "take_profit": 0.05,
+      "forced_day": 5,
+      "stop_loss": null,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 56,
+          "return_pct": -0.025548792598216963,
+          "max_drawdown": -0.11854524123971255
+        },
+        {
+          "year": 2023,
+          "n": 15,
+          "return_pct": 0.019052530019999958,
+          "max_drawdown": -0.03464170046811377
+        }
+      ],
+      "score": -0.08563344604035036,
+      "eligible": false
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "price20",
+      "take_profit": 0.03,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 81,
+          "return_pct": -0.004003627853439107,
+          "max_drawdown": -0.03350774718988492
+        },
+        {
+          "year": 2023,
+          "n": 16,
+          "return_pct": -0.00369921779100002,
+          "max_drawdown": -0.014053451317013521
+        }
+      ],
+      "score": -0.021720357153936456,
+      "eligible": false
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "price20",
+      "take_profit": 0.03,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 91,
+          "return_pct": 0.0014349585898889572,
+          "max_drawdown": -0.02219219883113488
+        },
+        {
+          "year": 2023,
+          "n": 16,
+          "return_pct": -0.002544615776000292,
+          "max_drawdown": -0.007149042950079565
+        }
+      ],
+      "score": -0.013779422339831648,
+      "eligible": false
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "price5to20",
+      "take_profit": 0.03,
+      "forced_day": 5,
+      "stop_loss": null,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 56,
+          "return_pct": -0.014842314571799076,
+          "max_drawdown": -0.09265479701149826
+        },
+        {
+          "year": 2023,
+          "n": 14,
+          "return_pct": 0.031871686192999515,
+          "max_drawdown": -0.018345092730029267
+        }
+      ],
+      "score": -0.05904104162489815,
+      "eligible": false
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "price5to20",
+      "take_profit": 0.03,
+      "forced_day": 3,
+      "stop_loss": 0.05,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 70,
+          "return_pct": 0.0047537756290008115,
+          "max_drawdown": -0.04046402225799972
+        },
+        {
+          "year": 2023,
+          "n": 15,
+          "return_pct": 0.004192094778999955,
+          "max_drawdown": -0.005561193550280619
+        }
+      ],
+      "score": -0.01492168254899981,
+      "eligible": true
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "price5to20",
+      "take_profit": 0.03,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 79,
+          "return_pct": 0.003934196121889055,
+          "max_drawdown": -0.019270676732856873
+        },
+        {
+          "year": 2023,
+          "n": 15,
+          "return_pct": 0.0009786102239996985,
+          "max_drawdown": -0.004289419466238842
+        }
+      ],
+      "score": -0.008042627349192644,
+      "eligible": true
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "deep",
+      "take_profit": 0.03,
+      "forced_day": 5,
+      "stop_loss": null,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 48,
+          "return_pct": -0.002935779838998842,
+          "max_drawdown": -0.08479897465497965
+        },
+        {
+          "year": 2023,
+          "n": 16,
+          "return_pct": 0.03752336137400025,
+          "max_drawdown": -0.026782052932692424
+        }
+      ],
+      "score": -0.04101181947461349,
+      "eligible": false
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "deep",
+      "take_profit": 0.03,
+      "forced_day": 5,
+      "stop_loss": null,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 57,
+          "return_pct": 0.0189478878239997,
+          "max_drawdown": -0.0340305026555362
+        },
+        {
+          "year": 2023,
+          "n": 15,
+          "return_pct": 0.01746915841499974,
+          "max_drawdown": -0.012591183334000111
+        }
+      ],
+      "score": 0.005006037867106572,
+      "eligible": true
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "deep",
+      "take_profit": 0.03,
+      "forced_day": 5,
+      "stop_loss": null,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 64,
+          "return_pct": 0.025863368122999608,
+          "max_drawdown": -0.016390772827516775
+        },
+        {
+          "year": 2023,
+          "n": 13,
+          "return_pct": 0.004218703388999767,
+          "max_drawdown": -0.006283763306915491
+        }
+      ],
+      "score": -0.00021642408575869854,
+      "eligible": true
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "deep_price20",
+      "take_profit": 0.03,
+      "forced_day": 5,
+      "stop_loss": null,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 32,
+          "return_pct": 0.017919466387000593,
+          "max_drawdown": -0.057613419799255605
+        },
+        {
+          "year": 2023,
+          "n": 8,
+          "return_pct": -0.0016517231679999966,
+          "max_drawdown": -0.018949427267453967
+        }
+      ],
+      "score": -0.028424965165252725,
+      "eligible": false
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "deep_price20",
+      "take_profit": 0.03,
+      "forced_day": 5,
+      "stop_loss": null,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 41,
+          "return_pct": 0.028083335019000177,
+          "max_drawdown": -0.022600481262220695
+        },
+        {
+          "year": 2023,
+          "n": 8,
+          "return_pct": -0.0011983735330000078,
+          "max_drawdown": -0.009297805496342293
+        }
+      ],
+      "score": -0.009137993978360334,
+      "eligible": false
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "deep_price20",
+      "take_profit": 0.03,
+      "forced_day": 5,
+      "stop_loss": null,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 51,
+          "return_pct": 0.02601486832599975,
+          "max_drawdown": -0.015955482855539493
+        },
+        {
+          "year": 2023,
+          "n": 8,
+          "return_pct": -0.0013774145970001372,
+          "max_drawdown": -0.004696249977915734
+        }
+      ],
+      "score": -0.006275474308644932,
+      "eligible": false
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "pos1_20",
+      "take_profit": 0.05,
+      "forced_day": 2,
+      "stop_loss": null,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 46,
+          "return_pct": 0.01726616080895993,
+          "max_drawdown": -0.07287749604042448
+        },
+        {
+          "year": 2023,
+          "n": 19,
+          "return_pct": 0.01718102057000004,
+          "max_drawdown": -0.03980013959999995
+        }
+      ],
+      "score": -0.014951829777842207,
+      "eligible": true
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "pos1_20",
+      "take_profit": 0.03,
+      "forced_day": 2,
+      "stop_loss": null,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 57,
+          "return_pct": 0.011402303095989774,
+          "max_drawdown": -0.03634369805241289
+        },
+        {
+          "year": 2023,
+          "n": 18,
+          "return_pct": 0.005546110227999668,
+          "max_drawdown": -0.01795878719999988
+        }
+      ],
+      "score": -0.010507187132708096,
+      "eligible": true
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "pos1_20",
+      "take_profit": 0.03,
+      "forced_day": 2,
+      "stop_loss": null,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 65,
+          "return_pct": 0.009533466556495007,
+          "max_drawdown": -0.023056873073749595
+        },
+        {
+          "year": 2023,
+          "n": 16,
+          "return_pct": 0.0013932319260001602,
+          "max_drawdown": -0.005963140662428867
+        }
+      ],
+      "score": -0.008769367300562741,
+      "eligible": true
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "pos1_40",
+      "take_profit": 0.03,
+      "forced_day": 2,
+      "stop_loss": null,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 74,
+          "return_pct": 0.009082437831360979,
+          "max_drawdown": -0.07003460065894707
+        },
+        {
+          "year": 2023,
+          "n": 24,
+          "return_pct": 0.019018444767000098,
+          "max_drawdown": -0.027163627957000003
+        }
+      ],
+      "score": -0.02242225217331742,
+      "eligible": true
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "pos1_40",
+      "take_profit": 0.03,
+      "forced_day": 2,
+      "stop_loss": null,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 94,
+          "return_pct": 0.015760821420773397,
+          "max_drawdown": -0.04818310340357945
+        },
+        {
+          "year": 2023,
+          "n": 26,
+          "return_pct": 0.013647981039999424,
+          "max_drawdown": -0.00819227339999995
+        }
+      ],
+      "score": -0.0067674703541937,
+      "eligible": true
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "pos1_40",
+      "take_profit": 0.03,
+      "forced_day": 2,
+      "stop_loss": null,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 94,
+          "return_pct": 0.015607017981387417,
+          "max_drawdown": -0.028438865875377584
+        },
+        {
+          "year": 2023,
+          "n": 22,
+          "return_pct": 0.004778151895000082,
+          "max_drawdown": -0.00373035707341407
+        }
+      ],
+      "score": -0.006893134808140272,
+      "eligible": true
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "pos1_40_price20",
+      "take_profit": 0.03,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 44,
+          "return_pct": 0.055098525487574435,
+          "max_drawdown": -0.039156967888630656
+        },
+        {
+          "year": 2023,
+          "n": 9,
+          "return_pct": 0.007147935490000146,
+          "max_drawdown": -0.01484583534990458
+        }
+      ],
+      "score": -0.00464974083211836,
+      "eligible": false
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "pos1_40_price20",
+      "take_profit": 0.03,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 54,
+          "return_pct": 0.04582406728365518,
+          "max_drawdown": -0.023220725661471153
+        },
+        {
+          "year": 2023,
+          "n": 9,
+          "return_pct": 0.0027602856449997493,
+          "max_drawdown": -0.007509907884066136
+        }
+      ],
+      "score": -0.0027770330696539614,
+      "eligible": false
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "pos1_40_price20",
+      "take_profit": 0.03,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 64,
+          "return_pct": 0.024021138525327057,
+          "max_drawdown": -0.015691008908541804
+        },
+        {
+          "year": 2023,
+          "n": 9,
+          "return_pct": 0.0011339093609998852,
+          "max_drawdown": -0.0037895009611729202
+        }
+      ],
+      "score": -0.003567214107480149,
+      "eligible": false
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "volume12",
+      "take_profit": 0.03,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 38,
+          "return_pct": 0.11239184695709081,
+          "max_drawdown": -0.03059074108980908
+        },
+        {
+          "year": 2023,
+          "n": 13,
+          "return_pct": 0.026381056687000193,
+          "max_drawdown": -0.015588655356999936
+        }
+      ],
+      "score": 0.028432299097607028,
+      "eligible": true
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "volume12",
+      "take_profit": 0.03,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 43,
+          "return_pct": 0.05978030022923986,
+          "max_drawdown": -0.02266749577721372
+        },
+        {
+          "year": 2023,
+          "n": 13,
+          "return_pct": 0.010689472524999966,
+          "max_drawdown": -0.008399221848999994
+        }
+      ],
+      "score": 0.008164446230673084,
+      "eligible": true
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "volume12",
+      "take_profit": 0.03,
+      "forced_day": 5,
+      "stop_loss": null,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 48,
+          "return_pct": 0.03228222167801653,
+          "max_drawdown": -0.013281998730040545
+        },
+        {
+          "year": 2023,
+          "n": 10,
+          "return_pct": 0.005902516976000083,
+          "max_drawdown": -0.004076351545749479
+        }
+      ],
+      "score": 0.004034609942731887,
+      "eligible": false
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "volume15",
+      "take_profit": 0.05,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 20,
+          "return_pct": 0.10724230893000075,
+          "max_drawdown": -0.017133601519404018
+        },
+        {
+          "year": 2023,
+          "n": 10,
+          "return_pct": 0.0021775178300003084,
+          "max_drawdown": -0.024313595499999785
+        }
+      ],
+      "score": 0.0036981984250005484,
+      "eligible": false
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "volume15",
+      "take_profit": 0.05,
+      "forced_day": 3,
+      "stop_loss": null,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 24,
+          "return_pct": 0.06819136616999999,
+          "max_drawdown": -0.008298357721314709
+        },
+        {
+          "year": 2023,
+          "n": 10,
+          "return_pct": 0.0002665482699999444,
+          "max_drawdown": -0.011536890200000038
+        }
+      ],
+      "score": 0.003055342474999917,
+      "eligible": false
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "volume15",
+      "take_profit": 0.05,
+      "forced_day": 5,
+      "stop_loss": null,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 19,
+          "return_pct": 0.025283807905000177,
+          "max_drawdown": -0.00408659008735579
+        },
+        {
+          "year": 2023,
+          "n": 7,
+          "return_pct": 0.001791770817281435,
+          "max_drawdown": -0.004076351545749479
+        }
+      ],
+      "score": 0.0031329231138887415,
+      "eligible": false
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "shrink",
+      "take_profit": 0.05,
+      "forced_day": 2,
+      "stop_loss": 0.05,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 37,
+          "return_pct": 0.052360422682121266,
+          "max_drawdown": -0.04855157856000003
+        },
+        {
+          "year": 2023,
+          "n": 8,
+          "return_pct": 0.013852278034999888,
+          "max_drawdown": -0.011249236169972754
+        }
+      ],
+      "score": -0.0021469236553599835,
+      "eligible": false
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "shrink",
+      "take_profit": 0.05,
+      "forced_day": 2,
+      "stop_loss": 0.05,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 42,
+          "return_pct": 0.01938786282671945,
+          "max_drawdown": -0.04089290133999979
+        },
+        {
+          "year": 2023,
+          "n": 8,
+          "return_pct": 0.007223394939999794,
+          "max_drawdown": -0.005544549597281567
+        }
+      ],
+      "score": -0.009896648509160194,
+      "eligible": false
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "shrink",
+      "take_profit": 0.05,
+      "forced_day": 3,
+      "stop_loss": 0.05,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 39,
+          "return_pct": 0.009484346509211594,
+          "max_drawdown": -0.01585301982999998
+        },
+        {
+          "year": 2023,
+          "n": 8,
+          "return_pct": 0.0029933269299999843,
+          "max_drawdown": -0.0028164591588019094
+        }
+      ],
+      "score": -0.003373473805098559,
+      "eligible": false
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "deep_shrink",
+      "take_profit": 0.03,
+      "forced_day": 5,
+      "stop_loss": 0.05,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 23,
+          "return_pct": 0.013165110737999974,
+          "max_drawdown": -0.03140251755999979
+        },
+        {
+          "year": 2023,
+          "n": 6,
+          "return_pct": -0.0008152328780000051,
+          "max_drawdown": -0.02004851395999996
+        }
+      ],
+      "score": -0.014972756925499903,
+      "eligible": false
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "deep_shrink",
+      "take_profit": 0.03,
+      "forced_day": 5,
+      "stop_loss": null,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 25,
+          "return_pct": 0.0073931845589998435,
+          "max_drawdown": -0.03175198612463426
+        },
+        {
+          "year": 2023,
+          "n": 6,
+          "return_pct": 0.009377514220999972,
+          "max_drawdown": -0.009201282876874828
+        }
+      ],
+      "score": -0.006386471155817308,
+      "eligible": false
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "deep_shrink",
+      "take_profit": 0.05,
+      "forced_day": 5,
+      "stop_loss": null,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 23,
+          "return_pct": 0.01854456877499988,
+          "max_drawdown": -0.012172009963512309
+        },
+        {
+          "year": 2023,
+          "n": 6,
+          "return_pct": 0.002778993314999978,
+          "max_drawdown": -0.004676875579091577
+        }
+      ],
+      "score": -0.0006415664055061943,
+      "eligible": false
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "pos2_20",
+      "take_profit": 0.03,
+      "forced_day": 2,
+      "stop_loss": null,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 28,
+          "return_pct": 0.017431909421866898,
+          "max_drawdown": -0.04372532029248399
+        },
+        {
+          "year": 2023,
+          "n": 16,
+          "return_pct": 0.01913725484200035,
+          "max_drawdown": -0.025160501199999907
+        }
+      ],
+      "score": 0.00014039480860830733,
+      "eligible": true
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "pos2_20",
+      "take_profit": 0.03,
+      "forced_day": 2,
+      "stop_loss": null,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 37,
+          "return_pct": 0.023798496655989654,
+          "max_drawdown": -0.0258640704153118
+        },
+        {
+          "year": 2023,
+          "n": 15,
+          "return_pct": 0.01017648032799956,
+          "max_drawdown": -0.011379782500000046
+        }
+      ],
+      "score": 0.0014913172433423105,
+      "eligible": true
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "pos2_20",
+      "take_profit": 0.03,
+      "forced_day": 2,
+      "stop_loss": null,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 47,
+          "return_pct": 0.01487770113649467,
+          "max_drawdown": -0.018623799230054527
+        },
+        {
+          "year": 2023,
+          "n": 13,
+          "return_pct": 0.0036384219260003903,
+          "max_drawdown": -0.0027938844508721417
+        }
+      ],
+      "score": -0.003358962306214991,
+      "eligible": true
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "price20_ma60slow",
+      "take_profit": 0.05,
+      "forced_day": 2,
+      "stop_loss": null,
+      "slots": 5,
+      "training": [
+        {
+          "year": 2022,
+          "n": 52,
+          "return_pct": 0.01687678877489418,
+          "max_drawdown": -0.04984028003121288
+        },
+        {
+          "year": 2023,
+          "n": 11,
+          "return_pct": 0.00396919739532775,
+          "max_drawdown": -0.025732178636998393
+        }
+      ],
+      "score": -0.01834519434900095,
+      "eligible": false
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "price20_ma60slow",
+      "take_profit": 0.03,
+      "forced_day": 5,
+      "stop_loss": null,
+      "slots": 10,
+      "training": [
+        {
+          "year": 2022,
+          "n": 64,
+          "return_pct": 0.030324802613109547,
+          "max_drawdown": -0.02958451136537077
+        },
+        {
+          "year": 2023,
+          "n": 11,
+          "return_pct": 0.005732568351999978,
+          "max_drawdown": -0.014164773613328241
+        }
+      ],
+      "score": -0.004552515960046716,
+      "eligible": false
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "filter": "price20_ma60slow",
+      "take_profit": 0.03,
+      "forced_day": 5,
+      "stop_loss": null,
+      "slots": 20,
+      "training": [
+        {
+          "year": 2022,
+          "n": 70,
+          "return_pct": 0.019852066376362387,
+          "max_drawdown": -0.015484709202576163
+        },
+        {
+          "year": 2023,
+          "n": 11,
+          "return_pct": 0.0022631118070000067,
+          "max_drawdown": -0.007227890648413893
+        }
+      ],
+      "score": -0.002714845521367776,
+      "eligible": false
+    }
+  ],
+  "selection": "Development-only: require >=6 actual entries each year, all4 years positive, total daily-DD<=15%; maximize minimum annual return, then mean annual return, then lower DD. Otherwise report no qualifying rule.",
+  "caution": "The 2021-2024 years participate in choosing winner. This is NOT an untouched test or a rule known before2021. No2025+ data allowed."
+}

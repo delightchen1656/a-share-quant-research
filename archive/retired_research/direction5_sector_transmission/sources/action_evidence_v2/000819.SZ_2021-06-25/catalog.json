@@ -1,0 +1,16 @@
+{
+  "symbol": "000819.SZ",
+  "event_date": "2021-06-25",
+  "kind": "dividend_fields",
+  "start": "2021-04-06",
+  "query_files": [
+    {
+      "path": "sources\\action_evidence_v2\\000819.SZ_2021-06-25\\query_01.json",
+      "sha256": "04069635e98d54a862a826a25d95673fccea7b2ac71980365b6813014b4876a7"
+    }
+  ],
+  "exact_code_announcements": 0,
+  "documents": [],
+  "no_document_is_not_no_event_proof": true,
+  "fields_verified": false
+}

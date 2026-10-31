@@ -1,0 +1,40 @@
+{
+  "status": "code_restored",
+  "account_modified": false,
+  "model_modified": false,
+  "positions": [
+    {
+      "symbol": "000652.SZ",
+      "average": 3.1,
+      "model_price": 3.11,
+      "take": 3.42,
+      "stop": 2.98,
+      "needs_review": true
+    },
+    {
+      "symbol": "002476.SZ",
+      "average": 4.43,
+      "model_price": 4.47,
+      "take": 5.2,
+      "stop": 4.14,
+      "needs_review": true
+    },
+    {
+      "symbol": "002492.SZ",
+      "average": 5.02,
+      "model_price": 5.01,
+      "take": 6.02,
+      "stop": 4.64,
+      "needs_review": true
+    },
+    {
+      "symbol": "600768.SH",
+      "average": 12.11,
+      "model_price": 12.13,
+      "take": 14.53,
+      "stop": 11.2,
+      "needs_review": true
+    }
+  ],
+  "running_server_uses_actual_anchor": null
+}

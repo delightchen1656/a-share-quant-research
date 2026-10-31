@@ -1,0 +1,25 @@
+{
+  "symbol": "600938.SH",
+  "event_date": "2022-07-15",
+  "kind": "unknown_reference",
+  "start": "2022-05-30",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\600938.SH_2022-07-15\\query_01.json",
+      "sha256": "b73930a80faca83c839f97e407a03ea04910836eeec5252dac4b5d3e727b7a37",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "600938",
+        "begin_time": "2022-05-30",
+        "end_time": "2022-07-15"
+      }
+    }
+  ],
+  "announcement_count": 7,
+  "documents": [],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

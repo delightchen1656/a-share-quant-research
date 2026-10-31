@@ -1,0 +1,25 @@
+{
+  "symbol": "600647.SH",
+  "event_date": "2024-06-14",
+  "kind": "unknown_reference",
+  "start": "2024-04-28",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\600647.SH_2024-06-14\\query_01.json",
+      "sha256": "aa18e27dce66f7ef3d06f360d3943c1aa1280421621d5223d59252ba80494ced",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "600647",
+        "begin_time": "2024-04-28",
+        "end_time": "2024-06-14"
+      }
+    }
+  ],
+  "announcement_count": 40,
+  "documents": [],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

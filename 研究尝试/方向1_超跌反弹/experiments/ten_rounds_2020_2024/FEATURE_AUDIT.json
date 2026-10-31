@@ -1,0 +1,41 @@
+{
+  "features": [
+    "amount20",
+    "below_ma20",
+    "body",
+    "close_over_prev_high",
+    "current_amount",
+    "last3_volume_ratio",
+    "lower",
+    "raw_close",
+    "rebound_from_low",
+    "ret20",
+    "ret5",
+    "upper",
+    "volume_ratio"
+  ],
+  "nonfinite_counts": {
+    "amount20": 0,
+    "below_ma20": 0,
+    "body": 0,
+    "close_over_prev_high": 0,
+    "current_amount": 0,
+    "last3_volume_ratio": 0,
+    "lower": 0,
+    "raw_close": 0,
+    "rebound_from_low": 0,
+    "ret20": 0,
+    "ret5": 0,
+    "upper": 0,
+    "volume_ratio": 0
+  },
+  "feature_timing": "Current structure features are trailing; ret20/ret5 exclude signal day as defined in structure.scan; amount20 is previous 20 valid-bar mean raw monetary amount, current_amount is signal-day raw amount. No feature uses later data.",
+  "base_signal_count": 1017,
+  "signals_per_year": {
+    "2020": 191,
+    "2021": 118,
+    "2022": 294,
+    "2023": 24,
+    "2024": 390
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "strategy": "original Hushen1 D11 fixed five",
+  "initial_cash_cny": 100000.0,
+  "period_metrics": [
+    {
+      "period": "2016-2019",
+      "start": "2016-01-04",
+      "end": "2019-12-31",
+      "trading_days": 975,
+      "annualization_calendar_days": 1458.0,
+      "strategy_growth": 0.9328959,
+      "benchmark_growth": 0.8624479689327749,
+      "strategy_period_return": -0.0671041,
+      "benchmark_period_return": -0.13755203106722513,
+      "period_excess_difference": 0.07044793106722513,
+      "strategy_cagr": -0.017250620711587894,
+      "benchmark_cagr": -0.036392510713734505,
+      "annualized_excess_difference": 0.01914189000214661,
+      "geometric_active_cagr": 0.0198648207023846,
+      "strategy_max_drawdown": 0.3950119006737328,
+      "benchmark_max_drawdown": 0.3076594375840189,
+      "strategy_sharpe": 0.06613897348285136
+    },
+    {
+      "period": "2020-2024",
+      "start": "2020-01-02",
+      "end": "2024-12-31",
+      "trading_days": 1212,
+      "annualization_calendar_days": 1826.0,
+      "strategy_growth": 5.409623946251659,
+      "benchmark_growth": 1.0988940121778656,
+      "strategy_period_return": 4.409623946251659,
+      "benchmark_period_return": 0.09889401217786564,
+      "period_excess_difference": 4.310729934073794,
+      "strategy_cagr": 0.4016948927691393,
+      "benchmark_cagr": 0.01904246682180255,
+      "annualized_excess_difference": 0.3826524259473367,
+      "geometric_active_cagr": 0.37550194266266046,
+      "strategy_max_drawdown": 0.4227685528922952,
+      "benchmark_max_drawdown": 0.272701419451287,
+      "strategy_sharpe": 1.3885049108873304
+    },
+    {
+      "period": "2016-2024",
+      "start": "2016-01-04",
+      "end": "2024-12-31",
+      "trading_days": 2187,
+      "annualization_calendar_days": 3285.0,
+      "strategy_growth": 5.046616000000003,
+      "benchmark_growth": 0.9477389088751882,
+      "strategy_period_return": 4.046616000000003,
+      "benchmark_period_return": -0.05226109112481181,
+      "period_excess_difference": 4.098877091124814,
+      "strategy_cagr": 0.19719430102189772,
+      "benchmark_cagr": -0.0059503364041484375,
+      "annualized_excess_difference": 0.20314463742604616,
+      "geometric_active_cagr": 0.20436065205353593,
+      "strategy_max_drawdown": 0.42276855289229476,
+      "benchmark_max_drawdown": 0.3076594375840189,
+      "strategy_sharpe": 0.8181143643217405
+    }
+  ],
+  "yearly_excess_floor": -0.12684276442739562,
+  "yearly_excess_sample_std": 0.3293907509936589,
+  "loo_excess_floor": 0.1390816015940316,
+  "q1_scenarios": 761,
+  "transfer_gate": {
+    "definition": "2016-2019, 2020-2024 and 2016-2024 annualized excess differences must each be strictly positive",
+    "period_excess": {
+      "2016-2019": 0.01914189000214661,
+      "2020-2024": 0.3826524259473367,
+      "2016-2024": 0.20314463742604616
+    },
+    "passed": true,
+    "formula_changed_after_results": false
+  },
+  "integrity": {
+    "evaluation_lock_verified": true,
+    "raw_hash_rows": 3354,
+    "all_raw_hashes_match": true,
+    "main_daily_rows": 2187,
+    "expected_main_daily_rows": 2187,
+    "main_dates_exact": true,
+    "main_null_equity": 0,
+    "main_min_cash": 18.27999999997928,
+    "main_max_actual_holdings": 8,
+    "q1_unique_starts": 526,
+    "expected_q1_unique_starts": 526,
+    "q1_scenario_rows": 761,
+    "expected_q1_scenario_rows": 761,
+    "q1_checkpoints": {
+      "2016": true,
+      "2017": true,
+      "2018": true,
+      "2019": true,
+      "2020": true,
+      "2021": true,
+      "2022": true,
+      "2023": true,
+      "2024": true
+    },
+    "fee_multipliers": [
+      1,
+      2,
+      3
+    ],
+    "latest_evaluation_date": "2024-12-31",
+    "action_input_audit": {
+      "events": 23634,
+      "missing_pay_date_fallbacks": 451,
+      "missing_stock_market_date_fallbacks": 20006,
+      "post_cutoff_events_skipped": 0,
+      "exact_duplicate_rows_skipped": 1,
+      "canonical_duplicate_rows": [
+        {
+          "symbol": "600660.SH",
+          "operate_date": "2017-05-15",
+          "kept_source_key": "600660.SH/2017",
+          "skipped_source_key": "600660.SH/2023",
+          "skipped_source_index": 0
+        }
+      ],
+      "canonical_policy": "skip full-record exact duplicates; raise on any field difference; never sum duplicates"
+    },
+    "main_unresolved_action_or_adjustment_issues": 0,
+    "main_action_reference_differences": 0,
+    "special_limit_semantics_limitation": "The whitelist cannot identify listing/special no-limit sessions; observed opens outside computed 10%/5% limits are invalid bars and are recorded, not reclassified.",
+    "intraday_limitation": "Authorized strict daily fill approximation; minute order queue is unavailable.",
+    "passed": true
+  },
+  "formula_or_parameter_search": false,
+  "canonical_action_recovery": true
+}

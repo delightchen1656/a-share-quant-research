@@ -1,0 +1,27 @@
+{
+  "planned_symbol_years": 23352,
+  "successful_symbol_year_queries": 23352,
+  "missing_queries": 0,
+  "failed_queries": 0,
+  "all_planned_queries_successful": true,
+  "raw_detailed_event_rows": 16099,
+  "eastmoney_event_rows": 15648,
+  "merged_event_groups": 15931,
+  "event_groups_with_complete_amounts_and_required_dates": 15908,
+  "issuer_overrides_applied": 6,
+  "equivalent_detail_duplicate_rows_collapsed": 155,
+  "exact_date_matched_reference_breaks": 15712,
+  "reference_breaks_not_exact_date_matched": 201,
+  "issue_counts": {
+    "single_provider_amounts": 288,
+    "payment_date_missing_or_invalid": 8,
+    "multiple_event_components_without_verified_issuer_aggregation": 13,
+    "cannot_determine_required_payment_or_share_dates": 13,
+    "registration_date_missing_or_invalid": 1,
+    "provider_registration_date_disagreement": 1
+  },
+  "rights_issues_and_other_non_dividend_actions_included": false,
+  "complete_corporate_action_ledger": false,
+  "economic_labels_ready": false,
+  "note": "Exact-date misses can include events during suspension; interval reconciliation follows separately."
+}

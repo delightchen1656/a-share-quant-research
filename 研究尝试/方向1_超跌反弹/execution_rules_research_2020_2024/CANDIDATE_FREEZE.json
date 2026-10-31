@@ -1,0 +1,125 @@
+{
+  "boundary": "public-pre2025-v2",
+  "research_start": "2020-01-01",
+  "research_cutoff": "2024-12-31",
+  "status": "FROZEN_RESEARCH_CANDIDATE_CONDITIONAL_UNPRICED_ASSET; ORIGINAL_V3_NOT_REPLACED",
+  "primary": {
+    "id": "TP10_SL6_H3",
+    "tp": 0.1,
+    "sl": 0.06,
+    "h": 3,
+    "rank": "code",
+    "trail": false
+  },
+  "entry_pool": "all 3805 fixed v3 signals; no additional filters",
+  "entry_sort": "code ascending known signal day",
+  "entry_execution": "strict next official session open; ideal open liquidity; upper-limit opens conservatively unfilled",
+  "capital": 1000000,
+  "slots": 20,
+  "slot_budget_including_buy_fees": 50000,
+  "lot": 100,
+  "T_plus_1": true,
+  "same_day_barriers": "stop before take-profit",
+  "gap_stop": "opening price if below stop",
+  "favorable_gap_TP": "target price conservative",
+  "forced_exit": "D0+3 official sessions close, delayed if cannot sell",
+  "fees": "EXECUTION_CONVENTIONS.json, HALF_UP fen",
+  "selection": "registered median annual return minus half worst annual drawdown minus half annual return std across 2020-2024",
+  "unique_rules": 93,
+  "configuration_evaluations": 97,
+  "all_later_research_years_reused": true,
+  "round3_pre2023_train_choice_matches_primary": true,
+  "unknown_quotes_do_not_define_entry_filter": true,
+  "unpriced_assets_must_not_be_fabricated_or_excluded": true,
+  "current_leader_classification_used": false,
+  "no_boundary_after_audit": true,
+  "input_manifest_hashes": {
+    "full_mainboard/MANIFEST.json": "8d1c78aa55e7667462a95fa3a8e87fd4b14af4075a1b3e2d14ca713503d9f7c3",
+    "execution_rules_2020_2024/SIGNAL_MANIFEST.json": "a1005570db8ce9f5c07add71a10366e0894487670cce1581a6efb6fb3327f801",
+    "execution_rules_2020_2024/actions/MANIFEST.json": "4f24a25000552f875dcc34c000d8855c1e7355ece88f0a7eca053aab747437f0",
+    "execution_rules_2020_2024/CODE_MANIFEST.json": "b33a337f55c1c63689dba5f1f0ade9afbed7cc1a02ef1129fbb1bf47dd92d1bf",
+    "execution_rules_2020_2024/market_evidence_v1/MANIFEST.json": "449207aacc569ee06d4b49c578f35ab07f48589c27e66b2f48f73ee8d3d55d15",
+    "execution_rules_2020_2024/historical_status_evidence/MANIFEST.json": "a8d971d5aa2d5ac853e072006e7acbc11a3b976e525d0d244afcbda08de2e934",
+    "execution_rules_2020_2024/PRIOR_TRADE_RULE_REFERENCE.json": "f292fe16f351b946744108bd094dd6bab4f174515b22484f892816263a85e337"
+  },
+  "code_hashes": {
+    "account_engine.py": "350997f43e564eecbeb7352e8dc242a06fe8fb67a0ca2d2d50e2d1484a0cdb40",
+    "account_audit.py": "49f16c819c72e819314cef05bd82928e1d7b74cac2157570addf397b493837cd",
+    "market_adapter.py": "067d9ed4bb7e19e5ec051ac47e15a0c66e4f449edf53b08a9f12a80e80009365",
+    "action_adapter.py": "0c5612f3ca3c8d7cc8583bbc85d6210bb12b3bda94ef68330b62c76e97d4d893",
+    "round3_run.py": "011e272128a18539cb119c2957bda62b9e6022deb3ee8a167b65d58e9ad6a664",
+    "ROUND3_PROTOCOL.md": "a87561d2253bdf7639ed62983d75bc92fd17e0f3ed9f32cd0743d48ad6b6dfb6",
+    "FINAL_SELECTION_PROTOCOL.md": "4613a362328100b8501d80aa8cc1bb128e99b1bcf5f2518b26db1e1a469ffa36"
+  },
+  "selected_metrics": {
+    "unresolved_quote_events": 871,
+    "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+    "scope": "all",
+    "capital": "1000000.00",
+    "slots": 20,
+    "slot_budget": "50000.00",
+    "take_profit": 0.1,
+    "stop_loss": 0.06,
+    "trailing": false,
+    "rank": "code",
+    "forced_day": 3,
+    "final_equity": "1414087.05",
+    "total_return": 0.41408705,
+    "annualized_return": 0.0717237984287471,
+    "max_drawdown": -0.07888933025480606,
+    "closed_trades": 1181,
+    "open_positions": 10,
+    "pending_signals": 0,
+    "skipped": 2614,
+    "corporate_events": 0,
+    "total_transaction_fees": "89790.95",
+    "sold_dividend_tax_payable": "0.00",
+    "held_dividend_tax_estimate": "0.00",
+    "cash_collection_dates_not_fabricated": true,
+    "closed_pnl": "417543.37",
+    "open_marked_pnl": "-3456.32",
+    "economic_pnl_residual": "0.00"
+  },
+  "selected_yearly": [
+    {
+      "year": 2020,
+      "return_pct": 0.06805347,
+      "max_drawdown": -0.057734540662740294,
+      "end_equity": "1068053.47"
+    },
+    {
+      "year": 2021,
+      "return_pct": 0.05320442430658458,
+      "max_drawdown": -0.04958432464996345,
+      "end_equity": "1124878.64"
+    },
+    {
+      "year": 2022,
+      "return_pct": 0.07463027300438384,
+      "max_drawdown": -0.07595360341360989,
+      "end_equity": "1208828.64"
+    },
+    {
+      "year": 2023,
+      "return_pct": 0.08865748746654448,
+      "max_drawdown": -0.019053474044711013,
+      "end_equity": "1316000.35"
+    },
+    {
+      "year": 2024,
+      "return_pct": 0.07453394674249136,
+      "max_drawdown": -0.050844724300936325,
+      "end_equity": "1414087.05"
+    }
+  ],
+  "engineering_revision": {
+    "version": 2,
+    "reason": "Canonicalize duplicate company action entitlements; block conflicting rights unless uniquely supported by ex-reference/factor evidence",
+    "parameter_change": false,
+    "financial_or_ranking_change": false,
+    "prior_freeze_sha256": "106691078784c568fe0a1b2ab13b9dc49afa2b71d481d7a52748ea09bc78189d",
+    "prior_core_path": "frozen_core_v1/",
+    "canonicalization_audit": "ACTION_CANONICALIZATION_AUDIT.json",
+    "regression_tests_passed": 13
+  }
+}

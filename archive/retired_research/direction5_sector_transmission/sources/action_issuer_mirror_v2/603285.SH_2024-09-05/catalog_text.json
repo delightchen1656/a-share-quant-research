@@ -1,0 +1,38 @@
+{
+  "symbol": "603285.SH",
+  "event_date": "2024-09-05",
+  "kind": "unknown_reference",
+  "start": "2024-07-21",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\603285.SH_2024-09-05\\query_01.json",
+      "sha256": "70f187bca147c003ccec720574f9abf1ff6e80e97e984fcc65b208c096042947",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "603285",
+        "begin_time": "2024-07-21",
+        "end_time": "2024-09-05"
+      }
+    }
+  ],
+  "announcement_count": 35,
+  "documents": [
+    {
+      "title": "键邦股份:山东键邦新材料股份有限公司2024年特别分红实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2024-08-30",
+      "raw_response": "sources\\action_issuer_mirror_v2\\603285.SH_2024-09-05\\AN202408291639557116_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\603285.SH_2024-09-05\\AN202408291639557116.txt",
+      "sha256": "a7096910a17047d760bdaa40cbb1a9253a788d84d2342cb8c842caf56e05a381",
+      "article_code": "AN202408291639557116",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202408291639557116_1.pdf?1724949473000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

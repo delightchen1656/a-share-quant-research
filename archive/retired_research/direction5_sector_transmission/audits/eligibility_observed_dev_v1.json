@@ -1,0 +1,152 @@
+{
+  "scope": "observed_Kline_rows_only_not_complete_historical_security_universe",
+  "start": "2018-01-01",
+  "end": "2023-12-31",
+  "observed_rows": 4382527,
+  "observed_symbols": 3312,
+  "market_dates_with_observed_rows": 1457,
+  "candidate_rows": 3737172,
+  "first_candidate_date": "2018-07-02",
+  "candidate_stock_count_daily_min_after_first_candidate": 2058,
+  "candidate_stock_count_daily_max": 2973,
+  "identity_sidecar_repaired_rows": 14,
+  "yearly": [
+    {
+      "year": 2018,
+      "observed_rows": 680631,
+      "candidate_rows": 306375,
+      "stocks_with_any_candidate_day": 2683
+    },
+    {
+      "year": 2019,
+      "observed_rows": 699808,
+      "candidate_rows": 657429,
+      "stocks_with_any_candidate_day": 2803
+    },
+    {
+      "year": 2020,
+      "observed_rows": 717114,
+      "candidate_rows": 656560,
+      "stocks_with_any_candidate_day": 2827
+    },
+    {
+      "year": 2021,
+      "observed_rows": 750951,
+      "candidate_rows": 688424,
+      "stocks_with_any_candidate_day": 3001
+    },
+    {
+      "year": 2022,
+      "observed_rows": 762501,
+      "candidate_rows": 714489,
+      "stocks_with_any_candidate_day": 3041
+    },
+    {
+      "year": 2023,
+      "observed_rows": 771522,
+      "candidate_rows": 713895,
+      "stocks_with_any_candidate_day": 3013
+    }
+  ],
+  "files": [
+    {
+      "file": "2018.parquet",
+      "sha256": "ff347b595d6f5a16dda633b41c1ec4d02c687cf277edb5befac4b55ee67ae545",
+      "rows": 680631
+    },
+    {
+      "file": "2019.parquet",
+      "sha256": "cebd685ac8bec6358d5a3f719da4d94405b02de8ddc8888cbc1897e20f5668b2",
+      "rows": 699808
+    },
+    {
+      "file": "2020.parquet",
+      "sha256": "6881f16f97fc9902af0619648d315b35495f6c5ba9183fbd57bcf8cdc31b245a",
+      "rows": 717114
+    },
+    {
+      "file": "2021.parquet",
+      "sha256": "6ab34b64216a018c1eb3c2f7be1d700b98bb542468549a0085deaa2ee83b3f37",
+      "rows": 750951
+    },
+    {
+      "file": "2022.parquet",
+      "sha256": "d78efc74a54d0839d7b648925331ff89dcaf1d47ba18367130df48da219573ab",
+      "rows": 762501
+    },
+    {
+      "file": "2023.parquet",
+      "sha256": "35e214510c90c40f2dc4756f5cef00e625f202a6daf6d27ed1622295b4d6b903",
+      "rows": 771522
+    },
+    {
+      "file": "daily_counts.parquet",
+      "sha256": "4969e198a7fb1cdf8b92b39b7f3a67b59aa3387e51805c3784374b3550cf3311",
+      "rows": 1457
+    }
+  ],
+  "failure_bits": {
+    "1": "signal_day_not_active",
+    "2": "signal_day_ST_or_unknown_ST",
+    "4": "invalid_signal_day_OHLC_volume_amount",
+    "8": "fewer_than_120_observed_valid_active_bars",
+    "16": "industry_unknown_in_latest_available_whole_publication",
+    "32": "outside_registered_mainboard_prefixes"
+  },
+  "failure_counts_can_overlap": true,
+  "source_manifests": [
+    {
+      "path": "inputs_pre2025/kline_v1/manifest.json",
+      "sha256": "f10f353b5021f6ddb028be038103f757433f958ebbf4992fb65383f42160b1a1"
+    },
+    {
+      "path": "inputs_pre2025/industry_official_v1/manifest.json",
+      "sha256": "88d786f669eeeaacd1aa690bae16528f75cc4a1c0c352edf855bae40e35a6861"
+    },
+    {
+      "path": "inputs_pre2025/security_identity_v1/manifest.json",
+      "sha256": "fefc6990845da6e67ee21c157d4def7977a2a658e453f94e6154921cd77e0d54"
+    },
+    {
+      "path": "inputs_pre2025/trading_calendar_v1/manifest.json",
+      "sha256": "b457a24f5cef2226006427ba94a54937de83bb861e895f2a964f8a6cead0f978"
+    }
+  ],
+  "protocol_sha256": "502c0f7f652295b4ba4b3dcf1a4595a7944bafabe0685bdff263eb7348483e50",
+  "historical_delisting_not_used_as_filter": true,
+  "missing_Kline_rows_not_filled_or_assumed_suspended": true,
+  "company_action_future_knowledge_not_used_as_entry_filter": true,
+  "industry_publication_age_not_used_as_filter": true,
+  "listing_age_not_inferred_from_observed_bar_count": true,
+  "liquidity_capacity_and_execution_limits_not_yet_applied": true,
+  "rules_panel_ready": true,
+  "final_tradable_universe_ready": false,
+  "labels_ready": false,
+  "factor_experiments_enabled": false,
+  "ranked_stock_selection_ready": false,
+  "approved_scope": "audited_derived_point_in_time_qualification_flags_only",
+  "code_sha256": "55048229b58a9a501cb9bd477cec3e15103e1fb8fbca64a0141375d36649e74c",
+  "tests": {
+    "prefix_invariance_checks": [
+      {
+        "symbol": "600000.SH",
+        "adding_later_rows_does_not_change_earlier_flags": true
+      },
+      {
+        "symbol": "601360.SH",
+        "adding_later_rows_does_not_change_earlier_flags": true
+      },
+      {
+        "symbol": "001872.SZ",
+        "adding_later_rows_does_not_change_earlier_flags": true
+      }
+    ],
+    "identity_confirmation_boundary_checked": true,
+    "history_119_120_boundary_checked": true,
+    "holdout_2024_not_materialized": true,
+    "no_return_or_factor_columns": true,
+    "source_snapshot_file_hashes_verified": 3336,
+    "output_row_identity_checks_passed": true,
+    "rows_reconciled_to_daily_counts": true
+  }
+}

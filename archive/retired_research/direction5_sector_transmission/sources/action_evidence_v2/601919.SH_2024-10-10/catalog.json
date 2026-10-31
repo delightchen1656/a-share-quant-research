@@ -1,0 +1,26 @@
+{
+  "symbol": "601919.SH",
+  "event_date": "2024-10-10",
+  "kind": "dividend_fields",
+  "start": "2024-07-22",
+  "query_files": [
+    {
+      "path": "sources\\action_evidence_v2\\601919.SH_2024-10-10\\query_01.json",
+      "sha256": "9cb27db1ba1da3b28d1707eb7b8a5c84d7e4e45bab2d9ada296e768c35c56dab"
+    }
+  ],
+  "exact_code_announcements": 16,
+  "documents": [
+    {
+      "title": "中远海控2024年中期权益分派实施公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-09-26/1221290881.PDF",
+      "published_date": "2024-09-26",
+      "pdf": "sources\\action_evidence_v2\\601919.SH_2024-10-10\\1221290881.pdf",
+      "text": "sources\\action_evidence_v2\\601919.SH_2024-10-10\\1221290881.txt",
+      "sha256": "d16325381291e6de96ce7dda1bb0292a32e869dd3d244e8e7ed425081d28d6f9",
+      "pages": 5
+    }
+  ],
+  "no_document_is_not_no_event_proof": true,
+  "fields_verified": false
+}

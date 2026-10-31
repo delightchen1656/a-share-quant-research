@@ -1,0 +1,59 @@
+{
+  "signal_start": "2024-01-02",
+  "signal_cutoff": "2024-12-31",
+  "input_price_cutoff": "2024-12-31",
+  "universe_codes": 1,
+  "signals": 0,
+  "unresolved_candidates": 0,
+  "no_evidence_code_days": 0,
+  "next_states": {},
+  "source_access": [
+    {
+      "path": "C:\\Users\\22241\\Desktop\\quant\\direction1_structure_research\\full_history_signal_code\\synthetic_io\\inputs\\MANIFEST.json",
+      "sha256": "e9a2905b69a49c9408369223fed36e3a72d1838afd1626611e2382bddedca881"
+    },
+    {
+      "path": "C:\\Users\\22241\\Desktop\\quant\\direction1_structure_research\\structure.py",
+      "sha256": "18db22d33a4457e58de124cd78f0e18dbcc971f825388fdcbaf87aa88fe1436f"
+    },
+    {
+      "path": "C:\\Users\\22241\\Desktop\\quant\\direction1_structure_research\\full_history_signal_code\\synthetic_io\\inputs\\daily_limit_rates.parquet",
+      "sha256": "7a9b53b061c4bcb8e45f58e17cd9c08c6e424b1376d54199d230fc7228bebc06"
+    },
+    {
+      "path": "C:\\Users\\22241\\Desktop\\quant\\direction1_structure_research\\full_history_signal_code\\synthetic_io\\inputs\\daily_limit_rates.parquet",
+      "sha256": "7a9b53b061c4bcb8e45f58e17cd9c08c6e424b1376d54199d230fc7228bebc06"
+    },
+    {
+      "path": "C:\\Users\\22241\\Desktop\\quant\\direction1_structure_research\\full_history_signal_code\\synthetic_io\\inputs\\universe.parquet",
+      "sha256": "934fbb854e2010bdefbae240a9af541648eb0db728493be199723b6fb92dbe42"
+    },
+    {
+      "path": "C:\\Users\\22241\\Desktop\\quant\\direction1_structure_research\\full_history_signal_code\\synthetic_io\\inputs\\calendar.parquet",
+      "sha256": "52c53324fc16aaabf35a36aa95762c673e7c047defdfd635ad162f2934ce1bf8"
+    },
+    {
+      "path": "C:\\Users\\22241\\Desktop\\quant\\direction1_structure_research\\full_history_signal_code\\synthetic_io\\inputs\\QUOTE_MANIFEST.json",
+      "sha256": "a54b28b01e4751bf84f071b37790ae1371a286c5eda22eed76802f9436672023"
+    },
+    {
+      "path": "C:\\Users\\22241\\Desktop\\quant\\direction1_structure_research\\full_history_signal_code\\synthetic_io\\inputs\\raw\\000001.parquet",
+      "sha256": "a37b54e0b0f15805d43d66180ae9465630ec45085a0ced709bc0bd077caa032d"
+    },
+    {
+      "path": "C:\\Users\\22241\\Desktop\\quant\\direction1_structure_research\\full_history_signal_code\\synthetic_io\\inputs\\qfq\\000001.parquet",
+      "sha256": "a37b54e0b0f15805d43d66180ae9465630ec45085a0ced709bc0bd077caa032d"
+    }
+  ],
+  "structure_sha256": "18db22d33a4457e58de124cd78f0e18dbcc971f825388fdcbaf87aa88fe1436f",
+  "scanner_sha256": "ba9488a8e725a45f99e5d19c01f417c4ae8180abb15d099d806c7cb568717b2b",
+  "limit_rule_input": {
+    "kind": "single_table",
+    "path": "C:\\Users\\22241\\Desktop\\quant\\direction1_structure_research\\full_history_signal_code\\synthetic_io\\inputs\\daily_limit_rates.parquet",
+    "sha256": "7a9b53b061c4bcb8e45f58e17cd9c08c6e424b1376d54199d230fc7228bebc06"
+  },
+  "no_retirement_or_current_status_filter": true,
+  "no_hardcoded_ST_rate": true,
+  "no_account_or_return_labels": true,
+  "missing_evidence_never_assumed_false": true
+}

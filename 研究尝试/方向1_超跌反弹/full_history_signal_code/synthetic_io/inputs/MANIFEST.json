@@ -1,0 +1,33 @@
+{
+  "cutoff": "2024-12-31",
+  "universe": "universe.parquet",
+  "calendar": "calendar.parquet",
+  "quote_manifest": "QUOTE_MANIFEST.json",
+  "daily_limit_rates": "daily_limit_rates.parquet",
+  "files": [
+    {
+      "path": "raw/000001.parquet",
+      "sha256": "a37b54e0b0f15805d43d66180ae9465630ec45085a0ced709bc0bd077caa032d"
+    },
+    {
+      "path": "qfq/000001.parquet",
+      "sha256": "a37b54e0b0f15805d43d66180ae9465630ec45085a0ced709bc0bd077caa032d"
+    },
+    {
+      "path": "universe.parquet",
+      "sha256": "934fbb854e2010bdefbae240a9af541648eb0db728493be199723b6fb92dbe42"
+    },
+    {
+      "path": "calendar.parquet",
+      "sha256": "52c53324fc16aaabf35a36aa95762c673e7c047defdfd635ad162f2934ce1bf8"
+    },
+    {
+      "path": "daily_limit_rates.parquet",
+      "sha256": "7a9b53b061c4bcb8e45f58e17cd9c08c6e424b1376d54199d230fc7228bebc06"
+    },
+    {
+      "path": "QUOTE_MANIFEST.json",
+      "sha256": "a54b28b01e4751bf84f071b37790ae1371a286c5eda22eed76802f9436672023"
+    }
+  ]
+}

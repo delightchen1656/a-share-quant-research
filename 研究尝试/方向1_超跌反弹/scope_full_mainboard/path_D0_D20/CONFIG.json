@@ -1,0 +1,30 @@
+{
+  "prices": {
+    "root": "C:\\Users\\22241\\Desktop\\quant\\研究尝试/方向1_超跌反弹\\inputs_pre2025\\full_mainboard",
+    "manifest_sha256": "8d1c78aa55e7667462a95fa3a8e87fd4b14af4075a1b3e2d14ca713503d9f7c3"
+  },
+  "actions": {
+    "root": "C:\\Users\\22241\\Desktop\\quant\\研究尝试/方向1_超跌反弹\\inputs_pre2025\\full_mainboard_path_actions",
+    "manifest_sha256": "e71ea2f44336d6c5f6a6c88a25294d28a9a54a1849edaa9d6eb43d931fb1d559"
+  },
+  "cohort": {
+    "path": "C:\\Users\\22241\\Desktop\\quant\\研究尝试/方向1_超跌反弹\\scope_full_mainboard\\path_D0_D20\\COHORT_WITH_ID.csv",
+    "sha256": "2c1bf2ccbd1f39d09f8c4149e36736012654c50ccaa65c4790eac6319bbae7e7",
+    "expected_rows": 3805,
+    "columns": {
+      "id": "signal_id",
+      "code": "code",
+      "signal_date": "signal_date",
+      "entry_date": "entry_date",
+      "entry_raw_open": "next_raw_open",
+      "next_valid_open": "next_valid_open",
+      "next_state": "next_state"
+    }
+  },
+  "output_dir": "C:\\Users\\22241\\Desktop\\quant\\研究尝试/方向1_超跌反弹\\scope_full_mainboard\\path_D0_D20",
+  "horizon": 20,
+  "event_filename": "all_event_paths.csv",
+  "analysis_type": "fixed_cohort_qfq_price_path_not_account",
+  "protocol_sha256": "c56f14da83dfd1a2621328432c01778f575b14b01bf5ea786e93cb403a4e30c0",
+  "original_source_cohort_sha256": "70ea8125a426c3d7a54aa39fcbe01e5bc1f71c6190e17fbd346bdf76b41843f7"
+}

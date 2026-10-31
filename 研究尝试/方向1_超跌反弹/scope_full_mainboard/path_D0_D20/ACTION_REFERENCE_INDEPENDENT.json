@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "event_action_reference_checks": 158,
+  "distinct_issuer_ex_dates": 157,
+  "source_quote_files": 300,
+  "cross_entry_event_records": 156,
+  "entry_day_action_records": 2,
+  "errors": [],
+  "price_reference_and_required_date_check_only": true,
+  "not_cashflow_or_economic_account": true,
+  "targeted_partial_evidence_not_claimed_exhaustive": true
+}

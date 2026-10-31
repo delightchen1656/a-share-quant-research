@@ -1,0 +1,152 @@
+{
+  "symbol": "002219.SZ",
+  "event_date": "2022-06-23",
+  "kind": "unknown_reference",
+  "start": "2022-05-07",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\query_01.json",
+      "sha256": "24bccd3a984ab9e48bf939938274cf3402f16eaaa50b2f6811f704cac07ade59",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "002219",
+        "begin_time": "2022-05-07",
+        "end_time": "2022-06-23"
+      }
+    }
+  ],
+  "announcement_count": 34,
+  "documents": [
+    {
+      "title": "*ST恒康:关于公司资本公积金转增股票实施进展暨公司股票复牌的提示性公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2022-06-23",
+      "raw_response": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206221573966185_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206221573966185.txt",
+      "sha256": "4155a9ee326257cdea0d5379ea0e85819e6ea64341ae15620f4e4b64ee0034fc",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206221573966185_content.json",
+          "sha256": "4155a9ee326257cdea0d5379ea0e85819e6ea64341ae15620f4e4b64ee0034fc"
+        }
+      ],
+      "article_code": "AN202206221573966185",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202206221573966185_1.pdf?1655922589000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    },
+    {
+      "title": "*ST恒康:四川明炬(龙泉驿)律师事务所关于恒康医疗集团股份有限公司破产重整资本公积金转增股本调整除权参考价格计算结果之法律意见书",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2022-06-22",
+      "raw_response": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206211573714888_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206211573714888.txt",
+      "sha256": "52e656a88f108057278d04230523327eb3de6c3da787ccec74074f723e82201b",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206211573714888_content.json",
+          "sha256": "52e656a88f108057278d04230523327eb3de6c3da787ccec74074f723e82201b"
+        }
+      ],
+      "article_code": "AN202206211573714888",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202206211573714888_1.pdf?1655831864000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    },
+    {
+      "title": "*ST恒康:关于重整计划资本公积金转增股票除权事项的提示性公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2022-06-22",
+      "raw_response": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206211573714885_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206211573714885.txt",
+      "sha256": "5a718b311dbe730e5a8b55ce65c4efcd616488990207b4d07b7e756d71b3fb94",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206211573714885_content.json",
+          "sha256": "5a718b311dbe730e5a8b55ce65c4efcd616488990207b4d07b7e756d71b3fb94"
+        }
+      ],
+      "article_code": "AN202206211573714885",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202206211573714885_1.pdf?1655831864000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    },
+    {
+      "title": "*ST恒康:天风证券股份有限公司关于恒康医疗集团股份有限公司调整资本公积转增股本除权参考价格的计算结果的专项意见",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2022-06-22",
+      "raw_response": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206211573714534_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206211573714534.txt",
+      "sha256": "07c424ed75a0e41028d05fbca3452725057d1427c4d8a9de7ca21c366e4720de",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206211573714534_content.json",
+          "sha256": "07c424ed75a0e41028d05fbca3452725057d1427c4d8a9de7ca21c366e4720de"
+        }
+      ],
+      "article_code": "AN202206211573714534",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202206211573714534_1.pdf?1655831784000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    },
+    {
+      "title": "*ST恒康:关于恒康医疗调整除权参考价格计算公式之法律意见书",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2022-06-17",
+      "raw_response": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206161572572602_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206161572572602.txt",
+      "sha256": "0c99d39ced08196b77428a85922a51d6e87892b717f8de2d7623a420154f00ed",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206161572572602_content.json",
+          "sha256": "0c99d39ced08196b77428a85922a51d6e87892b717f8de2d7623a420154f00ed"
+        }
+      ],
+      "article_code": "AN202206161572572602",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202206161572572602_1.pdf?1655408112000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    },
+    {
+      "title": "*ST恒康:天风证券股份有限公司关于恒康医疗集团股份有限公司调整资本公积转增股本除权参考价格的计算公式的专项意见",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2022-06-17",
+      "raw_response": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206161572572598_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206161572572598.txt",
+      "sha256": "6934173a3b790cc5c60e93b08017d274a6c81c6ebd5d4d6eb3cc255cb96c608f",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206161572572598_content.json",
+          "sha256": "6934173a3b790cc5c60e93b08017d274a6c81c6ebd5d4d6eb3cc255cb96c608f"
+        }
+      ],
+      "article_code": "AN202206161572572598",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202206161572572598_1.pdf?1655408112000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    },
+    {
+      "title": "*ST恒康:关于重整计划资本公积金转增股票事项拟实施的公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2022-06-17",
+      "raw_response": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206161572572593_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206161572572593.txt",
+      "sha256": "cfb4c94fa4d30eaccbfb1dd9dbf3232be6652437754fdf8fac9d6ece157001f7",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206161572572593_content.json",
+          "sha256": "cfb4c94fa4d30eaccbfb1dd9dbf3232be6652437754fdf8fac9d6ece157001f7"
+        }
+      ],
+      "article_code": "AN202206161572572593",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202206161572572593_1.pdf?1655408112000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

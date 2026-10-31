@@ -1,0 +1,62 @@
+{
+  "symbol": "002852.SZ",
+  "event_date": "2019-05-22",
+  "kind": "dividend_fields",
+  "start": "2019-03-03",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\002852.SZ_2019-05-22\\query_01.json",
+      "sha256": "6eae38bcad8a9e2f272d7fd5d8e6b418d7fe0256835795600396f5e27577aca4",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "002852",
+        "begin_time": "2019-03-03",
+        "end_time": "2019-05-22"
+      }
+    }
+  ],
+  "announcement_count": 70,
+  "documents": [
+    {
+      "title": "道道全:2018年年度权益分派实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2019-05-16",
+      "raw_response": "sources\\action_issuer_mirror_v2\\002852.SZ_2019-05-22\\AN201905151330186822_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\002852.SZ_2019-05-22\\AN201905151330186822.txt",
+      "sha256": "9b36acd2297eb195524fae61d44a53d588bae08f97fb5d875ba919480973eccf",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\002852.SZ_2019-05-22\\AN201905151330186822_content.json",
+          "sha256": "9b36acd2297eb195524fae61d44a53d588bae08f97fb5d875ba919480973eccf"
+        }
+      ],
+      "article_code": "AN201905151330186822",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201905151330186822_1.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    },
+    {
+      "title": "道道全:关于2018年度权益分派实施后公司股票除权除息的计算原则及方式的说明",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2019-05-16",
+      "raw_response": "sources\\action_issuer_mirror_v2\\002852.SZ_2019-05-22\\AN201905151330186823_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\002852.SZ_2019-05-22\\AN201905151330186823.txt",
+      "sha256": "5395a0b9431dc5e359222a701eda9896529a2082bd69bd9d48d5d21cfe9c3e63",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\002852.SZ_2019-05-22\\AN201905151330186823_content.json",
+          "sha256": "5395a0b9431dc5e359222a701eda9896529a2082bd69bd9d48d5d21cfe9c3e63"
+        }
+      ],
+      "article_code": "AN201905151330186823",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201905151330186823_1.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

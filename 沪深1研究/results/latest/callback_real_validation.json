@@ -1,0 +1,20 @@
+{
+  "days": 70,
+  "symbols": 180,
+  "scenario": "local real 180-symbol subset; mocked execution",
+  "all_daily_ranks_targets_orders_positions_cash_equal": true,
+  "all_other_functions_AST_equal": true,
+  "old": {
+    "history_calls": 140,
+    "returned_rows": 107460,
+    "universe_calls": 74,
+    "local_seconds": 16.901418599591125
+  },
+  "fast": {
+    "history_calls": 75,
+    "returned_rows": 76058,
+    "universe_calls": 21,
+    "local_seconds": 5.659347400302067
+  },
+  "platform_runtime_measured": false
+}

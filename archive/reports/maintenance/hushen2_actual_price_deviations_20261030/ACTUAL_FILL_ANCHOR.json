@@ -1,0 +1,118 @@
+{
+  "basis": "actual buy average anchored take/stop; reasons inferred by nearest target; excludes fees",
+  "summary": {
+    "count": 8,
+    "simple_mean_adverse_pct": 0.4999215960007325,
+    "weighted_adverse_pct": 0.5699862322166136,
+    "net_adverse_amount": 62.100000000000044,
+    "ex_north_simple_mean": 0.0705482446650458,
+    "ex_north_weighted": 0.05502211673319876
+  },
+  "rows": [
+    {
+      "symbol": "600939.SH",
+      "name": "重庆建工",
+      "date": "2026-10-22",
+      "average_buy": 2.49,
+      "reference": 2.85,
+      "reason_inferred": "take",
+      "fill": 2.84,
+      "quantity": 400,
+      "adverse_pct": 0.35087719298246833,
+      "adverse_amount": 4.000000000000092,
+      "ref_notional": 1140.0
+    },
+    {
+      "symbol": "600405.SH",
+      "name": "动力源",
+      "date": "2026-10-23",
+      "average_buy": 4.32,
+      "reference": 4.07,
+      "reason_inferred": "stop",
+      "fill": 4.06,
+      "quantity": 200,
+      "adverse_pct": 0.24570024570026439,
+      "adverse_amount": 2.000000000000135,
+      "ref_notional": 814.0
+    },
+    {
+      "symbol": "600533.SH",
+      "name": "栖霞建设",
+      "date": "2026-10-23",
+      "average_buy": 2.05,
+      "reference": 1.91,
+      "reason_inferred": "stop",
+      "fill": 1.91,
+      "quantity": 900,
+      "adverse_pct": 0.0,
+      "adverse_amount": 0.0,
+      "ref_notional": 1719.0
+    },
+    {
+      "symbol": "002374.SZ",
+      "name": "中锐股份",
+      "date": "2026-10-23",
+      "average_buy": 3.1,
+      "reference": 2.92,
+      "reason_inferred": "stop",
+      "fill": 2.923,
+      "quantity": 300,
+      "adverse_pct": -0.1027397260274121,
+      "adverse_amount": -0.9000000000000341,
+      "ref_notional": 876.0
+    },
+    {
+      "symbol": "600807.SH",
+      "name": "济高发展",
+      "date": "2026-10-23",
+      "average_buy": 2.51,
+      "reference": 2.34,
+      "reason_inferred": "stop",
+      "fill": 2.34,
+      "quantity": 700,
+      "adverse_pct": 0.0,
+      "adverse_amount": 0.0,
+      "ref_notional": 1638.0
+    },
+    {
+      "symbol": "000570.SZ",
+      "name": "苏常柴A",
+      "date": "2026-10-27",
+      "average_buy": 5.68,
+      "reference": 5.34,
+      "reason_inferred": "stop",
+      "fill": 5.34,
+      "quantity": 300,
+      "adverse_pct": 0.0,
+      "adverse_amount": 0.0,
+      "ref_notional": 1602.0
+    },
+    {
+      "symbol": "000788.SZ",
+      "name": "北大医药",
+      "date": "2026-10-28",
+      "average_buy": 5.82,
+      "reference": 5.42,
+      "reason_inferred": "stop",
+      "fill": 5.23,
+      "quantity": 300,
+      "adverse_pct": 3.5055350553505393,
+      "adverse_amount": 56.99999999999985,
+      "ref_notional": 1626.0
+    },
+    {
+      "symbol": "002767.SZ",
+      "name": "先锋电子",
+      "date": "2026-10-30",
+      "average_buy": 16.0,
+      "reference": 14.8,
+      "reason_inferred": "stop",
+      "fill": 14.8,
+      "quantity": 100,
+      "adverse_pct": 0.0,
+      "adverse_amount": 0.0,
+      "ref_notional": 1480.0
+    }
+  ],
+  "account_modified": false
+}

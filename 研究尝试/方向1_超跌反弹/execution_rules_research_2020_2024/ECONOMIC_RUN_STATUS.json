@@ -1,0 +1,702 @@
+{
+  "completed": [],
+  "blocked": [
+    {
+      "candidate": {
+        "id": "code_TP10_SL0_H10",
+        "rank": "code",
+        "tp": 0.1,
+        "sl": null,
+        "h": 10,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "code_TP10_SL0_H20",
+        "rank": "code",
+        "tp": 0.1,
+        "sl": null,
+        "h": 20,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "code_TP10_SL8_H10",
+        "rank": "code",
+        "tp": 0.1,
+        "sl": 0.08,
+        "h": 10,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "code_TP10_SL8_H20",
+        "rank": "code",
+        "tp": 0.1,
+        "sl": 0.08,
+        "h": 20,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "code_TP10_SL12_H10",
+        "rank": "code",
+        "tp": 0.1,
+        "sl": 0.12,
+        "h": 10,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "code_TP10_SL12_H20",
+        "rank": "code",
+        "tp": 0.1,
+        "sl": 0.12,
+        "h": 20,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "code_TP15_SL0_H10",
+        "rank": "code",
+        "tp": 0.15,
+        "sl": null,
+        "h": 10,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "code_TP15_SL0_H20",
+        "rank": "code",
+        "tp": 0.15,
+        "sl": null,
+        "h": 20,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "code_TP15_SL8_H10",
+        "rank": "code",
+        "tp": 0.15,
+        "sl": 0.08,
+        "h": 10,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "code_TP15_SL8_H20",
+        "rank": "code",
+        "tp": 0.15,
+        "sl": 0.08,
+        "h": 20,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "code_TP15_SL12_H10",
+        "rank": "code",
+        "tp": 0.15,
+        "sl": 0.12,
+        "h": 10,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "code_TP15_SL12_H20",
+        "rank": "code",
+        "tp": 0.15,
+        "sl": 0.12,
+        "h": 20,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "code_TP20_SL0_H10",
+        "rank": "code",
+        "tp": 0.2,
+        "sl": null,
+        "h": 10,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "code_TP20_SL0_H20",
+        "rank": "code",
+        "tp": 0.2,
+        "sl": null,
+        "h": 20,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "code_TP20_SL8_H10",
+        "rank": "code",
+        "tp": 0.2,
+        "sl": 0.08,
+        "h": 10,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "code_TP20_SL8_H20",
+        "rank": "code",
+        "tp": 0.2,
+        "sl": 0.08,
+        "h": 20,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "code_TP20_SL12_H10",
+        "rank": "code",
+        "tp": 0.2,
+        "sl": 0.12,
+        "h": 10,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "code_TP20_SL12_H20",
+        "rank": "code",
+        "tp": 0.2,
+        "sl": 0.12,
+        "h": 20,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP10_SL0_H10",
+        "rank": "liquid",
+        "tp": 0.1,
+        "sl": null,
+        "h": 10,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP10_SL0_H20",
+        "rank": "liquid",
+        "tp": 0.1,
+        "sl": null,
+        "h": 20,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP10_SL8_H10",
+        "rank": "liquid",
+        "tp": 0.1,
+        "sl": 0.08,
+        "h": 10,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP10_SL8_H20",
+        "rank": "liquid",
+        "tp": 0.1,
+        "sl": 0.08,
+        "h": 20,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP10_SL12_H10",
+        "rank": "liquid",
+        "tp": 0.1,
+        "sl": 0.12,
+        "h": 10,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP10_SL12_H20",
+        "rank": "liquid",
+        "tp": 0.1,
+        "sl": 0.12,
+        "h": 20,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP15_SL0_H10",
+        "rank": "liquid",
+        "tp": 0.15,
+        "sl": null,
+        "h": 10,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP15_SL0_H20",
+        "rank": "liquid",
+        "tp": 0.15,
+        "sl": null,
+        "h": 20,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP15_SL8_H10",
+        "rank": "liquid",
+        "tp": 0.15,
+        "sl": 0.08,
+        "h": 10,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP15_SL8_H20",
+        "rank": "liquid",
+        "tp": 0.15,
+        "sl": 0.08,
+        "h": 20,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP15_SL12_H10",
+        "rank": "liquid",
+        "tp": 0.15,
+        "sl": 0.12,
+        "h": 10,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP15_SL12_H20",
+        "rank": "liquid",
+        "tp": 0.15,
+        "sl": 0.12,
+        "h": 20,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP20_SL0_H10",
+        "rank": "liquid",
+        "tp": 0.2,
+        "sl": null,
+        "h": 10,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP20_SL0_H20",
+        "rank": "liquid",
+        "tp": 0.2,
+        "sl": null,
+        "h": 20,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP20_SL8_H10",
+        "rank": "liquid",
+        "tp": 0.2,
+        "sl": 0.08,
+        "h": 10,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP20_SL8_H20",
+        "rank": "liquid",
+        "tp": 0.2,
+        "sl": 0.08,
+        "h": 20,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP20_SL12_H10",
+        "rank": "liquid",
+        "tp": 0.2,
+        "sl": 0.12,
+        "h": 10,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP20_SL12_H20",
+        "rank": "liquid",
+        "tp": 0.2,
+        "sl": 0.12,
+        "h": 20,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "deep_TP10_SL0_H10",
+        "rank": "deep",
+        "tp": 0.1,
+        "sl": null,
+        "h": 10,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "deep_TP10_SL0_H20",
+        "rank": "deep",
+        "tp": 0.1,
+        "sl": null,
+        "h": 20,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "deep_TP10_SL8_H10",
+        "rank": "deep",
+        "tp": 0.1,
+        "sl": 0.08,
+        "h": 10,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "deep_TP10_SL8_H20",
+        "rank": "deep",
+        "tp": 0.1,
+        "sl": 0.08,
+        "h": 20,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "deep_TP10_SL12_H10",
+        "rank": "deep",
+        "tp": 0.1,
+        "sl": 0.12,
+        "h": 10,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "deep_TP10_SL12_H20",
+        "rank": "deep",
+        "tp": 0.1,
+        "sl": 0.12,
+        "h": 20,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "deep_TP15_SL0_H10",
+        "rank": "deep",
+        "tp": 0.15,
+        "sl": null,
+        "h": 10,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "deep_TP15_SL0_H20",
+        "rank": "deep",
+        "tp": 0.15,
+        "sl": null,
+        "h": 20,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "deep_TP15_SL8_H10",
+        "rank": "deep",
+        "tp": 0.15,
+        "sl": 0.08,
+        "h": 10,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "deep_TP15_SL8_H20",
+        "rank": "deep",
+        "tp": 0.15,
+        "sl": 0.08,
+        "h": 20,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "deep_TP15_SL12_H10",
+        "rank": "deep",
+        "tp": 0.15,
+        "sl": 0.12,
+        "h": 10,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "deep_TP15_SL12_H20",
+        "rank": "deep",
+        "tp": 0.15,
+        "sl": 0.12,
+        "h": 20,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "deep_TP20_SL0_H10",
+        "rank": "deep",
+        "tp": 0.2,
+        "sl": null,
+        "h": 10,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "deep_TP20_SL0_H20",
+        "rank": "deep",
+        "tp": 0.2,
+        "sl": null,
+        "h": 20,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "deep_TP20_SL8_H10",
+        "rank": "deep",
+        "tp": 0.2,
+        "sl": 0.08,
+        "h": 10,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "deep_TP20_SL8_H20",
+        "rank": "deep",
+        "tp": 0.2,
+        "sl": 0.08,
+        "h": 20,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "deep_TP20_SL12_H10",
+        "rank": "deep",
+        "tp": 0.2,
+        "sl": 0.12,
+        "h": 10,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "deep_TP20_SL12_H20",
+        "rank": "deep",
+        "tp": 0.2,
+        "sl": 0.12,
+        "h": 20,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "code_TP20_TRAIL12_H20",
+        "rank": "code",
+        "tp": 0.2,
+        "sl": 0.12,
+        "h": 20,
+        "trail": true
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP20_TRAIL12_H20",
+        "rank": "liquid",
+        "tp": 0.2,
+        "sl": 0.12,
+        "h": 20,
+        "trail": true
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "deep_TP20_TRAIL12_H20",
+        "rank": "deep",
+        "tp": 0.2,
+        "sl": 0.12,
+        "h": 20,
+        "trail": true
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    },
+    {
+      "candidate": {
+        "id": "code_TP8_SL0_H3_PRIOR_BASELINE",
+        "rank": "code",
+        "tp": 0.08,
+        "sl": null,
+        "h": 3,
+        "trail": false
+      },
+      "reason": "Unknown quote/status gap 600485 2021-06-02",
+      "details": {}
+    }
+  ],
+  "unscheduled_actions": 0
+}

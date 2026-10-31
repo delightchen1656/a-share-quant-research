@@ -8,90 +8,90 @@ ROOT = Path(__file__).resolve().parents[1]
 
 CURRENT_REQUIRED = [
     ROOT / "README.md",
-    ROOT / "strategies/README.md",
-    ROOT / "strategies/kechuang/README.md",
-    ROOT / "strategies/kechuang/supermind_kechuang_1.py",
-    ROOT / "strategies/kechuang/backtest/run.py",
-    ROOT / "strategies/kechuang/backtest/engine.py",
-    ROOT / "strategies/kechuang/backtest/data/corporate_actions.json",
-    ROOT / "strategies/kechuang/backtest/data/snapshot_20260930/manifest.json",
-    ROOT / "strategies/kechuang/research/provenance.json",
-    ROOT / "strategies/kechuang/research/reference_metrics.json",
-    ROOT / "strategies/kechuang/results/latest/verification.json",
-    ROOT / "strategies/hushen/README.md",
-    ROOT / "strategies/hushen/supermind_hushen_1.py",
-    ROOT / "strategies/hushen/backtest/run.py",
-    ROOT / "strategies/hushen/backtest/engine.py",
-    ROOT / "strategies/hushen/backtest/data/benchmark.parquet",
-    ROOT / "strategies/hushen/backtest/data/actions_merged.json",
-    ROOT / "strategies/hushen/research/migration.json",
-    ROOT / "strategies/hushen/results/latest/migration_validation.json",
-    ROOT / "strategies/hushen/results/platform_20261009/fee_patch_validation.json",
-    ROOT / "strategies/hushen_2/README.md",
-    ROOT / "strategies/hushen_2/CURRENT_SELECTION.json",
-    ROOT / "strategies/hushen_2/runtime/strategy.py",
-    ROOT / "strategies/hushen_2/runtime/frozen_builder.py",
-    ROOT / "strategies/hushen_2/runtime/EQUIVALENCE.json",
-    ROOT / "strategies/hushen_2/runtime/verify.py",
-    ROOT / "strategies/hushen_2/backtest/compute_risk_metrics.py",
-    ROOT / "strategies/hushen_2/model/utility.txt",
-    ROOT / "strategies/hushen_2/model/pen025.txt",
-    ROOT / "strategies/hushen_2/model/pen100.txt",
-    ROOT / "strategies/hushen_2/model/manifest.json",
-    ROOT / "strategies/hushen_2/model/VERIFICATION.json",
-    ROOT / "strategies/hushen_2/model/END_TO_END_VERIFICATION.json",
-    ROOT / "strategies/hushen_2/results/PERFORMANCE_SUMMARY.csv",
-    ROOT / "strategies/hushen_2/results/RISK_SUMMARY.json",
-    ROOT / "strategies/hushen_2/results/RISK_METRICS_2020Q1_STARTS_TO_20261019.csv",
-    ROOT / "strategies/hushen_2/results/EQUITY_CURVES_2020Q1_STARTS_TO_20261019.parquet",
-    ROOT / "沪深2_星轨软件/README.md",
-    ROOT / "沪深2_星轨软件/CURRENT_SELECTION.json",
-    ROOT / "沪深2_星轨软件/verify_package.py",
-    ROOT / "沪深2_星轨软件/tracker/app.py",
-    ROOT / "沪深2_星轨软件/tracker/market.py",
-    ROOT / "沪深2_星轨软件/tracker/test_ledger.py",
-    ROOT / "沪深2_星轨软件/tracker/test_pipeline.py",
-    ROOT / "沪深2_星轨软件/tracker/smoke_integration.py",
-    ROOT / "沪深2_K线练习/README.md",
-    ROOT / "沪深2_K线练习/PACKAGE_MANIFEST.json",
-    ROOT / "沪深2_K线练习/verify_package.py",
-    ROOT / "沪深2_K线练习/runtime/baseline_fixed_ioc.py",
-    ROOT / "沪深2_K线练习/runtime/run_batch.py",
+    ROOT / "archive/legacy_layout/strategies/README.md",
+    ROOT / "科创1研究/README.md",
+    ROOT / "科创1研究/supermind_kechuang_1.py",
+    ROOT / "科创1研究/backtest/run.py",
+    ROOT / "科创1研究/backtest/engine.py",
+    ROOT / "科创1研究/backtest/data/corporate_actions.json",
+    ROOT / "科创1研究/backtest/data/snapshot_20260930/manifest.json",
+    ROOT / "科创1研究/research/provenance.json",
+    ROOT / "科创1研究/research/reference_metrics.json",
+    ROOT / "科创1研究/results/latest/verification.json",
+    ROOT / "沪深1研究/README.md",
+    ROOT / "沪深1研究/supermind_hushen_1.py",
+    ROOT / "沪深1研究/backtest/run.py",
+    ROOT / "沪深1研究/backtest/engine.py",
+    ROOT / "沪深1研究/backtest/data/benchmark.parquet",
+    ROOT / "沪深1研究/backtest/data/actions_merged.json",
+    ROOT / "沪深1研究/research/migration.json",
+    ROOT / "沪深1研究/results/latest/migration_validation.json",
+    ROOT / "沪深1研究/results/platform_20261009/fee_patch_validation.json",
+    ROOT / "沪深2研究/README.md",
+    ROOT / "沪深2研究/CURRENT_SELECTION.json",
+    ROOT / "沪深2研究/runtime/strategy.py",
+    ROOT / "沪深2研究/runtime/frozen_builder.py",
+    ROOT / "沪深2研究/runtime/EQUIVALENCE.json",
+    ROOT / "沪深2研究/runtime/verify.py",
+    ROOT / "沪深2研究/backtest/compute_risk_metrics.py",
+    ROOT / "沪深2研究/model/utility.txt",
+    ROOT / "沪深2研究/model/pen025.txt",
+    ROOT / "沪深2研究/model/pen100.txt",
+    ROOT / "沪深2研究/model/manifest.json",
+    ROOT / "沪深2研究/model/VERIFICATION.json",
+    ROOT / "沪深2研究/model/END_TO_END_VERIFICATION.json",
+    ROOT / "沪深2研究/results/PERFORMANCE_SUMMARY.csv",
+    ROOT / "沪深2研究/results/RISK_SUMMARY.json",
+    ROOT / "沪深2研究/results/RISK_METRICS_2020Q1_STARTS_TO_20261019.csv",
+    ROOT / "沪深2研究/results/EQUITY_CURVES_2020Q1_STARTS_TO_20261019.parquet",
+    ROOT / "沪深实盘工作台/README.md",
+    ROOT / "沪深实盘工作台/CURRENT_SELECTION.json",
+    ROOT / "沪深实盘工作台/verify_package.py",
+    ROOT / "沪深实盘工作台/tracker/app.py",
+    ROOT / "沪深实盘工作台/tracker/market.py",
+    ROOT / "沪深实盘工作台/tracker/test_ledger.py",
+    ROOT / "沪深实盘工作台/tracker/test_pipeline.py",
+    ROOT / "沪深实盘工作台/tracker/smoke_integration.py",
+    ROOT / "沪深2研究/K线练习/README.md",
+    ROOT / "沪深2研究/K线练习/PACKAGE_MANIFEST.json",
+    ROOT / "沪深2研究/K线练习/verify_package.py",
+    ROOT / "沪深2研究/K线练习/runtime/baseline_fixed_ioc.py",
+    ROOT / "沪深2研究/K线练习/runtime/run_batch.py",
     ROOT / "archive/kechuang/20261009_manifest_before.json",
     ROOT / "archive/kechuang/20261009_manifest_after_cache_cleanup.json",
     ROOT / "archive/kechuang/20261009_cache_cleanup.json",
     ROOT / "archive/hushen/INDEX.md",
     ROOT / "archive/hushen_2/README.md",
-    ROOT / "research_versions/README.md",
-    ROOT / "evening_accumulation/data/metadata/refresh_20261004.json",
-    ROOT / "sh_sz_market_research/data_pipeline/data/metadata/refresh_20261004.json",
-    ROOT / "data_updates/20261004/audit.json",
+    ROOT / "archive/research_versions/README.md",
+    ROOT / "K线数据/科创/metadata/refresh_20261004.json",
+    ROOT / "K线数据/沪深/metadata/refresh_20261004.json",
+    ROOT / "K线数据/更新备份与审计/20261004/audit.json",
 ]
 
 EXPECTED_HASHES = {
-    "strategies/kechuang/supermind_kechuang_1.py":
+    "科创1研究/supermind_kechuang_1.py":
         "3c4a5b41691b431b0a419900382c4e9cd47e11ee9b6c163f9d80a863134f1d8e",
-    "strategies/hushen/supermind_hushen_1.py":
+    "沪深1研究/supermind_hushen_1.py":
         "a573941eb69f850536288ba5ce4333d943c2eb4862e7f3a518e46dd55cc653fd",
-    "strategies/kechuang/research/training_source/model_artifacts/event_model.joblib":
+    "科创1研究/research/training_source/model_artifacts/event_model.joblib":
         "1f87270f6a8506df79f06b38cacfee6c163dfc20f9eb8ae424c2397d816b0fd4",
-    "strategies/kechuang/research/training_source/model_artifacts/stop_risk_model.joblib":
+    "科创1研究/research/training_source/model_artifacts/stop_risk_model.joblib":
         "0cf8fbc48dd6eda524a54ddd14082f44a0b787498983d501160a2fe8f51709d9",
-    "strategies/hushen/backtest/data/benchmark.parquet":
+    "沪深1研究/backtest/data/benchmark.parquet":
         "36674be3b57ca5dd84bc30b4a3f9b4f25af812e36ca7f2a68f24a38c81cc12df",
-    "strategies/hushen/backtest/data/actions_merged.json":
+    "沪深1研究/backtest/data/actions_merged.json":
         "ef8cff49ed6f2fb86c6a4f06fc304bc0afc0932979921b6068a32c6f59700d8d",
 }
 
 HUSHEN2_HASH_PATHS = {
-    "runtime_strategy_py": "strategies/hushen_2/runtime/strategy.py",
-    "frozen_builder_source": "strategies/hushen_2/runtime/frozen_builder.py",
-    "risk_runner_py": "strategies/hushen_2/backtest/compute_risk_metrics.py",
-    "performance_summary_csv": "strategies/hushen_2/results/PERFORMANCE_SUMMARY.csv",
-    "risk_summary_json": "strategies/hushen_2/results/RISK_SUMMARY.json",
-    "risk_metrics_csv": "strategies/hushen_2/results/RISK_METRICS_2020Q1_STARTS_TO_20261019.csv",
-    "equity_curves_parquet": "strategies/hushen_2/results/EQUITY_CURVES_2020Q1_STARTS_TO_20261019.parquet",
-    "equivalence_json": "strategies/hushen_2/runtime/EQUIVALENCE.json",
+    "runtime_strategy_py": "沪深2研究/runtime/strategy.py",
+    "frozen_builder_source": "沪深2研究/runtime/frozen_builder.py",
+    "risk_runner_py": "沪深2研究/backtest/compute_risk_metrics.py",
+    "performance_summary_csv": "沪深2研究/results/PERFORMANCE_SUMMARY.csv",
+    "risk_summary_json": "沪深2研究/results/RISK_SUMMARY.json",
+    "risk_metrics_csv": "沪深2研究/results/RISK_METRICS_2020Q1_STARTS_TO_20261019.csv",
+    "equity_curves_parquet": "沪深2研究/results/EQUITY_CURVES_2020Q1_STARTS_TO_20261019.parquet",
+    "equivalence_json": "沪深2研究/runtime/EQUIVALENCE.json",
 }
 
 CURRENT_RESEARCH_DIRECTIONS = [
@@ -144,14 +144,14 @@ def main() -> None:
         elif sha256(path) != expected:
             errors.append(f"hash mismatch: {relative}")
 
-    snapshot_root = ROOT / "strategies/kechuang/backtest/data/snapshot_20260930"
+    snapshot_root = ROOT / "科创1研究/backtest/data/snapshot_20260930"
     snapshot_manifest = load_json(snapshot_root / "manifest.json")
     if len(snapshot_manifest) != 1240:
         errors.append(f"Kechuang snapshot expected 1240 files, found {len(snapshot_manifest)}")
     snapshot_rows = [{"path": path, "sha256": item["sha256"]} for path, item in snapshot_manifest.items()]
     verify_manifest(snapshot_root, snapshot_rows, True, errors)
 
-    kechuang_validation = load_json(ROOT / "strategies/kechuang/results/latest/verification.json")
+    kechuang_validation = load_json(ROOT / "科创1研究/results/latest/verification.json")
     expected_validation = {
         "runs": 14,
         "reference_parity": True,
@@ -162,11 +162,11 @@ def main() -> None:
     if kechuang_validation != expected_validation:
         errors.append("Kechuang migration verification no longer matches the frozen result")
 
-    migration = load_json(ROOT / "strategies/hushen/research/migration.json")
-    if migration.get("entry_sha256") != EXPECTED_HASHES["strategies/hushen/supermind_hushen_1.py"]:
+    migration = load_json(ROOT / "沪深1研究/research/migration.json")
+    if migration.get("entry_sha256") != EXPECTED_HASHES["沪深1研究/supermind_hushen_1.py"]:
         errors.append("Hushen migration metadata does not match the current entry")
 
-    hushen2 = load_json(ROOT / "strategies/hushen_2/CURRENT_SELECTION.json")
+    hushen2 = load_json(ROOT / "沪深2研究/CURRENT_SELECTION.json")
     if hushen2.get("strategy_name") != "沪深2" or hushen2.get("status") != "registered":
         errors.append("Hushen 2 is not the registered current selection")
     if hushen2.get("supermind_entry") is not None or hushen2.get("live_trading_authorized") is not False:
@@ -180,7 +180,7 @@ def main() -> None:
         elif not expected or sha256(path) != expected:
             errors.append(f"Hushen 2 hash mismatch: {name} ({relative})")
 
-    model_root = ROOT / "strategies/hushen_2/model"
+    model_root = ROOT / "沪深2研究/model"
     model_manifest = load_json(model_root / "manifest.json")
     model_verification = load_json(model_root / "VERIFICATION.json")
     for name in ("utility", "pen025", "pen100"):
@@ -236,7 +236,7 @@ def main() -> None:
     ):
         errors.append("Hushen 2 end-to-end verification evidence mismatch")
 
-    software_root = ROOT / "沪深2_星轨软件"
+    software_root = ROOT / "沪深实盘工作台"
     software_selection = load_json(software_root / "CURRENT_SELECTION.json")
     software_filter = software_selection.get("selection", {}).get("signal_filter")
     if software_filter != {
@@ -254,14 +254,14 @@ def main() -> None:
         errors.append("Hushen 2 software signal policy hash mismatch")
 
     for name in CURRENT_RESEARCH_DIRECTIONS:
-        directory = ROOT / "research_versions" / name
+        directory = ROOT / "archive/research_versions" / name
         if not directory.is_dir():
-            errors.append(f"missing research direction: research_versions/{name}")
+            errors.append(f"missing research direction: archive/research_versions/{name}")
             continue
         if len(list(directory.glob("*.md"))) != 1:
-            errors.append(f"research_versions/{name}: expected exactly one Markdown index")
+            errors.append(f"archive/research_versions/{name}: expected exactly one Markdown index")
         if not list(directory.glob("*.py")):
-            errors.append(f"research_versions/{name}: no retained source files")
+            errors.append(f"archive/research_versions/{name}: no retained source files")
 
     before_manifest = load_json(ROOT / "archive/kechuang/20261009_manifest_before.json")
     after_manifest = load_json(ROOT / "archive/kechuang/20261009_manifest_after_cache_cleanup.json")

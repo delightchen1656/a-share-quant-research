@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "all_in_cost_within_cash": true,
+    "cash_never_negative": true,
+    "integer_shares": true,
+    "open_limit_down_sell_blocked": true,
+    "open_limit_up_buy_blocked": true,
+    "simulated_shares_are_integer": true,
+    "star_minimum_and_unit": true,
+    "subminimum_buy_rejected": true,
+    "suspension_blocked": true,
+    "t_plus_one": true,
+    "zero_volume_blocked": true
+  },
+  "status": "passed"
+}

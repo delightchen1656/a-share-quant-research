@@ -1,0 +1,938 @@
+{
+  "B0": {
+    "minimum_year_median_excess": -0.1779454145351934,
+    "year_median_excess_std": 0.1742480204607525,
+    "mean_excess": 0.11525205266539498,
+    "minimum_cagr": -0.38908755579234267,
+    "mean_cagr": 0.13728787415436636,
+    "worst_drawdown": 0.4257384048406847,
+    "mean_sharpe": 0.57424951963321,
+    "mean_cost": 1796.518205128205,
+    "capacity_hits": 238,
+    "unresolved_delistings": 0,
+    "annual": [
+      {
+        "year": 2016,
+        "median_excess": 0.27747054071140487,
+        "mean_excess": 0.28907513251247824,
+        "median_cagr": 0.44074617384274895,
+        "minimum_cagr": -0.01173825243420179,
+        "starts": 59
+      },
+      {
+        "year": 2017,
+        "median_excess": -0.1779454145351934,
+        "mean_excess": -0.17136174048762182,
+        "median_cagr": -0.18452293754586013,
+        "minimum_cagr": -0.21185994351199278,
+        "starts": 59
+      },
+      {
+        "year": 2018,
+        "median_excess": -0.03662975003028801,
+        "mean_excess": -0.033793537907299706,
+        "median_cagr": -0.33258253022031126,
+        "minimum_cagr": -0.38908755579234267,
+        "starts": 59
+      },
+      {
+        "year": 2019,
+        "median_excess": 0.045870213819389716,
+        "mean_excess": 0.04512491207393655,
+        "median_cagr": 0.18273638299769135,
+        "minimum_cagr": 0.03138725989986546,
+        "starts": 58
+      },
+      {
+        "year": 2020,
+        "median_excess": 0.06631940127229807,
+        "mean_excess": 0.06911343881101635,
+        "median_cagr": 0.3169261941535253,
+        "minimum_cagr": 0.16944663387791992,
+        "starts": 58
+      },
+      {
+        "year": 2021,
+        "median_excess": 0.4141709020204477,
+        "mean_excess": 0.4250464121981675,
+        "median_cagr": 0.5366907866603083,
+        "minimum_cagr": 0.40991067490638433,
+        "starts": 58
+      },
+      {
+        "year": 2022,
+        "median_excess": 0.213052258181551,
+        "mean_excess": 0.21115025835634524,
+        "median_cagr": 0.12461459469423786,
+        "minimum_cagr": 0.06363362565794772,
+        "starts": 58
+      },
+      {
+        "year": 2023,
+        "median_excess": 0.07420978362792141,
+        "mean_excess": 0.09256708493186447,
+        "median_cagr": -0.014190183149550561,
+        "minimum_cagr": -0.07086005609575352,
+        "starts": 59
+      }
+    ]
+  },
+  "S01": {
+    "minimum_year_median_excess": -0.16923456559335248,
+    "year_median_excess_std": 0.21180070584558833,
+    "mean_excess": 0.13917980605121438,
+    "minimum_cagr": -0.43297581294364174,
+    "mean_cagr": 0.16686769669518153,
+    "worst_drawdown": 0.4883730573321019,
+    "mean_sharpe": 0.6233232984011405,
+    "mean_cost": 1791.979700854701,
+    "capacity_hits": 127,
+    "unresolved_delistings": 0,
+    "annual": [
+      {
+        "year": 2016,
+        "median_excess": 0.40798164241671286,
+        "mean_excess": 0.4158387414410421,
+        "median_cagr": 0.5802835239959174,
+        "minimum_cagr": 0.10765940410369845,
+        "starts": 59
+      },
+      {
+        "year": 2017,
+        "median_excess": -0.16923456559335248,
+        "mean_excess": -0.16815012792476322,
+        "median_cagr": -0.16897589223227394,
+        "minimum_cagr": -0.198865341511411,
+        "starts": 59
+      },
+      {
+        "year": 2018,
+        "median_excess": -0.08169335033546365,
+        "mean_excess": -0.08416715379063854,
+        "median_cagr": -0.38061737182010913,
+        "minimum_cagr": -0.43297581294364174,
+        "starts": 59
+      },
+      {
+        "year": 2019,
+        "median_excess": 0.06507401970308346,
+        "mean_excess": 0.07422752746818709,
+        "median_cagr": 0.22743673214748572,
+        "minimum_cagr": 0.05361954075796427,
+        "starts": 58
+      },
+      {
+        "year": 2020,
+        "median_excess": 0.02379880790436162,
+        "mean_excess": 0.02277315482561531,
+        "median_cagr": 0.26241230151642525,
+        "minimum_cagr": 0.10983656739632242,
+        "starts": 58
+      },
+      {
+        "year": 2021,
+        "median_excess": 0.4194706902626689,
+        "mean_excess": 0.42920476628720733,
+        "median_cagr": 0.5511750250579442,
+        "minimum_cagr": 0.37440581504415205,
+        "starts": 58
+      },
+      {
+        "year": 2022,
+        "median_excess": 0.3402268219248992,
+        "mean_excess": 0.3451756756318724,
+        "median_cagr": 0.2732800627315939,
+        "minimum_cagr": 0.19682105149260898,
+        "starts": 58
+      },
+      {
+        "year": 2023,
+        "median_excess": 0.06753492818275375,
+        "mean_excess": 0.08386911701370144,
+        "median_cagr": -0.025295945968847433,
+        "minimum_cagr": -0.058135877879992415,
+        "starts": 59
+      }
+    ]
+  },
+  "S02": {
+    "minimum_year_median_excess": -0.14340848944209617,
+    "year_median_excess_std": 0.12508619376828997,
+    "mean_excess": 0.052169798425411196,
+    "minimum_cagr": -0.47578540549088943,
+    "mean_cagr": 0.06275516255779051,
+    "worst_drawdown": 0.5014840556421556,
+    "mean_sharpe": 0.2880536016283961,
+    "mean_cost": 1782.3948290598291,
+    "capacity_hits": 60,
+    "unresolved_delistings": 0,
+    "annual": [
+      {
+        "year": 2016,
+        "median_excess": 0.23932508852953416,
+        "mean_excess": 0.25325963469629537,
+        "median_cagr": 0.38172360103533776,
+        "minimum_cagr": -0.0458466317668802,
+        "starts": 59
+      },
+      {
+        "year": 2017,
+        "median_excess": -0.09258682569450938,
+        "mean_excess": -0.09319907551428855,
+        "median_cagr": -0.06729862020608857,
+        "minimum_cagr": -0.1946444668666314,
+        "starts": 59
+      },
+      {
+        "year": 2018,
+        "median_excess": -0.14340848944209617,
+        "mean_excess": -0.13541820537711297,
+        "median_cagr": -0.431032393228141,
+        "minimum_cagr": -0.47578540549088943,
+        "starts": 59
+      },
+      {
+        "year": 2019,
+        "median_excess": -0.026891343023024983,
+        "mean_excess": -0.02261243934666957,
+        "median_cagr": 0.12189792673018685,
+        "minimum_cagr": -0.0921797366461874,
+        "starts": 58
+      },
+      {
+        "year": 2020,
+        "median_excess": 0.008631027301431615,
+        "mean_excess": 0.005240397478561045,
+        "median_cagr": 0.2394991816430243,
+        "minimum_cagr": 0.11344083845158215,
+        "starts": 58
+      },
+      {
+        "year": 2021,
+        "median_excess": 0.17331606004573796,
+        "mean_excess": 0.18764033384886347,
+        "median_cagr": 0.24647922921859977,
+        "minimum_cagr": 0.15167542815926893,
+        "starts": 58
+      },
+      {
+        "year": 2022,
+        "median_excess": 0.14363439807471684,
+        "mean_excess": 0.15697955882294837,
+        "median_cagr": 0.06171620129407707,
+        "minimum_cagr": 0.0025760905794067757,
+        "starts": 58
+      },
+      {
+        "year": 2023,
+        "median_excess": 0.06231589506484925,
+        "mean_excess": 0.06747782105065948,
+        "median_cagr": -0.038534790750221815,
+        "minimum_cagr": -0.07999461828325338,
+        "starts": 59
+      }
+    ]
+  },
+  "S03": {
+    "minimum_year_median_excess": -0.17108606177149543,
+    "year_median_excess_std": 0.17069792504714176,
+    "mean_excess": 0.10477043122324903,
+    "minimum_cagr": -0.5169321334891923,
+    "mean_cagr": 0.1261964400304712,
+    "worst_drawdown": 0.5186198980545041,
+    "mean_sharpe": 0.48992548728216495,
+    "mean_cost": 1826.151987179487,
+    "capacity_hits": 60,
+    "unresolved_delistings": 0,
+    "annual": [
+      {
+        "year": 2016,
+        "median_excess": 0.3242293993567187,
+        "mean_excess": 0.33170461734400053,
+        "median_cagr": 0.4900691740352723,
+        "minimum_cagr": 0.025389209000030277,
+        "starts": 59
+      },
+      {
+        "year": 2017,
+        "median_excess": -0.11650155133949092,
+        "mean_excess": -0.11942999086897549,
+        "median_cagr": -0.09454921554861195,
+        "minimum_cagr": -0.2569771851419823,
+        "starts": 59
+      },
+      {
+        "year": 2018,
+        "median_excess": -0.17108606177149543,
+        "mean_excess": -0.16334979564275556,
+        "median_cagr": -0.4641445117047621,
+        "minimum_cagr": -0.5169321334891923,
+        "starts": 59
+      },
+      {
+        "year": 2019,
+        "median_excess": 0.08527171905503483,
+        "mean_excess": 0.09070699115901713,
+        "median_cagr": 0.23992988198597132,
+        "minimum_cagr": 0.07055761379652581,
+        "starts": 58
+      },
+      {
+        "year": 2020,
+        "median_excess": 0.02880794069226078,
+        "mean_excess": 0.03141507392567304,
+        "median_cagr": 0.26884984136445633,
+        "minimum_cagr": 0.10306796981327393,
+        "starts": 58
+      },
+      {
+        "year": 2021,
+        "median_excess": 0.28010393221500607,
+        "mean_excess": 0.3007529560104654,
+        "median_cagr": 0.3874473753158135,
+        "minimum_cagr": 0.23880783612327594,
+        "starts": 58
+      },
+      {
+        "year": 2022,
+        "median_excess": 0.2573534404408842,
+        "mean_excess": 0.2662756560284327,
+        "median_cagr": 0.1839289009308026,
+        "minimum_cagr": 0.12441820526481084,
+        "starts": 58
+      },
+      {
+        "year": 2023,
+        "median_excess": 0.0980617202252827,
+        "mean_excess": 0.10466538169844965,
+        "median_cagr": 0.012517072381886596,
+        "minimum_cagr": -0.032425880320001266,
+        "starts": 59
+      }
+    ]
+  },
+  "S04": {
+    "minimum_year_median_excess": -0.1554052144207526,
+    "year_median_excess_std": 0.17067276435041093,
+    "mean_excess": 0.13540744073720998,
+    "minimum_cagr": -0.36335733088740685,
+    "mean_cagr": 0.16180021932492977,
+    "worst_drawdown": 0.4269427250443485,
+    "mean_sharpe": 0.6120067753444002,
+    "mean_cost": 1776.4681623931622,
+    "capacity_hits": 238,
+    "unresolved_delistings": 0,
+    "annual": [
+      {
+        "year": 2016,
+        "median_excess": 0.42217865227925544,
+        "mean_excess": 0.43410834027935696,
+        "median_cagr": 0.6141702085972061,
+        "minimum_cagr": 0.12258412234865967,
+        "starts": 59
+      },
+      {
+        "year": 2017,
+        "median_excess": -0.1554052144207526,
+        "mean_excess": -0.14593331483242505,
+        "median_cagr": -0.15527515264101044,
+        "minimum_cagr": -0.1949107992349497,
+        "starts": 59
+      },
+      {
+        "year": 2018,
+        "median_excess": -0.0069590074474648045,
+        "mean_excess": -0.006133590033935208,
+        "median_cagr": -0.3037038824678574,
+        "minimum_cagr": -0.36335733088740685,
+        "starts": 59
+      },
+      {
+        "year": 2019,
+        "median_excess": 0.09995329607882464,
+        "mean_excess": 0.10431664793389332,
+        "median_cagr": 0.2604385699922074,
+        "minimum_cagr": 0.0838174596960497,
+        "starts": 58
+      },
+      {
+        "year": 2020,
+        "median_excess": 0.15772777921450787,
+        "mean_excess": 0.15092574277506554,
+        "median_cagr": 0.42960522863221995,
+        "minimum_cagr": 0.2179895064844528,
+        "starts": 58
+      },
+      {
+        "year": 2021,
+        "median_excess": 0.32031028185635957,
+        "mean_excess": 0.32619755156073943,
+        "median_cagr": 0.4111743822561126,
+        "minimum_cagr": 0.33716073766348464,
+        "starts": 58
+      },
+      {
+        "year": 2022,
+        "median_excess": 0.16345523951587249,
+        "mean_excess": 0.17297614426595845,
+        "median_cagr": 0.073081358579561,
+        "minimum_cagr": 0.04117985450658512,
+        "starts": 58
+      },
+      {
+        "year": 2023,
+        "median_excess": 0.03811732122340772,
+        "mean_excess": 0.050408551806430044,
+        "median_cagr": -0.06208042953659332,
+        "minimum_cagr": -0.08987201103677545,
+        "starts": 59
+      }
+    ]
+  },
+  "S05": {
+    "minimum_year_median_excess": -0.11439199780656817,
+    "year_median_excess_std": 0.1326430354038266,
+    "mean_excess": 0.1065692724304078,
+    "minimum_cagr": -0.4481104809304992,
+    "mean_cagr": 0.12699143449956596,
+    "worst_drawdown": 0.475993285348112,
+    "mean_sharpe": 0.5017674162796619,
+    "mean_cost": 1800.2090811965809,
+    "capacity_hits": 199,
+    "unresolved_delistings": 0,
+    "annual": [
+      {
+        "year": 2016,
+        "median_excess": 0.34932295491139675,
+        "mean_excess": 0.3584240416439585,
+        "median_cagr": 0.5303144511587079,
+        "minimum_cagr": 0.033390657350937936,
+        "starts": 59
+      },
+      {
+        "year": 2017,
+        "median_excess": -0.05126175310247949,
+        "mean_excess": -0.05200169315604782,
+        "median_cagr": -0.0281650908276333,
+        "minimum_cagr": -0.1961526615269613,
+        "starts": 59
+      },
+      {
+        "year": 2018,
+        "median_excess": -0.11439199780656817,
+        "mean_excess": -0.09877329071031332,
+        "median_cagr": -0.3955653257130498,
+        "minimum_cagr": -0.4481104809304992,
+        "starts": 59
+      },
+      {
+        "year": 2019,
+        "median_excess": 0.14924868526759982,
+        "mean_excess": 0.12180703556859157,
+        "median_cagr": 0.29187664302663807,
+        "minimum_cagr": -0.06304588295314106,
+        "starts": 58
+      },
+      {
+        "year": 2020,
+        "median_excess": 0.09175689729497838,
+        "mean_excess": 0.0976897408984319,
+        "median_cagr": 0.33536065720147357,
+        "minimum_cagr": 0.1508099892831407,
+        "starts": 58
+      },
+      {
+        "year": 2021,
+        "median_excess": 0.1250610699327993,
+        "mean_excess": 0.1308649698213271,
+        "median_cagr": 0.19563820286934097,
+        "minimum_cagr": 0.03739345992113563,
+        "starts": 58
+      },
+      {
+        "year": 2022,
+        "median_excess": 0.18219249254799524,
+        "mean_excess": 0.19016598241437818,
+        "median_cagr": 0.09883655165830396,
+        "minimum_cagr": 0.05191763522775483,
+        "starts": 58
+      },
+      {
+        "year": 2023,
+        "median_excess": 0.10028464387423563,
+        "mean_excess": 0.1063138444710904,
+        "median_cagr": 0.010789657738548897,
+        "minimum_cagr": -0.04973010690807733,
+        "starts": 59
+      }
+    ]
+  },
+  "S06": {
+    "minimum_year_median_excess": -0.1441639361628061,
+    "year_median_excess_std": 0.1171011676217236,
+    "mean_excess": 0.0519846882406104,
+    "minimum_cagr": -0.3249041456861421,
+    "mean_cagr": 0.06127382005810102,
+    "worst_drawdown": 0.3996301025558473,
+    "mean_sharpe": 0.28878322654164895,
+    "mean_cost": 1664.2904487179485,
+    "capacity_hits": 376,
+    "unresolved_delistings": 0,
+    "annual": [
+      {
+        "year": 2016,
+        "median_excess": 0.2745598840363086,
+        "mean_excess": 0.27422464365485966,
+        "median_cagr": 0.4514482517531426,
+        "minimum_cagr": -0.02074820657219234,
+        "starts": 59
+      },
+      {
+        "year": 2017,
+        "median_excess": -0.1441639361628061,
+        "mean_excess": -0.13561149649530457,
+        "median_cagr": -0.13627943184126778,
+        "minimum_cagr": -0.1899079305824969,
+        "starts": 59
+      },
+      {
+        "year": 2018,
+        "median_excess": 0.006966960034277769,
+        "mean_excess": 0.00968297419180793,
+        "median_cagr": -0.26944576408087295,
+        "minimum_cagr": -0.3249041456861421,
+        "starts": 59
+      },
+      {
+        "year": 2019,
+        "median_excess": -0.018702890143424855,
+        "mean_excess": -0.019263377413947916,
+        "median_cagr": 0.11266177068634164,
+        "minimum_cagr": -0.07648646826906014,
+        "starts": 58
+      },
+      {
+        "year": 2020,
+        "median_excess": -0.017205008792750776,
+        "mean_excess": -0.030904528992872823,
+        "median_cagr": 0.17633823511192537,
+        "minimum_cagr": 0.05605399292802127,
+        "starts": 58
+      },
+      {
+        "year": 2021,
+        "median_excess": 0.11763279313567565,
+        "mean_excess": 0.10269587878973264,
+        "median_cagr": 0.15139672644315694,
+        "minimum_cagr": 0.08008214896630217,
+        "starts": 58
+      },
+      {
+        "year": 2022,
+        "median_excess": 0.11963087295739172,
+        "mean_excess": 0.1164111756211127,
+        "median_cagr": 0.02992630391936857,
+        "minimum_cagr": -0.07722605944649907,
+        "starts": 58
+      },
+      {
+        "year": 2023,
+        "median_excess": 0.08354967907634914,
+        "mean_excess": 0.09798122631596318,
+        "median_cagr": -0.007115692637484128,
+        "minimum_cagr": -0.04949455112478007,
+        "starts": 59
+      }
+    ]
+  },
+  "S07": {
+    "minimum_year_median_excess": -0.16544277176419453,
+    "year_median_excess_std": 0.17896004947133934,
+    "mean_excess": 0.1062419767469023,
+    "minimum_cagr": -0.3883336343655166,
+    "mean_cagr": 0.12700691735045774,
+    "worst_drawdown": 0.3987721951362613,
+    "mean_sharpe": 0.567264816447632,
+    "mean_cost": 1819.3283547008546,
+    "capacity_hits": 339,
+    "unresolved_delistings": 0,
+    "annual": [
+      {
+        "year": 2016,
+        "median_excess": 0.3445456862580254,
+        "mean_excess": 0.3626717059909444,
+        "median_cagr": 0.5202107478783207,
+        "minimum_cagr": 0.08438379727648138,
+        "starts": 59
+      },
+      {
+        "year": 2017,
+        "median_excess": -0.16544277176419453,
+        "mean_excess": -0.16914970612956176,
+        "median_cagr": -0.15780133115043582,
+        "minimum_cagr": -0.20588182239781605,
+        "starts": 59
+      },
+      {
+        "year": 2018,
+        "median_excess": -0.06077831970333747,
+        "mean_excess": -0.053885350888313775,
+        "median_cagr": -0.35418791225419155,
+        "minimum_cagr": -0.3883336343655166,
+        "starts": 59
+      },
+      {
+        "year": 2019,
+        "median_excess": -0.07309984455477897,
+        "mean_excess": -0.07163481585539563,
+        "median_cagr": 0.03372666812369529,
+        "minimum_cagr": -0.11943102730950683,
+        "starts": 58
+      },
+      {
+        "year": 2020,
+        "median_excess": 0.03348876223595143,
+        "mean_excess": 0.03735873163080933,
+        "median_cagr": 0.2616252699578878,
+        "minimum_cagr": 0.13593464845476233,
+        "starts": 58
+      },
+      {
+        "year": 2021,
+        "median_excess": 0.16451054323579517,
+        "mean_excess": 0.17898857759757428,
+        "median_cagr": 0.24673238209820314,
+        "minimum_cagr": 0.11924141625152673,
+        "starts": 58
+      },
+      {
+        "year": 2022,
+        "median_excess": 0.28185400530815713,
+        "mean_excess": 0.30159203978442517,
+        "median_cagr": 0.23983337715752484,
+        "minimum_cagr": 0.14660977942013975,
+        "starts": 58
+      },
+      {
+        "year": 2023,
+        "median_excess": 0.26877913085111405,
+        "mean_excess": 0.264356269576428,
+        "median_cagr": 0.2149973240048899,
+        "minimum_cagr": 0.12964376720489335,
+        "starts": 59
+      }
+    ]
+  },
+  "S08": {
+    "minimum_year_median_excess": -0.07801192260211409,
+    "year_median_excess_std": 0.1551240240145129,
+    "mean_excess": 0.1135297364558024,
+    "minimum_cagr": -0.354256381500603,
+    "mean_cagr": 0.1358093627958659,
+    "worst_drawdown": 0.43235600144958464,
+    "mean_sharpe": 0.5687227565242328,
+    "mean_cost": 1746.429594017094,
+    "capacity_hits": 319,
+    "unresolved_delistings": 0,
+    "annual": [
+      {
+        "year": 2016,
+        "median_excess": 0.44415211708242164,
+        "mean_excess": 0.4469646054300413,
+        "median_cagr": 0.6685584653130885,
+        "minimum_cagr": 0.08381056721599922,
+        "starts": 59
+      },
+      {
+        "year": 2017,
+        "median_excess": -0.07801192260211409,
+        "mean_excess": -0.07869537236307714,
+        "median_cagr": -0.059360434499099335,
+        "minimum_cagr": -0.1020077947836362,
+        "starts": 59
+      },
+      {
+        "year": 2018,
+        "median_excess": -0.016497119956738526,
+        "mean_excess": -0.021233051259361008,
+        "median_cagr": -0.31336955868643723,
+        "minimum_cagr": -0.354256381500603,
+        "starts": 59
+      },
+      {
+        "year": 2019,
+        "median_excess": 0.14778804427236336,
+        "mean_excess": 0.13016246272392165,
+        "median_cagr": 0.2990390985803669,
+        "minimum_cagr": -0.01593494789999539,
+        "starts": 58
+      },
+      {
+        "year": 2020,
+        "median_excess": 0.043073754949684684,
+        "mean_excess": 0.05067436119736992,
+        "median_cagr": 0.28424246109675644,
+        "minimum_cagr": 0.14512254731660335,
+        "starts": 58
+      },
+      {
+        "year": 2021,
+        "median_excess": 0.005698977024648166,
+        "mean_excess": 0.0014782614637725375,
+        "median_cagr": 0.038830789548318756,
+        "minimum_cagr": -0.03136109474121351,
+        "starts": 58
+      },
+      {
+        "year": 2022,
+        "median_excess": 0.2181095688427152,
+        "mean_excess": 0.2232457520148716,
+        "median_cagr": 0.1327342557425798,
+        "minimum_cagr": 0.060053556589811485,
+        "starts": 58
+      },
+      {
+        "year": 2023,
+        "median_excess": 0.14351778683140026,
+        "mean_excess": 0.15481785365204506,
+        "median_cagr": 0.06439937220036995,
+        "minimum_cagr": 0.018954125938552835,
+        "starts": 59
+      }
+    ]
+  },
+  "S09": {
+    "minimum_year_median_excess": -0.10583658195186174,
+    "year_median_excess_std": 0.1543949897227327,
+    "mean_excess": 0.05382618274169581,
+    "minimum_cagr": -0.463514521655883,
+    "mean_cagr": 0.06516074554938445,
+    "worst_drawdown": 0.44733940062275035,
+    "mean_sharpe": 0.23226575611393066,
+    "mean_cost": 1648.909764957265,
+    "capacity_hits": 71,
+    "unresolved_delistings": 0,
+    "annual": [
+      {
+        "year": 2016,
+        "median_excess": 0.42173266952168653,
+        "mean_excess": 0.43504685843990215,
+        "median_cagr": 0.6345982154219711,
+        "minimum_cagr": 0.0895675222437271,
+        "starts": 59
+      },
+      {
+        "year": 2017,
+        "median_excess": -0.0421750307294676,
+        "mean_excess": -0.05104297164217692,
+        "median_cagr": -0.013453104296869411,
+        "minimum_cagr": -0.23024615244559787,
+        "starts": 59
+      },
+      {
+        "year": 2018,
+        "median_excess": -0.10583658195186174,
+        "mean_excess": -0.10022762148149776,
+        "median_cagr": -0.3940609229240398,
+        "minimum_cagr": -0.463514521655883,
+        "starts": 59
+      },
+      {
+        "year": 2019,
+        "median_excess": -0.00047612156214948964,
+        "mean_excess": -0.0025183723369740525,
+        "median_cagr": 0.1386151064259339,
+        "minimum_cagr": -0.041838981577194234,
+        "starts": 58
+      },
+      {
+        "year": 2020,
+        "median_excess": -0.0669506573742521,
+        "mean_excess": -0.07029602729226786,
+        "median_cagr": 0.13583504976593463,
+        "minimum_cagr": 0.03922784954170089,
+        "starts": 58
+      },
+      {
+        "year": 2021,
+        "median_excess": 0.10411786698552394,
+        "mean_excess": 0.11872395117963809,
+        "median_cagr": 0.16808840799540237,
+        "minimum_cagr": 0.07567174964041667,
+        "starts": 58
+      },
+      {
+        "year": 2022,
+        "median_excess": 0.03202309491733696,
+        "mean_excess": 0.04790788367580647,
+        "median_cagr": -0.06751833473241686,
+        "minimum_cagr": -0.1253496826987811,
+        "starts": 58
+      },
+      {
+        "year": 2023,
+        "median_excess": 0.03145045816178482,
+        "mean_excess": 0.05095665468366887,
+        "median_cagr": -0.06959380211950505,
+        "minimum_cagr": -0.09665540454571486,
+        "starts": 59
+      }
+    ]
+  },
+  "S10": {
+    "minimum_year_median_excess": -0.03977687049902767,
+    "year_median_excess_std": 0.21634279112458796,
+    "mean_excess": 0.18066771901549558,
+    "minimum_cagr": -0.32462189745204084,
+    "mean_cagr": 0.21426199553788144,
+    "worst_drawdown": 0.36626793548174486,
+    "mean_sharpe": 0.8197756257883664,
+    "mean_cost": 1795.3389957264958,
+    "capacity_hits": 301,
+    "unresolved_delistings": 0,
+    "annual": [
+      {
+        "year": 2016,
+        "median_excess": 0.18810738411260286,
+        "mean_excess": 0.18888016582259567,
+        "median_cagr": 0.3018289330100685,
+        "minimum_cagr": -0.08346465197055242,
+        "starts": 59
+      },
+      {
+        "year": 2017,
+        "median_excess": -0.03977687049902767,
+        "mean_excess": -0.046921659691247654,
+        "median_cagr": -0.015878853459698083,
+        "minimum_cagr": -0.20680472045998244,
+        "starts": 59
+      },
+      {
+        "year": 2018,
+        "median_excess": 0.02381547976260512,
+        "mean_excess": 0.021313895746244035,
+        "median_cagr": -0.2647560111583652,
+        "minimum_cagr": -0.32462189745204084,
+        "starts": 59
+      },
+      {
+        "year": 2019,
+        "median_excess": 0.09243095402359547,
+        "mean_excess": 0.08889962028286282,
+        "median_cagr": 0.2367405632084626,
+        "minimum_cagr": 0.010862504111963656,
+        "starts": 58
+      },
+      {
+        "year": 2020,
+        "median_excess": 0.04439413157717598,
+        "mean_excess": 0.03959852581386921,
+        "median_cagr": 0.2833900408084572,
+        "minimum_cagr": 0.125659458772442,
+        "starts": 58
+      },
+      {
+        "year": 2021,
+        "median_excess": 0.6552006391955272,
+        "mean_excess": 0.6739262086533668,
+        "median_cagr": 0.8638900744731212,
+        "minimum_cagr": 0.6626922457955231,
+        "starts": 58
+      },
+      {
+        "year": 2022,
+        "median_excess": 0.3782080364581685,
+        "mean_excess": 0.3930293782379946,
+        "median_cagr": 0.3336811386805072,
+        "minimum_cagr": 0.24643826309122474,
+        "starts": 58
+      },
+      {
+        "year": 2023,
+        "median_excess": 0.07721326764883307,
+        "mean_excess": 0.09462888601973847,
+        "median_cagr": -0.017319060903278838,
+        "minimum_cagr": -0.07012584278980138,
+        "starts": 59
+      }
+    ]
+  },
+  "S11": {
+    "minimum_year_median_excess": -0.21677970460017382,
+    "year_median_excess_std": 0.23773666441712415,
+    "mean_excess": 0.1291314968800153,
+    "minimum_cagr": -0.41497784782059965,
+    "mean_cagr": 0.15488036613150796,
+    "worst_drawdown": 0.47448121549405764,
+    "mean_sharpe": 0.5521277824825395,
+    "mean_cost": 1674.9039102564104,
+    "capacity_hits": 244,
+    "unresolved_delistings": 0,
+    "annual": [
+      {
+        "year": 2016,
+        "median_excess": 0.11716337265785892,
+        "mean_excess": 0.12025376665068233,
+        "median_cagr": 0.2443948636851616,
+        "minimum_cagr": -0.12256161237932628,
+        "starts": 59
+      },
+      {
+        "year": 2017,
+        "median_excess": -0.21677970460017382,
+        "mean_excess": -0.22468631255047333,
+        "median_cagr": -0.18416274085849715,
+        "minimum_cagr": -0.41497784782059965,
+        "starts": 59
+      },
+      {
+        "year": 2018,
+        "median_excess": -0.05658621573128508,
+        "mean_excess": -0.04827573271400982,
+        "median_cagr": -0.34258451962880754,
+        "minimum_cagr": -0.4026196731980952,
+        "starts": 59
+      },
+      {
+        "year": 2019,
+        "median_excess": 0.04264955204078269,
+        "mean_excess": 0.03257222807260632,
+        "median_cagr": 0.16316432765305255,
+        "minimum_cagr": -0.027821667937556138,
+        "starts": 58
+      },
+      {
+        "year": 2020,
+        "median_excess": 0.18181029025842232,
+        "mean_excess": 0.1879049322772553,
+        "median_cagr": 0.4492205394676173,
+        "minimum_cagr": 0.27816974488623547,
+        "starts": 58
+      },
+      {
+        "year": 2021,
+        "median_excess": 0.6571051965547366,
+        "mean_excess": 0.6737614266511874,
+        "median_cagr": 0.8485454753330639,
+        "minimum_cagr": 0.6958564556242288,
+        "starts": 58
+      },
+      {
+        "year": 2022,
+        "median_excess": 0.20904955332045666,
+        "mean_excess": 0.21947944141861567,
+        "median_cagr": 0.13179246131979183,
+        "minimum_cagr": 0.04107046270801318,
+        "starts": 58
+      },
+      {
+        "year": 2023,
+        "median_excess": 0.0790141355024826,
+        "mean_excess": 0.08216412423255672,
+        "median_cagr": -0.01254802967047286,
+        "minimum_cagr": -0.09074929040405344,
+        "starts": 59
+      }
+    ]
+  }
+}

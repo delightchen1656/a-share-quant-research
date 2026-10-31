@@ -1,0 +1,23 @@
+{
+  "target": "2026-10-22",
+  "market_audit_updated_at": "2026-10-22T18:26:12.482979+08:00",
+  "strategy_sha256": "a573941eb69f850536288ba5ce4333d943c2eb4862e7f3a518e46dd55cc653fd",
+  "starts": 58,
+  "historical_prefix_probes": [
+    {
+      "start": "2020-01-02",
+      "prefix_identical": true
+    },
+    {
+      "start": "2020-02-20",
+      "prefix_identical": true
+    },
+    {
+      "start": "2020-03-31",
+      "prefix_identical": true
+    }
+  ],
+  "unresolved_actions_total": 0,
+  "reference_differences_total": 0,
+  "index_source": "BaoStock sh.000300 and sh.000001 daily close"
+}

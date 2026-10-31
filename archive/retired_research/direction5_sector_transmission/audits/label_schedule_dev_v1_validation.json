@@ -1,0 +1,53 @@
+{
+  "observed_rows_preserved": 4382527,
+  "signal_qualification_rows_preserved": 3737172,
+  "plain_candidates_not_training_labels": 3646742,
+  "no_target_values_or_prices_in_schedule_output": true,
+  "six_signal_dates_purged_at_each_registered_training_cutoff": true,
+  "nominal_maturity_not_promoted_to_actual_verified_maturity": true,
+  "in_development_window_gap_flags_on_qualified_signals": {
+    "2": 1,
+    "8": 242,
+    "32": 242
+  },
+  "out_of_development_window_rows_must_not_be_counted_as_supplier_missing_rows": true,
+  "parent_registered_files_unchanged": 24,
+  "yearly": [
+    {
+      "year": 2018,
+      "observed_rows": 680631,
+      "signal_rule_rows": 306375,
+      "plain_case_data_candidates": 302396
+    },
+    {
+      "year": 2019,
+      "observed_rows": 699808,
+      "signal_rule_rows": 657429,
+      "plain_case_data_candidates": 643531
+    },
+    {
+      "year": 2020,
+      "observed_rows": 717114,
+      "signal_rule_rows": 656560,
+      "plain_case_data_candidates": 642793
+    },
+    {
+      "year": 2021,
+      "observed_rows": 750951,
+      "signal_rule_rows": 688424,
+      "plain_case_data_candidates": 674481
+    },
+    {
+      "year": 2022,
+      "observed_rows": 762501,
+      "signal_rule_rows": 714489,
+      "plain_case_data_candidates": 700535
+    },
+    {
+      "year": 2023,
+      "observed_rows": 771522,
+      "signal_rule_rows": 713895,
+      "plain_case_data_candidates": 683006
+    }
+  ]
+}

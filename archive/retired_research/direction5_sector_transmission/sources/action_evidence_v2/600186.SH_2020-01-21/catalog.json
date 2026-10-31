@@ -1,0 +1,35 @@
+{
+  "symbol": "600186.SH",
+  "event_date": "2020-01-21",
+  "kind": "unknown_reference",
+  "start": "2019-12-03",
+  "query_files": [
+    {
+      "path": "sources\\action_evidence_v2\\600186.SH_2020-01-21\\query_01.json",
+      "sha256": "73ba77d70a524db4aacb1553213682501a9158c44c69238b747e6a39cc2302c2"
+    }
+  ],
+  "exact_code_announcements": 3,
+  "documents": [
+    {
+      "title": "中信证券股份有限公司关于莲花健康产业集团股份有限公司调整资本公积金转增股本除权参考价格的计算公式的专项意见",
+      "url": "https://static.cninfo.com.cn/finalpage/2020-01-15/1207249758.PDF",
+      "published_date": "2020-01-15",
+      "pdf": "sources\\action_evidence_v2\\600186.SH_2020-01-21\\1207249758.pdf",
+      "text": "sources\\action_evidence_v2\\600186.SH_2020-01-21\\1207249758.txt",
+      "sha256": "469edbca88b224359b4bc703bc179d3090c26381434a6b274e3ab2adacf0f2e2",
+      "pages": 4
+    },
+    {
+      "title": "中信证券股份有限公司关于莲花健康产业集团股份有限公司资本公积金转增股本除权参考价格的计算结果的专项意见",
+      "url": "https://static.cninfo.com.cn/finalpage/2020-01-18/1207264232.PDF",
+      "published_date": "2020-01-18",
+      "pdf": "sources\\action_evidence_v2\\600186.SH_2020-01-21\\1207264232.pdf",
+      "text": "sources\\action_evidence_v2\\600186.SH_2020-01-21\\1207264232.txt",
+      "sha256": "9d6c31b376e1f4ef1c919d0852b9a174114af93bf6e0720bf3e4319a590cc80e",
+      "pages": 3
+    }
+  ],
+  "no_document_is_not_no_event_proof": true,
+  "fields_verified": false
+}

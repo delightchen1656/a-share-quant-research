@@ -1,0 +1,44 @@
+{
+  "symbol": "601838.SH",
+  "year": 2022,
+  "year_type": "operate",
+  "provider": "BaoStock",
+  "status": "returned_events",
+  "complete_corporate_action_ledger": false,
+  "fields": [
+    "code",
+    "dividPreNoticeDate",
+    "dividAgmPumDate",
+    "dividPlanAnnounceDate",
+    "dividPlanDate",
+    "dividRegistDate",
+    "dividOperateDate",
+    "dividPayDate",
+    "dividStockMarketDate",
+    "dividCashPsBeforeTax",
+    "dividCashPsAfterTax",
+    "dividStocksPs",
+    "dividCashStock",
+    "dividReserveToStockPs"
+  ],
+  "rows": [
+    [
+      "sh.601838",
+      "",
+      "2022-05-27",
+      "2022-04-28",
+      "2022-06-22",
+      "2022-06-28",
+      "2022-06-29",
+      "2022-06-29",
+      "",
+      "0.63",
+      "0.567或0.63",
+      "0.000000",
+      "10派6.3元（含税，扣税后5.67或6.3元）",
+      ""
+    ]
+  ],
+  "attempts": 1,
+  "elapsed_seconds": 0.0207
+}

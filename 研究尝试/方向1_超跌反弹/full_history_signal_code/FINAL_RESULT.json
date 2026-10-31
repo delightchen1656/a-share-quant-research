@@ -1,0 +1,30 @@
+{
+  "complete": true,
+  "scanner_path": "C:\\Users\\22241\\Desktop\\quant\\direction1_structure_research\\full_history_signal_code\\scan_catalog.py",
+  "scanner_sha256": "ba9488a8e725a45f99e5d19c01f417c4ae8180abb15d099d806c7cb568717b2b",
+  "structure_sha256": "18db22d33a4457e58de124cd78f0e18dbcc971f825388fdcbaf87aa88fe1436f",
+  "original_3805_sha256": "70ea8125a426c3d7a54aa39fcbe01e5bc1f71c6190e17fbd346bdf76b41843f7",
+  "synthetic_passed": true,
+  "synthetic_io_passed": true,
+  "pre2025_parity": {
+    "passed": true,
+    "scope_codes": 3336,
+    "signals": 3805,
+    "exact_code_date_set_equal": true,
+    "entry_dates_states_and_bool_equal": true,
+    "entry_raw_prices_equal": true,
+    "unresolved_candidates": 0,
+    "legacy_limit_bars_checked": 5069,
+    "original_3805_source_unchanged": true,
+    "price_manifest_sha256": "8d1c78aa55e7667462a95fa3a8e87fd4b14af4075a1b3e2d14ca713503d9f7c3",
+    "legacy_source_sha256": "70ea8125a426c3d7a54aa39fcbe01e5bc1f71c6190e17fbd346bdf76b41843f7"
+  },
+  "new_full_history_inputs_read": false,
+  "new_full_history_scan_run": false,
+  "account_or_path_returns_run": false,
+  "restricted_read": false,
+  "software_or_classifications_or_other_results_read": false,
+  "source_inputs_and_original_algorithm_unchanged": true,
+  "no_further_logic_changes": true,
+  "production_limits": "Only explicit injected rate/exempt/evidence; legacy ST mapping confined to old-period parity fixture"
+}

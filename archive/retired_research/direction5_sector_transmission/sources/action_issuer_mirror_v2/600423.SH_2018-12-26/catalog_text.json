@@ -1,0 +1,75 @@
+{
+  "symbol": "600423.SH",
+  "event_date": "2018-12-26",
+  "kind": "unknown_reference",
+  "start": "2018-01-22",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\600423.SH_2018-12-26\\query_01.json",
+      "sha256": "ba4b3ef0737f71734b484e46facd3bfb7d998c711e80363eecf125eb4d4de484",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "600423",
+        "begin_time": "2018-01-22",
+        "end_time": "2018-12-26"
+      }
+    },
+    {
+      "path": "sources\\action_issuer_mirror_v2\\600423.SH_2018-12-26\\query_02.json",
+      "sha256": "aa9f827d8cbafb64c52a830a789fe41a0ac1df3171c8430f8ab55098e9e464d1",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 2,
+        "ann_type": "A",
+        "stock_list": "600423",
+        "begin_time": "2018-01-22",
+        "end_time": "2018-12-26"
+      }
+    }
+  ],
+  "announcement_count": 143,
+  "documents": [
+    {
+      "title": "600423:*ST柳化关于公司股票复牌及公司债券继续停牌的提示性公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2018-12-26",
+      "raw_response": "sources\\action_issuer_mirror_v2\\600423.SH_2018-12-26\\AN201812251279609209_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\600423.SH_2018-12-26\\AN201812251279609209.txt",
+      "sha256": "a3bd36f5c815b68172fee3ec3d8ded4835abfdeae5c5f61e24595f7bd2d1c4b0",
+      "article_code": "AN201812251279609209",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201812251279609209_1.pdf?1659706929000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    },
+    {
+      "title": "600423:*ST柳化关于重整计划资本公积金转增股本事项实施的公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2018-12-12",
+      "raw_response": "sources\\action_issuer_mirror_v2\\600423.SH_2018-12-26\\AN201812111267469927_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\600423.SH_2018-12-26\\AN201812111267469927.txt",
+      "sha256": "0ae10075c51e6fa3a1dd169ec59ddd09082ef7e11c00feb266c1c5270dbbe063",
+      "article_code": "AN201812111267469927",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201812111267469927_1.pdf?1647699170000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    },
+    {
+      "title": "600423:*ST柳化:中信建投证券股份有限公司关于柳州化工股份有限公司调整资本公积金转增股本除权参考价格的计算公式的专项意见",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2018-12-12",
+      "raw_response": "sources\\action_issuer_mirror_v2\\600423.SH_2018-12-26\\AN201812111267469926_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\600423.SH_2018-12-26\\AN201812111267469926.txt",
+      "sha256": "890318a815dceddd5426ce7a917af1c68b6f055c9476c0c12be09f77926a1ec7",
+      "article_code": "AN201812111267469926",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201812111267469926_1.pdf?1647699170000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

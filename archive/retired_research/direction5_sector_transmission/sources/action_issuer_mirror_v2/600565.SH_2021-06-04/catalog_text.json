@@ -1,0 +1,44 @@
+{
+  "symbol": "600565.SH",
+  "event_date": "2021-06-04",
+  "kind": "dividend_fields",
+  "start": "2021-03-16",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\600565.SH_2021-06-04\\query_01.json",
+      "sha256": "1cc0bd4bb12e6128c08af6ab406b650e280c9989127d247ed09e21d21f7fcfb3",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "600565",
+        "begin_time": "2021-03-16",
+        "end_time": "2021-06-04"
+      }
+    }
+  ],
+  "announcement_count": 40,
+  "documents": [
+    {
+      "title": "600565:迪马股份2020年年度权益分派实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2021-05-27",
+      "raw_response": "sources\\action_issuer_mirror_v2\\600565.SH_2021-06-04\\AN202105261494088908_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\600565.SH_2021-06-04\\AN202105261494088908.txt",
+      "sha256": "7e822ef0b52d09b6c330bc00a9efdeb4a9085130951849c8ad283a43ffec88c7",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\600565.SH_2021-06-04\\AN202105261494088908_content.json",
+          "sha256": "7e822ef0b52d09b6c330bc00a9efdeb4a9085130951849c8ad283a43ffec88c7"
+        }
+      ],
+      "article_code": "AN202105261494088908",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202105261494088908_1.pdf?1622048969000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

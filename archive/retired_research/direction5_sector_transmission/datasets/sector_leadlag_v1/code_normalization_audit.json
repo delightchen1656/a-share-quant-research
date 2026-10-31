@@ -1,0 +1,58 @@
+{
+  "standard_source": {
+    "url": "https://www.cnindex.com.cn/zh_information/data_resource/201303/P020191213528738409541.pdf",
+    "original_standard_publication_date": "2012-10-26",
+    "file": "sources\\sector_leadlag_v1\\CSRC_industry_2012.pdf",
+    "sha256": "e31d69d1452659a4406036b9e220d210028a2704ec66a23843bd0880b3143007"
+  },
+  "visually_reviewed_pages": [
+    9,
+    12,
+    13,
+    14
+  ],
+  "prefix_corrections": [
+    {
+      "industry_code": "C44",
+      "canonical_code": "D44",
+      "membership_publication_rows": 2
+    },
+    {
+      "industry_code": "D47",
+      "canonical_code": "E47",
+      "membership_publication_rows": 2
+    },
+    {
+      "industry_code": "D48",
+      "canonical_code": "E48",
+      "membership_publication_rows": 40
+    },
+    {
+      "industry_code": "H63",
+      "canonical_code": "I63",
+      "membership_publication_rows": 1
+    },
+    {
+      "industry_code": "K71",
+      "canonical_code": "L71",
+      "membership_publication_rows": 4
+    },
+    {
+      "industry_code": "K72",
+      "canonical_code": "L72",
+      "membership_publication_rows": 39
+    },
+    {
+      "industry_code": "N80",
+      "canonical_code": "O80",
+      "membership_publication_rows": 12
+    },
+    {
+      "industry_code": "Q85",
+      "canonical_code": "R85",
+      "membership_publication_rows": 1
+    }
+  ],
+  "affected_allocated_stock_days": 224,
+  "original_industry_and_eligibility_snapshots_modified": false
+}

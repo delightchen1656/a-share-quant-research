@@ -1,0 +1,26 @@
+{
+  "boundary_version": "public-pre2025-v2",
+  "input_root": "C:\\Users\\22241\\Desktop\\quant\\direction2_trend_pullback_research\\inputs_pre2025\\full_mainboard",
+  "manifest": "C:\\Users\\22241\\Desktop\\quant\\direction2_trend_pullback_research\\inputs_pre2025\\full_mainboard\\MANIFEST.json",
+  "manifest_sha256": "8d1c78aa55e7667462a95fa3a8e87fd4b14af4075a1b3e2d14ca713503d9f7c3",
+  "hash_checked_files": 6677,
+  "universe_projection": [
+    "code",
+    "name",
+    "ipoDate"
+  ],
+  "future_outDate_parsed": false,
+  "legacy_projection": [
+    "code",
+    "date",
+    "entry_date"
+  ],
+  "old947_source": "old_947_codes.parquet code membership only",
+  "post2024_prices_read": false,
+  "restricted_read": false,
+  "direction2_results_read": false,
+  "current_classification_read": false,
+  "accounts_read": false,
+  "writes_root": "C:\\Users\\22241\\Desktop\\quant\\direction1_structure_research\\scope_full_mainboard",
+  "isolation": "Logical path/hash guards and declared source inventory, not OS access isolation"
+}

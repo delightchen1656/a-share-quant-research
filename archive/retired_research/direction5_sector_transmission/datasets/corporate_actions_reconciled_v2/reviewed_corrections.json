@@ -1,0 +1,719 @@
+[
+  {
+    "symbol": "000819.SZ",
+    "ex_date": "2021-06-25",
+    "operation": "replace_reviewed_fields",
+    "cash_per_share": 0.01,
+    "register_date": "2021-06-24",
+    "payment_date": "2021-06-25",
+    "quote_cash_per_share": null,
+    "sources": [
+      {
+        "title": "岳阳兴长:分红派息实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2021-06-18",
+        "raw_response": "sources\\action_issuer_mirror_v2\\000819.SZ_2021-06-25\\AN202106171498433202_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\000819.SZ_2021-06-25\\AN202106171498433202.txt",
+        "sha256": "26586fe1c0c0b891299ca090eaf391ae9c84802ed67ddb3e3ca2bbe67a317d5d",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\000819.SZ_2021-06-25\\AN202106171498433202_content.json",
+            "sha256": "26586fe1c0c0b891299ca090eaf391ae9c84802ed67ddb3e3ca2bbe67a317d5d"
+          }
+        ],
+        "article_code": "AN202106171498433202",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202106171498433202_1.pdf?1623960654000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary",
+        "text_sha256": "246dce9289516e9ea45eecf952c190e914d08632fd8cd25deda4f9e66695d206",
+        "review_method": "issuer_notice_text_manually_checked",
+        "source_text_not_pdf_visual_review": true
+      }
+    ]
+  },
+  {
+    "symbol": "000863.SZ",
+    "ex_date": "2018-07-26",
+    "operation": "replace_reviewed_fields",
+    "cash_per_share": 0.2015287,
+    "register_date": "2018-07-25",
+    "payment_date": "2018-07-26",
+    "quote_cash_per_share": null,
+    "sources": [
+      {
+        "title": "三湘印象:2017年年度利润分配方案实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2018-07-19",
+        "raw_response": "sources\\action_issuer_mirror_v2\\000863.SZ_2018-07-26\\AN201807181167910744_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\000863.SZ_2018-07-26\\AN201807181167910744.txt",
+        "sha256": "6ebf35b5cfc3675235e4a6560be0d7d7ec1c96a7401cf0196bf903a7629ba9d3",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\000863.SZ_2018-07-26\\AN201807181167910744_content.json",
+            "sha256": "6ebf35b5cfc3675235e4a6560be0d7d7ec1c96a7401cf0196bf903a7629ba9d3"
+          }
+        ],
+        "article_code": "AN201807181167910744",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201807181167910744_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary",
+        "text_sha256": "8fbcb4c61e1d6e02841ffa08ab47a9dbfc89af1f1366c4a5e74a8ea9cb454b54",
+        "review_method": "issuer_notice_text_manually_checked",
+        "source_text_not_pdf_visual_review": true
+      }
+    ]
+  },
+  {
+    "symbol": "001872.SZ",
+    "ex_date": "2018-05-23",
+    "operation": "replace_reviewed_fields",
+    "cash_per_share": 1.319,
+    "register_date": "2018-05-22",
+    "payment_date": "2018-05-23",
+    "quote_cash_per_share": null,
+    "sources": [
+      {
+        "title": "深赤湾A:2017年度分红派息实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2018-05-17",
+        "raw_response": "sources\\action_issuer_mirror_v2\\001872.SZ_2018-05-23\\AN201805161144498021_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\001872.SZ_2018-05-23\\AN201805161144498021.txt",
+        "sha256": "222d6c9306518b32355831a27bd53afd525ecc805dec9b6e7c4b57418ca4c9e2",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\001872.SZ_2018-05-23\\AN201805161144498021_content.json",
+            "sha256": "222d6c9306518b32355831a27bd53afd525ecc805dec9b6e7c4b57418ca4c9e2"
+          }
+        ],
+        "article_code": "AN201805161144498021",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201805161144498021_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary",
+        "text_sha256": "f7249768dd17fdb0e5325d567eaa7f9e2463e34003986212061701d3c7347dc6",
+        "review_method": "issuer_notice_text_manually_checked",
+        "source_text_not_pdf_visual_review": true
+      },
+      {
+        "historical_issuer_code": "000022",
+        "storage_symbol": "001872.SZ",
+        "evidence_manifest": "sources/action_identity_evidence_v2/manifest.json",
+        "evidence_manifest_sha256": "af5a1ff43f814d41ed6f2d3b79af85cd2d7b86c8023cc52f9e2f40d740d4bc7e",
+        "not_approved_for_asof_industry_join": true
+      }
+    ]
+  },
+  {
+    "symbol": "001914.SZ",
+    "ex_date": "2018-06-06",
+    "operation": "replace_reviewed_fields",
+    "cash_per_share": 0.1,
+    "register_date": "2018-06-05",
+    "payment_date": "2018-06-06",
+    "quote_cash_per_share": null,
+    "sources": [
+      {
+        "title": "中航地产:2017年年度利润分配实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2018-05-30",
+        "raw_response": "sources\\action_issuer_mirror_v2\\001914.SZ_2018-06-06\\AN201805291150132802_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\001914.SZ_2018-06-06\\AN201805291150132802.txt",
+        "sha256": "1c6d53acdddb4263231f7061d6c13b51a18108430550bc3a827425181006a29c",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\001914.SZ_2018-06-06\\AN201805291150132802_content.json",
+            "sha256": "1c6d53acdddb4263231f7061d6c13b51a18108430550bc3a827425181006a29c"
+          }
+        ],
+        "article_code": "AN201805291150132802",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201805291150132802_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary",
+        "text_sha256": "adb0a3b6a97d866b01c8aa945dbcc84d5e845f4cce84f4dc1086f68b9aec9bf4",
+        "review_method": "issuer_notice_text_manually_checked",
+        "source_text_not_pdf_visual_review": true
+      },
+      {
+        "historical_issuer_code": "000043",
+        "storage_symbol": "001914.SZ",
+        "evidence_manifest": "sources/action_identity_evidence_v2/manifest.json",
+        "evidence_manifest_sha256": "af5a1ff43f814d41ed6f2d3b79af85cd2d7b86c8023cc52f9e2f40d740d4bc7e",
+        "not_approved_for_asof_industry_join": true
+      }
+    ]
+  },
+  {
+    "symbol": "002016.SZ",
+    "ex_date": "2024-04-19",
+    "operation": "replace_reviewed_fields",
+    "cash_per_share": 0.024,
+    "register_date": "2024-04-18",
+    "payment_date": "2024-04-19",
+    "quote_cash_per_share": null,
+    "sources": [
+      {
+        "title": "世荣兆业:2022年年度权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2024-04-13",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002016.SZ_2024-04-19\\AN202404121630186785_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002016.SZ_2024-04-19\\AN202404121630186785.txt",
+        "sha256": "db6355d23d5996c8ba430fe9e6d33bc7b7a8d0c276d13612c206db1e2e1cae97",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002016.SZ_2024-04-19\\AN202404121630186785_content.json",
+            "sha256": "db6355d23d5996c8ba430fe9e6d33bc7b7a8d0c276d13612c206db1e2e1cae97"
+          }
+        ],
+        "article_code": "AN202404121630186785",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202404121630186785_1.pdf?1712946589000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary",
+        "text_sha256": "2666b4f0862b592d7d7bd910d542665e32769eaa5cabfd907c61bf084c6690b3",
+        "review_method": "issuer_notice_text_manually_checked",
+        "source_text_not_pdf_visual_review": true
+      }
+    ]
+  },
+  {
+    "symbol": "002227.SZ",
+    "ex_date": "2018-06-01",
+    "operation": "replace_reviewed_fields",
+    "cash_per_share": 0.02,
+    "register_date": "2018-05-31",
+    "payment_date": "2018-06-01",
+    "quote_cash_per_share": null,
+    "sources": [
+      {
+        "title": "奥特迅:关于2017年年度权益分派实施公告的更正公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2018-05-25",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002227.SZ_2018-06-01\\AN201805241148260417_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002227.SZ_2018-06-01\\AN201805241148260417.txt",
+        "sha256": "cc97bbe68f8297422316a75db32956874381590f322994492e8f96f9b51e1a21",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002227.SZ_2018-06-01\\AN201805241148260417_content.json",
+            "sha256": "cc97bbe68f8297422316a75db32956874381590f322994492e8f96f9b51e1a21"
+          }
+        ],
+        "article_code": "AN201805241148260417",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201805241148260417_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary",
+        "text_sha256": "a48fc4c1bb5a9a21ee1e7de6aa2964f2ad30ea2a6a4d1eccb1522e2636044688",
+        "review_method": "issuer_notice_text_manually_checked",
+        "source_text_not_pdf_visual_review": true
+      }
+    ]
+  },
+  {
+    "symbol": "002349.SZ",
+    "ex_date": "2021-06-30",
+    "operation": "replace_reviewed_fields",
+    "cash_per_share": 0.041,
+    "register_date": "2021-06-29",
+    "payment_date": "2021-06-30",
+    "quote_cash_per_share": 0.039943,
+    "sources": [
+      {
+        "title": "精华制药:2020年年度权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2021-06-22",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002349.SZ_2021-06-30\\AN202106211499123815_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002349.SZ_2021-06-30\\AN202106211499123815.txt",
+        "sha256": "1269bb8b117dbdfab75eeba1739ddba758a95a48ac5daba24c8df8dd51d12018",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002349.SZ_2021-06-30\\AN202106211499123815_content.json",
+            "sha256": "1269bb8b117dbdfab75eeba1739ddba758a95a48ac5daba24c8df8dd51d12018"
+          }
+        ],
+        "article_code": "AN202106211499123815",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202106211499123815_1.pdf?1624291447000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary",
+        "text_sha256": "ffa704adfe44a6d1ba763886aec0ffe6a20ef88b097d4fc2d65534fb1a2578bf",
+        "review_method": "issuer_notice_text_manually_checked",
+        "source_text_not_pdf_visual_review": true
+      },
+      {
+        "title": "精华制药:关于2020年度权益分派实施公告之更正公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2021-06-30",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002349.SZ_2021-06-30\\AN202106301500873464_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002349.SZ_2021-06-30\\AN202106301500873464.txt",
+        "sha256": "1e698f89c9bfe38d06c461ebc8cf59d822be92ccf5ac8dc380ce9725a89ab652",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002349.SZ_2021-06-30\\AN202106301500873464_content.json",
+            "sha256": "1e698f89c9bfe38d06c461ebc8cf59d822be92ccf5ac8dc380ce9725a89ab652"
+          }
+        ],
+        "article_code": "AN202106301500873464",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202106301500873464_1.pdf?1625040980000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary",
+        "text_sha256": "8ab17efb62c64a869a58ff77f6cdfc1591b7eaec21bfffc4d379e93ba87aa92b",
+        "review_method": "issuer_notice_text_manually_checked",
+        "source_text_not_pdf_visual_review": true
+      }
+    ]
+  },
+  {
+    "symbol": "002358.SZ",
+    "ex_date": "2019-07-05",
+    "operation": "replace_reviewed_fields",
+    "cash_per_share": 0.1,
+    "register_date": "2019-07-04",
+    "payment_date": "2019-07-05",
+    "quote_cash_per_share": null,
+    "sources": [
+      {
+        "title": "森源电气:关于2018年年度权益分派实施的更正公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2019-06-29",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002358.SZ_2019-07-05\\AN201906281336797032_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002358.SZ_2019-07-05\\AN201906281336797032.txt",
+        "sha256": "604cd2dcbaa34ed640637ed4179d9a111babf2b3fcc685e2064f12ad3a8c98f3",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002358.SZ_2019-07-05\\AN201906281336797032_content.json",
+            "sha256": "604cd2dcbaa34ed640637ed4179d9a111babf2b3fcc685e2064f12ad3a8c98f3"
+          }
+        ],
+        "article_code": "AN201906281336797032",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201906281336797032_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary",
+        "text_sha256": "cea7184322752ab99797d626bfdac1a56f8f6454ae3aa379f74b9df4225457bc",
+        "review_method": "issuer_notice_text_manually_checked",
+        "source_text_not_pdf_visual_review": true
+      },
+      {
+        "title": "森源电气:2018年年度权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2019-06-28",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002358.SZ_2019-07-05\\AN201906271336645180_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002358.SZ_2019-07-05\\AN201906271336645180.txt",
+        "sha256": "4ab96a09cfde252052dcb4dca2993ef33bc3da5ad92ef2a69d1cb69375b5fbe3",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002358.SZ_2019-07-05\\AN201906271336645180_content.json",
+            "sha256": "4ab96a09cfde252052dcb4dca2993ef33bc3da5ad92ef2a69d1cb69375b5fbe3"
+          }
+        ],
+        "article_code": "AN201906271336645180",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201906271336645180_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary",
+        "text_sha256": "2311a7052779694f857e6834228fc112795424b37211dd07414d542e310f4d7e",
+        "review_method": "issuer_notice_text_manually_checked",
+        "source_text_not_pdf_visual_review": true
+      }
+    ]
+  },
+  {
+    "symbol": "002434.SZ",
+    "ex_date": "2018-05-22",
+    "operation": "replace_reviewed_fields",
+    "cash_per_share": 0.150224,
+    "register_date": "2018-05-21",
+    "payment_date": "2018-05-22",
+    "quote_cash_per_share": null,
+    "sources": [
+      {
+        "title": "万里扬:2017年度利润分配实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2018-05-16",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002434.SZ_2018-05-22\\AN201805151143902057_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002434.SZ_2018-05-22\\AN201805151143902057.txt",
+        "sha256": "7885712d26553a18fe2c016d527e4038626b74baef3de63c1aa08f05ff48b48b",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002434.SZ_2018-05-22\\AN201805151143902057_content.json",
+            "sha256": "7885712d26553a18fe2c016d527e4038626b74baef3de63c1aa08f05ff48b48b"
+          }
+        ],
+        "article_code": "AN201805151143902057",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201805151143902057_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary",
+        "text_sha256": "619bda3789e611de93e1d42674c1595d7e4bdc0fd18f60bd7282a5e02114ce4c",
+        "review_method": "issuer_notice_text_manually_checked",
+        "source_text_not_pdf_visual_review": true
+      }
+    ]
+  },
+  {
+    "symbol": "002435.SZ",
+    "ex_date": "2021-06-18",
+    "operation": "replace_reviewed_fields",
+    "cash_per_share": 0.05,
+    "register_date": "2021-06-17",
+    "payment_date": "2021-06-18",
+    "quote_cash_per_share": null,
+    "sources": [
+      {
+        "title": "长江健康:2020年年度权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2021-06-09",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002435.SZ_2021-06-18\\AN202106081496757858_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002435.SZ_2021-06-18\\AN202106081496757858.txt",
+        "sha256": "0b280dd0e039526e214a73d98d9f2cd39a6bd2bc08d8b535ef61d4419579fa99",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002435.SZ_2021-06-18\\AN202106081496757858_content.json",
+            "sha256": "0b280dd0e039526e214a73d98d9f2cd39a6bd2bc08d8b535ef61d4419579fa99"
+          }
+        ],
+        "article_code": "AN202106081496757858",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202106081496757858_1.pdf?1623173932000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary",
+        "text_sha256": "9bea76eccc2f9da0d33a99f06f17688795b2da18f15e69985c7d3a7fecf38aaf",
+        "review_method": "issuer_notice_text_manually_checked",
+        "source_text_not_pdf_visual_review": true
+      }
+    ]
+  },
+  {
+    "symbol": "002601.SZ",
+    "ex_date": "2018-10-25",
+    "operation": "replace_reviewed_fields",
+    "cash_per_share": 0.6540279,
+    "register_date": "2018-10-24",
+    "payment_date": "2018-10-25",
+    "quote_cash_per_share": 0.65,
+    "sources": [
+      {
+        "title": "龙蟒佰利:2018年半年度权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2018-10-17",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002601.SZ_2018-10-25\\AN201810161214496778_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002601.SZ_2018-10-25\\AN201810161214496778.txt",
+        "sha256": "1a40da491b0a41ae80ce2da71db7448075781cf24857d337aaaf32b49b8ab565",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002601.SZ_2018-10-25\\AN201810161214496778_content.json",
+            "sha256": "1a40da491b0a41ae80ce2da71db7448075781cf24857d337aaaf32b49b8ab565"
+          }
+        ],
+        "article_code": "AN201810161214496778",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201810161214496778_1.pdf?1647697044000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary",
+        "text_sha256": "22926567e5cecc389f969e7965c7bb72810f31ecd767475c41a1f74913ebac4a",
+        "review_method": "issuer_notice_text_manually_checked",
+        "source_text_not_pdf_visual_review": true
+      }
+    ]
+  },
+  {
+    "symbol": "002649.SZ",
+    "ex_date": "2018-06-07",
+    "operation": "replace_reviewed_fields",
+    "cash_per_share": 0.0830873,
+    "register_date": "2018-06-06",
+    "payment_date": "2018-06-07",
+    "quote_cash_per_share": null,
+    "sources": [
+      {
+        "title": "博彦科技:2017年年度权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2018-06-01",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002649.SZ_2018-06-07\\AN201805311151099274_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002649.SZ_2018-06-07\\AN201805311151099274.txt",
+        "sha256": "36cd0c6f71cf6b181b7664a97ca98dfcc142647e3e4134000c2da93601a5e92d",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002649.SZ_2018-06-07\\AN201805311151099274_content.json",
+            "sha256": "36cd0c6f71cf6b181b7664a97ca98dfcc142647e3e4134000c2da93601a5e92d"
+          }
+        ],
+        "article_code": "AN201805311151099274",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201805311151099274_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary",
+        "text_sha256": "a93ce8544fd72b3f5c137cf4c5964987677104e5e2e558f7994d561a08dd1561",
+        "review_method": "issuer_notice_text_manually_checked",
+        "source_text_not_pdf_visual_review": true
+      }
+    ]
+  },
+  {
+    "symbol": "002792.SZ",
+    "ex_date": "2018-06-29",
+    "operation": "replace_reviewed_fields",
+    "cash_per_share": 0.05,
+    "register_date": "2018-06-28",
+    "payment_date": "2018-06-29",
+    "quote_cash_per_share": null,
+    "sources": [
+      {
+        "title": "通宇通讯:2017年年度权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2018-06-21",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002792.SZ_2018-06-29\\AN201806201157314293_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002792.SZ_2018-06-29\\AN201806201157314293.txt",
+        "sha256": "f684ad13901fe321eecfde2b5dd6d98da76ad8e86628c4e9fcd1c2384aa9b663",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002792.SZ_2018-06-29\\AN201806201157314293_content.json",
+            "sha256": "f684ad13901fe321eecfde2b5dd6d98da76ad8e86628c4e9fcd1c2384aa9b663"
+          }
+        ],
+        "article_code": "AN201806201157314293",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201806201157314293_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary",
+        "text_sha256": "b78133327db24da0adb0776a3076d9cab746ed99601d3da1a24fb18dae4616f6",
+        "review_method": "issuer_notice_text_manually_checked",
+        "source_text_not_pdf_visual_review": true
+      }
+    ]
+  },
+  {
+    "symbol": "002840.SZ",
+    "ex_date": "2021-06-30",
+    "operation": "replace_reviewed_fields",
+    "cash_per_share": 0.0319988,
+    "register_date": "2021-06-29",
+    "payment_date": "2021-06-30",
+    "quote_cash_per_share": null,
+    "sources": [
+      {
+        "title": "华统股份:2020年度权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2021-06-22",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002840.SZ_2021-06-30\\AN202106211499171456_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002840.SZ_2021-06-30\\AN202106211499171456.txt",
+        "sha256": "518928683e8a9b6575ffb8efdc4730b8569cc7559a6b07472b6dd7ccc0b78ef6",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002840.SZ_2021-06-30\\AN202106211499171456_content.json",
+            "sha256": "518928683e8a9b6575ffb8efdc4730b8569cc7559a6b07472b6dd7ccc0b78ef6"
+          }
+        ],
+        "article_code": "AN202106211499171456",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202106211499171456_1.pdf?1624308354000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary",
+        "text_sha256": "48bd5a9da45076f07314121867f1e52af39ff1c7cd359d9f7609f824d8eaaf34",
+        "review_method": "issuer_notice_text_manually_checked",
+        "source_text_not_pdf_visual_review": true
+      }
+    ]
+  },
+  {
+    "symbol": "002852.SZ",
+    "ex_date": "2019-05-22",
+    "operation": "replace_reviewed_fields",
+    "cash_per_share": 0.4089687,
+    "register_date": "2019-05-21",
+    "payment_date": "2019-05-22",
+    "quote_cash_per_share": 0.4,
+    "sources": [
+      {
+        "title": "道道全:2018年年度权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2019-05-16",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002852.SZ_2019-05-22\\AN201905151330186822_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002852.SZ_2019-05-22\\AN201905151330186822.txt",
+        "sha256": "9b36acd2297eb195524fae61d44a53d588bae08f97fb5d875ba919480973eccf",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002852.SZ_2019-05-22\\AN201905151330186822_content.json",
+            "sha256": "9b36acd2297eb195524fae61d44a53d588bae08f97fb5d875ba919480973eccf"
+          }
+        ],
+        "article_code": "AN201905151330186822",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201905151330186822_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary",
+        "text_sha256": "88e41e0a45bb883ed51eb4e836853a577381b0aa7f41e6ba1b58b0802c3f01e1",
+        "review_method": "issuer_notice_text_manually_checked",
+        "source_text_not_pdf_visual_review": true
+      },
+      {
+        "title": "道道全:关于2018年度权益分派实施后公司股票除权除息的计算原则及方式的说明",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2019-05-16",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002852.SZ_2019-05-22\\AN201905151330186823_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002852.SZ_2019-05-22\\AN201905151330186823.txt",
+        "sha256": "5395a0b9431dc5e359222a701eda9896529a2082bd69bd9d48d5d21cfe9c3e63",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002852.SZ_2019-05-22\\AN201905151330186823_content.json",
+            "sha256": "5395a0b9431dc5e359222a701eda9896529a2082bd69bd9d48d5d21cfe9c3e63"
+          }
+        ],
+        "article_code": "AN201905151330186823",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201905151330186823_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary",
+        "text_sha256": "e24e74f11dab65ac7814db21233142752121fa8322e0df652505197cf1ef9610",
+        "review_method": "issuer_notice_text_manually_checked",
+        "source_text_not_pdf_visual_review": true
+      }
+    ]
+  },
+  {
+    "symbol": "600565.SH",
+    "ex_date": "2021-06-04",
+    "operation": "replace_reviewed_fields",
+    "cash_per_share": 0.08,
+    "register_date": "2021-06-03",
+    "payment_date": "2021-06-04",
+    "quote_cash_per_share": null,
+    "sources": [
+      {
+        "title": "600565:迪马股份2020年年度权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2021-05-27",
+        "raw_response": "sources\\action_issuer_mirror_v2\\600565.SH_2021-06-04\\AN202105261494088908_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\600565.SH_2021-06-04\\AN202105261494088908.txt",
+        "sha256": "7e822ef0b52d09b6c330bc00a9efdeb4a9085130951849c8ad283a43ffec88c7",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\600565.SH_2021-06-04\\AN202105261494088908_content.json",
+            "sha256": "7e822ef0b52d09b6c330bc00a9efdeb4a9085130951849c8ad283a43ffec88c7"
+          }
+        ],
+        "article_code": "AN202105261494088908",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202105261494088908_1.pdf?1622048969000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary",
+        "text_sha256": "baf69139d0f2b7fc6c9d29d9f5503903545df112faa4ee9ca530165c29fe1493",
+        "review_method": "issuer_notice_text_manually_checked",
+        "source_text_not_pdf_visual_review": true
+      }
+    ]
+  },
+  {
+    "symbol": "600989.SH",
+    "ex_date": "2021-05-20",
+    "operation": "replace_reviewed_fields",
+    "cash_per_share": 0.32091,
+    "register_date": "2021-05-19",
+    "payment_date": "2021-05-20",
+    "quote_cash_per_share": 0.28,
+    "sources": [
+      {
+        "title": "600989:宁夏宝丰能源集团股份有限公司2020年年度权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2021-05-12",
+        "raw_response": "sources\\action_issuer_mirror_v2\\600989.SH_2021-05-20\\AN202105111491094056_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\600989.SH_2021-05-20\\AN202105111491094056.txt",
+        "sha256": "a9baa5719be665e2f375c36cf11ca699f367eee18dc849b2759eeb22cc2cdf71",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\600989.SH_2021-05-20\\AN202105111491094056_content.json",
+            "sha256": "a9baa5719be665e2f375c36cf11ca699f367eee18dc849b2759eeb22cc2cdf71"
+          }
+        ],
+        "article_code": "AN202105111491094056",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202105111491094056_1.pdf?1620754923000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary",
+        "text_sha256": "8d52e39735447cb0e94b5f8ffa0ef7f49c790dc3529f0fab7b69257ac9137e59",
+        "review_method": "issuer_notice_text_manually_checked",
+        "source_text_not_pdf_visual_review": true
+      }
+    ]
+  },
+  {
+    "symbol": "601318.SH",
+    "ex_date": "2018-09-06",
+    "operation": "replace_reviewed_fields",
+    "cash_per_share": 0.62,
+    "register_date": "2018-09-05",
+    "payment_date": "2018-09-06",
+    "quote_cash_per_share": null,
+    "sources": [
+      {
+        "title": "601318:中国平安2018年半年度分红派息实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2018-08-30",
+        "raw_response": "sources\\action_issuer_mirror_v2\\601318.SH_2018-09-06\\AN201808291184636064_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\601318.SH_2018-09-06\\AN201808291184636064.txt",
+        "sha256": "50df3da8e15f30d0984e236dcc0e7662777c953f0cce6aa1e86f64c852818bdf",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\601318.SH_2018-09-06\\AN201808291184636064_content.json",
+            "sha256": "50df3da8e15f30d0984e236dcc0e7662777c953f0cce6aa1e86f64c852818bdf"
+          }
+        ],
+        "article_code": "AN201808291184636064",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201808291184636064_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary",
+        "text_sha256": "ec5bd0aae6c535406696135096c337399cfe54f09eff506b098acffc44a22978",
+        "review_method": "issuer_notice_text_manually_checked",
+        "source_text_not_pdf_visual_review": true
+      }
+    ]
+  },
+  {
+    "symbol": "601688.SH",
+    "ex_date": "2024-10-25",
+    "operation": "replace_reviewed_fields",
+    "cash_per_share": 0.15,
+    "register_date": "2024-10-24",
+    "payment_date": "2024-10-25",
+    "quote_cash_per_share": null,
+    "sources": [
+      {
+        "title": "华泰证券:华泰证券股份有限公司2024年半年度权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2024-10-17",
+        "raw_response": "sources\\action_issuer_mirror_v2\\601688.SH_2024-10-25\\AN202410161640323608_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\601688.SH_2024-10-25\\AN202410161640323608.txt",
+        "sha256": "b20864fc4acbcdf5440ce5428e229ef14e2fa21418064cdac79e9ab40a9d692b",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\601688.SH_2024-10-25\\AN202410161640323608_content.json",
+            "sha256": "b20864fc4acbcdf5440ce5428e229ef14e2fa21418064cdac79e9ab40a9d692b"
+          }
+        ],
+        "article_code": "AN202410161640323608",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202410161640323608_1.pdf?1729097494000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary",
+        "text_sha256": "b7f46914f415a9352280b15ec76ca1fb9061622155d92a09f6998f080c0be9d9",
+        "review_method": "issuer_notice_text_manually_checked",
+        "source_text_not_pdf_visual_review": true
+      }
+    ]
+  },
+  {
+    "symbol": "601919.SH",
+    "ex_date": "2024-10-10",
+    "operation": "replace_reviewed_fields",
+    "cash_per_share": 0.52,
+    "register_date": "2024-10-09",
+    "payment_date": "2024-10-10",
+    "quote_cash_per_share": null,
+    "sources": [
+      {
+        "title": "中远海控:中远海控2024年中期权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2024-09-26",
+        "raw_response": "sources\\action_issuer_mirror_v2\\601919.SH_2024-10-10\\AN202409251640035312_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\601919.SH_2024-10-10\\AN202409251640035312.txt",
+        "sha256": "f9ee1d2b07943991aa3ae5486af6f72a8dc280c5461a0cc40dd4be99d80b2b0d",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\601919.SH_2024-10-10\\AN202409251640035312_content.json",
+            "sha256": "f9ee1d2b07943991aa3ae5486af6f72a8dc280c5461a0cc40dd4be99d80b2b0d"
+          }
+        ],
+        "article_code": "AN202409251640035312",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202409251640035312_1.pdf?1727285611000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary",
+        "text_sha256": "679512d760f5f59eb8173cc5db71f2ae31ebe3aa1b5db30700d4ca62c9207761",
+        "review_method": "issuer_notice_text_manually_checked",
+        "source_text_not_pdf_visual_review": true
+      }
+    ]
+  }
+]

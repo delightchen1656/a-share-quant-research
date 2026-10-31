@@ -1,0 +1,49 @@
+{
+  "name": "方向2_低价深超跌_10万5槽_B3_v1",
+  "status": "FROZEN_RESEARCH_CANDIDATE_NOT_PRODUCTION",
+  "selected_using": "Explored2021-2024 development results; all these years participated in choosing it. Not independent validation.",
+  "universe": "Existing947-stock mainboard basic oversold-signal cohort, not all-mainboard census; no leader-only constraint; no previous95% ML gate.",
+  "filters": {
+    "base": "Existing v1 oversold-bullish basic event plus consecutive suspected limit-down exclusion",
+    "raw_signal_close_lt": 10,
+    "adjusted_signal_close_div_ma20_lte": 0.9
+  },
+  "account": {
+    "capital": 100000,
+    "slots": 5,
+    "slot_budget_including_buy_fee": 20000,
+    "lot_size": 100,
+    "tie_order": "code ascending",
+    "entry": "Next official session open, guaranteed-fill assumption",
+    "take_profit": 0.05,
+    "forced_close_buy_offset": 3,
+    "buy_day_offset": 0,
+    "T_plus_1": true,
+    "stop_loss": null
+  },
+  "fees": "Commission .0003 min5 both sides; historical transfer/stamp schedules as account_backtest.py",
+  "special_events_excluded": [
+    [
+      "002633",
+      "2022-04-29"
+    ],
+    [
+      "600506",
+      "2021-04-21"
+    ],
+    [
+      "603007",
+      "2021-04-28"
+    ]
+  ],
+  "exclusions_are_ex_post": true,
+  "hashes": {
+    "study.py": "e43a5d7cce15f127341125d06da6e37c0ffb132f3917926c6b00ae6b1cd21425",
+    "exclude_limit_streaks.py": "5b6b67c4155711541025885ef336f77cbf18b6efec8a94ba7327dd69297836f5",
+    "account_backtest.py": "dd594aaebf453a8a8791fbfbc6a13c565e45fb2aca914516afe20589842c83f2",
+    "study_fixed_income.py": "e99061447fba8facb8d37ed02f7195e906cb14bc641b7e8a74b1bb6a532803aa",
+    "results_v5_long_position\\events.parquet": "9ff8e9ed7dc98aa106c6f930b27341d8118c6bacc51cdc0c02f57b5f6b4921dd"
+  },
+  "market_manifest_sha256": "72d9affe7a262e51ae313c06c58fb2f44edf4b2be0c14cef2742e956075e675b",
+  "development_summary_sha256": "fb2634c9bd8f8457050cabaf561422b55becd679e0d2f60e63ecba86bd544cb3"
+}

@@ -1,0 +1,78 @@
+{
+  "tracker": {
+    "name": "科创基准1本地前向模拟",
+    "start_date": "2026-10-21",
+    "as_of": "2026-10-21",
+    "market_cutoff": "2026-10-21",
+    "first_possible_fill": "2026-10-22",
+    "next_entry_date": "2026-10-22",
+    "initial_cash": 500000.0,
+    "nav": 500000.0,
+    "cash": 500000.0,
+    "total_return": 0.0,
+    "positions": [],
+    "receivables": [],
+    "fills": 0,
+    "pending_candidates": [
+      {
+        "symbol": "688433.SH",
+        "p": 0.8230738683502312,
+        "stop": 0.3003188118031953,
+        "score": 0.7570037297535283
+      },
+      {
+        "symbol": "688585.SH",
+        "p": 0.8015522119741572,
+        "stop": 0.2555617407600377,
+        "score": 0.7453286290069489
+      },
+      {
+        "symbol": "688056.SH",
+        "p": 0.7824877904911341,
+        "stop": 0.1988557595636023,
+        "score": 0.7387395233871417
+      },
+      {
+        "symbol": "688233.SH",
+        "p": 0.8089531511753567,
+        "stop": 0.4253187903020319,
+        "score": 0.7153830173089097
+      },
+      {
+        "symbol": "688610.SH",
+        "p": 0.7864133626350764,
+        "stop": 0.34528391028900063,
+        "score": 0.7104509023714963
+      },
+      {
+        "symbol": "688231.SH",
+        "p": 0.7727461686335025,
+        "stop": 0.34706540552459975,
+        "score": 0.6963917794180906
+      },
+      {
+        "symbol": "688337.SH",
+        "p": 0.7328443974391466,
+        "stop": 0.32880445889058596,
+        "score": 0.6605074164832178
+      },
+      {
+        "symbol": "688383.SH",
+        "p": 0.730163710003484,
+        "stop": 0.3898122025459245,
+        "score": 0.6444050254433806
+      }
+    ],
+    "status": "ready_next_session",
+    "execution": "收盘后用已发生日线近似结算次日开盘，不是真实订单",
+    "audit": "data_updates\\20261021\\audit.json"
+  },
+  "raw_input_hashes": {},
+  "metadata_sha256": "2e7acf485e110f342d570ea0d4241cb86678a2688d638f6f4b267177f1b13d39",
+  "source_hashes": {
+    "strategies\\kechuang\\supermind_kechuang_1.py": "3c4a5b41691b431b0a419900382c4e9cd47e11ee9b6c163f9d80a863134f1d8e",
+    "strategies\\kechuang\\backtest\\engine.py": "976370a58935bd07dd27ce29268149baff3b054e49e8bea2e3b27c9b155e3eae",
+    "strategies\\kechuang\\backtest\\data_helpers.py": "974f207af138ff1208f0f44fcdf9904e90eee7f043da8754bffa7bcf33f23f6f",
+    "strategies\\kechuang\\tracking\\run.py": "e8dd5437e727425ed23426c1055db0a371ab1d05e4c2c6e3e6f0f21b51f0c2f9"
+  }
+}

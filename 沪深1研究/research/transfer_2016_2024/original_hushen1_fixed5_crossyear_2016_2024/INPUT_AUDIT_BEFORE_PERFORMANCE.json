@@ -1,0 +1,36 @@
+{
+  "instruction_boundary_version": "public-pre2025-v2",
+  "input_root": "C:\\Users\\22241\\Desktop\\quant\\strategies\\hushen\\research\\transfer_2016_2024\\inputs_pre2025",
+  "base_manifest_sha256": "fd4bfbc19b7af7155d5047615e1f5e94c0a84303bc219251f3564d131aa71ce2",
+  "manifest_declared_cutoff": "2024-12-31",
+  "raw": {
+    "manifest_status": "sanitized_pre2025_only",
+    "manifest_cutoff": "2024-12-31",
+    "manifest_records_with_rows": 3354,
+    "all_raw_hashes_verified": true
+  },
+  "universe": {
+    "raw_symbols": 3354,
+    "all_universe_future_ipo_rows_quarantined_before_join": 60,
+    "future_ipo_rows_quarantined": 0,
+    "future_out_dates_coerced_unavailable": 0,
+    "missing_ipo_for_raw_symbols": 0
+  },
+  "calendar_start": "2013-01-04",
+  "calendar_end": "2024-12-31",
+  "benchmark_start": "2013-01-04",
+  "benchmark_end": "2024-12-31",
+  "signal_batch_start": "2015-12-25",
+  "signal_batch_end": "2024-12-30",
+  "execution_signal_dates": 2187,
+  "ranking_rows": 218700,
+  "reference_hashes": {
+    "actions_pre2025_repaired_20261024.json": "b8210ba72187320e55a2ad122dbc6c8b737946f2a533ad1d0f23e862833b8faa",
+    "ORIGINAL_HUSHEN1_CORE_APPROVED.py": "87118464a8648e81364e63e09683ffa00169084647a1c2b375a84e0257b9903b",
+    "ORIGINAL_PLATFORM_REFERENCE.txt": "3bd9948193a8ada9d45dfbc33bc897f54b2395bf0415066f3cc84bdfc654df0a",
+    "ORIGINAL_LEDGER_REFERENCE.txt": "f3ae61698968c9c94d4787002bc58be80412a62ea98407a2cd08d9458271b15c",
+    "ORIGINAL_ENGINE_REFERENCE.txt": "9e2f9f025664125119fb5ae3e4f52245d234c97c7e82bd2791776e35eaf80610",
+    "ORIGINAL_ACTION_SEMANTICS_REFERENCE.txt": "c38764ea213138b36ce741e2529f13d7f8e32d835f589afc61be28614d1d6f8b"
+  },
+  "no_performance_computed": true
+}

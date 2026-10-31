@@ -1,0 +1,302 @@
+{
+  "round": 5,
+  "question": "更早反弹阶段与缩量状态是否更稳健",
+  "candidate_count": 6,
+  "inherited": "anchor_prior",
+  "selected": "anchor_prior",
+  "promoted": false,
+  "candidate_register_sha256": "837de46093120a7201125697ceddf6983870249f92ed49f74efa241d8aed2829",
+  "selected_config": {
+    "slots": 5,
+    "forced_day": 3,
+    "take_profit": 0.08,
+    "stop_loss": null,
+    "priority": "ret20_ascending",
+    "filters": [],
+    "max_new_entries": null
+  },
+  "selected_config_sha256": "0da49517ced272c613ff83fd01361ed4c19ab08dcd082d4505b21e49dbc18aee",
+  "training_statistics": {
+    "score": 0.08039427962451334,
+    "mean_annual_return": 0.12518364615106053,
+    "worst_annual_return": 0.07636980008623606,
+    "largest_annual_drawdown": 0.08957873305309438,
+    "returns": [
+      0.15617069520000082,
+      0.1262303089032668,
+      0.14196378041473845,
+      0.07636980008623606
+    ],
+    "total_return": 0.6005269895000023,
+    "full_drawdown": 0.0931240211190969,
+    "terminal_equity": 160052.69895000022,
+    "eligible": true,
+    "guard_reasons": [],
+    "improved_years_vs_v3": 2
+  },
+  "attempts": [
+    {
+      "round": 5,
+      "candidate": "R05_rebound06",
+      "question": "更早反弹阶段与缩量状态是否更稳健",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "rebound_from_low",
+            "op": "<=",
+            "value": 0.06
+          }
+        ],
+        "max_new_entries": null
+      },
+      "config_sha256": "86c402f30d07b8eab16d4e89eb54529aa95d57fb47d1169645c096b6662ad3e7",
+      "score": 0.04836180570826554,
+      "mean_annual_return": 0.09129186814540957,
+      "worst_annual_return": 0.019273533582321534,
+      "largest_annual_drawdown": 0.08586012487428807,
+      "returns": [
+        0.18869748000000097,
+        0.019273533582321534,
+        0.08426190892105323,
+        0.07293455007826255
+      ],
+      "total_return": 0.40951441210000183,
+      "full_drawdown": 0.08586012487428807,
+      "terminal_equity": 140951.4412100002,
+      "eligible": false,
+      "guard_reasons": [
+        "worst_year_floor_failed",
+        "fewer_than_two_years_above_fixed_v3"
+      ],
+      "improved_years_vs_v3": 1,
+      "promotable": false,
+      "rejection_reasons": [
+        "worst_year_floor_failed",
+        "fewer_than_two_years_above_fixed_v3",
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 5,
+      "candidate": "R05_rebound08",
+      "question": "更早反弹阶段与缩量状态是否更稳健",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "rebound_from_low",
+            "op": "<=",
+            "value": 0.08
+          }
+        ],
+        "max_new_entries": null
+      },
+      "config_sha256": "46af9ceee2184e93e50bc939190f23e75b7100cd5e58d5515c8d62dd16cb51d6",
+      "score": 0.07483801950621127,
+      "mean_annual_return": 0.1171860784465607,
+      "worst_annual_return": 0.0757720119425298,
+      "largest_annual_drawdown": 0.08469611788069886,
+      "returns": [
+        0.1786745384000008,
+        0.0757720119425298,
+        0.12058244269580265,
+        0.09371532074790956
+      ],
+      "total_return": 0.5540402131000013,
+      "full_drawdown": 0.08870226267935877,
+      "terminal_equity": 155404.02131000013,
+      "eligible": true,
+      "guard_reasons": [],
+      "improved_years_vs_v3": 2,
+      "promotable": false,
+      "rejection_reasons": [
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 5,
+      "candidate": "R05_volume15",
+      "question": "更早反弹阶段与缩量状态是否更稳健",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "volume_ratio",
+            "op": "<=",
+            "value": 1.5
+          }
+        ],
+        "max_new_entries": null
+      },
+      "config_sha256": "d258feffb5cccd62923502de3f8adde2360e881b0863a23857d1e019a873383b",
+      "score": 0.06206636473346605,
+      "mean_annual_return": 0.1063244666091529,
+      "worst_annual_return": 0.040622997349496925,
+      "largest_annual_drawdown": 0.0885162037513737,
+      "returns": [
+        0.19837060720000088,
+        0.040622997349496925,
+        0.12249355125775407,
+        0.06381071062935972
+      ],
+      "total_return": 0.48913057610000155,
+      "full_drawdown": 0.10374877663286708,
+      "terminal_equity": 148913.05761000016,
+      "eligible": false,
+      "guard_reasons": [
+        "worst_year_floor_failed",
+        "fewer_than_two_years_above_fixed_v3"
+      ],
+      "improved_years_vs_v3": 1,
+      "promotable": false,
+      "rejection_reasons": [
+        "worst_year_floor_failed",
+        "fewer_than_two_years_above_fixed_v3",
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 5,
+      "candidate": "R05_volume20",
+      "question": "更早反弹阶段与缩量状态是否更稳健",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "volume_ratio",
+            "op": "<=",
+            "value": 2
+          }
+        ],
+        "max_new_entries": null
+      },
+      "config_sha256": "a491b45a30971a556d61edf98fcc651d8bb6b5c85979a4d619240982cd510aee",
+      "score": 0.07622888368684844,
+      "mean_annual_return": 0.12086357274596621,
+      "worst_annual_return": 0.06899139900875473,
+      "largest_annual_drawdown": 0.08926937811823554,
+      "returns": [
+        0.181001788000001,
+        0.09065430610508152,
+        0.1428067978700276,
+        0.06899139900875473
+      ],
+      "total_return": 0.5735650445000018,
+      "full_drawdown": 0.11023966386126516,
+      "terminal_equity": 157356.50445000018,
+      "eligible": true,
+      "guard_reasons": [],
+      "improved_years_vs_v3": 2,
+      "promotable": false,
+      "rejection_reasons": [
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 5,
+      "candidate": "R05_priorvol08",
+      "question": "更早反弹阶段与缩量状态是否更稳健",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "last3_volume_ratio",
+            "op": "<=",
+            "value": 0.8
+          }
+        ],
+        "max_new_entries": null
+      },
+      "config_sha256": "abe1c9303356fe4d5d2b73ba35848f26fc4c61ddcc16dc40bf5a4feff1f39b25",
+      "score": 0.05741316517799244,
+      "mean_annual_return": 0.09267748593329633,
+      "worst_annual_return": 0.0022365607967498313,
+      "largest_annual_drawdown": 0.07052864151060778,
+      "returns": [
+        0.13573413640000043,
+        0.07256008334945041,
+        0.16017916318698466,
+        0.0022365607967498313
+      ],
+      "total_return": 0.41642509380000003,
+      "full_drawdown": 0.07052864151060778,
+      "terminal_equity": 141642.50938,
+      "eligible": false,
+      "guard_reasons": [
+        "worst_year_floor_failed"
+      ],
+      "improved_years_vs_v3": 2,
+      "promotable": false,
+      "rejection_reasons": [
+        "worst_year_floor_failed",
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 5,
+      "candidate": "R05_priorvol10",
+      "question": "更早反弹阶段与缩量状态是否更稳健",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "last3_volume_ratio",
+            "op": "<=",
+            "value": 1
+          }
+        ],
+        "max_new_entries": null
+      },
+      "config_sha256": "f37df0e348edecf41241da85c596206266fa132321042e726a825676639b27a5",
+      "score": 0.05408611121019041,
+      "mean_annual_return": 0.09298676926409993,
+      "worst_annual_return": 0.008845010551235433,
+      "largest_annual_drawdown": 0.07780131610781904,
+      "returns": [
+        0.11922673080000101,
+        0.09892980265120754,
+        0.14494553305395574,
+        0.008845010551235433
+      ],
+      "total_return": 0.4206833902000007,
+      "full_drawdown": 0.07780131610781904,
+      "terminal_equity": 142068.33902000007,
+      "eligible": false,
+      "guard_reasons": [
+        "worst_year_floor_failed"
+      ],
+      "improved_years_vs_v3": 2,
+      "promotable": false,
+      "rejection_reasons": [
+        "worst_year_floor_failed",
+        "no_strict_score_gain_over_incumbent"
+      ]
+    }
+  ],
+  "stage": "frozen_before_any_new_batch_2024_account_run"
+}

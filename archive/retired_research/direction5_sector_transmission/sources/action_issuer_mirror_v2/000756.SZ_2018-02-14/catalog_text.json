@@ -1,0 +1,62 @@
+{
+  "symbol": "000756.SZ",
+  "event_date": "2018-02-14",
+  "kind": "unknown_reference",
+  "start": "2017-12-10",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\000756.SZ_2018-02-14\\query_01.json",
+      "sha256": "4315677b99c4366b0bf657347dd7c704f3a5b571b5f91170d02e4c1c34aa8b95",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "000756",
+        "begin_time": "2017-12-10",
+        "end_time": "2018-02-14"
+      }
+    }
+  ],
+  "announcement_count": 18,
+  "documents": [
+    {
+      "title": "新华制药:关于终止筹划发行A股股份购买资产暨股票复牌公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2018-02-14",
+      "raw_response": "sources\\action_issuer_mirror_v2\\000756.SZ_2018-02-14\\AN201802131091446659_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\000756.SZ_2018-02-14\\AN201802131091446659.txt",
+      "sha256": "446410c67bd1081eb1e73d6d51f9fec6681126561b1c5cb5ad94e46bf6d60d45",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\000756.SZ_2018-02-14\\AN201802131091446659_content.json",
+          "sha256": "446410c67bd1081eb1e73d6d51f9fec6681126561b1c5cb5ad94e46bf6d60d45"
+        }
+      ],
+      "article_code": "AN201802131091446659",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201802131091446659_1.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    },
+    {
+      "title": "新华制药:2017年度A股特别派息实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2018-01-20",
+      "raw_response": "sources\\action_issuer_mirror_v2\\000756.SZ_2018-02-14\\AN201801191079657348_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\000756.SZ_2018-02-14\\AN201801191079657348.txt",
+      "sha256": "d9f76a87013dcba99dcdbdced28e301d14df887cd87c4507998a4bad0c7ceab0",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\000756.SZ_2018-02-14\\AN201801191079657348_content.json",
+          "sha256": "d9f76a87013dcba99dcdbdced28e301d14df887cd87c4507998a4bad0c7ceab0"
+        }
+      ],
+      "article_code": "AN201801191079657348",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201801191079657348_1.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

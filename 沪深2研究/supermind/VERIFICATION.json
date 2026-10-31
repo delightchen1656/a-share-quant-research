@@ -1,0 +1,16 @@
+{
+  "status": "local_verified_platform_login_required",
+  "quote_files": 40,
+  "feature_rows": 40706,
+  "signal_rows": 1478,
+  "feature_values_exact": true,
+  "model_predictions_exact": true,
+  "component_ranks_exact": true,
+  "top3_then_atr_exact": true,
+  "python38_syntax_passed": true,
+  "native_callback_tests": 11,
+  "native_platform_run": false,
+  "models_retrained": false,
+  "baseline_selection_unchanged": true,
+  "standalone_sha256": "516fd9699bfd79370a2226ab60d24de2f544c1052b8e5020075be4015e324cca"
+}

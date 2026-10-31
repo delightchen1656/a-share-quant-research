@@ -1,0 +1,44 @@
+{
+  "symbol": "002969.SZ",
+  "event_date": "2024-01-24",
+  "kind": "unknown_reference",
+  "start": "2023-12-09",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\002969.SZ_2024-01-24\\query_01.json",
+      "sha256": "13e9be9b4f47e1173a156d7502ec0c34bbcd47fc66fec08ab1489c6096b9c597",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "002969",
+        "begin_time": "2023-12-09",
+        "end_time": "2024-01-24"
+      }
+    }
+  ],
+  "announcement_count": 34,
+  "documents": [
+    {
+      "title": "嘉美包装:特别分红权益分派实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2024-01-18",
+      "raw_response": "sources\\action_issuer_mirror_v2\\002969.SZ_2024-01-24\\AN202401171617608494_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\002969.SZ_2024-01-24\\AN202401171617608494.txt",
+      "sha256": "41f3dc32c989905ced8b9e0830c156cf4ef3818513e06a80c43370a1b52c15f6",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\002969.SZ_2024-01-24\\AN202401171617608494_content.json",
+          "sha256": "41f3dc32c989905ced8b9e0830c156cf4ef3818513e06a80c43370a1b52c15f6"
+        }
+      ],
+      "article_code": "AN202401171617608494",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202401171617608494_1.pdf?1705531965000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

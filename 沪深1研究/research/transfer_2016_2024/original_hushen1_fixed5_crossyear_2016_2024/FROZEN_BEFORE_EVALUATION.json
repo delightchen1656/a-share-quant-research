@@ -1,0 +1,19 @@
+{
+  "status": "frozen_before_any_performance_calculation",
+  "locked_files": {
+    "PROTOCOL_BEFORE_RUN.md": "979871edd03c82f2151856b523233a269c09d8460b42784cf7de4b2d827bf2b6",
+    "frozen_config.json": "543680561510f7ee7c89e14f7ea03bce8d16275e240ac1cd00a41cf9694866d5",
+    "INPUT_EXTENSION_MANIFEST.json": "25a5bac0a7da09da0713ae32ca7a2c81b5f546f163487d42f53138e7c604d603",
+    "run_once.py": "3af170fea6600751aefcb5a12330817ac8541ee7510a8fc0fd7b5435a464bef0",
+    "PRETEST_LOCK.json": "3c272b854d9195b5351526aefde90e3c1b01ca536ad3a6b113284487d7d70c12",
+    "SYNTHETIC_TEST.json": "f1a5fabf107c160431c5e49a54f0d5a3f896b5c6a5b7b0a1dc66c62e37c2558e",
+    "SIGNAL_EQUIVALENCE.json": "944bcdf7a5f4eb0b71816392e5b6afb4d0885b41e2d5233f0dd4073458676c15",
+    "SIGNAL_CACHE_MANIFEST.json": "0f64d123b18db2fa16d90360f3e90705240ca21bbb47a79472443f0e4b0f57ad",
+    "INPUT_AUDIT_BEFORE_PERFORMANCE.json": "d8ecc4a67b015479f56be8c3af59968e049e7b53d06cdc59e0f796ee96a71d1f",
+    "RAW_INPUT_HASH_VERIFICATION.csv": "41ad0d99963445e76fefbd1a58ff5d29e5e1e05698661bc32d5887d0937d5ac6",
+    "signal_rankings.parquet": "8945a3d732eadb6b99cc9f2259401f9b8768a1887063e0411c07ee808bde53c6",
+    "signal_cache_diagnostics.csv": "154e87ebbce9a738f85012b3d7034a77a0bf5850eb38fa2211ce024c60856971"
+  },
+  "formula_or_parameter_search": false,
+  "performance_computed": false
+}

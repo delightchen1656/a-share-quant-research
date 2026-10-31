@@ -1,0 +1,83 @@
+{
+  "boundary_version": "public-pre2025-v2",
+  "status": "registered_and_clarified_before_true_labels",
+  "fixed_cohort": {
+    "path": "../FULL_SIGNALS.csv",
+    "sha256": "70ea8125a426c3d7a54aa39fcbe01e5bc1f71c6190e17fbd346bdf76b41843f7",
+    "events": 3805,
+    "strict_next_open_unavailable": 6
+  },
+  "scope": "Fixed full-mainboard v3 event set, signal years 2020-2024, no leader grouping or new selection",
+  "input_manifest_sha256": "8d1c78aa55e7667462a95fa3a8e87fd4b14af4075a1b3e2d14ca713503d9f7c3",
+  "horizons": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "day_definition": "D0 is the first official calendar session after signal_date, D+k is calendar ordinal D0+k; never next observed tradable bar",
+  "entry": "Only valid raw open on D0 gives an anchor; six suspended D0 events retained without anchor at every horizon, never delayed",
+  "observation_validity": "Suspension/tradestatus!=1 or zero/unknown volume or invalid open/high/close is not an observed high/close; no forward fill. Exact field-specific validity will be explicit in common engine contract.",
+  "metrics": {
+    "mean_daily_high_return": "Equal-event arithmetic mean of valid normalized day-high returns at each horizon; not a sale at the high",
+    "mean_event_cumulative_high_return": "Per event, maximum known traded high from D0 through horizon; confirmed suspension/zero-volume contributes no new traded high but preserves prior known max. An unknown/missing high or unexplained adjustment prefix blocks primary cumulative high thereafter; then equal-event mean of valid event maxima.",
+    "mean_close_return": "Equal-event arithmetic mean of valid normalized close returns at each horizon",
+    "close_positive_win_rate": "Strictly return>0 count / valid close-return count; zeros are not wins",
+    "price_normalization": "Shared frozen engine: qfq day high/entry qfq open-1 and qfq day close/entry qfq open-1. This is an adjusted-price path, not net economic/account return. Raw ratios are diagnostics only. No cash dividends, tax/fee, share-account or payment accounting."
+  },
+  "prefix_unknown": "Only unknown/missing high or unexplained adjustment creates unknown prefix. Confirmed suspension/zero-volume creates no traded high, preserves known prior cumulative max, and flags prefix_has_suspension=true/all_sessions_traded=false.",
+  "right_censoring": "Keep all 3805 event ids at every one of 21 horizons, mark beyond frozen calendar as censored; never delete an entire event because D+20 unavailable; report horizon-specific valid and invalid denominators per metric",
+  "denominators": "At each horizon: full cohort N=3805, anchor-valid N, known day high N, complete-prefix high N, known close N, close-positive N, and disjoint reason counts. N differs by metric and horizon; rates always identify denominator.",
+  "T_plus_1": "D0 close/high are descriptive path marks, not sellable outcomes; D0 can_sell=false; no implication that any later observed high is an executable fill",
+  "company_action_gate": "Targeted successful issuer-year responses only, not exhaustive. Missing response is coverage limitation, not assumed empty and not blanket block. Unverified declared CROSS-entry action or fixed-tolerance unexplained raw/qfq discrepancy blocks affected primary labels. Entry-day action does not count as cross-entry.",
+  "shared_engine_gate": "Read only exact authorized source file after hash verification; copy into this output directory with source hash. Do not traverse source directory or read direction2 results.",
+  "independent_checks": [
+    "Pure synthetic tests of daily vs per-event cumulative means",
+    "Strict next-official-session mapping",
+    "Unanchored suspended D0 remains unanchored",
+    "Suspended observation leaves daily/close missing and permanently blocks cumulative prefix",
+    "Right-censored horizons retained separately",
+    "Gross no-action raw price arithmetic independently checked for real sample after engine whitelist",
+    "Corporate-action sample arithmetic checked only after shared convention/evidence available"
+  ],
+  "outputs": [
+    "PROTOCOL.json",
+    "CONTEXT_AUDIT.json",
+    "independent_verify.py",
+    "Frozen copied common engine after authorization",
+    "All-event long horizon table and summary by D0..D20",
+    "Per-metric validity/reason denominator tables",
+    "Independent verification and source/input access audit"
+  ],
+  "prohibited": [
+    "accounts",
+    "optimization",
+    "new cohort filters",
+    "posterior",
+    "classifications",
+    "software",
+    "direction2 results",
+    "modifying original RULE/CURRENT/inputs"
+  ],
+  "writes": "scope_full_mainboard/path_D0_D20 only",
+  "final_labels_started": false,
+  "shared_engine_source_sha256": "4f01b79300a9587e3e55d19bc1af1aa316cd879c5cf9d74974f43f671cf485fd",
+  "action_manifest_sha256": "e71ea2f44336d6c5f6a6c88a25294d28a9a54a1849edaa9d6eb43d931fb1d559"
+}

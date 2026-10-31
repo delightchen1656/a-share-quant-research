@@ -1,0 +1,691 @@
+{
+  "status": "repaired_pre2025_only",
+  "cutoff": "2024-12-31",
+  "original_sha256": "e1a9a41116ea92bb18ecff54f7bdc06acfa462dffa57f1842376bbbccca3c480",
+  "query_plan_sha256": "762a39d39f848056e675691e75c37748bb18979fd301d0648a1bf2e56c50644e",
+  "fetch_manifest_sha256": "9eedc1e8ff422044a0545d5bc2e1e1b4b519132d4b9549330de5555441f7fa8f",
+  "output": "inputs_pre2025\\actions_pre2025_repaired_20261024.json",
+  "output_sha256": "b8210ba72187320e55a2ad122dbc6c8b737946f2a533ad1d0f23e862833b8faa",
+  "queried_keys": 15263,
+  "total_keys": 23476,
+  "duplicate_decisions": [
+    {
+      "key": "603258.SH/2020",
+      "date": "2020-09-29",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0
+    },
+    {
+      "key": "601018.SH/2021",
+      "date": "2021-06-30",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.002000000000000224
+    },
+    {
+      "key": "000877.SZ/2021",
+      "date": "2021-05-26",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 1.7763568394002505e-15
+    },
+    {
+      "key": "000887.SZ/2021",
+      "date": "2021-06-07",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 1.7763568394002505e-15
+    },
+    {
+      "key": "000921.SZ/2021",
+      "date": "2021-07-09",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 0.00300000000000189
+    },
+    {
+      "key": "002003.SZ/2021",
+      "date": "2021-05-26",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 0.0
+    },
+    {
+      "key": "002085.SZ/2021",
+      "date": "2021-07-16",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 0.009999999999999787
+    },
+    {
+      "key": "002116.SZ/2021",
+      "date": "2021-06-23",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 0.0038000000000000256
+    },
+    {
+      "key": "002191.SZ/2021",
+      "date": "2021-06-11",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.009999999999999787
+    },
+    {
+      "key": "002233.SZ/2021",
+      "date": "2021-04-28",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0
+    },
+    {
+      "key": "002349.SZ/2021",
+      "date": "2021-06-30",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 5.699999999997374e-05
+    },
+    {
+      "key": "002881.SZ/2021",
+      "date": "2021-06-11",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 0.0
+    },
+    {
+      "key": "002888.SZ/2021",
+      "date": "2021-06-03",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0033333333333338544
+    },
+    {
+      "key": "002899.SZ/2021",
+      "date": "2021-06-15",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 0.0010000000000012221
+    },
+    {
+      "key": "002946.SZ/2021",
+      "date": "2021-06-23",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 1.7763568394002505e-15
+    },
+    {
+      "key": "002980.SZ/2021",
+      "date": "2021-06-09",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 7.105427357601002e-15
+    },
+    {
+      "key": "600266.SH/2021",
+      "date": "2021-07-14",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 0.009999999999999787
+    },
+    {
+      "key": "603060.SH/2021",
+      "date": "2021-06-28",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.002142857142857224
+    },
+    {
+      "key": "603221.SH/2021",
+      "date": "2021-07-08",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 1.7763568394002505e-15
+    },
+    {
+      "key": "603630.SH/2021",
+      "date": "2021-07-16",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0
+    },
+    {
+      "key": "603633.SH/2021",
+      "date": "2021-08-27",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0030000000000001137
+    },
+    {
+      "key": "603711.SH/2021",
+      "date": "2021-07-02",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0
+    },
+    {
+      "key": "603839.SH/2021",
+      "date": "2021-06-07",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.009999999999999787
+    },
+    {
+      "key": "000488.SZ/2021",
+      "date": "2021-08-12",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 0.004999999999999893
+    },
+    {
+      "key": "000597.SZ/2021",
+      "date": "2021-05-27",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0019999999999997797
+    },
+    {
+      "key": "002047.SZ/2021",
+      "date": "2021-06-04",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 4.440892098500626e-16
+    },
+    {
+      "key": "002243.SZ/2021",
+      "date": "2021-05-28",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0
+    },
+    {
+      "key": "002382.SZ/2021",
+      "date": "2021-07-07",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 3.552713678800501e-15
+    },
+    {
+      "key": "002818.SZ/2021",
+      "date": "2021-05-07",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0
+    },
+    {
+      "key": "003005.SZ/2021",
+      "date": "2021-07-22",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0
+    },
+    {
+      "key": "600218.SH/2021",
+      "date": "2021-06-23",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 1.7763568394002505e-15
+    },
+    {
+      "key": "600287.SH/2021",
+      "date": "2021-07-23",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 0.0
+    },
+    {
+      "key": "600389.SH/2021",
+      "date": "2021-05-27",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0
+    },
+    {
+      "key": "600529.SH/2021",
+      "date": "2021-07-08",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0
+    },
+    {
+      "key": "600720.SH/2021",
+      "date": "2021-05-27",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 0.0
+    },
+    {
+      "key": "600833.SH/2021",
+      "date": "2021-08-19",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 0.005000000000000782
+    },
+    {
+      "key": "603331.SH/2021",
+      "date": "2021-06-30",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 1.7763568394002505e-15
+    },
+    {
+      "key": "603599.SH/2021",
+      "date": "2021-06-16",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 0.0
+    },
+    {
+      "key": "603880.SH/2021",
+      "date": "2021-05-21",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.00230769230769301
+    },
+    {
+      "key": "603912.SH/2021",
+      "date": "2021-06-23",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0
+    },
+    {
+      "key": "000028.SZ/2021",
+      "date": "2021-06-21",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0
+    },
+    {
+      "key": "000552.SZ/2021",
+      "date": "2021-06-03",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 4.440892098500626e-16
+    },
+    {
+      "key": "000672.SZ/2021",
+      "date": "2021-05-31",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 0.010000000000001563
+    },
+    {
+      "key": "000869.SZ/2021",
+      "date": "2021-07-13",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 0.0
+    },
+    {
+      "key": "000920.SZ/2021",
+      "date": "2021-06-17",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 0.0019999999999997797
+    },
+    {
+      "key": "002012.SZ/2021",
+      "date": "2021-06-08",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0008999999999996788
+    },
+    {
+      "key": "002403.SZ/2021",
+      "date": "2021-07-20",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 0.005000000000000782
+    },
+    {
+      "key": "002698.SZ/2021",
+      "date": "2021-06-22",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0
+    },
+    {
+      "key": "002787.SZ/2021",
+      "date": "2021-06-11",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 0.0
+    },
+    {
+      "key": "002935.SZ/2021",
+      "date": "2021-06-11",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0
+    },
+    {
+      "key": "002968.SZ/2021",
+      "date": "2021-04-30",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.003333333333337407
+    },
+    {
+      "key": "003018.SZ/2021",
+      "date": "2021-05-11",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0
+    },
+    {
+      "key": "600232.SH/2021",
+      "date": "2021-05-25",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0
+    },
+    {
+      "key": "600565.SH/2021",
+      "date": "2021-06-04",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 4.440892098500626e-16
+    },
+    {
+      "key": "600649.SH/2021",
+      "date": "2021-08-19",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0019999999999997797
+    },
+    {
+      "key": "600710.SH/2021",
+      "date": "2021-06-10",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 0.001000000000000334
+    },
+    {
+      "key": "600761.SH/2021",
+      "date": "2021-06-18",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0
+    },
+    {
+      "key": "603006.SH/2021",
+      "date": "2021-05-25",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0
+    },
+    {
+      "key": "603258.SH/2021",
+      "date": "2021-07-01",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0
+    },
+    {
+      "key": "603610.SH/2021",
+      "date": "2021-06-07",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 0.0033333333333303017
+    },
+    {
+      "key": "603976.SH/2021",
+      "date": "2021-04-16",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 0.003999999999997783
+    },
+    {
+      "key": "000813.SZ/2021",
+      "date": "2021-06-01",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0
+    },
+    {
+      "key": "000903.SZ/2021",
+      "date": "2021-07-29",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 0.0050000000000003375
+    },
+    {
+      "key": "000906.SZ/2021",
+      "date": "2021-06-09",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 1.7763568394002505e-15
+    },
+    {
+      "key": "001212.SZ/2021",
+      "date": "2021-11-02",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 0.0
+    },
+    {
+      "key": "002033.SZ/2021",
+      "date": "2021-05-18",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0
+    },
+    {
+      "key": "002658.SZ/2021",
+      "date": "2021-10-19",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 0.0
+    },
+    {
+      "key": "002772.SZ/2021",
+      "date": "2021-05-20",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.009999999999998899
+    },
+    {
+      "key": "002775.SZ/2021",
+      "date": "2021-05-17",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.009999999999999787
+    },
+    {
+      "key": "600180.SH/2021",
+      "date": "2021-07-02",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 0.0034000000000000696
+    },
+    {
+      "key": "600333.SH/2021",
+      "date": "2021-08-23",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0
+    },
+    {
+      "key": "600461.SH/2021",
+      "date": "2021-07-09",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.001000000000000334
+    },
+    {
+      "key": "600480.SH/2021",
+      "date": "2021-07-23",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0009999999999994458
+    },
+    {
+      "key": "600560.SH/2021",
+      "date": "2021-06-09",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0019999999999988916
+    },
+    {
+      "key": "600566.SH/2021",
+      "date": "2021-05-26",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0
+    },
+    {
+      "key": "600605.SH/2021",
+      "date": "2021-05-17",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.004285714285714448
+    },
+    {
+      "key": "600790.SH/2021",
+      "date": "2021-06-11",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 0.0
+    },
+    {
+      "key": "603660.SH/2021",
+      "date": "2021-05-21",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0
+    },
+    {
+      "key": "603767.SH/2021",
+      "date": "2021-06-08",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 8.881784197001252e-16
+    },
+    {
+      "key": "603927.SH/2021",
+      "date": "2021-07-05",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 0.004285714285710895
+    },
+    {
+      "key": "603956.SH/2021",
+      "date": "2021-06-01",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0032999999999994145
+    },
+    {
+      "key": "603339.SH/2020",
+      "date": "2020-07-06",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.004864864864863705
+    },
+    {
+      "key": "603477.SH/2020",
+      "date": "2020-04-27",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 1.7763568394002505e-15
+    },
+    {
+      "key": "002840.SZ/2021",
+      "date": "2021-06-30",
+      "candidates": 3,
+      "selected_index": 2,
+      "reference_error": 0.0019990000000014163
+    },
+    {
+      "key": "603629.SH/2020",
+      "date": "2020-06-30",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 3.552713678800501e-15
+    },
+    {
+      "key": "603728.SH/2021",
+      "date": "2021-06-08",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 0.0010000000000012221
+    },
+    {
+      "key": "603887.SH/2021",
+      "date": "2021-06-24",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 1.7763568394002505e-15
+    },
+    {
+      "key": "002980.SZ/2020",
+      "date": "2020-09-28",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 0.0
+    },
+    {
+      "key": "600178.SH/2021",
+      "date": "2021-06-24",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0
+    },
+    {
+      "key": "600386.SH/2020",
+      "date": "2020-08-20",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0
+    },
+    {
+      "key": "600853.SH/2020",
+      "date": "2020-06-22",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 4.440892098500626e-16
+    },
+    {
+      "key": "603839.SH/2020",
+      "date": "2020-10-19",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 0.009999999999999787
+    },
+    {
+      "key": "603396.SH/2021",
+      "date": "2021-04-21",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 3.552713678800501e-15
+    },
+    {
+      "key": "603650.SH/2021",
+      "date": "2021-06-08",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.0
+    },
+    {
+      "key": "603809.SH/2021",
+      "date": "2021-06-17",
+      "candidates": 2,
+      "selected_index": 0,
+      "reference_error": 0.001428571428572667
+    },
+    {
+      "key": "002166.SZ/2021",
+      "date": "2021-05-25",
+      "candidates": 2,
+      "selected_index": 1,
+      "reference_error": 0.0
+    }
+  ],
+  "coverage": {
+    "price_discontinuities": 23527,
+    "explained_within_0.011": 23095,
+    "unresolved": 432
+  },
+  "unresolved_csv_sha256": "48307b89fe2bb94cf1627fe94295dc7a7ed221f0b8303d69077215049cadc86c"
+}

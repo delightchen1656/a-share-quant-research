@@ -1,0 +1,180 @@
+{
+  "round": 8,
+  "question": "固定初始名义本金止损能否缓解回撤",
+  "candidate_count": 4,
+  "inherited": "R07_tp15",
+  "selected": "R07_tp15",
+  "promoted": false,
+  "candidate_register_sha256": "ad19ca3aeb30a9cc31ced4b637296f0321a141afc546ee6f0e4f0de9abdab05e",
+  "selected_config": {
+    "slots": 5,
+    "forced_day": 3,
+    "take_profit": 0.15,
+    "stop_loss": null,
+    "priority": "ret20_ascending",
+    "filters": [],
+    "max_new_entries": null
+  },
+  "selected_config_sha256": "4e08b931a0cef23810bb58965233688ffd16514f2c7363890c7c8ab5edda21d3",
+  "training_statistics": {
+    "score": 0.09254052567115162,
+    "mean_annual_return": 0.13640786588054177,
+    "worst_annual_return": 0.08734810300355833,
+    "largest_annual_drawdown": 0.0877346804187803,
+    "returns": [
+      0.19918554120000054,
+      0.15368019215407158,
+      0.10541762716453662,
+      0.08734810300355833
+    ],
+    "total_return": 0.6629025774000004,
+    "full_drawdown": 0.09122114624403554,
+    "terminal_equity": 166290.25774000003,
+    "eligible": true,
+    "guard_reasons": [],
+    "improved_years_vs_v3": 2
+  },
+  "attempts": [
+    {
+      "round": 8,
+      "candidate": "R08_sl03",
+      "question": "固定初始名义本金止损能否缓解回撤",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.15,
+        "stop_loss": 0.03,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "config_sha256": "1040da75d4bbf64fc22109ac8a2bf341f3ad08b11e40455c842a20464b08342a",
+      "score": 0.04713074948944129,
+      "mean_annual_return": 0.1133081794061227,
+      "worst_annual_return": 0.06744013063939325,
+      "largest_annual_drawdown": 0.13235485983336281,
+      "returns": [
+        0.2132546308000005,
+        0.06744013063939325,
+        0.08819695221358193,
+        0.08434100397151512
+      ],
+      "total_return": 0.5281601480000009,
+      "full_drawdown": 0.17003829920188285,
+      "terminal_equity": 152816.0148000001,
+      "eligible": true,
+      "guard_reasons": [],
+      "improved_years_vs_v3": 2,
+      "promotable": false,
+      "rejection_reasons": [
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 8,
+      "candidate": "R08_sl05",
+      "question": "固定初始名义本金止损能否缓解回撤",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.15,
+        "stop_loss": 0.05,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "config_sha256": "297710a4bc66761974f0043b492dfa0bdd637f127b44118242fe6a4d805b66c0",
+      "score": 0.04203697660059519,
+      "mean_annual_return": 0.10695549774377178,
+      "worst_annual_return": 0.06868879322721066,
+      "largest_annual_drawdown": 0.12983704228635318,
+      "returns": [
+        0.16795775600000074,
+        0.06868879322721066,
+        0.09393337413913283,
+        0.09724206760874288
+      ],
+      "total_return": 0.4982066217000021,
+      "full_drawdown": 0.16368181704025575,
+      "terminal_equity": 149820.6621700002,
+      "eligible": true,
+      "guard_reasons": [],
+      "improved_years_vs_v3": 2,
+      "promotable": false,
+      "rejection_reasons": [
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 8,
+      "candidate": "R08_sl08",
+      "question": "固定初始名义本金止损能否缓解回撤",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.15,
+        "stop_loss": 0.08,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "config_sha256": "59ebaaa3779a9e08a0d4ab5753d021ddf66c020308699ba9740d03be29e39c17",
+      "score": 0.05834997004520048,
+      "mean_annual_return": 0.12931711668752127,
+      "worst_annual_return": 0.061225913387779274,
+      "largest_annual_drawdown": 0.14193429328464158,
+      "returns": [
+        0.20843331800000087,
+        0.15762796139654367,
+        0.061225913387779274,
+        0.08998127396576128
+      ],
+      "total_return": 0.6181492712000025,
+      "full_drawdown": 0.14438234674717687,
+      "terminal_equity": 161814.92712000024,
+      "eligible": true,
+      "guard_reasons": [],
+      "improved_years_vs_v3": 2,
+      "promotable": false,
+      "rejection_reasons": [
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 8,
+      "candidate": "R08_sl10",
+      "question": "固定初始名义本金止损能否缓解回撤",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.15,
+        "stop_loss": 0.1,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "config_sha256": "2adf32122599a765092fe3e4275c3caac5efb6455e13a0480e94bfa533ef2ed2",
+      "score": 0.08380528544403876,
+      "mean_annual_return": 0.13610270221970316,
+      "worst_annual_return": 0.08736079703504629,
+      "largest_annual_drawdown": 0.10459483355132881,
+      "returns": [
+        0.18261464800000038,
+        0.15406863385984426,
+        0.12036672998392173,
+        0.08736079703504629
+      ],
+      "total_return": 0.6626803584000003,
+      "full_drawdown": 0.1056998236463278,
+      "terminal_equity": 166268.03584000003,
+      "eligible": true,
+      "guard_reasons": [],
+      "improved_years_vs_v3": 2,
+      "promotable": false,
+      "rejection_reasons": [
+        "no_strict_score_gain_over_incumbent"
+      ]
+    }
+  ],
+  "stage": "frozen_before_any_new_batch_2024_account_run"
+}

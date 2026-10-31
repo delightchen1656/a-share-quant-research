@@ -1,0 +1,81 @@
+{
+  "summary": {
+    "unresolved_quote_events": 1264,
+    "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+    "scope": "all",
+    "capital": "1000000.00",
+    "slots": 20,
+    "slot_budget": "50000.00",
+    "take_profit": 0.15,
+    "stop_loss": 0.12,
+    "trailing": false,
+    "rank": "code",
+    "forced_day": 20,
+    "final_equity": "1384292.13",
+    "total_return": 0.38429213,
+    "annualized_return": 0.06717085252588162,
+    "max_drawdown": -0.18281242007978188,
+    "closed_trades": 794,
+    "open_positions": 17,
+    "pending_signals": 0,
+    "skipped": 2994,
+    "corporate_events": 12,
+    "total_transaction_fees": "60333.33",
+    "sold_dividend_tax_payable": "2690.75",
+    "held_dividend_tax_estimate": "0.00",
+    "cash_collection_dates_not_fabricated": true,
+    "closed_pnl": "462402.52",
+    "open_marked_pnl": "-78110.39",
+    "economic_pnl_residual": "0.00"
+  },
+  "yearly": [
+    {
+      "year": 2020,
+      "return_pct": 0.11770666,
+      "max_drawdown": -0.10451730396228441,
+      "end_equity": "1117706.66"
+    },
+    {
+      "year": 2021,
+      "return_pct": 0.11351079361019464,
+      "max_drawdown": -0.1362311871916629,
+      "end_equity": "1244578.43"
+    },
+    {
+      "year": 2022,
+      "return_pct": 0.141422208321576,
+      "max_drawdown": -0.10499285642765649,
+      "end_equity": "1420589.46"
+    },
+    {
+      "year": 2023,
+      "return_pct": -0.0071658915447676205,
+      "max_drawdown": -0.10588603975971306,
+      "end_equity": "1410409.67"
+    },
+    {
+      "year": 2024,
+      "return_pct": -0.018517697769329673,
+      "max_drawdown": -0.13772885768029589,
+      "end_equity": "1384292.13"
+    }
+  ],
+  "audit": {
+    "passed": true,
+    "journal_records": 1629,
+    "nav_dates": 1212,
+    "closed_trades": 794,
+    "max_concurrent_positions": 20,
+    "max_buy_cost_including_fees": "50000.00",
+    "ledger_cash_and_receivables_replayed": true,
+    "sold_tax_liabilities_replayed": true,
+    "share_inventory_replayed": true,
+    "T_plus_1": true,
+    "strict_next_official_open": true,
+    "open_cash_timing": true,
+    "registered_priority": true,
+    "locked_shares_not_sold": true,
+    "independent_yearly_and_global_drawdown": true,
+    "economic_pnl_residual": "0.00"
+  }
+}

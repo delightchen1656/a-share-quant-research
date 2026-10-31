@@ -1,0 +1,76 @@
+{
+  "symbol": "002335.SZ",
+  "event_date": "2018-05-16",
+  "kind": "dividend_fields",
+  "start": "2018-02-25",
+  "query_files": [
+    {
+      "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_01.json",
+      "sha256": "87eb3a83a729087ebd80b6feed0483d735d4a209ab260e7d2742888fef314419"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_02.json",
+      "sha256": "87eb3a83a729087ebd80b6feed0483d735d4a209ab260e7d2742888fef314419"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_03.json",
+      "sha256": "a2992922cf8d5d5d60f98d2d886f4ddbc597a885f64295eeaa52d81b6b02fec4"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_04.json",
+      "sha256": "87eb3a83a729087ebd80b6feed0483d735d4a209ab260e7d2742888fef314419"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_05.json",
+      "sha256": "87eb3a83a729087ebd80b6feed0483d735d4a209ab260e7d2742888fef314419"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_06.json",
+      "sha256": "a2992922cf8d5d5d60f98d2d886f4ddbc597a885f64295eeaa52d81b6b02fec4"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_07.json",
+      "sha256": "87eb3a83a729087ebd80b6feed0483d735d4a209ab260e7d2742888fef314419"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_08.json",
+      "sha256": "87eb3a83a729087ebd80b6feed0483d735d4a209ab260e7d2742888fef314419"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_09.json",
+      "sha256": "87eb3a83a729087ebd80b6feed0483d735d4a209ab260e7d2742888fef314419"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_10.json",
+      "sha256": "87eb3a83a729087ebd80b6feed0483d735d4a209ab260e7d2742888fef314419"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_11.json",
+      "sha256": "87eb3a83a729087ebd80b6feed0483d735d4a209ab260e7d2742888fef314419"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_12.json",
+      "sha256": "87eb3a83a729087ebd80b6feed0483d735d4a209ab260e7d2742888fef314419"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_13.json",
+      "sha256": "87eb3a83a729087ebd80b6feed0483d735d4a209ab260e7d2742888fef314419"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_14.json",
+      "sha256": "87eb3a83a729087ebd80b6feed0483d735d4a209ab260e7d2742888fef314419"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_15.json",
+      "sha256": "87eb3a83a729087ebd80b6feed0483d735d4a209ab260e7d2742888fef314419"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002335.SZ_2018-05-16\\query_16.json",
+      "sha256": "34c0cb3a61c5b6c383498053dfd73e7c573dfba23f8ada91481e3f8f1925a9aa"
+    }
+  ],
+  "exact_code_announcements": 472,
+  "documents": [],
+  "no_document_is_not_no_event_proof": true,
+  "fields_verified": false
+}

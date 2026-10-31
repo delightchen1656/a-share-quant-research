@@ -1,0 +1,45 @@
+{
+  "key": "600305.SH/2013",
+  "request": {
+    "code": "sh.600305",
+    "year": "2013",
+    "yearType": "operate"
+  },
+  "fields": [
+    "code",
+    "dividPreNoticeDate",
+    "dividAgmPumDate",
+    "dividPlanAnnounceDate",
+    "dividPlanDate",
+    "dividRegistDate",
+    "dividOperateDate",
+    "dividPayDate",
+    "dividStockMarketDate",
+    "dividCashPsBeforeTax",
+    "dividCashPsAfterTax",
+    "dividStocksPs",
+    "dividCashStock",
+    "dividReserveToStockPs"
+  ],
+  "records": [
+    {
+      "code": "sh.600305",
+      "dividPreNoticeDate": "",
+      "dividAgmPumDate": "2013-10-31",
+      "dividPlanAnnounceDate": "2013-08-20",
+      "dividPlanDate": "2013-11-06",
+      "dividRegistDate": "2013-11-12",
+      "dividOperateDate": "2013-11-13",
+      "dividPayDate": "",
+      "dividStockMarketDate": "2013-11-14",
+      "dividCashPsBeforeTax": "",
+      "dividCashPsAfterTax": "",
+      "dividStocksPs": "0.000000",
+      "dividCashStock": "10转10",
+      "dividReserveToStockPs": "1.000000"
+    }
+  ],
+  "row_count": 1,
+  "successful_empty": false,
+  "cutoff": "2024-12-31"
+}

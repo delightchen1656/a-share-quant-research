@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "permanently_locked": true,
+  "search_space_sha256": "e8db2afeefb008ab077791a7b6d8af87c8a3a2082e726d8892d3eccc465ef935",
+  "frozen_candidate_sha256": "fca25948cd5df3bd550b40bfa4702376e4211035d643a3294c4da8731059dccd",
+  "candidate_id": "baseline",
+  "confirmation_start_count": 58,
+  "confirmation_passed": false,
+  "final_decision": "retain_baseline",
+  "failure_reasons": [
+    "development_rules_retained_baseline"
+  ],
+  "confirmation_files": [
+    "confirmation_all_starts.csv",
+    "confirmation_yearly.csv",
+    "confirmation_summary.csv"
+  ],
+  "confirmation_lock_sha256": "6b1de4369440f9de1c929fc5b89c3ce12a12b9ed209244a584c0d928eb920a3a"
+}

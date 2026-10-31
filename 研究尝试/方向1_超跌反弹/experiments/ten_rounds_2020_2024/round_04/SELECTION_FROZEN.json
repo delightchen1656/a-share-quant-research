@@ -1,0 +1,356 @@
+{
+  "round": 4,
+  "question": "更低价格或更深超跌是否改善收益与尾部风险",
+  "candidate_count": 7,
+  "inherited": "anchor_prior",
+  "selected": "anchor_prior",
+  "promoted": false,
+  "candidate_register_sha256": "2a86e3d945d88635ae584b39faf1353ed2c2e69475d31844c149ea82bb5d5b6c",
+  "selected_config": {
+    "slots": 5,
+    "forced_day": 3,
+    "take_profit": 0.08,
+    "stop_loss": null,
+    "priority": "ret20_ascending",
+    "filters": [],
+    "max_new_entries": null
+  },
+  "selected_config_sha256": "0da49517ced272c613ff83fd01361ed4c19ab08dcd082d4505b21e49dbc18aee",
+  "training_statistics": {
+    "score": 0.08039427962451334,
+    "mean_annual_return": 0.12518364615106053,
+    "worst_annual_return": 0.07636980008623606,
+    "largest_annual_drawdown": 0.08957873305309438,
+    "returns": [
+      0.15617069520000082,
+      0.1262303089032668,
+      0.14196378041473845,
+      0.07636980008623606
+    ],
+    "total_return": 0.6005269895000023,
+    "full_drawdown": 0.0931240211190969,
+    "terminal_equity": 160052.69895000022,
+    "eligible": true,
+    "guard_reasons": [],
+    "improved_years_vs_v3": 2
+  },
+  "attempts": [
+    {
+      "round": 4,
+      "candidate": "R04_price5",
+      "question": "更低价格或更深超跌是否改善收益与尾部风险",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "raw_close",
+            "op": "<",
+            "value": 5
+          }
+        ],
+        "max_new_entries": null
+      },
+      "config_sha256": "ca46ac0accf8fec0a430447d2d110e0d5b02ca615c645549cbfbdf87075c8642",
+      "score": 0.06738758699462682,
+      "mean_annual_return": 0.09991902840452288,
+      "worst_annual_return": 0.05529127613965201,
+      "largest_annual_drawdown": 0.06506288281979211,
+      "returns": [
+        0.16757982120000037,
+        0.07999828868573777,
+        0.09680672759270137,
+        0.05529127613965201
+      ],
+      "total_return": 0.4595268927999998,
+      "full_drawdown": 0.0661948236095723,
+      "terminal_equity": 145952.68928,
+      "eligible": false,
+      "guard_reasons": [
+        "worst_year_floor_failed",
+        "fewer_than_two_years_above_fixed_v3"
+      ],
+      "improved_years_vs_v3": 1,
+      "promotable": false,
+      "rejection_reasons": [
+        "worst_year_floor_failed",
+        "fewer_than_two_years_above_fixed_v3",
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 4,
+      "candidate": "R04_price6",
+      "question": "更低价格或更深超跌是否改善收益与尾部风险",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "raw_close",
+            "op": "<",
+            "value": 6
+          }
+        ],
+        "max_new_entries": null
+      },
+      "config_sha256": "95b57e315b8ca60313e623638eb2c7c61a0546e77aa972e95947568c40b67d61",
+      "score": 0.07011564026409839,
+      "mean_annual_return": 0.10655943472938606,
+      "worst_annual_return": 0.062488286688071826,
+      "largest_annual_drawdown": 0.07288758893057534,
+      "returns": [
+        0.18082408360000057,
+        0.09807108883394755,
+        0.08485427979552429,
+        0.062488286688071826
+      ],
+      "total_return": 0.49455264310000135,
+      "full_drawdown": 0.07288758893057534,
+      "terminal_equity": 149455.26431000014,
+      "eligible": false,
+      "guard_reasons": [
+        "fewer_than_two_years_above_fixed_v3"
+      ],
+      "improved_years_vs_v3": 1,
+      "promotable": false,
+      "rejection_reasons": [
+        "fewer_than_two_years_above_fixed_v3",
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 4,
+      "candidate": "R04_ma10",
+      "question": "更低价格或更深超跌是否改善收益与尾部风险",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "below_ma20",
+            "op": "<=",
+            "value": -0.1
+          }
+        ],
+        "max_new_entries": null
+      },
+      "config_sha256": "32cd257f6e70870d4feacb7d9a192b7e9c7bf742802f29d3d68ee5579d70eb63",
+      "score": 0.06051023423493057,
+      "mean_annual_return": 0.10093382639788351,
+      "worst_annual_return": 0.0532680370531482,
+      "largest_annual_drawdown": 0.08084718432590587,
+      "returns": [
+        0.17208469440000096,
+        0.07474984326525091,
+        0.10363273087313396,
+        0.0532680370531482
+      ],
+      "total_return": 0.4642993256000014,
+      "full_drawdown": 0.09200672929919917,
+      "terminal_equity": 146429.93256000013,
+      "eligible": false,
+      "guard_reasons": [
+        "worst_year_floor_failed",
+        "fewer_than_two_years_above_fixed_v3"
+      ],
+      "improved_years_vs_v3": 1,
+      "promotable": false,
+      "rejection_reasons": [
+        "worst_year_floor_failed",
+        "fewer_than_two_years_above_fixed_v3",
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 4,
+      "candidate": "R04_ma12",
+      "question": "更低价格或更深超跌是否改善收益与尾部风险",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "below_ma20",
+            "op": "<=",
+            "value": -0.12
+          }
+        ],
+        "max_new_entries": null
+      },
+      "config_sha256": "fc85f484dd0a513169bfa6d38c8066ff84d039d98ea92feb2bfc0d579db15c45",
+      "score": 0.09907900027200717,
+      "mean_annual_return": 0.12548308736476704,
+      "worst_annual_return": 0.027492757406451407,
+      "largest_annual_drawdown": 0.05280817418551975,
+      "returns": [
+        0.22561182040000038,
+        0.12852869087749852,
+        0.12029908077511786,
+        0.027492757406451407
+      ],
+      "total_return": 0.592129152500001,
+      "full_drawdown": 0.07326472308519916,
+      "terminal_equity": 159212.9152500001,
+      "eligible": false,
+      "guard_reasons": [
+        "worst_year_floor_failed",
+        "fewer_than_two_years_above_fixed_v3"
+      ],
+      "improved_years_vs_v3": 1,
+      "promotable": false,
+      "rejection_reasons": [
+        "worst_year_floor_failed",
+        "fewer_than_two_years_above_fixed_v3"
+      ]
+    },
+    {
+      "round": 4,
+      "candidate": "R04_ma15",
+      "question": "更低价格或更深超跌是否改善收益与尾部风险",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "below_ma20",
+            "op": "<=",
+            "value": -0.15
+          }
+        ],
+        "max_new_entries": null
+      },
+      "config_sha256": "3c896fe831c7288e75ed23ba9828bfcdc8710a3ef5279e9e38fed198d491d02d",
+      "score": 0.05673809747028208,
+      "mean_annual_return": 0.07167017126275543,
+      "worst_annual_return": 0.000781643186411829,
+      "largest_annual_drawdown": 0.02986414758494671,
+      "returns": [
+        0.17902040320000046,
+        0.03203399762844761,
+        0.07484464103616184,
+        0.000781643186411829
+      ],
+      "total_return": 0.3088815657000006,
+      "full_drawdown": 0.04504908967793941,
+      "terminal_equity": 130888.15657000005,
+      "eligible": false,
+      "guard_reasons": [
+        "worst_year_floor_failed",
+        "fewer_than_two_years_above_fixed_v3"
+      ],
+      "improved_years_vs_v3": 1,
+      "promotable": false,
+      "rejection_reasons": [
+        "worst_year_floor_failed",
+        "fewer_than_two_years_above_fixed_v3",
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 4,
+      "candidate": "R04_ret20deep",
+      "question": "更低价格或更深超跌是否改善收益与尾部风险",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "ret20",
+            "op": "<=",
+            "value": -0.2
+          }
+        ],
+        "max_new_entries": null
+      },
+      "config_sha256": "c2eed509328d770a6d0788c02411ac6941b613c30c1f01ebc017158089c02e4d",
+      "score": 0.06156103406822089,
+      "mean_annual_return": 0.09562227080627989,
+      "worst_annual_return": 0.035331431888454334,
+      "largest_annual_drawdown": 0.068122473476118,
+      "returns": [
+        0.23068587600000034,
+        0.07689748703998345,
+        0.035331431888454334,
+        0.039574288296681415
+      ],
+      "total_return": 0.4264498531000023,
+      "full_drawdown": 0.110114975581029,
+      "terminal_equity": 142644.98531000022,
+      "eligible": false,
+      "guard_reasons": [
+        "worst_year_floor_failed",
+        "fewer_than_two_years_above_fixed_v3"
+      ],
+      "improved_years_vs_v3": 1,
+      "promotable": false,
+      "rejection_reasons": [
+        "worst_year_floor_failed",
+        "fewer_than_two_years_above_fixed_v3",
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 4,
+      "candidate": "R04_ret5deep",
+      "question": "更低价格或更深超跌是否改善收益与尾部风险",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "ret5",
+            "op": "<=",
+            "value": -0.12
+          }
+        ],
+        "max_new_entries": null
+      },
+      "config_sha256": "96462625025582d2cfdaec635ed38dad4885c188228ab556aaf37fb94ad5c907",
+      "score": 0.09368792517702279,
+      "mean_annual_return": 0.1154950242415515,
+      "worst_annual_return": 0.03593273523055074,
+      "largest_annual_drawdown": 0.043614198129057424,
+      "returns": [
+        0.16618961680000033,
+        0.11885079647709729,
+        0.14100694845855766,
+        0.03593273523055074
+      ],
+      "total_return": 0.542272773300001,
+      "full_drawdown": 0.07512186380466379,
+      "terminal_equity": 154227.2773300001,
+      "eligible": false,
+      "guard_reasons": [
+        "worst_year_floor_failed"
+      ],
+      "improved_years_vs_v3": 2,
+      "promotable": false,
+      "rejection_reasons": [
+        "worst_year_floor_failed"
+      ]
+    }
+  ],
+  "stage": "frozen_before_any_new_batch_2024_account_run"
+}

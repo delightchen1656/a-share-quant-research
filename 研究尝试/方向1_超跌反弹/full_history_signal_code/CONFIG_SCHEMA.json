@@ -1,0 +1,75 @@
+{
+  "config": {
+    "prices": {
+      "root": "EXPLICIT_FROZEN_PRICE_ROOT",
+      "manifest_sha256": "APPROVED_64_HEX",
+      "manifest_name": "MANIFEST.json"
+    },
+    "structure": {
+      "path": "EXPLICIT_ORIGINAL_STRUCTURE_PY",
+      "sha256": "APPROVED_ORIGINAL_HASH"
+    },
+    "signal_start": "YYYY-MM-DD",
+    "signal_cutoff": "YYYY-MM-DD",
+    "output_dir": "EXPLICIT_NEW_OUTPUT_DIRECTORY",
+    "overwrite": false,
+    "universe_columns": {
+      "code": "code",
+      "name": "name",
+      "ipo_date": "ipo_date"
+    },
+    "limits": {
+      "kind": "single_table",
+      "path": "EXPLICIT_DAILY_LIMITS.parquet",
+      "sha256": "APPROVED_64_HEX"
+    }
+  },
+  "alternative_limits": {
+    "kind": "per_code_manifest",
+    "root": "EXPLICIT_RATE_TABLE_ROOT",
+    "manifest_sha256": "APPROVED_64_HEX",
+    "manifest_name": "MANIFEST.json"
+  },
+  "price_manifest": {
+    "cutoff": "YYYY-MM-DD",
+    "universe": "universe.parquet",
+    "calendar": "calendar.parquet",
+    "quote_manifest": "QUOTE_MANIFEST.json",
+    "files": [
+      {
+        "path": "RELATIVE_PATH",
+        "sha256": "HASH"
+      }
+    ],
+    "daily_limit_rates": "OPTIONAL_FROZEN_DAILY_RATE_TABLE_RELATIVE_PATH"
+  },
+  "quote_manifest_file_entries": [
+    {
+      "code": "000001",
+      "mode": "raw_or_qfq",
+      "path": "RELATIVE_QUOTE_PATH",
+      "sha256": "HASH_ALSO_BOUND_IN_PRICE_MANIFEST"
+    }
+  ],
+  "per_code_rate_manifest_file_entries": [
+    {
+      "code": "000001",
+      "path": "000001.parquet",
+      "sha256": "HASH"
+    }
+  ],
+  "rate_columns": {
+    "code": "required for single-table input, optional per-code input",
+    "date": "ISO day",
+    "limit_rate": "fraction from explicit point-in-time evidence, e.g. rate supplied by caller; no policy assumption",
+    "limit_exempt": "optional bool; true explicitly asserts no lower price limit on that day",
+    "evidence_id": "optional source/version id",
+    "exempt": "preferred explicit no-limit bool; limit_exempt accepted as alias",
+    "evidence": "preferred source/version string; evidence_id accepted as alias"
+  },
+  "missing_evidence": "UNKNOWN, not False. Any confirmed pair rejects; if no confirmed pair but an unresolved possible pair is in rolling20, emit unresolved candidate separately. Missing rate code/day always audited even when logic can prove no pair. Missing preclose reference on a valid feature bar is explicit no-evidence.",
+  "calendar": "May contain already-announced formal sessions beyond price cutoff. Signals after cutoff are not generated and next-session prices beyond cutoff are never used.",
+  "import": "No filesystem reads/writes or scan on module import; source module loaded/hash-checked only on explicit call.",
+  "manifest_injected_rates": "When config.limits is omitted, manifest.daily_limit_rates must reference a file bound by manifest.files; no original manifest is modified.",
+  "outputs": "id and signal_id are code_signal-date, plus original cohort-compatible state fields; entry_raw_open only if strictly valid, next_raw_open is provider quote even for suspension."
+}

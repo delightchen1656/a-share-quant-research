@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "candidate_name": "dynamic_balanced",
+  "selection_rule": "maximize 2023 annualized_return + 0.5 * max_drawdown; deterministic source-order tie break",
+  "event_threshold": 0.6783816096234511,
+  "base_rules": {
+    "min_listing_sessions": 120,
+    "min_avg_amount_20": 50000000.0,
+    "exclude_st": true,
+    "max_holding_sessions": 20,
+    "stop_loss": 0.07,
+    "take_profit_half": 0.15,
+    "take_profit_all": 0.3,
+    "commission_each_side": 0.0003,
+    "slippage_each_side": 0.0005,
+    "initial_cash": 1000000.0
+  },
+  "scheme": {
+    "health": {
+      "min_matured": 12,
+      "event_window": 30,
+      "trade_window": 8,
+      "stress_event_rate": 0.15,
+      "healthy_event_rate": 0.25,
+      "stress_trade_mean": -0.02,
+      "healthy_trade_mean": 0.0
+    },
+    "states": {
+      "healthy": {
+        "event_add": 0.0,
+        "stop_risk_cap": 0.5,
+        "position_fraction": 0.2,
+        "max_positions": 5,
+        "cooldown_sessions": 0
+      },
+      "caution": {
+        "event_add": 0.04,
+        "stop_risk_cap": 0.4,
+        "position_fraction": 0.125,
+        "max_positions": 4,
+        "cooldown_sessions": 2
+      },
+      "stressed": {
+        "event_add": 0.08,
+        "stop_risk_cap": 0.3,
+        "position_fraction": 0.08,
+        "max_positions": 2,
+        "cooldown_sessions": 5
+      }
+    }
+  },
+  "feature_contract": "engine.py:FEATURES",
+  "history_start": "2020-01-01",
+  "input_manifest_sha256": "16d0877a399588ff61ec548da6c5ab3c1d20cdc622bcf4786f8576a299a448bf",
+  "model_hashes": {
+    "event_model.joblib": "1f87270f6a8506df79f06b38cacfee6c163dfc20f9eb8ae424c2397d816b0fd4",
+    "stop_risk_model.joblib": "0cf8fbc48dd6eda524a54ddd14082f44a0b787498983d501160a2fe8f51709d9"
+  }
+}

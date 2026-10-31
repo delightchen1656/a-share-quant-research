@@ -1,0 +1,26 @@
+[
+  {
+    "symbol": "600660.SH",
+    "year": 2017,
+    "attempt": 1,
+    "error": "RuntimeError('网络接收错误。')"
+  },
+  {
+    "symbol": "603369.SH",
+    "year": 2016,
+    "attempt": 1,
+    "error": "RuntimeError('用户未登录')"
+  },
+  {
+    "symbol": "603369.SH",
+    "year": 2016,
+    "attempt": 2,
+    "error": "RuntimeError('用户未登录')"
+  },
+  {
+    "symbol": "603369.SH",
+    "year": 2016,
+    "attempt": 3,
+    "error": "RuntimeError('用户未登录')"
+  }
+]

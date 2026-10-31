@@ -1,0 +1,229 @@
+{
+  "status": "ok",
+  "updated_at": "2026-10-26T19:32:11.878280+08:00",
+  "target": "2026-10-26",
+  "source": "BaoStock",
+  "scope": "Downloaded market data only; no model retraining or strategy changes",
+  "datasets": {
+    "hushen": {
+      "symbols": 3396,
+      "active": 3194,
+      "new_symbols": [],
+      "updated_symbols": 3194,
+      "added_rows": 3194
+    },
+    "kechuang": {
+      "symbols": 621,
+      "active": 618,
+      "new_symbols": [],
+      "updated_symbols": 618,
+      "added_rows": 618
+    }
+  },
+  "qfq_rebased_symbols": [
+    {
+      "code": "sh.600023",
+      "symbol": "600023.SH",
+      "factor": 0.996205
+    },
+    {
+      "code": "sh.600150",
+      "symbol": "600150.SH",
+      "factor": 0.986678
+    },
+    {
+      "code": "sh.600426",
+      "symbol": "600426.SH",
+      "factor": 0.986323
+    },
+    {
+      "code": "sh.600686",
+      "symbol": "600686.SH",
+      "factor": 0.99895
+    },
+    {
+      "code": "sh.600714",
+      "symbol": "600714.SH",
+      "factor": 0.9986590000000001
+    },
+    {
+      "code": "sh.600903",
+      "symbol": "600903.SH",
+      "factor": 0.998339
+    },
+    {
+      "code": "sh.601375",
+      "symbol": "601375.SH",
+      "factor": 0.997347
+    },
+    {
+      "code": "sh.601600",
+      "symbol": "601600.SH",
+      "factor": 0.967963
+    },
+    {
+      "code": "sh.601601",
+      "symbol": "601601.SH",
+      "factor": 0.985315
+    },
+    {
+      "code": "sh.601688",
+      "symbol": "601688.SH",
+      "factor": 0.989474
+    },
+    {
+      "code": "sh.601872",
+      "symbol": "601872.SH",
+      "factor": 0.9920100000000001
+    },
+    {
+      "code": "sh.601901",
+      "symbol": "601901.SH",
+      "factor": 0.990755
+    },
+    {
+      "code": "sh.601919",
+      "symbol": "601919.SH",
+      "factor": 0.973538
+    },
+    {
+      "code": "sh.601928",
+      "symbol": "601928.SH",
+      "factor": 0.9885320000000001
+    },
+    {
+      "code": "sh.601985",
+      "symbol": "601985.SH",
+      "factor": 0.9978809999999999
+    },
+    {
+      "code": "sh.603517",
+      "symbol": "603517.SH",
+      "factor": 0.9757990000000001
+    },
+    {
+      "code": "sh.603599",
+      "symbol": "603599.SH",
+      "factor": 0.99497
+    },
+    {
+      "code": "sh.603629",
+      "symbol": "603629.SH",
+      "factor": 0.9980020000000001
+    },
+    {
+      "code": "sh.603871",
+      "symbol": "603871.SH",
+      "factor": 0.9751770000000001
+    },
+    {
+      "code": "sh.603949",
+      "symbol": "603949.SH",
+      "factor": 0.986348
+    },
+    {
+      "code": "sz.000099",
+      "symbol": "000099.SZ",
+      "factor": 0.995385
+    },
+    {
+      "code": "sz.000338",
+      "symbol": "000338.SZ",
+      "factor": 0.975529
+    },
+    {
+      "code": "sz.000403",
+      "symbol": "000403.SZ",
+      "factor": 0.984244
+    },
+    {
+      "code": "sz.000623",
+      "symbol": "000623.SZ",
+      "factor": 0.988109
+    },
+    {
+      "code": "sz.000880",
+      "symbol": "000880.SZ",
+      "factor": 0.994819
+    },
+    {
+      "code": "sz.000987",
+      "symbol": "000987.SZ",
+      "factor": 0.974026
+    },
+    {
+      "code": "sz.002203",
+      "symbol": "002203.SZ",
+      "factor": 0.996503
+    },
+    {
+      "code": "sz.002444",
+      "symbol": "002444.SZ",
+      "factor": 0.987874
+    },
+    {
+      "code": "sz.002545",
+      "symbol": "002545.SZ",
+      "factor": 0.991955
+    },
+    {
+      "code": "sz.002673",
+      "symbol": "002673.SZ",
+      "factor": 0.99843
+    },
+    {
+      "code": "sh.688008",
+      "symbol": "688008.SH",
+      "factor": 0.9988589999999999
+    },
+    {
+      "code": "sh.688029",
+      "symbol": "688029.SH",
+      "factor": 0.993984
+    },
+    {
+      "code": "sh.688122",
+      "symbol": "688122.SH",
+      "factor": 0.996409
+    },
+    {
+      "code": "sh.688247",
+      "symbol": "688247.SH",
+      "factor": 0.998811
+    },
+    {
+      "code": "sh.688358",
+      "symbol": "688358.SH",
+      "factor": 0.986418
+    },
+    {
+      "code": "sh.688396",
+      "symbol": "688396.SH",
+      "factor": 0.998824
+    },
+    {
+      "code": "sh.688507",
+      "symbol": "688507.SH",
+      "factor": 0.999129
+    },
+    {
+      "code": "sh.688809",
+      "symbol": "688809.SH",
+      "factor": 0.714282
+    }
+  ],
+  "raw_vendor_revisions": [],
+  "validation": {
+    "mode": "daily_incremental",
+    "monthly_full_validation": false,
+    "monthly_rule": "first trading session of each calendar month",
+    "incremental_window_raw_qfq_dates_equal": true,
+    "incremental_window_unique_dates": true,
+    "incremental_window_no_future_dates": true,
+    "active_symbol_latest_date": "2026-10-26",
+    "incremental_window_ohlc_complete_and_ordered": true,
+    "transactional_staging": true
+  },
+  "backup": "data_updates/20261026/before_update",
+  "committed_files": 7631
+}

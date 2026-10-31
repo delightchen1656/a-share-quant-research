@@ -1,0 +1,62 @@
+{
+  "symbol": "002349.SZ",
+  "event_date": "2021-06-30",
+  "kind": "dividend_fields",
+  "start": "2021-04-11",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\002349.SZ_2021-06-30\\query_01.json",
+      "sha256": "129466e533ba06d10b26f0f50e9ea5b1c5562c127641790ec6a72e06914bdb77",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "002349",
+        "begin_time": "2021-04-11",
+        "end_time": "2021-06-30"
+      }
+    }
+  ],
+  "announcement_count": 38,
+  "documents": [
+    {
+      "title": "精华制药:关于2020年度权益分派实施公告之更正公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2021-06-30",
+      "raw_response": "sources\\action_issuer_mirror_v2\\002349.SZ_2021-06-30\\AN202106301500873464_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\002349.SZ_2021-06-30\\AN202106301500873464.txt",
+      "sha256": "1e698f89c9bfe38d06c461ebc8cf59d822be92ccf5ac8dc380ce9725a89ab652",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\002349.SZ_2021-06-30\\AN202106301500873464_content.json",
+          "sha256": "1e698f89c9bfe38d06c461ebc8cf59d822be92ccf5ac8dc380ce9725a89ab652"
+        }
+      ],
+      "article_code": "AN202106301500873464",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202106301500873464_1.pdf?1625040980000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    },
+    {
+      "title": "精华制药:2020年年度权益分派实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2021-06-22",
+      "raw_response": "sources\\action_issuer_mirror_v2\\002349.SZ_2021-06-30\\AN202106211499123815_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\002349.SZ_2021-06-30\\AN202106211499123815.txt",
+      "sha256": "1269bb8b117dbdfab75eeba1739ddba758a95a48ac5daba24c8df8dd51d12018",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\002349.SZ_2021-06-30\\AN202106211499123815_content.json",
+          "sha256": "1269bb8b117dbdfab75eeba1739ddba758a95a48ac5daba24c8df8dd51d12018"
+        }
+      ],
+      "article_code": "AN202106211499123815",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202106211499123815_1.pdf?1624291447000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

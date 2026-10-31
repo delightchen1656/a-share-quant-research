@@ -1,0 +1,82 @@
+{
+  "round": 1,
+  "question": "同日槽位竞争能否用另一种事前排序改善跨年表现",
+  "protocol_sha256": "6669ecead9fff845469cb6fd861583b637d5070232c6564ad3c64a4d3b4f8e4e",
+  "inherited_candidate": "anchor_prior",
+  "inherited_config_hash": "0da49517ced272c613ff83fd01361ed4c19ab08dcd082d4505b21e49dbc18aee",
+  "candidate_count": 6,
+  "candidates": {
+    "R01_ret5": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret5_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "sha256": "0e8cf4610bc6f1c67239aae02bbf0f991d8e3fc8855dcaa7f5ef66f8ab56d0dc"
+    },
+    "R01_ma20": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "below_ma20_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "sha256": "acb4076d02ba6fea9b6ac61033fc66231bb9354bb141aec3c98b9c21587fb12e"
+    },
+    "R01_rebound": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "rebound_from_low_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "sha256": "d5e2927b58a1c17ab617c1bed22bb3772bb271be100c866e1a7ad29ad3f61c1d"
+    },
+    "R01_volume": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "volume_ratio_descending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "sha256": "38283bb301e19a0eac7aec5bbccc5f0acbc0d0ef6480880a537a811da4a0081a"
+    },
+    "R01_liquidity": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "amount20_descending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "sha256": "71609d1a534abe3cf516b09d2f617720964b976144945cbb06b7951563ac7bee"
+    },
+    "R01_lowerwick": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "lower_descending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "sha256": "c730493e0676486ceece9581f2d8dcba7efc63e6a2034c5922c79fee1cdfbabf"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "issue": "Export next_valid_open had price values instead of required bool",
+  "resolution": "Strict bool and separate next_raw_open; no structural rescan or event/state change",
+  "event_state_digest_before": "d03368a173dd7de405c3f0c05d758b26b95682a2c05bc2addc69aba9d87e9a30",
+  "event_state_digest_after": "d03368a173dd7de405c3f0c05d758b26b95682a2c05bc2addc69aba9d87e9a30",
+  "unchanged": true,
+  "boolean_counts": {
+    "True": 3799,
+    "False": 6
+  },
+  "scanner_sha256": "70804c3387a07b26b598def33be0df06988ac89f23187d06de20b27686de5883"
+}

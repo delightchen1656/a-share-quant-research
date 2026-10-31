@@ -1,0 +1,70 @@
+{
+  "cross": [
+    {
+      "price_ge20": false,
+      "position3y_upper_half": false,
+      "n": 275,
+      "continued": 20,
+      "continued_rate": 0.07272727272727272,
+      "touch10": 0.7963636363636364,
+      "fall30": 0.05818181818181818,
+      "mean_close60": 0.09792707724184763
+    },
+    {
+      "price_ge20": false,
+      "position3y_upper_half": true,
+      "n": 32,
+      "continued": 10,
+      "continued_rate": 0.3125,
+      "touch10": 0.6875,
+      "fall30": 0.125,
+      "mean_close60": 0.04903358807355705
+    },
+    {
+      "price_ge20": true,
+      "position3y_upper_half": false,
+      "n": 115,
+      "continued": 25,
+      "continued_rate": 0.21739130434782608,
+      "touch10": 0.6608695652173913,
+      "fall30": 0.19130434782608696,
+      "mean_close60": 0.06016201742841564
+    },
+    {
+      "price_ge20": true,
+      "position3y_upper_half": true,
+      "n": 59,
+      "continued": 10,
+      "continued_rate": 0.1694915254237288,
+      "touch10": 0.6779661016949152,
+      "fall30": 0.2711864406779661,
+      "mean_close60": 0.0983793830301347
+    }
+  ],
+  "baseline": {
+    "n": 481,
+    "continued": 65,
+    "continued_rate": 0.13513513513513514,
+    "touch10": 0.7422037422037422,
+    "fall30": 0.12058212058212059,
+    "mean_close60": 0.08570069992288495
+  },
+  "removed_high": {
+    "n": 91,
+    "continued": 20,
+    "continued_rate": 0.21978021978021978,
+    "touch10": 0.6813186813186813,
+    "fall30": 0.21978021978021978,
+    "mean_close60": 0.08102701557287667
+  },
+  "kept_low": {
+    "n": 390,
+    "continued": 45,
+    "continued_rate": 0.11538461538461539,
+    "touch10": 0.7564102564102564,
+    "fall30": 0.09743589743589744,
+    "mean_close60": 0.08679122627122025
+  },
+  "removed_high_hit10": 62,
+  "total_hit10": 357
+}

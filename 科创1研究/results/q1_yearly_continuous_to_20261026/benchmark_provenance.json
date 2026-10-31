@@ -1,0 +1,12 @@
+{
+  "benchmark": "STAR 50",
+  "code": "000688.SH",
+  "price_source": "Tencent historical kline API",
+  "url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000688,day,2019-12-20,2026-10-26,2000,qfq",
+  "downloaded_rows": 1650,
+  "first_date": "2019-12-31",
+  "last_date": "2026-10-26",
+  "raw_sha256": "d7df9fd024872d494ca470d6a84a59c7b0c1eb0b75f122ce625154c6aec07734",
+  "return_base": "previous trading day close before strategy actual start",
+  "excess_definition": "strategy return minus benchmark return, percentage points"
+}

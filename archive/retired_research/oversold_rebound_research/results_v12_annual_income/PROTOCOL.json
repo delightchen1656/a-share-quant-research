@@ -1,0 +1,45 @@
+{
+  "filters": [
+    "basic",
+    "price10",
+    "price20",
+    "price5to20",
+    "deep",
+    "deep_price20",
+    "deep_price10",
+    "pos1_20",
+    "pos1_40",
+    "pos1_40_price20",
+    "volume12",
+    "volume15",
+    "price20_volume12",
+    "shrink",
+    "deep_shrink",
+    "pos2_20",
+    "price10_pos1_40",
+    "price20_ma60slow"
+  ],
+  "takeprofits": [
+    0.02,
+    0.03,
+    0.04,
+    0.05
+  ],
+  "horizons": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "outer_years": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "training": "Two previous signal/entry years; only B5-matured labels before outer Jan1. Candidate selection based on 100k/5-slot qfq-price-path proxy, not real share/cash economic returns.",
+  "criterion": "Min12 actual virtual trades each year; both training-year returns>0; worst training DD<=20%; maximize min(year returns)-0.5*max(abs(year DD))+0.25*mean(year returns); otherwise cash.",
+  "validation": "Chosen yearly rule frozen before raw-account testing. No changes based on outer-year performance. User accepts lower hit precision for revenue/DD.",
+  "boundary": "2024-12-31"
+}

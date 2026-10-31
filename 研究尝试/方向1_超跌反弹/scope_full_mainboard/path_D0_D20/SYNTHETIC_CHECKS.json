@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "tests": [
+    "qfq denominator arithmetic",
+    "strict calendar mapping",
+    "D0 T+1 marker",
+    "no delayed suspended entry",
+    "suspension invalidates day high/close",
+    "confirmed suspension preserves known cumulative high",
+    "unknown high prefix blocks cumulative",
+    "unexplained adjustment blocks prefix",
+    "right censoring retains rows",
+    "metric-specific denominators",
+    "per-event max before mean"
+  ],
+  "real_event_labels_generated": false
+}

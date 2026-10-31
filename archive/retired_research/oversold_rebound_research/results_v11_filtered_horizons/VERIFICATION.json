@@ -1,0 +1,126 @@
+{
+  "unit_tests": 7,
+  "checks": [
+    {
+      "scenario": "B1\\sample_after_1000000_50",
+      "cash_pnl_reconciled": true,
+      "no_delayed_exit": true,
+      "exit_within_horizon": true
+    },
+    {
+      "scenario": "B1\\sample_after_100000_5",
+      "cash_pnl_reconciled": true,
+      "no_delayed_exit": true,
+      "exit_within_horizon": true
+    },
+    {
+      "scenario": "B1\\leaders_after_1000000_50",
+      "cash_pnl_reconciled": true,
+      "no_delayed_exit": true,
+      "exit_within_horizon": true
+    },
+    {
+      "scenario": "B1\\leaders_after_100000_5",
+      "cash_pnl_reconciled": true,
+      "no_delayed_exit": true,
+      "exit_within_horizon": true
+    },
+    {
+      "scenario": "B2\\sample_after_1000000_50",
+      "cash_pnl_reconciled": true,
+      "no_delayed_exit": true,
+      "exit_within_horizon": true
+    },
+    {
+      "scenario": "B2\\sample_after_100000_5",
+      "cash_pnl_reconciled": true,
+      "no_delayed_exit": true,
+      "exit_within_horizon": true
+    },
+    {
+      "scenario": "B2\\leaders_after_1000000_50",
+      "cash_pnl_reconciled": true,
+      "no_delayed_exit": true,
+      "exit_within_horizon": true
+    },
+    {
+      "scenario": "B2\\leaders_after_100000_5",
+      "cash_pnl_reconciled": true,
+      "no_delayed_exit": true,
+      "exit_within_horizon": true
+    },
+    {
+      "scenario": "B3\\sample_after_1000000_50",
+      "cash_pnl_reconciled": true,
+      "no_delayed_exit": true,
+      "exit_within_horizon": true
+    },
+    {
+      "scenario": "B3\\sample_after_100000_5",
+      "cash_pnl_reconciled": true,
+      "no_delayed_exit": true,
+      "exit_within_horizon": true
+    },
+    {
+      "scenario": "B3\\leaders_after_1000000_50",
+      "cash_pnl_reconciled": true,
+      "no_delayed_exit": true,
+      "exit_within_horizon": true
+    },
+    {
+      "scenario": "B3\\leaders_after_100000_5",
+      "cash_pnl_reconciled": true,
+      "no_delayed_exit": true,
+      "exit_within_horizon": true
+    },
+    {
+      "scenario": "B4\\sample_after_1000000_50",
+      "cash_pnl_reconciled": true,
+      "no_delayed_exit": true,
+      "exit_within_horizon": true
+    },
+    {
+      "scenario": "B4\\sample_after_100000_5",
+      "cash_pnl_reconciled": true,
+      "no_delayed_exit": true,
+      "exit_within_horizon": true
+    },
+    {
+      "scenario": "B4\\leaders_after_1000000_50",
+      "cash_pnl_reconciled": true,
+      "no_delayed_exit": true,
+      "exit_within_horizon": true
+    },
+    {
+      "scenario": "B4\\leaders_after_100000_5",
+      "cash_pnl_reconciled": true,
+      "no_delayed_exit": true,
+      "exit_within_horizon": true
+    },
+    {
+      "scenario": "B5\\sample_after_1000000_50",
+      "cash_pnl_reconciled": true,
+      "no_delayed_exit": true,
+      "exit_within_horizon": true
+    },
+    {
+      "scenario": "B5\\sample_after_100000_5",
+      "cash_pnl_reconciled": true,
+      "no_delayed_exit": true,
+      "exit_within_horizon": true
+    },
+    {
+      "scenario": "B5\\leaders_after_1000000_50",
+      "cash_pnl_reconciled": true,
+      "no_delayed_exit": true,
+      "exit_within_horizon": true
+    },
+    {
+      "scenario": "B5\\leaders_after_100000_5",
+      "cash_pnl_reconciled": true,
+      "no_delayed_exit": true,
+      "exit_within_horizon": true
+    }
+  ],
+  "B5_regression_check": "not_applicable_common_cohort_changed"
+}

@@ -1,0 +1,258 @@
+{
+  "round": 1,
+  "question": "同日槽位竞争能否用另一种事前排序改善跨年表现",
+  "candidate_count": 6,
+  "inherited": "anchor_prior",
+  "selected": "anchor_prior",
+  "promoted": false,
+  "candidate_register_sha256": "c3f791187498524282840aa9808148cd31c4f220afb1a53028dd506af290c181",
+  "selected_config": {
+    "slots": 5,
+    "forced_day": 3,
+    "take_profit": 0.08,
+    "stop_loss": null,
+    "priority": "ret20_ascending",
+    "filters": [],
+    "max_new_entries": null
+  },
+  "selected_config_sha256": "0da49517ced272c613ff83fd01361ed4c19ab08dcd082d4505b21e49dbc18aee",
+  "training_statistics": {
+    "score": 0.08039427962451334,
+    "mean_annual_return": 0.12518364615106053,
+    "worst_annual_return": 0.07636980008623606,
+    "largest_annual_drawdown": 0.08957873305309438,
+    "returns": [
+      0.15617069520000082,
+      0.1262303089032668,
+      0.14196378041473845,
+      0.07636980008623606
+    ],
+    "total_return": 0.6005269895000023,
+    "full_drawdown": 0.0931240211190969,
+    "terminal_equity": 160052.69895000022,
+    "eligible": true,
+    "guard_reasons": [],
+    "improved_years_vs_v3": 2
+  },
+  "attempts": [
+    {
+      "round": 1,
+      "candidate": "R01_ret5",
+      "question": "同日槽位竞争能否用另一种事前排序改善跨年表现",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret5_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "config_sha256": "0e8cf4610bc6f1c67239aae02bbf0f991d8e3fc8855dcaa7f5ef66f8ab56d0dc",
+      "score": 0.03954438087590817,
+      "mean_annual_return": 0.09991658224778799,
+      "worst_annual_return": 0.07686501374171462,
+      "largest_annual_drawdown": 0.12074440274375964,
+      "returns": [
+        0.08840646320000034,
+        0.14603322837012023,
+        0.07686501374171462,
+        0.08836162367931677
+      ],
+      "total_return": 0.46191731249999957,
+      "full_drawdown": 0.12074440274375964,
+      "terminal_equity": 146191.73124999995,
+      "eligible": true,
+      "guard_reasons": [],
+      "improved_years_vs_v3": 2,
+      "promotable": false,
+      "rejection_reasons": [
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 1,
+      "candidate": "R01_ma20",
+      "question": "同日槽位竞争能否用另一种事前排序改善跨年表现",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "below_ma20_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "config_sha256": "acb4076d02ba6fea9b6ac61033fc66231bb9354bb141aec3c98b9c21587fb12e",
+      "score": 0.06447881574491604,
+      "mean_annual_return": 0.10749285218762139,
+      "worst_annual_return": 0.08172261945728398,
+      "largest_annual_drawdown": 0.0860280728854107,
+      "returns": [
+        0.14170864600000055,
+        0.1136023037527214,
+        0.09293783954047963,
+        0.08172261945728398
+      ],
+      "total_return": 0.503130835500001,
+      "full_drawdown": 0.09425661585779199,
+      "terminal_equity": 150313.0835500001,
+      "eligible": false,
+      "guard_reasons": [
+        "fewer_than_two_years_above_fixed_v3"
+      ],
+      "improved_years_vs_v3": 1,
+      "promotable": false,
+      "rejection_reasons": [
+        "fewer_than_two_years_above_fixed_v3",
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 1,
+      "candidate": "R01_rebound",
+      "question": "同日槽位竞争能否用另一种事前排序改善跨年表现",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "rebound_from_low_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "config_sha256": "d5e2927b58a1c17ab617c1bed22bb3772bb271be100c866e1a7ad29ad3f61c1d",
+      "score": 0.026731448125115465,
+      "mean_annual_return": 0.08300788950897481,
+      "worst_annual_return": 0.05835401855825517,
+      "largest_annual_drawdown": 0.11255288276771869,
+      "returns": [
+        0.07626353680000064,
+        0.05835401855825517,
+        0.1073866954982321,
+        0.09002730717941132
+      ],
+      "total_return": 0.3749479867000005,
+      "full_drawdown": 0.11255288276771869,
+      "terminal_equity": 137494.79867000005,
+      "eligible": false,
+      "guard_reasons": [
+        "worst_year_floor_failed",
+        "fewer_than_two_years_above_fixed_v3"
+      ],
+      "improved_years_vs_v3": 1,
+      "promotable": false,
+      "rejection_reasons": [
+        "worst_year_floor_failed",
+        "fewer_than_two_years_above_fixed_v3",
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 1,
+      "candidate": "R01_volume",
+      "question": "同日槽位竞争能否用另一种事前排序改善跨年表现",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "volume_ratio_descending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "config_sha256": "38283bb301e19a0eac7aec5bbccc5f0acbc0d0ef6480880a537a811da4a0081a",
+      "score": 0.043758525247228564,
+      "mean_annual_return": 0.10623197511958887,
+      "worst_annual_return": 0.07403616240000055,
+      "largest_annual_drawdown": 0.12494689974472062,
+      "returns": [
+        0.07403616240000055,
+        0.16915610103297207,
+        0.09545198348251915,
+        0.08628365356286372
+      ],
+      "total_return": 0.4942662753,
+      "full_drawdown": 0.12494689974472062,
+      "terminal_equity": 149426.62753,
+      "eligible": true,
+      "guard_reasons": [],
+      "improved_years_vs_v3": 2,
+      "promotable": false,
+      "rejection_reasons": [
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 1,
+      "candidate": "R01_liquidity",
+      "question": "同日槽位竞争能否用另一种事前排序改善跨年表现",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "amount20_descending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "config_sha256": "71609d1a534abe3cf516b09d2f617720964b976144945cbb06b7951563ac7bee",
+      "score": 0.052969180680311756,
+      "mean_annual_return": 0.09568450120506172,
+      "worst_annual_return": 0.06394602039102848,
+      "largest_annual_drawdown": 0.08543064104949993,
+      "returns": [
+        0.12586762960000075,
+        0.06394602039102848,
+        0.10310059473409416,
+        0.0898237600951235
+      ],
+      "total_return": 0.4400524751000008,
+      "full_drawdown": 0.09552924651306638,
+      "terminal_equity": 144005.24751000007,
+      "eligible": true,
+      "guard_reasons": [],
+      "improved_years_vs_v3": 2,
+      "promotable": false,
+      "rejection_reasons": [
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 1,
+      "candidate": "R01_lowerwick",
+      "question": "同日槽位竞争能否用另一种事前排序改善跨年表现",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "lower_descending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "config_sha256": "c730493e0676486ceece9581f2d8dcba7efc63e6a2034c5922c79fee1cdfbabf",
+      "score": 0.05478391415971928,
+      "mean_annual_return": 0.10768278809392817,
+      "worst_annual_return": 0.06951357520000134,
+      "largest_annual_drawdown": 0.10579774786841778,
+      "returns": [
+        0.06951357520000134,
+        0.12902063106043005,
+        0.14646038823614171,
+        0.08573655787913959
+      ],
+      "total_return": 0.5030440008000017,
+      "full_drawdown": 0.10579774786841778,
+      "terminal_equity": 150304.40008000017,
+      "eligible": true,
+      "guard_reasons": [],
+      "improved_years_vs_v3": 2,
+      "promotable": false,
+      "rejection_reasons": [
+        "no_strict_score_gain_over_incumbent"
+      ]
+    }
+  ],
+  "stage": "frozen_before_any_new_batch_2024_account_run"
+}

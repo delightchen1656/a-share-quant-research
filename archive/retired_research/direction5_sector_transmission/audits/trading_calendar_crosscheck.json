@@ -1,0 +1,14 @@
+{
+  "source": "BaoStock historical exchange trading calendar API",
+  "requested_start": "2018-01-01",
+  "cutoff": "2024-12-31",
+  "calendar_days": 2557,
+  "trading_days": 1699,
+  "kline_union_dates": 1699,
+  "trading_days_missing_from_all_kline_files": [],
+  "kline_dates_not_marked_trading_days": [],
+  "calendar_and_kline_union_match": true,
+  "provider_calendar_not_an_exchange_certified_vintage_archive": true,
+  "sha256": "cf288779add3023b274a2e1f55b038b2a2f59a59605a4c12a2d2479b62dfb099",
+  "kline_manifest_sha256": "f10f353b5021f6ddb028be038103f757433f958ebbf4992fb65383f42160b1a1"
+}

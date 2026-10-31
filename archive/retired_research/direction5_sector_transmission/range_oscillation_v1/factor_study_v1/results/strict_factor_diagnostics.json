@@ -1,0 +1,1042 @@
+[
+  {
+    "feature": "center_drift",
+    "dates": 5,
+    "pool_n": 87,
+    "selected_n": 34,
+    "selected_unique_stocks": 29,
+    "selected_successes": 3,
+    "selected_unknown": 1,
+    "selected_known_hit": 0.09090909090909091,
+    "pool_rate": 0.08136363636363637,
+    "hit_rate": 0.08722222222222223,
+    "lift": 0.005858585858585857,
+    "per_date": [
+      {
+        "asof": "2022-03-31",
+        "pool": 22,
+        "selected": 9,
+        "pool_success": 2,
+        "selected_success": 1,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.1111111111111111,
+        "lift": 0.020202020202020193
+      },
+      {
+        "asof": "2022-06-30",
+        "pool": 16,
+        "selected": 6,
+        "pool_success": 2,
+        "selected_success": 0,
+        "pool_rate": 0.125,
+        "hit_rate": 0.0,
+        "lift": -0.125
+      },
+      {
+        "asof": "2022-09-30",
+        "pool": 11,
+        "selected": 5,
+        "pool_success": 1,
+        "selected_success": 1,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.2,
+        "lift": 0.1090909090909091
+      },
+      {
+        "asof": "2022-12-30",
+        "pool": 20,
+        "selected": 8,
+        "pool_success": 2,
+        "selected_success": 1,
+        "pool_rate": 0.1,
+        "hit_rate": 0.125,
+        "lift": 0.024999999999999994
+      },
+      {
+        "asof": "2023-03-31",
+        "pool": 18,
+        "selected": 6,
+        "pool_success": 0,
+        "selected_success": 0,
+        "pool_rate": 0.0,
+        "hit_rate": 0.0,
+        "lift": 0.0
+      }
+    ]
+  },
+  {
+    "feature": "boundary_drift",
+    "dates": 5,
+    "pool_n": 87,
+    "selected_n": 34,
+    "selected_unique_stocks": 31,
+    "selected_successes": 3,
+    "selected_unknown": 0,
+    "selected_known_hit": 0.08823529411764706,
+    "pool_rate": 0.08136363636363637,
+    "hit_rate": 0.09555555555555556,
+    "lift": 0.01419191919191919,
+    "per_date": [
+      {
+        "asof": "2022-03-31",
+        "pool": 22,
+        "selected": 9,
+        "pool_success": 2,
+        "selected_success": 1,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.1111111111111111,
+        "lift": 0.020202020202020193
+      },
+      {
+        "asof": "2022-06-30",
+        "pool": 16,
+        "selected": 6,
+        "pool_success": 2,
+        "selected_success": 1,
+        "pool_rate": 0.125,
+        "hit_rate": 0.16666666666666666,
+        "lift": 0.04166666666666666
+      },
+      {
+        "asof": "2022-09-30",
+        "pool": 11,
+        "selected": 5,
+        "pool_success": 1,
+        "selected_success": 1,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.2,
+        "lift": 0.1090909090909091
+      },
+      {
+        "asof": "2022-12-30",
+        "pool": 20,
+        "selected": 8,
+        "pool_success": 2,
+        "selected_success": 0,
+        "pool_rate": 0.1,
+        "hit_rate": 0.0,
+        "lift": -0.1
+      },
+      {
+        "asof": "2023-03-31",
+        "pool": 18,
+        "selected": 6,
+        "pool_success": 0,
+        "selected_success": 0,
+        "pool_rate": 0.0,
+        "hit_rate": 0.0,
+        "lift": 0.0
+      }
+    ]
+  },
+  {
+    "feature": "abs_trend",
+    "dates": 5,
+    "pool_n": 87,
+    "selected_n": 34,
+    "selected_unique_stocks": 32,
+    "selected_successes": 4,
+    "selected_unknown": 0,
+    "selected_known_hit": 0.11764705882352941,
+    "pool_rate": 0.08136363636363637,
+    "hit_rate": 0.11777777777777776,
+    "lift": 0.036414141414141406,
+    "per_date": [
+      {
+        "asof": "2022-03-31",
+        "pool": 22,
+        "selected": 9,
+        "pool_success": 2,
+        "selected_success": 2,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.2222222222222222,
+        "lift": 0.1313131313131313
+      },
+      {
+        "asof": "2022-06-30",
+        "pool": 16,
+        "selected": 6,
+        "pool_success": 2,
+        "selected_success": 1,
+        "pool_rate": 0.125,
+        "hit_rate": 0.16666666666666666,
+        "lift": 0.04166666666666666
+      },
+      {
+        "asof": "2022-09-30",
+        "pool": 11,
+        "selected": 5,
+        "pool_success": 1,
+        "selected_success": 1,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.2,
+        "lift": 0.1090909090909091
+      },
+      {
+        "asof": "2022-12-30",
+        "pool": 20,
+        "selected": 8,
+        "pool_success": 2,
+        "selected_success": 0,
+        "pool_rate": 0.1,
+        "hit_rate": 0.0,
+        "lift": -0.1
+      },
+      {
+        "asof": "2023-03-31",
+        "pool": 18,
+        "selected": 6,
+        "pool_success": 0,
+        "selected_success": 0,
+        "pool_rate": 0.0,
+        "hit_rate": 0.0,
+        "lift": 0.0
+      }
+    ]
+  },
+  {
+    "feature": "box_width",
+    "dates": 5,
+    "pool_n": 87,
+    "selected_n": 31,
+    "selected_unique_stocks": 26,
+    "selected_successes": 3,
+    "selected_unknown": 0,
+    "selected_known_hit": 0.0967741935483871,
+    "pool_rate": 0.08136363636363637,
+    "hit_rate": 0.08333333333333333,
+    "lift": 0.001969696969696966,
+    "per_date": [
+      {
+        "asof": "2022-03-31",
+        "pool": 22,
+        "selected": 8,
+        "pool_success": 2,
+        "selected_success": 2,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.25,
+        "lift": 0.1590909090909091
+      },
+      {
+        "asof": "2022-06-30",
+        "pool": 16,
+        "selected": 6,
+        "pool_success": 2,
+        "selected_success": 1,
+        "pool_rate": 0.125,
+        "hit_rate": 0.16666666666666666,
+        "lift": 0.04166666666666666
+      },
+      {
+        "asof": "2022-09-30",
+        "pool": 11,
+        "selected": 4,
+        "pool_success": 1,
+        "selected_success": 0,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.0,
+        "lift": -0.09090909090909091
+      },
+      {
+        "asof": "2022-12-30",
+        "pool": 20,
+        "selected": 7,
+        "pool_success": 2,
+        "selected_success": 0,
+        "pool_rate": 0.1,
+        "hit_rate": 0.0,
+        "lift": -0.1
+      },
+      {
+        "asof": "2023-03-31",
+        "pool": 18,
+        "selected": 6,
+        "pool_success": 0,
+        "selected_success": 0,
+        "pool_rate": 0.0,
+        "hit_rate": 0.0,
+        "lift": 0.0
+      }
+    ]
+  },
+  {
+    "feature": "traversals",
+    "dates": 5,
+    "pool_n": 87,
+    "selected_n": 34,
+    "selected_unique_stocks": 28,
+    "selected_successes": 6,
+    "selected_unknown": 1,
+    "selected_known_hit": 0.18181818181818182,
+    "pool_rate": 0.08136363636363637,
+    "hit_rate": 0.17888888888888888,
+    "lift": 0.09752525252525253,
+    "per_date": [
+      {
+        "asof": "2022-03-31",
+        "pool": 22,
+        "selected": 9,
+        "pool_success": 2,
+        "selected_success": 1,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.1111111111111111,
+        "lift": 0.020202020202020193
+      },
+      {
+        "asof": "2022-06-30",
+        "pool": 16,
+        "selected": 6,
+        "pool_success": 2,
+        "selected_success": 2,
+        "pool_rate": 0.125,
+        "hit_rate": 0.3333333333333333,
+        "lift": 0.20833333333333331
+      },
+      {
+        "asof": "2022-09-30",
+        "pool": 11,
+        "selected": 5,
+        "pool_success": 1,
+        "selected_success": 1,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.2,
+        "lift": 0.1090909090909091
+      },
+      {
+        "asof": "2022-12-30",
+        "pool": 20,
+        "selected": 8,
+        "pool_success": 2,
+        "selected_success": 2,
+        "pool_rate": 0.1,
+        "hit_rate": 0.25,
+        "lift": 0.15
+      },
+      {
+        "asof": "2023-03-31",
+        "pool": 18,
+        "selected": 6,
+        "pool_success": 0,
+        "selected_success": 0,
+        "pool_rate": 0.0,
+        "hit_rate": 0.0,
+        "lift": 0.0
+      }
+    ]
+  },
+  {
+    "feature": "second_half_frozen_coverage",
+    "dates": 5,
+    "pool_n": 87,
+    "selected_n": 34,
+    "selected_unique_stocks": 27,
+    "selected_successes": 2,
+    "selected_unknown": 0,
+    "selected_known_hit": 0.058823529411764705,
+    "pool_rate": 0.08136363636363637,
+    "hit_rate": 0.06222222222222222,
+    "lift": -0.019141414141414143,
+    "per_date": [
+      {
+        "asof": "2022-03-31",
+        "pool": 22,
+        "selected": 9,
+        "pool_success": 2,
+        "selected_success": 1,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.1111111111111111,
+        "lift": 0.020202020202020193
+      },
+      {
+        "asof": "2022-06-30",
+        "pool": 16,
+        "selected": 6,
+        "pool_success": 2,
+        "selected_success": 0,
+        "pool_rate": 0.125,
+        "hit_rate": 0.0,
+        "lift": -0.125
+      },
+      {
+        "asof": "2022-09-30",
+        "pool": 11,
+        "selected": 5,
+        "pool_success": 1,
+        "selected_success": 1,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.2,
+        "lift": 0.1090909090909091
+      },
+      {
+        "asof": "2022-12-30",
+        "pool": 20,
+        "selected": 8,
+        "pool_success": 2,
+        "selected_success": 0,
+        "pool_rate": 0.1,
+        "hit_rate": 0.0,
+        "lift": -0.1
+      },
+      {
+        "asof": "2023-03-31",
+        "pool": 18,
+        "selected": 6,
+        "pool_success": 0,
+        "selected_success": 0,
+        "pool_rate": 0.0,
+        "hit_rate": 0.0,
+        "lift": 0.0
+      }
+    ]
+  },
+  {
+    "feature": "edge_distance",
+    "dates": 5,
+    "pool_n": 87,
+    "selected_n": 34,
+    "selected_unique_stocks": 28,
+    "selected_successes": 5,
+    "selected_unknown": 1,
+    "selected_known_hit": 0.15151515151515152,
+    "pool_rate": 0.08136363636363637,
+    "hit_rate": 0.14555555555555558,
+    "lift": 0.06419191919191919,
+    "per_date": [
+      {
+        "asof": "2022-03-31",
+        "pool": 22,
+        "selected": 9,
+        "pool_success": 2,
+        "selected_success": 1,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.1111111111111111,
+        "lift": 0.020202020202020193
+      },
+      {
+        "asof": "2022-06-30",
+        "pool": 16,
+        "selected": 6,
+        "pool_success": 2,
+        "selected_success": 1,
+        "pool_rate": 0.125,
+        "hit_rate": 0.16666666666666666,
+        "lift": 0.04166666666666666
+      },
+      {
+        "asof": "2022-09-30",
+        "pool": 11,
+        "selected": 5,
+        "pool_success": 1,
+        "selected_success": 1,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.2,
+        "lift": 0.1090909090909091
+      },
+      {
+        "asof": "2022-12-30",
+        "pool": 20,
+        "selected": 8,
+        "pool_success": 2,
+        "selected_success": 2,
+        "pool_rate": 0.1,
+        "hit_rate": 0.25,
+        "lift": 0.15
+      },
+      {
+        "asof": "2023-03-31",
+        "pool": 18,
+        "selected": 6,
+        "pool_success": 0,
+        "selected_success": 0,
+        "pool_rate": 0.0,
+        "hit_rate": 0.0,
+        "lift": 0.0
+      }
+    ]
+  },
+  {
+    "feature": "vol60_box",
+    "dates": 5,
+    "pool_n": 87,
+    "selected_n": 34,
+    "selected_unique_stocks": 29,
+    "selected_successes": 0,
+    "selected_unknown": 0,
+    "selected_known_hit": 0.0,
+    "pool_rate": 0.08136363636363637,
+    "hit_rate": 0.0,
+    "lift": -0.08136363636363637,
+    "per_date": [
+      {
+        "asof": "2022-03-31",
+        "pool": 22,
+        "selected": 9,
+        "pool_success": 2,
+        "selected_success": 0,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.0,
+        "lift": -0.09090909090909091
+      },
+      {
+        "asof": "2022-06-30",
+        "pool": 16,
+        "selected": 6,
+        "pool_success": 2,
+        "selected_success": 0,
+        "pool_rate": 0.125,
+        "hit_rate": 0.0,
+        "lift": -0.125
+      },
+      {
+        "asof": "2022-09-30",
+        "pool": 11,
+        "selected": 5,
+        "pool_success": 1,
+        "selected_success": 0,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.0,
+        "lift": -0.09090909090909091
+      },
+      {
+        "asof": "2022-12-30",
+        "pool": 20,
+        "selected": 8,
+        "pool_success": 2,
+        "selected_success": 0,
+        "pool_rate": 0.1,
+        "hit_rate": 0.0,
+        "lift": -0.1
+      },
+      {
+        "asof": "2023-03-31",
+        "pool": 18,
+        "selected": 6,
+        "pool_success": 0,
+        "selected_success": 0,
+        "pool_rate": 0.0,
+        "hit_rate": 0.0,
+        "lift": 0.0
+      }
+    ]
+  },
+  {
+    "feature": "vol_ratio60_252",
+    "dates": 5,
+    "pool_n": 87,
+    "selected_n": 34,
+    "selected_unique_stocks": 31,
+    "selected_successes": 3,
+    "selected_unknown": 0,
+    "selected_known_hit": 0.08823529411764706,
+    "pool_rate": 0.08136363636363637,
+    "hit_rate": 0.09166666666666666,
+    "lift": 0.010303030303030297,
+    "per_date": [
+      {
+        "asof": "2022-03-31",
+        "pool": 22,
+        "selected": 9,
+        "pool_success": 2,
+        "selected_success": 0,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.0,
+        "lift": -0.09090909090909091
+      },
+      {
+        "asof": "2022-06-30",
+        "pool": 16,
+        "selected": 6,
+        "pool_success": 2,
+        "selected_success": 2,
+        "pool_rate": 0.125,
+        "hit_rate": 0.3333333333333333,
+        "lift": 0.20833333333333331
+      },
+      {
+        "asof": "2022-09-30",
+        "pool": 11,
+        "selected": 5,
+        "pool_success": 1,
+        "selected_success": 0,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.0,
+        "lift": -0.09090909090909091
+      },
+      {
+        "asof": "2022-12-30",
+        "pool": 20,
+        "selected": 8,
+        "pool_success": 2,
+        "selected_success": 1,
+        "pool_rate": 0.1,
+        "hit_rate": 0.125,
+        "lift": 0.024999999999999994
+      },
+      {
+        "asof": "2023-03-31",
+        "pool": 18,
+        "selected": 6,
+        "pool_success": 0,
+        "selected_success": 0,
+        "pool_rate": 0.0,
+        "hit_rate": 0.0,
+        "lift": 0.0
+      }
+    ]
+  },
+  {
+    "feature": "recent_trend60",
+    "dates": 5,
+    "pool_n": 87,
+    "selected_n": 34,
+    "selected_unique_stocks": 31,
+    "selected_successes": 2,
+    "selected_unknown": 0,
+    "selected_known_hit": 0.058823529411764705,
+    "pool_rate": 0.08136363636363637,
+    "hit_rate": 0.04722222222222222,
+    "lift": -0.034141414141414146,
+    "per_date": [
+      {
+        "asof": "2022-03-31",
+        "pool": 22,
+        "selected": 9,
+        "pool_success": 2,
+        "selected_success": 1,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.1111111111111111,
+        "lift": 0.020202020202020193
+      },
+      {
+        "asof": "2022-06-30",
+        "pool": 16,
+        "selected": 6,
+        "pool_success": 2,
+        "selected_success": 0,
+        "pool_rate": 0.125,
+        "hit_rate": 0.0,
+        "lift": -0.125
+      },
+      {
+        "asof": "2022-09-30",
+        "pool": 11,
+        "selected": 5,
+        "pool_success": 1,
+        "selected_success": 0,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.0,
+        "lift": -0.09090909090909091
+      },
+      {
+        "asof": "2022-12-30",
+        "pool": 20,
+        "selected": 8,
+        "pool_success": 2,
+        "selected_success": 1,
+        "pool_rate": 0.1,
+        "hit_rate": 0.125,
+        "lift": 0.024999999999999994
+      },
+      {
+        "asof": "2023-03-31",
+        "pool": 18,
+        "selected": 6,
+        "pool_success": 0,
+        "selected_success": 0,
+        "pool_rate": 0.0,
+        "hit_rate": 0.0,
+        "lift": 0.0
+      }
+    ]
+  },
+  {
+    "feature": "autocorr1",
+    "dates": 5,
+    "pool_n": 87,
+    "selected_n": 34,
+    "selected_unique_stocks": 30,
+    "selected_successes": 4,
+    "selected_unknown": 1,
+    "selected_known_hit": 0.12121212121212122,
+    "pool_rate": 0.08136363636363637,
+    "hit_rate": 0.11777777777777776,
+    "lift": 0.036414141414141406,
+    "per_date": [
+      {
+        "asof": "2022-03-31",
+        "pool": 22,
+        "selected": 9,
+        "pool_success": 2,
+        "selected_success": 2,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.2222222222222222,
+        "lift": 0.1313131313131313
+      },
+      {
+        "asof": "2022-06-30",
+        "pool": 16,
+        "selected": 6,
+        "pool_success": 2,
+        "selected_success": 1,
+        "pool_rate": 0.125,
+        "hit_rate": 0.16666666666666666,
+        "lift": 0.04166666666666666
+      },
+      {
+        "asof": "2022-09-30",
+        "pool": 11,
+        "selected": 5,
+        "pool_success": 1,
+        "selected_success": 1,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.2,
+        "lift": 0.1090909090909091
+      },
+      {
+        "asof": "2022-12-30",
+        "pool": 20,
+        "selected": 8,
+        "pool_success": 2,
+        "selected_success": 0,
+        "pool_rate": 0.1,
+        "hit_rate": 0.0,
+        "lift": -0.1
+      },
+      {
+        "asof": "2023-03-31",
+        "pool": 18,
+        "selected": 6,
+        "pool_success": 0,
+        "selected_success": 0,
+        "pool_rate": 0.0,
+        "hit_rate": 0.0,
+        "lift": 0.0
+      }
+    ]
+  },
+  {
+    "feature": "variance_ratio5",
+    "dates": 5,
+    "pool_n": 87,
+    "selected_n": 34,
+    "selected_unique_stocks": 27,
+    "selected_successes": 4,
+    "selected_unknown": 0,
+    "selected_known_hit": 0.11764705882352941,
+    "pool_rate": 0.08136363636363637,
+    "hit_rate": 0.11777777777777776,
+    "lift": 0.036414141414141406,
+    "per_date": [
+      {
+        "asof": "2022-03-31",
+        "pool": 22,
+        "selected": 9,
+        "pool_success": 2,
+        "selected_success": 2,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.2222222222222222,
+        "lift": 0.1313131313131313
+      },
+      {
+        "asof": "2022-06-30",
+        "pool": 16,
+        "selected": 6,
+        "pool_success": 2,
+        "selected_success": 1,
+        "pool_rate": 0.125,
+        "hit_rate": 0.16666666666666666,
+        "lift": 0.04166666666666666
+      },
+      {
+        "asof": "2022-09-30",
+        "pool": 11,
+        "selected": 5,
+        "pool_success": 1,
+        "selected_success": 1,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.2,
+        "lift": 0.1090909090909091
+      },
+      {
+        "asof": "2022-12-30",
+        "pool": 20,
+        "selected": 8,
+        "pool_success": 2,
+        "selected_success": 0,
+        "pool_rate": 0.1,
+        "hit_rate": 0.0,
+        "lift": -0.1
+      },
+      {
+        "asof": "2023-03-31",
+        "pool": 18,
+        "selected": 6,
+        "pool_success": 0,
+        "selected_success": 0,
+        "pool_rate": 0.0,
+        "hit_rate": 0.0,
+        "lift": 0.0
+      }
+    ]
+  },
+  {
+    "feature": "efficiency60",
+    "dates": 5,
+    "pool_n": 87,
+    "selected_n": 34,
+    "selected_unique_stocks": 33,
+    "selected_successes": 2,
+    "selected_unknown": 0,
+    "selected_known_hit": 0.058823529411764705,
+    "pool_rate": 0.08136363636363637,
+    "hit_rate": 0.04722222222222222,
+    "lift": -0.034141414141414146,
+    "per_date": [
+      {
+        "asof": "2022-03-31",
+        "pool": 22,
+        "selected": 9,
+        "pool_success": 2,
+        "selected_success": 1,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.1111111111111111,
+        "lift": 0.020202020202020193
+      },
+      {
+        "asof": "2022-06-30",
+        "pool": 16,
+        "selected": 6,
+        "pool_success": 2,
+        "selected_success": 0,
+        "pool_rate": 0.125,
+        "hit_rate": 0.0,
+        "lift": -0.125
+      },
+      {
+        "asof": "2022-09-30",
+        "pool": 11,
+        "selected": 5,
+        "pool_success": 1,
+        "selected_success": 0,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.0,
+        "lift": -0.09090909090909091
+      },
+      {
+        "asof": "2022-12-30",
+        "pool": 20,
+        "selected": 8,
+        "pool_success": 2,
+        "selected_success": 1,
+        "pool_rate": 0.1,
+        "hit_rate": 0.125,
+        "lift": 0.024999999999999994
+      },
+      {
+        "asof": "2023-03-31",
+        "pool": 18,
+        "selected": 6,
+        "pool_success": 0,
+        "selected_success": 0,
+        "pool_rate": 0.0,
+        "hit_rate": 0.0,
+        "lift": 0.0
+      }
+    ]
+  },
+  {
+    "feature": "log_liquidity",
+    "dates": 5,
+    "pool_n": 87,
+    "selected_n": 34,
+    "selected_unique_stocks": 29,
+    "selected_successes": 3,
+    "selected_unknown": 0,
+    "selected_known_hit": 0.08823529411764706,
+    "pool_rate": 0.08136363636363637,
+    "hit_rate": 0.07777777777777777,
+    "lift": -0.0035858585858585925,
+    "per_date": [
+      {
+        "asof": "2022-03-31",
+        "pool": 22,
+        "selected": 9,
+        "pool_success": 2,
+        "selected_success": 2,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.2222222222222222,
+        "lift": 0.1313131313131313
+      },
+      {
+        "asof": "2022-06-30",
+        "pool": 16,
+        "selected": 6,
+        "pool_success": 2,
+        "selected_success": 1,
+        "pool_rate": 0.125,
+        "hit_rate": 0.16666666666666666,
+        "lift": 0.04166666666666666
+      },
+      {
+        "asof": "2022-09-30",
+        "pool": 11,
+        "selected": 5,
+        "pool_success": 1,
+        "selected_success": 0,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.0,
+        "lift": -0.09090909090909091
+      },
+      {
+        "asof": "2022-12-30",
+        "pool": 20,
+        "selected": 8,
+        "pool_success": 2,
+        "selected_success": 0,
+        "pool_rate": 0.1,
+        "hit_rate": 0.0,
+        "lift": -0.1
+      },
+      {
+        "asof": "2023-03-31",
+        "pool": 18,
+        "selected": 6,
+        "pool_success": 0,
+        "selected_success": 0,
+        "pool_rate": 0.0,
+        "hit_rate": 0.0,
+        "lift": 0.0
+      }
+    ]
+  },
+  {
+    "feature": "amount_cv60",
+    "dates": 5,
+    "pool_n": 87,
+    "selected_n": 34,
+    "selected_unique_stocks": 30,
+    "selected_successes": 1,
+    "selected_unknown": 1,
+    "selected_known_hit": 0.030303030303030304,
+    "pool_rate": 0.08136363636363637,
+    "hit_rate": 0.03333333333333333,
+    "lift": -0.048030303030303034,
+    "per_date": [
+      {
+        "asof": "2022-03-31",
+        "pool": 22,
+        "selected": 9,
+        "pool_success": 2,
+        "selected_success": 0,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.0,
+        "lift": -0.09090909090909091
+      },
+      {
+        "asof": "2022-06-30",
+        "pool": 16,
+        "selected": 6,
+        "pool_success": 2,
+        "selected_success": 1,
+        "pool_rate": 0.125,
+        "hit_rate": 0.16666666666666666,
+        "lift": 0.04166666666666666
+      },
+      {
+        "asof": "2022-09-30",
+        "pool": 11,
+        "selected": 5,
+        "pool_success": 1,
+        "selected_success": 0,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.0,
+        "lift": -0.09090909090909091
+      },
+      {
+        "asof": "2022-12-30",
+        "pool": 20,
+        "selected": 8,
+        "pool_success": 2,
+        "selected_success": 0,
+        "pool_rate": 0.1,
+        "hit_rate": 0.0,
+        "lift": -0.1
+      },
+      {
+        "asof": "2023-03-31",
+        "pool": 18,
+        "selected": 6,
+        "pool_success": 0,
+        "selected_success": 0,
+        "pool_rate": 0.0,
+        "hit_rate": 0.0,
+        "lift": 0.0
+      }
+    ]
+  },
+  {
+    "feature": "intraday_range60_box",
+    "dates": 5,
+    "pool_n": 87,
+    "selected_n": 34,
+    "selected_unique_stocks": 29,
+    "selected_successes": 0,
+    "selected_unknown": 0,
+    "selected_known_hit": 0.0,
+    "pool_rate": 0.08136363636363637,
+    "hit_rate": 0.0,
+    "lift": -0.08136363636363637,
+    "per_date": [
+      {
+        "asof": "2022-03-31",
+        "pool": 22,
+        "selected": 9,
+        "pool_success": 2,
+        "selected_success": 0,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.0,
+        "lift": -0.09090909090909091
+      },
+      {
+        "asof": "2022-06-30",
+        "pool": 16,
+        "selected": 6,
+        "pool_success": 2,
+        "selected_success": 0,
+        "pool_rate": 0.125,
+        "hit_rate": 0.0,
+        "lift": -0.125
+      },
+      {
+        "asof": "2022-09-30",
+        "pool": 11,
+        "selected": 5,
+        "pool_success": 1,
+        "selected_success": 0,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.0,
+        "lift": -0.09090909090909091
+      },
+      {
+        "asof": "2022-12-30",
+        "pool": 20,
+        "selected": 8,
+        "pool_success": 2,
+        "selected_success": 0,
+        "pool_rate": 0.1,
+        "hit_rate": 0.0,
+        "lift": -0.1
+      },
+      {
+        "asof": "2023-03-31",
+        "pool": 18,
+        "selected": 6,
+        "pool_success": 0,
+        "selected_success": 0,
+        "pool_rate": 0.0,
+        "hit_rate": 0.0,
+        "lift": 0.0
+      }
+    ]
+  }
+]

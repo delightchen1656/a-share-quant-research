@@ -1,0 +1,268 @@
+{
+  "selection_sha256": "64c2ce685330517df868597eae5a72ff2ba257af3953786e3ba893a966bc0b72",
+  "winner": "priority_oversold",
+  "results": {
+    "baseline": {
+      "key": "sample_after_100000_5",
+      "summary": {
+        "pool": "sample",
+        "filtered": true,
+        "capital": 100000,
+        "slots": 5,
+        "slot_budget": 20000.0,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "annual_rules": null,
+        "signals": 1017,
+        "trades": 290,
+        "skipped": 725,
+        "final_equity": 163088.91472000015,
+        "total_return": 0.6308891472000016,
+        "annualized_return": 0.10272557761835421,
+        "max_drawdown": -0.09939722527922579,
+        "takeprofit": 74,
+        "stoploss": 0,
+        "forced": 216,
+        "net_win_rate": 0.5793103448275863,
+        "mean_trade_return": 0.011450134328238569,
+        "fees": 8683.870659999999,
+        "max_positions": 5,
+        "average_positions": 0.6584158415841584,
+        "corporate_events": 0,
+        "delayed_exits": 0,
+        "skipped_slots": 724
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.08021116000000106,
+          "max_drawdown": -0.08102931784615974,
+          "end_equity": 108021.11600000011
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.16370667971991737,
+          "max_drawdown": -0.05988881803442925,
+          "end_equity": 125704.89424000017
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.12942162807868662,
+          "max_drawdown": -0.08028874714281753,
+          "end_equity": 141973.82631000012
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.08359975214082072,
+          "max_drawdown": -0.011870222696715227,
+          "end_equity": 153842.80300000007
+        },
+        {
+          "year": 2024,
+          "return_pct": 0.06010103521059795,
+          "max_drawdown": -0.0974213592330484,
+          "end_equity": 163088.91472000015
+        }
+      ],
+      "specials": [],
+      "yearly_trades": {
+        "2020": 58,
+        "2021": 70,
+        "2022": 72,
+        "2023": 22,
+        "2024": 68
+      },
+      "open_positions": [
+        {
+          "code": "002513",
+          "name": "002513",
+          "signal_date": "2024-12-27",
+          "buy_date": "2024-12-30",
+          "buy_price": 4.91,
+          "buy_qty": 4000,
+          "buy_notional": 19640.0,
+          "cost": 19646.0884,
+          "buy_fee": 6.088399999999999,
+          "available": 4000,
+          "locked": [],
+          "due_date": "9999-12-31",
+          "take_profit": 0.08,
+          "forced_day": 3,
+          "stop_loss": null,
+          "last_price": 4.48,
+          "last_factor": 1.0,
+          "sale_net": 0.0,
+          "sale_gross": 0.0,
+          "sell_fee": 0.0,
+          "div_net": 0.0,
+          "div_gross": 0.0,
+          "corporate_events": 0,
+          "reasons": []
+        },
+        {
+          "code": "002694",
+          "name": "002694",
+          "signal_date": "2024-12-27",
+          "buy_date": "2024-12-30",
+          "buy_price": 4.82,
+          "buy_qty": 4100,
+          "buy_notional": 19762.0,
+          "cost": 19768.12622,
+          "buy_fee": 6.126219999999999,
+          "available": 4100,
+          "locked": [],
+          "due_date": "9999-12-31",
+          "take_profit": 0.08,
+          "forced_day": 3,
+          "stop_loss": null,
+          "last_price": 4.58,
+          "last_factor": 1.0,
+          "sale_net": 0.0,
+          "sale_gross": 0.0,
+          "sell_fee": 0.0,
+          "div_net": 0.0,
+          "div_gross": 0.0,
+          "corporate_events": 0,
+          "reasons": []
+        }
+      ],
+      "receivables": [],
+      "pending_signals": []
+    },
+    "priority_oversold": {
+      "key": "sample_after_100000_5",
+      "summary": {
+        "pool": "sample",
+        "filtered": true,
+        "capital": 100000,
+        "slots": 5,
+        "slot_budget": 20000.0,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "annual_rules": null,
+        "signals": 1017,
+        "trades": 288,
+        "skipped": 727,
+        "final_equity": 170081.67973000024,
+        "total_return": 0.7008167973000023,
+        "annualized_return": 0.1120199273638176,
+        "max_drawdown": -0.0931240211190969,
+        "takeprofit": 77,
+        "stoploss": 0,
+        "forced": 211,
+        "net_win_rate": 0.5659722222222222,
+        "mean_trade_return": 0.012769596023399003,
+        "fees": 8672.10565,
+        "max_positions": 5,
+        "average_positions": 0.6526402640264026,
+        "corporate_events": 0,
+        "delayed_exits": 0,
+        "skipped_slots": 727
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.15617069520000082,
+          "max_drawdown": -0.07578241478014724,
+          "end_equity": 115617.06952000009
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.1262303089032668,
+          "max_drawdown": -0.055954168245726854,
+          "end_equity": 130211.44792000018
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.14196378041473845,
+          "max_drawdown": -0.08957873305309438,
+          "end_equity": 148696.75732000024
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.07636980008623606,
+          "max_drawdown": -0.011414567880111415,
+          "end_equity": 160052.69895000022
+        },
+        {
+          "year": 2024,
+          "return_pct": 0.06266049148682606,
+          "max_drawdown": -0.0759720518538296,
+          "end_equity": 170081.67973000024
+        }
+      ],
+      "specials": [],
+      "yearly_trades": {
+        "2020": 58,
+        "2021": 72,
+        "2022": 72,
+        "2023": 22,
+        "2024": 64
+      },
+      "open_positions": [
+        {
+          "code": "002513",
+          "name": "002513",
+          "signal_date": "2024-12-27",
+          "buy_date": "2024-12-30",
+          "buy_price": 4.91,
+          "buy_qty": 4000,
+          "buy_notional": 19640.0,
+          "cost": 19646.0884,
+          "buy_fee": 6.088399999999999,
+          "available": 4000,
+          "locked": [],
+          "due_date": "9999-12-31",
+          "take_profit": 0.08,
+          "forced_day": 3,
+          "stop_loss": null,
+          "last_price": 4.48,
+          "last_factor": 1.0,
+          "sale_net": 0.0,
+          "sale_gross": 0.0,
+          "sell_fee": 0.0,
+          "div_net": 0.0,
+          "div_gross": 0.0,
+          "corporate_events": 0,
+          "reasons": []
+        },
+        {
+          "code": "002694",
+          "name": "002694",
+          "signal_date": "2024-12-27",
+          "buy_date": "2024-12-30",
+          "buy_price": 4.82,
+          "buy_qty": 4100,
+          "buy_notional": 19762.0,
+          "cost": 19768.12622,
+          "buy_fee": 6.126219999999999,
+          "available": 4100,
+          "locked": [],
+          "due_date": "9999-12-31",
+          "take_profit": 0.08,
+          "forced_day": 3,
+          "stop_loss": null,
+          "last_price": 4.58,
+          "last_factor": 1.0,
+          "sale_net": 0.0,
+          "sale_gross": 0.0,
+          "sell_fee": 0.0,
+          "div_net": 0.0,
+          "div_gross": 0.0,
+          "corporate_events": 0,
+          "reasons": []
+        }
+      ],
+      "receivables": [],
+      "pending_signals": []
+    }
+  },
+  "limitations": [
+    "Retrospective 947-stock pool",
+    "2024 has prior development history",
+    "Guaranteed entry and daily-bar exit execution assumptions",
+    "Supplier responses and factor checks do not establish complete official corporate-action coverage"
+  ]
+}

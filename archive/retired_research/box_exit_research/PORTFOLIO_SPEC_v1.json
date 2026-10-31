@@ -1,0 +1,30 @@
+{
+  "capital": 100000,
+  "start": "2019-01-01",
+  "end": "2024-12-31",
+  "scope": "Only current merged leader mainboard signals with the user keep-tag; current membership and prior descriptive outcome review bias acknowledged",
+  "entry": "Signal close confirmation -> next official exchange session OPEN only. No same-day buy/sell. No requeue of skipped signals.",
+  "sizing": "Each entry gross plus buy fees <= 50% of equity immediately before this buy, also <= spendable cash; 100-share buy lots; max2 distinct codes. No repeated same-code position.",
+  "priorities": "Signal_date ascending then code ascending. At open process known opening exits first, then opening buys. Intraday exits cannot fund already-passed opening buys. No future returns used.",
+  "initial_stop": "5% below actual entry adjusted open; raw execution and share ledger.",
+  "profit": "When prior-session high reaches entry*1.10: stop=max(previous stop, entry+0.70*(prior high-entry)); never lowered; update after close only.",
+  "tplus1": "Buy-day stop touches create pending exit for next eligible session, no same-day sale.",
+  "horizon": "60 exchange sessions including buy day. Planned close exit at day60; if down-limit close cannot fill, carry pending sell. No year-end reset or forced liquidation merely for reporting.",
+  "queue": "Opening buy at upper price limit skipped conservatively. Sell at lower-limit open is not credited before buys; if intraday unlock high>lower, estimate sale at lower in intraday phase. Full-day locked lower carries pending.",
+  "stop_fill": "Known pre-open stop: open below stop -> open fill subject to limit queue. Otherwise intraday low touch -> estimate standing-stop price. Daily estimates do not certify queue fills.",
+  "fees": {
+    "commission_rate": 0.0003,
+    "commission_min": 5,
+    "commission_scope": "both sides, includes brokerage/exchange handling component; do not double charge",
+    "transfer": "both sides .00002 before2022-04-29; .00001 thereafter",
+    "stamp": "sell only .001 before2023-08-28; .0005 thereafter",
+    "slippage": 0
+  },
+  "actions": "Original price cash/share ledger; record-day entitlement at close, ex-date receivable, actual pay-date cash; stock bonus/capitalization listings only on supplied listing date. Raw preclose discontinuities while held reconciled with source actions. Missing dates/rights/subscription unresolved -> audit failure, no certified result.",
+  "dividend_tax": "Cash plus bonus-share face-value taxable base; holding<=1calendar month20%, >1month<=1year10%, >1year exempt; current liability reserved from investable cash until final withholding. Face-value-dependent bonus shares require verification.",
+  "marks": "Cash plus listed shares and unlisted share receivables at raw mark plus cash receivables minus dividend tax liability. Genuine halt uses last quoted mark and separately logs stale valuation; unknown active data fail closed.",
+  "extremes": "Do not delete future winners>=100%; prior extreme removal was descriptive only.",
+  "comparison": "New open-entry chronological account, not comparable to prior ideal-close independent-signal means.",
+  "not_a_blind_test": true,
+  "no_production_or_viewer_changes": true
+}

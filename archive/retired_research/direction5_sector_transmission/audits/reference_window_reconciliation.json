@@ -1,0 +1,18 @@
+{
+  "reference_candidates": 15913,
+  "status_counts": {
+    "generic_reference_matches_at_cent_precision": 14985,
+    "generic_reference_formula_mismatch_needs_investigation": 812,
+    "rights_issue_requires_distinct_reference_and_subscription_policy": 53,
+    "no_known_dividend_or_rights_event": 45,
+    "dividend_amounts_unresolved": 13,
+    "issuer_differential_distribution_reference_is_not_public_cash": 5
+  },
+  "dividend_date_or_suspension_interval_matches": 15815,
+  "rights_date_or_suspension_interval_matches": 53,
+  "additional_dividend_matches_from_suspension_intervals": 103,
+  "no_assumed_trading_or_suspension_for_missing_rows": true,
+  "quote_reference_checks_are_not_economic_return_labels": true,
+  "complete_corporate_action_ledger": false,
+  "economic_labels_ready": false
+}

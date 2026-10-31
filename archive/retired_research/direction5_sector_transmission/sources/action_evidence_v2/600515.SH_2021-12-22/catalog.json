@@ -1,0 +1,53 @@
+{
+  "symbol": "600515.SH",
+  "event_date": "2021-12-22",
+  "kind": "unknown_reference",
+  "start": "2021-11-05",
+  "query_files": [
+    {
+      "path": "sources\\action_evidence_v2\\600515.SH_2021-12-22\\query_01.json",
+      "sha256": "38eaa0ab1fa39dc8a349e5431f404afa115ae53711bfa8f5b7c95ffb43f82ac1"
+    }
+  ],
+  "exact_code_announcements": 28,
+  "documents": [
+    {
+      "title": "海航基础设施投资集团股份有限公司关于重整计划资本公积金转增股本事项实施的公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2021-12-16/1211922576.PDF",
+      "published_date": "2021-12-16",
+      "pdf": "sources\\action_evidence_v2\\600515.SH_2021-12-22\\1211922576.pdf",
+      "text": "sources\\action_evidence_v2\\600515.SH_2021-12-22\\1211922576.txt",
+      "sha256": "4d7a6aebf853e26229db1416b44e97b315fd4b72baf5616adda4ba37c71956cc",
+      "pages": 7
+    },
+    {
+      "title": "天风证券股份有限公司关于海航基础设施投资集团股份有限公司调整资本公积金转增股本除权参考价格的计算公式的专项意见",
+      "url": "https://static.cninfo.com.cn/finalpage/2021-12-16/1211922577.PDF",
+      "published_date": "2021-12-16",
+      "pdf": "sources\\action_evidence_v2\\600515.SH_2021-12-22\\1211922577.pdf",
+      "text": "sources\\action_evidence_v2\\600515.SH_2021-12-22\\1211922577.txt",
+      "sha256": "ec42ff32408daee759a4b3ccba16fbca669603d396f6003f187313ebabb2008d",
+      "pages": 8
+    },
+    {
+      "title": "天风证券股份有限公司关于海航基础设施投资集团股份有限公司调整资本公积金转增股本除权参考价格的计算结果的专项意见",
+      "url": "https://static.cninfo.com.cn/finalpage/2021-12-21/1211970833.PDF",
+      "published_date": "2021-12-21",
+      "pdf": "sources\\action_evidence_v2\\600515.SH_2021-12-22\\1211970833.pdf",
+      "text": "sources\\action_evidence_v2\\600515.SH_2021-12-22\\1211970833.txt",
+      "sha256": "f21d2392dc64289f170d83d3999602586153a35a42c69ce3e26d9c2695806cef",
+      "pages": 4
+    },
+    {
+      "title": "海航基础设施投资集团股份有限公司关于重整计划资本公积金转增股本除权事项的提示性公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2021-12-21/1211970832.PDF",
+      "published_date": "2021-12-21",
+      "pdf": "sources\\action_evidence_v2\\600515.SH_2021-12-22\\1211970832.pdf",
+      "text": "sources\\action_evidence_v2\\600515.SH_2021-12-22\\1211970832.txt",
+      "sha256": "1713b6823f0a4ef74a83d15be52e93e32b3ea96e0caf07f38f38d0c2a8a38c88",
+      "pages": 7
+    }
+  ],
+  "no_document_is_not_no_event_proof": true,
+  "fields_verified": false
+}

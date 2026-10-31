@@ -1,0 +1,44 @@
+{
+  "symbol": "000538.SZ",
+  "event_date": "2024-11-25",
+  "kind": "unknown_reference",
+  "start": "2024-10-08",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\000538.SZ_2024-11-25\\query_01.json",
+      "sha256": "fafb1f71fc1cbe7488b32bba9aa078fb5bc6574d3161a6f3c6836dee4851c828",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "000538",
+        "begin_time": "2024-10-08",
+        "end_time": "2024-11-25"
+      }
+    }
+  ],
+  "announcement_count": 15,
+  "documents": [
+    {
+      "title": "云南白药:2024年特别分红权益分派实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2024-11-19",
+      "raw_response": "sources\\action_issuer_mirror_v2\\000538.SZ_2024-11-25\\AN202411181640942649_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\000538.SZ_2024-11-25\\AN202411181640942649.txt",
+      "sha256": "d1eb6764a82a24d1b780486a3f183cfc3c273c0769ac432fec46fd84752a4613",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\000538.SZ_2024-11-25\\AN202411181640942649_content.json",
+          "sha256": "d1eb6764a82a24d1b780486a3f183cfc3c273c0769ac432fec46fd84752a4613"
+        }
+      ],
+      "article_code": "AN202411181640942649",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202411181640942649_1.pdf?1731954710000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

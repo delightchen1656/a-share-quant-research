@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "all_first_page_contact_sheet_reviewed": true,
+  "all_pages_visually_verified": false,
+  "method": "Visual samples of official merged-cell and code-sorted layouts plus exact extracted-row checks; complete code-set reconciliation performed separately for every page.",
+  "checks": [
+    {
+      "source_id": "ae4789d5c5d5",
+      "stock_code": "002069",
+      "expected": "A04",
+      "actual": "A04"
+    },
+    {
+      "source_id": "ae4789d5c5d5",
+      "stock_code": "600121",
+      "expected": "B06",
+      "actual": "B06"
+    },
+    {
+      "source_id": "ae4789d5c5d5",
+      "stock_code": "000968",
+      "expected": "B07",
+      "actual": "B07"
+    },
+    {
+      "source_id": "ae4789d5c5d5",
+      "stock_code": "000762",
+      "expected": "B08",
+      "actual": "B08"
+    },
+    {
+      "source_id": "adc5a6637835",
+      "stock_code": "000001",
+      "expected": "J66",
+      "actual": "J66"
+    },
+    {
+      "source_id": "adc5a6637835",
+      "stock_code": "000009",
+      "expected": "J69",
+      "actual": "J69"
+    },
+    {
+      "source_id": "adc5a6637835",
+      "stock_code": "000008",
+      "expected": "C37",
+      "actual": "C37"
+    },
+    {
+      "source_id": "adc5a6637835",
+      "stock_code": "000027",
+      "expected": "D44",
+      "actual": "D44"
+    },
+    {
+      "source_id": "9c8eab91dc36",
+      "stock_code": "000100",
+      "expected": "C39",
+      "actual": "C39"
+    },
+    {
+      "source_id": "9c8eab91dc36",
+      "stock_code": "000153",
+      "expected": "C27",
+      "actual": "C27"
+    },
+    {
+      "source_id": "9c8eab91dc36",
+      "stock_code": "000426",
+      "expected": "B09",
+      "actual": "B09"
+    },
+    {
+      "source_id": "9c8eab91dc36",
+      "stock_code": "000498",
+      "expected": "E48",
+      "actual": "E48"
+    }
+  ],
+  "review_note": "Initial manual transcription confused 000151 (F51) and adjacent 000153 (C27); corrected against rendered source before approval."
+}

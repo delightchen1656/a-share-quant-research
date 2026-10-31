@@ -1,0 +1,34 @@
+{
+  "status": "corrected_100k_frozen_before_any_performance_calculation",
+  "instruction_boundary_version": "public-pre2025-v2",
+  "frozen_at_local": "2026-10-24T18:11:47.0975856+08:00",
+  "research_cutoff": "2024-12-31",
+  "planned_evaluation_runs": 1,
+  "self_test_used_only_synthetic_data": true,
+  "correction_is_performance_tuning": false,
+  "only_strategy_input_difference_from_invalid_run": "initial_cash_cny: 1000000.0 -> 100000.0",
+  "previous_invalid_directory_preserved": "../fixed_formula_monthly_preregistered_v1_20261024",
+  "frozen_files": {
+    "PROTOCOL_FROZEN.md": "87c0371a2a4ada2ebca59dc2f2053689b42d13d7d4c6e0eb06b02b9c20ba9ade",
+    "CORRECTION_PROTOCOL_BEFORE_RUN.md": "5e10af95ad587bfaee8e75b9f0c46db275bfb48b4d0fa71a157438de1a2af15a",
+    "frozen_config.json": "5aaf2a6bc8049d086d4fdbdc1c8b85818e2034cb2d39a475c1091d6b10d2f6ee",
+    "run_once.py": "2ab1f2fec7fd65d928686c317588d07e7edd0f6054feff9b1224bb213b2acdeb",
+    "machine_diff_audit.py": "8d5d3adb8153b2a43cfcc9307865921976a74c459f05b5513f7d07afe2a10c03",
+    "MACHINE_DIFF_AUDIT_BEFORE_RUN.json": "de7aab9e2da33b9e12109cf0aae0713b48ccb0a01ee1f7325742c8488ab17302",
+    "PROTOCOL_DIFF_BEFORE_RUN.patch": "74ad83088c30e595a7acfc37215c3b3896ceab88c0d0ba443c7650c12696dd8c",
+    "PRE_RUN_AUDIT_ATTEMPT1_FAILED.md": "c6dbb598e1d00215e44d8fa8818b3eaebe86c3134d1f3b677915636948d2d484"
+  },
+  "input_files": {
+    "PUBLIC_INPUT_MANIFEST.json": "fd4bfbc19b7af7155d5047615e1f5e94c0a84303bc219251f3564d131aa71ce2",
+    "calendar.csv": "11aaf134eff50d830e1c1c24ba9f6412a696d88b8922d4b7005a37d2ab83a412",
+    "universe.csv": "6e5a0ea2cd10d49537731a0b3c2969bc34e2e0f7a83216f0ce8982966c25661a",
+    "sse_price_index.parquet": "1c7d838cff3085c70f370d272506f3a3ee136851170882700522a3436cadb722",
+    "actions_pre2025.json": "e1a9a41116ea92bb18ecff54f7bdc06acfa462dffa57f1842376bbbccca3c480",
+    "actions_pre2025_repaired_20261024.json": "b8210ba72187320e55a2ad122dbc6c8b737946f2a533ad1d0f23e862833b8faa"
+  },
+  "raw_input_binding": {
+    "method": "PUBLIC_INPUT_MANIFEST.json contains per-file SHA-256 for all 3354 raw parquets",
+    "runtime_rule": "the byte-identical run_once.py verifies every raw parquet before signals or performance"
+  },
+  "command": "quant_env/Scripts/python.exe -B corrected_100k/run_once.py --execute-frozen"
+}

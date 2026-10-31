@@ -1,0 +1,23 @@
+{
+  "prefix_invariance_checks": [
+    {
+      "symbol": "600000.SH",
+      "adding_later_rows_does_not_change_earlier_flags": true
+    },
+    {
+      "symbol": "601360.SH",
+      "adding_later_rows_does_not_change_earlier_flags": true
+    },
+    {
+      "symbol": "001872.SZ",
+      "adding_later_rows_does_not_change_earlier_flags": true
+    }
+  ],
+  "identity_confirmation_boundary_checked": true,
+  "history_119_120_boundary_checked": true,
+  "holdout_2024_not_materialized": true,
+  "no_return_or_factor_columns": true,
+  "source_snapshot_file_hashes_verified": 3336,
+  "output_row_identity_checks_passed": true,
+  "rows_reconciled_to_daily_counts": true
+}

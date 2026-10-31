@@ -1,0 +1,25 @@
+{
+  "stage": "frozen_before_round2_outcome_comparison",
+  "threshold_training": "2020-2022 inputs only",
+  "first_round_exit_selection_source": "pre2023 annual price-proxy summaries; later years excluded",
+  "liq_amount20_min": 36423981.67,
+  "gap_min": -0.013594874843141192,
+  "gap_max": 0.010722214714569628,
+  "NEW": {
+    "id": "code_TP20_SL12_H20",
+    "rank": "code",
+    "tp": 0.2,
+    "sl": 0.12,
+    "h": 20,
+    "trail": false
+  },
+  "training_score": 0.06227968920370182,
+  "configs": 12,
+  "pools": [
+    "ALL",
+    "LIQ",
+    "GAP",
+    "BOTH"
+  ],
+  "past_2023_2024_outcomes_already_seen": true
+}

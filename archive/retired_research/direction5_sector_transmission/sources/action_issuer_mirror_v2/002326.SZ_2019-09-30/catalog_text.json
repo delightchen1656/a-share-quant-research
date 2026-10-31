@@ -1,0 +1,62 @@
+{
+  "symbol": "002326.SZ",
+  "event_date": "2019-09-30",
+  "kind": "unknown_reference",
+  "start": "2019-08-13",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\002326.SZ_2019-09-30\\query_01.json",
+      "sha256": "35ce9e040f52824bd247dcb6713080e577323c8d4abf883b264f6853282412f5",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "002326",
+        "begin_time": "2019-08-13",
+        "end_time": "2019-09-30"
+      }
+    }
+  ],
+  "announcement_count": 25,
+  "documents": [
+    {
+      "title": "永太科技:关于以资本公积定向转增股本的实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2019-09-24",
+      "raw_response": "sources\\action_issuer_mirror_v2\\002326.SZ_2019-09-30\\AN201909231365594033_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\002326.SZ_2019-09-30\\AN201909231365594033.txt",
+      "sha256": "c10006f82036e68fbfe3e55e494d23b82161894a36052965aaf4ec7dd281840f",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\002326.SZ_2019-09-30\\AN201909231365594033_content.json",
+          "sha256": "c10006f82036e68fbfe3e55e494d23b82161894a36052965aaf4ec7dd281840f"
+        }
+      ],
+      "article_code": "AN201909231365594033",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201909231365594033_1.PDF",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    },
+    {
+      "title": "永太科技:2018年年度权益分派实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2019-08-14",
+      "raw_response": "sources\\action_issuer_mirror_v2\\002326.SZ_2019-09-30\\AN201908131343244514_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\002326.SZ_2019-09-30\\AN201908131343244514.txt",
+      "sha256": "904e83c0984e8f4c87a8d9058efa875edac8c354cddebf065d291d9d433decde",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\002326.SZ_2019-09-30\\AN201908131343244514_content.json",
+          "sha256": "904e83c0984e8f4c87a8d9058efa875edac8c354cddebf065d291d9d433decde"
+        }
+      ],
+      "article_code": "AN201908131343244514",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201908131343244514_1.PDF",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

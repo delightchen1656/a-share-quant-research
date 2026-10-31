@@ -1,0 +1,53 @@
+{
+  "symbol": "600815.SH",
+  "event_date": "2019-12-23",
+  "kind": "unknown_reference",
+  "start": "2019-11-04",
+  "query_files": [
+    {
+      "path": "sources\\action_evidence_v2\\600815.SH_2019-12-23\\query_01.json",
+      "sha256": "aaf08336fbe8b5dc1a697a104ca43af45abdf86f36df0eb52dd04f00911980bc"
+    }
+  ],
+  "exact_code_announcements": 21,
+  "documents": [
+    {
+      "title": "关于重整计划资本公积金转增股本事项实施的公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2019-12-17/1207169325.PDF",
+      "published_date": "2019-12-17",
+      "pdf": "sources\\action_evidence_v2\\600815.SH_2019-12-23\\1207169325.pdf",
+      "text": "sources\\action_evidence_v2\\600815.SH_2019-12-23\\1207169325.txt",
+      "sha256": "14069ea880d2ce138673076a25df017954deebaa27a06220c4300d72c55026ea",
+      "pages": 5
+    },
+    {
+      "title": "兴业证券股份有限公司关于公司调整资本公积金转增股本除权参考价格的计算公式的专项意见",
+      "url": "https://static.cninfo.com.cn/finalpage/2019-12-17/1207169324.PDF",
+      "published_date": "2019-12-17",
+      "pdf": "sources\\action_evidence_v2\\600815.SH_2019-12-23\\1207169324.pdf",
+      "text": "sources\\action_evidence_v2\\600815.SH_2019-12-23\\1207169324.txt",
+      "sha256": "7efcac2ad53715140f4caa5b821753d0947a52fd7de46cdf89a5a30c0b81110c",
+      "pages": 6
+    },
+    {
+      "title": "兴业证券股份有限公司关于厦门厦工机械股份有限公司资本公积金转增股本除权参考价格的计算结果的专项意见",
+      "url": "https://static.cninfo.com.cn/finalpage/2019-12-20/1207180288.PDF",
+      "published_date": "2019-12-20",
+      "pdf": "sources\\action_evidence_v2\\600815.SH_2019-12-23\\1207180288.pdf",
+      "text": "sources\\action_evidence_v2\\600815.SH_2019-12-23\\1207180288.txt",
+      "sha256": "eddc0a6462eababb39666fa95974d8d597d980fb258471a7d1f2295655007a96",
+      "pages": 3
+    },
+    {
+      "title": "关于资本公积转增股本除权事项的提示性公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2019-12-20/1207180289.PDF",
+      "published_date": "2019-12-20",
+      "pdf": "sources\\action_evidence_v2\\600815.SH_2019-12-23\\1207180289.pdf",
+      "text": "sources\\action_evidence_v2\\600815.SH_2019-12-23\\1207180289.txt",
+      "sha256": "5455d6922debd0340918de4955a1dc5721d686bac2d2950a477b5d93b8085b38",
+      "pages": 4
+    }
+  ],
+  "no_document_is_not_no_event_proof": true,
+  "fields_verified": false
+}

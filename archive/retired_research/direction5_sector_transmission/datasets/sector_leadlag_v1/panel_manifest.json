@@ -1,0 +1,14 @@
+{
+  "scope": "previous_close_baskets_next_session_quote_strength_not_economic_return",
+  "development_end": "2023-12-31",
+  "canonical_industries_in_historical_snapshot": 81,
+  "raw_industry_codes": 89,
+  "sectors_passing_initial_coverage_screen": 67,
+  "calendar_days": 1457,
+  "stock_snapshot_hashes_verified": 3336,
+  "holdout_prices_used": false,
+  "future_ST_not_used_to_redefine_prior_basket": true,
+  "quote_coverage_and_noninvestability_limits_registered": true,
+  "panel_sha256": "57267f151a6ea87b1666c48c8b7df836069610fd9a29ccb3e10af010e4e6d36a",
+  "specification_sha256": "aaf12c63c0e856afb6e187e230ede24b68ec379a23e74cd621965bd2f04e3824"
+}

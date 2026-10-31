@@ -1,0 +1,45 @@
+{
+  "key": "600114.SH/2014",
+  "request": {
+    "code": "sh.600114",
+    "year": "2014",
+    "yearType": "operate"
+  },
+  "fields": [
+    "code",
+    "dividPreNoticeDate",
+    "dividAgmPumDate",
+    "dividPlanAnnounceDate",
+    "dividPlanDate",
+    "dividRegistDate",
+    "dividOperateDate",
+    "dividPayDate",
+    "dividStockMarketDate",
+    "dividCashPsBeforeTax",
+    "dividCashPsAfterTax",
+    "dividStocksPs",
+    "dividCashStock",
+    "dividReserveToStockPs"
+  ],
+  "records": [
+    {
+      "code": "sh.600114",
+      "dividPreNoticeDate": "",
+      "dividAgmPumDate": "2014-04-12",
+      "dividPlanAnnounceDate": "2014-03-22",
+      "dividPlanDate": "2014-04-24",
+      "dividRegistDate": "2014-04-29",
+      "dividOperateDate": "2014-04-30",
+      "dividPayDate": "2014-05-08",
+      "dividStockMarketDate": "2014-05-05",
+      "dividCashPsBeforeTax": "0.15",
+      "dividCashPsAfterTax": "0.135或0.1425",
+      "dividStocksPs": "0.000000",
+      "dividCashStock": "10转5派1.5元（含税，扣税后1.35或1.425元）",
+      "dividReserveToStockPs": "0.500000"
+    }
+  ],
+  "row_count": 1,
+  "successful_empty": false,
+  "cutoff": "2024-12-31"
+}

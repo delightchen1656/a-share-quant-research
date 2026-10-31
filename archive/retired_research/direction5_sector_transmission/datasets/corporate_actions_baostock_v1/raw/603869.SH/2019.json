@@ -1,0 +1,44 @@
+{
+  "symbol": "603869.SH",
+  "year": 2019,
+  "year_type": "operate",
+  "provider": "BaoStock",
+  "status": "returned_events",
+  "complete_corporate_action_ledger": false,
+  "fields": [
+    "code",
+    "dividPreNoticeDate",
+    "dividAgmPumDate",
+    "dividPlanAnnounceDate",
+    "dividPlanDate",
+    "dividRegistDate",
+    "dividOperateDate",
+    "dividPayDate",
+    "dividStockMarketDate",
+    "dividCashPsBeforeTax",
+    "dividCashPsAfterTax",
+    "dividStocksPs",
+    "dividCashStock",
+    "dividReserveToStockPs"
+  ],
+  "rows": [
+    [
+      "sh.603869",
+      "",
+      "2019-05-17",
+      "2019-04-20",
+      "2019-07-05",
+      "2019-07-10",
+      "2019-07-11",
+      "2019-07-11",
+      "2019-07-12",
+      "0.32852",
+      "0.295668或0.32852",
+      "0.000000",
+      "10转4.5派3.2852元（含税，扣税后2.95668或3.2852元）",
+      "0.450000"
+    ]
+  ],
+  "attempts": 1,
+  "elapsed_seconds": 0.0197
+}

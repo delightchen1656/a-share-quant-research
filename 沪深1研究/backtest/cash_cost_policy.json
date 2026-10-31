@@ -1,0 +1,11 @@
+{
+  "policy_id": "user_unified_cash_cost_v1",
+  "sale_cash_next_session": true,
+  "slippage_one_side": 0.002,
+  "commission_rate": 0.0003,
+  "minimum_commission": 5.0,
+  "sell_stamp_rate": 0.001,
+  "separate_transfer_fee": false,
+  "dividend_tax": "unchanged_FIFO_holding_period",
+  "scope": "Explicit local replay scenario unified_cash_cost; fixed user comparison convention, not historical statutory fee reconstruction"
+}

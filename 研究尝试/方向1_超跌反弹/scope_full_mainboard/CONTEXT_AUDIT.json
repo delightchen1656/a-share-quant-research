@@ -1,0 +1,14 @@
+{
+  "boundary_version": "public-pre2025-v2",
+  "same_initial_clean_agent": true,
+  "continued_context_audit": "passed",
+  "since_previous_audit": "Only own 2020-2024 results and engineering/scope authorization messages; no posterior or direction2 result/classification contents",
+  "previous_2024_exposure_disclosed": true,
+  "new_scope_whitelist_read": false,
+  "restricted_read": false,
+  "current_classification_read": false,
+  "direction2_results_read": false,
+  "software_read": false,
+  "authority": "New user authorization for full historical mainboard scope; updated direction1 AGENTS read",
+  "isolation": "Logical access discipline, not OS security boundary"
+}

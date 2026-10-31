@@ -1,0 +1,22 @@
+{
+  "boundary": "public-pre2025-v2",
+  "cutoff": "2024-12-31",
+  "files": [
+    {
+      "path": "listing_dates.parquet",
+      "sha256": "4587b047a170eb25d3bdd2d2eac84d768c1bd0fc97c098c452c94ba007fa65f0"
+    },
+    {
+      "path": "600485_delist_20210601.pdf",
+      "sha256": "f1798934668271a324927110210d68e72eef266f09ffd026a93be4bdecc01171"
+    },
+    {
+      "path": "400106_transfer_start_20220722.pdf",
+      "sha256": "14ce0df4f7fcf9387e3293917983cf6da5d48d40a8975d3744ed5637cce3e13a"
+    },
+    {
+      "path": "EVIDENCE_NOTES.json",
+      "sha256": "6354108cebfefae092ea77ea8fd340a048b2866005dec84f20ad710bf2d6c67f"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "symbol": "600519.SH",
+  "event_date": "2023-12-20",
+  "kind": "unknown_reference",
+  "start": "2023-11-04",
+  "query_files": [
+    {
+      "path": "sources\\action_evidence_v2\\600519.SH_2023-12-20\\query_01.json",
+      "sha256": "52f8bd74f43d297b222035aaf9ea196207ec0172b9a49b90d46cf705db807314"
+    }
+  ],
+  "exact_code_announcements": 9,
+  "documents": [
+    {
+      "title": "贵州茅台2023年度回报股东特别分红实施公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2023-12-14/1218606528.PDF",
+      "published_date": "2023-12-14",
+      "pdf": "sources\\action_evidence_v2\\600519.SH_2023-12-20\\1218606528.pdf",
+      "text": "sources\\action_evidence_v2\\600519.SH_2023-12-20\\1218606528.txt",
+      "sha256": "6d17512b6f5a0000d53d8053201ef8a3f934714fdca31e8220ef6f1a9bb67f14",
+      "pages": 3
+    }
+  ],
+  "no_document_is_not_no_event_proof": true,
+  "fields_verified": false
+}

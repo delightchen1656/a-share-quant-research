@@ -1,0 +1,42 @@
+{
+  "boundary_version": "public-pre2025-v2",
+  "type": "Agent-declared source record and program path/hash guards; not an OS security boundary or OS access trace",
+  "initial_context_audit": "CONTEXT_AUDIT.json",
+  "same_clean_agent": true,
+  "prior_2024_seen": true,
+  "allowed_prior_experiment_reads": [
+    "clean_2020_2024/run_research.py",
+    "clean_2020_2024/account.py",
+    "clean_2020_2024/STABILITY.json"
+  ],
+  "allowed_project_reads": [
+    "AGENTS.md",
+    "direction1_structure_research/AGENTS.md",
+    "direction1_structure_research/RULE.json",
+    "direction1_structure_research/structure.py"
+  ],
+  "inputs_root": "direction1_structure_research/inputs_pre2025",
+  "final_manifest_sha256": "986c45c71eb28bc42410316201ea5e370bc090ebb261e37439fb25f967e3c51f",
+  "hash_checked_files": 4749,
+  "response_pairs": 2848,
+  "parsed_groups": [
+    "RESEARCH_2020_2024_MANIFEST.json",
+    "RESEARCH_QUERY_PLAN.json",
+    "MANIFEST.json",
+    "calendar.parquet",
+    "947 raw/qfq price pairs",
+    "company_actions_research_2020_2024.json"
+  ],
+  "max_price_date": "2024-12-31",
+  "all_results_read": "Own ten_rounds_2020_2024 outputs and explicitly allowed previous own experiment only",
+  "other_experiments_read": false,
+  "restricted_inputs_read": false,
+  "post2024_market_or_results_read": false,
+  "current_classification_read": false,
+  "production_selection_read": false,
+  "other_threads_read": false,
+  "subagents_spawned": false,
+  "inputs_modified": false,
+  "rule_or_current_modified": false,
+  "writes_root": "direction1_structure_research/experiments/ten_rounds_2020_2024"
+}

@@ -1,0 +1,22 @@
+{
+  "cutoff": "2024-12-31",
+  "registration_dates": "Dated mainboard registration facts only, later IPOs removed and later out_dates blank; no current status or leader classification",
+  "case_600485": {
+    "delisting_date": "2021-06-01",
+    "no_delisting_trading_period": true,
+    "successor_code": "400106",
+    "transfer_start": "2022-07-22",
+    "schedule": "Friday call auction",
+    "first_day_declared_quote_range": [
+      1.33,
+      1.45
+    ],
+    "range_is_not_actual_trade": true,
+    "verified_transfer_prices_available": false
+  },
+  "sources": [
+    "Issuer termination notice dated 2021-05-26",
+    "Issuer transfer start notice dated 2022-07-20"
+  ],
+  "use": "Identify known status and outstanding data requirements only, not future sample exclusion or assumed liquidation"
+}

@@ -1,0 +1,42 @@
+{
+  "symbol": "002969.SZ",
+  "event_date": "2024-01-24",
+  "kind": "unknown_reference",
+  "start": "2023-12-09",
+  "query_files": [
+    {
+      "path": "sources\\action_evidence_v2\\002969.SZ_2024-01-24\\query_01.json",
+      "sha256": "7e98bf072841f1fa1ee76d916f6b4092ff982514b77e9a98a24910b5afbcc101"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002969.SZ_2024-01-24\\query_02.json",
+      "sha256": "579a608dc8cb0637b82f3e74beb50bec8ee6b2f29da7e78f4728f7b6e4631569"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002969.SZ_2024-01-24\\query_03.json",
+      "sha256": "7e98bf072841f1fa1ee76d916f6b4092ff982514b77e9a98a24910b5afbcc101"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002969.SZ_2024-01-24\\query_04.json",
+      "sha256": "579a608dc8cb0637b82f3e74beb50bec8ee6b2f29da7e78f4728f7b6e4631569"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002969.SZ_2024-01-24\\query_05.json",
+      "sha256": "bf1419e18afda83bd868fd697b34dddee1f751f70b658b445d414b23ed02acc6"
+    }
+  ],
+  "exact_code_announcements": 77,
+  "documents": [
+    {
+      "title": "特别分红权益分派实施公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-01-18/1218933923.PDF",
+      "published_date": "2024-01-18",
+      "pdf": "sources\\action_evidence_v2\\002969.SZ_2024-01-24\\1218933923.pdf",
+      "text": "sources\\action_evidence_v2\\002969.SZ_2024-01-24\\1218933923.txt",
+      "sha256": "7456cbc1c4e7cca98e972311aface0fae0dfe7e5935f7d4d6b91029ffab3d1e8",
+      "pages": 3
+    }
+  ],
+  "no_document_is_not_no_event_proof": true,
+  "fields_verified": false
+}

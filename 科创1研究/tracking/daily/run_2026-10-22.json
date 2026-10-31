@@ -1,0 +1,176 @@
+{
+  "tracker": {
+    "name": "科创基准1本地前向模拟",
+    "start_date": "2026-10-21",
+    "as_of": "2026-10-22",
+    "market_cutoff": "2026-10-22",
+    "first_possible_fill": "2026-10-22",
+    "next_entry_date": "2026-10-23",
+    "initial_cash": 500000.0,
+    "nav": 476959.1279253201,
+    "cash": 100525.27792532,
+    "total_return": -0.04608174414935973,
+    "positions": [
+      {
+        "symbol": "688433.SH",
+        "qty": 811,
+        "last": 57.6,
+        "locked": [],
+        "state": {
+          "entry": 61.633019999999995,
+          "half": false,
+          "entry_date": "2026-10-22"
+        }
+      },
+      {
+        "symbol": "688585.SH",
+        "qty": 438,
+        "last": 109.0,
+        "locked": [],
+        "state": {
+          "entry": 113.8773,
+          "half": false,
+          "entry_date": "2026-10-22"
+        }
+      },
+      {
+        "symbol": "688056.SH",
+        "qty": 1297,
+        "last": 37.92,
+        "locked": [],
+        "state": {
+          "entry": 38.526900000000005,
+          "half": false,
+          "entry_date": "2026-10-22"
+        }
+      },
+      {
+        "symbol": "688233.SH",
+        "qty": 705,
+        "last": 65.4,
+        "locked": [],
+        "state": {
+          "entry": 70.78128,
+          "half": false,
+          "entry_date": "2026-10-22"
+        }
+      },
+      {
+        "symbol": "688610.SH",
+        "qty": 627,
+        "last": 75.0,
+        "locked": [],
+        "state": {
+          "entry": 79.57884,
+          "half": false,
+          "entry_date": "2026-10-22"
+        }
+      },
+      {
+        "symbol": "688231.SH",
+        "qty": 2131,
+        "last": 22.52,
+        "locked": [],
+        "state": {
+          "entry": 23.426759999999998,
+          "half": false,
+          "entry_date": "2026-10-22"
+        }
+      },
+      {
+        "symbol": "688337.SH",
+        "qty": 1301,
+        "last": 35.69,
+        "locked": [],
+        "state": {
+          "entry": 38.35656,
+          "half": false,
+          "entry_date": "2026-10-22"
+        }
+      },
+      {
+        "symbol": "688383.SH",
+        "qty": 568,
+        "last": 79.65,
+        "locked": [],
+        "state": {
+          "entry": 87.85536,
+          "half": false,
+          "entry_date": "2026-10-22"
+        }
+      }
+    ],
+    "receivables": [],
+    "fills": 8,
+    "pending_candidates": [
+      {
+        "symbol": "688383.SH",
+        "p": 0.8851091667470737,
+        "stop": 0.3385504925548026,
+        "score": 0.8106280583850172
+      },
+      {
+        "symbol": "688585.SH",
+        "p": 0.8333880887382676,
+        "stop": 0.26350004003125327,
+        "score": 0.7754180799313919
+      },
+      {
+        "symbol": "688433.SH",
+        "p": 0.8300477285873563,
+        "stop": 0.3418055013817664,
+        "score": 0.7548505182833677
+      },
+      {
+        "symbol": "688498.SH",
+        "p": 0.8136184048349185,
+        "stop": 0.408513828262268,
+        "score": 0.7237453626172196
+      },
+      {
+        "symbol": "688610.SH",
+        "p": 0.8059650524990788,
+        "stop": 0.3920579270932592,
+        "score": 0.7197123085385617
+      },
+      {
+        "symbol": "688072.SH",
+        "p": 0.7912858889757804,
+        "stop": 0.49547607590634846,
+        "score": 0.6822811522763838
+      },
+      {
+        "symbol": "688056.SH",
+        "p": 0.720036367988655,
+        "stop": 0.21166328613400553,
+        "score": 0.6734704450391737
+      },
+      {
+        "symbol": "688122.SH",
+        "p": 0.7651976973022953,
+        "stop": 0.47382005943356054,
+        "score": 0.6609572842269119
+      }
+    ],
+    "status": "ready_next_session",
+    "execution": "收盘后用已发生日线近似结算次日开盘，不是真实订单",
+    "audit": "data_updates\\20261022\\audit.json"
+  },
+  "raw_input_hashes": {
+    "evening_accumulation\\data\\raw\\688056.SH.parquet": "e8828781e3aba190617f7027563b9f85ba30d58d561ca93dcbc39bebf9400aad",
+    "evening_accumulation\\data\\raw\\688231.SH.parquet": "b78a6ddb0a9f84d429e68d154e1db39e117106e4d12055ea9cf495c68ace09de",
+    "evening_accumulation\\data\\raw\\688233.SH.parquet": "ceddc38de658f3b9370c1f0d80a383c93b7a2a6ee1e380e0d299eadabac297a2",
+    "evening_accumulation\\data\\raw\\688337.SH.parquet": "79a6f3b282181ec1588538e176e626fc15cac182b56943a28a01407cd1b12c23",
+    "evening_accumulation\\data\\raw\\688383.SH.parquet": "60b964ddbd50bdd95a31f011f2a0147f3ae35acda95f644c37ed2a0911aaf724",
+    "evening_accumulation\\data\\raw\\688433.SH.parquet": "1176bfd7e353c11d741ef7a3fe71074ea154d4518eb8e3ad0e569795a6fe3a3c",
+    "evening_accumulation\\data\\raw\\688585.SH.parquet": "7f81df3376e613c4507d435790954841176ceeda5713e6cd82714217b22b68be",
+    "evening_accumulation\\data\\raw\\688610.SH.parquet": "c9493734896816056229365198154b33dbc8de87470afaae1386f3925f0c2ae7"
+  },
+  "metadata_sha256": "2e7acf485e110f342d570ea0d4241cb86678a2688d638f6f4b267177f1b13d39",
+  "source_hashes": {
+    "strategies\\kechuang\\supermind_kechuang_1.py": "3c4a5b41691b431b0a419900382c4e9cd47e11ee9b6c163f9d80a863134f1d8e",
+    "strategies\\kechuang\\backtest\\engine.py": "976370a58935bd07dd27ce29268149baff3b054e49e8bea2e3b27c9b155e3eae",
+    "strategies\\kechuang\\backtest\\data_helpers.py": "974f207af138ff1208f0f44fcdf9904e90eee7f043da8754bffa7bcf33f23f6f",
+    "strategies\\kechuang\\tracking\\run.py": "e8dd5437e727425ed23426c1055db0a371ab1d05e4c2c6e3e6f0f21b51f0c2f9"
+  }
+}

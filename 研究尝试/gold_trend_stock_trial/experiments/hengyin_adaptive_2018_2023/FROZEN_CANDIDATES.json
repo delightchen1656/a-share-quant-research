@@ -1,0 +1,325 @@
+{
+  "scope": "白名单数据隔离的区间内训练搜索；已观察区间内时间切分诊断，不是盲测",
+  "configurations": 96768,
+  "selected_parameters": {
+    "cap30": {
+      "family": "trend",
+      "slope_lookback": 5,
+      "fast": 20,
+      "slow": 90,
+      "entry_vol_multiplier": 0.0,
+      "exit_vol_multiplier": 0.0,
+      "breakout": 40,
+      "stop_vol_multiplier": 3,
+      "cooldown": 20,
+      "volatility": "RV20"
+    },
+    "cap35": {
+      "family": "adaptive",
+      "slope_lookback": 0,
+      "fast": 10,
+      "slow": 90,
+      "entry_vol_multiplier": 2.0,
+      "exit_vol_multiplier": 1.0,
+      "breakout": 20,
+      "stop_vol_multiplier": 3,
+      "cooldown": 20,
+      "volatility": "RV20"
+    },
+    "unconstrained": {
+      "family": "adaptive",
+      "slope_lookback": 0,
+      "fast": 10,
+      "slow": 90,
+      "entry_vol_multiplier": 2.0,
+      "exit_vol_multiplier": 1.0,
+      "breakout": 20,
+      "stop_vol_multiplier": 3,
+      "cooldown": 20,
+      "volatility": "RV20"
+    },
+    "split_cap30": {
+      "family": "adaptive",
+      "slope_lookback": 0,
+      "fast": 30,
+      "slow": 60,
+      "entry_vol_multiplier": 2.0,
+      "exit_vol_multiplier": 1.0,
+      "breakout": 10,
+      "stop_vol_multiplier": 3,
+      "cooldown": 20,
+      "volatility": "ATR14"
+    },
+    "split_cap35": {
+      "family": "adaptive",
+      "slope_lookback": 0,
+      "fast": 30,
+      "slow": 60,
+      "entry_vol_multiplier": 2.0,
+      "exit_vol_multiplier": 1.0,
+      "breakout": 10,
+      "stop_vol_multiplier": 3,
+      "cooldown": 20,
+      "volatility": "ATR14"
+    },
+    "split_unconstrained": {
+      "family": "adaptive",
+      "slope_lookback": 0,
+      "fast": 30,
+      "slow": 60,
+      "entry_vol_multiplier": 2.0,
+      "exit_vol_multiplier": 1.0,
+      "breakout": 10,
+      "stop_vol_multiplier": 3,
+      "cooldown": 20,
+      "volatility": "ATR14"
+    }
+  },
+  "selected_results": {
+    "cap30": {
+      "label": "cap30",
+      "cumulative_return": -0.10182590869093577,
+      "max_drawdown": 0.29060202485594333,
+      "buy_fills": 16,
+      "sell_fills": 16,
+      "limit_fill_count": 1,
+      "holding_fraction": 0.1717032967032967,
+      "down_regime_exposure": 0.0,
+      "up_regime_log_capture": null,
+      "first_effective_date": "2018-05-28 00:00:00",
+      "first_signal_date": "2018-05-28 00:00:00",
+      "open_position_at_end": false,
+      "train_2018_2021_return": -0.0007012041217565601,
+      "test_2022_2023_return": -0.10119566338544894,
+      "test_2022_2023_max_drawdown": 0.29060202485594333
+    },
+    "cap35": {
+      "label": "cap35",
+      "cumulative_return": 0.5209393686614427,
+      "max_drawdown": 0.34040278375171606,
+      "buy_fills": 21,
+      "sell_fills": 20,
+      "limit_fill_count": 1,
+      "holding_fraction": 0.21153846153846154,
+      "down_regime_exposure": 0.008710801393728223,
+      "up_regime_log_capture": null,
+      "first_effective_date": "2018-05-21 00:00:00",
+      "first_signal_date": "2018-05-22 00:00:00",
+      "open_position_at_end": true,
+      "train_2018_2021_return": 0.11344835419728705,
+      "test_2022_2023_return": 0.3659720838672631,
+      "test_2022_2023_max_drawdown": 0.34040278375171606
+    },
+    "unconstrained": {
+      "label": "unconstrained",
+      "cumulative_return": 0.5209393686614427,
+      "max_drawdown": 0.34040278375171606,
+      "buy_fills": 21,
+      "sell_fills": 20,
+      "limit_fill_count": 1,
+      "holding_fraction": 0.21153846153846154,
+      "down_regime_exposure": 0.008710801393728223,
+      "up_regime_log_capture": null,
+      "first_effective_date": "2018-05-21 00:00:00",
+      "first_signal_date": "2018-05-22 00:00:00",
+      "open_position_at_end": true,
+      "train_2018_2021_return": 0.11344835419728705,
+      "test_2022_2023_return": 0.3659720838672631,
+      "test_2022_2023_max_drawdown": 0.34040278375171606
+    },
+    "split_cap30": {
+      "label": "split_cap30",
+      "cumulative_return": 0.08299072252122097,
+      "max_drawdown": 0.6061960545880665,
+      "buy_fills": 21,
+      "sell_fills": 20,
+      "limit_fill_count": 3,
+      "holding_fraction": 0.3434065934065934,
+      "down_regime_exposure": 0.041811846689895474,
+      "up_regime_log_capture": null,
+      "first_effective_date": "2018-04-03 00:00:00",
+      "first_signal_date": "2018-04-03 00:00:00",
+      "open_position_at_end": true,
+      "train_2018_2021_return": 0.5713297899843386,
+      "test_2022_2023_return": -0.31078076071350047,
+      "test_2022_2023_max_drawdown": 0.6061960545880665
+    },
+    "split_cap35": {
+      "label": "split_cap35",
+      "cumulative_return": 0.08299072252122097,
+      "max_drawdown": 0.6061960545880665,
+      "buy_fills": 21,
+      "sell_fills": 20,
+      "limit_fill_count": 3,
+      "holding_fraction": 0.3434065934065934,
+      "down_regime_exposure": 0.041811846689895474,
+      "up_regime_log_capture": null,
+      "first_effective_date": "2018-04-03 00:00:00",
+      "first_signal_date": "2018-04-03 00:00:00",
+      "open_position_at_end": true,
+      "train_2018_2021_return": 0.5713297899843386,
+      "test_2022_2023_return": -0.31078076071350047,
+      "test_2022_2023_max_drawdown": 0.6061960545880665
+    },
+    "split_unconstrained": {
+      "label": "split_unconstrained",
+      "cumulative_return": 0.08299072252122097,
+      "max_drawdown": 0.6061960545880665,
+      "buy_fills": 21,
+      "sell_fills": 20,
+      "limit_fill_count": 3,
+      "holding_fraction": 0.3434065934065934,
+      "down_regime_exposure": 0.041811846689895474,
+      "up_regime_log_capture": null,
+      "first_effective_date": "2018-04-03 00:00:00",
+      "first_signal_date": "2018-04-03 00:00:00",
+      "open_position_at_end": true,
+      "train_2018_2021_return": 0.5713297899843386,
+      "test_2022_2023_return": -0.31078076071350047,
+      "test_2022_2023_max_drawdown": 0.6061960545880665
+    },
+    "original_reference": {
+      "label": "original_reference",
+      "cumulative_return": -0.444072849933155,
+      "max_drawdown": 0.5708678723476344,
+      "buy_fills": 38,
+      "sell_fills": 38,
+      "limit_fill_count": 0,
+      "holding_fraction": 0.26785714285714285,
+      "down_regime_exposure": 0.033101045296167246,
+      "up_regime_log_capture": null,
+      "first_effective_date": "2018-07-03 00:00:00",
+      "first_signal_date": "2019-03-07 00:00:00",
+      "open_position_at_end": false,
+      "train_2018_2021_return": -0.22969319530949073,
+      "test_2022_2023_return": -0.2783042462020011,
+      "test_2022_2023_max_drawdown": 0.5010525856631922
+    },
+    "prior_frozen_best": {
+      "label": "prior_frozen_best",
+      "cumulative_return": 1.2069333171965284,
+      "max_drawdown": 0.49930305559524657,
+      "buy_fills": 64,
+      "sell_fills": 63,
+      "limit_fill_count": 2,
+      "holding_fraction": 0.42788461538461536,
+      "down_regime_exposure": 0.24390243902439024,
+      "up_regime_log_capture": null,
+      "first_effective_date": "2018-03-06 00:00:00",
+      "first_signal_date": "2018-03-08 00:00:00",
+      "open_position_at_end": true,
+      "train_2018_2021_return": 0.17717916992374683,
+      "test_2022_2023_return": 0.8747641595964404,
+      "test_2022_2023_max_drawdown": 0.29127053558039573
+    },
+    "buy_hold": {
+      "label": "buy_hold",
+      "cumulative_return": -0.3408962471365352,
+      "max_drawdown": 0.7497062121869078,
+      "down_regime_exposure": 1.0,
+      "up_regime_log_capture": 1.0
+    }
+  },
+  "selection_protocol": {
+    "primary": "Highest full-observed-2018..2023 cumulative return among maximum daily-close drawdown <=30%; if none report none.",
+    "secondary": "Same with drawdown<=35%.",
+    "unconstrained": "Highest full-observed cumulative return, disclosed separately.",
+    "ties": "lower max drawdown, then lexicographic configuration order",
+    "pareto": "Non-dominated return/max-drawdown frontier; not out-of-sample evidence."
+  },
+  "chronological_protocol": "For each stated drawdown cap and unconstrained objective, select on 2018..2021 only and hold parameters fixed for 2022..2023, carrying signals/positions across split. Also separately show continuously selected full-training candidates. Both periods were previously observed in original grid: this is observed-interval chronological diagnostic, not blind validation.",
+  "regime_days": {
+    "down": 574,
+    "up": 422,
+    "neutral": 460
+  },
+  "validations": [
+    {
+      "label": "cap30",
+      "second_engine_equal": true,
+      "prefix_invariance": [
+        300,
+        600,
+        900,
+        1200
+      ],
+      "trade_compounding": true,
+      "next_tradable_bar_fills": true
+    },
+    {
+      "label": "cap35",
+      "second_engine_equal": true,
+      "prefix_invariance": [
+        300,
+        600,
+        900,
+        1200
+      ],
+      "trade_compounding": true,
+      "next_tradable_bar_fills": true
+    },
+    {
+      "label": "unconstrained",
+      "second_engine_equal": true,
+      "prefix_invariance": [
+        300,
+        600,
+        900,
+        1200
+      ],
+      "trade_compounding": true,
+      "next_tradable_bar_fills": true
+    },
+    {
+      "label": "split_cap30",
+      "second_engine_equal": true,
+      "prefix_invariance": [
+        300,
+        600,
+        900,
+        1200
+      ],
+      "trade_compounding": true,
+      "next_tradable_bar_fills": true
+    },
+    {
+      "label": "split_cap35",
+      "second_engine_equal": true,
+      "prefix_invariance": [
+        300,
+        600,
+        900,
+        1200
+      ],
+      "trade_compounding": true,
+      "next_tradable_bar_fills": true
+    },
+    {
+      "label": "split_unconstrained",
+      "second_engine_equal": true,
+      "prefix_invariance": [
+        300,
+        600,
+        900,
+        1200
+      ],
+      "trade_compounding": true,
+      "next_tradable_bar_fills": true
+    }
+  ],
+  "limitations": [
+    "Prior original search observed all 2018..2023; no untouched holdout exists here.",
+    "Full-training risk constraints are in-sample only, not forward drawdown guarantees.",
+    "Fractional qfq price gross returns, no fees/slippage or real corporate-action ledger.",
+    "Limit flags are estimated with raw preclose and isST, not official limit validation or fill guarantees.",
+    "Daily-close drawdowns omit intraday peaks and troughs."
+  ],
+  "reporting_metrics_caveat": "Predeclared up-regime ratio is invalid because underlying up-regime log return sum<=0; retain null, never a win rate. Supplemental positive-day metric is reporting-only and not used in selection.",
+  "artifact_hashes": {
+    "SEARCH_PLAN.json": "4b6c4e8eabefbe67e90ba270fa7f14e5d5cb19e8f2821e1f344bd95cba2a15aa",
+    "research.py": "17a9145c37bdb9c96ba6c6a4df29b00174aaa3ff3b6ed425f3663b24ec6c3261",
+    "finalize.py": "691de2cdba68d9cab2f6010956a06395746ae638a16c98000586ee4b62d09fbd",
+    "PARAMETER_SOURCES.json": "aea7fbb2f06ed2ce6ef4231cf1fdf587c88d6abca18158403eab93402156fd9b",
+    "all_configurations.csv": "70d13e400ada70676dd4d134024ffadafd1b67a5ad726927f3e5272be65e8654"
+  }
+}

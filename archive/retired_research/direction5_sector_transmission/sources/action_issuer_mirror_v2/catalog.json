@@ -1,0 +1,550 @@
+[
+  {
+    "symbol": "000042.SZ",
+    "event_date": "2018-06-28",
+    "kind": "dividend_fields",
+    "start": "2018-04-09",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "000525.SZ",
+    "event_date": "2024-12-13",
+    "kind": "unknown_reference",
+    "start": "2024-09-24",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "000538.SZ",
+    "event_date": "2024-11-25",
+    "kind": "unknown_reference",
+    "start": "2024-10-08",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "000550.SZ",
+    "event_date": "2018-03-27",
+    "kind": "unknown_reference",
+    "start": "2018-02-09",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "000564.SZ",
+    "event_date": "2021-12-31",
+    "kind": "unknown_reference",
+    "start": "2021-11-14",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "000756.SZ",
+    "event_date": "2018-02-14",
+    "kind": "unknown_reference",
+    "start": "2017-12-10",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "000796.SZ",
+    "event_date": "2023-12-20",
+    "kind": "unknown_reference",
+    "start": "2023-11-03",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "000819.SZ",
+    "event_date": "2021-06-25",
+    "kind": "dividend_fields",
+    "start": "2021-04-06",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "000863.SZ",
+    "event_date": "2018-07-26",
+    "kind": "dividend_fields",
+    "start": "2018-05-07",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "000981.SZ",
+    "event_date": "2022-02-25",
+    "kind": "unknown_reference",
+    "start": "2022-01-04",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "001872.SZ",
+    "event_date": "2018-05-23",
+    "kind": "dividend_fields",
+    "start": "2018-03-04",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "001914.SZ",
+    "event_date": "2018-06-06",
+    "kind": "dividend_fields",
+    "start": "2018-03-18",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "002016.SZ",
+    "event_date": "2024-04-19",
+    "kind": "dividend_fields",
+    "start": "2024-01-30",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "002021.SZ",
+    "event_date": "2023-12-29",
+    "kind": "unknown_reference",
+    "start": "2023-11-12",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "002076.SZ",
+    "event_date": "2022-12-21",
+    "kind": "unknown_reference",
+    "start": "2022-11-04",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "002087.SZ",
+    "event_date": "2024-06-14",
+    "kind": "unknown_reference",
+    "start": "2024-04-28",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\002087.SZ_2024-06-14\\query_01.json",
+        "sha256": "896b7d8fa65b9c782a2a05476559160ec91c32a7d84ff8f5f73019beaedd0ec1",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "002087",
+          "begin_time": "2024-04-28",
+          "end_time": "2024-06-14"
+        }
+      }
+    ],
+    "announcement_count": 51,
+    "documents": [],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "002219.SZ",
+    "event_date": "2022-06-23",
+    "kind": "unknown_reference",
+    "start": "2022-05-07",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "002227.SZ",
+    "event_date": "2018-06-01",
+    "kind": "dividend_fields",
+    "start": "2018-03-13",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "002321.SZ",
+    "event_date": "2022-01-04",
+    "kind": "unknown_reference",
+    "start": "2021-11-15",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "002323.SZ",
+    "event_date": "2022-01-06",
+    "kind": "unknown_reference",
+    "start": "2021-11-14",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "002326.SZ",
+    "event_date": "2019-09-30",
+    "kind": "unknown_reference",
+    "start": "2019-08-13",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "002335.SZ",
+    "event_date": "2018-05-16",
+    "kind": "dividend_fields",
+    "start": "2018-02-25",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "002349.SZ",
+    "event_date": "2021-06-30",
+    "kind": "dividend_fields",
+    "start": "2021-04-11",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "002358.SZ",
+    "event_date": "2019-07-05",
+    "kind": "dividend_fields",
+    "start": "2019-04-16",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "002434.SZ",
+    "event_date": "2018-05-22",
+    "kind": "dividend_fields",
+    "start": "2018-03-03",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "002435.SZ",
+    "event_date": "2021-06-18",
+    "kind": "dividend_fields",
+    "start": "2021-03-30",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "002508.SZ",
+    "event_date": "2024-01-10",
+    "kind": "unknown_reference",
+    "start": "2023-11-25",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "002601.SZ",
+    "event_date": "2018-10-25",
+    "kind": "dividend_fields",
+    "start": "2018-08-06",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "002649.SZ",
+    "event_date": "2018-06-07",
+    "kind": "dividend_fields",
+    "start": "2018-03-19",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "002727.SZ",
+    "event_date": "2019-04-02",
+    "kind": "dividend_fields",
+    "start": "2019-01-12",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "002792.SZ",
+    "event_date": "2018-06-29",
+    "kind": "dividend_fields",
+    "start": "2018-04-10",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "002840.SZ",
+    "event_date": "2021-06-30",
+    "kind": "dividend_fields",
+    "start": "2021-04-11",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "002852.SZ",
+    "event_date": "2019-05-22",
+    "kind": "dividend_fields",
+    "start": "2019-03-03",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "002969.SZ",
+    "event_date": "2024-01-24",
+    "kind": "unknown_reference",
+    "start": "2023-12-09",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "600094.SH",
+    "event_date": "2024-09-11",
+    "kind": "unknown_reference",
+    "start": "2024-07-27",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "600167.SH",
+    "event_date": "2024-12-27",
+    "kind": "unknown_reference",
+    "start": "2024-11-11",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "600179.SH",
+    "event_date": "2020-12-07",
+    "kind": "unknown_reference",
+    "start": "2020-10-19",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "600186.SH",
+    "event_date": "2020-01-21",
+    "kind": "unknown_reference",
+    "start": "2019-12-03",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "600306.SH",
+    "event_date": "2023-12-26",
+    "kind": "unknown_reference",
+    "start": "2023-11-07",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "600375.SH",
+    "event_date": "2024-12-26",
+    "kind": "unknown_reference",
+    "start": "2024-11-09",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "600423.SH",
+    "event_date": "2018-12-26",
+    "kind": "unknown_reference",
+    "start": "2018-01-22",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "600482.SH",
+    "event_date": "2024-11-22",
+    "kind": "unknown_reference",
+    "start": "2024-10-07",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "600515.SH",
+    "event_date": "2021-12-22",
+    "kind": "unknown_reference",
+    "start": "2021-11-05",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "600518.SH",
+    "event_date": "2021-12-15",
+    "kind": "unknown_reference",
+    "start": "2021-10-29",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "600519.SH",
+    "event_date": "2022-12-27",
+    "kind": "unknown_reference",
+    "start": "2022-11-11",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "600519.SH",
+    "event_date": "2023-12-20",
+    "kind": "unknown_reference",
+    "start": "2023-11-04",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "600565.SH",
+    "event_date": "2021-06-04",
+    "kind": "dividend_fields",
+    "start": "2021-03-16",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "600589.SH",
+    "event_date": "2023-12-29",
+    "kind": "unknown_reference",
+    "start": "2023-11-12",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "600601.SH",
+    "event_date": "2022-12-23",
+    "kind": "unknown_reference",
+    "start": "2022-11-06",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "600647.SH",
+    "event_date": "2024-06-14",
+    "kind": "unknown_reference",
+    "start": "2024-04-28",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\600647.SH_2024-06-14\\query_01.json",
+        "sha256": "aa18e27dce66f7ef3d06f360d3943c1aa1280421621d5223d59252ba80494ced",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "600647",
+          "begin_time": "2024-04-28",
+          "end_time": "2024-06-14"
+        }
+      }
+    ],
+    "announcement_count": 40,
+    "documents": [],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "600654.SH",
+    "event_date": "2022-12-23",
+    "kind": "unknown_reference",
+    "start": "2022-11-06",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "600666.SH",
+    "event_date": "2023-02-20",
+    "kind": "unknown_reference",
+    "start": "2023-01-02",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "600715.SH",
+    "event_date": "2024-12-16",
+    "kind": "unknown_reference",
+    "start": "2024-10-28",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "600733.SH",
+    "event_date": "2018-09-27",
+    "kind": "unknown_reference",
+    "start": "2017-12-18",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "600734.SH",
+    "event_date": "2022-02-15",
+    "kind": "unknown_reference",
+    "start": "2021-12-28",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "600766.SH",
+    "event_date": "2024-06-14",
+    "kind": "unknown_reference",
+    "start": "2024-04-28",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\600766.SH_2024-06-14\\query_01.json",
+        "sha256": "c5a00ee246dd980d627aee891d96d28dcfe46d7ed3f44edc6e7efcaa1aef89cc",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "600766",
+          "begin_time": "2024-04-28",
+          "end_time": "2024-06-14"
+        }
+      }
+    ],
+    "announcement_count": 43,
+    "documents": [],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "600815.SH",
+    "event_date": "2019-12-23",
+    "kind": "unknown_reference",
+    "start": "2019-11-04",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "600938.SH",
+    "event_date": "2022-07-15",
+    "kind": "unknown_reference",
+    "start": "2022-05-30",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\600938.SH_2022-07-15\\query_01.json",
+        "sha256": "b73930a80faca83c839f97e407a03ea04910836eeec5252dac4b5d3e727b7a37",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "600938",
+          "begin_time": "2022-05-30",
+          "end_time": "2022-07-15"
+        }
+      }
+    ],
+    "announcement_count": 7,
+    "documents": [],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "600989.SH",
+    "event_date": "2021-05-20",
+    "kind": "dividend_fields",
+    "start": "2021-03-01",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "601258.SH",
+    "event_date": "2019-12-30",
+    "kind": "unknown_reference",
+    "start": "2019-11-11",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "601318.SH",
+    "event_date": "2018-09-06",
+    "kind": "dividend_fields",
+    "start": "2018-06-18",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "601688.SH",
+    "event_date": "2024-10-25",
+    "kind": "dividend_fields",
+    "start": "2024-08-06",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "601919.SH",
+    "event_date": "2024-10-10",
+    "kind": "dividend_fields",
+    "start": "2024-07-22",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "601985.SH",
+    "event_date": "2024-12-02",
+    "kind": "unknown_reference",
+    "start": "2024-10-15",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "603007.SH",
+    "event_date": "2024-12-26",
+    "kind": "unknown_reference",
+    "start": "2024-11-09",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "603030.SH",
+    "event_date": "2023-12-26",
+    "kind": "unknown_reference",
+    "start": "2023-11-07",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "603285.SH",
+    "event_date": "2024-09-05",
+    "kind": "unknown_reference",
+    "start": "2024-07-21",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  },
+  {
+    "symbol": "603559.SH",
+    "event_date": "2024-12-26",
+    "kind": "unknown_reference",
+    "start": "2024-11-09",
+    "error": "RuntimeError('Expected issuer PDF.')"
+  }
+]

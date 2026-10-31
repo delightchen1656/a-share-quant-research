@@ -1,0 +1,44 @@
+{
+  "symbol": "600161.SH",
+  "year": 2018,
+  "year_type": "operate",
+  "provider": "BaoStock",
+  "status": "returned_events",
+  "complete_corporate_action_ledger": false,
+  "fields": [
+    "code",
+    "dividPreNoticeDate",
+    "dividAgmPumDate",
+    "dividPlanAnnounceDate",
+    "dividPlanDate",
+    "dividRegistDate",
+    "dividOperateDate",
+    "dividPayDate",
+    "dividStockMarketDate",
+    "dividCashPsBeforeTax",
+    "dividCashPsAfterTax",
+    "dividStocksPs",
+    "dividCashStock",
+    "dividReserveToStockPs"
+  ],
+  "rows": [
+    [
+      "sh.600161",
+      "",
+      "2018-05-23",
+      "2018-04-02",
+      "2018-06-15",
+      "2018-06-21",
+      "2018-06-22",
+      "2018-06-22",
+      "2018-06-25",
+      "0.2",
+      "0.15或0.2",
+      "0.300000",
+      "10送3派2元（含税，扣税后1.5或2元）",
+      ""
+    ]
+  ],
+  "attempts": 1,
+  "elapsed_seconds": 0.5362
+}

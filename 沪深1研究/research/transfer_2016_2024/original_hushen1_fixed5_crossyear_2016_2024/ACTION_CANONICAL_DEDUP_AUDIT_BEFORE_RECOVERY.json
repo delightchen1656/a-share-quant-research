@@ -1,0 +1,83 @@
+{
+  "status": "canonical_action_decision_before_performance_recovery",
+  "action_snapshot": "C:\\Users\\22241\\Desktop\\quant\\strategies\\hushen\\research\\transfer_2016_2024\\inputs_pre2025\\actions_pre2025_repaired_20261024.json",
+  "action_snapshot_sha256": "b8210ba72187320e55a2ad122dbc6c8b737946f2a533ad1d0f23e862833b8faa",
+  "duplicate_scan_scope": "all pre-cutoff events for raw symbols in the public manifest",
+  "duplicate_event_groups": 1,
+  "duplicate_rows": 2,
+  "nonidentical_duplicate_groups": 0,
+  "event": {
+    "symbol": "600660.SH",
+    "operate_date": "2017-05-15",
+    "records": [
+      {
+        "source_key": "600660.SH/2017",
+        "source_index": 0,
+        "record": {
+          "code": "sh.600660",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2017-04-27",
+          "dividPlanAnnounceDate": "2017-02-25",
+          "dividPlanDate": "2017-05-09",
+          "dividRegistDate": "2017-05-12",
+          "dividOperateDate": "2017-05-15",
+          "dividPayDate": "2017-05-15",
+          "dividStockMarketDate": "",
+          "dividCashPsBeforeTax": "0.75",
+          "dividCashPsAfterTax": "0.675或0.75",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10派7.5元（含税，扣税后6.75或7.5元）",
+          "dividReserveToStockPs": ""
+        }
+      },
+      {
+        "source_key": "600660.SH/2023",
+        "source_index": 0,
+        "record": {
+          "code": "sh.600660",
+          "dividPreNoticeDate": "",
+          "dividAgmPumDate": "2017-04-27",
+          "dividPlanAnnounceDate": "2017-02-25",
+          "dividPlanDate": "2017-05-09",
+          "dividRegistDate": "2017-05-12",
+          "dividOperateDate": "2017-05-15",
+          "dividPayDate": "2017-05-15",
+          "dividStockMarketDate": "",
+          "dividCashPsBeforeTax": "0.75",
+          "dividCashPsAfterTax": "0.675或0.75",
+          "dividStocksPs": "0.000000",
+          "dividCashStock": "10派7.5元（含税，扣税后6.75或7.5元）",
+          "dividReserveToStockPs": ""
+        }
+      }
+    ],
+    "record_sha256": [
+      "510bb3b1ea0a682d1c375e9a77ed19749602160b842f2c8994e75004f3506838",
+      "510bb3b1ea0a682d1c375e9a77ed19749602160b842f2c8994e75004f3506838"
+    ],
+    "full_record_exact_match": true,
+    "economic_fields": {
+      "cash_before_tax_per_share": 0.75,
+      "stock_dividend_per_share": 0.0,
+      "reserve_to_stock_per_share": 0.0,
+      "pay_date": "2017-05-15",
+      "stock_market_date": ""
+    },
+    "ex_right_identity": {
+      "previous_actual_close_2017_05_12": 23.08,
+      "operate_day_preclose_2017_05_15": 22.33,
+      "formula": "(previous_actual_close - cash_before_tax_per_share) / (1 + total_stock_per_share)",
+      "formula_value": 22.33,
+      "absolute_difference": 0.0,
+      "exact_to_displayed_cents": true
+    }
+  },
+  "canonical_decision": {
+    "keep_source_key": "600660.SH/2017",
+    "skip_source_key": "600660.SH/2023",
+    "policy": "For the same symbol and operate date, skip only a byte-equivalent parsed full record; never add duplicate economics. Raise on any nonidentical duplicate.",
+    "input_snapshot_modified": false,
+    "strategy_formula_or_parameter_changed": false
+  },
+  "performance_computed_before_decision": false
+}

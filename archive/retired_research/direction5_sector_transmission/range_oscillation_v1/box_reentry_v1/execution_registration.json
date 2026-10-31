@@ -1,0 +1,44 @@
+{
+  "registered_utc": "2026-10-26T19:00:26.842120+00:00",
+  "before_2024_prices": true,
+  "files": [
+    {
+      "path": "spec.json",
+      "sha256": "a7bd62cb4a368c1c8d7351fef7e86d24c50c853c1c0cda28acaeda2129b16258"
+    },
+    {
+      "path": "rule_registration.json",
+      "sha256": "e8d930e9d9e4f3558bb7b25d1f7837d9b15f968603ade7c9b4b83cc71c39f631"
+    },
+    {
+      "path": "engine.py",
+      "sha256": "dc5ab06348e50ca5df7313c44f26116f6cf6502a249cf34776abbc2abf2852cd"
+    },
+    {
+      "path": "test_execution.py",
+      "sha256": "3c021c220bc0c874010491a01c8a3aad53365307a58e03ce577e44dadc80641a"
+    },
+    {
+      "path": "execution_tests.json",
+      "sha256": "e647346f4b70e98931a0dc02cddbc5bab895c88e0259ba6b911ee3fbbd070fc5"
+    },
+    {
+      "path": "run_once.py",
+      "sha256": "01768c21f0a8bdd4a5d71415854024e07b784c20cb48e788ac7ec1ccd9d85b79"
+    },
+    {
+      "path": "report.py",
+      "sha256": "247797caf87ab78daa64dd95bb07c31f27da80ed9d31d96afd6ff7441e90864c"
+    },
+    {
+      "path": "calendar_verification.json",
+      "sha256": "9c08f2a0568f7accd300f194190e8b2fe2821adcaf279aa92a2029ea9c0c19c9"
+    },
+    {
+      "path": "frozen_levels.parquet",
+      "sha256": "77e897b8c34f6f9a924124ed932989a6ca7261451c5250498e3bb3ffd6fcc3bc"
+    }
+  ],
+  "original_protocol_sha256": "502c0f7f652295b4ba4b3dcf1a4595a7944bafabe0685bdff263eb7348483e50",
+  "original_gates_sha256": "4b60c0fd188fc57833ca530987f2b5d3892f3ae64d4a23edd292358047e8364b"
+}

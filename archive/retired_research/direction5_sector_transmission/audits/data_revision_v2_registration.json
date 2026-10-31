@@ -1,0 +1,171 @@
+{
+  "revision_id": "data_revision_v2",
+  "cutoff": "2024-12-31",
+  "original_protocol_sha256": "502c0f7f652295b4ba4b3dcf1a4595a7944bafabe0685bdff263eb7348483e50",
+  "original_input_manifests": [
+    {
+      "path": "inputs_pre2025\\kline_v1\\manifest.json",
+      "sha256": "f10f353b5021f6ddb028be038103f757433f958ebbf4992fb65383f42160b1a1"
+    },
+    {
+      "path": "inputs_pre2025\\industry_official_v1\\manifest.json",
+      "sha256": "88d786f669eeeaacd1aa690bae16528f75cc4a1c0c352edf855bae40e35a6861"
+    }
+  ],
+  "scope": "supplemental_input_metadata_and_staging_event_audit_only",
+  "corporate_actions_approved_for_labels": false,
+  "files": [
+    {
+      "path": "audits/protocol_v1_registration.json",
+      "sha256": "4bbbf8838808d8106d79b238310fa7a5b77a7d181c5664f38d4c07fca42a8375"
+    },
+    {
+      "path": "inputs_pre2025/security_identity_v1/manifest.json",
+      "sha256": "fefc6990845da6e67ee21c157d4def7977a2a658e453f94e6154921cd77e0d54"
+    },
+    {
+      "path": "inputs_pre2025/trading_calendar_v1/manifest.json",
+      "sha256": "b457a24f5cef2226006427ba94a54937de83bb861e895f2a964f8a6cead0f978"
+    },
+    {
+      "path": "inputs_pre2025/trading_calendar_v1/calendar.parquet",
+      "sha256": "cf288779add3023b274a2e1f55b038b2a2f59a59605a4c12a2d2479b62dfb099"
+    },
+    {
+      "path": "datasets/corporate_actions_eastmoney_v1/manifest.json",
+      "sha256": "55956e7ba9fc79dadc8a5de2fe7b6dc9b212f9037d6b3bfbef03ef5b03204f24"
+    },
+    {
+      "path": "datasets/corporate_actions_baostock_v1/collection_summary.json",
+      "sha256": "cf003fdb5deb82c480d6a6b20438e513cc1c20a6f0194eda138cec391b0a8425"
+    },
+    {
+      "path": "datasets/manual_action_overrides_v1/overrides.json",
+      "sha256": "48324cac11e7e9f7cd4fc33600c678212def4a762d269338d635ebd034e89547"
+    },
+    {
+      "path": "datasets/rights_issues_eastmoney_v1/manifest.json",
+      "sha256": "70db84f56d0dffba9225dae2324ce463a53884e3e03838b5988a4bb326a7b1f6"
+    },
+    {
+      "path": "datasets/rights_issues_eastmoney_v1/scope_rights_issue_events.parquet",
+      "sha256": "c23c7d773ee4f1b795f8744eac9fc7e830d3615b861554854be309c8451cc6e7"
+    },
+    {
+      "path": "audits/action_collection_validation.json",
+      "sha256": "1a452cc349532f09033c3a29e8afa3d6f593c31e31a151b39a48f6c73da8be66"
+    },
+    {
+      "path": "audits/stage8_data_audit_v2.json",
+      "sha256": "07730ee869bc23983dbc4de432c23c7c8b9e4b0b95d5b224749e23b8c39192bb"
+    },
+    {
+      "path": "audits/reference_window_reconciliation.json",
+      "sha256": "953aeed76045f3933f663604bfd71d34f793fddd1464be5c896c0a7b21cf008b"
+    },
+    {
+      "path": "datasets/corporate_actions_reconciled_v1/detail_rows_normalized.parquet",
+      "sha256": "8e87a1ba385ef81f56ee7c8120db2570b4e1219c9c3f4185925c6bf135231217"
+    },
+    {
+      "path": "datasets/corporate_actions_reconciled_v1/dividend_event_ledger_provisional.parquet",
+      "sha256": "25830f64a438d424bb10801a92f970786dc6b5880a828eb3e30ae6db894b06a2"
+    },
+    {
+      "path": "datasets/corporate_actions_reconciled_v1/manifest.json",
+      "sha256": "5b8289e775c69110a88b9d54483dbf4302ec18f4f7b62ba78c56205ce00e4571"
+    },
+    {
+      "path": "datasets/corporate_actions_reconciled_v1/reference_breaks_no_exact_date_dividend.parquet",
+      "sha256": "1666e9a084c603f60d940953cbb4847141eeba11f4c71f74aa48a0f2081108cb"
+    },
+    {
+      "path": "datasets/corporate_actions_reconciled_v1/reference_window_reconciliation.parquet",
+      "sha256": "b6caa026328d4ae57b4b30ba43f64eb26c80eccafb637be696878127063cf5c4"
+    },
+    {
+      "path": "datasets/corporate_actions_reconciled_v1/reference_windows_needing_investigation.parquet",
+      "sha256": "3fc1890a0584ed7713e2ef721cbc97844aa29932b86b545b0edbab1397afa395"
+    },
+    {
+      "path": "datasets/corporate_actions_reconciled_v1/symbol_year_query_coverage.parquet",
+      "sha256": "068f665aee88cecd77e51386428d06ce2f5ec790e667b631a56d2049c1f945cb"
+    },
+    {
+      "path": "datasets/corporate_actions_reconciled_v1/unresolved_event_fields.parquet",
+      "sha256": "7e95991ee6e6859ce02f83d4221651aa81e93d474603401638edf0510b1e9023"
+    },
+    {
+      "path": "src/audit_industry.py",
+      "sha256": "fc5fcd15c487e34c10f1b281a0d52de30e9efacdc8ec034c2c7fe79b8b53613f"
+    },
+    {
+      "path": "src/audit_kline_semantics.py",
+      "sha256": "adb3292d255aa8d8afd3cb436c55729ffc7f80c0f52cd2d006bbb05b54804fcb"
+    },
+    {
+      "path": "src/build_identity_sidecar.py",
+      "sha256": "f8227ac447ef515db0777171423fc7ae15ca0add91160d2111bd82c6a17afe65"
+    },
+    {
+      "path": "src/collect_action_bulk.py",
+      "sha256": "87aa4859bbb04b1c8c03d122b80645a06eb6a3f7064ed420d88335e3cbdf9583"
+    },
+    {
+      "path": "src/collect_action_detail.py",
+      "sha256": "9c391435cd3b2c925a29fe7f518dafca73605b788442c5ee04ec2822c1f17314"
+    },
+    {
+      "path": "src/collect_action_exceptions.py",
+      "sha256": "7ad3990978d34d68e47bdef065c28fbc4bc399adb1cadb7abcf326062006b35c"
+    },
+    {
+      "path": "src/collect_calendar.py",
+      "sha256": "128a6b24326065e9d73a8c759628c63900e657ebe762da85bba540528debd612"
+    },
+    {
+      "path": "src/collect_identity_evidence.py",
+      "sha256": "bdce20f8acd9912cdc1d0196aa8871c4bae3d9c7b3cb54c5f2a5c727c8af122d"
+    },
+    {
+      "path": "src/collect_industry.py",
+      "sha256": "df1957f64b1561f1905a3082ac50095450f762be32103e61178c6d8b29cab7c4"
+    },
+    {
+      "path": "src/collect_rights_issues.py",
+      "sha256": "cf7feb642ba704bec941ec243b88e9faa14ebaa317ff1f809544b7c49a83e83b"
+    },
+    {
+      "path": "src/finalize_action_collection.py",
+      "sha256": "2b36aec60580aec9b7233ad2d08401556b156b31a4f428115723f5b960d3fce4"
+    },
+    {
+      "path": "src/prepare_data.py",
+      "sha256": "3673a5d5d31a1ee9c58213a8763350e16860b8baa56a51ef19843aa499f56bd1"
+    },
+    {
+      "path": "src/probe_corporate_actions.py",
+      "sha256": "7bc2a9ea8807bf8e16f48248e7dee7b2cd455379e6906753ab57cd571d2cafc1"
+    },
+    {
+      "path": "src/reconcile_actions.py",
+      "sha256": "53878c96af8690bcef11fba14c52695d7c1f8decdf7c129a1b2538036db137e0"
+    },
+    {
+      "path": "src/reconcile_reference_windows.py",
+      "sha256": "95df6f9aa6c2730bfe92d03158afb8fd601def9a6b259e0945d6b244690114dc"
+    },
+    {
+      "path": "src/register_protocol.py",
+      "sha256": "27e89fab3935b7de3967b8ea18ef9900f742e815f79752e9b77f8b3c0f7410c6"
+    },
+    {
+      "path": "src/summarize_stage8.py",
+      "sha256": "b663bb2bdeee39402935a3dab51d598d3f5ebaa17307c737cb1faceb04a8f3fe"
+    },
+    {
+      "path": "src/verify_action_sample.py",
+      "sha256": "8ee54ad2d9ac63576248012283476ad77bc403d7f90608d98b26c172cb3f4057"
+    }
+  ]
+}

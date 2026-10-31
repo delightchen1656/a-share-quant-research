@@ -1,0 +1,16 @@
+{
+  "symbol": "600989.SH",
+  "event_date": "2021-05-20",
+  "kind": "dividend_fields",
+  "start": "2021-03-01",
+  "query_files": [
+    {
+      "path": "sources\\action_evidence_v2\\600989.SH_2021-05-20\\query_01.json",
+      "sha256": "0eafcb2b46fbbf175118985d2400cc2b2fbb9e1bd1984d9fcb6e061c7857f089"
+    }
+  ],
+  "exact_code_announcements": 2,
+  "documents": [],
+  "no_document_is_not_no_event_proof": true,
+  "fields_verified": false
+}

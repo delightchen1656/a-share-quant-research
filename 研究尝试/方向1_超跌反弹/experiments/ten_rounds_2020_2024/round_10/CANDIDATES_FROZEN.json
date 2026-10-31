@@ -1,0 +1,58 @@
+{
+  "round": 10,
+  "question": "限制每天实际新开仓数能否缓解信号集中风险",
+  "protocol_sha256": "6669ecead9fff845469cb6fd861583b637d5070232c6564ad3c64a4d3b4f8e4e",
+  "inherited_candidate": "R07_tp15",
+  "inherited_config_hash": "4e08b931a0cef23810bb58965233688ffd16514f2c7363890c7c8ab5edda21d3",
+  "candidate_count": 4,
+  "candidates": {
+    "R10_cap1": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.15,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": 1
+      },
+      "sha256": "5df4895997083c8568d5aa2bbeed43fd53f6aadf9e139ffa23cfc14143fa5063"
+    },
+    "R10_cap2": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.15,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": 2
+      },
+      "sha256": "10e5e2fa2f67a2d340d0e041767379085e5174764f577fbe7266794a3da8bc9d"
+    },
+    "R10_cap3": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.15,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": 3
+      },
+      "sha256": "06eb9e449eddd7005e6c650a4cd95268203182f7daedc40996565926d7e3f5ac"
+    },
+    "R10_cap4": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.15,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": 4
+      },
+      "sha256": "f99f2d14cfd173d9467729b00c87d50538385e52ff2622da5a573914032d5a0d"
+    }
+  }
+}

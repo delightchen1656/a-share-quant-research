@@ -1,0 +1,61 @@
+{
+  "comparison_basis": "Current Hushen2 vs most recent Oct28 Q1 full-start comparison",
+  "production_modified": false,
+  "rows": [
+    {
+      "item": "take_stop_anchor",
+      "backtest": "simulated fill including entry slippage; full precision",
+      "live": "accepted model original trigger; round to .01; actual fill is display reference only"
+    },
+    {
+      "item": "expiry",
+      "backtest": "latest Oct28 comparison: expiry session close, manual_expiry_open=False",
+      "live": "manual next verified session open after expiry"
+    },
+    {
+      "item": "entry_tail",
+      "backtest": "stop new entries 37 calendar days before each endpoint",
+      "live": "no known terminal date; continue recommendations"
+    },
+    {
+      "item": "order_quantity",
+      "backtest": "floor((equity/5)/(trigger*1.002)/100)*100",
+      "live": "floor((min(equity/5,cash_plus_deferred)-5)/(trigger*1.002)/100)*100; accepted quantity can be smaller"
+    },
+    {
+      "item": "fill",
+      "backtest": "daily OHLC with adverse .002 and2% full-day buy volume; inferred stop-first for double touch",
+      "live": "five-best IOC with actual time/depth and entered actual fill; OCO first actual trigger"
+    },
+    {
+      "item": "cost",
+      "backtest": "commission .0003 min5 plus sell stamp .001, no separate transfer",
+      "live": "entered actual fees and cash reconciliation; no forced artificial .002 debit"
+    },
+    {
+      "item": "capital",
+      "backtest": "100000 initial, no manual contribution",
+      "live": "latest snapshot equity9214.98, cash directly reviewed and external flows possible"
+    },
+    {
+      "item": "signal_inputs",
+      "backtest": "frozen history excludes000022,000043,001872,001914; older qfq snapshot",
+      "live": "full historical mainboard no identical exclusion; nightly committed qfq"
+    },
+    {
+      "item": "corporate_actions",
+      "backtest": "action engine adjusts shares/cash/targets with receivable schedule",
+      "live": "user maintained cash/holdings; no automatic equivalent full corporate-action engine"
+    }
+  ],
+  "shared": [
+    "frozen C04_NEW models",
+    "original top3 ATR>=.025 no refill",
+    "priceTR14 execution ATR",
+    "5 slots pending included",
+    "fixed accepted shares",
+    "7/30 natural days",
+    "T+1 sale eligibility",
+    "no same-day reuse in tracker ledger and backtest"
+  ]
+}

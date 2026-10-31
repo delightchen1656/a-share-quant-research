@@ -1,0 +1,384 @@
+{
+  "status": "PRICE_PATH_PROXY_NOT_ECONOMIC_NET_RETURN",
+  "result": {
+    "id": "code_TP8_SL0_H3_PRIOR_BASELINE",
+    "rank": "code",
+    "tp": 0.08,
+    "sl": null,
+    "h": 3,
+    "trail": false,
+    "all_signals": 3805,
+    "entered": 1183,
+    "no_open": 6,
+    "oneprice_up": 16,
+    "duplicate": 0,
+    "capacity": 2600,
+    "unaffordable": 0,
+    "fee": 88857.83502158282,
+    "stale_valuation_days": 1161,
+    "total_return": 0.2903066646950945,
+    "max_drawdown": -0.12275273983886814,
+    "open_positions": 11,
+    "avg_exposure": 0.1621359924515535,
+    "trades": 1172,
+    "annual": [
+      {
+        "year": 2020,
+        "return": 0.03576651870619174,
+        "drawdown": -0.07738654039753334,
+        "avg_exposure": 0.17914934056759316,
+        "avg_positions": 3.786008230452675,
+        "year_end_equity": 1035766.5187061918
+      },
+      {
+        "year": 2021,
+        "return": 0.050554115849895664,
+        "drawdown": -0.062456779739131885,
+        "avg_exposure": 0.18783480334145167,
+        "avg_positions": 4.004115226337449,
+        "year_end_equity": 1088128.7792863077
+      },
+      {
+        "year": 2022,
+        "return": 0.08389124283506422,
+        "drawdown": -0.07854174240643552,
+        "avg_exposure": 0.1999060853698294,
+        "avg_positions": 4.384297520661157,
+        "year_end_equity": 1179413.2549452374
+      },
+      {
+        "year": 2023,
+        "return": 0.10051375097454529,
+        "drawdown": -0.01693164875111053,
+        "avg_exposure": 0.09763569224857739,
+        "avg_positions": 2.384297520661157,
+        "year_end_equity": 1297960.5051488809
+      },
+      {
+        "year": 2024,
+        "return": -0.005896820761051136,
+        "drawdown": -0.07783686164306003,
+        "avg_exposure": 0.14597754420549794,
+        "avg_positions": 3.731404958677686,
+        "year_end_equity": 1290306.6646950946
+      }
+    ],
+    "unverified_quote_gap_codes": [
+      "600485"
+    ],
+    "open_holdings": [
+      {
+        "code": "600485",
+        "entry": "2020-04-20",
+        "last_mark": "2020-04-20",
+        "last_mark_age_sessions": 1141,
+        "shadow_mark_value": 51430.0
+      },
+      {
+        "code": "600083",
+        "entry": "2024-12-26",
+        "last_mark": "2024-12-31",
+        "last_mark_age_sessions": 0,
+        "shadow_mark_value": 40824.0
+      },
+      {
+        "code": "000590",
+        "entry": "2024-12-27",
+        "last_mark": "2024-12-31",
+        "last_mark_age_sessions": 0,
+        "shadow_mark_value": 47636.99999999999
+      },
+      {
+        "code": "603779",
+        "entry": "2024-12-27",
+        "last_mark": "2024-12-31",
+        "last_mark_age_sessions": 0,
+        "shadow_mark_value": 48509.99999999999
+      },
+      {
+        "code": "000702",
+        "entry": "2024-12-30",
+        "last_mark": "2024-12-31",
+        "last_mark_age_sessions": 0,
+        "shadow_mark_value": 47736.0
+      },
+      {
+        "code": "002207",
+        "entry": "2024-12-30",
+        "last_mark": "2024-12-31",
+        "last_mark_age_sessions": 0,
+        "shadow_mark_value": 48807.0
+      },
+      {
+        "code": "002513",
+        "entry": "2024-12-30",
+        "last_mark": "2024-12-31",
+        "last_mark_age_sessions": 0,
+        "shadow_mark_value": 45248.0
+      },
+      {
+        "code": "002694",
+        "entry": "2024-12-30",
+        "last_mark": "2024-12-31",
+        "last_mark_age_sessions": 0,
+        "shadow_mark_value": 47173.99999999999
+      },
+      {
+        "code": "002910",
+        "entry": "2024-12-30",
+        "last_mark": "2024-12-31",
+        "last_mark_age_sessions": 0,
+        "shadow_mark_value": 49698.0
+      },
+      {
+        "code": "600238",
+        "entry": "2024-12-30",
+        "last_mark": "2024-12-31",
+        "last_mark_age_sessions": 0,
+        "shadow_mark_value": 49660.0
+      },
+      {
+        "code": "600543",
+        "entry": "2024-12-30",
+        "last_mark": "2024-12-31",
+        "last_mark_age_sessions": 0,
+        "shadow_mark_value": 47791.99999999999
+      }
+    ]
+  },
+  "folds": [
+    {
+      "year": 2022,
+      "result": {
+        "id": "code_TP8_SL0_H3_PRIOR_BASELINE",
+        "rank": "code",
+        "tp": 0.08,
+        "sl": null,
+        "h": 3,
+        "trail": false,
+        "all_signals": 1158,
+        "entered": 299,
+        "no_open": 1,
+        "oneprice_up": 4,
+        "duplicate": 0,
+        "capacity": 854,
+        "unaffordable": 0,
+        "fee": 24123.917381757576,
+        "stale_valuation_days": 0,
+        "total_return": 0.09717093974684188,
+        "max_drawdown": -0.08665697319803323,
+        "open_positions": 2,
+        "avg_exposure": 0.16995338662083848,
+        "trades": 297,
+        "annual": [
+          {
+            "year": 2022,
+            "return": 0.09717093974684188,
+            "drawdown": -0.08665697319803323,
+            "avg_exposure": 0.16995338662083848,
+            "avg_positions": 3.4710743801652892,
+            "year_end_equity": 1097170.9397468418
+          }
+        ],
+        "unverified_quote_gap_codes": [],
+        "open_holdings": [
+          {
+            "code": "002793",
+            "entry": "2022-12-30",
+            "last_mark": "2022-12-30",
+            "last_mark_age_sessions": 0,
+            "shadow_mark_value": 51389.00000000001
+          },
+          {
+            "code": "600851",
+            "entry": "2022-12-30",
+            "last_mark": "2022-12-30",
+            "last_mark_age_sessions": 0,
+            "shadow_mark_value": 49725.0
+          }
+        ]
+      }
+    },
+    {
+      "year": 2023,
+      "result": {
+        "id": "code_TP8_SL0_H3_PRIOR_BASELINE",
+        "rank": "code",
+        "tp": 0.08,
+        "sl": null,
+        "h": 3,
+        "trail": false,
+        "all_signals": 133,
+        "entered": 121,
+        "no_open": 3,
+        "oneprice_up": 0,
+        "duplicate": 0,
+        "capacity": 9,
+        "unaffordable": 0,
+        "fee": 8690.297815236978,
+        "stale_valuation_days": 1,
+        "total_return": 0.1145499442924438,
+        "max_drawdown": -0.01995640502386442,
+        "open_positions": 5,
+        "avg_exposure": 0.0661268823868592,
+        "trades": 116,
+        "annual": [
+          {
+            "year": 2023,
+            "return": 0.1145499442924438,
+            "drawdown": -0.01995640502386442,
+            "avg_exposure": 0.0661268823868592,
+            "avg_positions": 1.3884297520661157,
+            "year_end_equity": 1114549.9442924438
+          }
+        ],
+        "unverified_quote_gap_codes": [],
+        "open_holdings": [
+          {
+            "code": "000070",
+            "entry": "2023-12-28",
+            "last_mark": "2023-12-29",
+            "last_mark_age_sessions": 0,
+            "shadow_mark_value": 50816.0
+          },
+          {
+            "code": "000851",
+            "entry": "2023-12-28",
+            "last_mark": "2023-12-29",
+            "last_mark_age_sessions": 0,
+            "shadow_mark_value": 51068.99999999999
+          },
+          {
+            "code": "002582",
+            "entry": "2023-12-28",
+            "last_mark": "2023-12-29",
+            "last_mark_age_sessions": 0,
+            "shadow_mark_value": 49854.99999999999
+          },
+          {
+            "code": "601929",
+            "entry": "2023-12-29",
+            "last_mark": "2023-12-29",
+            "last_mark_age_sessions": 0,
+            "shadow_mark_value": 50960.0
+          },
+          {
+            "code": "603363",
+            "entry": "2023-12-29",
+            "last_mark": "2023-12-29",
+            "last_mark_age_sessions": 0,
+            "shadow_mark_value": 49774.0
+          }
+        ]
+      }
+    },
+    {
+      "year": 2024,
+      "result": {
+        "id": "code_TP8_SL0_H3_PRIOR_BASELINE",
+        "rank": "code",
+        "tp": 0.08,
+        "sl": null,
+        "h": 3,
+        "trail": false,
+        "all_signals": 1403,
+        "entered": 252,
+        "no_open": 0,
+        "oneprice_up": 6,
+        "duplicate": 0,
+        "capacity": 1145,
+        "unaffordable": 0,
+        "fee": 13510.313212307825,
+        "stale_valuation_days": 1,
+        "total_return": -0.00664928567178924,
+        "max_drawdown": -0.10059826908196468,
+        "open_positions": 10,
+        "avg_exposure": 0.13802569476459803,
+        "trades": 242,
+        "annual": [
+          {
+            "year": 2024,
+            "return": -0.00664928567178924,
+            "drawdown": -0.10059826908196468,
+            "avg_exposure": 0.13802569476459803,
+            "avg_positions": 2.760330578512397,
+            "year_end_equity": 993350.7143282108
+          }
+        ],
+        "unverified_quote_gap_codes": [],
+        "open_holdings": [
+          {
+            "code": "600083",
+            "entry": "2024-12-26",
+            "last_mark": "2024-12-31",
+            "last_mark_age_sessions": 0,
+            "shadow_mark_value": 40824.0
+          },
+          {
+            "code": "000590",
+            "entry": "2024-12-27",
+            "last_mark": "2024-12-31",
+            "last_mark_age_sessions": 0,
+            "shadow_mark_value": 47636.99999999999
+          },
+          {
+            "code": "603779",
+            "entry": "2024-12-27",
+            "last_mark": "2024-12-31",
+            "last_mark_age_sessions": 0,
+            "shadow_mark_value": 48509.99999999999
+          },
+          {
+            "code": "000702",
+            "entry": "2024-12-30",
+            "last_mark": "2024-12-31",
+            "last_mark_age_sessions": 0,
+            "shadow_mark_value": 47736.0
+          },
+          {
+            "code": "002207",
+            "entry": "2024-12-30",
+            "last_mark": "2024-12-31",
+            "last_mark_age_sessions": 0,
+            "shadow_mark_value": 48807.0
+          },
+          {
+            "code": "002513",
+            "entry": "2024-12-30",
+            "last_mark": "2024-12-31",
+            "last_mark_age_sessions": 0,
+            "shadow_mark_value": 45248.0
+          },
+          {
+            "code": "002694",
+            "entry": "2024-12-30",
+            "last_mark": "2024-12-31",
+            "last_mark_age_sessions": 0,
+            "shadow_mark_value": 47173.99999999999
+          },
+          {
+            "code": "002910",
+            "entry": "2024-12-30",
+            "last_mark": "2024-12-31",
+            "last_mark_age_sessions": 0,
+            "shadow_mark_value": 49698.0
+          },
+          {
+            "code": "600238",
+            "entry": "2024-12-30",
+            "last_mark": "2024-12-31",
+            "last_mark_age_sessions": 0,
+            "shadow_mark_value": 49660.0
+          },
+          {
+            "code": "600543",
+            "entry": "2024-12-30",
+            "last_mark": "2024-12-31",
+            "last_mark_age_sessions": 0,
+            "shadow_mark_value": 47791.99999999999
+          }
+        ]
+      }
+    }
+  ]
+}

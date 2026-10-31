@@ -1,0 +1,46 @@
+{
+  "complete": true,
+  "scanner_sha256": "ba9488a8e725a45f99e5d19c01f417c4ae8180abb15d099d806c7cb568717b2b",
+  "files": [
+    {
+      "path": "scan_catalog.py",
+      "sha256": "ba9488a8e725a45f99e5d19c01f417c4ae8180abb15d099d806c7cb568717b2b"
+    },
+    {
+      "path": "CONFIG_SCHEMA.json",
+      "sha256": "2c9946bfb8e6600df0101eb017f76a2e8fbe469d981887b57e57d556b5aeb4ff"
+    },
+    {
+      "path": "IMPLEMENTATION_PROTOCOL.json",
+      "sha256": "9d3114c291f69c7053033ece63e515d8b6dfd132ee722541e6d97c895fd24a6f"
+    },
+    {
+      "path": "CONTEXT_AUDIT.json",
+      "sha256": "dbdc101416119ab3adcb84b28bf2ee97c11523b979b3f82712528e7c45c2cabd"
+    },
+    {
+      "path": "test_scan_catalog.py",
+      "sha256": "835ba001c3fb365d839d7fbbf7a4704d60c28cf92a02e071cdd1fa662a432a33"
+    },
+    {
+      "path": "SYNTHETIC_CHECKS.json",
+      "sha256": "be72a994a66bade6d2ccd482db2463fd0b4dc91f54c2b61d45aa9ad8bc478a60"
+    },
+    {
+      "path": "SYNTHETIC_IO_CHECK.json",
+      "sha256": "d5cd93ef801581d8bab922fc7053a4b4cb7e6762cff1fc02602f5da9b2bd9e94"
+    },
+    {
+      "path": "TEST_RESULTS.json",
+      "sha256": "3bc769296b23bf3b579257cecef125cf6abae6312f2bfb8dcc0d769e596c243f"
+    },
+    {
+      "path": "FINAL_RESULT.json",
+      "sha256": "7d8c7509f4dda715dd1a72f866fe33f526838fda4c7cb79d7b8004a6eccac147"
+    },
+    {
+      "path": "HANDOFF.txt",
+      "sha256": "6562d0ba35a5f4de01a1002900f9d6e8628d03abed02984a3eb93fd3f36893de"
+    }
+  ]
+}

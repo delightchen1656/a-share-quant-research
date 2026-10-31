@@ -1,0 +1,44 @@
+{
+  "symbol": "600989.SH",
+  "event_date": "2021-05-20",
+  "kind": "dividend_fields",
+  "start": "2021-03-01",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\600989.SH_2021-05-20\\query_01.json",
+      "sha256": "422ce387abe5b3d1b37b74076c15d6970bb59a34bab17eda1e7c25582e359a68",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "600989",
+        "begin_time": "2021-03-01",
+        "end_time": "2021-05-20"
+      }
+    }
+  ],
+  "announcement_count": 53,
+  "documents": [
+    {
+      "title": "600989:宁夏宝丰能源集团股份有限公司2020年年度权益分派实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2021-05-12",
+      "raw_response": "sources\\action_issuer_mirror_v2\\600989.SH_2021-05-20\\AN202105111491094056_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\600989.SH_2021-05-20\\AN202105111491094056.txt",
+      "sha256": "a9baa5719be665e2f375c36cf11ca699f367eee18dc849b2759eeb22cc2cdf71",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\600989.SH_2021-05-20\\AN202105111491094056_content.json",
+          "sha256": "a9baa5719be665e2f375c36cf11ca699f367eee18dc849b2759eeb22cc2cdf71"
+        }
+      ],
+      "article_code": "AN202105111491094056",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202105111491094056_1.pdf?1620754923000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

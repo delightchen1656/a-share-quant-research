@@ -1,0 +1,11 @@
+{
+  "boundary_version": "public-pre2025-v2",
+  "review": "PASS_FOR_TASK_MARKET_AND_SELECTION_ISOLATION_WITH_PUBLIC_CONTEXT_CAVEAT",
+  "permitted_market_data": "same manifest and its two explicit parquet files, 2018-01-01 through 2023-12-31 only",
+  "known_context": "two authorized prior in-sample experiments on same 2018..2023 stock; prior winner +120.69333171965284%; adaptive experiment results already observed",
+  "public_context_caveat": "Public AGENTS includes unrelated direction1 counts through public2024 boundary; not absolute context cleanliness claim. No Hengyin later-market/performance/selection received.",
+  "holdout_accessed": false,
+  "later_feedback_received": false,
+  "old_frozen_candidates_unchanged": true,
+  "new_authorization": "return-only training optimization without drawdown constraints; no posterior audit"
+}

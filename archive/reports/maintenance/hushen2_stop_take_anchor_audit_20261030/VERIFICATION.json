@@ -1,0 +1,39 @@
+{
+  "account_modified": false,
+  "cause": "actual_fill_anchor_changed_to_model_trigger_anchor_on_user_instruction",
+  "rows": [
+    {
+      "symbol": "002476.SZ",
+      "name": "新叶股份",
+      "actual_average": 4.43,
+      "model_trigger": 4.47,
+      "frozen_atr": 0.043464365612016644,
+      "former_stop": 4.14,
+      "former_take": 5.2,
+      "current_stop": 4.18,
+      "current_take": 5.25
+    },
+    {
+      "symbol": "002492.SZ",
+      "name": "恒基达鑫",
+      "actual_average": 5.02,
+      "model_trigger": 5.01,
+      "frozen_atr": 0.05,
+      "former_stop": 4.64,
+      "former_take": 6.02,
+      "current_stop": 4.63,
+      "current_take": 6.01
+    },
+    {
+      "symbol": "600768.SH",
+      "name": "富邦新材",
+      "actual_average": 12.11,
+      "model_trigger": 12.13,
+      "frozen_atr": 0.05,
+      "former_stop": 11.2,
+      "former_take": 14.53,
+      "current_stop": 11.22,
+      "current_take": 14.56
+    }
+  ]
+}

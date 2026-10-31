@@ -1,0 +1,47 @@
+{
+  "key": "002385.SZ/2020",
+  "records": [
+    {
+      "code": "sz.002385",
+      "dividPreNoticeDate": "",
+      "dividAgmPumDate": "2020-05-16",
+      "dividPlanAnnounceDate": "2020-04-25",
+      "dividPlanDate": "2020-05-20",
+      "dividRegistDate": "2020-05-25",
+      "dividOperateDate": "2020-05-26",
+      "dividPayDate": "2020-05-26",
+      "dividStockMarketDate": "",
+      "dividCashPsBeforeTax": "0.23",
+      "dividCashPsAfterTax": "0.207或0.23",
+      "dividStocksPs": "0.000000",
+      "dividCashStock": "10派2.3元（含税，扣税后2.07或2.3元）",
+      "dividReserveToStockPs": ""
+    }
+  ],
+  "request": {
+    "code": "sz.002385",
+    "year": "2020",
+    "yearType": "operate"
+  },
+  "error_code": "0",
+  "error_msg": "success",
+  "fields": [
+    "code",
+    "dividPreNoticeDate",
+    "dividAgmPumDate",
+    "dividPlanAnnounceDate",
+    "dividPlanDate",
+    "dividRegistDate",
+    "dividOperateDate",
+    "dividPayDate",
+    "dividStockMarketDate",
+    "dividCashPsBeforeTax",
+    "dividCashPsAfterTax",
+    "dividStocksPs",
+    "dividCashStock",
+    "dividReserveToStockPs"
+  ],
+  "row_count": 1,
+  "successful_empty_response": false,
+  "cutoff": "2024-12-31"
+}

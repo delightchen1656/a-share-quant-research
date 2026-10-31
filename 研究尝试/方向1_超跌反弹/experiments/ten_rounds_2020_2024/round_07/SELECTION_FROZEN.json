@@ -1,0 +1,212 @@
+{
+  "round": 7,
+  "question": "止盈目标的收益和兑现概率如何权衡",
+  "candidate_count": 5,
+  "inherited": "anchor_prior",
+  "selected": "R07_tp15",
+  "promoted": true,
+  "candidate_register_sha256": "152e8b2196d4c83d90cf8dae7898ed02930dbb15b91287045a61f6b6ed884fea",
+  "selected_config": {
+    "slots": 5,
+    "forced_day": 3,
+    "take_profit": 0.15,
+    "stop_loss": null,
+    "priority": "ret20_ascending",
+    "filters": [],
+    "max_new_entries": null
+  },
+  "selected_config_sha256": "4e08b931a0cef23810bb58965233688ffd16514f2c7363890c7c8ab5edda21d3",
+  "training_statistics": {
+    "score": 0.09254052567115162,
+    "mean_annual_return": 0.13640786588054177,
+    "worst_annual_return": 0.08734810300355833,
+    "largest_annual_drawdown": 0.0877346804187803,
+    "returns": [
+      0.19918554120000054,
+      0.15368019215407158,
+      0.10541762716453662,
+      0.08734810300355833
+    ],
+    "total_return": 0.6629025774000004,
+    "full_drawdown": 0.09122114624403554,
+    "terminal_equity": 166290.25774000003,
+    "eligible": true,
+    "guard_reasons": [],
+    "improved_years_vs_v3": 2
+  },
+  "attempts": [
+    {
+      "round": 7,
+      "candidate": "R07_tp04",
+      "question": "止盈目标的收益和兑现概率如何权衡",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.04,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "config_sha256": "74b32476da226ff056fd9b5375a0e5dace408ba984935de6992dd03beb0c089d",
+      "score": 0.047610272147799726,
+      "mean_annual_return": 0.0937130677848908,
+      "worst_annual_return": 0.06359138948030885,
+      "largest_annual_drawdown": 0.09220559127418215,
+      "returns": [
+        0.09262023040000011,
+        0.11626715675353494,
+        0.10237349450571931,
+        0.06359138948030885
+      ],
+      "total_return": 0.4300162073,
+      "full_drawdown": 0.11643116677559406,
+      "terminal_equity": 143001.62073,
+      "eligible": false,
+      "guard_reasons": [
+        "fewer_than_two_years_above_fixed_v3"
+      ],
+      "improved_years_vs_v3": 1,
+      "promotable": false,
+      "rejection_reasons": [
+        "fewer_than_two_years_above_fixed_v3",
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 7,
+      "candidate": "R07_tp06",
+      "question": "止盈目标的收益和兑现概率如何权衡",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.06,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "config_sha256": "947e51be74830c96f5356a809e5013e8ec9858336200787edc268a9cc88ab315",
+      "score": 0.06193608073520829,
+      "mean_annual_return": 0.1109230794780392,
+      "worst_annual_return": 0.07124293019461225,
+      "largest_annual_drawdown": 0.09797399748566182,
+      "returns": [
+        0.1494448372000008,
+        0.0881038211861398,
+        0.13490072933140396,
+        0.07124293019461225
+      ],
+      "total_return": 0.5205626314000018,
+      "full_drawdown": 0.11788440645694409,
+      "terminal_equity": 152056.26314000017,
+      "eligible": true,
+      "guard_reasons": [],
+      "improved_years_vs_v3": 2,
+      "promotable": false,
+      "rejection_reasons": [
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 7,
+      "candidate": "R07_tp10",
+      "question": "止盈目标的收益和兑现概率如何权衡",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.1,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "config_sha256": "429a253b4c3d2d419cb7240f5c8ad64d38a025cda09dcd2b920d68fa14d9a4b8",
+      "score": 0.0814868395594624,
+      "mean_annual_return": 0.12666020372931552,
+      "worst_annual_return": 0.07918583886809105,
+      "largest_annual_drawdown": 0.09034672833970625,
+      "returns": [
+        0.15577953720000037,
+        0.13865804821933714,
+        0.13301739062983353,
+        0.07918583886809105
+      ],
+      "total_return": 0.6091670642000018,
+      "full_drawdown": 0.09450717210903692,
+      "terminal_equity": 160916.70642000018,
+      "eligible": true,
+      "guard_reasons": [],
+      "improved_years_vs_v3": 2,
+      "promotable": true,
+      "rejection_reasons": []
+    },
+    {
+      "round": 7,
+      "candidate": "R07_tp12",
+      "question": "止盈目标的收益和兑现概率如何权衡",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.12,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "config_sha256": "b7e760a4acc4b6505cddcb562d7f5399496a891eeca218a221fc1fd046ab02c4",
+      "score": 0.08409313503717253,
+      "mean_annual_return": 0.13199206809646497,
+      "worst_annual_return": 0.0844549168191091,
+      "largest_annual_drawdown": 0.09579786611858487,
+      "returns": [
+        0.15312725600000077,
+        0.15498852001812446,
+        0.13539757954862552,
+        0.0844549168191091
+      ],
+      "total_return": 0.6398886925000016,
+      "full_drawdown": 0.09579786611858487,
+      "terminal_equity": 163988.86925000016,
+      "eligible": true,
+      "guard_reasons": [],
+      "improved_years_vs_v3": 3,
+      "promotable": true,
+      "rejection_reasons": []
+    },
+    {
+      "round": 7,
+      "candidate": "R07_tp15",
+      "question": "止盈目标的收益和兑现概率如何权衡",
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.15,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "config_sha256": "4e08b931a0cef23810bb58965233688ffd16514f2c7363890c7c8ab5edda21d3",
+      "score": 0.09254052567115162,
+      "mean_annual_return": 0.13640786588054177,
+      "worst_annual_return": 0.08734810300355833,
+      "largest_annual_drawdown": 0.0877346804187803,
+      "returns": [
+        0.19918554120000054,
+        0.15368019215407158,
+        0.10541762716453662,
+        0.08734810300355833
+      ],
+      "total_return": 0.6629025774000004,
+      "full_drawdown": 0.09122114624403554,
+      "terminal_equity": 166290.25774000003,
+      "eligible": true,
+      "guard_reasons": [],
+      "improved_years_vs_v3": 2,
+      "promotable": true,
+      "rejection_reasons": []
+    }
+  ],
+  "stage": "frozen_before_any_new_batch_2024_account_run"
+}

@@ -1,0 +1,98 @@
+{
+  "symbol": "600186.SH",
+  "event_date": "2020-01-21",
+  "kind": "unknown_reference",
+  "start": "2019-12-03",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\600186.SH_2020-01-21\\query_01.json",
+      "sha256": "33c30f25afce8a4ff0d51b8aca0fa65f2983999c1dd0b55c3094e4f80342f69e",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "600186",
+        "begin_time": "2019-12-03",
+        "end_time": "2020-01-21"
+      }
+    }
+  ],
+  "announcement_count": 30,
+  "documents": [
+    {
+      "title": "600186:*ST莲花关于资本公积金转增股本除权事项的提示性公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2020-01-18",
+      "raw_response": "sources\\action_issuer_mirror_v2\\600186.SH_2020-01-21\\AN202001171374308218_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\600186.SH_2020-01-21\\AN202001171374308218.txt",
+      "sha256": "62a1432662046212918d0de23910a313d9947be62aaa576ef723bc832f74056f",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\600186.SH_2020-01-21\\AN202001171374308218_content.json",
+          "sha256": "62a1432662046212918d0de23910a313d9947be62aaa576ef723bc832f74056f"
+        }
+      ],
+      "article_code": "AN202001171374308218",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202001171374308218_1.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    },
+    {
+      "title": "600186:*ST莲花:中信证券股份有限公司关于莲花健康产业集团股份有限公司资本公积金转增股本除权参考价格的计算结果的专项意见",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2020-01-18",
+      "raw_response": "sources\\action_issuer_mirror_v2\\600186.SH_2020-01-21\\AN202001171374308217_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\600186.SH_2020-01-21\\AN202001171374308217.txt",
+      "sha256": "fdc4006185086fbb014a832712e97aae904c0d5fde1c3da5d07c460df2a616ce",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\600186.SH_2020-01-21\\AN202001171374308217_content.json",
+          "sha256": "fdc4006185086fbb014a832712e97aae904c0d5fde1c3da5d07c460df2a616ce"
+        }
+      ],
+      "article_code": "AN202001171374308217",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202001171374308217_1.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    },
+    {
+      "title": "600186:*ST莲花关于重整计划资本公积金转增股本事项实施的公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2020-01-15",
+      "raw_response": "sources\\action_issuer_mirror_v2\\600186.SH_2020-01-21\\AN202001141374169788_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\600186.SH_2020-01-21\\AN202001141374169788.txt",
+      "sha256": "0185d49bad3992dbd5cc6cd5176da7a48c3f0af1d553416edb46e28b5a0e9d7f",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\600186.SH_2020-01-21\\AN202001141374169788_content.json",
+          "sha256": "0185d49bad3992dbd5cc6cd5176da7a48c3f0af1d553416edb46e28b5a0e9d7f"
+        }
+      ],
+      "article_code": "AN202001141374169788",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202001141374169788_1.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    },
+    {
+      "title": "600186:*ST莲花:中信证券股份有限公司关于莲花健康产业集团股份有限公司调整资本公积金转增股本除权参考价格的计算公式的专项意见",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2020-01-15",
+      "raw_response": "sources\\action_issuer_mirror_v2\\600186.SH_2020-01-21\\AN202001141374169787_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\600186.SH_2020-01-21\\AN202001141374169787.txt",
+      "sha256": "0cc85b0d1798968b9294c14c1b773385d6822c2e466fb660ff775cbc69a7ac4a",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\600186.SH_2020-01-21\\AN202001141374169787_content.json",
+          "sha256": "0cc85b0d1798968b9294c14c1b773385d6822c2e466fb660ff775cbc69a7ac4a"
+        }
+      ],
+      "article_code": "AN202001141374169787",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202001141374169787_1.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

@@ -1,0 +1,239 @@
+{
+  "label_definition": "label_definition_v1.json",
+  "label_definition_sha256": "ba06f4dd42099f84e17b8a738ed08eee30e7909538f016188cbf0b17b29962df",
+  "scope": "2018_to_2023_schedules_and_quality_flags_only_no_label_values",
+  "observed_signal_rows": 4382527,
+  "signal_rule_rows": 3737172,
+  "plain_case_data_candidates": 3646742,
+  "plain_case_data_candidate_fraction": 0.975802558726224,
+  "plain_candidates_are_not_approved_training_labels": true,
+  "yearly": [
+    {
+      "year": 2018,
+      "signal_rule_rows": 306375,
+      "plain_case_data_candidates": 302396,
+      "bit_1": 0,
+      "bit_2": 0,
+      "bit_4": 116,
+      "bit_8": 5,
+      "bit_16": 460,
+      "bit_32": 5,
+      "bit_64": 3435,
+      "bit_128": 37,
+      "bit_256": 38,
+      "bit_512": 0,
+      "bit_1024": 0,
+      "bit_2048": 0,
+      "bit_4096": 225,
+      "plain_candidate_fraction": 0.9870126478988168
+    },
+    {
+      "year": 2019,
+      "signal_rule_rows": 657429,
+      "plain_case_data_candidates": 643531,
+      "bit_1": 0,
+      "bit_2": 1,
+      "bit_4": 377,
+      "bit_8": 30,
+      "bit_16": 1163,
+      "bit_32": 30,
+      "bit_64": 12394,
+      "bit_128": 154,
+      "bit_256": 522,
+      "bit_512": 0,
+      "bit_1024": 12,
+      "bit_2048": 0,
+      "bit_4096": 377,
+      "plain_candidate_fraction": 0.9788600746240278
+    },
+    {
+      "year": 2020,
+      "signal_rule_rows": 656560,
+      "plain_case_data_candidates": 642793,
+      "bit_1": 0,
+      "bit_2": 0,
+      "bit_4": 342,
+      "bit_8": 30,
+      "bit_16": 995,
+      "bit_32": 30,
+      "bit_64": 12372,
+      "bit_128": 245,
+      "bit_256": 642,
+      "bit_512": 0,
+      "bit_1024": 12,
+      "bit_2048": 0,
+      "bit_4096": 258,
+      "plain_candidate_fraction": 0.9790316193493359
+    },
+    {
+      "year": 2021,
+      "signal_rule_rows": 688424,
+      "plain_case_data_candidates": 674481,
+      "bit_1": 0,
+      "bit_2": 0,
+      "bit_4": 261,
+      "bit_8": 37,
+      "bit_16": 872,
+      "bit_32": 37,
+      "bit_64": 12802,
+      "bit_128": 111,
+      "bit_256": 810,
+      "bit_512": 0,
+      "bit_1024": 0,
+      "bit_2048": 0,
+      "bit_4096": 162,
+      "plain_candidate_fraction": 0.9797464934400892
+    },
+    {
+      "year": 2022,
+      "signal_rule_rows": 714489,
+      "plain_case_data_candidates": 700535,
+      "bit_1": 0,
+      "bit_2": 0,
+      "bit_4": 254,
+      "bit_8": 96,
+      "bit_16": 874,
+      "bit_32": 96,
+      "bit_64": 12770,
+      "bit_128": 131,
+      "bit_256": 672,
+      "bit_512": 0,
+      "bit_1024": 0,
+      "bit_2048": 0,
+      "bit_4096": 84,
+      "plain_candidate_fraction": 0.980469958249882
+    },
+    {
+      "year": 2023,
+      "signal_rule_rows": 713895,
+      "plain_case_data_candidates": 683006,
+      "bit_1": 17667,
+      "bit_2": 2945,
+      "bit_4": 156,
+      "bit_8": 17711,
+      "bit_16": 478,
+      "bit_32": 17711,
+      "bit_64": 12574,
+      "bit_128": 50,
+      "bit_256": 732,
+      "bit_512": 0,
+      "bit_1024": 0,
+      "bit_2048": 0,
+      "bit_4096": 54,
+      "plain_candidate_fraction": 0.9567317322575449
+    }
+  ],
+  "nominal_training_maturity_purge": [
+    {
+      "training_cutoff": "2020-12-31",
+      "signal_rule_rows": 1620364,
+      "scheduled_exit_after_cutoff": 16300,
+      "plain_data_candidates_nominally_mature_by_cutoff": 1572446
+    },
+    {
+      "training_cutoff": "2021-12-31",
+      "signal_rule_rows": 2308788,
+      "scheduled_exit_after_cutoff": 17572,
+      "plain_data_candidates_nominally_mature_by_cutoff": 2245667
+    },
+    {
+      "training_cutoff": "2022-12-31",
+      "signal_rule_rows": 3023277,
+      "scheduled_exit_after_cutoff": 17774,
+      "plain_data_candidates_nominally_mature_by_cutoff": 2945996
+    }
+  ],
+  "reason_bits": {
+    "1": "planned_exit_outside_development_price_window",
+    "2": "entry_market_row_missing",
+    "4": "entry_inactive_or_invalid_open_volume_amount",
+    "8": "exit_market_row_missing",
+    "16": "exit_inactive_or_invalid_open_volume_amount",
+    "32": "at_least_one_market_row_missing_between_entry_and_exit",
+    "64": "known_dividend_bonus_or_transfer_requires_entitlement_handling",
+    "128": "rights_issue_guard_interval_overlap",
+    "256": "generic_reference_formula_difference_in_horizon",
+    "512": "unexplained_reference_event_in_horizon",
+    "1024": "special_reorganization_directed_transfer_or_differential_reference_in_horizon",
+    "2048": "unresolved_dividend_fields_in_horizon",
+    "4096": "single_provider_unreviewed_dividend_amount_in_horizon"
+  },
+  "failure_reason_counts_overlap": true,
+  "quality_guards_not_signal_day_filters_or_model_features": true,
+  "missingness_is_event_and_industry_dependent_and_requires_bias_sensitivity_checks": true,
+  "no_2024_prices_or_outcomes_used": true,
+  "calendar_only_2024_dates_can_appear_for_unmatured_tail_schedules": true,
+  "event_sources_used_for_guard_dates_not_economic_amounts": true,
+  "current_staging_events_not_promoted_as_verified_returns": true,
+  "label_values_computed": false,
+  "schedule_and_guard_audit_passed": true,
+  "label_admission_audit_passed": false,
+  "minimum_execution_audit_passed": false,
+  "factor_experiments_enabled": false,
+  "files": [
+    {
+      "file": "2018.parquet",
+      "sha256": "5c3793dabaa59af602af9c154c3bcf1e4dca2317079a4da5bb6d615a89cc4602",
+      "rows": 680631
+    },
+    {
+      "file": "2019.parquet",
+      "sha256": "030945da9b325fa62f7a86b417d4e2a7120f9f67f7fec5767bdf7e3ec0622bb2",
+      "rows": 699808
+    },
+    {
+      "file": "2020.parquet",
+      "sha256": "19611532e46362add36201b0e94d86d03cf4a15925419b6f865e51e4f5c41603",
+      "rows": 717114
+    },
+    {
+      "file": "2021.parquet",
+      "sha256": "eea5a6609d61a96158c227952a1daf1dc7ee84238c95c0754821fe2b80c1f2e8",
+      "rows": 750951
+    },
+    {
+      "file": "2022.parquet",
+      "sha256": "1ab11487177fcd01da310cd3a2cc498d6927f215f2af86c2a7d747dc0df6e7b1",
+      "rows": 762501
+    },
+    {
+      "file": "2023.parquet",
+      "sha256": "ef6aee6c409565d5188712c0360c85c65f7577106b9a8ecad5553deb9d77d23f",
+      "rows": 771522
+    },
+    {
+      "file": "availability_by_year.parquet",
+      "sha256": "051488d2b3a541e101c032f09b1de50b95dcf053c5caef7ae912d82d59116e48",
+      "rows": 6
+    },
+    {
+      "file": "availability_by_year_industry.parquet",
+      "sha256": "4d17bc594b0e913b81dae780c40b2ba9de7911974291844ee86b7bbfe999fd1d",
+      "rows": 484
+    },
+    {
+      "file": "primary_unavailability_reasons.parquet",
+      "sha256": "4a343c268f7f193721ac06bc483a938db4a35bd3455c88ac613e0f4f8ac995d7",
+      "rows": 52
+    },
+    {
+      "file": "scheduled_training_cutoff_purge.parquet",
+      "sha256": "4a0fadcc203352e60b8b1d0e74d2ec2b399a3103b9f91e373429e83abe97f9fd",
+      "rows": 3
+    }
+  ],
+  "tests": {
+    "entry_t1_exit_t6_has_five_session_intervals": true,
+    "missing_intermediate_row_differs_from_known_suspension": true,
+    "inactive_exit_is_not_silently_delayed": true,
+    "record_date_close_excludes_same_day_open_sale": true,
+    "development_and_training_cutoffs_use_scheduled_exit": true,
+    "signal_pool_flags_preserved": true,
+    "all_observed_signal_rows_retained": true,
+    "all_training_approval_flags_false": true,
+    "output_contains_no_target_return_column": true,
+    "source_kline_hashes_verified": 3336,
+    "year_industry_and_reason_totals_reconcile": true
+  },
+  "code_sha256": "319870a48fe8d4fa98a7ed611aa5f308454a000ac812aba0723b8a2f7349d270"
+}

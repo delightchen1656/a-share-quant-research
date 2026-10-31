@@ -1,0 +1,56 @@
+[
+  {
+    "symbol": "000042.SZ",
+    "rejected_source_ex_date": "2018-06-28",
+    "canonical_ex_date": "2018-06-22",
+    "reason": "misdated_duplicate_of_existing_correct_event",
+    "evidence": {
+      "title": "中洲控股:2017年度权益分派实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2018-06-14",
+      "raw_response": "sources\\action_issuer_mirror_v2\\000042.SZ_2018-06-28\\AN201806131155478161_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\000042.SZ_2018-06-28\\AN201806131155478161.txt",
+      "sha256": "2aa1fac60288fe35ab5f2e32ed0d929722792eb997e2555b4017744068d6dfea",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\000042.SZ_2018-06-28\\AN201806131155478161_content.json",
+          "sha256": "2aa1fac60288fe35ab5f2e32ed0d929722792eb997e2555b4017744068d6dfea"
+        }
+      ],
+      "article_code": "AN201806131155478161",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201806131155478161_1.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary",
+      "text_sha256": "b8885e0e4c41696b7d9169811f57aa611bda0b7700dabdf63d62b75e271845ad",
+      "review_method": "issuer_notice_text_manually_checked",
+      "source_text_not_pdf_visual_review": true
+    }
+  },
+  {
+    "symbol": "002727.SZ",
+    "rejected_source_ex_date": "2019-04-02",
+    "canonical_ex_date": "2019-04-03",
+    "reason": "misdated_duplicate_of_existing_correct_event",
+    "evidence": {
+      "title": "一心堂:2018年度权益分派实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2019-03-26",
+      "raw_response": "sources\\action_issuer_mirror_v2\\002727.SZ_2019-04-02\\AN201903251309328683_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\002727.SZ_2019-04-02\\AN201903251309328683.txt",
+      "sha256": "ac20f3fe1964a7d213791f1f9d7099667f183606cd53cdb4899e1d3db93dc37c",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\002727.SZ_2019-04-02\\AN201903251309328683_content.json",
+          "sha256": "ac20f3fe1964a7d213791f1f9d7099667f183606cd53cdb4899e1d3db93dc37c"
+        }
+      ],
+      "article_code": "AN201903251309328683",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201903251309328683_1.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary",
+      "text_sha256": "cb79699614a534f745be976fe048be1571e82f3f0e0781bb07b65a4474b95bc7",
+      "review_method": "issuer_notice_text_manually_checked",
+      "source_text_not_pdf_visual_review": true
+    }
+  }
+]

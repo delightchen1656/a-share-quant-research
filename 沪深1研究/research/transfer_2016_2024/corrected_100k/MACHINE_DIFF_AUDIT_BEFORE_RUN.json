@@ -1,0 +1,68 @@
+{
+  "allowed_change": {
+    "new": 100000.0,
+    "old": 1000000.0,
+    "path": "$.initial_cash_cny",
+    "performance_tuning": false,
+    "reason": "user-established Hushen research capital convention"
+  },
+  "audited_at_utc": "2026-10-24T10:11:36.839348+00:00",
+  "audited_before_corrected_performance": true,
+  "code": {
+    "byte_identical": true,
+    "new_sha256": "2ab1f2fec7fd65d928686c317588d07e7edd0f6054feff9b1224bb213b2acdeb",
+    "old_sha256": "2ab1f2fec7fd65d928686c317588d07e7edd0f6054feff9b1224bb213b2acdeb"
+  },
+  "config": {
+    "differences": [
+      {
+        "new": 100000.0,
+        "old": 1000000.0,
+        "path": "$.initial_cash_cny"
+      }
+    ],
+    "new_sha256": "5aaf2a6bc8049d086d4fdbdc1c8b85818e2034cb2d39a475c1091d6b10d2f6ee",
+    "old_sha256": "c9af057e246ceb27d209652b6d49dd525fcc0f7932e2c18029640b4771a24ab2",
+    "only_strategy_input_difference_is_initial_cash": true
+  },
+  "immutable_strategy_fields_confirmed_by_config_diff": [
+    "annualization_trading_days",
+    "base_commission_rate_each_side",
+    "base_minimum_commission_cny",
+    "base_slippage_rate_each_side",
+    "base_transfer_handling_rate_each_side",
+    "benchmark",
+    "cutoff",
+    "fallback_cash_dividend_net_fraction",
+    "fee_stress_multipliers",
+    "instruction_boundary_version",
+    "liquidity_days",
+    "lot_size",
+    "minimum_median_amount_cny",
+    "momentum_long_days",
+    "momentum_skip_days",
+    "non_st_one_price_limit_threshold_pct",
+    "q1_start_end",
+    "research_end",
+    "research_start",
+    "risk_free_rate",
+    "score_low_volatility_weight",
+    "score_momentum_weight",
+    "selection_tie_break",
+    "sell_stamp_duty_rate",
+    "slots",
+    "st_one_price_limit_threshold_pct",
+    "strict_transfer_gate",
+    "volatility_days"
+  ],
+  "new_directory": "C:\\Users\\22241\\Desktop\\quant\\strategies\\hushen\\research\\transfer_2016_2024\\corrected_100k",
+  "old_directory_preserved": "C:\\Users\\22241\\Desktop\\quant\\strategies\\hushen\\research\\transfer_2016_2024\\fixed_formula_monthly_preregistered_v1_20261024",
+  "old_invalid_run_evidence_intact": true,
+  "protocol": {
+    "new_sha256": "87c0371a2a4ada2ebca59dc2f2053689b42d13d7d4c6e0eb06b02b9c20ba9ade",
+    "old_sha256": "89de452245af1c33ab66e5476f9967a676cc6bf6c134b381bcb3e4179de23a4f",
+    "only_initial_cash_and_derived_text_changed": true,
+    "unified_diff_file": "PROTOCOL_DIFF_BEFORE_RUN.patch"
+  },
+  "status": "passed"
+}

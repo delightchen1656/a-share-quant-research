@@ -1,0 +1,59 @@
+{
+  "build_2020_2022": {
+    "dynamic_balanced": {
+      "return": 0.17491167793508788,
+      "annualized_return": 0.05738361482756904,
+      "max_drawdown": -0.020006437486884687,
+      "sharpe": 1.6401882003628496,
+      "trades": 23,
+      "win_rate": 0.6521739130434783,
+      "mean_trade_return": 0.07936833149494575,
+      "ending_equity": 1174911.6779350878
+    },
+    "dynamic_defensive": {
+      "return": 0.0683548483604175,
+      "annualized_return": 0.02315160417845008,
+      "max_drawdown": -0.012668720491144425,
+      "sharpe": 1.3498454484625222,
+      "trades": 11,
+      "win_rate": 0.8181818181818182,
+      "mean_trade_return": 0.11522279699862495,
+      "ending_equity": 1068354.8483604174
+    }
+  },
+  "selection_2023": {
+    "dynamic_balanced": {
+      "return": 0.018954529705444312,
+      "annualized_return": 0.019745458101439795,
+      "max_drawdown": -0.009769477370246804,
+      "sharpe": 1.2367228834126207,
+      "trades": 5,
+      "win_rate": 0.6,
+      "mean_trade_return": 0.04731771192937777,
+      "ending_equity": 1018954.5297054444
+    },
+    "dynamic_defensive": {
+      "return": -0.003527891632510216,
+      "annualized_return": -0.0036734042009184398,
+      "max_drawdown": -0.00384107613046214,
+      "sharpe": -1.2075188235414451,
+      "trades": 1,
+      "win_rate": 0.0,
+      "mean_trade_return": -0.07055783265020499,
+      "ending_equity": 996472.1083674898
+    }
+  },
+  "confirmation_2024": {
+    "dynamic_balanced": {
+      "return": 0.2720542504601102,
+      "annualized_return": 0.28476603885203877,
+      "max_drawdown": -0.03884828851077515,
+      "sharpe": 2.3784057288320826,
+      "trades": 27,
+      "win_rate": 0.5185185185185185,
+      "mean_trade_return": 0.05673187403628058,
+      "ending_equity": 1272054.2504601101
+    }
+  },
+  "confirmation_policy": "2024 is development-boundary second-stage confirmation; no parameters changed after it was viewed"
+}

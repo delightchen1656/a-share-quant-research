@@ -1,0 +1,26 @@
+{
+  "symbol": "600519.SH",
+  "event_date": "2022-12-27",
+  "kind": "unknown_reference",
+  "start": "2022-11-11",
+  "query_files": [
+    {
+      "path": "sources\\action_evidence_v2\\600519.SH_2022-12-27\\query_01.json",
+      "sha256": "f2ca3341c1606226b5639c956de48b1cff12a54184bb6e2436f8ebde529125af"
+    }
+  ],
+  "exact_code_announcements": 16,
+  "documents": [
+    {
+      "title": "贵州茅台2022年度回报股东特别分红实施公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2022-12-21/1215407396.PDF",
+      "published_date": "2022-12-21",
+      "pdf": "sources\\action_evidence_v2\\600519.SH_2022-12-27\\1215407396.pdf",
+      "text": "sources\\action_evidence_v2\\600519.SH_2022-12-27\\1215407396.txt",
+      "sha256": "2686df87a57d91f7348cf58155963531e9731b7b8a966b191d081ac9493b0601",
+      "pages": 4
+    }
+  ],
+  "no_document_is_not_no_event_proof": true,
+  "fields_verified": false
+}

@@ -1,0 +1,144 @@
+{
+  "status": "ok",
+  "updated_at": "2026-10-31T13:25:54.564130+08:00",
+  "target": "2026-10-30",
+  "source": "BaoStock",
+  "scope": "Downloaded market data only; no model retraining or strategy changes",
+  "datasets": {
+    "hushen": {
+      "symbols": 3396,
+      "active": 3194,
+      "new_symbols": [],
+      "updated_symbols": 3194,
+      "added_rows": 3194
+    },
+    "kechuang": {
+      "symbols": 621,
+      "active": 618,
+      "new_symbols": [],
+      "updated_symbols": 618,
+      "added_rows": 0
+    }
+  },
+  "qfq_rebased_symbols": [
+    {
+      "code": "sh.600479",
+      "symbol": "600479.SH",
+      "factor": 1.0000026867453893
+    },
+    {
+      "code": "sh.601225",
+      "symbol": "601225.SH",
+      "factor": 0.9999963623268011
+    },
+    {
+      "code": "sh.601600",
+      "symbol": "601600.SH",
+      "factor": 0.9999896970543068
+    },
+    {
+      "code": "sh.601872",
+      "symbol": "601872.SH",
+      "factor": 0.9999942529065925
+    },
+    {
+      "code": "sh.601878",
+      "symbol": "601878.SH",
+      "factor": 0.990762
+    },
+    {
+      "code": "sh.603605",
+      "symbol": "603605.SH",
+      "factor": 0.9999982366456769
+    },
+    {
+      "code": "sh.603630",
+      "symbol": "603630.SH",
+      "factor": 0.994803
+    },
+    {
+      "code": "sh.603806",
+      "symbol": "603806.SH",
+      "factor": 0.9999923254618154
+    },
+    {
+      "code": "sz.000680",
+      "symbol": "000680.SZ",
+      "factor": 1.0000113123451622
+    },
+    {
+      "code": "sz.000728",
+      "symbol": "000728.SZ",
+      "factor": 0.985251
+    },
+    {
+      "code": "sz.000807",
+      "symbol": "000807.SZ",
+      "factor": 0.965743
+    },
+    {
+      "code": "sz.000878",
+      "symbol": "000878.SZ",
+      "factor": 1.0000021489971347
+    },
+    {
+      "code": "sz.000880",
+      "symbol": "000880.SZ",
+      "factor": 1.0000038753268616
+    },
+    {
+      "code": "sz.000958",
+      "symbol": "000958.SZ",
+      "factor": 0.9999974381496121
+    },
+    {
+      "code": "sz.001872",
+      "symbol": "001872.SZ",
+      "factor": 0.7643917666259963
+    },
+    {
+      "code": "sz.001914",
+      "symbol": "001914.SZ",
+      "factor": 0.8769862314143735
+    },
+    {
+      "code": "sz.002270",
+      "symbol": "002270.SZ",
+      "factor": 1.000005310702659
+    },
+    {
+      "code": "sz.002312",
+      "symbol": "002312.SZ",
+      "factor": 0.9999870467999118
+    },
+    {
+      "code": "sz.002545",
+      "symbol": "002545.SZ",
+      "factor": 1.000007993669014
+    },
+    {
+      "code": "sz.002803",
+      "symbol": "002803.SZ",
+      "factor": 0.9999947006110196
+    },
+    {
+      "code": "sz.002812",
+      "symbol": "002812.SZ",
+      "factor": 1.0000021668519323
+    }
+  ],
+  "raw_vendor_revisions": [],
+  "validation": {
+    "mode": "daily_incremental",
+    "monthly_full_validation": false,
+    "monthly_rule": "first trading session of each calendar month",
+    "incremental_window_raw_qfq_dates_equal": true,
+    "incremental_window_unique_dates": true,
+    "incremental_window_no_future_dates": true,
+    "active_symbol_latest_date": "2026-10-30",
+    "incremental_window_ohlc_complete_and_ordered": true,
+    "transactional_staging": true
+  },
+  "backup": "data_updates/20261030_post_hushen_full/before_update",
+  "committed_files": 7631
+}

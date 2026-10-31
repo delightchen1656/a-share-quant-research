@@ -1,0 +1,1096 @@
+{
+  "summary": [
+    {
+      "pool": "样本池",
+      "n": 4641,
+      "old_decline": 668,
+      "excused_up_first": 76,
+      "ambiguous_decline": 0,
+      "all_same_day_unknown": 0,
+      "new_decline": 592,
+      "new_decline_rate_of_all": 0.1275587157940099,
+      "new_decline_rate_known": 0.1275587157940099,
+      "order_up_first": 2725,
+      "order_down_first": 1731,
+      "order_neither": 185
+    },
+    {
+      "pool": "龙头子样本",
+      "n": 881,
+      "old_decline": 134,
+      "excused_up_first": 14,
+      "ambiguous_decline": 0,
+      "all_same_day_unknown": 0,
+      "new_decline": 120,
+      "new_decline_rate_of_all": 0.1362088535754824,
+      "new_decline_rate_known": 0.1362088535754824,
+      "order_up_first": 503,
+      "order_down_first": 350,
+      "order_neither": 28
+    }
+  ],
+  "comparisons": [
+    {
+      "pool": "样本池",
+      "rule": "距MA20不足10%",
+      "period": "全部",
+      "yes": {
+        "n": 1914,
+        "continued": 309,
+        "continued_rate": 0.1614420062695925,
+        "touch10": 0.6739811912225705,
+        "fall30": 0.08934169278996865,
+        "mean_close60": 0.03288949205849836
+      },
+      "no": {
+        "n": 2727,
+        "continued": 283,
+        "continued_rate": 0.10377704437110377,
+        "touch10": 0.7557755775577558,
+        "fall30": 0.06490649064906491,
+        "mean_close60": 0.07630721151092004
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "样本池",
+      "rule": "距MA20不足10%",
+      "period": "2018—2021",
+      "yes": {
+        "n": 978,
+        "continued": 155,
+        "continued_rate": 0.15848670756646216,
+        "touch10": 0.6748466257668712,
+        "fall30": 0.05828220858895705,
+        "mean_close60": 0.03367613711404834
+      },
+      "no": {
+        "n": 1546,
+        "continued": 183,
+        "continued_rate": 0.11836998706338939,
+        "touch10": 0.705045278137128,
+        "fall30": 0.054333764553686936,
+        "mean_close60": 0.033429515701362336
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "样本池",
+      "rule": "距MA20不足10%",
+      "period": "2022—2024",
+      "yes": {
+        "n": 936,
+        "continued": 154,
+        "continued_rate": 0.16452991452991453,
+        "touch10": 0.6730769230769231,
+        "fall30": 0.12179487179487179,
+        "mean_close60": 0.032067548827378826
+      },
+      "no": {
+        "n": 1181,
+        "continued": 100,
+        "continued_rate": 0.0846740050804403,
+        "touch10": 0.8221845893310754,
+        "fall30": 0.07874682472480948,
+        "mean_close60": 0.13243669307025638
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "样本池",
+      "rule": "此前120日跌幅不足40%",
+      "period": "全部",
+      "yes": {
+        "n": 3533,
+        "continued": 447,
+        "continued_rate": 0.12652136994056043,
+        "touch10": 0.7228983866402491,
+        "fall30": 0.07698839513161619,
+        "mean_close60": 0.06315334522206667
+      },
+      "no": {
+        "n": 571,
+        "continued": 44,
+        "continued_rate": 0.07705779334500876,
+        "touch10": 0.8651488616462347,
+        "fall30": 0.0542907180385289,
+        "mean_close60": 0.13530145618997452
+      },
+      "excluded_missing_or_unknown": 537
+    },
+    {
+      "pool": "样本池",
+      "rule": "此前120日跌幅不足40%",
+      "period": "2018—2021",
+      "yes": {
+        "n": 1764,
+        "continued": 223,
+        "continued_rate": 0.1264172335600907,
+        "touch10": 0.7091836734693877,
+        "fall30": 0.0481859410430839,
+        "mean_close60": 0.05055603527811906
+      },
+      "no": {
+        "n": 226,
+        "continued": 15,
+        "continued_rate": 0.06637168141592921,
+        "touch10": 0.8761061946902655,
+        "fall30": 0.048672566371681415,
+        "mean_close60": 0.1098549188020208
+      },
+      "excluded_missing_or_unknown": 534
+    },
+    {
+      "pool": "样本池",
+      "rule": "此前120日跌幅不足40%",
+      "period": "2022—2024",
+      "yes": {
+        "n": 1769,
+        "continued": 224,
+        "continued_rate": 0.12662521198417184,
+        "touch10": 0.7365743357829282,
+        "fall30": 0.10570944036178632,
+        "mean_close60": 0.07571504942846778
+      },
+      "no": {
+        "n": 345,
+        "continued": 29,
+        "continued_rate": 0.08405797101449275,
+        "touch10": 0.8579710144927536,
+        "fall30": 0.057971014492753624,
+        "mean_close60": 0.15197078213106882
+      },
+      "excluded_missing_or_unknown": 3
+    },
+    {
+      "pool": "样本池",
+      "rule": "前3日未缩量至0.8倍以下",
+      "period": "全部",
+      "yes": {
+        "n": 3432,
+        "continued": 436,
+        "continued_rate": 0.12703962703962704,
+        "touch10": 0.7205710955710956,
+        "fall30": 0.07692307692307693,
+        "mean_close60": 0.06510414002189734
+      },
+      "no": {
+        "n": 1209,
+        "continued": 156,
+        "continued_rate": 0.12903225806451613,
+        "touch10": 0.7262200165425972,
+        "fall30": 0.06947890818858561,
+        "mean_close60": 0.039373734520341756
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "样本池",
+      "rule": "前3日未缩量至0.8倍以下",
+      "period": "2018—2021",
+      "yes": {
+        "n": 1752,
+        "continued": 238,
+        "continued_rate": 0.1358447488584475,
+        "touch10": 0.6894977168949772,
+        "fall30": 0.0593607305936073,
+        "mean_close60": 0.035277912800811106
+      },
+      "no": {
+        "n": 772,
+        "continued": 100,
+        "continued_rate": 0.12953367875647667,
+        "touch10": 0.7020725388601037,
+        "fall30": 0.04792746113989637,
+        "mean_close60": 0.029547137493295846
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "样本池",
+      "rule": "前3日未缩量至0.8倍以下",
+      "period": "2022—2024",
+      "yes": {
+        "n": 1680,
+        "continued": 198,
+        "continued_rate": 0.11785714285714285,
+        "touch10": 0.7529761904761905,
+        "fall30": 0.09523809523809523,
+        "mean_close60": 0.09620863412388726
+      },
+      "no": {
+        "n": 437,
+        "continued": 56,
+        "continued_rate": 0.12814645308924486,
+        "touch10": 0.7688787185354691,
+        "fall30": 0.10755148741418764,
+        "mean_close60": 0.056733306385054444
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "样本池",
+      "rule": "信号量不足前20日均量",
+      "period": "全部",
+      "yes": {
+        "n": 2527,
+        "continued": 344,
+        "continued_rate": 0.13612979817965967,
+        "touch10": 0.6897506925207756,
+        "fall30": 0.07558369608231104,
+        "mean_close60": 0.03615086961568734
+      },
+      "no": {
+        "n": 2114,
+        "continued": 248,
+        "continued_rate": 0.1173131504257332,
+        "touch10": 0.760643330179754,
+        "fall30": 0.07426679280983917,
+        "mean_close60": 0.08499858376130698
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "样本池",
+      "rule": "信号量不足前20日均量",
+      "period": "2018—2021",
+      "yes": {
+        "n": 1542,
+        "continued": 210,
+        "continued_rate": 0.13618677042801555,
+        "touch10": 0.6640726329442282,
+        "fall30": 0.05058365758754864,
+        "mean_close60": 0.023735274587959685
+      },
+      "no": {
+        "n": 982,
+        "continued": 128,
+        "continued_rate": 0.13034623217922606,
+        "touch10": 0.7393075356415478,
+        "fall30": 0.06415478615071284,
+        "mean_close60": 0.048897657797567835
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "样本池",
+      "rule": "信号量不足前20日均量",
+      "period": "2022—2024",
+      "yes": {
+        "n": 985,
+        "continued": 134,
+        "continued_rate": 0.13604060913705585,
+        "touch10": 0.7299492385786802,
+        "fall30": 0.11472081218274112,
+        "mean_close60": 0.05558726304995743
+      },
+      "no": {
+        "n": 1132,
+        "continued": 120,
+        "continued_rate": 0.10600706713780919,
+        "touch10": 0.7791519434628975,
+        "fall30": 0.08303886925795052,
+        "mean_close60": 0.11631581812207716
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "样本池",
+      "rule": "信号量至少前20日均量1.5倍",
+      "period": "全部",
+      "yes": {
+        "n": 755,
+        "continued": 79,
+        "continued_rate": 0.10463576158940398,
+        "touch10": 0.7880794701986755,
+        "fall30": 0.060927152317880796,
+        "mean_close60": 0.10466919160008421
+      },
+      "no": {
+        "n": 3886,
+        "continued": 513,
+        "continued_rate": 0.13201235203293876,
+        "touch10": 0.7092125579001544,
+        "fall30": 0.07771487390633042,
+        "mean_close60": 0.04941199535053557
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "样本池",
+      "rule": "信号量至少前20日均量1.5倍",
+      "period": "2018—2021",
+      "yes": {
+        "n": 306,
+        "continued": 40,
+        "continued_rate": 0.13071895424836602,
+        "touch10": 0.7450980392156863,
+        "fall30": 0.0718954248366013,
+        "mean_close60": 0.052312865019647395
+      },
+      "no": {
+        "n": 2218,
+        "continued": 298,
+        "continued_rate": 0.13435527502254282,
+        "touch10": 0.6862037871956718,
+        "fall30": 0.05365193868349865,
+        "mean_close60": 0.030933073343477613
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "样本池",
+      "rule": "信号量至少前20日均量1.5倍",
+      "period": "2022—2024",
+      "yes": {
+        "n": 449,
+        "continued": 39,
+        "continued_rate": 0.08685968819599109,
+        "touch10": 0.8173719376391982,
+        "fall30": 0.053452115812917596,
+        "mean_close60": 0.1403507861070189
+      },
+      "no": {
+        "n": 1668,
+        "continued": 215,
+        "continued_rate": 0.1288968824940048,
+        "touch10": 0.7398081534772182,
+        "fall30": 0.10971223021582734,
+        "mean_close60": 0.07398408708414143
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "样本池",
+      "rule": "MA60近10日下跌至少3%",
+      "period": "全部",
+      "yes": {
+        "n": 1720,
+        "continued": 176,
+        "continued_rate": 0.10232558139534884,
+        "touch10": 0.8,
+        "fall30": 0.07325581395348837,
+        "mean_close60": 0.09688083880786971
+      },
+      "no": {
+        "n": 2903,
+        "continued": 410,
+        "continued_rate": 0.14123320702721323,
+        "touch10": 0.6772304512573201,
+        "fall30": 0.07543920082673097,
+        "mean_close60": 0.03651366353976386
+      },
+      "excluded_missing_or_unknown": 18
+    },
+    {
+      "pool": "样本池",
+      "rule": "MA60近10日下跌至少3%",
+      "period": "2018—2021",
+      "yes": {
+        "n": 771,
+        "continued": 99,
+        "continued_rate": 0.12840466926070038,
+        "touch10": 0.7496757457846952,
+        "fall30": 0.07652399481193256,
+        "mean_close60": 0.03868506982504555
+      },
+      "no": {
+        "n": 1735,
+        "continued": 233,
+        "continued_rate": 0.13429394812680115,
+        "touch10": 0.6703170028818444,
+        "fall30": 0.04553314121037464,
+        "mean_close60": 0.03249859305588525
+      },
+      "excluded_missing_or_unknown": 18
+    },
+    {
+      "pool": "样本池",
+      "rule": "MA60近10日下跌至少3%",
+      "period": "2022—2024",
+      "yes": {
+        "n": 949,
+        "continued": 77,
+        "continued_rate": 0.08113804004214963,
+        "touch10": 0.8408851422550052,
+        "fall30": 0.07060063224446786,
+        "mean_close60": 0.14416106840297768
+      },
+      "no": {
+        "n": 1168,
+        "continued": 177,
+        "continued_rate": 0.15154109589041095,
+        "touch10": 0.6875,
+        "fall30": 0.11986301369863013,
+        "mean_close60": 0.042477830739703404
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "样本池",
+      "rule": "阴线量占比至少65%",
+      "period": "全部",
+      "yes": {
+        "n": 1972,
+        "continued": 254,
+        "continued_rate": 0.12880324543610547,
+        "touch10": 0.704868154158215,
+        "fall30": 0.06845841784989858,
+        "mean_close60": 0.07788889062957839
+      },
+      "no": {
+        "n": 2669,
+        "continued": 338,
+        "continued_rate": 0.12663919070813037,
+        "touch10": 0.7347321094042712,
+        "fall30": 0.07980517047583364,
+        "mean_close60": 0.044002758062463926
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "样本池",
+      "rule": "阴线量占比至少65%",
+      "period": "2018—2021",
+      "yes": {
+        "n": 988,
+        "continued": 132,
+        "continued_rate": 0.13360323886639677,
+        "touch10": 0.6811740890688259,
+        "fall30": 0.043522267206477734,
+        "mean_close60": 0.044671279648386984
+      },
+      "no": {
+        "n": 1536,
+        "continued": 206,
+        "continued_rate": 0.13411458333333334,
+        "touch10": 0.701171875,
+        "fall30": 0.06380208333333333,
+        "mean_close60": 0.026355513723462957
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "样本池",
+      "rule": "阴线量占比至少65%",
+      "period": "2022—2024",
+      "yes": {
+        "n": 984,
+        "continued": 122,
+        "continued_rate": 0.12398373983739837,
+        "touch10": 0.7286585365853658,
+        "fall30": 0.09349593495934959,
+        "mean_close60": 0.11124153254971775
+      },
+      "no": {
+        "n": 1133,
+        "continued": 132,
+        "continued_rate": 0.11650485436893204,
+        "touch10": 0.7802294792586054,
+        "fall30": 0.10150044130626655,
+        "mean_close60": 0.06792700104984742
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "样本池",
+      "rule": "次日高开至少3%（开盘时信息）",
+      "period": "全部",
+      "yes": {
+        "n": 104,
+        "continued": 14,
+        "continued_rate": 0.1346153846153846,
+        "touch10": 0.7115384615384616,
+        "fall30": 0.09615384615384616,
+        "mean_close60": 0.05406841842845181
+      },
+      "no": {
+        "n": 4537,
+        "continued": 578,
+        "continued_rate": 0.12739695834251707,
+        "touch10": 0.7222834472118139,
+        "fall30": 0.07449856733524356,
+        "mean_close60": 0.05850058145772225
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "样本池",
+      "rule": "次日高开至少3%（开盘时信息）",
+      "period": "2018—2021",
+      "yes": {
+        "n": 55,
+        "continued": 6,
+        "continued_rate": 0.10909090909090909,
+        "touch10": 0.7090909090909091,
+        "fall30": 0.07272727272727272,
+        "mean_close60": 0.08227912852232298
+      },
+      "no": {
+        "n": 2469,
+        "continued": 332,
+        "continued_rate": 0.13446739570676386,
+        "touch10": 0.6929931146213042,
+        "fall30": 0.055488051842851355,
+        "mean_close60": 0.03243902037388322
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "样本池",
+      "rule": "次日高开至少3%（开盘时信息）",
+      "period": "2022—2024",
+      "yes": {
+        "n": 49,
+        "continued": 8,
+        "continued_rate": 0.16326530612244897,
+        "touch10": 0.7142857142857143,
+        "fall30": 0.12244897959183673,
+        "mean_close60": 0.022403335670024956
+      },
+      "no": {
+        "n": 2068,
+        "continued": 246,
+        "continued_rate": 0.11895551257253385,
+        "touch10": 0.7572533849129593,
+        "fall30": 0.09719535783365571,
+        "mean_close60": 0.08961566574979118
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "龙头子样本",
+      "rule": "距MA20不足10%",
+      "period": "全部",
+      "yes": {
+        "n": 374,
+        "continued": 68,
+        "continued_rate": 0.18181818181818182,
+        "touch10": 0.6550802139037433,
+        "fall30": 0.12032085561497326,
+        "mean_close60": 0.03340933571833651
+      },
+      "no": {
+        "n": 507,
+        "continued": 52,
+        "continued_rate": 0.10256410256410256,
+        "touch10": 0.7810650887573964,
+        "fall30": 0.07100591715976332,
+        "mean_close60": 0.08037923592510089
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "龙头子样本",
+      "rule": "距MA20不足10%",
+      "period": "2018—2021",
+      "yes": {
+        "n": 185,
+        "continued": 30,
+        "continued_rate": 0.16216216216216217,
+        "touch10": 0.6594594594594595,
+        "fall30": 0.05405405405405406,
+        "mean_close60": 0.045504789870283086
+      },
+      "no": {
+        "n": 292,
+        "continued": 30,
+        "continued_rate": 0.10273972602739725,
+        "touch10": 0.7431506849315068,
+        "fall30": 0.0547945205479452,
+        "mean_close60": 0.04769791330311204
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "龙头子样本",
+      "rule": "距MA20不足10%",
+      "period": "2022—2024",
+      "yes": {
+        "n": 189,
+        "continued": 38,
+        "continued_rate": 0.20105820105820105,
+        "touch10": 0.6507936507936508,
+        "fall30": 0.18518518518518517,
+        "mean_close60": 0.021569870014050176
+      },
+      "no": {
+        "n": 215,
+        "continued": 22,
+        "continued_rate": 0.10232558139534884,
+        "touch10": 0.8325581395348837,
+        "fall30": 0.09302325581395349,
+        "mean_close60": 0.12476503223031368
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "龙头子样本",
+      "rule": "此前120日跌幅不足40%",
+      "period": "全部",
+      "yes": {
+        "n": 676,
+        "continued": 95,
+        "continued_rate": 0.14053254437869822,
+        "touch10": 0.7189349112426036,
+        "fall30": 0.10207100591715976,
+        "mean_close60": 0.062280798978769654
+      },
+      "no": {
+        "n": 105,
+        "continued": 8,
+        "continued_rate": 0.0761904761904762,
+        "touch10": 0.8761904761904762,
+        "fall30": 0.047619047619047616,
+        "mean_close60": 0.14632886781528484
+      },
+      "excluded_missing_or_unknown": 100
+    },
+    {
+      "pool": "龙头子样本",
+      "rule": "此前120日跌幅不足40%",
+      "period": "2018—2021",
+      "yes": {
+        "n": 337,
+        "continued": 41,
+        "continued_rate": 0.12166172106824925,
+        "touch10": 0.7151335311572701,
+        "fall30": 0.05637982195845697,
+        "mean_close60": 0.06638579037551372
+      },
+      "no": {
+        "n": 41,
+        "continued": 3,
+        "continued_rate": 0.07317073170731707,
+        "touch10": 0.8536585365853658,
+        "fall30": 0.0,
+        "mean_close60": 0.09598189694365976
+      },
+      "excluded_missing_or_unknown": 99
+    },
+    {
+      "pool": "龙头子样本",
+      "rule": "此前120日跌幅不足40%",
+      "period": "2022—2024",
+      "yes": {
+        "n": 339,
+        "continued": 54,
+        "continued_rate": 0.1592920353982301,
+        "touch10": 0.7227138643067846,
+        "fall30": 0.14749262536873156,
+        "mean_close60": 0.058200025820354495
+      },
+      "no": {
+        "n": 64,
+        "continued": 5,
+        "continued_rate": 0.078125,
+        "touch10": 0.890625,
+        "fall30": 0.078125,
+        "mean_close60": 0.1785823960299197
+      },
+      "excluded_missing_or_unknown": 1
+    },
+    {
+      "pool": "龙头子样本",
+      "rule": "前3日未缩量至0.8倍以下",
+      "period": "全部",
+      "yes": {
+        "n": 660,
+        "continued": 95,
+        "continued_rate": 0.14393939393939395,
+        "touch10": 0.7196969696969697,
+        "fall30": 0.10454545454545454,
+        "mean_close60": 0.06489571889584954
+      },
+      "no": {
+        "n": 221,
+        "continued": 25,
+        "continued_rate": 0.11312217194570136,
+        "touch10": 0.751131221719457,
+        "fall30": 0.05429864253393665,
+        "mean_close60": 0.047132080096938055
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "龙头子样本",
+      "rule": "前3日未缩量至0.8倍以下",
+      "period": "2018—2021",
+      "yes": {
+        "n": 333,
+        "continued": 43,
+        "continued_rate": 0.12912912912912913,
+        "touch10": 0.7057057057057057,
+        "fall30": 0.06606606606606606,
+        "mean_close60": 0.053730766305112115
+      },
+      "no": {
+        "n": 144,
+        "continued": 17,
+        "continued_rate": 0.11805555555555555,
+        "touch10": 0.7222222222222222,
+        "fall30": 0.027777777777777776,
+        "mean_close60": 0.030929386325755204
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "龙头子样本",
+      "rule": "前3日未缩量至0.8倍以下",
+      "period": "2022—2024",
+      "yes": {
+        "n": 327,
+        "continued": 52,
+        "continued_rate": 0.15902140672782875,
+        "touch10": 0.7339449541284404,
+        "fall30": 0.1437308868501529,
+        "mean_close60": 0.07626553300201334
+      },
+      "no": {
+        "n": 77,
+        "continued": 8,
+        "continued_rate": 0.1038961038961039,
+        "touch10": 0.8051948051948052,
+        "fall30": 0.1038961038961039,
+        "mean_close60": 0.07743322169499431
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "龙头子样本",
+      "rule": "信号量不足前20日均量",
+      "period": "全部",
+      "yes": {
+        "n": 493,
+        "continued": 67,
+        "continued_rate": 0.1359026369168357,
+        "touch10": 0.6937119675456389,
+        "fall30": 0.08924949290060852,
+        "mean_close60": 0.04093156283713521
+      },
+      "no": {
+        "n": 388,
+        "continued": 53,
+        "continued_rate": 0.13659793814432988,
+        "touch10": 0.770618556701031,
+        "fall30": 0.09536082474226804,
+        "mean_close60": 0.08522707137622772
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "龙头子样本",
+      "rule": "信号量不足前20日均量",
+      "period": "2018—2021",
+      "yes": {
+        "n": 303,
+        "continued": 40,
+        "continued_rate": 0.132013201320132,
+        "touch10": 0.6732673267326733,
+        "fall30": 0.056105610561056105,
+        "mean_close60": 0.035219052882302676
+      },
+      "no": {
+        "n": 174,
+        "continued": 20,
+        "continued_rate": 0.11494252873563218,
+        "touch10": 0.7758620689655172,
+        "fall30": 0.05172413793103448,
+        "mean_close60": 0.06709657348950217
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "龙头子样本",
+      "rule": "信号量不足前20日均量",
+      "period": "2022—2024",
+      "yes": {
+        "n": 190,
+        "continued": 27,
+        "continued_rate": 0.14210526315789473,
+        "touch10": 0.7263157894736842,
+        "fall30": 0.14210526315789473,
+        "mean_close60": 0.050041512922999735
+      },
+      "no": {
+        "n": 214,
+        "continued": 33,
+        "continued_rate": 0.1542056074766355,
+        "touch10": 0.7663551401869159,
+        "fall30": 0.1308411214953271,
+        "mean_close60": 0.09996869115328492
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "龙头子样本",
+      "rule": "信号量至少前20日均量1.5倍",
+      "period": "全部",
+      "yes": {
+        "n": 123,
+        "continued": 17,
+        "continued_rate": 0.13821138211382114,
+        "touch10": 0.8048780487804879,
+        "fall30": 0.08943089430894309,
+        "mean_close60": 0.10191307658668576
+      },
+      "no": {
+        "n": 758,
+        "continued": 103,
+        "continued_rate": 0.1358839050131926,
+        "touch10": 0.7150395778364116,
+        "fall30": 0.09234828496042216,
+        "mean_close60": 0.05370983608512093
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "龙头子样本",
+      "rule": "信号量至少前20日均量1.5倍",
+      "period": "2018—2021",
+      "yes": {
+        "n": 45,
+        "continued": 5,
+        "continued_rate": 0.1111111111111111,
+        "touch10": 0.8444444444444444,
+        "fall30": 0.044444444444444446,
+        "mean_close60": 0.08384649766048444
+      },
+      "no": {
+        "n": 432,
+        "continued": 55,
+        "continued_rate": 0.12731481481481483,
+        "touch10": 0.6967592592592593,
+        "fall30": 0.05555555555555555,
+        "mean_close60": 0.04299325096247521
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "龙头子样本",
+      "rule": "信号量至少前20日均量1.5倍",
+      "period": "2022—2024",
+      "yes": {
+        "n": 78,
+        "continued": 12,
+        "continued_rate": 0.15384615384615385,
+        "touch10": 0.782051282051282,
+        "fall30": 0.11538461538461539,
+        "mean_close60": 0.11233610289026348
+      },
+      "no": {
+        "n": 326,
+        "continued": 48,
+        "continued_rate": 0.147239263803681,
+        "touch10": 0.7392638036809815,
+        "fall30": 0.1411042944785276,
+        "mean_close60": 0.06791095502065146
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "龙头子样本",
+      "rule": "MA60近10日下跌至少3%",
+      "period": "全部",
+      "yes": {
+        "n": 330,
+        "continued": 46,
+        "continued_rate": 0.1393939393939394,
+        "touch10": 0.7878787878787878,
+        "fall30": 0.09393939393939393,
+        "mean_close60": 0.0921508727476047
+      },
+      "no": {
+        "n": 548,
+        "continued": 73,
+        "continued_rate": 0.1332116788321168,
+        "touch10": 0.6916058394160584,
+        "fall30": 0.09124087591240876,
+        "mean_close60": 0.04161876636248595
+      },
+      "excluded_missing_or_unknown": 3
+    },
+    {
+      "pool": "龙头子样本",
+      "rule": "MA60近10日下跌至少3%",
+      "period": "2018—2021",
+      "yes": {
+        "n": 131,
+        "continued": 19,
+        "continued_rate": 0.1450381679389313,
+        "touch10": 0.7480916030534351,
+        "fall30": 0.06870229007633588,
+        "mean_close60": 0.04008505476925869
+      },
+      "no": {
+        "n": 343,
+        "continued": 40,
+        "continued_rate": 0.11661807580174927,
+        "touch10": 0.6967930029154519,
+        "fall30": 0.04956268221574344,
+        "mean_close60": 0.049750852584274155
+      },
+      "excluded_missing_or_unknown": 3
+    },
+    {
+      "pool": "龙头子样本",
+      "rule": "MA60近10日下跌至少3%",
+      "period": "2022—2024",
+      "yes": {
+        "n": 199,
+        "continued": 27,
+        "continued_rate": 0.135678391959799,
+        "touch10": 0.8140703517587939,
+        "fall30": 0.11055276381909548,
+        "mean_close60": 0.1264253559393802
+      },
+      "no": {
+        "n": 205,
+        "continued": 33,
+        "continued_rate": 0.16097560975609757,
+        "touch10": 0.6829268292682927,
+        "fall30": 0.16097560975609757,
+        "mean_close60": 0.02801239770846959
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "龙头子样本",
+      "rule": "阴线量占比至少65%",
+      "period": "全部",
+      "yes": {
+        "n": 354,
+        "continued": 51,
+        "continued_rate": 0.1440677966101695,
+        "touch10": 0.7146892655367232,
+        "fall30": 0.0903954802259887,
+        "mean_close60": 0.08488055093798053
+      },
+      "no": {
+        "n": 527,
+        "continued": 69,
+        "continued_rate": 0.13092979127134724,
+        "touch10": 0.7362428842504743,
+        "fall30": 0.09297912713472485,
+        "mean_close60": 0.04402210463119337
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "龙头子样本",
+      "rule": "阴线量占比至少65%",
+      "period": "2018—2021",
+      "yes": {
+        "n": 176,
+        "continued": 24,
+        "continued_rate": 0.13636363636363635,
+        "touch10": 0.7045454545454546,
+        "fall30": 0.03977272727272727,
+        "mean_close60": 0.0471628174459198
+      },
+      "no": {
+        "n": 301,
+        "continued": 36,
+        "continued_rate": 0.11960132890365449,
+        "touch10": 0.7142857142857143,
+        "fall30": 0.06312292358803986,
+        "mean_close60": 0.04666286026587774
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "龙头子样本",
+      "rule": "阴线量占比至少65%",
+      "period": "2022—2024",
+      "yes": {
+        "n": 178,
+        "continued": 27,
+        "continued_rate": 0.15168539325842698,
+        "touch10": 0.7247191011235955,
+        "fall30": 0.1404494382022472,
+        "mean_close60": 0.12217448967170347
+      },
+      "no": {
+        "n": 226,
+        "continued": 33,
+        "continued_rate": 0.14601769911504425,
+        "touch10": 0.7654867256637168,
+        "fall30": 0.13274336283185842,
+        "mean_close60": 0.04050499203809606
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "龙头子样本",
+      "rule": "次日高开至少3%（开盘时信息）",
+      "period": "全部",
+      "yes": {
+        "n": 28,
+        "continued": 5,
+        "continued_rate": 0.17857142857142858,
+        "touch10": 0.6071428571428571,
+        "fall30": 0.10714285714285714,
+        "mean_close60": 0.02849082267202683
+      },
+      "no": {
+        "n": 853,
+        "continued": 115,
+        "continued_rate": 0.13481828839390386,
+        "touch10": 0.731535756154748,
+        "fall30": 0.0914419695193435,
+        "mean_close60": 0.06148841868448682
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "龙头子样本",
+      "rule": "次日高开至少3%（开盘时信息）",
+      "period": "2018—2021",
+      "yes": {
+        "n": 15,
+        "continued": 2,
+        "continued_rate": 0.13333333333333333,
+        "touch10": 0.6,
+        "fall30": 0.13333333333333333,
+        "mean_close60": 0.08091381778979433
+      },
+      "no": {
+        "n": 462,
+        "continued": 58,
+        "continued_rate": 0.12554112554112554,
+        "touch10": 0.7142857142857143,
+        "fall30": 0.05194805194805195,
+        "mean_close60": 0.045741276068537166
+      },
+      "excluded_missing_or_unknown": 0
+    },
+    {
+      "pool": "龙头子样本",
+      "rule": "次日高开至少3%（开盘时信息）",
+      "period": "2022—2024",
+      "yes": {
+        "n": 13,
+        "continued": 3,
+        "continued_rate": 0.23076923076923078,
+        "touch10": 0.6153846153846154,
+        "fall30": 0.07692307692307693,
+        "mean_close60": -0.03199724861770489
+      },
+      "no": {
+        "n": 391,
+        "continued": 57,
+        "continued_rate": 0.14578005115089515,
+        "touch10": 0.7519181585677749,
+        "fall30": 0.13810741687979539,
+        "mean_close60": 0.08009501686496953
+      },
+      "excluded_missing_or_unknown": 0
+    }
+  ],
+  "definition": "Existing continued-decline criterion plus first -10% touch before first +10%; use daily highs/lows and open to resolve opening gaps; otherwise same-day order unknown.",
+  "same_day_policy": "Unknown excluded from yes/no comparisons; never treated as a success.",
+  "known_at_signal": "Original trailing features unchanged; touch order is outcome labeling only.",
+  "boundary": "2024-12-31",
+  "verification": "7 synthetic order tests passed; input quote and calendar hashes verified.",
+  "caveat": "This interprets down as the previous -10% threshold, not the first tick below entry. Price path, not account return. Existing 947-stock cohort, retrospective leaders, descriptive analysis, not fresh blind testing."
+}

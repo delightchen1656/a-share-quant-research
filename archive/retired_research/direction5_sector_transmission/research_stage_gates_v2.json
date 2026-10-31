@@ -1,0 +1,87 @@
+{
+  "purpose": "Label definition and schedule-only missingness audit completed; execution and actual label admission still pending.",
+  "parent_protocol": "research_protocol_v1.json",
+  "protocol_acceptance_and_time_split_unchanged": true,
+  "current_stage": "10_label_definition_and_11_schedule_availability_audit_complete_return_values_pending",
+  "observed_rules_panel": {
+    "ready": true,
+    "scope": "2018_to_2023_observed_mainboard_Kline_rows_only",
+    "is_complete_historical_universe": false,
+    "is_final_executable_universe": false,
+    "is_ranked_stock_recommendation": false,
+    "liquidity_capacity_rules_pending": true
+  },
+  "next_work_packages": [
+    {
+      "sequence": 1,
+      "name": "Freeze labels and audit sample availability",
+      "stages": [
+        10,
+        11
+      ],
+      "deliverables": [
+        "t0_close_t1_open_t6_open_label_definition_and_actual_information_maturity",
+        "shares_cash_receivables_tax_and_payment_policy_for_the_defined_label",
+        "explicit_input_admission_and_unresolved_event_handling_policy",
+        "availability_counts_by_training_period_industry_and_event_type_without_holdout_outcomes"
+      ]
+    },
+    {
+      "sequence": 2,
+      "name": "Validate the minimum execution implementation",
+      "stages": [
+        12
+      ],
+      "deliverables": [
+        "historical_fee_slippage_capacity_and_price_limit_specification",
+        "ordinary_fill_suspension_unavailable_fill_and_corporate_action_accounting_cases",
+        "label_and_execution_reconciliation_for_supported_cases",
+        "unsupported_cases_retain_unknown_status_and_do_not_receive_fabricated_returns"
+      ]
+    },
+    {
+      "sequence": 3,
+      "name": "Register factors, verify timing, preprocess and screen within training windows",
+      "stages": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "deliverables": [
+        "separate_leader_continuation_and_laggard_catchup_hypotheses",
+        "individual_only_baseline_and_target_excluded_industry_features",
+        "causal_preprocessing_and_training_only_single_factor_screening",
+        "redundancy_checks_and_frozen_factor_selection_pipeline"
+      ]
+    }
+  ],
+  "input_audit_admission_rules": {
+    "not_every_archival_issue_is_a_global_barrier_to_building_qualification_flags": true,
+    "factor_selection_requires_passed_data_and_label_audits_for_its_declared_sample_scope": true,
+    "unresolved_label_intervals_remain_missing_with_reason_codes_never_zero_or_assumed_valid": true,
+    "future_event_or_future_data_quality_knowledge_must_not_be_used_to_filter_signal_day_pool": true,
+    "missing_label_selection_bias_and_scope_limits_must_be_reported_before_factor_comparisons": true,
+    "any_diagnostic_subset_does_not_satisfy_full_primary_acceptance_by_itself": true,
+    "full_account_claims_require_all_held_positions_and_actions_to_be_accounted_for": true,
+    "no_trading_constraint_is_removed_to_make_a_case_pass": true,
+    "changes_to_primary_target_or_acceptance_require_new_protocol_version": true
+  },
+  "gates": {
+    "label_specification_ready": true,
+    "label_admission_audit_passed": false,
+    "minimum_execution_audit_passed": false,
+    "factor_experiments_enabled": false,
+    "model_experiments_enabled": false,
+    "ranked_stock_selection_ready": false,
+    "account_backtest_enabled": false,
+    "label_schedule_and_guard_audit_passed": true,
+    "economic_label_values_materialized": false
+  },
+  "next_concrete_work": [
+    "implement_and_validate_minimum_execution_and_unit_accounting_cases",
+    "materialize_only_audited_supported_label_values_and_verify_maturity_and_missingness",
+    "audit_training_window_label_distribution_before_factor_selection"
+  ]
+}

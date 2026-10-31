@@ -1,0 +1,44 @@
+{
+  "symbol": "002434.SZ",
+  "event_date": "2018-05-22",
+  "kind": "dividend_fields",
+  "start": "2018-03-03",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\002434.SZ_2018-05-22\\query_01.json",
+      "sha256": "40ff584ecce0e40f98a3aa3284516fe711eb058194625cc1e3aeca75cb05242a",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "002434",
+        "begin_time": "2018-03-03",
+        "end_time": "2018-05-22"
+      }
+    }
+  ],
+  "announcement_count": 78,
+  "documents": [
+    {
+      "title": "万里扬:2017年度利润分配实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2018-05-16",
+      "raw_response": "sources\\action_issuer_mirror_v2\\002434.SZ_2018-05-22\\AN201805151143902057_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\002434.SZ_2018-05-22\\AN201805151143902057.txt",
+      "sha256": "7885712d26553a18fe2c016d527e4038626b74baef3de63c1aa08f05ff48b48b",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\002434.SZ_2018-05-22\\AN201805151143902057_content.json",
+          "sha256": "7885712d26553a18fe2c016d527e4038626b74baef3de63c1aa08f05ff48b48b"
+        }
+      ],
+      "article_code": "AN201805151143902057",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201805151143902057_1.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

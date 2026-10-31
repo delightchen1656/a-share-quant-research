@@ -1,0 +1,44 @@
+{
+  "symbol": "600167.SH",
+  "event_date": "2024-12-27",
+  "kind": "unknown_reference",
+  "start": "2024-11-11",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\600167.SH_2024-12-27\\query_01.json",
+      "sha256": "74791b450ddc02efd4c5577b57a84c437b757e2ae8e846cb37781bd081d10b52",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "600167",
+        "begin_time": "2024-11-11",
+        "end_time": "2024-12-27"
+      }
+    }
+  ],
+  "announcement_count": 39,
+  "documents": [
+    {
+      "title": "联美控股:联美量子股份有限公司2024年临时权益分派实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2024-12-20",
+      "raw_response": "sources\\action_issuer_mirror_v2\\600167.SH_2024-12-27\\AN202412191641362846_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\600167.SH_2024-12-27\\AN202412191641362846.txt",
+      "sha256": "0ee160dc8b07690e325a8c3bb09056eeac63cf6e3d435db71097f46276c9dec8",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\600167.SH_2024-12-27\\AN202412191641362846_content.json",
+          "sha256": "0ee160dc8b07690e325a8c3bb09056eeac63cf6e3d435db71097f46276c9dec8"
+        }
+      ],
+      "article_code": "AN202412191641362846",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202412191641362846_1.pdf?1734628004000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

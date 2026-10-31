@@ -1,0 +1,48 @@
+{
+  "boundary_version": "public-pre2025-v2",
+  "status": "registered_before_new_whitelist_access",
+  "task": "Only rescan unchanged direction1 structure in full historical Shanghai/Shenzhen mainboard scope; no accounts/optimization/economic returns/posterior",
+  "research_window": [
+    "2020-01-01",
+    "2024-12-31"
+  ],
+  "input_authorization": "Wait for explicit parent whitelist paths and manifest SHA256 before reads; intended new root ../direction2_trend_pullback_research/inputs_pre2025/full_mainboard",
+  "expected_scope_reference": 3336,
+  "scope": "All frozen historical mainboard names, including subsequently delisted. Do not filter by current listing status or future outDate. IPO date and actual historical valid bars only.",
+  "source": "Existing structure.py scan, independent, limit_flags unchanged",
+  "pipeline": [
+    "Sort and align original raw/qfq dates; project universe code/name/IPO date only",
+    "Ignore bars before IPO date; preserve raw next-session rows for state audit",
+    "structure.scan using original valid status/volume/open conditions and trailing features",
+    "independent(base candidate) over the complete available valid-bar chronology using 10-observed-bar cooldown; pre-2020 bars are warmup/cooldown history only and never exported",
+    "Then exclude original limit_flags reject_consecutive2",
+    "Then raw signal close<8 and actual qfq signal close/rolling MA20<=0.92",
+    "Only signal dates within 2020-2024 exported; do not apply RULE ex-post special events or future eligibility/label maturity/exit/retirement exclusions"
+  ],
+  "next_session": "Next official session from frozen calendar. Describe raw entry row state and valid open; retain every structure regardless state; no delayed entry, inferred future quote, or economic return.",
+  "outputs": [
+    "FULL_SIGNALS.csv with code/name/signal_date/entry_date/next_date/next_valid_open/next_state and trailing diagnostics, no leader column",
+    "per-code/year structural counts",
+    "audit of next-session states and source hashes",
+    "legacy code/date/entry_date set comparison, not old outcomes"
+  ],
+  "legacy_comparison": "Read original947 membership only via old MANIFEST code list; read old frozen signals parquet columns code/date/entry_date only. Classify retained, new within old947, added outside old947, missing, and same-key entry-date differences. Diagnose missing by current scan stages; never force a reference820 count.",
+  "leader_groups": "Parent performs restricted grouping separately; no classification inputs or leader outputs in scanner.",
+  "input_contract": "Frozen MANIFEST.files path/sha256, quote_manifest file has code/mode/path/sha256; calendar/universe/coverage/old_pool are frozen relative paths. Universe projection code/name/ipoDate only; old947 membership from frozen old_pool projection.",
+  "prohibited": [
+    "account runs",
+    "optimization",
+    "path/economic outcome labels",
+    "posterior",
+    "current classification",
+    "direction2 results",
+    "editing original RULE/CURRENT/inputs"
+  ],
+  "writes": "direction1_structure_research/scope_full_mainboard only",
+  "data_limitation": "New inputs lack company actions; qfq trailing shape and raw next-open states do not establish valid economic returns",
+  "export_field_contract": {
+    "next_valid_open": "strict bool, true iff next_state=next_open_available",
+    "next_raw_open": "raw next-session open from snapshot, may be present even when suspended; never implies tradability",
+    "next_state": "categorical; every structure retained"
+  }
+}

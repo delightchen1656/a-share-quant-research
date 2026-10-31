@@ -1,0 +1,1830 @@
+[
+  {
+    "symbol": "000042.SZ",
+    "event_date": "2018-06-28",
+    "kind": "dividend_fields",
+    "start": "2018-04-09",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\000042.SZ_2018-06-28\\query_01.json",
+        "sha256": "9745ca410270ece97db8fb25b578cc884944512df8a196762ae159835aef4955",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "000042",
+          "begin_time": "2018-04-09",
+          "end_time": "2018-06-28"
+        }
+      }
+    ],
+    "announcement_count": 75,
+    "documents": [
+      {
+        "title": "中洲控股:2017年度权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2018-06-14",
+        "raw_response": "sources\\action_issuer_mirror_v2\\000042.SZ_2018-06-28\\AN201806131155478161_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\000042.SZ_2018-06-28\\AN201806131155478161.txt",
+        "sha256": "2aa1fac60288fe35ab5f2e32ed0d929722792eb997e2555b4017744068d6dfea",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\000042.SZ_2018-06-28\\AN201806131155478161_content.json",
+            "sha256": "2aa1fac60288fe35ab5f2e32ed0d929722792eb997e2555b4017744068d6dfea"
+          }
+        ],
+        "article_code": "AN201806131155478161",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201806131155478161_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "000525.SZ",
+    "event_date": "2024-12-13",
+    "kind": "unknown_reference",
+    "start": "2024-09-24",
+    "error": "ProxyError(MaxRetryError(\"HTTPSConnectionPool(host='np-cnotice-stock.eastmoney.com', port=443): Max retries exceeded with url: /api/content/ann?art_code=AN202411151640921797&client_source=web&page_index=2 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))\"))"
+  },
+  {
+    "symbol": "000538.SZ",
+    "event_date": "2024-11-25",
+    "kind": "unknown_reference",
+    "start": "2024-10-08",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\000538.SZ_2024-11-25\\query_01.json",
+        "sha256": "fafb1f71fc1cbe7488b32bba9aa078fb5bc6574d3161a6f3c6836dee4851c828",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "000538",
+          "begin_time": "2024-10-08",
+          "end_time": "2024-11-25"
+        }
+      }
+    ],
+    "announcement_count": 15,
+    "documents": [
+      {
+        "title": "云南白药:2024年特别分红权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2024-11-19",
+        "raw_response": "sources\\action_issuer_mirror_v2\\000538.SZ_2024-11-25\\AN202411181640942649_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\000538.SZ_2024-11-25\\AN202411181640942649.txt",
+        "sha256": "d1eb6764a82a24d1b780486a3f183cfc3c273c0769ac432fec46fd84752a4613",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\000538.SZ_2024-11-25\\AN202411181640942649_content.json",
+            "sha256": "d1eb6764a82a24d1b780486a3f183cfc3c273c0769ac432fec46fd84752a4613"
+          }
+        ],
+        "article_code": "AN202411181640942649",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202411181640942649_1.pdf?1731954710000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "000550.SZ",
+    "event_date": "2018-03-27",
+    "kind": "unknown_reference",
+    "start": "2018-02-09",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\000550.SZ_2018-03-27\\query_01.json",
+        "sha256": "573c9496f3f3a81845bf1ebbada85dd51709240f868c8ce522ca48b6fc71377c",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "000550",
+          "begin_time": "2018-02-09",
+          "end_time": "2018-03-27"
+        }
+      }
+    ],
+    "announcement_count": 16,
+    "documents": [
+      {
+        "title": "江铃汽车:2017年度中期特别派息实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2018-03-20",
+        "raw_response": "sources\\action_issuer_mirror_v2\\000550.SZ_2018-03-27\\AN201803191106068749_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\000550.SZ_2018-03-27\\AN201803191106068749.txt",
+        "sha256": "8025f13e0a9bd29205c94341c4b27bd6a276ff748f3db0297d8a72d1380c5907",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\000550.SZ_2018-03-27\\AN201803191106068749_content.json",
+            "sha256": "8025f13e0a9bd29205c94341c4b27bd6a276ff748f3db0297d8a72d1380c5907"
+          }
+        ],
+        "article_code": "AN201803191106068749",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201803191106068749_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "000564.SZ",
+    "event_date": "2021-12-31",
+    "kind": "unknown_reference",
+    "start": "2021-11-14",
+    "error": "HTTPError('567 Server Error: Unknown Status for url: https://np-cnotice-stock.eastmoney.com/api/content/ann?art_code=AN202112291537343857&client_source=web&page_index=2')"
+  },
+  {
+    "symbol": "000756.SZ",
+    "event_date": "2018-02-14",
+    "kind": "unknown_reference",
+    "start": "2017-12-10",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\000756.SZ_2018-02-14\\query_01.json",
+        "sha256": "4315677b99c4366b0bf657347dd7c704f3a5b571b5f91170d02e4c1c34aa8b95",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "000756",
+          "begin_time": "2017-12-10",
+          "end_time": "2018-02-14"
+        }
+      }
+    ],
+    "announcement_count": 18,
+    "documents": [
+      {
+        "title": "新华制药:关于终止筹划发行A股股份购买资产暨股票复牌公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2018-02-14",
+        "raw_response": "sources\\action_issuer_mirror_v2\\000756.SZ_2018-02-14\\AN201802131091446659_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\000756.SZ_2018-02-14\\AN201802131091446659.txt",
+        "sha256": "446410c67bd1081eb1e73d6d51f9fec6681126561b1c5cb5ad94e46bf6d60d45",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\000756.SZ_2018-02-14\\AN201802131091446659_content.json",
+            "sha256": "446410c67bd1081eb1e73d6d51f9fec6681126561b1c5cb5ad94e46bf6d60d45"
+          }
+        ],
+        "article_code": "AN201802131091446659",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201802131091446659_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      },
+      {
+        "title": "新华制药:2017年度A股特别派息实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2018-01-20",
+        "raw_response": "sources\\action_issuer_mirror_v2\\000756.SZ_2018-02-14\\AN201801191079657348_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\000756.SZ_2018-02-14\\AN201801191079657348.txt",
+        "sha256": "d9f76a87013dcba99dcdbdced28e301d14df887cd87c4507998a4bad0c7ceab0",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\000756.SZ_2018-02-14\\AN201801191079657348_content.json",
+            "sha256": "d9f76a87013dcba99dcdbdced28e301d14df887cd87c4507998a4bad0c7ceab0"
+          }
+        ],
+        "article_code": "AN201801191079657348",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201801191079657348_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "000796.SZ",
+    "event_date": "2023-12-20",
+    "kind": "unknown_reference",
+    "start": "2023-11-03",
+    "error": "HTTPError('567 Server Error: Unknown Status for url: https://np-cnotice-stock.eastmoney.com/api/content/ann?art_code=AN202312181614464977&client_source=web&page_index=2')"
+  },
+  {
+    "symbol": "000819.SZ",
+    "event_date": "2021-06-25",
+    "kind": "dividend_fields",
+    "start": "2021-04-06",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\000819.SZ_2021-06-25\\query_01.json",
+        "sha256": "daf579f095b316f521f98dd0ed6d99195eb9cd3bc956db2b253d9582ef9b96fa",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "000819",
+          "begin_time": "2021-04-06",
+          "end_time": "2021-06-25"
+        }
+      }
+    ],
+    "announcement_count": 19,
+    "documents": [
+      {
+        "title": "岳阳兴长:分红派息实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2021-06-18",
+        "raw_response": "sources\\action_issuer_mirror_v2\\000819.SZ_2021-06-25\\AN202106171498433202_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\000819.SZ_2021-06-25\\AN202106171498433202.txt",
+        "sha256": "26586fe1c0c0b891299ca090eaf391ae9c84802ed67ddb3e3ca2bbe67a317d5d",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\000819.SZ_2021-06-25\\AN202106171498433202_content.json",
+            "sha256": "26586fe1c0c0b891299ca090eaf391ae9c84802ed67ddb3e3ca2bbe67a317d5d"
+          }
+        ],
+        "article_code": "AN202106171498433202",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202106171498433202_1.pdf?1623960654000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "000863.SZ",
+    "event_date": "2018-07-26",
+    "kind": "dividend_fields",
+    "start": "2018-05-07",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\000863.SZ_2018-07-26\\query_01.json",
+        "sha256": "72348c80efd3e8f430f2a4940ae911b0a82af4e24b13c13f87d6f041c3a3d891",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "000863",
+          "begin_time": "2018-05-07",
+          "end_time": "2018-07-26"
+        }
+      }
+    ],
+    "announcement_count": 32,
+    "documents": [
+      {
+        "title": "三湘印象:2017年年度利润分配方案实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2018-07-19",
+        "raw_response": "sources\\action_issuer_mirror_v2\\000863.SZ_2018-07-26\\AN201807181167910744_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\000863.SZ_2018-07-26\\AN201807181167910744.txt",
+        "sha256": "6ebf35b5cfc3675235e4a6560be0d7d7ec1c96a7401cf0196bf903a7629ba9d3",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\000863.SZ_2018-07-26\\AN201807181167910744_content.json",
+            "sha256": "6ebf35b5cfc3675235e4a6560be0d7d7ec1c96a7401cf0196bf903a7629ba9d3"
+          }
+        ],
+        "article_code": "AN201807181167910744",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201807181167910744_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "000981.SZ",
+    "event_date": "2022-02-25",
+    "kind": "unknown_reference",
+    "start": "2022-01-04",
+    "error": "HTTPError('567 Server Error: Unknown Status for url: https://np-cnotice-stock.eastmoney.com/api/content/ann?art_code=AN202202201548160664&client_source=web&page_index=2')"
+  },
+  {
+    "symbol": "001872.SZ",
+    "event_date": "2018-05-23",
+    "kind": "dividend_fields",
+    "start": "2018-03-04",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\001872.SZ_2018-05-23\\query_01.json",
+        "sha256": "b5af852fb0e1c30135eb5336cb42cf49dfcb705a1751c31121d09c7b250a0bce",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "001872",
+          "begin_time": "2018-03-04",
+          "end_time": "2018-05-23"
+        }
+      }
+    ],
+    "announcement_count": 90,
+    "documents": [
+      {
+        "title": "深赤湾A:2017年度分红派息实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2018-05-17",
+        "raw_response": "sources\\action_issuer_mirror_v2\\001872.SZ_2018-05-23\\AN201805161144498021_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\001872.SZ_2018-05-23\\AN201805161144498021.txt",
+        "sha256": "222d6c9306518b32355831a27bd53afd525ecc805dec9b6e7c4b57418ca4c9e2",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\001872.SZ_2018-05-23\\AN201805161144498021_content.json",
+            "sha256": "222d6c9306518b32355831a27bd53afd525ecc805dec9b6e7c4b57418ca4c9e2"
+          }
+        ],
+        "article_code": "AN201805161144498021",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201805161144498021_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "001914.SZ",
+    "event_date": "2018-06-06",
+    "kind": "dividend_fields",
+    "start": "2018-03-18",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\001914.SZ_2018-06-06\\query_01.json",
+        "sha256": "b3447cb006aa79ab58c56e8e07535cb70dba601228ff53a90a126c912a6a4c3f",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "001914",
+          "begin_time": "2018-03-18",
+          "end_time": "2018-06-06"
+        }
+      }
+    ],
+    "announcement_count": 26,
+    "documents": [
+      {
+        "title": "中航地产:2017年年度利润分配实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2018-05-30",
+        "raw_response": "sources\\action_issuer_mirror_v2\\001914.SZ_2018-06-06\\AN201805291150132802_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\001914.SZ_2018-06-06\\AN201805291150132802.txt",
+        "sha256": "1c6d53acdddb4263231f7061d6c13b51a18108430550bc3a827425181006a29c",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\001914.SZ_2018-06-06\\AN201805291150132802_content.json",
+            "sha256": "1c6d53acdddb4263231f7061d6c13b51a18108430550bc3a827425181006a29c"
+          }
+        ],
+        "article_code": "AN201805291150132802",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201805291150132802_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "002016.SZ",
+    "event_date": "2024-04-19",
+    "kind": "dividend_fields",
+    "start": "2024-01-30",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\002016.SZ_2024-04-19\\query_01.json",
+        "sha256": "70af1802f3353bd475f3b0dfb41fb72bf656a0dac3b64097d3c14a4ee50df834",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "002016",
+          "begin_time": "2024-01-30",
+          "end_time": "2024-04-19"
+        }
+      }
+    ],
+    "announcement_count": 9,
+    "documents": [
+      {
+        "title": "世荣兆业:2022年年度权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2024-04-13",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002016.SZ_2024-04-19\\AN202404121630186785_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002016.SZ_2024-04-19\\AN202404121630186785.txt",
+        "sha256": "db6355d23d5996c8ba430fe9e6d33bc7b7a8d0c276d13612c206db1e2e1cae97",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002016.SZ_2024-04-19\\AN202404121630186785_content.json",
+            "sha256": "db6355d23d5996c8ba430fe9e6d33bc7b7a8d0c276d13612c206db1e2e1cae97"
+          }
+        ],
+        "article_code": "AN202404121630186785",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202404121630186785_1.pdf?1712946589000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "002021.SZ",
+    "event_date": "2023-12-29",
+    "kind": "unknown_reference",
+    "start": "2023-11-12",
+    "error": "HTTPError('567 Server Error: Unknown Status for url: https://np-cnotice-stock.eastmoney.com/api/content/ann?art_code=AN202312241614881371&client_source=web&page_index=2')"
+  },
+  {
+    "symbol": "002076.SZ",
+    "event_date": "2022-12-21",
+    "kind": "unknown_reference",
+    "start": "2022-11-04",
+    "error": "ProxyError(MaxRetryError(\"HTTPSConnectionPool(host='np-cnotice-stock.eastmoney.com', port=443): Max retries exceeded with url: /api/content/ann?art_code=AN202212161581150223&client_source=web&page_index=2 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))\"))"
+  },
+  {
+    "symbol": "002087.SZ",
+    "event_date": "2024-06-14",
+    "kind": "unknown_reference",
+    "start": "2024-04-28",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\002087.SZ_2024-06-14\\query_01.json",
+        "sha256": "896b7d8fa65b9c782a2a05476559160ec91c32a7d84ff8f5f73019beaedd0ec1",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "002087",
+          "begin_time": "2024-04-28",
+          "end_time": "2024-06-14"
+        }
+      }
+    ],
+    "announcement_count": 51,
+    "documents": [],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "002219.SZ",
+    "event_date": "2022-06-23",
+    "kind": "unknown_reference",
+    "start": "2022-05-07",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\query_01.json",
+        "sha256": "24bccd3a984ab9e48bf939938274cf3402f16eaaa50b2f6811f704cac07ade59",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "002219",
+          "begin_time": "2022-05-07",
+          "end_time": "2022-06-23"
+        }
+      }
+    ],
+    "announcement_count": 34,
+    "documents": [
+      {
+        "title": "*ST恒康:关于公司资本公积金转增股票实施进展暨公司股票复牌的提示性公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2022-06-23",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206221573966185_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206221573966185.txt",
+        "sha256": "4155a9ee326257cdea0d5379ea0e85819e6ea64341ae15620f4e4b64ee0034fc",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206221573966185_content.json",
+            "sha256": "4155a9ee326257cdea0d5379ea0e85819e6ea64341ae15620f4e4b64ee0034fc"
+          }
+        ],
+        "article_code": "AN202206221573966185",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202206221573966185_1.pdf?1655922589000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      },
+      {
+        "title": "*ST恒康:四川明炬(龙泉驿)律师事务所关于恒康医疗集团股份有限公司破产重整资本公积金转增股本调整除权参考价格计算结果之法律意见书",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2022-06-22",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206211573714888_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206211573714888.txt",
+        "sha256": "52e656a88f108057278d04230523327eb3de6c3da787ccec74074f723e82201b",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206211573714888_content.json",
+            "sha256": "52e656a88f108057278d04230523327eb3de6c3da787ccec74074f723e82201b"
+          }
+        ],
+        "article_code": "AN202206211573714888",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202206211573714888_1.pdf?1655831864000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      },
+      {
+        "title": "*ST恒康:关于重整计划资本公积金转增股票除权事项的提示性公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2022-06-22",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206211573714885_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206211573714885.txt",
+        "sha256": "5a718b311dbe730e5a8b55ce65c4efcd616488990207b4d07b7e756d71b3fb94",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206211573714885_content.json",
+            "sha256": "5a718b311dbe730e5a8b55ce65c4efcd616488990207b4d07b7e756d71b3fb94"
+          }
+        ],
+        "article_code": "AN202206211573714885",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202206211573714885_1.pdf?1655831864000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      },
+      {
+        "title": "*ST恒康:天风证券股份有限公司关于恒康医疗集团股份有限公司调整资本公积转增股本除权参考价格的计算结果的专项意见",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2022-06-22",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206211573714534_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206211573714534.txt",
+        "sha256": "07c424ed75a0e41028d05fbca3452725057d1427c4d8a9de7ca21c366e4720de",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206211573714534_content.json",
+            "sha256": "07c424ed75a0e41028d05fbca3452725057d1427c4d8a9de7ca21c366e4720de"
+          }
+        ],
+        "article_code": "AN202206211573714534",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202206211573714534_1.pdf?1655831784000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      },
+      {
+        "title": "*ST恒康:关于恒康医疗调整除权参考价格计算公式之法律意见书",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2022-06-17",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206161572572602_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206161572572602.txt",
+        "sha256": "0c99d39ced08196b77428a85922a51d6e87892b717f8de2d7623a420154f00ed",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206161572572602_content.json",
+            "sha256": "0c99d39ced08196b77428a85922a51d6e87892b717f8de2d7623a420154f00ed"
+          }
+        ],
+        "article_code": "AN202206161572572602",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202206161572572602_1.pdf?1655408112000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      },
+      {
+        "title": "*ST恒康:天风证券股份有限公司关于恒康医疗集团股份有限公司调整资本公积转增股本除权参考价格的计算公式的专项意见",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2022-06-17",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206161572572598_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206161572572598.txt",
+        "sha256": "6934173a3b790cc5c60e93b08017d274a6c81c6ebd5d4d6eb3cc255cb96c608f",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206161572572598_content.json",
+            "sha256": "6934173a3b790cc5c60e93b08017d274a6c81c6ebd5d4d6eb3cc255cb96c608f"
+          }
+        ],
+        "article_code": "AN202206161572572598",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202206161572572598_1.pdf?1655408112000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      },
+      {
+        "title": "*ST恒康:关于重整计划资本公积金转增股票事项拟实施的公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2022-06-17",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206161572572593_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206161572572593.txt",
+        "sha256": "cfb4c94fa4d30eaccbfb1dd9dbf3232be6652437754fdf8fac9d6ece157001f7",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002219.SZ_2022-06-23\\AN202206161572572593_content.json",
+            "sha256": "cfb4c94fa4d30eaccbfb1dd9dbf3232be6652437754fdf8fac9d6ece157001f7"
+          }
+        ],
+        "article_code": "AN202206161572572593",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202206161572572593_1.pdf?1655408112000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "002227.SZ",
+    "event_date": "2018-06-01",
+    "kind": "dividend_fields",
+    "start": "2018-03-13",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\002227.SZ_2018-06-01\\query_01.json",
+        "sha256": "0e0d77ebc2d4537e04855f17af24ea224c98a555b73fa4b02d2e5a369a7b5f62",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "002227",
+          "begin_time": "2018-03-13",
+          "end_time": "2018-06-01"
+        }
+      }
+    ],
+    "announcement_count": 36,
+    "documents": [
+      {
+        "title": "奥特迅:关于2017年年度权益分派实施公告的更正公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2018-05-25",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002227.SZ_2018-06-01\\AN201805241148260417_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002227.SZ_2018-06-01\\AN201805241148260417.txt",
+        "sha256": "cc97bbe68f8297422316a75db32956874381590f322994492e8f96f9b51e1a21",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002227.SZ_2018-06-01\\AN201805241148260417_content.json",
+            "sha256": "cc97bbe68f8297422316a75db32956874381590f322994492e8f96f9b51e1a21"
+          }
+        ],
+        "article_code": "AN201805241148260417",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201805241148260417_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      },
+      {
+        "title": "奥特迅:2017年年度权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2018-05-24",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002227.SZ_2018-06-01\\AN201805231147543426_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002227.SZ_2018-06-01\\AN201805231147543426.txt",
+        "sha256": "594d15b64af49a61ea3f5ca259b3bcb29220998d836b886abb8ba3d2190f64c4",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002227.SZ_2018-06-01\\AN201805231147543426_content.json",
+            "sha256": "594d15b64af49a61ea3f5ca259b3bcb29220998d836b886abb8ba3d2190f64c4"
+          }
+        ],
+        "article_code": "AN201805231147543426",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201805231147543426_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "002321.SZ",
+    "event_date": "2022-01-04",
+    "kind": "unknown_reference",
+    "start": "2021-11-15",
+    "error": "HTTPError('567 Server Error: Unknown Status for url: https://np-cnotice-stock.eastmoney.com/api/content/ann?art_code=AN202112301537553682&client_source=web&page_index=2')"
+  },
+  {
+    "symbol": "002323.SZ",
+    "event_date": "2022-01-06",
+    "kind": "unknown_reference",
+    "start": "2021-11-14",
+    "error": "ProxyError(MaxRetryError(\"HTTPSConnectionPool(host='np-cnotice-stock.eastmoney.com', port=443): Max retries exceeded with url: /api/content/ann?art_code=AN202112291537374676&client_source=web&page_index=2 (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))\"))"
+  },
+  {
+    "symbol": "002326.SZ",
+    "event_date": "2019-09-30",
+    "kind": "unknown_reference",
+    "start": "2019-08-13",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\002326.SZ_2019-09-30\\query_01.json",
+        "sha256": "35ce9e040f52824bd247dcb6713080e577323c8d4abf883b264f6853282412f5",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "002326",
+          "begin_time": "2019-08-13",
+          "end_time": "2019-09-30"
+        }
+      }
+    ],
+    "announcement_count": 25,
+    "documents": [
+      {
+        "title": "永太科技:关于以资本公积定向转增股本的实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2019-09-24",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002326.SZ_2019-09-30\\AN201909231365594033_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002326.SZ_2019-09-30\\AN201909231365594033.txt",
+        "sha256": "c10006f82036e68fbfe3e55e494d23b82161894a36052965aaf4ec7dd281840f",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002326.SZ_2019-09-30\\AN201909231365594033_content.json",
+            "sha256": "c10006f82036e68fbfe3e55e494d23b82161894a36052965aaf4ec7dd281840f"
+          }
+        ],
+        "article_code": "AN201909231365594033",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201909231365594033_1.PDF",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      },
+      {
+        "title": "永太科技:2018年年度权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2019-08-14",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002326.SZ_2019-09-30\\AN201908131343244514_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002326.SZ_2019-09-30\\AN201908131343244514.txt",
+        "sha256": "904e83c0984e8f4c87a8d9058efa875edac8c354cddebf065d291d9d433decde",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002326.SZ_2019-09-30\\AN201908131343244514_content.json",
+            "sha256": "904e83c0984e8f4c87a8d9058efa875edac8c354cddebf065d291d9d433decde"
+          }
+        ],
+        "article_code": "AN201908131343244514",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201908131343244514_1.PDF",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "002335.SZ",
+    "event_date": "2018-05-16",
+    "kind": "dividend_fields",
+    "start": "2018-02-25",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\002335.SZ_2018-05-16\\query_01.json",
+        "sha256": "4d22c88a5d31a4adbdb6d28b1345e5b37bd17c1331bbfe351105bc8c79c493f7",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "002335",
+          "begin_time": "2018-02-25",
+          "end_time": "2018-05-16"
+        }
+      }
+    ],
+    "announcement_count": 60,
+    "documents": [
+      {
+        "title": "科华恒盛:2017年年度权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2018-05-10",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002335.SZ_2018-05-16\\AN201805091140396467_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002335.SZ_2018-05-16\\AN201805091140396467.txt",
+        "sha256": "c5f9a55ecbf30fb7391e3d4f9af9257e3c3a1d2efd48d5bf790578b0bd6b4c70",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002335.SZ_2018-05-16\\AN201805091140396467_content.json",
+            "sha256": "c5f9a55ecbf30fb7391e3d4f9af9257e3c3a1d2efd48d5bf790578b0bd6b4c70"
+          }
+        ],
+        "article_code": "AN201805091140396467",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201805091140396467_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "002349.SZ",
+    "event_date": "2021-06-30",
+    "kind": "dividend_fields",
+    "start": "2021-04-11",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\002349.SZ_2021-06-30\\query_01.json",
+        "sha256": "129466e533ba06d10b26f0f50e9ea5b1c5562c127641790ec6a72e06914bdb77",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "002349",
+          "begin_time": "2021-04-11",
+          "end_time": "2021-06-30"
+        }
+      }
+    ],
+    "announcement_count": 38,
+    "documents": [
+      {
+        "title": "精华制药:关于2020年度权益分派实施公告之更正公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2021-06-30",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002349.SZ_2021-06-30\\AN202106301500873464_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002349.SZ_2021-06-30\\AN202106301500873464.txt",
+        "sha256": "1e698f89c9bfe38d06c461ebc8cf59d822be92ccf5ac8dc380ce9725a89ab652",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002349.SZ_2021-06-30\\AN202106301500873464_content.json",
+            "sha256": "1e698f89c9bfe38d06c461ebc8cf59d822be92ccf5ac8dc380ce9725a89ab652"
+          }
+        ],
+        "article_code": "AN202106301500873464",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202106301500873464_1.pdf?1625040980000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      },
+      {
+        "title": "精华制药:2020年年度权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2021-06-22",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002349.SZ_2021-06-30\\AN202106211499123815_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002349.SZ_2021-06-30\\AN202106211499123815.txt",
+        "sha256": "1269bb8b117dbdfab75eeba1739ddba758a95a48ac5daba24c8df8dd51d12018",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002349.SZ_2021-06-30\\AN202106211499123815_content.json",
+            "sha256": "1269bb8b117dbdfab75eeba1739ddba758a95a48ac5daba24c8df8dd51d12018"
+          }
+        ],
+        "article_code": "AN202106211499123815",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202106211499123815_1.pdf?1624291447000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "002358.SZ",
+    "event_date": "2019-07-05",
+    "kind": "dividend_fields",
+    "start": "2019-04-16",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\002358.SZ_2019-07-05\\query_01.json",
+        "sha256": "e9ab5b6d71bdad3244df64b33bf0d80d9e27bc44ba84a287ebe2f7425ccccc25",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "002358",
+          "begin_time": "2019-04-16",
+          "end_time": "2019-07-05"
+        }
+      }
+    ],
+    "announcement_count": 70,
+    "documents": [
+      {
+        "title": "森源电气:关于2018年年度权益分派实施的更正公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2019-06-29",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002358.SZ_2019-07-05\\AN201906281336797032_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002358.SZ_2019-07-05\\AN201906281336797032.txt",
+        "sha256": "604cd2dcbaa34ed640637ed4179d9a111babf2b3fcc685e2064f12ad3a8c98f3",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002358.SZ_2019-07-05\\AN201906281336797032_content.json",
+            "sha256": "604cd2dcbaa34ed640637ed4179d9a111babf2b3fcc685e2064f12ad3a8c98f3"
+          }
+        ],
+        "article_code": "AN201906281336797032",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201906281336797032_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      },
+      {
+        "title": "森源电气:2018年年度权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2019-06-28",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002358.SZ_2019-07-05\\AN201906271336645180_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002358.SZ_2019-07-05\\AN201906271336645180.txt",
+        "sha256": "4ab96a09cfde252052dcb4dca2993ef33bc3da5ad92ef2a69d1cb69375b5fbe3",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002358.SZ_2019-07-05\\AN201906271336645180_content.json",
+            "sha256": "4ab96a09cfde252052dcb4dca2993ef33bc3da5ad92ef2a69d1cb69375b5fbe3"
+          }
+        ],
+        "article_code": "AN201906271336645180",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201906271336645180_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "002434.SZ",
+    "event_date": "2018-05-22",
+    "kind": "dividend_fields",
+    "start": "2018-03-03",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\002434.SZ_2018-05-22\\query_01.json",
+        "sha256": "40ff584ecce0e40f98a3aa3284516fe711eb058194625cc1e3aeca75cb05242a",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "002434",
+          "begin_time": "2018-03-03",
+          "end_time": "2018-05-22"
+        }
+      }
+    ],
+    "announcement_count": 78,
+    "documents": [
+      {
+        "title": "万里扬:2017年度利润分配实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2018-05-16",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002434.SZ_2018-05-22\\AN201805151143902057_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002434.SZ_2018-05-22\\AN201805151143902057.txt",
+        "sha256": "7885712d26553a18fe2c016d527e4038626b74baef3de63c1aa08f05ff48b48b",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002434.SZ_2018-05-22\\AN201805151143902057_content.json",
+            "sha256": "7885712d26553a18fe2c016d527e4038626b74baef3de63c1aa08f05ff48b48b"
+          }
+        ],
+        "article_code": "AN201805151143902057",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201805151143902057_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "002435.SZ",
+    "event_date": "2021-06-18",
+    "kind": "dividend_fields",
+    "start": "2021-03-30",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\002435.SZ_2021-06-18\\query_01.json",
+        "sha256": "c04dd80f9038a905edcce19f5f47f91c5742a8aab5da2ac78c570265ed0c1f4a",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "002435",
+          "begin_time": "2021-03-30",
+          "end_time": "2021-06-18"
+        }
+      }
+    ],
+    "announcement_count": 47,
+    "documents": [
+      {
+        "title": "长江健康:2020年年度权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2021-06-09",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002435.SZ_2021-06-18\\AN202106081496757858_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002435.SZ_2021-06-18\\AN202106081496757858.txt",
+        "sha256": "0b280dd0e039526e214a73d98d9f2cd39a6bd2bc08d8b535ef61d4419579fa99",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002435.SZ_2021-06-18\\AN202106081496757858_content.json",
+            "sha256": "0b280dd0e039526e214a73d98d9f2cd39a6bd2bc08d8b535ef61d4419579fa99"
+          }
+        ],
+        "article_code": "AN202106081496757858",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202106081496757858_1.pdf?1623173932000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "002508.SZ",
+    "event_date": "2024-01-10",
+    "kind": "unknown_reference",
+    "start": "2023-11-25",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\002508.SZ_2024-01-10\\query_01.json",
+        "sha256": "343a0e7132b2579f24913ee2ccdded0f3eafdaa983701df67eb717faa0105702",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "002508",
+          "begin_time": "2023-11-25",
+          "end_time": "2024-01-10"
+        }
+      }
+    ],
+    "announcement_count": 30,
+    "documents": [
+      {
+        "title": "老板电器:特别分红权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2024-01-03",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002508.SZ_2024-01-10\\AN202401021615927958_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002508.SZ_2024-01-10\\AN202401021615927958.txt",
+        "sha256": "20f733cef9f31f722e391512897d5cc372e5fffdb3d5ccb9a39dedff9ed452e0",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002508.SZ_2024-01-10\\AN202401021615927958_content.json",
+            "sha256": "20f733cef9f31f722e391512897d5cc372e5fffdb3d5ccb9a39dedff9ed452e0"
+          }
+        ],
+        "article_code": "AN202401021615927958",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202401021615927958_1.pdf?1704218634000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "002601.SZ",
+    "event_date": "2018-10-25",
+    "kind": "dividend_fields",
+    "start": "2018-08-06",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\002601.SZ_2018-10-25\\query_01.json",
+        "sha256": "548df0d4d31040f45be4640704ca876ca020abc965688efa4fd8f03caf32543c",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "002601",
+          "begin_time": "2018-08-06",
+          "end_time": "2018-10-25"
+        }
+      }
+    ],
+    "announcement_count": 34,
+    "documents": [
+      {
+        "title": "龙蟒佰利:2018年半年度权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2018-10-17",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002601.SZ_2018-10-25\\AN201810161214496778_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002601.SZ_2018-10-25\\AN201810161214496778.txt",
+        "sha256": "1a40da491b0a41ae80ce2da71db7448075781cf24857d337aaaf32b49b8ab565",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002601.SZ_2018-10-25\\AN201810161214496778_content.json",
+            "sha256": "1a40da491b0a41ae80ce2da71db7448075781cf24857d337aaaf32b49b8ab565"
+          }
+        ],
+        "article_code": "AN201810161214496778",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201810161214496778_1.pdf?1647697044000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "002649.SZ",
+    "event_date": "2018-06-07",
+    "kind": "dividend_fields",
+    "start": "2018-03-19",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\002649.SZ_2018-06-07\\query_01.json",
+        "sha256": "ab6401c6a99516a5c4c90987cabc85909ba360f3517a95471c08a6314cfb77df",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "002649",
+          "begin_time": "2018-03-19",
+          "end_time": "2018-06-07"
+        }
+      }
+    ],
+    "announcement_count": 50,
+    "documents": [
+      {
+        "title": "博彦科技:2017年年度权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2018-06-01",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002649.SZ_2018-06-07\\AN201805311151099274_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002649.SZ_2018-06-07\\AN201805311151099274.txt",
+        "sha256": "36cd0c6f71cf6b181b7664a97ca98dfcc142647e3e4134000c2da93601a5e92d",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002649.SZ_2018-06-07\\AN201805311151099274_content.json",
+            "sha256": "36cd0c6f71cf6b181b7664a97ca98dfcc142647e3e4134000c2da93601a5e92d"
+          }
+        ],
+        "article_code": "AN201805311151099274",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201805311151099274_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "002727.SZ",
+    "event_date": "2019-04-02",
+    "kind": "dividend_fields",
+    "start": "2019-01-12",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\002727.SZ_2019-04-02\\query_01.json",
+        "sha256": "9bd698a3d66ae902aec117df68f2f4e175cbdf716fce2eab553f67705b92b538",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "002727",
+          "begin_time": "2019-01-12",
+          "end_time": "2019-04-02"
+        }
+      }
+    ],
+    "announcement_count": 70,
+    "documents": [
+      {
+        "title": "一心堂:2018年度权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2019-03-26",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002727.SZ_2019-04-02\\AN201903251309328683_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002727.SZ_2019-04-02\\AN201903251309328683.txt",
+        "sha256": "ac20f3fe1964a7d213791f1f9d7099667f183606cd53cdb4899e1d3db93dc37c",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002727.SZ_2019-04-02\\AN201903251309328683_content.json",
+            "sha256": "ac20f3fe1964a7d213791f1f9d7099667f183606cd53cdb4899e1d3db93dc37c"
+          }
+        ],
+        "article_code": "AN201903251309328683",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201903251309328683_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "002792.SZ",
+    "event_date": "2018-06-29",
+    "kind": "dividend_fields",
+    "start": "2018-04-10",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\002792.SZ_2018-06-29\\query_01.json",
+        "sha256": "21fa085a5be7e5081f12d777e1f36d19d1abe23a8d86ddbece260688ce663cf1",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "002792",
+          "begin_time": "2018-04-10",
+          "end_time": "2018-06-29"
+        }
+      }
+    ],
+    "announcement_count": 58,
+    "documents": [
+      {
+        "title": "通宇通讯:2017年年度权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2018-06-21",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002792.SZ_2018-06-29\\AN201806201157314293_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002792.SZ_2018-06-29\\AN201806201157314293.txt",
+        "sha256": "f684ad13901fe321eecfde2b5dd6d98da76ad8e86628c4e9fcd1c2384aa9b663",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002792.SZ_2018-06-29\\AN201806201157314293_content.json",
+            "sha256": "f684ad13901fe321eecfde2b5dd6d98da76ad8e86628c4e9fcd1c2384aa9b663"
+          }
+        ],
+        "article_code": "AN201806201157314293",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201806201157314293_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "002840.SZ",
+    "event_date": "2021-06-30",
+    "kind": "dividend_fields",
+    "start": "2021-04-11",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\002840.SZ_2021-06-30\\query_01.json",
+        "sha256": "b713bcbc79e62a542d3106dd1280ed41ba78d78d76cea537295e6b882689f824",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "002840",
+          "begin_time": "2021-04-11",
+          "end_time": "2021-06-30"
+        }
+      }
+    ],
+    "announcement_count": 59,
+    "documents": [
+      {
+        "title": "华统股份:2020年度权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2021-06-22",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002840.SZ_2021-06-30\\AN202106211499171456_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002840.SZ_2021-06-30\\AN202106211499171456.txt",
+        "sha256": "518928683e8a9b6575ffb8efdc4730b8569cc7559a6b07472b6dd7ccc0b78ef6",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002840.SZ_2021-06-30\\AN202106211499171456_content.json",
+            "sha256": "518928683e8a9b6575ffb8efdc4730b8569cc7559a6b07472b6dd7ccc0b78ef6"
+          }
+        ],
+        "article_code": "AN202106211499171456",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202106211499171456_1.pdf?1624308354000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "002852.SZ",
+    "event_date": "2019-05-22",
+    "kind": "dividend_fields",
+    "start": "2019-03-03",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\002852.SZ_2019-05-22\\query_01.json",
+        "sha256": "6eae38bcad8a9e2f272d7fd5d8e6b418d7fe0256835795600396f5e27577aca4",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "002852",
+          "begin_time": "2019-03-03",
+          "end_time": "2019-05-22"
+        }
+      }
+    ],
+    "announcement_count": 70,
+    "documents": [
+      {
+        "title": "道道全:2018年年度权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2019-05-16",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002852.SZ_2019-05-22\\AN201905151330186822_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002852.SZ_2019-05-22\\AN201905151330186822.txt",
+        "sha256": "9b36acd2297eb195524fae61d44a53d588bae08f97fb5d875ba919480973eccf",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002852.SZ_2019-05-22\\AN201905151330186822_content.json",
+            "sha256": "9b36acd2297eb195524fae61d44a53d588bae08f97fb5d875ba919480973eccf"
+          }
+        ],
+        "article_code": "AN201905151330186822",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201905151330186822_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      },
+      {
+        "title": "道道全:关于2018年度权益分派实施后公司股票除权除息的计算原则及方式的说明",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2019-05-16",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002852.SZ_2019-05-22\\AN201905151330186823_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002852.SZ_2019-05-22\\AN201905151330186823.txt",
+        "sha256": "5395a0b9431dc5e359222a701eda9896529a2082bd69bd9d48d5d21cfe9c3e63",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002852.SZ_2019-05-22\\AN201905151330186823_content.json",
+            "sha256": "5395a0b9431dc5e359222a701eda9896529a2082bd69bd9d48d5d21cfe9c3e63"
+          }
+        ],
+        "article_code": "AN201905151330186823",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201905151330186823_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "002969.SZ",
+    "event_date": "2024-01-24",
+    "kind": "unknown_reference",
+    "start": "2023-12-09",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\002969.SZ_2024-01-24\\query_01.json",
+        "sha256": "13e9be9b4f47e1173a156d7502ec0c34bbcd47fc66fec08ab1489c6096b9c597",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "002969",
+          "begin_time": "2023-12-09",
+          "end_time": "2024-01-24"
+        }
+      }
+    ],
+    "announcement_count": 34,
+    "documents": [
+      {
+        "title": "嘉美包装:特别分红权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2024-01-18",
+        "raw_response": "sources\\action_issuer_mirror_v2\\002969.SZ_2024-01-24\\AN202401171617608494_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\002969.SZ_2024-01-24\\AN202401171617608494.txt",
+        "sha256": "41f3dc32c989905ced8b9e0830c156cf4ef3818513e06a80c43370a1b52c15f6",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\002969.SZ_2024-01-24\\AN202401171617608494_content.json",
+            "sha256": "41f3dc32c989905ced8b9e0830c156cf4ef3818513e06a80c43370a1b52c15f6"
+          }
+        ],
+        "article_code": "AN202401171617608494",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202401171617608494_1.pdf?1705531965000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "600094.SH",
+    "event_date": "2024-09-11",
+    "kind": "unknown_reference",
+    "start": "2024-07-27",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\600094.SH_2024-09-11\\query_01.json",
+        "sha256": "85fe008d58180953e05c519357bda3046d2cff49321ed8b4c4a0dd3aca9d8559",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "600094",
+          "begin_time": "2024-07-27",
+          "end_time": "2024-09-11"
+        }
+      }
+    ],
+    "announcement_count": 21,
+    "documents": [
+      {
+        "title": "大名城:公司2024年临时权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2024-09-04",
+        "raw_response": "sources\\action_issuer_mirror_v2\\600094.SH_2024-09-11\\AN202409031639713952_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\600094.SH_2024-09-11\\AN202409031639713952.txt",
+        "sha256": "e5ae1e0b4d49f5c3f39f852bbc5c1d6cd54ed6a945f13eb41ddd791fb2f52b6a",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\600094.SH_2024-09-11\\AN202409031639713952_content.json",
+            "sha256": "e5ae1e0b4d49f5c3f39f852bbc5c1d6cd54ed6a945f13eb41ddd791fb2f52b6a"
+          }
+        ],
+        "article_code": "AN202409031639713952",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202409031639713952_1.pdf?1725382389000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "600167.SH",
+    "event_date": "2024-12-27",
+    "kind": "unknown_reference",
+    "start": "2024-11-11",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\600167.SH_2024-12-27\\query_01.json",
+        "sha256": "74791b450ddc02efd4c5577b57a84c437b757e2ae8e846cb37781bd081d10b52",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "600167",
+          "begin_time": "2024-11-11",
+          "end_time": "2024-12-27"
+        }
+      }
+    ],
+    "announcement_count": 39,
+    "documents": [
+      {
+        "title": "联美控股:联美量子股份有限公司2024年临时权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2024-12-20",
+        "raw_response": "sources\\action_issuer_mirror_v2\\600167.SH_2024-12-27\\AN202412191641362846_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\600167.SH_2024-12-27\\AN202412191641362846.txt",
+        "sha256": "0ee160dc8b07690e325a8c3bb09056eeac63cf6e3d435db71097f46276c9dec8",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\600167.SH_2024-12-27\\AN202412191641362846_content.json",
+            "sha256": "0ee160dc8b07690e325a8c3bb09056eeac63cf6e3d435db71097f46276c9dec8"
+          }
+        ],
+        "article_code": "AN202412191641362846",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202412191641362846_1.pdf?1734628004000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "600179.SH",
+    "event_date": "2020-12-07",
+    "kind": "unknown_reference",
+    "start": "2020-10-19",
+    "error": "HTTPError('567 Server Error: Unknown Status for url: https://np-cnotice-stock.eastmoney.com/api/content/ann?art_code=AN202012031436181680&client_source=web&page_index=2')"
+  },
+  {
+    "symbol": "600186.SH",
+    "event_date": "2020-01-21",
+    "kind": "unknown_reference",
+    "start": "2019-12-03",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\600186.SH_2020-01-21\\query_01.json",
+        "sha256": "33c30f25afce8a4ff0d51b8aca0fa65f2983999c1dd0b55c3094e4f80342f69e",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "600186",
+          "begin_time": "2019-12-03",
+          "end_time": "2020-01-21"
+        }
+      }
+    ],
+    "announcement_count": 30,
+    "documents": [
+      {
+        "title": "600186:*ST莲花关于资本公积金转增股本除权事项的提示性公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2020-01-18",
+        "raw_response": "sources\\action_issuer_mirror_v2\\600186.SH_2020-01-21\\AN202001171374308218_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\600186.SH_2020-01-21\\AN202001171374308218.txt",
+        "sha256": "62a1432662046212918d0de23910a313d9947be62aaa576ef723bc832f74056f",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\600186.SH_2020-01-21\\AN202001171374308218_content.json",
+            "sha256": "62a1432662046212918d0de23910a313d9947be62aaa576ef723bc832f74056f"
+          }
+        ],
+        "article_code": "AN202001171374308218",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202001171374308218_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      },
+      {
+        "title": "600186:*ST莲花:中信证券股份有限公司关于莲花健康产业集团股份有限公司资本公积金转增股本除权参考价格的计算结果的专项意见",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2020-01-18",
+        "raw_response": "sources\\action_issuer_mirror_v2\\600186.SH_2020-01-21\\AN202001171374308217_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\600186.SH_2020-01-21\\AN202001171374308217.txt",
+        "sha256": "fdc4006185086fbb014a832712e97aae904c0d5fde1c3da5d07c460df2a616ce",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\600186.SH_2020-01-21\\AN202001171374308217_content.json",
+            "sha256": "fdc4006185086fbb014a832712e97aae904c0d5fde1c3da5d07c460df2a616ce"
+          }
+        ],
+        "article_code": "AN202001171374308217",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202001171374308217_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      },
+      {
+        "title": "600186:*ST莲花关于重整计划资本公积金转增股本事项实施的公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2020-01-15",
+        "raw_response": "sources\\action_issuer_mirror_v2\\600186.SH_2020-01-21\\AN202001141374169788_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\600186.SH_2020-01-21\\AN202001141374169788.txt",
+        "sha256": "0185d49bad3992dbd5cc6cd5176da7a48c3f0af1d553416edb46e28b5a0e9d7f",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\600186.SH_2020-01-21\\AN202001141374169788_content.json",
+            "sha256": "0185d49bad3992dbd5cc6cd5176da7a48c3f0af1d553416edb46e28b5a0e9d7f"
+          }
+        ],
+        "article_code": "AN202001141374169788",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202001141374169788_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      },
+      {
+        "title": "600186:*ST莲花:中信证券股份有限公司关于莲花健康产业集团股份有限公司调整资本公积金转增股本除权参考价格的计算公式的专项意见",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2020-01-15",
+        "raw_response": "sources\\action_issuer_mirror_v2\\600186.SH_2020-01-21\\AN202001141374169787_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\600186.SH_2020-01-21\\AN202001141374169787.txt",
+        "sha256": "0cc85b0d1798968b9294c14c1b773385d6822c2e466fb660ff775cbc69a7ac4a",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\600186.SH_2020-01-21\\AN202001141374169787_content.json",
+            "sha256": "0cc85b0d1798968b9294c14c1b773385d6822c2e466fb660ff775cbc69a7ac4a"
+          }
+        ],
+        "article_code": "AN202001141374169787",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202001141374169787_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "600565.SH",
+    "event_date": "2021-06-04",
+    "kind": "dividend_fields",
+    "start": "2021-03-16",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\600565.SH_2021-06-04\\query_01.json",
+        "sha256": "1cc0bd4bb12e6128c08af6ab406b650e280c9989127d247ed09e21d21f7fcfb3",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "600565",
+          "begin_time": "2021-03-16",
+          "end_time": "2021-06-04"
+        }
+      }
+    ],
+    "announcement_count": 40,
+    "documents": [
+      {
+        "title": "600565:迪马股份2020年年度权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2021-05-27",
+        "raw_response": "sources\\action_issuer_mirror_v2\\600565.SH_2021-06-04\\AN202105261494088908_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\600565.SH_2021-06-04\\AN202105261494088908.txt",
+        "sha256": "7e822ef0b52d09b6c330bc00a9efdeb4a9085130951849c8ad283a43ffec88c7",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\600565.SH_2021-06-04\\AN202105261494088908_content.json",
+            "sha256": "7e822ef0b52d09b6c330bc00a9efdeb4a9085130951849c8ad283a43ffec88c7"
+          }
+        ],
+        "article_code": "AN202105261494088908",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202105261494088908_1.pdf?1622048969000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "600989.SH",
+    "event_date": "2021-05-20",
+    "kind": "dividend_fields",
+    "start": "2021-03-01",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\600989.SH_2021-05-20\\query_01.json",
+        "sha256": "422ce387abe5b3d1b37b74076c15d6970bb59a34bab17eda1e7c25582e359a68",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "600989",
+          "begin_time": "2021-03-01",
+          "end_time": "2021-05-20"
+        }
+      }
+    ],
+    "announcement_count": 53,
+    "documents": [
+      {
+        "title": "600989:宁夏宝丰能源集团股份有限公司2020年年度权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2021-05-12",
+        "raw_response": "sources\\action_issuer_mirror_v2\\600989.SH_2021-05-20\\AN202105111491094056_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\600989.SH_2021-05-20\\AN202105111491094056.txt",
+        "sha256": "a9baa5719be665e2f375c36cf11ca699f367eee18dc849b2759eeb22cc2cdf71",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\600989.SH_2021-05-20\\AN202105111491094056_content.json",
+            "sha256": "a9baa5719be665e2f375c36cf11ca699f367eee18dc849b2759eeb22cc2cdf71"
+          }
+        ],
+        "article_code": "AN202105111491094056",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202105111491094056_1.pdf?1620754923000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "601318.SH",
+    "event_date": "2018-09-06",
+    "kind": "dividend_fields",
+    "start": "2018-06-18",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\601318.SH_2018-09-06\\query_01.json",
+        "sha256": "acf68d24b25a6ad64076be70e093fc3abab5fa1f8c30a116ff088791938e5a40",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "601318",
+          "begin_time": "2018-06-18",
+          "end_time": "2018-09-06"
+        }
+      }
+    ],
+    "announcement_count": 17,
+    "documents": [
+      {
+        "title": "601318:中国平安2018年半年度分红派息实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2018-08-30",
+        "raw_response": "sources\\action_issuer_mirror_v2\\601318.SH_2018-09-06\\AN201808291184636064_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\601318.SH_2018-09-06\\AN201808291184636064.txt",
+        "sha256": "50df3da8e15f30d0984e236dcc0e7662777c953f0cce6aa1e86f64c852818bdf",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\601318.SH_2018-09-06\\AN201808291184636064_content.json",
+            "sha256": "50df3da8e15f30d0984e236dcc0e7662777c953f0cce6aa1e86f64c852818bdf"
+          }
+        ],
+        "article_code": "AN201808291184636064",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201808291184636064_1.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "601688.SH",
+    "event_date": "2024-10-25",
+    "kind": "dividend_fields",
+    "start": "2024-08-06",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\601688.SH_2024-10-25\\query_01.json",
+        "sha256": "26427a1e018a502a7d00d8e3b377c9086ec32d47c3928478d523b5104d20cf36",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "601688",
+          "begin_time": "2024-08-06",
+          "end_time": "2024-10-25"
+        }
+      }
+    ],
+    "announcement_count": 24,
+    "documents": [
+      {
+        "title": "华泰证券:华泰证券股份有限公司2024年半年度权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2024-10-17",
+        "raw_response": "sources\\action_issuer_mirror_v2\\601688.SH_2024-10-25\\AN202410161640323608_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\601688.SH_2024-10-25\\AN202410161640323608.txt",
+        "sha256": "b20864fc4acbcdf5440ce5428e229ef14e2fa21418064cdac79e9ab40a9d692b",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\601688.SH_2024-10-25\\AN202410161640323608_content.json",
+            "sha256": "b20864fc4acbcdf5440ce5428e229ef14e2fa21418064cdac79e9ab40a9d692b"
+          }
+        ],
+        "article_code": "AN202410161640323608",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202410161640323608_1.pdf?1729097494000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      },
+      {
+        "title": "华泰证券:华泰证券股份有限公司2023年年度权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2024-08-09",
+        "raw_response": "sources\\action_issuer_mirror_v2\\601688.SH_2024-10-25\\AN202408081639202193_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\601688.SH_2024-10-25\\AN202408081639202193.txt",
+        "sha256": "f80489eb926c922ac0a66c6ee9bc809154016ca51d8658e90982ecc14fa025e8",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\601688.SH_2024-10-25\\AN202408081639202193_content.json",
+            "sha256": "f80489eb926c922ac0a66c6ee9bc809154016ca51d8658e90982ecc14fa025e8"
+          }
+        ],
+        "article_code": "AN202408081639202193",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202408081639202193_1.pdf?1723141516000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  },
+  {
+    "symbol": "601919.SH",
+    "event_date": "2024-10-10",
+    "kind": "dividend_fields",
+    "start": "2024-07-22",
+    "query_files": [
+      {
+        "path": "sources\\action_issuer_mirror_v2\\601919.SH_2024-10-10\\query_01.json",
+        "sha256": "22bf1853885acac837b3323b1609844d48c751f5fb9ccb66a6245db8f1e2a777",
+        "request": {
+          "sr": -1,
+          "page_size": 100,
+          "page_index": 1,
+          "ann_type": "A",
+          "stock_list": "601919",
+          "begin_time": "2024-07-22",
+          "end_time": "2024-10-10"
+        }
+      }
+    ],
+    "announcement_count": 17,
+    "documents": [
+      {
+        "title": "中远海控:中远海控2024年中期权益分派实施公告",
+        "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+        "published_date": "2024-09-26",
+        "raw_response": "sources\\action_issuer_mirror_v2\\601919.SH_2024-10-10\\AN202409251640035312_content.json",
+        "text": "sources\\action_issuer_mirror_v2\\601919.SH_2024-10-10\\AN202409251640035312.txt",
+        "sha256": "f9ee1d2b07943991aa3ae5486af6f72a8dc280c5461a0cc40dd4be99d80b2b0d",
+        "content_pages": [
+          {
+            "path": "sources\\action_issuer_mirror_v2\\601919.SH_2024-10-10\\AN202409251640035312_content.json",
+            "sha256": "f9ee1d2b07943991aa3ae5486af6f72a8dc280c5461a0cc40dd4be99d80b2b0d"
+          }
+        ],
+        "article_code": "AN202409251640035312",
+        "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202409251640035312_1.pdf?1727285611000.pdf",
+        "pdf_available_and_visually_reviewed": false,
+        "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+      }
+    ],
+    "fields_verified": false,
+    "no_document_is_not_no_event_proof": true
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "failures": [
+    {
+      "attempt": 1,
+      "stage": "validate_inputs_before_any_result",
+      "result_artifacts_generated": false,
+      "error": "Raw manifest symbol count mismatch",
+      "cause": "The manifest contains 3414 universe records: 3354 hashed files with rows and 60 explicit omitted_no_pre2025_rows records. Attempt 1 incorrectly compared all manifest records with symbols_with_rows.",
+      "correction_scope": "Input validation only: separately require files length == symbols_total and positive-row record count == symbols_with_rows. Candidate definitions, formulas, gates and execution assumptions are unchanged."
+    },
+    {
+      "attempt": 2,
+      "stage": "backtest_checkpoint_after_1500_of_7890",
+      "result_artifacts_generated": true,
+      "error": "Process exited with code 1 and no Python traceback",
+      "recovery": "Validated 1500 unique checkpoint keys and resumed with the identical frozen code."
+    },
+    {
+      "attempt": 3,
+      "stage": "backtest_checkpoint_after_3850_of_7890",
+      "result_artifacts_generated": true,
+      "error": "Process exited with code 1 and no Python traceback",
+      "recovery": "Resume from the unique-key checkpoint with the identical frozen code."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "symbol": "000913.SZ",
+  "year": 2020,
+  "year_type": "operate",
+  "provider": "BaoStock",
+  "status": "returned_events",
+  "complete_corporate_action_ledger": false,
+  "fields": [
+    "code",
+    "dividPreNoticeDate",
+    "dividAgmPumDate",
+    "dividPlanAnnounceDate",
+    "dividPlanDate",
+    "dividRegistDate",
+    "dividOperateDate",
+    "dividPayDate",
+    "dividStockMarketDate",
+    "dividCashPsBeforeTax",
+    "dividCashPsAfterTax",
+    "dividStocksPs",
+    "dividCashStock",
+    "dividReserveToStockPs"
+  ],
+  "rows": [
+    [
+      "sz.000913",
+      "",
+      "2020-05-21",
+      "2020-04-27",
+      "2020-06-05",
+      "2020-06-11",
+      "2020-06-12",
+      "2020-06-12",
+      "",
+      "0.44",
+      "0.396或0.44",
+      "0.000000",
+      "10派4.4元（含税，扣税后3.96或4.4元）",
+      ""
+    ]
+  ],
+  "attempts": 1,
+  "elapsed_seconds": 0.0229
+}

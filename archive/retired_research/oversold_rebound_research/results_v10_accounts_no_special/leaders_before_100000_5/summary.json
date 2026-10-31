@@ -1,0 +1,52 @@
+{
+  "summary": {
+    "pool": "leaders",
+    "filtered": false,
+    "capital": 100000,
+    "slots": 5,
+    "slot_budget": 20000.0,
+    "signals": 516,
+    "trades": 271,
+    "skipped": 245,
+    "final_equity": 82695.32618000013,
+    "total_return": -0.1730467381999986,
+    "annualized_return": -0.04639121974193361,
+    "max_drawdown": -0.29298752718539667,
+    "takeprofit": 163,
+    "forced": 108,
+    "net_win_rate": 0.6457564575645757,
+    "mean_trade_return": -0.0038134889106636385,
+    "fees": 7339.67382,
+    "max_positions": 5,
+    "average_positions": 0.849329205366357,
+    "corporate_events": 1,
+    "delayed_exits": 0,
+    "skipped_slots": 228
+  },
+  "yearly": [
+    {
+      "year": 2021,
+      "return_pct": -0.06156464979999976,
+      "max_drawdown": -0.17582998402273453,
+      "end_equity": 93843.53502000002
+    },
+    {
+      "year": 2022,
+      "return_pct": -0.09166751282511454,
+      "max_drawdown": -0.1898356225420672,
+      "end_equity": 85241.13157000009
+    },
+    {
+      "year": 2023,
+      "return_pct": -0.020167055367962372,
+      "max_drawdown": -0.0670064982195322,
+      "end_equity": 83522.06895000013
+    },
+    {
+      "year": 2024,
+      "return_pct": -0.009898494857627615,
+      "max_drawdown": -0.12865864123282433,
+      "end_equity": 82695.32618000013
+    }
+  ]
+}

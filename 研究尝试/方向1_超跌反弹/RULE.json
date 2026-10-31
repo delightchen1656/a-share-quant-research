@@ -1,0 +1,48 @@
+{
+  "direction": "方向1",
+  "name": "特定结构后的收益研究",
+  "idea": "尝试特定结构出现后，能否获得较高收益，并研究选股及买卖规则。",
+  "current_structure": "超跌转阳后的低价深超跌",
+  "origin": "已冻结v3，仅重新命名与迁移，没有调参",
+  "filters": {
+    "base": "Same frozen basic oversold-bullish mainboard cohort and consecutive inferred-down-limit exclusion",
+    "raw_signal_close_lt": 8,
+    "adjusted_signal_close_div_MA20_lte": 0.92
+  },
+  "account": {
+    "capital": 100000,
+    "slots": 5,
+    "fixed_slot_budget": 20000.0,
+    "lot": 100,
+    "T_plus_1": true,
+    "entry": "Signal next official session open, user guaranteed-fill assumption",
+    "take_profit": 0.08,
+    "forced_close_buy_offset": 3,
+    "buy_day_offset": 0,
+    "stop_loss": null,
+    "priority": "code ascending"
+  },
+  "fees": "佣金双边万三最低5元；过户费、卖出印花税沿冻结引擎历史时点费率",
+  "exclusions_are_ex_post": true,
+  "special_events_excluded": [
+    [
+      "002069",
+      "2022-04-27"
+    ],
+    [
+      "002633",
+      "2022-04-29"
+    ],
+    [
+      "600506",
+      "2021-04-21"
+    ],
+    [
+      "603007",
+      "2021-04-28"
+    ]
+  ],
+  "scope": "沪深主板，冻结947股历史研究池，不限龙头；不是全市场普查",
+  "research_only": true,
+  "original_frozen_rule_sha256": "d58007ec875e779aff99d8a70c58aa5c9a1b9f7d897909e845d4809c73c2317c"
+}

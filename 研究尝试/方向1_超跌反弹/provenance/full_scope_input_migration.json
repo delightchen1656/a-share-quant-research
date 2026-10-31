@@ -1,0 +1,10 @@
+{
+  "reason": "Direction2 stopped/deleted; retain shared inputs required by direction1",
+  "price_manifest_sha256": "8d1c78aa55e7667462a95fa3a8e87fd4b14af4075a1b3e2d14ca713503d9f7c3",
+  "action_manifest_sha256": "e71ea2f44336d6c5f6a6c88a25294d28a9a54a1849edaa9d6eb43d931fb1d559",
+  "config_before": "615278a3dcb706253d28d992bdeadb6780935365101c0e2e1cca0f1a355a6e3b",
+  "config_after": "e2cee1cd43493279935af56a2034dfbaa2ed8a482eb69b77f73b7ff75991d203",
+  "cohort_unchanged": true,
+  "labels_unchanged": true,
+  "no_research_restarted": true
+}

@@ -1,0 +1,25 @@
+{
+  "name_cn": "上证科创板综合价格指数",
+  "short_name_cn": "科创价格",
+  "code": "000681.SH",
+  "index_kind": "price_index",
+  "price_source": "Tencent historical kline API",
+  "source_url": "https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=sh000681,day,2019-12-20,2026-10-26,2000,qfq",
+  "official_reference": "https://www.sse.com.cn/aboutus/mediacenter/hotandd/c/c_20250108_10767835.shtml",
+  "downloaded_at": "2026-10-27T03:35:35.700675+08:00",
+  "market_data_commit": "2026-10-26",
+  "rows": 425,
+  "first_date": "2025-01-20",
+  "last_date": "2026-10-26",
+  "columns": [
+    "date",
+    "open",
+    "close",
+    "high",
+    "low",
+    "volume"
+  ],
+  "raw_sha256": "34f71027afaa55b0107a5128f26358013375c3a53dc67c5643a3cd78243a16da",
+  "parquet_sha256": "c2ee3b8473ccb01f03411f31e66ffd8ae6ea707b6a4500696a5e10af86154fc0",
+  "notes": "The provider history begins on the index publication date; the 2019-12-31 base date is not a published daily observation in this feed."
+}

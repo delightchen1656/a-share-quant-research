@@ -1,0 +1,16 @@
+{
+  "symbol": "002227.SZ",
+  "event_date": "2018-06-01",
+  "kind": "dividend_fields",
+  "start": "2018-03-13",
+  "query_files": [
+    {
+      "path": "sources\\action_evidence_v2\\002227.SZ_2018-06-01\\query_01.json",
+      "sha256": "6f512e3a7d3192ab09e674c276d22a5b92f8a1b4ee18b9a6f9e7ef24600b532a"
+    }
+  ],
+  "exact_code_announcements": 1,
+  "documents": [],
+  "no_document_is_not_no_event_proof": true,
+  "fields_verified": false
+}

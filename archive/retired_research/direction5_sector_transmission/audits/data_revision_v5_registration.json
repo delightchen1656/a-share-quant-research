@@ -1,0 +1,104 @@
+{
+  "revision_id": "data_revision_v5",
+  "parent_registration": "audits/data_revision_v4_registration.json",
+  "parent_registration_sha256": "41476297282f04f18bbf68a60213e98f922096f9f7458b62af3de480d68d3269",
+  "label_definition_registration_sha256": "daf08dfa6e40ac7bd71ad0b058bcaef42cb714f318857a56ca2b14980bea29f0",
+  "original_protocol_sha256": "502c0f7f652295b4ba4b3dcf1a4595a7944bafabe0685bdff263eb7348483e50",
+  "scope": "registered_label_semantics_and_development_schedule_quality_flags_only",
+  "label_values_materialized": false,
+  "factor_experiments_enabled": false,
+  "files": [
+    {
+      "path": "audits\\label_definition_v1_registration.json",
+      "sha256": "daf08dfa6e40ac7bd71ad0b058bcaef42cb714f318857a56ca2b14980bea29f0"
+    },
+    {
+      "path": "audits\\label_schedule_dev_v1.json",
+      "sha256": "d2b5f1616a3afadd389579b67dee65d2ddbb5b96913ba12c5823255c6add4c1e"
+    },
+    {
+      "path": "audits\\label_schedule_dev_v1_validation.json",
+      "sha256": "b295dcafa8255df08e7c37f15331168313052f8597aa0bdf4a825c192b5d6aa5"
+    },
+    {
+      "path": "inputs_pre2025\\label_schedule_dev_v1\\2018.parquet",
+      "sha256": "5c3793dabaa59af602af9c154c3bcf1e4dca2317079a4da5bb6d615a89cc4602"
+    },
+    {
+      "path": "inputs_pre2025\\label_schedule_dev_v1\\2019.parquet",
+      "sha256": "030945da9b325fa62f7a86b417d4e2a7120f9f67f7fec5767bdf7e3ec0622bb2"
+    },
+    {
+      "path": "inputs_pre2025\\label_schedule_dev_v1\\2020.parquet",
+      "sha256": "19611532e46362add36201b0e94d86d03cf4a15925419b6f865e51e4f5c41603"
+    },
+    {
+      "path": "inputs_pre2025\\label_schedule_dev_v1\\2021.parquet",
+      "sha256": "eea5a6609d61a96158c227952a1daf1dc7ee84238c95c0754821fe2b80c1f2e8"
+    },
+    {
+      "path": "inputs_pre2025\\label_schedule_dev_v1\\2022.parquet",
+      "sha256": "1ab11487177fcd01da310cd3a2cc498d6927f215f2af86c2a7d747dc0df6e7b1"
+    },
+    {
+      "path": "inputs_pre2025\\label_schedule_dev_v1\\2023.parquet",
+      "sha256": "ef6aee6c409565d5188712c0360c85c65f7577106b9a8ecad5553deb9d77d23f"
+    },
+    {
+      "path": "inputs_pre2025\\label_schedule_dev_v1\\availability_by_year.parquet",
+      "sha256": "051488d2b3a541e101c032f09b1de50b95dcf053c5caef7ae912d82d59116e48"
+    },
+    {
+      "path": "inputs_pre2025\\label_schedule_dev_v1\\availability_by_year_industry.parquet",
+      "sha256": "4d17bc594b0e913b81dae780c40b2ba9de7911974291844ee86b7bbfe999fd1d"
+    },
+    {
+      "path": "inputs_pre2025\\label_schedule_dev_v1\\manifest.json",
+      "sha256": "d2b5f1616a3afadd389579b67dee65d2ddbb5b96913ba12c5823255c6add4c1e"
+    },
+    {
+      "path": "inputs_pre2025\\label_schedule_dev_v1\\primary_unavailability_reasons.parquet",
+      "sha256": "4a343c268f7f193721ac06bc483a938db4a35bd3455c88ac613e0f4f8ac995d7"
+    },
+    {
+      "path": "inputs_pre2025\\label_schedule_dev_v1\\scheduled_training_cutoff_purge.parquet",
+      "sha256": "4a0fadcc203352e60b8b1d0e74d2ec2b399a3103b9f91e373429e83abe97f9fd"
+    },
+    {
+      "path": "label_definition_v1.json",
+      "sha256": "ba06f4dd42099f84e17b8a738ed08eee30e7909538f016188cbf0b17b29962df"
+    },
+    {
+      "path": "research_stage_gates_v2.json",
+      "sha256": "4b60c0fd188fc57833ca530987f2b5d3892f3ae64d4a23edd292358047e8364b"
+    },
+    {
+      "path": "sources\\label_rules_v1\\auction_education_2018.html",
+      "sha256": "42f32c701af2dd20b14ee5f62bd35a39ccffe745415a288c7cb58a4e6fdd01a1"
+    },
+    {
+      "path": "sources\\label_rules_v1\\dividend_tax_2015_101.html",
+      "sha256": "2dd4edb94577ba25fb4fe0249c56225890e7f2f29f84a42126d24a0028ba70d3"
+    },
+    {
+      "path": "sources\\label_rules_v1\\dividend_tax_interpretation_2015.html",
+      "sha256": "d836e3dc3af300e4eee8a7b974200d735b3eeef620dde182f2a865eb89539015"
+    },
+    {
+      "path": "sources\\label_rules_v1\\manifest.json",
+      "sha256": "3a88bd316704f51591dde5a92e4d759c637452e505018cf9bf9908ae4992b626"
+    },
+    {
+      "path": "src\\audit_label_schedule_v1.py",
+      "sha256": "319870a48fe8d4fa98a7ed611aa5f308454a000ac812aba0723b8a2f7349d270"
+    },
+    {
+      "path": "src\\register_label_availability_milestone_v1.py",
+      "sha256": "74e44f25cf97479fcde2e3273a6f90848de4b84d6db10a149639832c5b2b5e93"
+    },
+    {
+      "path": "src\\register_label_definition_v1.py",
+      "sha256": "842a0eab9c94ff22c2b5825370d2a14d1cd32fbc4a62c99dadf8af9bd690e44d"
+    }
+  ]
+}

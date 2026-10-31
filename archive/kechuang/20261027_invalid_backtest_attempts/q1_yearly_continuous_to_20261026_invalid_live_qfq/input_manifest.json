@@ -1,0 +1,15 @@
+{
+  "strategy": "科创基准1",
+  "scope": "yearly independent Q1 starts plus 2020/latest and 2025/latest",
+  "latest_trading_day": "2026-10-26",
+  "initial_cash_each_run": 500000.0,
+  "market_audit": "data_updates\\20261026\\audit.json",
+  "market_audit_sha256": "af5e16ee7dc67efecbc22efa365bcf72434b3bcb9e8522912d0524bcbea4198b",
+  "calendar": "evening_accumulation\\data\\metadata\\trade_calendar_20261026.csv",
+  "calendar_sha256": "d219374cde856c2a5fe6081ab2ba4536c630f6c31fc8ca63de2eb8108cc5cc6c",
+  "platform_source": "strategies\\kechuang\\supermind_kechuang_1.py",
+  "platform_sha256": "3c4a5b41691b431b0a419900382c4e9cd47e11ee9b6c163f9d80a863134f1d8e",
+  "model_retrained": false,
+  "strategy_parameters_changed": false,
+  "frozen_baseline_replaced": false
+}

@@ -1,0 +1,26 @@
+{
+  "symbol": "000981.SZ",
+  "event_date": "2022-02-25",
+  "kind": "unknown_reference",
+  "start": "2022-01-04",
+  "query_files": [
+    {
+      "path": "sources\\action_evidence_v2\\000981.SZ_2022-02-25\\query_01.json",
+      "sha256": "19bb95118a24148e361b314927a8b38edc1db9d362c461bbfccb25530b6f6f52"
+    }
+  ],
+  "exact_code_announcements": 1,
+  "documents": [
+    {
+      "title": "关于公司资本公积转增股本实施进展暨公司股票复牌的提示性公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2022-02-25/1212454276.PDF",
+      "published_date": "2022-02-25",
+      "pdf": "sources\\action_evidence_v2\\000981.SZ_2022-02-25\\1212454276.pdf",
+      "text": "sources\\action_evidence_v2\\000981.SZ_2022-02-25\\1212454276.txt",
+      "sha256": "19e77c8f6ee2d6ac5c57ff786504dd1fe12e12e1861e78e8da9a14ebff9d33f5",
+      "pages": 5
+    }
+  ],
+  "no_document_is_not_no_event_proof": true,
+  "fields_verified": false
+}

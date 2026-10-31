@@ -1,0 +1,21 @@
+{
+  "completed_utc": "2026-10-26T18:57:36.773665+00:00",
+  "engine_sha256": "dc5ab06348e50ca5df7313c44f26116f6cf6502a249cf34776abbc2abf2852cd",
+  "synthetic_only": true,
+  "tests": {
+    "cent_rounding_and_costs": true,
+    "next_open_not_signal_close_tplus1_gap_stop": true,
+    "samebar_dual_touch_stop_first": true,
+    "opening_target_precedes_later_intraday_stop": true,
+    "one_price_upper_buy_blocked_and_cancelled": true,
+    "one_price_lower_stop_delayed": true,
+    "cash_record_close_exdate_receivable_payment_and_level_adjustment": true,
+    "cash_exdate_does_not_create_cross": true,
+    "unsupported_held_event_preserves_unknown_position": true,
+    "capacity_from_prior_session_only": true,
+    "exit_day_no_new_entry": true,
+    "suspension_preserves_position_until_resume": true,
+    "buy_exdate_does_not_earn_prior_record_entitlement": true
+  },
+  "passed": true
+}

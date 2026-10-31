@@ -1,0 +1,100 @@
+{
+  "key": "sample_after_100000_5",
+  "summary": {
+    "pool": "sample",
+    "filtered": true,
+    "capital": 100000,
+    "slots": 5,
+    "slot_budget": 20000.0,
+    "forced_day": 5,
+    "take_profit": 0.08,
+    "stop_loss": null,
+    "annual_rules": null,
+    "signals": 627,
+    "trades": 197,
+    "skipped": 429,
+    "final_equity": 151374.66630999997,
+    "total_return": 0.5137466630999996,
+    "annualized_return": 0.10920878280563562,
+    "max_drawdown": -0.13867843432478622,
+    "takeprofit": 59,
+    "stoploss": 0,
+    "forced": 138,
+    "net_win_rate": 0.5888324873096447,
+    "mean_trade_return": 0.01313725156129761,
+    "fees": 6368.165000000001,
+    "max_positions": 5,
+    "average_positions": 0.8711340206185567,
+    "corporate_events": 0,
+    "delayed_exits": 1,
+    "skipped_slots": 429
+  },
+  "yearly": [
+    {
+      "year": 2020,
+      "return_pct": 0.06894238920000029,
+      "max_drawdown": -0.07984245112728872,
+      "end_equity": 106894.23892000003
+    },
+    {
+      "year": 2021,
+      "return_pct": 0.22289907595330694,
+      "max_drawdown": -0.07709544764304499,
+      "end_equity": 130720.86600000007
+    },
+    {
+      "year": 2022,
+      "return_pct": 0.08047128589249053,
+      "max_drawdown": -0.13867843432478622,
+      "end_equity": 141240.14218000002
+    },
+    {
+      "year": 2023,
+      "return_pct": 0.0717538510906075,
+      "max_drawdown": -0.021635240002088385,
+      "end_equity": 151374.66630999997
+    }
+  ],
+  "specials": [
+    {
+      "code": "002535",
+      "signal_date": "2020-04-22"
+    }
+  ],
+  "yearly_trades": {
+    "2020": 52,
+    "2021": 66,
+    "2022": 59,
+    "2023": 20
+  },
+  "open_positions": [
+    {
+      "code": "603363",
+      "name": "603363",
+      "signal_date": "2023-12-28",
+      "buy_date": "2023-12-29",
+      "buy_price": 6.03,
+      "buy_qty": 3300,
+      "buy_notional": 19899.0,
+      "cost": 19905.16869,
+      "buy_fee": 6.16869,
+      "available": 3300,
+      "locked": [],
+      "due_date": "2024-01-08",
+      "take_profit": 0.08,
+      "forced_day": 5,
+      "stop_loss": null,
+      "last_price": 6.07,
+      "last_factor": 1.0,
+      "sale_net": 0.0,
+      "sale_gross": 0.0,
+      "sell_fee": 0.0,
+      "div_net": 0.0,
+      "div_gross": 0.0,
+      "corporate_events": 0,
+      "reasons": []
+    }
+  ],
+  "receivables": [],
+  "pending_signals": []
+}

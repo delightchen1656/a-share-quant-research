@@ -1,0 +1,79 @@
+{
+  "strategy": "Kechuang Baseline 1",
+  "scope": "yearly independent Q1 starts plus 2020/latest and 2025/latest",
+  "latest_trading_day": "2026-10-26",
+  "initial_cash_each_run": 500000.0,
+  "market_audit": "data_updates\\20261026\\audit.json",
+  "market_audit_sha256": "af5e16ee7dc67efecbc22efa365bcf72434b3bcb9e8522912d0524bcbea4198b",
+  "calendar": "evening_accumulation\\data\\metadata\\trade_calendar_20261026.csv",
+  "calendar_sha256": "d219374cde856c2a5fe6081ab2ba4536c630f6c31fc8ca63de2eb8108cc5cc6c",
+  "frozen_snapshot": "strategies\\kechuang\\backtest\\data\\snapshot_20260930",
+  "frozen_cutoff": "2026-09-30",
+  "post_freeze_signal_inputs": {
+    "2026-10-08": {
+      "state": "data_updates\\20261009\\before_update\\evening_accumulation\\data",
+      "captured_before_update": "2026-10-09",
+      "next_audit_sha256": "977346e0bc69807b6fe702c8243dc94ffed7649581fcd66a59cd5340da2ecd3e"
+    },
+    "2026-10-09": {
+      "state": "data_updates\\20261012\\before_update\\evening_accumulation\\data",
+      "captured_before_update": "2026-10-12",
+      "next_audit_sha256": "dabed0e2286d42a5a05ba20b987d21821a3ec0f853ff3af1eb90849992970648"
+    },
+    "2026-10-12": {
+      "state": "data_updates\\20261013\\before_update\\evening_accumulation\\data",
+      "captured_before_update": "2026-10-13",
+      "next_audit_sha256": "99a9872b4922acc611ecfd79a91e242d18a473f34d60a0dc9ef7ede31991e3c7"
+    },
+    "2026-10-13": {
+      "state": "data_updates\\20261014\\before_update\\evening_accumulation\\data",
+      "captured_before_update": "2026-10-14",
+      "next_audit_sha256": "a63150fbaf448322d474e1e6b53051474f3aa7a9a610106197b9ec8717e110fe"
+    },
+    "2026-10-14": {
+      "state": "data_updates\\20261015\\before_update\\evening_accumulation\\data",
+      "captured_before_update": "2026-10-15",
+      "next_audit_sha256": "c47547d3f05fb31c525f589a6402a4d5ef4ebac453b7da6cb02591a03b25d854"
+    },
+    "2026-10-15": {
+      "state": "data_updates\\20261016\\before_update\\evening_accumulation\\data",
+      "captured_before_update": "2026-10-16",
+      "next_audit_sha256": "92c5b22bdc0dbe1040a0b58ecbdc923a297962000bb59e378c98791a7252fe27"
+    },
+    "2026-10-16": {
+      "state": "data_updates\\20261019\\before_update\\evening_accumulation\\data",
+      "captured_before_update": "2026-10-19",
+      "next_audit_sha256": "8419a6246d300e3cf557f1c29d724d1d5fb6eb1513c08e327e1bfa8926a1b244"
+    },
+    "2026-10-19": {
+      "state": "data_updates\\20261020\\before_update\\evening_accumulation\\data",
+      "captured_before_update": "2026-10-20",
+      "next_audit_sha256": "a89bb390e2b9e5ffce9a1f9cd0c7e222fd7e3e1b3aac97d4d423d0e782548b72"
+    },
+    "2026-10-20": {
+      "state": "data_updates\\20261021\\before_update\\evening_accumulation\\data",
+      "captured_before_update": "2026-10-21",
+      "next_audit_sha256": "6db0564b6b71b18ebb594ecb9306f80a62461c6376ba74a4bc8cfbe03fb0f3d4"
+    },
+    "2026-10-21": {
+      "state": "data_updates\\20261022\\before_update\\evening_accumulation\\data",
+      "captured_before_update": "2026-10-22",
+      "next_audit_sha256": "32941073c1ed4341cb6a6627ed86916cbe6fe928460e1c60dcd8ab0a8b69c014"
+    },
+    "2026-10-22": {
+      "state": "data_updates\\20261023\\before_update\\evening_accumulation\\data",
+      "captured_before_update": "2026-10-23",
+      "next_audit_sha256": "84aa79953beb1abe487e43714e91dd2c1da540b08538dfe859ab9090c400ffc2"
+    },
+    "2026-10-23": {
+      "state": "data_updates\\20261026\\before_update\\evening_accumulation\\data",
+      "captured_before_update": "2026-10-26",
+      "next_audit_sha256": "af5e16ee7dc67efecbc22efa365bcf72434b3bcb9e8522912d0524bcbea4198b"
+    }
+  },
+  "platform_source": "strategies\\kechuang\\supermind_kechuang_1.py",
+  "platform_sha256": "3c4a5b41691b431b0a419900382c4e9cd47e11ee9b6c163f9d80a863134f1d8e",
+  "model_retrained": false,
+  "strategy_parameters_changed": false,
+  "frozen_baseline_replaced": false
+}

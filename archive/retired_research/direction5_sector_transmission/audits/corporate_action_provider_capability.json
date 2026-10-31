@@ -1,0 +1,141 @@
+{
+  "queries": [
+    {
+      "kind": "dividend",
+      "code": "sh.600000",
+      "status": "returned",
+      "rows": 1,
+      "fields": [
+        "code",
+        "dividPreNoticeDate",
+        "dividAgmPumDate",
+        "dividPlanAnnounceDate",
+        "dividPlanDate",
+        "dividRegistDate",
+        "dividOperateDate",
+        "dividPayDate",
+        "dividStockMarketDate",
+        "dividCashPsBeforeTax",
+        "dividCashPsAfterTax",
+        "dividStocksPs",
+        "dividCashStock",
+        "dividReserveToStockPs"
+      ]
+    },
+    {
+      "kind": "dividend",
+      "code": "sz.000001",
+      "status": "returned",
+      "rows": 1,
+      "fields": [
+        "code",
+        "dividPreNoticeDate",
+        "dividAgmPumDate",
+        "dividPlanAnnounceDate",
+        "dividPlanDate",
+        "dividRegistDate",
+        "dividOperateDate",
+        "dividPayDate",
+        "dividStockMarketDate",
+        "dividCashPsBeforeTax",
+        "dividCashPsAfterTax",
+        "dividStocksPs",
+        "dividCashStock",
+        "dividReserveToStockPs"
+      ]
+    },
+    {
+      "kind": "adjust_factor",
+      "code": "sh.600000",
+      "status": "returned",
+      "rows": 1,
+      "fields": [
+        "code",
+        "dividOperateDate",
+        "foreAdjustFactor",
+        "backAdjustFactor",
+        "adjustFactor"
+      ]
+    },
+    {
+      "kind": "dividend",
+      "code": "sz.000027",
+      "status": "returned",
+      "rows": 1,
+      "fields": [
+        "code",
+        "dividPreNoticeDate",
+        "dividAgmPumDate",
+        "dividPlanAnnounceDate",
+        "dividPlanDate",
+        "dividRegistDate",
+        "dividOperateDate",
+        "dividPayDate",
+        "dividStockMarketDate",
+        "dividCashPsBeforeTax",
+        "dividCashPsAfterTax",
+        "dividStocksPs",
+        "dividCashStock",
+        "dividReserveToStockPs"
+      ]
+    },
+    {
+      "kind": "dividend",
+      "code": "sz.000403",
+      "status": "returned",
+      "rows": 1,
+      "fields": [
+        "code",
+        "dividPreNoticeDate",
+        "dividAgmPumDate",
+        "dividPlanAnnounceDate",
+        "dividPlanDate",
+        "dividRegistDate",
+        "dividOperateDate",
+        "dividPayDate",
+        "dividStockMarketDate",
+        "dividCashPsBeforeTax",
+        "dividCashPsAfterTax",
+        "dividStocksPs",
+        "dividCashStock",
+        "dividReserveToStockPs"
+      ]
+    },
+    {
+      "kind": "dividend",
+      "code": "sz.000597",
+      "status": "returned",
+      "rows": 1,
+      "fields": [
+        "code",
+        "dividPreNoticeDate",
+        "dividAgmPumDate",
+        "dividPlanAnnounceDate",
+        "dividPlanDate",
+        "dividRegistDate",
+        "dividOperateDate",
+        "dividPayDate",
+        "dividStockMarketDate",
+        "dividCashPsBeforeTax",
+        "dividCashPsAfterTax",
+        "dividStocksPs",
+        "dividCashStock",
+        "dividReserveToStockPs"
+      ]
+    }
+  ],
+  "dividend_fields_required": [
+    "dividRegistDate",
+    "dividOperateDate",
+    "dividPayDate",
+    "dividStockMarketDate",
+    "dividCashPsBeforeTax",
+    "dividStocksPs",
+    "dividReserveToStockPs"
+  ],
+  "coverage": "capability_samples_only_not_all_symbols_or_years",
+  "additional_sampling_rule": "First three symbols alphabetically with a 2020 reference-price ratio above 1.2 in data-quality diagnostics; not a return or strategy-selection rule.",
+  "approved_for_economic_labels": false,
+  "adjustment_factors_are_not_a_substitute_for_payment_and_share_listing_dates": true,
+  "coverage_and_event_reconciliation_required_before_any_economic_return_labels": true
+}

@@ -1,0 +1,20 @@
+{
+  "provider_rows": 60,
+  "scope_rows": 53,
+  "server_query_complete": true,
+  "request": {
+    "reportName": "RPT_IPO_ALLOTMENT",
+    "columns": "FINANCE_CODE,SECUCODE,SECURITY_CODE,PLACING_RATIO,ISSUE_PRICE,TOTAL_SHARES_BEFORE,ISSUE_NUM,TOTAL_SHARES_AFTER,EQUITY_RECORD_DATE,PAY_START_DATE,PAY_END_DATE,LISTING_DATE,EX_DIVIDEND_DATE,FIRST_NOTICE_DATE",
+    "pageSize": 500,
+    "pageNumber": 1,
+    "sortColumns": "EX_DIVIDEND_DATE,SECURITY_CODE",
+    "sortTypes": "1,1",
+    "filter": "(EX_DIVIDEND_DATE>='2018-01-01')(EX_DIVIDEND_DATE<='2024-12-31')(FIRST_NOTICE_DATE<='2024-12-31')"
+  },
+  "raw_sha256": "1f409dea5f14c2f8f711e492e130f58bef7b146de9b5677c93dab398123e03ba",
+  "source_page": "https://data.eastmoney.com/xg/pg/",
+  "no_subscription_or_free_shares_assumed": true,
+  "planned_entitlement_ratio_must_be_distinguished_from_actual_total_share_increase": true,
+  "cash_requirements_listing_dates_and_strategy_subscription_policy_pending": true,
+  "economic_labels_ready": false
+}

@@ -1,0 +1,28 @@
+{
+  "key": "600179.SH/2020",
+  "request": {
+    "code": "sh.600179",
+    "year": "2020",
+    "yearType": "operate"
+  },
+  "fields": [
+    "code",
+    "dividPreNoticeDate",
+    "dividAgmPumDate",
+    "dividPlanAnnounceDate",
+    "dividPlanDate",
+    "dividRegistDate",
+    "dividOperateDate",
+    "dividPayDate",
+    "dividStockMarketDate",
+    "dividCashPsBeforeTax",
+    "dividCashPsAfterTax",
+    "dividStocksPs",
+    "dividCashStock",
+    "dividReserveToStockPs"
+  ],
+  "records": [],
+  "row_count": 0,
+  "successful_empty": true,
+  "cutoff": "2024-12-31"
+}

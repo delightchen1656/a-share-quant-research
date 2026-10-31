@@ -8,3 +8,14 @@ strategies/hushen_2/results/RISK_METRICS_2020Q1_STARTS_TO_20261019.csv -text
 strategies/hushen_2/results/EQUITY_CURVES_2020Q1_STARTS_TO_20261019.parquet -text
 strategies/hushen_2/tracker/market.py -text
 strategies/hushen_2/tracker/verify_pipeline.py -text
+
+# Relocated frozen models, source, manifests and research evidence must retain
+# exact bytes; core.autocrlf must not invalidate their recorded SHA-256 hashes.
+沪深1研究/** -text
+沪深2研究/** -text
+科创1研究/** -text
+沪深实盘工作台/** -text
+K线看盘软件/** -text
+K线数据/** -text
+研究尝试/** -text
+archive/** -text

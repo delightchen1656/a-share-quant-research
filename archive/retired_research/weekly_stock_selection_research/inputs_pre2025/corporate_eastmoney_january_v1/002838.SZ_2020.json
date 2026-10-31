@@ -1,0 +1,46 @@
+{
+  "query": {
+    "reportName": "RPT_SHAREBONUS_DET",
+    "columns": "SECURITY_CODE,SECUCODE,SECURITY_NAME_ABBR,BONUS_IT_RATIO,BONUS_RATIO,IT_RATIO,PRETAX_BONUS_RMB,EQUITY_RECORD_DATE,EX_DIVIDEND_DATE,REPORT_DATE,ASSIGN_PROGRESS,IMPL_PLAN_PROFILE,NOTICE_DATE",
+    "filter": "(SECURITY_CODE=\"002838\")(EX_DIVIDEND_DATE>='2020-01-01')(EX_DIVIDEND_DATE<='2020-12-31')",
+    "pageSize": 100,
+    "pageNumber": 1,
+    "source": "WEB",
+    "client": "WEB"
+  },
+  "source_url": "https://datacenter-web.eastmoney.com/api/data/v1/get",
+  "data": [
+    {
+      "SECURITY_CODE": "002838",
+      "SECUCODE": "002838.SZ",
+      "SECURITY_NAME_ABBR": "道恩股份",
+      "BONUS_IT_RATIO": null,
+      "BONUS_RATIO": null,
+      "IT_RATIO": null,
+      "PRETAX_BONUS_RMB": 1.23,
+      "EQUITY_RECORD_DATE": "2020-05-28 00:00:00",
+      "EX_DIVIDEND_DATE": "2020-05-29 00:00:00",
+      "REPORT_DATE": "2019-12-31 00:00:00",
+      "ASSIGN_PROGRESS": "实施分配",
+      "IMPL_PLAN_PROFILE": "10派1.23元(含税,扣税后1.107元)",
+      "NOTICE_DATE": "2020-05-22 00:00:00"
+    },
+    {
+      "SECURITY_CODE": "002838",
+      "SECUCODE": "002838.SZ",
+      "SECURITY_NAME_ABBR": "道恩股份",
+      "BONUS_IT_RATIO": null,
+      "BONUS_RATIO": null,
+      "IT_RATIO": null,
+      "PRETAX_BONUS_RMB": 2.46,
+      "EQUITY_RECORD_DATE": "2020-09-23 00:00:00",
+      "EX_DIVIDEND_DATE": "2020-09-24 00:00:00",
+      "REPORT_DATE": "2020-06-30 00:00:00",
+      "ASSIGN_PROGRESS": "实施分配",
+      "IMPL_PLAN_PROFILE": "10派2.46元(含税,扣税后2.214元)",
+      "NOTICE_DATE": "2020-09-17 00:00:00"
+    }
+  ],
+  "before2024_only": true,
+  "no_price_or_performance_fields_requested": true
+}

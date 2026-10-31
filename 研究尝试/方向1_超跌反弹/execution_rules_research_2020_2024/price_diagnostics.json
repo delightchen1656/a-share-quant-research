@@ -1,0 +1,56 @@
+{
+  "signals": 3805,
+  "complete_D20_price_windows": 3789,
+  "censored_or_endpoint_missing": 16,
+  "entry_states": {
+    "next_open_available": 3799,
+    "suspended_next_session": 6
+  },
+  "stocks": 1616,
+  "per_year_complete_window": {
+    "2020": {
+      "n": 655,
+      "median_peak20": 0.14563106796116498,
+      "touch20_rate_T1plus": 0.3450381679389313,
+      "mean_close20": 0.09029817063374565,
+      "median_giveback": 0.07090464547677242,
+      "p10_close20": -0.08549900582551363
+    },
+    "2021": {
+      "n": 456,
+      "median_peak20": 0.11404485018575572,
+      "touch20_rate_T1plus": 0.2324561403508772,
+      "mean_close20": 0.05506416615267391,
+      "median_giveback": 0.07671681395784069,
+      "p10_close20": -0.10440321240653555
+    },
+    "2022": {
+      "n": 1158,
+      "median_peak20": 0.16921391530488117,
+      "touch20_rate_T1plus": 0.38946459412780654,
+      "mean_close20": 0.12011016632862931,
+      "median_giveback": 0.05742595419847324,
+      "p10_close20": -0.046923391802679
+    },
+    "2023": {
+      "n": 133,
+      "median_peak20": 0.074410163339383,
+      "touch20_rate_T1plus": 0.15037593984962405,
+      "mean_close20": -0.016061808627456722,
+      "median_giveback": 0.08847184986595176,
+      "p10_close20": -0.17395228884590588
+    },
+    "2024": {
+      "n": 1387,
+      "median_peak20": 0.12661498708010344,
+      "touch20_rate_T1plus": 0.3020908435472242,
+      "mean_close20": 0.05616427642911567,
+      "median_giveback": 0.08660130718954252,
+      "p10_close20": -0.1157133578696687
+    }
+  },
+  "max_same_day_signals": 612,
+  "signal_days": 384,
+  "fraction_signals_on_gt20_days": 0.7098554533508541,
+  "top10_days_signal_fraction": 0.5724047306176084
+}

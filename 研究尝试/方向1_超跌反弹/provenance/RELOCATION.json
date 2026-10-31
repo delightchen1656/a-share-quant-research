@@ -1,0 +1,56 @@
+{
+  "original_rule_sha256": "d58007ec875e779aff99d8a70c58aa5c9a1b9f7d897909e845d4809c73c2317c",
+  "files": [
+    {
+      "original": "C:\\Users\\22241\\Desktop\\quant\\oversold_rebound_research\\account_backtest.py",
+      "relocated": "provenance/code/account_backtest_original.py",
+      "sha256": "dd594aaebf453a8a8791fbfbc6a13c565e45fb2aca914516afe20589842c83f2"
+    },
+    {
+      "original": "C:\\Users\\22241\\Desktop\\quant\\oversold_rebound_research\\tune_pre2025_v3.py",
+      "relocated": "provenance/code/tune_pre2025_v3_original.py",
+      "sha256": "27260a1ff5e0bc549189b68bde3cfad98428a1fdb94a6a91e993da3aa0e247a0"
+    },
+    {
+      "original": "C:\\Users\\22241\\Desktop\\quant\\oversold_rebound_research\\study.py",
+      "relocated": "provenance/code/study_original.py",
+      "sha256": "e43a5d7cce15f127341125d06da6e37c0ffb132f3917926c6b00ae6b1cd21425"
+    },
+    {
+      "original": "C:\\Users\\22241\\Desktop\\quant\\oversold_rebound_research\\exclude_limit_streaks.py",
+      "relocated": "provenance/code/exclude_limit_streaks_original.py",
+      "sha256": "5b6b67c4155711541025885ef336f77cbf18b6efec8a94ba7327dd69297836f5"
+    },
+    {
+      "original": "C:\\Users\\22241\\Desktop\\quant\\oversold_rebound_research\\results_v5_long_position\\events.parquet",
+      "relocated": "provenance/pre2025_features.parquet",
+      "sha256": "9ff8e9ed7dc98aa106c6f930b27341d8118c6bacc51cdc0c02f57b5f6b4921dd"
+    },
+    {
+      "original": "C:\\Users\\22241\\Desktop\\quant\\box60_selection_research\\inputs_pre2025\\MANIFEST.json",
+      "relocated": "provenance/pre2025_quote_manifest_original.json",
+      "sha256": "72d9affe7a262e51ae313c06c58fb2f44edf4b2be0c14cef2742e956075e675b"
+    },
+    {
+      "original": "C:\\Users\\22241\\Desktop\\quant\\oversold_rebound_research\\results_v16_pre2025_local\\PROTOCOL.json",
+      "relocated": "provenance/development_protocol_original.json",
+      "sha256": "09c0df05ddb78020fa9a028fabbc1391498ab617a2d2c49a6b0fa3b85cfd6fbd"
+    },
+    {
+      "original": "C:\\Users\\22241\\Desktop\\quant\\oversold_rebound_research\\results_v16_pre2025_local\\FROZEN_RULE.json",
+      "relocated": "provenance/frozen_v3_original.json",
+      "sha256": "d58007ec875e779aff99d8a70c58aa5c9a1b9f7d897909e845d4809c73c2317c"
+    },
+    {
+      "original": "C:\\Users\\22241\\Desktop\\quant\\oversold_rebound_research\\results_v16_pre2025_local\\summary.json",
+      "relocated": "provenance/development_summary_original.json",
+      "sha256": "c92d6a3c3c32be3b54e30a58535d1453492f1d3a1b9b6e18f425f9dac1c5cf1b"
+    },
+    {
+      "original": "C:\\Users\\22241\\Desktop\\quant\\oversold_rebound_research\\results_v16_pre2025_local\\INPUT_ACCESS_AUDIT.json",
+      "relocated": "provenance/development_access_audit_original.json",
+      "sha256": "6d68f86e391946d2b006a808cc4a0bdf1816d59d8c738dadc730e5a6bebdd1dd"
+    }
+  ],
+  "note": "Byte-identical v3 lineage only. Older runnable directions, optimizers, models and result batches are not retained."
+}

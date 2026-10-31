@@ -1,0 +1,330 @@
+[
+  {
+    "year": 2022,
+    "model": "width_only",
+    "dates": 4,
+    "pool_n": 69,
+    "selected_n": 25,
+    "selected_unique_stocks": 21,
+    "selected_successes": 3,
+    "selected_unknown": 0,
+    "selected_known_hit": 0.12,
+    "pool_rate": 0.10170454545454546,
+    "hit_rate": 0.11309523809523808,
+    "lift": 0.011390692640692632,
+    "per_date": [
+      {
+        "asof": "2022-03-31",
+        "pool": 22,
+        "selected": 8,
+        "pool_success": 2,
+        "selected_success": 0,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.0,
+        "lift": -0.09090909090909091
+      },
+      {
+        "asof": "2022-06-30",
+        "pool": 16,
+        "selected": 6,
+        "pool_success": 2,
+        "selected_success": 1,
+        "pool_rate": 0.125,
+        "hit_rate": 0.16666666666666666,
+        "lift": 0.04166666666666666
+      },
+      {
+        "asof": "2022-09-30",
+        "pool": 11,
+        "selected": 4,
+        "pool_success": 1,
+        "selected_success": 0,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.0,
+        "lift": -0.09090909090909091
+      },
+      {
+        "asof": "2022-12-30",
+        "pool": 20,
+        "selected": 7,
+        "pool_success": 2,
+        "selected_success": 2,
+        "pool_rate": 0.1,
+        "hit_rate": 0.2857142857142857,
+        "lift": 0.1857142857142857
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "model": "logistic",
+    "dates": 4,
+    "pool_n": 69,
+    "selected_n": 25,
+    "selected_unique_stocks": 20,
+    "selected_successes": 1,
+    "selected_unknown": 0,
+    "selected_known_hit": 0.04,
+    "pool_rate": 0.10170454545454546,
+    "hit_rate": 0.0625,
+    "lift": -0.03920454545454546,
+    "per_date": [
+      {
+        "asof": "2022-03-31",
+        "pool": 22,
+        "selected": 8,
+        "pool_success": 2,
+        "selected_success": 0,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.0,
+        "lift": -0.09090909090909091
+      },
+      {
+        "asof": "2022-06-30",
+        "pool": 16,
+        "selected": 6,
+        "pool_success": 2,
+        "selected_success": 0,
+        "pool_rate": 0.125,
+        "hit_rate": 0.0,
+        "lift": -0.125
+      },
+      {
+        "asof": "2022-09-30",
+        "pool": 11,
+        "selected": 4,
+        "pool_success": 1,
+        "selected_success": 1,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.25,
+        "lift": 0.1590909090909091
+      },
+      {
+        "asof": "2022-12-30",
+        "pool": 20,
+        "selected": 7,
+        "pool_success": 2,
+        "selected_success": 0,
+        "pool_rate": 0.1,
+        "hit_rate": 0.0,
+        "lift": -0.1
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "model": "random_forest",
+    "dates": 4,
+    "pool_n": 69,
+    "selected_n": 25,
+    "selected_unique_stocks": 22,
+    "selected_successes": 0,
+    "selected_unknown": 0,
+    "selected_known_hit": 0.0,
+    "pool_rate": 0.10170454545454546,
+    "hit_rate": 0.0,
+    "lift": -0.10170454545454546,
+    "per_date": [
+      {
+        "asof": "2022-03-31",
+        "pool": 22,
+        "selected": 8,
+        "pool_success": 2,
+        "selected_success": 0,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.0,
+        "lift": -0.09090909090909091
+      },
+      {
+        "asof": "2022-06-30",
+        "pool": 16,
+        "selected": 6,
+        "pool_success": 2,
+        "selected_success": 0,
+        "pool_rate": 0.125,
+        "hit_rate": 0.0,
+        "lift": -0.125
+      },
+      {
+        "asof": "2022-09-30",
+        "pool": 11,
+        "selected": 4,
+        "pool_success": 1,
+        "selected_success": 0,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.0,
+        "lift": -0.09090909090909091
+      },
+      {
+        "asof": "2022-12-30",
+        "pool": 20,
+        "selected": 7,
+        "pool_success": 2,
+        "selected_success": 0,
+        "pool_rate": 0.1,
+        "hit_rate": 0.0,
+        "lift": -0.1
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "model": "score",
+    "dates": 4,
+    "pool_n": 69,
+    "selected_n": 25,
+    "selected_unique_stocks": 24,
+    "selected_successes": 3,
+    "selected_unknown": 0,
+    "selected_known_hit": 0.12,
+    "pool_rate": 0.10170454545454546,
+    "hit_rate": 0.09821428571428571,
+    "lift": -0.003490259740259745,
+    "per_date": [
+      {
+        "asof": "2022-03-31",
+        "pool": 22,
+        "selected": 8,
+        "pool_success": 2,
+        "selected_success": 2,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.25,
+        "lift": 0.1590909090909091
+      },
+      {
+        "asof": "2022-06-30",
+        "pool": 16,
+        "selected": 6,
+        "pool_success": 2,
+        "selected_success": 0,
+        "pool_rate": 0.125,
+        "hit_rate": 0.0,
+        "lift": -0.125
+      },
+      {
+        "asof": "2022-09-30",
+        "pool": 11,
+        "selected": 4,
+        "pool_success": 1,
+        "selected_success": 0,
+        "pool_rate": 0.09090909090909091,
+        "hit_rate": 0.0,
+        "lift": -0.09090909090909091
+      },
+      {
+        "asof": "2022-12-30",
+        "pool": 20,
+        "selected": 7,
+        "pool_success": 2,
+        "selected_success": 1,
+        "pool_rate": 0.1,
+        "hit_rate": 0.14285714285714285,
+        "lift": 0.042857142857142844
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "model": "width_only",
+    "dates": 1,
+    "pool_n": 18,
+    "selected_n": 6,
+    "selected_unique_stocks": 6,
+    "selected_successes": 0,
+    "selected_unknown": 0,
+    "selected_known_hit": 0.0,
+    "pool_rate": 0.0,
+    "hit_rate": 0.0,
+    "lift": 0.0,
+    "per_date": [
+      {
+        "asof": "2023-03-31",
+        "pool": 18,
+        "selected": 6,
+        "pool_success": 0,
+        "selected_success": 0,
+        "pool_rate": 0.0,
+        "hit_rate": 0.0,
+        "lift": 0.0
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "model": "logistic",
+    "dates": 1,
+    "pool_n": 18,
+    "selected_n": 6,
+    "selected_unique_stocks": 6,
+    "selected_successes": 0,
+    "selected_unknown": 0,
+    "selected_known_hit": 0.0,
+    "pool_rate": 0.0,
+    "hit_rate": 0.0,
+    "lift": 0.0,
+    "per_date": [
+      {
+        "asof": "2023-03-31",
+        "pool": 18,
+        "selected": 6,
+        "pool_success": 0,
+        "selected_success": 0,
+        "pool_rate": 0.0,
+        "hit_rate": 0.0,
+        "lift": 0.0
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "model": "random_forest",
+    "dates": 1,
+    "pool_n": 18,
+    "selected_n": 6,
+    "selected_unique_stocks": 6,
+    "selected_successes": 0,
+    "selected_unknown": 0,
+    "selected_known_hit": 0.0,
+    "pool_rate": 0.0,
+    "hit_rate": 0.0,
+    "lift": 0.0,
+    "per_date": [
+      {
+        "asof": "2023-03-31",
+        "pool": 18,
+        "selected": 6,
+        "pool_success": 0,
+        "selected_success": 0,
+        "pool_rate": 0.0,
+        "hit_rate": 0.0,
+        "lift": 0.0
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "model": "score",
+    "dates": 1,
+    "pool_n": 18,
+    "selected_n": 6,
+    "selected_unique_stocks": 6,
+    "selected_successes": 0,
+    "selected_unknown": 0,
+    "selected_known_hit": 0.0,
+    "pool_rate": 0.0,
+    "hit_rate": 0.0,
+    "lift": 0.0,
+    "per_date": [
+      {
+        "asof": "2023-03-31",
+        "pool": 18,
+        "selected": 6,
+        "pool_success": 0,
+        "selected_success": 0,
+        "pool_rate": 0.0,
+        "hit_rate": 0.0,
+        "lift": 0.0
+      }
+    ]
+  }
+]

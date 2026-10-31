@@ -1,0 +1,25 @@
+{
+  "kind": "adjust_factor",
+  "code": "sh.600000",
+  "requested_event_year": 2020,
+  "status": "returned",
+  "complete_ledger": false,
+  "error_code": "0",
+  "fields": [
+    "code",
+    "dividOperateDate",
+    "foreAdjustFactor",
+    "backAdjustFactor",
+    "adjustFactor"
+  ],
+  "rows": [
+    [
+      "sh.600000",
+      "2020-07-23",
+      "0.771461",
+      "10.312133",
+      "10.312133"
+    ]
+  ],
+  "worker_exit_code": 0
+}

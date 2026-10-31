@@ -1,0 +1,30 @@
+{
+  "status": "frozen_before_results",
+  "attempt": 2,
+  "supersedes_failed_pre_result_freeze": "PRE_RUN_FREEZE_ATTEMPT1.json",
+  "pre_result_failure_audit": "PRE_RUN_FAILURES.json",
+  "instruction_boundary_version": "public-pre2025-v2",
+  "context_isolation_check": {
+    "boundary_version_exact_match": true,
+    "initial_context_contained_post_2024_market_or_performance_results": false,
+    "restricted_paths_read": false
+  },
+  "result_files_present_when_frozen": false,
+  "candidate_ids": [
+    "baseline",
+    "online_w504_m025",
+    "online_w504_m050",
+    "online_w756_m025",
+    "online_w756_m050"
+  ],
+  "sha256": {
+    "SEARCH_SPACE.json": "f8b1734f600387f9a30624c905aeb995487b5a5e93d9ced6e78e802cfcc28925",
+    "run_v7.py": "a73bd440147ae6d8e0b6a7f6999073783d058588b14fbfcd6f776b4b2ab22df5",
+    "PROTOCOL_V7.md": "82d8da83538a9c13798ccb84de401fdb67a0c4fb088fae0119e0c1c8d8d6f753",
+    "PUBLIC_INPUT_MANIFEST.json": "fd4bfbc19b7af7155d5047615e1f5e94c0a84303bc219251f3564d131aa71ce2",
+    "supermind_hushen_1.py": "a573941eb69f850536288ba5ce4333d943c2eb4862e7f3a518e46dd55cc653fd",
+    "backtest/engine.py": "9e2f9f025664125119fb5ae3e4f52245d234c97c7e82bd2791776e35eaf80610",
+    "backtest/ledger.py": "8ac82b9918c590c58462fdd39f3fe976eddafcdef9b02165490c3ccdd3e103f6",
+    "backtest/actions.py": "c38764ea213138b36ce741e2529f13d7f8e32d835f589afc61be28614d1d6f8b"
+  }
+}

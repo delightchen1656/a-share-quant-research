@@ -1,0 +1,156 @@
+{
+  "scope": "2018..2023 observed training only, no holdout",
+  "stages": {
+    "stage1": 820800,
+    "stage2_unique_within_stage": 435500,
+    "total_evaluations_including_cross_stage_repeats": 1256300
+  },
+  "best_parameters": {
+    "fast": 14,
+    "slow": 15,
+    "entry_buffer": -0.02,
+    "exit_buffer": -0.005,
+    "breakout": 86,
+    "stop": 0.07,
+    "cooldown": 2,
+    "entry_filter": "none"
+  },
+  "best": {
+    "label": "best",
+    "cumulative_return": 6.462445537770791,
+    "annualized_return": 0.3988673841054109,
+    "max_drawdown": 0.3584733338711573,
+    "buy_fills": 432,
+    "sell_fills": 432,
+    "closed_trades": 432,
+    "open_trades": 0,
+    "closed_win_rate": 0.5370370370370371,
+    "limit_fill_count": 6,
+    "first_effective_date": "2018-05-16 00:00:00",
+    "first_signal_date": "2018-05-16 00:00:00",
+    "one_way_cost_bps": 0
+  },
+  "old_training_winner": {
+    "label": "old_training_winner",
+    "cumulative_return": 1.2069333171965284,
+    "annualized_return": 0.14133969084580578,
+    "max_drawdown": 0.49930305559524657,
+    "buy_fills": 64,
+    "sell_fills": 63,
+    "closed_trades": 63,
+    "open_trades": 1,
+    "closed_win_rate": 0.4126984126984127,
+    "limit_fill_count": 2,
+    "first_effective_date": "2018-03-06 00:00:00",
+    "first_signal_date": "2018-03-08 00:00:00",
+    "one_way_cost_bps": 0
+  },
+  "original_reference": {
+    "label": "original_reference",
+    "cumulative_return": -0.444072849933155,
+    "annualized_return": -0.09339854289195815,
+    "max_drawdown": 0.5708678723476344,
+    "buy_fills": 38,
+    "sell_fills": 38,
+    "closed_trades": 38,
+    "open_trades": 0,
+    "closed_win_rate": 0.34210526315789475,
+    "limit_fill_count": 0,
+    "first_effective_date": "2018-07-03 00:00:00",
+    "first_signal_date": "2019-03-07 00:00:00",
+    "one_way_cost_bps": 0
+  },
+  "cumulative_return_improvement_percentage_points": 525.5512220574262,
+  "buy_hold_return": -0.3408962471365352,
+  "best_cumulative_excess_vs_buy_hold": 6.803341784907326,
+  "validations": [
+    {
+      "label": "best",
+      "second_engine": true,
+      "trade_compounding": true,
+      "prefix_cuts": [
+        300,
+        600,
+        900,
+        1200
+      ],
+      "next_bar": true
+    },
+    {
+      "label": "old_training_winner",
+      "second_engine": true,
+      "trade_compounding": true,
+      "prefix_cuts": [
+        300,
+        600,
+        900,
+        1200
+      ],
+      "next_bar": true
+    },
+    {
+      "label": "original_reference",
+      "second_engine": true,
+      "trade_compounding": true,
+      "prefix_cuts": [
+        300,
+        600,
+        900,
+        1200
+      ],
+      "next_bar": true
+    }
+  ],
+  "objective": "maximum cumulative gross qfq fractional-share return over entire authorized observed interval; no drawdown/risk/annual/time-split constraints",
+  "selection_note": "Highest of two predeclared finite search stages, no global optimum or future efficacy claim; drawdown only reported and tie-broken.",
+  "limitations": [
+    "Previously observed full interval; aggressive in-sample optimization can overfit.",
+    "Gross qfq fractional-share observation, not actual corporate-action account, integer lots or guaranteed fills.",
+    "Raw preclose/isST 10%/5% estimated limit flags, not official exchange limit validation.",
+    "No fees/slippage in objective; separately stated proportional-cost sensitivity is idealized reporting.",
+    "Daily-close drawdown, no intraday drawdown."
+  ],
+  "post_search_structural_diagnostic": {
+    "note": "Grouping of existing searched records only, does not change unconstrained primary ranking. Both nonoverlap and nonnegative-buffer groups share this record; fixed ledger recomputed, not an added search stage.",
+    "parameters": {
+      "fast": 18,
+      "slow": 40,
+      "entry_buffer": 0.0,
+      "exit_buffer": 0.025,
+      "breakout": 2,
+      "stop": 0.03,
+      "cooldown": 9,
+      "entry_filter": "none"
+    },
+    "result": {
+      "label": "structural_nonnegative",
+      "cumulative_return": 4.418511265587095,
+      "annualized_return": 0.3260578990799412,
+      "max_drawdown": 0.3150632061664911,
+      "buy_fills": 66,
+      "sell_fills": 66,
+      "closed_trades": 66,
+      "open_trades": 0,
+      "closed_win_rate": 0.48484848484848486,
+      "limit_fill_count": 0,
+      "first_effective_date": "2018-03-06 00:00:00",
+      "first_signal_date": "2018-03-08 00:00:00",
+      "one_way_cost_bps": 0
+    },
+    "ledger_recompute_equal": true
+  },
+  "training_mechanism": {
+    "overlapping_MA_thresholds": "entry MA14>0.98*MA15 and exit MA14<1.005*MA15 overlap; state machine alternates entry/exit, not conventional trend-following confirmation.",
+    "one_bar_holding_closed_trades": 403,
+    "mean_holding_tradable_bars": 1.1689814814814814,
+    "holding_fraction": 0.34684065934065933,
+    "unfilled_final_signal": "Final-day buy signal has no following quote within authorized interval; no final fill invented.",
+    "warmup_and_phase": "All windows must be ready; breakout86 affects first eligible day even when MA branch dominates. Cooldown and warmup can align periodic trade timing in-sample. No date-specific filters used; this does not prove learned causal trends."
+  },
+  "code_and_plan_hashes": {
+    "research.py": "145d770abdee684882c970253a60aa9c04e898e3a23a01cd5ace22ce9a3cc49f",
+    "finalize.py": "fb91086d61fe84f2a5d0fed98a74ca009990a584d04b41a331a133bb8413e10f",
+    "SEARCH_PLAN.json": "3775050e328c07895ab85bd8b1f7f80b633cde477b58bddd36b9efefbc40473d",
+    "STAGE2_SEEDS.csv": "0c3076a7fbf1d8e388607f869f2c8398ee47a214f83ef45b2d8cdad6441f8a5a"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "passed": [
+    "fee_switches_and_lot_budget",
+    "T1_and_SL_before_TP",
+    "gap_stop_open_price",
+    "trailing_previous_close_only",
+    "split_and_dividend_timing_reconciles",
+    "stock_release_date_delays_exit",
+    "official_calendar_D0_plus_H",
+    "close_proceeds_cannot_fund_same_open",
+    "unexplained_factor_blocks",
+    "unknown_quotes_retained_and_flagged_never_certified",
+    "identical_entitlements_merged_despite_tax_note",
+    "conflicting_entitlements_block_without_evidence",
+    "conflict_resolved_only_by_unique_price_factor_evidence"
+  ],
+  "count": 13
+}

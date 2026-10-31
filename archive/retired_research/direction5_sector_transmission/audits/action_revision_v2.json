@@ -1,0 +1,17 @@
+{
+  "parent_version": "corporate_actions_reconciled_v1",
+  "parent_ledger_sha256": "25830f64a438d424bb10801a92f970786dc6b5880a828eb3e30ae6db894b06a2",
+  "parent_data_registration_hashes_verified": true,
+  "original_unresolved_event_groups": 23,
+  "corrected_existing_event_groups": 20,
+  "misdated_duplicate_events_removed": 2,
+  "remaining_unresolved_event_groups": 1,
+  "issuer_dividend_events_added": 12,
+  "event_groups": 15941,
+  "complete_event_fields": 15940,
+  "identity_changes_used_only_for_retrospective_source_matching": true,
+  "new_identity_links_not_applied_to_asof_industry_inputs": true,
+  "mirror_notice_text_is_not_original_pdf_visual_verification": true,
+  "complete_corporate_action_ledger": false,
+  "economic_labels_ready": false
+}

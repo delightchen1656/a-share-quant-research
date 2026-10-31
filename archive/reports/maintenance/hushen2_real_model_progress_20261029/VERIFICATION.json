@@ -1,0 +1,2159 @@
+{
+  "source_market_hash_before": "81861877a969bb0d32f5892d2058a48f2905035719519bbb85a7d3fa652b63e7",
+  "account_written": false,
+  "events": [
+    {
+      "elapsed": 0.7,
+      "message": "核验冻结策略登记、模型与原始结果哈希",
+      "percent": 0.0
+    },
+    {
+      "elapsed": 2.16,
+      "message": "读取并计算本地完整历史特征",
+      "percent": 3.0
+    },
+    {
+      "elapsed": 2.19,
+      "message": "feature files 0/3396",
+      "percent": 3.0
+    },
+    {
+      "elapsed": 2.59,
+      "message": "feature files 20/3396",
+      "percent": 3.363663133097762
+    },
+    {
+      "elapsed": 2.98,
+      "message": "feature files 40/3396",
+      "percent": 3.727326266195524
+    },
+    {
+      "elapsed": 3.36,
+      "message": "feature files 60/3396",
+      "percent": 4.090989399293286
+    },
+    {
+      "elapsed": 3.7,
+      "message": "feature files 80/3396",
+      "percent": 4.454652532391048
+    },
+    {
+      "elapsed": 4.05,
+      "message": "feature files 100/3396",
+      "percent": 4.818315665488811
+    },
+    {
+      "elapsed": 4.41,
+      "message": "feature files 120/3396",
+      "percent": 5.181978798586572
+    },
+    {
+      "elapsed": 4.75,
+      "message": "feature files 140/3396",
+      "percent": 5.545641931684335
+    },
+    {
+      "elapsed": 5.09,
+      "message": "feature files 160/3396",
+      "percent": 5.909305064782096
+    },
+    {
+      "elapsed": 5.44,
+      "message": "feature files 180/3396",
+      "percent": 6.272968197879859
+    },
+    {
+      "elapsed": 5.8,
+      "message": "feature files 200/3396",
+      "percent": 6.636631330977621
+    },
+    {
+      "elapsed": 6.12,
+      "message": "feature files 220/3396",
+      "percent": 7.000294464075383
+    },
+    {
+      "elapsed": 6.45,
+      "message": "feature files 240/3396",
+      "percent": 7.363957597173145
+    },
+    {
+      "elapsed": 6.83,
+      "message": "feature files 260/3396",
+      "percent": 7.727620730270907
+    },
+    {
+      "elapsed": 7.16,
+      "message": "feature files 280/3396",
+      "percent": 8.09128386336867
+    },
+    {
+      "elapsed": 7.53,
+      "message": "feature files 300/3396",
+      "percent": 8.45494699646643
+    },
+    {
+      "elapsed": 7.88,
+      "message": "feature files 320/3396",
+      "percent": 8.818610129564192
+    },
+    {
+      "elapsed": 8.23,
+      "message": "feature files 340/3396",
+      "percent": 9.182273262661955
+    },
+    {
+      "elapsed": 8.58,
+      "message": "feature files 360/3396",
+      "percent": 9.545936395759718
+    },
+    {
+      "elapsed": 8.92,
+      "message": "feature files 380/3396",
+      "percent": 9.909599528857479
+    },
+    {
+      "elapsed": 9.28,
+      "message": "feature files 400/3396",
+      "percent": 10.273262661955242
+    },
+    {
+      "elapsed": 9.64,
+      "message": "feature files 420/3396",
+      "percent": 10.636925795053003
+    },
+    {
+      "elapsed": 9.98,
+      "message": "feature files 440/3396",
+      "percent": 11.000588928150766
+    },
+    {
+      "elapsed": 10.33,
+      "message": "feature files 460/3396",
+      "percent": 11.364252061248527
+    },
+    {
+      "elapsed": 10.69,
+      "message": "feature files 480/3396",
+      "percent": 11.72791519434629
+    },
+    {
+      "elapsed": 11.05,
+      "message": "feature files 500/3396",
+      "percent": 12.09157832744405
+    },
+    {
+      "elapsed": 11.39,
+      "message": "feature files 520/3396",
+      "percent": 12.455241460541814
+    },
+    {
+      "elapsed": 11.75,
+      "message": "feature files 540/3396",
+      "percent": 12.818904593639575
+    },
+    {
+      "elapsed": 12.12,
+      "message": "feature files 560/3396",
+      "percent": 13.182567726737338
+    },
+    {
+      "elapsed": 12.47,
+      "message": "feature files 580/3396",
+      "percent": 13.546230859835099
+    },
+    {
+      "elapsed": 12.83,
+      "message": "feature files 600/3396",
+      "percent": 13.909893992932862
+    },
+    {
+      "elapsed": 13.19,
+      "message": "feature files 620/3396",
+      "percent": 14.273557126030623
+    },
+    {
+      "elapsed": 13.52,
+      "message": "feature files 640/3396",
+      "percent": 14.637220259128386
+    },
+    {
+      "elapsed": 13.84,
+      "message": "feature files 660/3396",
+      "percent": 15.000883392226147
+    },
+    {
+      "elapsed": 14.2,
+      "message": "feature files 680/3396",
+      "percent": 15.36454652532391
+    },
+    {
+      "elapsed": 14.55,
+      "message": "feature files 700/3396",
+      "percent": 15.72820965842167
+    },
+    {
+      "elapsed": 14.89,
+      "message": "feature files 720/3396",
+      "percent": 16.091872791519435
+    },
+    {
+      "elapsed": 15.22,
+      "message": "feature files 740/3396",
+      "percent": 16.455535924617195
+    },
+    {
+      "elapsed": 15.56,
+      "message": "feature files 760/3396",
+      "percent": 16.819199057714957
+    },
+    {
+      "elapsed": 15.89,
+      "message": "feature files 780/3396",
+      "percent": 17.18286219081272
+    },
+    {
+      "elapsed": 16.23,
+      "message": "feature files 800/3396",
+      "percent": 17.546525323910483
+    },
+    {
+      "elapsed": 16.64,
+      "message": "feature files 820/3396",
+      "percent": 17.910188457008246
+    },
+    {
+      "elapsed": 17.0,
+      "message": "feature files 840/3396",
+      "percent": 18.273851590106005
+    },
+    {
+      "elapsed": 17.33,
+      "message": "feature files 860/3396",
+      "percent": 18.637514723203772
+    },
+    {
+      "elapsed": 17.69,
+      "message": "feature files 880/3396",
+      "percent": 19.00117785630153
+    },
+    {
+      "elapsed": 18.02,
+      "message": "feature files 900/3396",
+      "percent": 19.36484098939929
+    },
+    {
+      "elapsed": 18.38,
+      "message": "feature files 920/3396",
+      "percent": 19.728504122497053
+    },
+    {
+      "elapsed": 18.73,
+      "message": "feature files 940/3396",
+      "percent": 20.09216725559482
+    },
+    {
+      "elapsed": 19.08,
+      "message": "feature files 960/3396",
+      "percent": 20.45583038869258
+    },
+    {
+      "elapsed": 19.42,
+      "message": "feature files 980/3396",
+      "percent": 20.819493521790342
+    },
+    {
+      "elapsed": 19.77,
+      "message": "feature files 1000/3396",
+      "percent": 21.1831566548881
+    },
+    {
+      "elapsed": 20.12,
+      "message": "feature files 1020/3396",
+      "percent": 21.546819787985868
+    },
+    {
+      "elapsed": 20.48,
+      "message": "feature files 1040/3396",
+      "percent": 21.910482921083627
+    },
+    {
+      "elapsed": 20.84,
+      "message": "feature files 1060/3396",
+      "percent": 22.27414605418139
+    },
+    {
+      "elapsed": 21.19,
+      "message": "feature files 1080/3396",
+      "percent": 22.63780918727915
+    },
+    {
+      "elapsed": 21.53,
+      "message": "feature files 1100/3396",
+      "percent": 23.001472320376916
+    },
+    {
+      "elapsed": 21.86,
+      "message": "feature files 1120/3396",
+      "percent": 23.365135453474675
+    },
+    {
+      "elapsed": 22.19,
+      "message": "feature files 1140/3396",
+      "percent": 23.728798586572438
+    },
+    {
+      "elapsed": 22.55,
+      "message": "feature files 1160/3396",
+      "percent": 24.092461719670197
+    },
+    {
+      "elapsed": 22.88,
+      "message": "feature files 1180/3396",
+      "percent": 24.456124852767964
+    },
+    {
+      "elapsed": 23.2,
+      "message": "feature files 1200/3396",
+      "percent": 24.819787985865723
+    },
+    {
+      "elapsed": 23.53,
+      "message": "feature files 1220/3396",
+      "percent": 25.183451118963486
+    },
+    {
+      "elapsed": 23.88,
+      "message": "feature files 1240/3396",
+      "percent": 25.547114252061245
+    },
+    {
+      "elapsed": 24.22,
+      "message": "feature files 1260/3396",
+      "percent": 25.91077738515901
+    },
+    {
+      "elapsed": 24.53,
+      "message": "feature files 1280/3396",
+      "percent": 26.27444051825677
+    },
+    {
+      "elapsed": 24.86,
+      "message": "feature files 1300/3396",
+      "percent": 26.638103651354534
+    },
+    {
+      "elapsed": 25.22,
+      "message": "feature files 1320/3396",
+      "percent": 27.001766784452293
+    },
+    {
+      "elapsed": 25.55,
+      "message": "feature files 1340/3396",
+      "percent": 27.365429917550056
+    },
+    {
+      "elapsed": 25.88,
+      "message": "feature files 1360/3396",
+      "percent": 27.72909305064782
+    },
+    {
+      "elapsed": 26.19,
+      "message": "feature files 1380/3396",
+      "percent": 28.092756183745582
+    },
+    {
+      "elapsed": 26.48,
+      "message": "feature files 1400/3396",
+      "percent": 28.45641931684334
+    },
+    {
+      "elapsed": 26.8,
+      "message": "feature files 1420/3396",
+      "percent": 28.820082449941104
+    },
+    {
+      "elapsed": 27.14,
+      "message": "feature files 1440/3396",
+      "percent": 29.183745583038867
+    },
+    {
+      "elapsed": 27.47,
+      "message": "feature files 1460/3396",
+      "percent": 29.54740871613663
+    },
+    {
+      "elapsed": 27.81,
+      "message": "feature files 1480/3396",
+      "percent": 29.91107184923439
+    },
+    {
+      "elapsed": 28.19,
+      "message": "feature files 1500/3396",
+      "percent": 30.274734982332152
+    },
+    {
+      "elapsed": 28.52,
+      "message": "feature files 1520/3396",
+      "percent": 30.638398115429915
+    },
+    {
+      "elapsed": 28.86,
+      "message": "feature files 1540/3396",
+      "percent": 31.00206124852768
+    },
+    {
+      "elapsed": 29.22,
+      "message": "feature files 1560/3396",
+      "percent": 31.36572438162544
+    },
+    {
+      "elapsed": 29.56,
+      "message": "feature files 1580/3396",
+      "percent": 31.729387514723204
+    },
+    {
+      "elapsed": 29.89,
+      "message": "feature files 1600/3396",
+      "percent": 32.09305064782097
+    },
+    {
+      "elapsed": 30.25,
+      "message": "feature files 1620/3396",
+      "percent": 32.45671378091873
+    },
+    {
+      "elapsed": 30.59,
+      "message": "feature files 1640/3396",
+      "percent": 32.82037691401649
+    },
+    {
+      "elapsed": 30.92,
+      "message": "feature files 1660/3396",
+      "percent": 33.18404004711425
+    },
+    {
+      "elapsed": 31.25,
+      "message": "feature files 1680/3396",
+      "percent": 33.54770318021201
+    },
+    {
+      "elapsed": 31.58,
+      "message": "feature files 1700/3396",
+      "percent": 33.91136631330978
+    },
+    {
+      "elapsed": 31.91,
+      "message": "feature files 1720/3396",
+      "percent": 34.275029446407544
+    },
+    {
+      "elapsed": 32.22,
+      "message": "feature files 1740/3396",
+      "percent": 34.6386925795053
+    },
+    {
+      "elapsed": 32.55,
+      "message": "feature files 1760/3396",
+      "percent": 35.00235571260306
+    },
+    {
+      "elapsed": 32.89,
+      "message": "feature files 1780/3396",
+      "percent": 35.36601884570082
+    },
+    {
+      "elapsed": 33.22,
+      "message": "feature files 1800/3396",
+      "percent": 35.72968197879858
+    },
+    {
+      "elapsed": 33.56,
+      "message": "feature files 1820/3396",
+      "percent": 36.09334511189635
+    },
+    {
+      "elapsed": 33.92,
+      "message": "feature files 1840/3396",
+      "percent": 36.45700824499411
+    },
+    {
+      "elapsed": 34.27,
+      "message": "feature files 1860/3396",
+      "percent": 36.82067137809187
+    },
+    {
+      "elapsed": 34.61,
+      "message": "feature files 1880/3396",
+      "percent": 37.18433451118964
+    },
+    {
+      "elapsed": 34.98,
+      "message": "feature files 1900/3396",
+      "percent": 37.5479976442874
+    },
+    {
+      "elapsed": 35.33,
+      "message": "feature files 1920/3396",
+      "percent": 37.91166077738516
+    },
+    {
+      "elapsed": 35.66,
+      "message": "feature files 1940/3396",
+      "percent": 38.27532391048292
+    },
+    {
+      "elapsed": 36.02,
+      "message": "feature files 1960/3396",
+      "percent": 38.638987043580684
+    },
+    {
+      "elapsed": 36.58,
+      "message": "feature files 1980/3396",
+      "percent": 39.00265017667845
+    },
+    {
+      "elapsed": 37.14,
+      "message": "feature files 2000/3396",
+      "percent": 39.3663133097762
+    },
+    {
+      "elapsed": 37.66,
+      "message": "feature files 2020/3396",
+      "percent": 39.72997644287397
+    },
+    {
+      "elapsed": 38.23,
+      "message": "feature files 2040/3396",
+      "percent": 40.093639575971736
+    },
+    {
+      "elapsed": 38.77,
+      "message": "feature files 2060/3396",
+      "percent": 40.457302709069495
+    },
+    {
+      "elapsed": 39.34,
+      "message": "feature files 2080/3396",
+      "percent": 40.820965842167254
+    },
+    {
+      "elapsed": 39.86,
+      "message": "feature files 2100/3396",
+      "percent": 41.184628975265014
+    },
+    {
+      "elapsed": 40.42,
+      "message": "feature files 2120/3396",
+      "percent": 41.54829210836278
+    },
+    {
+      "elapsed": 40.95,
+      "message": "feature files 2140/3396",
+      "percent": 41.91195524146055
+    },
+    {
+      "elapsed": 41.48,
+      "message": "feature files 2160/3396",
+      "percent": 42.2756183745583
+    },
+    {
+      "elapsed": 42.05,
+      "message": "feature files 2180/3396",
+      "percent": 42.639281507656065
+    },
+    {
+      "elapsed": 42.59,
+      "message": "feature files 2200/3396",
+      "percent": 43.00294464075383
+    },
+    {
+      "elapsed": 43.14,
+      "message": "feature files 2220/3396",
+      "percent": 43.36660777385159
+    },
+    {
+      "elapsed": 43.66,
+      "message": "feature files 2240/3396",
+      "percent": 43.73027090694935
+    },
+    {
+      "elapsed": 44.22,
+      "message": "feature files 2260/3396",
+      "percent": 44.09393404004711
+    },
+    {
+      "elapsed": 44.73,
+      "message": "feature files 2280/3396",
+      "percent": 44.457597173144876
+    },
+    {
+      "elapsed": 45.2,
+      "message": "feature files 2300/3396",
+      "percent": 44.82126030624264
+    },
+    {
+      "elapsed": 45.67,
+      "message": "feature files 2320/3396",
+      "percent": 45.184923439340395
+    },
+    {
+      "elapsed": 46.12,
+      "message": "feature files 2340/3396",
+      "percent": 45.54858657243816
+    },
+    {
+      "elapsed": 46.59,
+      "message": "feature files 2360/3396",
+      "percent": 45.91224970553593
+    },
+    {
+      "elapsed": 47.06,
+      "message": "feature files 2380/3396",
+      "percent": 46.27591283863369
+    },
+    {
+      "elapsed": 47.58,
+      "message": "feature files 2400/3396",
+      "percent": 46.639575971731446
+    },
+    {
+      "elapsed": 48.12,
+      "message": "feature files 2420/3396",
+      "percent": 47.003239104829206
+    },
+    {
+      "elapsed": 48.67,
+      "message": "feature files 2440/3396",
+      "percent": 47.36690223792697
+    },
+    {
+      "elapsed": 49.19,
+      "message": "feature files 2460/3396",
+      "percent": 47.73056537102474
+    },
+    {
+      "elapsed": 49.72,
+      "message": "feature files 2480/3396",
+      "percent": 48.09422850412249
+    },
+    {
+      "elapsed": 50.28,
+      "message": "feature files 2500/3396",
+      "percent": 48.45789163722026
+    },
+    {
+      "elapsed": 50.86,
+      "message": "feature files 2520/3396",
+      "percent": 48.82155477031802
+    },
+    {
+      "elapsed": 51.38,
+      "message": "feature files 2540/3396",
+      "percent": 49.18521790341578
+    },
+    {
+      "elapsed": 51.97,
+      "message": "feature files 2560/3396",
+      "percent": 49.54888103651354
+    },
+    {
+      "elapsed": 52.48,
+      "message": "feature files 2580/3396",
+      "percent": 49.9125441696113
+    },
+    {
+      "elapsed": 53.05,
+      "message": "feature files 2600/3396",
+      "percent": 50.27620730270907
+    },
+    {
+      "elapsed": 53.59,
+      "message": "feature files 2620/3396",
+      "percent": 50.639870435806834
+    },
+    {
+      "elapsed": 54.12,
+      "message": "feature files 2640/3396",
+      "percent": 51.00353356890459
+    },
+    {
+      "elapsed": 54.64,
+      "message": "feature files 2660/3396",
+      "percent": 51.36719670200235
+    },
+    {
+      "elapsed": 55.25,
+      "message": "feature files 2680/3396",
+      "percent": 51.73085983510011
+    },
+    {
+      "elapsed": 55.78,
+      "message": "feature files 2700/3396",
+      "percent": 52.09452296819787
+    },
+    {
+      "elapsed": 56.36,
+      "message": "feature files 2720/3396",
+      "percent": 52.45818610129564
+    },
+    {
+      "elapsed": 56.88,
+      "message": "feature files 2740/3396",
+      "percent": 52.8218492343934
+    },
+    {
+      "elapsed": 57.42,
+      "message": "feature files 2760/3396",
+      "percent": 53.185512367491164
+    },
+    {
+      "elapsed": 58.06,
+      "message": "feature files 2780/3396",
+      "percent": 53.54917550058892
+    },
+    {
+      "elapsed": 58.58,
+      "message": "feature files 2800/3396",
+      "percent": 53.91283863368668
+    },
+    {
+      "elapsed": 59.11,
+      "message": "feature files 2820/3396",
+      "percent": 54.27650176678445
+    },
+    {
+      "elapsed": 59.67,
+      "message": "feature files 2840/3396",
+      "percent": 54.64016489988221
+    },
+    {
+      "elapsed": 60.22,
+      "message": "feature files 2860/3396",
+      "percent": 55.00382803297997
+    },
+    {
+      "elapsed": 60.73,
+      "message": "feature files 2880/3396",
+      "percent": 55.367491166077734
+    },
+    {
+      "elapsed": 61.25,
+      "message": "feature files 2900/3396",
+      "percent": 55.73115429917549
+    },
+    {
+      "elapsed": 61.81,
+      "message": "feature files 2920/3396",
+      "percent": 56.09481743227326
+    },
+    {
+      "elapsed": 62.39,
+      "message": "feature files 2940/3396",
+      "percent": 56.45848056537102
+    },
+    {
+      "elapsed": 62.97,
+      "message": "feature files 2960/3396",
+      "percent": 56.82214369846878
+    },
+    {
+      "elapsed": 63.5,
+      "message": "feature files 2980/3396",
+      "percent": 57.185806831566545
+    },
+    {
+      "elapsed": 64.05,
+      "message": "feature files 3000/3396",
+      "percent": 57.549469964664304
+    },
+    {
+      "elapsed": 64.59,
+      "message": "feature files 3020/3396",
+      "percent": 57.91313309776206
+    },
+    {
+      "elapsed": 65.12,
+      "message": "feature files 3040/3396",
+      "percent": 58.27679623085983
+    },
+    {
+      "elapsed": 65.67,
+      "message": "feature files 3060/3396",
+      "percent": 58.640459363957596
+    },
+    {
+      "elapsed": 66.19,
+      "message": "feature files 3080/3396",
+      "percent": 59.00412249705536
+    },
+    {
+      "elapsed": 66.73,
+      "message": "feature files 3100/3396",
+      "percent": 59.36778563015312
+    },
+    {
+      "elapsed": 67.27,
+      "message": "feature files 3120/3396",
+      "percent": 59.73144876325088
+    },
+    {
+      "elapsed": 67.8,
+      "message": "feature files 3140/3396",
+      "percent": 60.09511189634865
+    },
+    {
+      "elapsed": 68.34,
+      "message": "feature files 3160/3396",
+      "percent": 60.45877502944641
+    },
+    {
+      "elapsed": 68.91,
+      "message": "feature files 3180/3396",
+      "percent": 60.82243816254417
+    },
+    {
+      "elapsed": 69.45,
+      "message": "feature files 3200/3396",
+      "percent": 61.18610129564193
+    },
+    {
+      "elapsed": 70.02,
+      "message": "feature files 3220/3396",
+      "percent": 61.54976442873969
+    },
+    {
+      "elapsed": 70.52,
+      "message": "feature files 3240/3396",
+      "percent": 61.91342756183746
+    },
+    {
+      "elapsed": 71.03,
+      "message": "feature files 3260/3396",
+      "percent": 62.27709069493522
+    },
+    {
+      "elapsed": 71.59,
+      "message": "feature files 3280/3396",
+      "percent": 62.64075382803298
+    },
+    {
+      "elapsed": 72.09,
+      "message": "feature files 3300/3396",
+      "percent": 63.004416961130744
+    },
+    {
+      "elapsed": 72.62,
+      "message": "feature files 3320/3396",
+      "percent": 63.3680800942285
+    },
+    {
+      "elapsed": 73.12,
+      "message": "feature files 3340/3396",
+      "percent": 63.73174322732626
+    },
+    {
+      "elapsed": 73.67,
+      "message": "feature files 3360/3396",
+      "percent": 64.09540636042402
+    },
+    {
+      "elapsed": 74.14,
+      "message": "feature files 3380/3396",
+      "percent": 64.45906949352178
+    },
+    {
+      "elapsed": 74.56,
+      "message": "feature files 3396/3396",
+      "percent": 64.75
+    },
+    {
+      "elapsed": 74.56,
+      "message": "历史特征合并与日期代码完整性核验",
+      "percent": 64.75
+    },
+    {
+      "elapsed": 77.41,
+      "message": "校验并加载冻结模型 utility",
+      "percent": 68.0
+    },
+    {
+      "elapsed": 78.7,
+      "message": "冻结模型 utility 预测中 · rows 0/3911242",
+      "percent": 68.0
+    },
+    {
+      "elapsed": 78.88,
+      "message": "冻结模型 utility 预测中 · rows 50000/3911242",
+      "percent": 68.10525215945898
+    },
+    {
+      "elapsed": 79.06,
+      "message": "冻结模型 utility 预测中 · rows 100000/3911242",
+      "percent": 68.21050431891797
+    },
+    {
+      "elapsed": 79.23,
+      "message": "冻结模型 utility 预测中 · rows 150000/3911242",
+      "percent": 68.31575647837694
+    },
+    {
+      "elapsed": 79.41,
+      "message": "冻结模型 utility 预测中 · rows 200000/3911242",
+      "percent": 68.42100863783593
+    },
+    {
+      "elapsed": 79.58,
+      "message": "冻结模型 utility 预测中 · rows 250000/3911242",
+      "percent": 68.52626079729491
+    },
+    {
+      "elapsed": 79.75,
+      "message": "冻结模型 utility 预测中 · rows 300000/3911242",
+      "percent": 68.6315129567539
+    },
+    {
+      "elapsed": 79.91,
+      "message": "冻结模型 utility 预测中 · rows 350000/3911242",
+      "percent": 68.73676511621287
+    },
+    {
+      "elapsed": 80.08,
+      "message": "冻结模型 utility 预测中 · rows 400000/3911242",
+      "percent": 68.84201727567185
+    },
+    {
+      "elapsed": 80.25,
+      "message": "冻结模型 utility 预测中 · rows 450000/3911242",
+      "percent": 68.94726943513083
+    },
+    {
+      "elapsed": 80.42,
+      "message": "冻结模型 utility 预测中 · rows 500000/3911242",
+      "percent": 69.05252159458982
+    },
+    {
+      "elapsed": 80.59,
+      "message": "冻结模型 utility 预测中 · rows 550000/3911242",
+      "percent": 69.1577737540488
+    },
+    {
+      "elapsed": 80.77,
+      "message": "冻结模型 utility 预测中 · rows 600000/3911242",
+      "percent": 69.26302591350778
+    },
+    {
+      "elapsed": 80.92,
+      "message": "冻结模型 utility 预测中 · rows 650000/3911242",
+      "percent": 69.36827807296676
+    },
+    {
+      "elapsed": 81.09,
+      "message": "冻结模型 utility 预测中 · rows 700000/3911242",
+      "percent": 69.47353023242574
+    },
+    {
+      "elapsed": 81.25,
+      "message": "冻结模型 utility 预测中 · rows 750000/3911242",
+      "percent": 69.57878239188473
+    },
+    {
+      "elapsed": 81.42,
+      "message": "冻结模型 utility 预测中 · rows 800000/3911242",
+      "percent": 69.68403455134371
+    },
+    {
+      "elapsed": 81.58,
+      "message": "冻结模型 utility 预测中 · rows 850000/3911242",
+      "percent": 69.78928671080268
+    },
+    {
+      "elapsed": 81.73,
+      "message": "冻结模型 utility 预测中 · rows 900000/3911242",
+      "percent": 69.89453887026167
+    },
+    {
+      "elapsed": 81.89,
+      "message": "冻结模型 utility 预测中 · rows 950000/3911242",
+      "percent": 69.99979102972065
+    },
+    {
+      "elapsed": 82.05,
+      "message": "冻结模型 utility 预测中 · rows 1000000/3911242",
+      "percent": 70.10504318917964
+    },
+    {
+      "elapsed": 82.2,
+      "message": "冻结模型 utility 预测中 · rows 1050000/3911242",
+      "percent": 70.21029534863861
+    },
+    {
+      "elapsed": 82.36,
+      "message": "冻结模型 utility 预测中 · rows 1100000/3911242",
+      "percent": 70.3155475080976
+    },
+    {
+      "elapsed": 82.53,
+      "message": "冻结模型 utility 预测中 · rows 1150000/3911242",
+      "percent": 70.42079966755658
+    },
+    {
+      "elapsed": 82.69,
+      "message": "冻结模型 utility 预测中 · rows 1200000/3911242",
+      "percent": 70.52605182701556
+    },
+    {
+      "elapsed": 82.84,
+      "message": "冻结模型 utility 预测中 · rows 1250000/3911242",
+      "percent": 70.63130398647455
+    },
+    {
+      "elapsed": 83.0,
+      "message": "冻结模型 utility 预测中 · rows 1300000/3911242",
+      "percent": 70.73655614593352
+    },
+    {
+      "elapsed": 83.16,
+      "message": "冻结模型 utility 预测中 · rows 1350000/3911242",
+      "percent": 70.8418083053925
+    },
+    {
+      "elapsed": 83.31,
+      "message": "冻结模型 utility 预测中 · rows 1400000/3911242",
+      "percent": 70.94706046485149
+    },
+    {
+      "elapsed": 83.47,
+      "message": "冻结模型 utility 预测中 · rows 1450000/3911242",
+      "percent": 71.05231262431047
+    },
+    {
+      "elapsed": 83.62,
+      "message": "冻结模型 utility 预测中 · rows 1500000/3911242",
+      "percent": 71.15756478376946
+    },
+    {
+      "elapsed": 83.78,
+      "message": "冻结模型 utility 预测中 · rows 1550000/3911242",
+      "percent": 71.26281694322843
+    },
+    {
+      "elapsed": 83.94,
+      "message": "冻结模型 utility 预测中 · rows 1600000/3911242",
+      "percent": 71.36806910268741
+    },
+    {
+      "elapsed": 84.09,
+      "message": "冻结模型 utility 预测中 · rows 1650000/3911242",
+      "percent": 71.4733212621464
+    },
+    {
+      "elapsed": 84.25,
+      "message": "冻结模型 utility 预测中 · rows 1700000/3911242",
+      "percent": 71.57857342160538
+    },
+    {
+      "elapsed": 84.41,
+      "message": "冻结模型 utility 预测中 · rows 1750000/3911242",
+      "percent": 71.68382558106435
+    },
+    {
+      "elapsed": 84.56,
+      "message": "冻结模型 utility 预测中 · rows 1800000/3911242",
+      "percent": 71.78907774052334
+    },
+    {
+      "elapsed": 84.72,
+      "message": "冻结模型 utility 预测中 · rows 1850000/3911242",
+      "percent": 71.89432989998232
+    },
+    {
+      "elapsed": 84.88,
+      "message": "冻结模型 utility 预测中 · rows 1900000/3911242",
+      "percent": 71.99958205944131
+    },
+    {
+      "elapsed": 85.03,
+      "message": "冻结模型 utility 预测中 · rows 1950000/3911242",
+      "percent": 72.1048342189003
+    },
+    {
+      "elapsed": 85.19,
+      "message": "冻结模型 utility 预测中 · rows 2000000/3911242",
+      "percent": 72.21008637835926
+    },
+    {
+      "elapsed": 85.33,
+      "message": "冻结模型 utility 预测中 · rows 2050000/3911242",
+      "percent": 72.31533853781825
+    },
+    {
+      "elapsed": 85.48,
+      "message": "冻结模型 utility 预测中 · rows 2100000/3911242",
+      "percent": 72.42059069727723
+    },
+    {
+      "elapsed": 85.66,
+      "message": "冻结模型 utility 预测中 · rows 2150000/3911242",
+      "percent": 72.52584285673622
+    },
+    {
+      "elapsed": 85.81,
+      "message": "冻结模型 utility 预测中 · rows 2200000/3911242",
+      "percent": 72.63109501619519
+    },
+    {
+      "elapsed": 85.97,
+      "message": "冻结模型 utility 预测中 · rows 2250000/3911242",
+      "percent": 72.73634717565417
+    },
+    {
+      "elapsed": 86.12,
+      "message": "冻结模型 utility 预测中 · rows 2300000/3911242",
+      "percent": 72.84159933511316
+    },
+    {
+      "elapsed": 86.28,
+      "message": "冻结模型 utility 预测中 · rows 2350000/3911242",
+      "percent": 72.94685149457214
+    },
+    {
+      "elapsed": 86.44,
+      "message": "冻结模型 utility 预测中 · rows 2400000/3911242",
+      "percent": 73.05210365403113
+    },
+    {
+      "elapsed": 86.59,
+      "message": "冻结模型 utility 预测中 · rows 2450000/3911242",
+      "percent": 73.1573558134901
+    },
+    {
+      "elapsed": 86.75,
+      "message": "冻结模型 utility 预测中 · rows 2500000/3911242",
+      "percent": 73.26260797294908
+    },
+    {
+      "elapsed": 86.91,
+      "message": "冻结模型 utility 预测中 · rows 2550000/3911242",
+      "percent": 73.36786013240807
+    },
+    {
+      "elapsed": 87.06,
+      "message": "冻结模型 utility 预测中 · rows 2600000/3911242",
+      "percent": 73.47311229186705
+    },
+    {
+      "elapsed": 87.2,
+      "message": "冻结模型 utility 预测中 · rows 2650000/3911242",
+      "percent": 73.57836445132604
+    },
+    {
+      "elapsed": 87.36,
+      "message": "冻结模型 utility 预测中 · rows 2700000/3911242",
+      "percent": 73.68361661078501
+    },
+    {
+      "elapsed": 87.52,
+      "message": "冻结模型 utility 预测中 · rows 2750000/3911242",
+      "percent": 73.788868770244
+    },
+    {
+      "elapsed": 87.67,
+      "message": "冻结模型 utility 预测中 · rows 2800000/3911242",
+      "percent": 73.89412092970298
+    },
+    {
+      "elapsed": 87.83,
+      "message": "冻结模型 utility 预测中 · rows 2850000/3911242",
+      "percent": 73.99937308916196
+    },
+    {
+      "elapsed": 87.98,
+      "message": "冻结模型 utility 预测中 · rows 2900000/3911242",
+      "percent": 74.10462524862093
+    },
+    {
+      "elapsed": 88.14,
+      "message": "冻结模型 utility 预测中 · rows 2950000/3911242",
+      "percent": 74.20987740807992
+    },
+    {
+      "elapsed": 88.3,
+      "message": "冻结模型 utility 预测中 · rows 3000000/3911242",
+      "percent": 74.3151295675389
+    },
+    {
+      "elapsed": 88.44,
+      "message": "冻结模型 utility 预测中 · rows 3050000/3911242",
+      "percent": 74.42038172699789
+    },
+    {
+      "elapsed": 88.59,
+      "message": "冻结模型 utility 预测中 · rows 3100000/3911242",
+      "percent": 74.52563388645687
+    },
+    {
+      "elapsed": 88.75,
+      "message": "冻结模型 utility 预测中 · rows 3150000/3911242",
+      "percent": 74.63088604591584
+    },
+    {
+      "elapsed": 88.91,
+      "message": "冻结模型 utility 预测中 · rows 3200000/3911242",
+      "percent": 74.73613820537483
+    },
+    {
+      "elapsed": 89.05,
+      "message": "冻结模型 utility 预测中 · rows 3250000/3911242",
+      "percent": 74.84139036483381
+    },
+    {
+      "elapsed": 89.2,
+      "message": "冻结模型 utility 预测中 · rows 3300000/3911242",
+      "percent": 74.9466425242928
+    },
+    {
+      "elapsed": 89.36,
+      "message": "冻结模型 utility 预测中 · rows 3350000/3911242",
+      "percent": 75.05189468375178
+    },
+    {
+      "elapsed": 89.52,
+      "message": "冻结模型 utility 预测中 · rows 3400000/3911242",
+      "percent": 75.15714684321075
+    },
+    {
+      "elapsed": 89.67,
+      "message": "冻结模型 utility 预测中 · rows 3450000/3911242",
+      "percent": 75.26239900266974
+    },
+    {
+      "elapsed": 89.83,
+      "message": "冻结模型 utility 预测中 · rows 3500000/3911242",
+      "percent": 75.36765116212872
+    },
+    {
+      "elapsed": 89.98,
+      "message": "冻结模型 utility 预测中 · rows 3550000/3911242",
+      "percent": 75.47290332158771
+    },
+    {
+      "elapsed": 90.14,
+      "message": "冻结模型 utility 预测中 · rows 3600000/3911242",
+      "percent": 75.57815548104668
+    },
+    {
+      "elapsed": 90.3,
+      "message": "冻结模型 utility 预测中 · rows 3650000/3911242",
+      "percent": 75.68340764050566
+    },
+    {
+      "elapsed": 90.45,
+      "message": "冻结模型 utility 预测中 · rows 3700000/3911242",
+      "percent": 75.78865979996465
+    },
+    {
+      "elapsed": 90.62,
+      "message": "冻结模型 utility 预测中 · rows 3750000/3911242",
+      "percent": 75.89391195942363
+    },
+    {
+      "elapsed": 90.78,
+      "message": "冻结模型 utility 预测中 · rows 3800000/3911242",
+      "percent": 75.99916411888262
+    },
+    {
+      "elapsed": 90.94,
+      "message": "冻结模型 utility 预测中 · rows 3850000/3911242",
+      "percent": 76.10441627834159
+    },
+    {
+      "elapsed": 91.09,
+      "message": "冻结模型 utility 预测中 · rows 3900000/3911242",
+      "percent": 76.20966843780057
+    },
+    {
+      "elapsed": 91.12,
+      "message": "冻结模型 utility 预测中 · rows 3911242/3911242",
+      "percent": 76.23333333333333
+    },
+    {
+      "elapsed": 91.14,
+      "message": "校验并加载冻结模型 pen025",
+      "percent": 76.23333333333333
+    },
+    {
+      "elapsed": 91.14,
+      "message": "冻结模型 pen025 预测中 · rows 0/3911242",
+      "percent": 76.23333333333333
+    },
+    {
+      "elapsed": 91.31,
+      "message": "冻结模型 pen025 预测中 · rows 50000/3911242",
+      "percent": 76.33858549279232
+    },
+    {
+      "elapsed": 91.47,
+      "message": "冻结模型 pen025 预测中 · rows 100000/3911242",
+      "percent": 76.44383765225129
+    },
+    {
+      "elapsed": 91.62,
+      "message": "冻结模型 pen025 预测中 · rows 150000/3911242",
+      "percent": 76.54908981171027
+    },
+    {
+      "elapsed": 91.8,
+      "message": "冻结模型 pen025 预测中 · rows 200000/3911242",
+      "percent": 76.65434197116926
+    },
+    {
+      "elapsed": 91.95,
+      "message": "冻结模型 pen025 预测中 · rows 250000/3911242",
+      "percent": 76.75959413062824
+    },
+    {
+      "elapsed": 92.11,
+      "message": "冻结模型 pen025 预测中 · rows 300000/3911242",
+      "percent": 76.86484629008723
+    },
+    {
+      "elapsed": 92.28,
+      "message": "冻结模型 pen025 预测中 · rows 350000/3911242",
+      "percent": 76.9700984495462
+    },
+    {
+      "elapsed": 92.44,
+      "message": "冻结模型 pen025 预测中 · rows 400000/3911242",
+      "percent": 77.07535060900518
+    },
+    {
+      "elapsed": 92.59,
+      "message": "冻结模型 pen025 预测中 · rows 450000/3911242",
+      "percent": 77.18060276846417
+    },
+    {
+      "elapsed": 92.77,
+      "message": "冻结模型 pen025 预测中 · rows 500000/3911242",
+      "percent": 77.28585492792315
+    },
+    {
+      "elapsed": 92.92,
+      "message": "冻结模型 pen025 预测中 · rows 550000/3911242",
+      "percent": 77.39110708738214
+    },
+    {
+      "elapsed": 93.09,
+      "message": "冻结模型 pen025 预测中 · rows 600000/3911242",
+      "percent": 77.49635924684111
+    },
+    {
+      "elapsed": 93.25,
+      "message": "冻结模型 pen025 预测中 · rows 650000/3911242",
+      "percent": 77.6016114063001
+    },
+    {
+      "elapsed": 93.41,
+      "message": "冻结模型 pen025 预测中 · rows 700000/3911242",
+      "percent": 77.70686356575908
+    },
+    {
+      "elapsed": 93.56,
+      "message": "冻结模型 pen025 预测中 · rows 750000/3911242",
+      "percent": 77.81211572521806
+    },
+    {
+      "elapsed": 93.73,
+      "message": "冻结模型 pen025 预测中 · rows 800000/3911242",
+      "percent": 77.91736788467705
+    },
+    {
+      "elapsed": 93.89,
+      "message": "冻结模型 pen025 预测中 · rows 850000/3911242",
+      "percent": 78.02262004413602
+    },
+    {
+      "elapsed": 94.05,
+      "message": "冻结模型 pen025 预测中 · rows 900000/3911242",
+      "percent": 78.127872203595
+    },
+    {
+      "elapsed": 94.22,
+      "message": "冻结模型 pen025 预测中 · rows 950000/3911242",
+      "percent": 78.23312436305399
+    },
+    {
+      "elapsed": 94.38,
+      "message": "冻结模型 pen025 预测中 · rows 1000000/3911242",
+      "percent": 78.33837652251297
+    },
+    {
+      "elapsed": 94.53,
+      "message": "冻结模型 pen025 预测中 · rows 1050000/3911242",
+      "percent": 78.44362868197194
+    },
+    {
+      "elapsed": 94.7,
+      "message": "冻结模型 pen025 预测中 · rows 1100000/3911242",
+      "percent": 78.54888084143093
+    },
+    {
+      "elapsed": 94.86,
+      "message": "冻结模型 pen025 预测中 · rows 1150000/3911242",
+      "percent": 78.65413300088991
+    },
+    {
+      "elapsed": 95.03,
+      "message": "冻结模型 pen025 预测中 · rows 1200000/3911242",
+      "percent": 78.7593851603489
+    },
+    {
+      "elapsed": 95.19,
+      "message": "冻结模型 pen025 预测中 · rows 1250000/3911242",
+      "percent": 78.86463731980788
+    },
+    {
+      "elapsed": 95.36,
+      "message": "冻结模型 pen025 预测中 · rows 1300000/3911242",
+      "percent": 78.96988947926685
+    },
+    {
+      "elapsed": 95.52,
+      "message": "冻结模型 pen025 预测中 · rows 1350000/3911242",
+      "percent": 79.07514163872584
+    },
+    {
+      "elapsed": 95.67,
+      "message": "冻结模型 pen025 预测中 · rows 1400000/3911242",
+      "percent": 79.18039379818482
+    },
+    {
+      "elapsed": 95.84,
+      "message": "冻结模型 pen025 预测中 · rows 1450000/3911242",
+      "percent": 79.28564595764381
+    },
+    {
+      "elapsed": 96.0,
+      "message": "冻结模型 pen025 预测中 · rows 1500000/3911242",
+      "percent": 79.39089811710278
+    },
+    {
+      "elapsed": 96.16,
+      "message": "冻结模型 pen025 预测中 · rows 1550000/3911242",
+      "percent": 79.49615027656176
+    },
+    {
+      "elapsed": 96.33,
+      "message": "冻结模型 pen025 预测中 · rows 1600000/3911242",
+      "percent": 79.60140243602075
+    },
+    {
+      "elapsed": 96.48,
+      "message": "冻结模型 pen025 预测中 · rows 1650000/3911242",
+      "percent": 79.70665459547973
+    },
+    {
+      "elapsed": 96.64,
+      "message": "冻结模型 pen025 预测中 · rows 1700000/3911242",
+      "percent": 79.81190675493872
+    },
+    {
+      "elapsed": 96.8,
+      "message": "冻结模型 pen025 预测中 · rows 1750000/3911242",
+      "percent": 79.91715891439769
+    },
+    {
+      "elapsed": 96.95,
+      "message": "冻结模型 pen025 预测中 · rows 1800000/3911242",
+      "percent": 80.02241107385667
+    },
+    {
+      "elapsed": 97.11,
+      "message": "冻结模型 pen025 预测中 · rows 1850000/3911242",
+      "percent": 80.12766323331566
+    },
+    {
+      "elapsed": 97.27,
+      "message": "冻结模型 pen025 预测中 · rows 1900000/3911242",
+      "percent": 80.23291539277464
+    },
+    {
+      "elapsed": 97.44,
+      "message": "冻结模型 pen025 预测中 · rows 1950000/3911242",
+      "percent": 80.33816755223361
+    },
+    {
+      "elapsed": 97.59,
+      "message": "冻结模型 pen025 预测中 · rows 2000000/3911242",
+      "percent": 80.4434197116926
+    },
+    {
+      "elapsed": 97.75,
+      "message": "冻结模型 pen025 预测中 · rows 2050000/3911242",
+      "percent": 80.54867187115158
+    },
+    {
+      "elapsed": 97.91,
+      "message": "冻结模型 pen025 预测中 · rows 2100000/3911242",
+      "percent": 80.65392403061057
+    },
+    {
+      "elapsed": 98.06,
+      "message": "冻结模型 pen025 预测中 · rows 2150000/3911242",
+      "percent": 80.75917619006955
+    },
+    {
+      "elapsed": 98.22,
+      "message": "冻结模型 pen025 预测中 · rows 2200000/3911242",
+      "percent": 80.86442834952854
+    },
+    {
+      "elapsed": 98.38,
+      "message": "冻结模型 pen025 预测中 · rows 2250000/3911242",
+      "percent": 80.96968050898751
+    },
+    {
+      "elapsed": 98.55,
+      "message": "冻结模型 pen025 预测中 · rows 2300000/3911242",
+      "percent": 81.0749326684465
+    },
+    {
+      "elapsed": 98.7,
+      "message": "冻结模型 pen025 预测中 · rows 2350000/3911242",
+      "percent": 81.18018482790548
+    },
+    {
+      "elapsed": 98.88,
+      "message": "冻结模型 pen025 预测中 · rows 2400000/3911242",
+      "percent": 81.28543698736445
+    },
+    {
+      "elapsed": 99.03,
+      "message": "冻结模型 pen025 预测中 · rows 2450000/3911242",
+      "percent": 81.39068914682343
+    },
+    {
+      "elapsed": 99.19,
+      "message": "冻结模型 pen025 预测中 · rows 2500000/3911242",
+      "percent": 81.49594130628242
+    },
+    {
+      "elapsed": 99.34,
+      "message": "冻结模型 pen025 预测中 · rows 2550000/3911242",
+      "percent": 81.6011934657414
+    },
+    {
+      "elapsed": 99.5,
+      "message": "冻结模型 pen025 预测中 · rows 2600000/3911242",
+      "percent": 81.70644562520039
+    },
+    {
+      "elapsed": 99.66,
+      "message": "冻结模型 pen025 预测中 · rows 2650000/3911242",
+      "percent": 81.81169778465936
+    },
+    {
+      "elapsed": 99.81,
+      "message": "冻结模型 pen025 预测中 · rows 2700000/3911242",
+      "percent": 81.91694994411834
+    },
+    {
+      "elapsed": 99.98,
+      "message": "冻结模型 pen025 预测中 · rows 2750000/3911242",
+      "percent": 82.02220210357733
+    },
+    {
+      "elapsed": 100.14,
+      "message": "冻结模型 pen025 预测中 · rows 2800000/3911242",
+      "percent": 82.12745426303631
+    },
+    {
+      "elapsed": 100.3,
+      "message": "冻结模型 pen025 预测中 · rows 2850000/3911242",
+      "percent": 82.23270642249528
+    },
+    {
+      "elapsed": 100.45,
+      "message": "冻结模型 pen025 预测中 · rows 2900000/3911242",
+      "percent": 82.33795858195427
+    },
+    {
+      "elapsed": 100.61,
+      "message": "冻结模型 pen025 预测中 · rows 2950000/3911242",
+      "percent": 82.44321074141325
+    },
+    {
+      "elapsed": 100.77,
+      "message": "冻结模型 pen025 预测中 · rows 3000000/3911242",
+      "percent": 82.54846290087224
+    },
+    {
+      "elapsed": 100.92,
+      "message": "冻结模型 pen025 预测中 · rows 3050000/3911242",
+      "percent": 82.65371506033122
+    },
+    {
+      "elapsed": 101.08,
+      "message": "冻结模型 pen025 预测中 · rows 3100000/3911242",
+      "percent": 82.75896721979021
+    },
+    {
+      "elapsed": 101.25,
+      "message": "冻结模型 pen025 预测中 · rows 3150000/3911242",
+      "percent": 82.86421937924918
+    },
+    {
+      "elapsed": 101.41,
+      "message": "冻结模型 pen025 预测中 · rows 3200000/3911242",
+      "percent": 82.96947153870816
+    },
+    {
+      "elapsed": 101.56,
+      "message": "冻结模型 pen025 预测中 · rows 3250000/3911242",
+      "percent": 83.07472369816715
+    },
+    {
+      "elapsed": 101.72,
+      "message": "冻结模型 pen025 预测中 · rows 3300000/3911242",
+      "percent": 83.17997585762613
+    },
+    {
+      "elapsed": 101.88,
+      "message": "冻结模型 pen025 预测中 · rows 3350000/3911242",
+      "percent": 83.2852280170851
+    },
+    {
+      "elapsed": 102.03,
+      "message": "冻结模型 pen025 预测中 · rows 3400000/3911242",
+      "percent": 83.39048017654409
+    },
+    {
+      "elapsed": 102.2,
+      "message": "冻结模型 pen025 预测中 · rows 3450000/3911242",
+      "percent": 83.49573233600307
+    },
+    {
+      "elapsed": 102.36,
+      "message": "冻结模型 pen025 预测中 · rows 3500000/3911242",
+      "percent": 83.60098449546206
+    },
+    {
+      "elapsed": 102.52,
+      "message": "冻结模型 pen025 预测中 · rows 3550000/3911242",
+      "percent": 83.70623665492104
+    },
+    {
+      "elapsed": 102.69,
+      "message": "冻结模型 pen025 预测中 · rows 3600000/3911242",
+      "percent": 83.81148881438001
+    },
+    {
+      "elapsed": 102.84,
+      "message": "冻结模型 pen025 预测中 · rows 3650000/3911242",
+      "percent": 83.916740973839
+    },
+    {
+      "elapsed": 103.0,
+      "message": "冻结模型 pen025 预测中 · rows 3700000/3911242",
+      "percent": 84.02199313329798
+    },
+    {
+      "elapsed": 103.17,
+      "message": "冻结模型 pen025 预测中 · rows 3750000/3911242",
+      "percent": 84.12724529275695
+    },
+    {
+      "elapsed": 103.33,
+      "message": "冻结模型 pen025 预测中 · rows 3800000/3911242",
+      "percent": 84.23249745221594
+    },
+    {
+      "elapsed": 103.5,
+      "message": "冻结模型 pen025 预测中 · rows 3850000/3911242",
+      "percent": 84.33774961167492
+    },
+    {
+      "elapsed": 103.66,
+      "message": "冻结模型 pen025 预测中 · rows 3900000/3911242",
+      "percent": 84.44300177113391
+    },
+    {
+      "elapsed": 103.69,
+      "message": "冻结模型 pen025 预测中 · rows 3911242/3911242",
+      "percent": 84.46666666666667
+    },
+    {
+      "elapsed": 103.7,
+      "message": "校验并加载冻结模型 pen100",
+      "percent": 84.46666666666667
+    },
+    {
+      "elapsed": 103.7,
+      "message": "冻结模型 pen100 预测中 · rows 0/3911242",
+      "percent": 84.46666666666667
+    },
+    {
+      "elapsed": 103.86,
+      "message": "冻结模型 pen100 预测中 · rows 50000/3911242",
+      "percent": 84.57191882612565
+    },
+    {
+      "elapsed": 104.02,
+      "message": "冻结模型 pen100 预测中 · rows 100000/3911242",
+      "percent": 84.67717098558464
+    },
+    {
+      "elapsed": 104.17,
+      "message": "冻结模型 pen100 预测中 · rows 150000/3911242",
+      "percent": 84.78242314504361
+    },
+    {
+      "elapsed": 104.33,
+      "message": "冻结模型 pen100 预测中 · rows 200000/3911242",
+      "percent": 84.8876753045026
+    },
+    {
+      "elapsed": 104.48,
+      "message": "冻结模型 pen100 预测中 · rows 250000/3911242",
+      "percent": 84.99292746396158
+    },
+    {
+      "elapsed": 104.64,
+      "message": "冻结模型 pen100 预测中 · rows 300000/3911242",
+      "percent": 85.09817962342055
+    },
+    {
+      "elapsed": 104.8,
+      "message": "冻结模型 pen100 预测中 · rows 350000/3911242",
+      "percent": 85.20343178287953
+    },
+    {
+      "elapsed": 104.95,
+      "message": "冻结模型 pen100 预测中 · rows 400000/3911242",
+      "percent": 85.30868394233852
+    },
+    {
+      "elapsed": 105.11,
+      "message": "冻结模型 pen100 预测中 · rows 450000/3911242",
+      "percent": 85.4139361017975
+    },
+    {
+      "elapsed": 105.27,
+      "message": "冻结模型 pen100 预测中 · rows 500000/3911242",
+      "percent": 85.51918826125649
+    },
+    {
+      "elapsed": 105.42,
+      "message": "冻结模型 pen100 预测中 · rows 550000/3911242",
+      "percent": 85.62444042071547
+    },
+    {
+      "elapsed": 105.58,
+      "message": "冻结模型 pen100 预测中 · rows 600000/3911242",
+      "percent": 85.72969258017444
+    },
+    {
+      "elapsed": 105.73,
+      "message": "冻结模型 pen100 预测中 · rows 650000/3911242",
+      "percent": 85.83494473963343
+    },
+    {
+      "elapsed": 105.89,
+      "message": "冻结模型 pen100 预测中 · rows 700000/3911242",
+      "percent": 85.94019689909241
+    },
+    {
+      "elapsed": 106.03,
+      "message": "冻结模型 pen100 预测中 · rows 750000/3911242",
+      "percent": 86.04544905855138
+    },
+    {
+      "elapsed": 106.19,
+      "message": "冻结模型 pen100 预测中 · rows 800000/3911242",
+      "percent": 86.15070121801037
+    },
+    {
+      "elapsed": 106.34,
+      "message": "冻结模型 pen100 预测中 · rows 850000/3911242",
+      "percent": 86.25595337746935
+    },
+    {
+      "elapsed": 106.5,
+      "message": "冻结模型 pen100 预测中 · rows 900000/3911242",
+      "percent": 86.36120553692834
+    },
+    {
+      "elapsed": 106.66,
+      "message": "冻结模型 pen100 预测中 · rows 950000/3911242",
+      "percent": 86.46645769638732
+    },
+    {
+      "elapsed": 106.81,
+      "message": "冻结模型 pen100 预测中 · rows 1000000/3911242",
+      "percent": 86.57170985584631
+    },
+    {
+      "elapsed": 106.97,
+      "message": "冻结模型 pen100 预测中 · rows 1050000/3911242",
+      "percent": 86.67696201530528
+    },
+    {
+      "elapsed": 107.12,
+      "message": "冻结模型 pen100 预测中 · rows 1100000/3911242",
+      "percent": 86.78221417476426
+    },
+    {
+      "elapsed": 107.28,
+      "message": "冻结模型 pen100 预测中 · rows 1150000/3911242",
+      "percent": 86.88746633422325
+    },
+    {
+      "elapsed": 107.44,
+      "message": "冻结模型 pen100 预测中 · rows 1200000/3911242",
+      "percent": 86.99271849368223
+    },
+    {
+      "elapsed": 107.58,
+      "message": "冻结模型 pen100 预测中 · rows 1250000/3911242",
+      "percent": 87.0979706531412
+    },
+    {
+      "elapsed": 107.73,
+      "message": "冻结模型 pen100 预测中 · rows 1300000/3911242",
+      "percent": 87.20322281260019
+    },
+    {
+      "elapsed": 107.89,
+      "message": "冻结模型 pen100 预测中 · rows 1350000/3911242",
+      "percent": 87.30847497205917
+    },
+    {
+      "elapsed": 108.05,
+      "message": "冻结模型 pen100 预测中 · rows 1400000/3911242",
+      "percent": 87.41372713151816
+    },
+    {
+      "elapsed": 108.2,
+      "message": "冻结模型 pen100 预测中 · rows 1450000/3911242",
+      "percent": 87.51897929097714
+    },
+    {
+      "elapsed": 108.36,
+      "message": "冻结模型 pen100 预测中 · rows 1500000/3911242",
+      "percent": 87.62423145043611
+    },
+    {
+      "elapsed": 108.52,
+      "message": "冻结模型 pen100 预测中 · rows 1550000/3911242",
+      "percent": 87.7294836098951
+    },
+    {
+      "elapsed": 108.67,
+      "message": "冻结模型 pen100 预测中 · rows 1600000/3911242",
+      "percent": 87.83473576935408
+    },
+    {
+      "elapsed": 108.81,
+      "message": "冻结模型 pen100 预测中 · rows 1650000/3911242",
+      "percent": 87.93998792881307
+    },
+    {
+      "elapsed": 108.97,
+      "message": "冻结模型 pen100 预测中 · rows 1700000/3911242",
+      "percent": 88.04524008827204
+    },
+    {
+      "elapsed": 109.12,
+      "message": "冻结模型 pen100 预测中 · rows 1750000/3911242",
+      "percent": 88.15049224773102
+    },
+    {
+      "elapsed": 109.28,
+      "message": "冻结模型 pen100 预测中 · rows 1800000/3911242",
+      "percent": 88.25574440719001
+    },
+    {
+      "elapsed": 109.44,
+      "message": "冻结模型 pen100 预测中 · rows 1850000/3911242",
+      "percent": 88.36099656664899
+    },
+    {
+      "elapsed": 109.58,
+      "message": "冻结模型 pen100 预测中 · rows 1900000/3911242",
+      "percent": 88.46624872610798
+    },
+    {
+      "elapsed": 109.73,
+      "message": "冻结模型 pen100 预测中 · rows 1950000/3911242",
+      "percent": 88.57150088556696
+    },
+    {
+      "elapsed": 109.89,
+      "message": "冻结模型 pen100 预测中 · rows 2000000/3911242",
+      "percent": 88.67675304502593
+    },
+    {
+      "elapsed": 110.05,
+      "message": "冻结模型 pen100 预测中 · rows 2050000/3911242",
+      "percent": 88.78200520448492
+    },
+    {
+      "elapsed": 110.19,
+      "message": "冻结模型 pen100 预测中 · rows 2100000/3911242",
+      "percent": 88.8872573639439
+    },
+    {
+      "elapsed": 110.34,
+      "message": "冻结模型 pen100 预测中 · rows 2150000/3911242",
+      "percent": 88.99250952340289
+    },
+    {
+      "elapsed": 110.5,
+      "message": "冻结模型 pen100 预测中 · rows 2200000/3911242",
+      "percent": 89.09776168286186
+    },
+    {
+      "elapsed": 110.67,
+      "message": "冻结模型 pen100 预测中 · rows 2250000/3911242",
+      "percent": 89.20301384232084
+    },
+    {
+      "elapsed": 110.83,
+      "message": "冻结模型 pen100 预测中 · rows 2300000/3911242",
+      "percent": 89.30826600177983
+    },
+    {
+      "elapsed": 110.98,
+      "message": "冻结模型 pen100 预测中 · rows 2350000/3911242",
+      "percent": 89.41351816123881
+    },
+    {
+      "elapsed": 111.14,
+      "message": "冻结模型 pen100 预测中 · rows 2400000/3911242",
+      "percent": 89.5187703206978
+    },
+    {
+      "elapsed": 111.3,
+      "message": "冻结模型 pen100 预测中 · rows 2450000/3911242",
+      "percent": 89.62402248015677
+    },
+    {
+      "elapsed": 111.45,
+      "message": "冻结模型 pen100 预测中 · rows 2500000/3911242",
+      "percent": 89.72927463961575
+    },
+    {
+      "elapsed": 111.59,
+      "message": "冻结模型 pen100 预测中 · rows 2550000/3911242",
+      "percent": 89.83452679907474
+    },
+    {
+      "elapsed": 111.75,
+      "message": "冻结模型 pen100 预测中 · rows 2600000/3911242",
+      "percent": 89.93977895853372
+    },
+    {
+      "elapsed": 111.89,
+      "message": "冻结模型 pen100 预测中 · rows 2650000/3911242",
+      "percent": 90.04503111799269
+    },
+    {
+      "elapsed": 112.05,
+      "message": "冻结模型 pen100 预测中 · rows 2700000/3911242",
+      "percent": 90.15028327745168
+    },
+    {
+      "elapsed": 112.2,
+      "message": "冻结模型 pen100 预测中 · rows 2750000/3911242",
+      "percent": 90.25553543691066
+    },
+    {
+      "elapsed": 112.34,
+      "message": "冻结模型 pen100 预测中 · rows 2800000/3911242",
+      "percent": 90.36078759636965
+    },
+    {
+      "elapsed": 112.5,
+      "message": "冻结模型 pen100 预测中 · rows 2850000/3911242",
+      "percent": 90.46603975582863
+    },
+    {
+      "elapsed": 112.66,
+      "message": "冻结模型 pen100 预测中 · rows 2900000/3911242",
+      "percent": 90.5712919152876
+    },
+    {
+      "elapsed": 112.81,
+      "message": "冻结模型 pen100 预测中 · rows 2950000/3911242",
+      "percent": 90.67654407474659
+    },
+    {
+      "elapsed": 112.95,
+      "message": "冻结模型 pen100 预测中 · rows 3000000/3911242",
+      "percent": 90.78179623420557
+    },
+    {
+      "elapsed": 113.11,
+      "message": "冻结模型 pen100 预测中 · rows 3050000/3911242",
+      "percent": 90.88704839366454
+    },
+    {
+      "elapsed": 113.25,
+      "message": "冻结模型 pen100 预测中 · rows 3100000/3911242",
+      "percent": 90.99230055312353
+    },
+    {
+      "elapsed": 113.41,
+      "message": "冻结模型 pen100 预测中 · rows 3150000/3911242",
+      "percent": 91.09755271258251
+    },
+    {
+      "elapsed": 113.56,
+      "message": "冻结模型 pen100 预测中 · rows 3200000/3911242",
+      "percent": 91.2028048720415
+    },
+    {
+      "elapsed": 113.72,
+      "message": "冻结模型 pen100 预测中 · rows 3250000/3911242",
+      "percent": 91.30805703150048
+    },
+    {
+      "elapsed": 113.86,
+      "message": "冻结模型 pen100 预测中 · rows 3300000/3911242",
+      "percent": 91.41330919095947
+    },
+    {
+      "elapsed": 114.02,
+      "message": "冻结模型 pen100 预测中 · rows 3350000/3911242",
+      "percent": 91.51856135041845
+    },
+    {
+      "elapsed": 114.17,
+      "message": "冻结模型 pen100 预测中 · rows 3400000/3911242",
+      "percent": 91.62381350987742
+    },
+    {
+      "elapsed": 114.31,
+      "message": "冻结模型 pen100 预测中 · rows 3450000/3911242",
+      "percent": 91.7290656693364
+    },
+    {
+      "elapsed": 114.47,
+      "message": "冻结模型 pen100 预测中 · rows 3500000/3911242",
+      "percent": 91.83431782879538
+    },
+    {
+      "elapsed": 114.62,
+      "message": "冻结模型 pen100 预测中 · rows 3550000/3911242",
+      "percent": 91.93956998825436
+    },
+    {
+      "elapsed": 114.78,
+      "message": "冻结模型 pen100 预测中 · rows 3600000/3911242",
+      "percent": 92.04482214771335
+    },
+    {
+      "elapsed": 114.94,
+      "message": "冻结模型 pen100 预测中 · rows 3650000/3911242",
+      "percent": 92.15007430717233
+    },
+    {
+      "elapsed": 115.09,
+      "message": "冻结模型 pen100 预测中 · rows 3700000/3911242",
+      "percent": 92.25532646663132
+    },
+    {
+      "elapsed": 115.25,
+      "message": "冻结模型 pen100 预测中 · rows 3750000/3911242",
+      "percent": 92.3605786260903
+    },
+    {
+      "elapsed": 115.41,
+      "message": "冻结模型 pen100 预测中 · rows 3800000/3911242",
+      "percent": 92.46583078554927
+    },
+    {
+      "elapsed": 115.55,
+      "message": "冻结模型 pen100 预测中 · rows 3850000/3911242",
+      "percent": 92.57108294500826
+    },
+    {
+      "elapsed": 115.7,
+      "message": "冻结模型 pen100 预测中 · rows 3900000/3911242",
+      "percent": 92.67633510446724
+    },
+    {
+      "elapsed": 115.75,
+      "message": "冻结模型 pen100 预测中 · rows 3911242/3911242",
+      "percent": 92.7
+    },
+    {
+      "elapsed": 115.75,
+      "message": "模型评分完成，计算历史横截面排名",
+      "percent": 92.7
+    },
+    {
+      "elapsed": 172.78,
+      "message": "按原冻结因子排序并筛选ATR≥2.5%",
+      "percent": 94.0
+    },
+    {
+      "elapsed": 182.69,
+      "message": "保存并校验当日冻结信号",
+      "percent": 97.0
+    },
+    {
+      "elapsed": 182.69,
+      "message": "发布次日推荐",
+      "percent": 99
+    }
+  ],
+  "market_date": "2026-10-29",
+  "full_history_scores_bitwise_identical": true,
+  "feature_rows": 3911242,
+  "status": "ok",
+  "seconds": 182.69,
+  "final_progress": 100,
+  "signals": [
+    {
+      "id": "2026-10-29_002798.SZ",
+      "symbol": "002798.SZ",
+      "name": "帝欧水华",
+      "rank": 1,
+      "signal_date": "2026-10-29",
+      "valid_from": "2026-10-30",
+      "trigger": 5.1,
+      "atr": 0.05,
+      "atr_policy": "price_tr_sma14_over_signal_close_clip015_050_v1",
+      "score": 0.4745548961424332,
+      "signal_filter_policy": "original_top3_atr_ge025_no_refill_v1"
+    },
+    {
+      "id": "2026-10-29_001226.SZ",
+      "symbol": "001226.SZ",
+      "name": "拓山重工",
+      "rank": 2,
+      "signal_date": "2026-10-29",
+      "valid_from": "2026-10-30",
+      "trigger": 35.58,
+      "atr": 0.05,
+      "atr_policy": "price_tr_sma14_over_signal_close_clip015_050_v1",
+      "score": 0.47002967359050446,
+      "signal_filter_policy": "original_top3_atr_ge025_no_refill_v1"
+    },
+    {
+      "id": "2026-10-29_600405.SH",
+      "symbol": "600405.SH",
+      "name": "动力源",
+      "rank": 3,
+      "signal_date": "2026-10-29",
+      "valid_from": "2026-10-30",
+      "trigger": 3.98,
+      "atr": 0.04325197415649678,
+      "atr_policy": "price_tr_sma14_over_signal_close_clip015_050_v1",
+      "score": 0.46602373887240356,
+      "signal_filter_policy": "original_top3_atr_ge025_no_refill_v1"
+    }
+  ],
+  "monotonically_increasing": true
+}

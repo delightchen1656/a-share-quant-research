@@ -1,0 +1,56 @@
+{
+  "symbol": "000863.SZ",
+  "event_date": "2018-07-26",
+  "kind": "dividend_fields",
+  "start": "2018-05-07",
+  "query_files": [
+    {
+      "path": "sources\\action_evidence_v2\\000863.SZ_2018-07-26\\query_01.json",
+      "sha256": "2fcd253de7895884cd122811c1e6955173b40df8340226b392793cffa3d667b7"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\000863.SZ_2018-07-26\\query_02.json",
+      "sha256": "2fcd253de7895884cd122811c1e6955173b40df8340226b392793cffa3d667b7"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\000863.SZ_2018-07-26\\query_03.json",
+      "sha256": "2fcd253de7895884cd122811c1e6955173b40df8340226b392793cffa3d667b7"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\000863.SZ_2018-07-26\\query_04.json",
+      "sha256": "2fcd253de7895884cd122811c1e6955173b40df8340226b392793cffa3d667b7"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\000863.SZ_2018-07-26\\query_05.json",
+      "sha256": "2fcd253de7895884cd122811c1e6955173b40df8340226b392793cffa3d667b7"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\000863.SZ_2018-07-26\\query_06.json",
+      "sha256": "2fcd253de7895884cd122811c1e6955173b40df8340226b392793cffa3d667b7"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\000863.SZ_2018-07-26\\query_07.json",
+      "sha256": "2fcd253de7895884cd122811c1e6955173b40df8340226b392793cffa3d667b7"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\000863.SZ_2018-07-26\\query_08.json",
+      "sha256": "2fcd253de7895884cd122811c1e6955173b40df8340226b392793cffa3d667b7"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\000863.SZ_2018-07-26\\query_09.json",
+      "sha256": "2fcd253de7895884cd122811c1e6955173b40df8340226b392793cffa3d667b7"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\000863.SZ_2018-07-26\\query_10.json",
+      "sha256": "2fcd253de7895884cd122811c1e6955173b40df8340226b392793cffa3d667b7"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\000863.SZ_2018-07-26\\query_11.json",
+      "sha256": "3e4a9563d2d79d6e3805bb9704a0a256bb334acc07686c66ca5db2be260aa392"
+    }
+  ],
+  "exact_code_announcements": 312,
+  "documents": [],
+  "no_document_is_not_no_event_proof": true,
+  "fields_verified": false
+}

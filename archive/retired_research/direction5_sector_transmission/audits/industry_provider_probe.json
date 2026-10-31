@@ -1,0 +1,55 @@
+{
+  "queries": [
+    {
+      "requested_date": "2018-01-02",
+      "error_code": "0",
+      "rows": 3562,
+      "sha256": "3f832b0ea7fbac9c7e309defdc2cff611128d6faf27042944e616331ee94c4ab",
+      "update_date_min": "2018-01-01",
+      "update_date_max": "2018-01-01",
+      "future_update_rows": 0,
+      "fields": [
+        "updateDate",
+        "code",
+        "code_name",
+        "industry",
+        "industryClassification"
+      ],
+      "approved_for_research": false
+    },
+    {
+      "requested_date": "2020-12-31",
+      "error_code": "10002007",
+      "rows": 0,
+      "sha256": "f01a374e9c81e3db89b3a42940c4d6a5447684986a1296e42bf13f196eed6295",
+      "update_date_min": null,
+      "update_date_max": null,
+      "future_update_rows": 0,
+      "fields": [],
+      "approved_for_research": false
+    },
+    {
+      "requested_date": "2022-12-30",
+      "error_code": "10002007",
+      "rows": 0,
+      "sha256": "f01a374e9c81e3db89b3a42940c4d6a5447684986a1296e42bf13f196eed6295",
+      "update_date_min": null,
+      "update_date_max": null,
+      "future_update_rows": 0,
+      "fields": [],
+      "approved_for_research": false
+    },
+    {
+      "requested_date": "2024-12-31",
+      "error_code": "10002007",
+      "rows": 0,
+      "sha256": "f01a374e9c81e3db89b3a42940c4d6a5447684986a1296e42bf13f196eed6295",
+      "update_date_min": null,
+      "update_date_max": null,
+      "future_update_rows": 0,
+      "fields": [],
+      "approved_for_research": false
+    }
+  ],
+  "approved_for_research": false
+}

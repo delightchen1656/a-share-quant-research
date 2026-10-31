@@ -1,0 +1,122 @@
+[
+  {
+    "source_id": "de5c179898ef",
+    "industry_code": "C37",
+    "source_variants": {
+      "铁路、船舶、航空航天和其他运输设备制造业": 64
+    },
+    "display_name": "铁路、船舶、航空航天和其他运输设备制造业",
+    "missing_source_name_rows": 2,
+    "policy": "within-document complete-prefix name, otherwise modal source name; codes unchanged"
+  },
+  {
+    "source_id": "eab983088aea",
+    "industry_code": "C20",
+    "source_variants": {
+      "木材加工及木、竹、藤、棕、草制品业": 6,
+      "木材加工及木、竹、藤、": 1
+    },
+    "display_name": "木材加工及木、竹、藤、棕、草制品业",
+    "missing_source_name_rows": 0,
+    "policy": "within-document complete-prefix name, otherwise modal source name; codes unchanged"
+  },
+  {
+    "source_id": "396ebde72cec",
+    "industry_code": "C25",
+    "source_variants": {
+      "石油加工、炼焦及核燃料加工业": 16,
+      "石油加工、炼焦及核燃": 1
+    },
+    "display_name": "石油加工、炼焦及核燃料加工业",
+    "missing_source_name_rows": 0,
+    "policy": "within-document complete-prefix name, otherwise modal source name; codes unchanged"
+  },
+  {
+    "source_id": "396ebde72cec",
+    "industry_code": "G58",
+    "source_variants": {
+      "装卸搬运和其他运输代理业": 8,
+      "装卸搬运和其他运输代理": 1
+    },
+    "display_name": "装卸搬运和其他运输代理业",
+    "missing_source_name_rows": 0,
+    "policy": "within-document complete-prefix name, otherwise modal source name; codes unchanged"
+  },
+  {
+    "source_id": "29b67b3a0e1d",
+    "industry_code": "I63",
+    "source_variants": {
+      "电信、广播电视和卫星传输传输服务": 15,
+      "电信、广播电视和卫星传": 1
+    },
+    "display_name": "电信、广播电视和卫星传输传输服务",
+    "missing_source_name_rows": 0,
+    "policy": "within-document complete-prefix name, otherwise modal source name; codes unchanged"
+  },
+  {
+    "source_id": "f93cfff91bb4",
+    "industry_code": "C32",
+    "source_variants": {
+      "有色金属冶炼及压延加工业": 66,
+      "有色金属冶炼及压延加工": 1
+    },
+    "display_name": "有色金属冶炼及压延加工业",
+    "missing_source_name_rows": 0,
+    "policy": "within-document complete-prefix name, otherwise modal source name; codes unchanged"
+  },
+  {
+    "source_id": "f93cfff91bb4",
+    "industry_code": "G58",
+    "source_variants": {
+      "装卸搬运和其他运输代理业": 3,
+      "装卸搬运和其他运输代理": 1
+    },
+    "display_name": "装卸搬运和其他运输代理业",
+    "missing_source_name_rows": 0,
+    "policy": "within-document complete-prefix name, otherwise modal source name; codes unchanged"
+  },
+  {
+    "source_id": "f93cfff91bb4",
+    "industry_code": "R86",
+    "source_variants": {
+      "广播、电视、电影和影视录音制作业": 23,
+      "广播、电视、电影和影视": 1
+    },
+    "display_name": "广播、电视、电影和影视录音制作业",
+    "missing_source_name_rows": 0,
+    "policy": "within-document complete-prefix name, otherwise modal source name; codes unchanged"
+  },
+  {
+    "source_id": "be87410c06ca",
+    "industry_code": "C35",
+    "source_variants": {
+      "专用设备制造业": 112,
+      "专用设备制造业专用设备制造业专用设备制造业": 77
+    },
+    "display_name": "专用设备制造业专用设备制造业专用设备制造业",
+    "missing_source_name_rows": 0,
+    "policy": "within-document complete-prefix name, otherwise modal source name; codes unchanged"
+  },
+  {
+    "source_id": "be87410c06ca",
+    "industry_code": "C38",
+    "source_variants": {
+      "电气机械及器材制造业": 171,
+      "电气机械及器材制造业电气机械和器材制造业电气机械及器材制造业": 42
+    },
+    "display_name": "电气机械及器材制造业电气机械和器材制造业电气机械及器材制造业",
+    "missing_source_name_rows": 0,
+    "policy": "within-document complete-prefix name, otherwise modal source name; codes unchanged"
+  },
+  {
+    "source_id": "be87410c06ca",
+    "industry_code": "C39",
+    "source_variants": {
+      "计算机、通信和其他电子设备制造业": 313,
+      "计算机、通信和其他电子": 1
+    },
+    "display_name": "计算机、通信和其他电子设备制造业",
+    "missing_source_name_rows": 0,
+    "policy": "within-document complete-prefix name, otherwise modal source name; codes unchanged"
+  }
+]

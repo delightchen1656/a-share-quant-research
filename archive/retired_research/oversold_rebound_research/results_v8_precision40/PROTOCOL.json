@@ -1,0 +1,71 @@
+{
+  "features": [
+    "ret20",
+    "ret5",
+    "below_ma20",
+    "below_ma60",
+    "low_recent",
+    "rebound_from_low",
+    "body",
+    "upper",
+    "lower",
+    "volume_ratio",
+    "last3_volume_ratio",
+    "close_over_prev_high",
+    "ma20_slope5",
+    "ma60_slope10",
+    "pre_return60",
+    "pre_return120",
+    "ma20_ma60_gap",
+    "down_volume_share20",
+    "up_volume_ratio20",
+    "new_lows10",
+    "signal_return",
+    "signal_recovery",
+    "signal_close_rank",
+    "volatility20",
+    "raw_signal_close",
+    "down_count21",
+    "one_price_count21",
+    "position1y",
+    "drawdown1y",
+    "recent_peak_to_high1y",
+    "position2y",
+    "drawdown2y",
+    "recent_peak_to_high2y",
+    "position3y",
+    "drawdown3y",
+    "recent_peak_to_high3y"
+  ],
+  "configs": [
+    "rule_deep",
+    "rule_lowprice",
+    "rule_deep_lowprice",
+    "rule_low_position1",
+    "lr_core_c01",
+    "lr_long_c01",
+    "hgb_core",
+    "hgb_long",
+    "rf_long",
+    "cluster4",
+    "cluster8"
+  ],
+  "targets": [
+    0.92,
+    0.95,
+    0.97,
+    0.99
+  ],
+  "outer_years": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "selection": "Validation precision >= requested target, n>=20 leaders/n>=50 sample; maximize Wilson lower bound then precision/count; else abstain. No outer-driven revision.",
+  "min_validation": {
+    "leaders": 20,
+    "sample": 50
+  },
+  "boundary": "2024-12-31"
+}

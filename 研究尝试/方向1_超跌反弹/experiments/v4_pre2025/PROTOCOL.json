@@ -1,0 +1,35 @@
+{
+  "boundary": "2024-12-31",
+  "selection_period": "2021-01-01/2023-12-31",
+  "check_period": "2024",
+  "untouched_current_rule": true,
+  "context_isolation_claimed": false,
+  "posterior_read_allowed": false,
+  "scope": "Frozen v3 820-signal cohort; same historical eligibility and four fixed special exclusions.",
+  "objective": "Prefer all training annual returns >= baseline, training DD <= baseline+0.2pp, >=10 closed trades per year; then highest worst-year return, total return, lower DD.",
+  "minimum_factor_signal_retention": 0.65,
+  "top_factor_candidates": 3,
+  "account_grid": {
+    "slots": [
+      4,
+      5,
+      6
+    ],
+    "forced_day": [
+      2,
+      3,
+      4
+    ],
+    "take_profit": [
+      0.06,
+      0.08,
+      0.1
+    ],
+    "stop_loss": [
+      null,
+      0.08
+    ]
+  },
+  "validation": "Freeze one candidate from training only, then evaluate 2024 and full development exactly once; do not use 2024 to reselect.",
+  "limitation": "All development years were explored previously; neither split is a fresh untouched holdout. Signal cohort has historical maturity selection. Parent has seen posterior."
+}

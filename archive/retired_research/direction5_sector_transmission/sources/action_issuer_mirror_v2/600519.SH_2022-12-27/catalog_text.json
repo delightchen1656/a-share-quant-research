@@ -1,0 +1,38 @@
+{
+  "symbol": "600519.SH",
+  "event_date": "2022-12-27",
+  "kind": "unknown_reference",
+  "start": "2022-11-11",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\600519.SH_2022-12-27\\query_01.json",
+      "sha256": "54278b668a02f71c8ff90a1d42e938de68a53675764f45eb8f8fc15fa1bb042c",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "600519",
+        "begin_time": "2022-11-11",
+        "end_time": "2022-12-27"
+      }
+    }
+  ],
+  "announcement_count": 16,
+  "documents": [
+    {
+      "title": "贵州茅台:贵州茅台2022年度回报股东特别分红实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2022-12-21",
+      "raw_response": "sources\\action_issuer_mirror_v2\\600519.SH_2022-12-27\\AN202212201581235627_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\600519.SH_2022-12-27\\AN202212201581235627.txt",
+      "sha256": "44d84ff24425b91472bf59a66867c78c0df9c575e2508e75a4a9ef78e6aad625",
+      "article_code": "AN202212201581235627",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202212201581235627_1.pdf?1671556025000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

@@ -1,0 +1,36 @@
+{
+  "original_protocol_and_manifest_hashes_unchanged": true,
+  "all_symbol_year_queries_returned": true,
+  "unique_symbol_ex_date_ledger_keys": true,
+  "issuer_overrides_checked": [
+    {
+      "symbol": "600025.SH",
+      "ex_date": "2019-07-05"
+    },
+    {
+      "symbol": "600025.SH",
+      "ex_date": "2020-06-19"
+    },
+    {
+      "symbol": "600989.SH",
+      "ex_date": "2019-09-27"
+    },
+    {
+      "symbol": "600989.SH",
+      "ex_date": "2020-06-04"
+    },
+    {
+      "symbol": "600720.SH",
+      "ex_date": "2024-06-13"
+    },
+    {
+      "symbol": "601966.SH",
+      "ex_date": "2024-06-14"
+    }
+  ],
+  "equivalent_duplicate_groups_verified": 154,
+  "equivalent_duplicate_rows_not_double_counted": 155,
+  "calendar_hash_and_kline_date_union_verified": true,
+  "identity_asof_boundary_checks_verified": true,
+  "no_economic_labels_approved": true
+}

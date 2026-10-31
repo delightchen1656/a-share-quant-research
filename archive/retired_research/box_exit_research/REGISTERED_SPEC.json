@@ -1,0 +1,45 @@
+{
+  "entry": "User chose ideal observation at adjusted signal close D0; exit permitted from D1.",
+  "scope": "Current merged leader mainboard pool; user keep-tag (no down gaps and no unfilled gaps at signal). Retrospective membership and prior outcome review create selection bias.",
+  "development_boundary": "No quote after 2024-12-31; no imported future extreme labels; not blind.",
+  "horizon": "D1..D60 official exchange sessions; require D60 <= 2024-12-31. Report boundary-purged events separately.",
+  "entry_and_exit": "Adjusted price-path study only, no shares/corporate-action cash ledger, no fees/slippage or portfolio account; not certified executable PnL.",
+  "stops": [
+    "fixed5: entry*0.95",
+    "fixed8: entry*0.92",
+    "box_cap8: max(entry*0.92, frozen_box_low*0.995)"
+  ],
+  "profit_methods": [
+    "none: initial stop and D60 time exit",
+    "profit70: after prior high >= entry*1.10, lock entry+0.70*(prior_high-entry)",
+    "atr25: after prior high >= entry*1.10, trail prior_high-2.5*ATR14_previous",
+    "ma5: after prior high >= entry*1.10, close below MA5 -> next eligible session open",
+    "ma10: after prior high >= entry*1.10, close below MA10 -> next eligible session open"
+  ],
+  "trailing": "Standing stop fixed before each day; high/ATR through previous session only; stop never lowered. Never use same-day high to sell earlier that day.",
+  "gap_stop": "If day opens below pre-known stop, estimate at open, not stop. One-price down-limit day cannot exit. At down-limit open that unlocks intraday, conservatively estimate lower-limit fill; daily proxy, no queue proof.",
+  "limits": "Historical mainboard normal10%, isST5% through 2024; raw preclose with cent HALF_UP rounding. Signal patterns require enough history beyond IPO exemptions. Treat all one-price-down days as blocked conservatively.",
+  "unavailable": "Unknown/malformed quote in any D1..D60 path excluded from comparable metrics and counted. Explicit tradestatus0 halt retained as known nontrading; no invented fills. Open exit pending until active nonblocked quote.",
+  "end": "If D60 close cannot exit, report unresolved and mark at latest valid close separately, never pretend completed sale.",
+  "stop_priority": "Known stop takes precedence over end-of-day profit/MA decisions; no profit sell limit. MA signals determined after close and executed next session.",
+  "diagnostics": [
+    "mean adjusted exit price return on comparable paths",
+    "70% capture rate for all positive eventual peaks and separately peak>=10%",
+    "median per-signal capture ratio for peak>=10%",
+    "negative exit rate",
+    "exit losses <= -10%",
+    "worst exit return",
+    "stop overshoot",
+    "unresolved exits",
+    "mean adverse excursion before exit"
+  ],
+  "capture": "For positive fixed-window future max gain M, capture=exit_return/M; success exit_return>=0.7*M. M is diagnostics only, never an exit input.",
+  "cohorts": [
+    "2019-2022 exploratory development",
+    "2023 exploratory temporal check",
+    "2024 descriptive temporal check; prior summaries seen, not pristine holdout"
+  ],
+  "no_extreme_winner_removal": true,
+  "no_parameter_search_beyond_registered15": true,
+  "no_2025_2026_use": true
+}

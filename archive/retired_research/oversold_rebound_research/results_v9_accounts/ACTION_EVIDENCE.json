@@ -1,0 +1,1247 @@
+{
+  "queried_keys": 11,
+  "known_keys": 118,
+  "actions": [
+    {
+      "code": "000338",
+      "date": "2022-08-26",
+      "cash": 0.185,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-08-26",
+      "release": "2022-08-26",
+      "reference_error": 0.004999999999999005
+    },
+    {
+      "code": "000338",
+      "date": "2022-10-21",
+      "cash": 0.096,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-10-21",
+      "release": "2022-10-21",
+      "reference_error": 0.006000000000000227
+    },
+    {
+      "code": "000422",
+      "date": "2024-06-14",
+      "cash": 0.32,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-06-14",
+      "release": "2024-06-14",
+      "reference_error": 0.0
+    },
+    {
+      "code": "000498",
+      "date": "2022-06-29",
+      "cash": 0.124957,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-06-29",
+      "release": "2022-06-29",
+      "reference_error": 0.004956999999999212
+    },
+    {
+      "code": "000680",
+      "date": "2024-06-25",
+      "cash": 0.15,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-06-25",
+      "release": "2024-06-25",
+      "reference_error": 0.0
+    },
+    {
+      "code": "000683",
+      "date": "2022-05-09",
+      "cash": 0.1,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-05-09",
+      "release": "2022-05-09",
+      "reference_error": 0.0
+    },
+    {
+      "code": "000739",
+      "date": "2021-04-29",
+      "cash": 0.243,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2021-04-29",
+      "release": "2021-04-29",
+      "reference_error": 0.0030000000000001137
+    },
+    {
+      "code": "000739",
+      "date": "2022-04-18",
+      "cash": 0.285,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-04-18",
+      "release": "2022-04-18",
+      "reference_error": 0.004999999999999005
+    },
+    {
+      "code": "000779",
+      "date": "2024-07-25",
+      "cash": 0.08,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-07-25",
+      "release": "2024-07-25",
+      "reference_error": 0.0
+    },
+    {
+      "code": "000936",
+      "date": "2024-07-04",
+      "cash": 0.02,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-07-04",
+      "release": "2024-07-04",
+      "reference_error": 8.881784197001252e-16
+    },
+    {
+      "code": "000936",
+      "date": "2024-09-26",
+      "cash": 0.02,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-09-26",
+      "release": "2024-09-26",
+      "reference_error": 0.0
+    },
+    {
+      "code": "002008",
+      "date": "2022-04-29",
+      "cash": 0.4,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-04-29",
+      "release": "2022-04-29",
+      "reference_error": 0.0
+    },
+    {
+      "code": "002051",
+      "date": "2024-06-21",
+      "cash": 0.125,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-06-21",
+      "release": "2024-06-21",
+      "reference_error": 0.004999999999999893
+    },
+    {
+      "code": "002053",
+      "date": "2022-05-10",
+      "cash": 0.02,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-05-10",
+      "release": "2022-05-10",
+      "reference_error": 1.7763568394002505e-15
+    },
+    {
+      "code": "002149",
+      "date": "2021-06-18",
+      "cash": 0.15,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2021-06-18",
+      "release": "2021-06-18",
+      "reference_error": 0.0
+    },
+    {
+      "code": "002149",
+      "date": "2022-07-14",
+      "cash": 0.1,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-07-14",
+      "release": "2022-07-14",
+      "reference_error": 0.0
+    },
+    {
+      "code": "002208",
+      "date": "2024-07-16",
+      "cash": 0.085,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-07-16",
+      "release": "2024-07-16",
+      "reference_error": 0.004999999999999893
+    },
+    {
+      "code": "002250",
+      "date": "2021-07-29",
+      "cash": 0.05,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2021-07-29",
+      "release": "2021-07-29",
+      "reference_error": 0.0
+    },
+    {
+      "code": "002250",
+      "date": "2022-07-22",
+      "cash": 0.05,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-07-22",
+      "release": "2022-07-22",
+      "reference_error": 0.0
+    },
+    {
+      "code": "002250",
+      "date": "2024-07-12",
+      "cash": 0.02,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-07-12",
+      "release": "2024-07-12",
+      "reference_error": 8.881784197001252e-16
+    },
+    {
+      "code": "002286",
+      "date": "2022-06-27",
+      "cash": 0.06,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-06-27",
+      "release": "2022-06-27",
+      "reference_error": 1.7763568394002505e-15
+    },
+    {
+      "code": "002286",
+      "date": "2024-03-08",
+      "cash": 0.08,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-03-08",
+      "release": "2024-03-08",
+      "reference_error": 0.0
+    },
+    {
+      "code": "002286",
+      "date": "2024-12-10",
+      "cash": 0.035,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-12-10",
+      "release": "2024-12-10",
+      "reference_error": 0.004999999999999005
+    },
+    {
+      "code": "002340",
+      "date": "2022-06-17",
+      "cash": 0.029,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-06-17",
+      "release": "2022-06-17",
+      "reference_error": 0.0009999999999994458
+    },
+    {
+      "code": "002407",
+      "date": "2022-04-22",
+      "cash": 0.3,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-04-22",
+      "release": "2022-04-22",
+      "reference_error": 0.0
+    },
+    {
+      "code": "002454",
+      "date": "2024-06-14",
+      "cash": 0.06,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-06-14",
+      "release": "2024-06-14",
+      "reference_error": 8.881784197001252e-16
+    },
+    {
+      "code": "002508",
+      "date": "2021-05-31",
+      "cash": 0.5,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2021-05-31",
+      "release": "2021-05-31",
+      "reference_error": 0.0
+    },
+    {
+      "code": "002508",
+      "date": "2022-06-16",
+      "cash": 0.5,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-06-16",
+      "release": "2022-06-16",
+      "reference_error": 0.0
+    },
+    {
+      "code": "002538",
+      "date": "2024-06-17",
+      "cash": 0.12,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-06-17",
+      "release": "2024-06-17",
+      "reference_error": 0.0
+    },
+    {
+      "code": "002538",
+      "date": "2024-10-08",
+      "cash": 0.12,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-10-08",
+      "release": "2024-10-08",
+      "reference_error": 0.0
+    },
+    {
+      "code": "002658",
+      "date": "2022-05-10",
+      "cash": 0.3,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-05-10",
+      "release": "2022-05-10",
+      "reference_error": 0.0
+    },
+    {
+      "code": "002727",
+      "date": "2022-04-29",
+      "cash": 0.3,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-04-29",
+      "release": "2022-04-29",
+      "reference_error": 0.0
+    },
+    {
+      "code": "002729",
+      "date": "2024-06-14",
+      "cash": 0.028,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-06-14",
+      "release": "2024-06-14",
+      "reference_error": 0.002000000000000668
+    },
+    {
+      "code": "002735",
+      "date": "2024-07-11",
+      "cash": 0.048,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-07-11",
+      "release": "2024-07-11",
+      "reference_error": 0.0019999999999988916
+    },
+    {
+      "code": "002812",
+      "date": "2022-05-16",
+      "cash": 0.30309,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-05-16",
+      "release": "2022-05-16",
+      "reference_error": 0.0030899999999860484
+    },
+    {
+      "code": "002960",
+      "date": "2021-06-04",
+      "cash": 0.448953,
+      "stock": 0.39907,
+      "taxable_stock": 0.0,
+      "pay": "2021-06-04",
+      "release": "2021-06-04",
+      "reference_error": 0.004621712995060534
+    },
+    {
+      "code": "002960",
+      "date": "2023-05-30",
+      "cash": 0.3,
+      "stock": 0.3,
+      "taxable_stock": 0.0,
+      "pay": "2023-05-30",
+      "release": "2023-05-30",
+      "reference_error": 0.004615384615384244
+    },
+    {
+      "code": "002960",
+      "date": "2024-04-30",
+      "cash": 0.35,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-04-30",
+      "release": "2024-04-30",
+      "reference_error": 0.009999999999999787
+    },
+    {
+      "code": "002977",
+      "date": "2021-05-14",
+      "cash": 0.3,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2021-05-14",
+      "release": "2021-05-14",
+      "reference_error": 1.4210854715202004e-14
+    },
+    {
+      "code": "003022",
+      "date": "2022-05-06",
+      "cash": 0.2,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-05-06",
+      "release": "2022-05-06",
+      "reference_error": 0.0
+    },
+    {
+      "code": "003028",
+      "date": "2021-05-27",
+      "cash": 0.3,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2021-05-27",
+      "release": "2021-05-27",
+      "reference_error": 0.0
+    },
+    {
+      "code": "003028",
+      "date": "2022-06-23",
+      "cash": 0.3,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-06-23",
+      "release": "2022-06-23",
+      "reference_error": 0.0
+    },
+    {
+      "code": "003028",
+      "date": "2024-09-23",
+      "cash": 0.45,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-09-23",
+      "release": "2024-09-23",
+      "reference_error": 0.0
+    },
+    {
+      "code": "600026",
+      "date": "2021-07-16",
+      "cash": 0.2,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2021-07-16",
+      "release": "2021-07-16",
+      "reference_error": 0.0
+    },
+    {
+      "code": "600026",
+      "date": "2023-07-18",
+      "cash": 0.15,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2023-07-18",
+      "release": "2023-07-18",
+      "reference_error": 0.0
+    },
+    {
+      "code": "600125",
+      "date": "2024-07-19",
+      "cash": 0.11,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-07-19",
+      "release": "2024-07-19",
+      "reference_error": 8.881784197001252e-16
+    },
+    {
+      "code": "600176",
+      "date": "2021-05-21",
+      "cash": 0.224,
+      "stock": 0.143,
+      "taxable_stock": 0.0,
+      "pay": "2021-05-21",
+      "release": "2021-05-24",
+      "reference_error": 0.0033158355205582524
+    },
+    {
+      "code": "600218",
+      "date": "2022-06-24",
+      "cash": 0.105,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-06-24",
+      "release": "2022-06-24",
+      "reference_error": 0.005000000000000782
+    },
+    {
+      "code": "600218",
+      "date": "2024-06-24",
+      "cash": 0.07,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-06-24",
+      "release": "2024-06-24",
+      "reference_error": 8.881784197001252e-16
+    },
+    {
+      "code": "600335",
+      "date": "2022-06-10",
+      "cash": 0.07,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-06-10",
+      "release": "2022-06-10",
+      "reference_error": 0.0
+    },
+    {
+      "code": "600335",
+      "date": "2024-06-28",
+      "cash": 0.005,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-06-28",
+      "release": "2024-06-28",
+      "reference_error": 0.004999999999999893
+    },
+    {
+      "code": "600335",
+      "date": "2024-11-13",
+      "cash": 0.025,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-11-13",
+      "release": "2024-11-13",
+      "reference_error": 0.004999999999999893
+    },
+    {
+      "code": "600458",
+      "date": "2022-06-23",
+      "cash": 0.08,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-06-23",
+      "release": "2022-06-23",
+      "reference_error": 0.0
+    },
+    {
+      "code": "600477",
+      "date": "2022-07-08",
+      "cash": 0.06,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-07-08",
+      "release": "2022-07-08",
+      "reference_error": 0.0
+    },
+    {
+      "code": "600477",
+      "date": "2024-06-11",
+      "cash": 0.05,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-06-11",
+      "release": "2024-06-11",
+      "reference_error": 0.0
+    },
+    {
+      "code": "600477",
+      "date": "2024-10-22",
+      "cash": 0.035,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-10-22",
+      "release": "2024-10-22",
+      "reference_error": 0.004999999999999893
+    },
+    {
+      "code": "600535",
+      "date": "2022-06-20",
+      "cash": 0.33,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-06-20",
+      "release": "2022-06-20",
+      "reference_error": 0.0
+    },
+    {
+      "code": "600570",
+      "date": "2021-07-16",
+      "cash": 0.1,
+      "stock": 0.4,
+      "taxable_stock": 0.4,
+      "pay": "2021-07-16",
+      "release": "2021-07-19",
+      "reference_error": 0.005714285714276457
+    },
+    {
+      "code": "600570",
+      "date": "2022-08-18",
+      "cash": 0.1,
+      "stock": 0.3,
+      "taxable_stock": 0.3,
+      "pay": "2022-08-18",
+      "release": "2022-08-19",
+      "reference_error": 0.002307692307692122
+    },
+    {
+      "code": "600570",
+      "date": "2024-06-11",
+      "cash": 0.13,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-06-11",
+      "release": "2024-06-11",
+      "reference_error": 0.0
+    },
+    {
+      "code": "600702",
+      "date": "2023-06-15",
+      "cash": 1.5,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2023-06-15",
+      "release": "2023-06-15",
+      "reference_error": 0.0
+    },
+    {
+      "code": "600714",
+      "date": "2022-10-26",
+      "cash": 0.1,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-10-26",
+      "release": "2022-10-26",
+      "reference_error": 0.0
+    },
+    {
+      "code": "600714",
+      "date": "2024-11-13",
+      "cash": 0.1,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-11-13",
+      "release": "2024-11-13",
+      "reference_error": 0.0
+    },
+    {
+      "code": "600895",
+      "date": "2022-07-06",
+      "cash": 0.15,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-07-06",
+      "release": "2022-07-06",
+      "reference_error": 0.0
+    },
+    {
+      "code": "600895",
+      "date": "2024-08-08",
+      "cash": 0.19,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-08-08",
+      "release": "2024-08-08",
+      "reference_error": 0.0
+    },
+    {
+      "code": "600895",
+      "date": "2024-10-18",
+      "cash": 0.052,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-10-18",
+      "release": "2024-10-18",
+      "reference_error": 0.0019999999999988916
+    },
+    {
+      "code": "600906",
+      "date": "2022-08-12",
+      "cash": 0.1,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-08-12",
+      "release": "2022-08-12",
+      "reference_error": 0.0
+    },
+    {
+      "code": "601002",
+      "date": "2024-06-20",
+      "cash": 0.1,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-06-20",
+      "release": "2024-06-20",
+      "reference_error": 0.0
+    },
+    {
+      "code": "601101",
+      "date": "2021-07-01",
+      "cash": 0.03,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2021-07-01",
+      "release": "2021-07-01",
+      "reference_error": 8.881784197001252e-16
+    },
+    {
+      "code": "601101",
+      "date": "2022-07-01",
+      "cash": 0.55,
+      "stock": 0.2,
+      "taxable_stock": 0.0,
+      "pay": "2022-07-01",
+      "release": "2022-07-04",
+      "reference_error": 0.005000000000000782
+    },
+    {
+      "code": "601601",
+      "date": "2022-07-11",
+      "cash": 1.0,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-07-11",
+      "release": "2022-07-11",
+      "reference_error": 0.0
+    },
+    {
+      "code": "601628",
+      "date": "2022-07-14",
+      "cash": 0.65,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-07-14",
+      "release": "2022-07-14",
+      "reference_error": 3.552713678800501e-15
+    },
+    {
+      "code": "601688",
+      "date": "2022-08-05",
+      "cash": 0.45,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-08-05",
+      "release": "2022-08-05",
+      "reference_error": 0.0
+    },
+    {
+      "code": "601882",
+      "date": "2022-04-29",
+      "cash": 0.356,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-04-29",
+      "release": "2022-04-29",
+      "reference_error": 0.0039999999999995595
+    },
+    {
+      "code": "601901",
+      "date": "2024-07-19",
+      "cash": 0.023,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-07-19",
+      "release": "2024-07-19",
+      "reference_error": 0.0029999999999992255
+    },
+    {
+      "code": "601901",
+      "date": "2024-10-11",
+      "cash": 0.048,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-10-11",
+      "release": "2024-10-11",
+      "reference_error": 0.002000000000000668
+    },
+    {
+      "code": "601952",
+      "date": "2021-06-28",
+      "cash": 0.21,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2021-06-28",
+      "release": "2021-06-28",
+      "reference_error": 1.7763568394002505e-15
+    },
+    {
+      "code": "601969",
+      "date": "2024-05-21",
+      "cash": 0.1,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-05-21",
+      "release": "2024-05-21",
+      "reference_error": 0.0
+    },
+    {
+      "code": "601969",
+      "date": "2024-12-25",
+      "cash": 0.02,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-12-25",
+      "release": "2024-12-25",
+      "reference_error": 8.881784197001252e-16
+    },
+    {
+      "code": "603017",
+      "date": "2022-09-16",
+      "cash": 0.25,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-09-16",
+      "release": "2022-09-16",
+      "reference_error": 0.009999999999999787
+    },
+    {
+      "code": "603017",
+      "date": "2024-12-20",
+      "cash": 0.1,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-12-20",
+      "release": "2024-12-20",
+      "reference_error": 0.0
+    },
+    {
+      "code": "603127",
+      "date": "2023-07-25",
+      "cash": 0.4,
+      "stock": 0.4,
+      "taxable_stock": 0.0,
+      "pay": "2023-07-25",
+      "release": "2023-07-25",
+      "reference_error": 0.002857142857141781
+    },
+    {
+      "code": "603155",
+      "date": "2024-06-18",
+      "cash": 0.0,
+      "stock": 0.4,
+      "taxable_stock": 0.0,
+      "pay": "2024-06-18",
+      "release": "2024-06-18",
+      "reference_error": 0.004285714285712672
+    },
+    {
+      "code": "603155",
+      "date": "2024-10-10",
+      "cash": 0.3,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-10-10",
+      "release": "2024-10-10",
+      "reference_error": 0.0
+    },
+    {
+      "code": "603214",
+      "date": "2022-05-30",
+      "cash": 0.2,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-05-30",
+      "release": "2022-05-30",
+      "reference_error": 0.0
+    },
+    {
+      "code": "603214",
+      "date": "2024-05-21",
+      "cash": 0.35,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-05-21",
+      "release": "2024-05-21",
+      "reference_error": 0.0
+    },
+    {
+      "code": "603214",
+      "date": "2024-10-08",
+      "cash": 0.109,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-10-08",
+      "release": "2024-10-08",
+      "reference_error": 0.0009999999999994458
+    },
+    {
+      "code": "603233",
+      "date": "2021-06-10",
+      "cash": 0.8,
+      "stock": 0.2,
+      "taxable_stock": 0.0,
+      "pay": "2021-06-10",
+      "release": "2021-06-11",
+      "reference_error": 0.0016666666666722563
+    },
+    {
+      "code": "603233",
+      "date": "2024-06-21",
+      "cash": 0.31,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-06-21",
+      "release": "2024-06-21",
+      "reference_error": 0.0
+    },
+    {
+      "code": "603233",
+      "date": "2024-10-23",
+      "cash": 0.31,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-10-23",
+      "release": "2024-10-23",
+      "reference_error": 1.7763568394002505e-15
+    },
+    {
+      "code": "603270",
+      "date": "2024-06-14",
+      "cash": 0.2,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-06-14",
+      "release": "2024-06-14",
+      "reference_error": 0.0
+    },
+    {
+      "code": "603270",
+      "date": "2024-10-23",
+      "cash": 0.05,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-10-23",
+      "release": "2024-10-23",
+      "reference_error": 0.0
+    },
+    {
+      "code": "603307",
+      "date": "2024-06-21",
+      "cash": 1.0,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-06-21",
+      "release": "2024-06-21",
+      "reference_error": 3.552713678800501e-15
+    },
+    {
+      "code": "603307",
+      "date": "2024-09-25",
+      "cash": 0.4,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-09-25",
+      "release": "2024-09-25",
+      "reference_error": 0.0
+    },
+    {
+      "code": "603351",
+      "date": "2024-06-13",
+      "cash": 0.3,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-06-13",
+      "release": "2024-06-13",
+      "reference_error": 0.0
+    },
+    {
+      "code": "603396",
+      "date": "2024-07-02",
+      "cash": 0.20001,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-07-02",
+      "release": "2024-07-02",
+      "reference_error": 9.999999996068709e-06
+    },
+    {
+      "code": "603551",
+      "date": "2021-06-01",
+      "cash": 0.4,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2021-06-01",
+      "release": "2021-06-01",
+      "reference_error": 0.0
+    },
+    {
+      "code": "603551",
+      "date": "2022-06-10",
+      "cash": 0.6,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-06-10",
+      "release": "2022-06-10",
+      "reference_error": 0.019999999999999574
+    },
+    {
+      "code": "603629",
+      "date": "2022-06-09",
+      "cash": 0.173,
+      "stock": 0.4,
+      "taxable_stock": 0.0,
+      "pay": "2022-06-09",
+      "release": "2022-06-10",
+      "reference_error": 0.0035714285714281147
+    },
+    {
+      "code": "603629",
+      "date": "2024-06-14",
+      "cash": 0.09,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-06-14",
+      "release": "2024-06-14",
+      "reference_error": 0.0
+    },
+    {
+      "code": "603699",
+      "date": "2022-07-14",
+      "cash": 0.25,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-07-14",
+      "release": "2022-07-14",
+      "reference_error": 0.0
+    },
+    {
+      "code": "603699",
+      "date": "2024-07-10",
+      "cash": 0.52,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-07-10",
+      "release": "2024-07-10",
+      "reference_error": 0.0
+    },
+    {
+      "code": "603699",
+      "date": "2024-10-23",
+      "cash": 0.38,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-10-23",
+      "release": "2024-10-23",
+      "reference_error": 0.0
+    },
+    {
+      "code": "603800",
+      "date": "2024-06-13",
+      "cash": 0.15,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-06-13",
+      "release": "2024-06-13",
+      "reference_error": 3.552713678800501e-15
+    },
+    {
+      "code": "603806",
+      "date": "2022-05-25",
+      "cash": 0.35,
+      "stock": 0.4,
+      "taxable_stock": 0.0,
+      "pay": "2022-05-25",
+      "release": "2022-05-26",
+      "reference_error": 0.004285714285714448
+    },
+    {
+      "code": "603806",
+      "date": "2023-05-26",
+      "cash": 0.15,
+      "stock": 0.4,
+      "taxable_stock": 0.0,
+      "pay": "2023-05-26",
+      "release": "2023-05-26",
+      "reference_error": 0.0014285714285762197
+    },
+    {
+      "code": "603806",
+      "date": "2024-06-24",
+      "cash": 0.26,
+      "stock": 0.4,
+      "taxable_stock": 0.0,
+      "pay": "2024-06-24",
+      "release": "2024-06-24",
+      "reference_error": 1.7763568394002505e-15
+    },
+    {
+      "code": "603833",
+      "date": "2024-07-09",
+      "cash": 2.76,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-07-09",
+      "release": "2024-07-09",
+      "reference_error": 0.020000000000003126
+    },
+    {
+      "code": "603881",
+      "date": "2022-04-29",
+      "cash": 0.034,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-04-29",
+      "release": "2022-04-29",
+      "reference_error": 0.004000000000001336
+    },
+    {
+      "code": "603897",
+      "date": "2022-05-11",
+      "cash": 0.3,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-05-11",
+      "release": "2022-05-11",
+      "reference_error": 0.0
+    },
+    {
+      "code": "603897",
+      "date": "2022-10-18",
+      "cash": 0.2,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-10-18",
+      "release": "2022-10-18",
+      "reference_error": 0.0
+    },
+    {
+      "code": "603915",
+      "date": "2021-06-08",
+      "cash": 0.25,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2021-06-08",
+      "release": "2021-06-08",
+      "reference_error": 0.0
+    },
+    {
+      "code": "603915",
+      "date": "2022-06-08",
+      "cash": 0.3,
+      "stock": 0.4,
+      "taxable_stock": 0.0,
+      "pay": "2022-06-08",
+      "release": "2022-06-09",
+      "reference_error": 0.002857142857145334
+    },
+    {
+      "code": "603915",
+      "date": "2024-06-12",
+      "cash": 0.2,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-06-12",
+      "release": "2024-06-12",
+      "reference_error": 0.0
+    },
+    {
+      "code": "603915",
+      "date": "2024-10-11",
+      "cash": 0.12,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-10-11",
+      "release": "2024-10-11",
+      "reference_error": 0.0
+    },
+    {
+      "code": "603919",
+      "date": "2021-05-14",
+      "cash": 0.24,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2021-05-14",
+      "release": "2021-05-14",
+      "reference_error": 7.105427357601002e-15
+    },
+    {
+      "code": "603919",
+      "date": "2022-06-09",
+      "cash": 0.22,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-06-09",
+      "release": "2022-06-09",
+      "reference_error": 0.0
+    },
+    {
+      "code": "603919",
+      "date": "2024-05-22",
+      "cash": 0.389,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-05-22",
+      "release": "2024-05-22",
+      "reference_error": 0.0010000000000012221
+    },
+    {
+      "code": "605089",
+      "date": "2022-06-10",
+      "cash": 1.0,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-06-10",
+      "release": "2022-06-10",
+      "reference_error": 0.0
+    },
+    {
+      "code": "605089",
+      "date": "2023-06-02",
+      "cash": 0.8,
+      "stock": 0.38,
+      "taxable_stock": 0.0,
+      "pay": "2023-06-02",
+      "release": "2023-06-02",
+      "reference_error": 0.001014492753625973
+    },
+    {
+      "code": "605089",
+      "date": "2024-06-14",
+      "cash": 0.7,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-06-14",
+      "release": "2024-06-14",
+      "reference_error": 0.010000000000001563
+    },
+    {
+      "code": "605123",
+      "date": "2022-04-26",
+      "cash": 0.288,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2022-04-26",
+      "release": "2022-04-26",
+      "reference_error": 0.001999999999995339
+    },
+    {
+      "code": "002183",
+      "date": "2024-06-28",
+      "cash": 0.012,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2024-06-28",
+      "release": "2024-06-28",
+      "reference_error": 0.0019999999999997797
+    },
+    {
+      "code": "002340",
+      "date": "2021-06-18",
+      "cash": 0.015,
+      "stock": 0.0,
+      "taxable_stock": 0.0,
+      "pay": "2021-06-18",
+      "release": "2021-06-18",
+      "reference_error": 0.005000000000000782
+    }
+  ],
+  "duplicates": []
+}

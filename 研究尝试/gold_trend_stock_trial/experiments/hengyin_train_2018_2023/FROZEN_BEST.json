@@ -1,0 +1,72 @@
+{
+  "search_configurations": 157500,
+  "objective": "training cumulative strategy return minus buy_hold return; lower drawdown tie break",
+  "best_parameters": {
+    "fast": 30,
+    "slow": 40,
+    "entry_buffer": 0.0,
+    "exit_buffer": 0.02,
+    "breakout": 10,
+    "stop": 0.06,
+    "cooldown": 5
+  },
+  "best": {
+    "label": "best",
+    "cumulative_return": 1.2069333171965284,
+    "max_drawdown": 0.49930305559524657,
+    "trade_count": 64,
+    "first_effective_date": "2018-03-06 00:00:00",
+    "first_signal_date": "2018-03-08 00:00:00",
+    "limit_fill_count": 2,
+    "open_position_at_end": true
+  },
+  "reference_parameters": {
+    "fast": 20,
+    "slow": 120,
+    "entry_buffer": 0.02,
+    "exit_buffer": 0.02,
+    "breakout": 90,
+    "stop": 0.08,
+    "cooldown": 5
+  },
+  "reference": {
+    "label": "reference",
+    "cumulative_return": -0.444072849933155,
+    "max_drawdown": 0.5708678723476344,
+    "trade_count": 38,
+    "first_effective_date": "2018-07-03 00:00:00",
+    "first_signal_date": "2019-03-07 00:00:00",
+    "limit_fill_count": 0,
+    "open_position_at_end": false
+  },
+  "buy_hold": {
+    "cumulative_return": -0.3408962471365352,
+    "max_drawdown": 0.7497062121869078,
+    "entry_date": "2018-01-02 00:00:00",
+    "entry_qfq_open": 13.16939853898554
+  },
+  "best_excess_return": 1.5478295643330635,
+  "checks": {
+    "input_hash_and_cutoff": true,
+    "independent_engine": true,
+    "trade_compounding": true,
+    "next_bar_fills": true,
+    "prefix_invariance_cuts": [
+      300,
+      600,
+      900,
+      1200
+    ]
+  },
+  "limitations": [
+    "In-sample finite-grid maximum, not global optimum and not out-of-sample evidence.",
+    "Qfq fractional-share gross price observation, no fees, slippage, real corporate-action cash/share ledger or executable-trading guarantee.",
+    "Limit-open flags estimated from raw preclose and isST at 10%/5%, not exchange limit-price validation; flagged fills remain idealized.",
+    "No pre-2018 warmup; remain cash until all windows ready. No artificial end liquidation; final positions marked at final close."
+  ],
+  "scope_label": "白名单数据隔离的区间内训练搜索",
+  "context_caveat": "公开AGENTS含无关方向1范围与信号计数；未声称全部上下文绝对干净。没有接收本股票授权期后的价格、业绩、选参或其他后验信息。",
+  "data_convention": "1457 source rows, one tradestatus=0 suspension omitted before indicators/cooldown/execution; 1456 tradable-bar NAV rows.",
+  "code_sha256": "51649e5d18358a8afa357c67fd65d9ad6d631e75dcb3dbe829bce6a8b7738595",
+  "search_plan_sha256": "01d60d4fdda931b3e476bc82c363588db98b071c86d7933b7a6aef722b48c252"
+}

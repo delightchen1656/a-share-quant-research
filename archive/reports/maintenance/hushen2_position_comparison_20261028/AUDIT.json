@@ -1,0 +1,132 @@
+{
+  "status": "read_only_audit_complete_actual_oct28_fills_pending_user_confirmation",
+  "ledger_revision": 65,
+  "latest_recorded_at": "2026-10-28T07:55:22.385208+08:00",
+  "actual_recorded_positions": [
+    {
+      "symbol": "000652.SZ",
+      "name": "泰达股份",
+      "actual_quantity": 600,
+      "actual_entry": "2026-10-23",
+      "actual_price": 3.1,
+      "actual_stop": 2.98,
+      "actual_take": 3.42,
+      "atr": 0.025493798805695928,
+      "formula_verified": true,
+      "backtest_quantity": 6500,
+      "backtest_price": 3.1162199999999998,
+      "backtest_atr_matches": true
+    },
+    {
+      "symbol": "002476.SZ",
+      "name": "新叶股份",
+      "actual_quantity": 400,
+      "actual_entry": "2026-10-26",
+      "actual_price": 4.43,
+      "actual_stop": 4.14,
+      "actual_take": 5.2,
+      "atr": 0.043464365612016644,
+      "formula_verified": true,
+      "backtest_quantity": 4400,
+      "backtest_price": 4.47894,
+      "backtest_atr_matches": true
+    },
+    {
+      "symbol": "002767.SZ",
+      "name": "先锋电子",
+      "actual_quantity": 100,
+      "actual_entry": "2026-10-26",
+      "actual_price": 16.0,
+      "actual_stop": 14.8,
+      "actual_take": 19.2,
+      "atr": 0.05,
+      "formula_verified": true,
+      "backtest_quantity": 1200,
+      "backtest_price": 16.032,
+      "backtest_atr_matches": true
+    },
+    {
+      "symbol": "000788.SZ",
+      "name": "北大医药",
+      "actual_quantity": 300,
+      "actual_entry": "2026-10-27",
+      "actual_price": 5.82,
+      "actual_stop": 5.42,
+      "actual_take": 6.88,
+      "atr": 0.045409916543937154,
+      "formula_verified": true,
+      "backtest_quantity": 0,
+      "backtest_price": null,
+      "backtest_atr_matches": null
+    }
+  ],
+  "actual_orders": [
+    {
+      "signal_id": "2026-10-27_002492.SZ",
+      "symbol": "002492.SZ",
+      "name": "恒基达鑫",
+      "signal_date": "2026-10-27",
+      "atr": 0.05,
+      "atr_policy": "price_tr_sma14_over_signal_close_clip015_050_v1",
+      "trigger": 5.01,
+      "quantity": 300,
+      "filled": 0,
+      "status": "open",
+      "event_id": 65
+    }
+  ],
+  "actual_cash_including_released_prior_sale": 2582.76,
+  "occupied": 5,
+  "free_slots": 0,
+  "backtest_only_position": [
+    {
+      "symbol": "600807.SH",
+      "signal_date": "2026-10-22 00:00:00",
+      "entry_date": "2026-10-23 00:00:00",
+      "deadline": "2026-11-22 00:00:00",
+      "expiry_session": "2026-11-20 00:00:00",
+      "shares": 8300,
+      "entry_price": 2.4048,
+      "entry_cost": 19965.827952,
+      "entry_notional": 19959.84,
+      "atr_pct": 0.04596018735362997,
+      "take_price": 2.846900234192037,
+      "stop_price": 2.2390124121779857,
+      "entry_year": 2026,
+      "locked_until": "1677-09-21 00:12:43.145224193",
+      "dividends": 0.0,
+      "frozen": false,
+      "frozen_value": 0.0,
+      "mark": 2.37,
+      "market_value": 19671.0,
+      "unrealized_net": -294.82795199999964
+    }
+  ],
+  "divergence": {
+    "event_19": "2026-10-21 rejected002554.SZ (惠博普)",
+    "event_20": "accepted2026-10-21_600807.SH",
+    "event_25": "2026-10-22 bought700@2.51",
+    "event_37": "2026-10-23 sold700@2.34",
+    "consequence": "Actual earlier济高 lot stopped out; automated baseline later entered Oct22 signal onOct23 and still held. This frees actual slot for000788, absent from100k simulation."
+  },
+  "oct28_alert": {
+    "symbol": "000788.SZ",
+    "quantity": 300,
+    "stop": 5.42,
+    "low": 5.2,
+    "high": 5.47,
+    "close": 5.4,
+    "recorded_sell": false,
+    "not_assumed_filled": true
+  },
+  "material_implementation_differences": {
+    "suggested_budget": "software min(equity/5,available_cash+deferred); backtest equity/5",
+    "share_rounding": "software subtracts5 before dividing by protected trigger price; baseline does not reserve that5 in preset quantity",
+    "protection_tick": "software round to0.01; baseline floating price",
+    "expiry": "software next-session manual open reminder; baseline expiry-session close",
+    "costs": "software actual recorded fills and cash reconciliation; backtest fixed fees/slippage"
+  },
+  "account_db_modified": false,
+  "software_restarted": false,
+  "financial_records_unchanged_sha256": "639c9f72eeb3e9167e2e5ed2ebc44aaef2031bed97b4faa648c4024f2974d9ee"
+}

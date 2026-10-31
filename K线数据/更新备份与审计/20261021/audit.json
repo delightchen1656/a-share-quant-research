@@ -1,0 +1,104 @@
+{
+  "status": "ok",
+  "updated_at": "2026-10-21T19:54:08.135754+08:00",
+  "target": "2026-10-21",
+  "source": "BaoStock",
+  "scope": "Downloaded market data only; no model retraining or strategy changes",
+  "datasets": {
+    "hushen": {
+      "symbols": 3396,
+      "active": 3195,
+      "new_symbols": [],
+      "updated_symbols": 3195,
+      "added_rows": 3195
+    },
+    "kechuang": {
+      "symbols": 621,
+      "active": 618,
+      "new_symbols": [],
+      "updated_symbols": 618,
+      "added_rows": 618
+    }
+  },
+  "qfq_rebased_symbols": [
+    {
+      "code": "sh.600380",
+      "symbol": "600380.SH",
+      "factor": 0.929633
+    },
+    {
+      "code": "sh.600906",
+      "symbol": "600906.SH",
+      "factor": 0.99359
+    },
+    {
+      "code": "sh.601598",
+      "symbol": "601598.SH",
+      "factor": 0.979681
+    },
+    {
+      "code": "sh.601898",
+      "symbol": "601898.SH",
+      "factor": 0.988274
+    },
+    {
+      "code": "sh.603207",
+      "symbol": "603207.SH",
+      "factor": 0.98272
+    },
+    {
+      "code": "sh.603699",
+      "symbol": "603699.SH",
+      "factor": 0.989119
+    },
+    {
+      "code": "sz.000563",
+      "symbol": "000563.SZ",
+      "factor": 0.99661
+    },
+    {
+      "code": "sz.000783",
+      "symbol": "000783.SZ",
+      "factor": 0.993464
+    },
+    {
+      "code": "sz.002756",
+      "symbol": "002756.SZ",
+      "factor": 0.991611
+    },
+    {
+      "code": "sz.002812",
+      "symbol": "002812.SZ",
+      "factor": 0.991015
+    },
+    {
+      "code": "sz.003028",
+      "symbol": "003028.SZ",
+      "factor": 0.9955890000000001
+    },
+    {
+      "code": "sz.003031",
+      "symbol": "003031.SZ",
+      "factor": 0.998181
+    },
+    {
+      "code": "sh.688016",
+      "symbol": "688016.SH",
+      "factor": 0.985036
+    }
+  ],
+  "raw_vendor_revisions": [],
+  "validation": {
+    "mode": "daily_incremental",
+    "monthly_full_validation": false,
+    "monthly_rule": "first trading session of each calendar month",
+    "incremental_window_raw_qfq_dates_equal": true,
+    "incremental_window_unique_dates": true,
+    "incremental_window_no_future_dates": true,
+    "active_symbol_latest_date": "2026-10-21",
+    "incremental_window_ohlc_complete_and_ordered": true,
+    "transactional_staging": true
+  },
+  "backup": "data_updates/20261021/before_update",
+  "committed_files": 7633
+}

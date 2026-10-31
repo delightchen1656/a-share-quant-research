@@ -1,0 +1,30 @@
+{
+  "boundary_version": "public-pre2025-v2",
+  "cutoff": "2024-12-31",
+  "selection_method": "IPO-on-or-before-cutoff only; no return/result-based selection",
+  "qfq_method": "rebuilt from cutoff-truncated raw preclose/previous-close chain and normalized to 1.0 at each symbol's last visible row",
+  "source_market_root": "evening_accumulation/data",
+  "source_universe_sha256": "2e7acf485e110f342d570ea0d4241cb86678a2688d638f6f4b267177f1b13d39",
+  "source_calendar_sha256": "d219374cde856c2a5fe6081ab2ba4536c630f6c31fc8ca63de2eb8108cc5cc6c",
+  "universe_rows": 583,
+  "future_ipo_rows_removed": 38,
+  "future_out_dates_blankened": 1,
+  "precutoff_delisted_rows": 2,
+  "raw_files": 583,
+  "qfq_files": 583,
+  "raw_global_max_date": "2024-12-31",
+  "qfq_global_max_date": "2024-12-31",
+  "calendar_max_date": "2024-12-31",
+  "checks": {
+    "all_market_dates_at_or_before_cutoff": true,
+    "calendar_at_or_before_cutoff": true,
+    "raw_qfq_universe_file_sets_equal": true,
+    "future_outdate_not_exposed": true,
+    "current_code_name_omitted": true
+  },
+  "known_limitations": [
+    "The current BaoStock universe is sanitized backward; completeness for securities absent from the current provider response cannot be independently proved.",
+    "Cutoff-anchored QFQ infers distributions from BaoStock raw preclose discontinuities; it is not a substitute for a complete independently verified corporate-action table.",
+    "Frozen-model lineage is documentary rather than cryptographically bound to exact training inputs; see frozen_models/MODEL_LINEAGE.json."
+  ]
+}

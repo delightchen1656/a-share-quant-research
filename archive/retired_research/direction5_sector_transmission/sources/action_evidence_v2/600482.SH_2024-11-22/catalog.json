@@ -1,0 +1,61 @@
+{
+  "symbol": "600482.SH",
+  "event_date": "2024-11-22",
+  "kind": "unknown_reference",
+  "start": "2024-10-07",
+  "query_files": [
+    {
+      "path": "sources\\action_evidence_v2\\600482.SH_2024-11-22\\query_01.json",
+      "sha256": "fde0225227cf37b77a6f8cacad153c93529540e53544862c7c2a046c4aa777c1"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\600482.SH_2024-11-22\\query_02.json",
+      "sha256": "0bb5636879f79838e8ba765c008348d7fe0d2a0a7b508a05649f54f4cdc1c755"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\600482.SH_2024-11-22\\query_03.json",
+      "sha256": "b10c83621ac5713b77908d2f203e56a826ac07c3961a5c197120a49ccc6f951a"
+    }
+  ],
+  "exact_code_announcements": 73,
+  "documents": [
+    {
+      "title": "中国船舶重工集团动力股份有限公司关于披露重组预案的一般风险提示暨复牌的公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-11-09/1221663233.PDF",
+      "published_date": "2024-11-09",
+      "pdf": "sources\\action_evidence_v2\\600482.SH_2024-11-22\\1221663233.pdf",
+      "text": "sources\\action_evidence_v2\\600482.SH_2024-11-22\\1221663233.txt",
+      "sha256": "37f068c9afb772eb5dfe17552d17e0e383def1b6c22e3f79a639855d573fd6e5",
+      "pages": 2
+    },
+    {
+      "title": "中国船舶重工集团动力股份有限公司关于披露重组预案的一般风险提示暨复牌的公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-11-09/1221663233.PDF",
+      "published_date": "2024-11-09",
+      "pdf": "sources\\action_evidence_v2\\600482.SH_2024-11-22\\1221663233.pdf",
+      "text": "sources\\action_evidence_v2\\600482.SH_2024-11-22\\1221663233.txt",
+      "sha256": "37f068c9afb772eb5dfe17552d17e0e383def1b6c22e3f79a639855d573fd6e5",
+      "pages": 2
+    },
+    {
+      "title": "中国船舶重工集团动力股份有限公司2024年特别分红权益分派实施公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-11-15/1221725633.PDF",
+      "published_date": "2024-11-15",
+      "pdf": "sources\\action_evidence_v2\\600482.SH_2024-11-22\\1221725633.pdf",
+      "text": "sources\\action_evidence_v2\\600482.SH_2024-11-22\\1221725633.txt",
+      "sha256": "451aedacd31a99f8a6a0b36e8aafba4cee8f2a4931d22afe025272ebe46464c1",
+      "pages": 3
+    },
+    {
+      "title": "中国船舶重工集团动力股份有限公司关于可转债转股价格调整暨转股复牌的公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-11-15/1221725634.PDF",
+      "published_date": "2024-11-15",
+      "pdf": "sources\\action_evidence_v2\\600482.SH_2024-11-22\\1221725634.pdf",
+      "text": "sources\\action_evidence_v2\\600482.SH_2024-11-22\\1221725634.txt",
+      "sha256": "def5c2588b826e0e3993ff81197606e1b4c6b51c50f245c8dda54ae3d11936c3",
+      "pages": 3
+    }
+  ],
+  "no_document_is_not_no_event_proof": true,
+  "fields_verified": false
+}

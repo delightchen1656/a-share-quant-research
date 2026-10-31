@@ -1,0 +1,44 @@
+{
+  "symbol": "001914.SZ",
+  "event_date": "2018-06-06",
+  "kind": "dividend_fields",
+  "start": "2018-03-18",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\001914.SZ_2018-06-06\\query_01.json",
+      "sha256": "b3447cb006aa79ab58c56e8e07535cb70dba601228ff53a90a126c912a6a4c3f",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "001914",
+        "begin_time": "2018-03-18",
+        "end_time": "2018-06-06"
+      }
+    }
+  ],
+  "announcement_count": 26,
+  "documents": [
+    {
+      "title": "中航地产:2017年年度利润分配实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2018-05-30",
+      "raw_response": "sources\\action_issuer_mirror_v2\\001914.SZ_2018-06-06\\AN201805291150132802_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\001914.SZ_2018-06-06\\AN201805291150132802.txt",
+      "sha256": "1c6d53acdddb4263231f7061d6c13b51a18108430550bc3a827425181006a29c",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\001914.SZ_2018-06-06\\AN201805291150132802_content.json",
+          "sha256": "1c6d53acdddb4263231f7061d6c13b51a18108430550bc3a827425181006a29c"
+        }
+      ],
+      "article_code": "AN201805291150132802",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201805291150132802_1.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

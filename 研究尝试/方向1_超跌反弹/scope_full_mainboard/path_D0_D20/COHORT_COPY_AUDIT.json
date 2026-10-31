@@ -1,0 +1,17 @@
+{
+  "source": "C:\\Users\\22241\\Desktop\\quant\\direction1_structure_research\\scope_full_mainboard\\FULL_SIGNALS.csv",
+  "source_sha256": "70ea8125a426c3d7a54aa39fcbe01e5bc1f71c6190e17fbd346bdf76b41843f7",
+  "copy": "C:\\Users\\22241\\Desktop\\quant\\direction1_structure_research\\scope_full_mainboard\\path_D0_D20\\COHORT_WITH_ID.csv",
+  "copy_sha256": "2c1bf2ccbd1f39d09f8c4149e36736012654c50ccaa65c4790eac6319bbae7e7",
+  "source_rows": 3805,
+  "copy_rows": 3805,
+  "added_columns": [
+    "signal_id"
+  ],
+  "all_original_cell_strings_equal_in_original_row_order": true,
+  "ids_unique": true,
+  "event_and_state_unchanged": true,
+  "original_source_unchanged": true,
+  "engine_whitelisted_source": "direction2_trend_pullback_research/factor_position_study_v5_flexible_pullback/path_D0_D20/path_engine.py",
+  "engine_sha256": "4f01b79300a9587e3e55d19bc1af1aa316cd879c5cf9d74974f43f671cf485fd"
+}

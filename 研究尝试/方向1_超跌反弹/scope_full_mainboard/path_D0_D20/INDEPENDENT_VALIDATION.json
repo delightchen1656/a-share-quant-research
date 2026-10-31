@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "total_checks": 809087,
+  "errors": [],
+  "formula_checks_all_events": true,
+  "source_price_sample_events": 41,
+  "source_price_checks": 3546,
+  "explicit_action_blocker_checks": 79618,
+  "no_action_tolerance_comparisons": 156580,
+  "four_summary_stats_and_counts_all_21_horizons": true,
+  "cohort_rows": 3805,
+  "no_anchor_events": 6,
+  "original_cohort_hash_unchanged": true,
+  "engine_hash_unchanged": true,
+  "partial_action_coverage_not_assumed_complete": true,
+  "not_an_account": true
+}

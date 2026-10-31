@@ -1,0 +1,17 @@
+{
+  "utility": "b46be1e9638056a1a251a56bfb1ad68edbdd24281506bea28f7858f16ea89912",
+  "pen025": "ae0f7110cce3b41dc45c1f30fffedf155535eee441496f07d2970483bfaaedd8",
+  "pen100": "d9ac6b247dedd89e6df558cf57b96d47321eb27f4e5c405416607e40c821e8c9",
+  "source": "Original embedded numerical trees recovered from Git object 1702b35e0cadf60a38f069b28e6ea9b3f5ffa84b; lossless numerical conversion, no retraining; executable bytes differ from original files",
+  "saved_date": "2026-10-20",
+  "original_file_hashes": {
+    "utility": "bd084d19ad0b7369e19adc003e3741f18764cc38f87962ae582ecac1dd7d14fd",
+    "pen025": "24713b76d0ad6d22f6a56aa9f0fb022977ec4bbd5780d509198f6094d0795057",
+    "pen100": "dc609240d02267d4c5ce21ea0d87c077a3ab11f27abc4115faa60628735ae2f6"
+  },
+  "verification": "VERIFICATION.json",
+  "end_to_end_verification": "END_TO_END_VERIFICATION.json",
+  "current_nonzero_weight_models": ["utility", "pen025"],
+  "retained_zero_weight_models": ["pen100"],
+  "pipeline_validation": "Model equivalence and the committed-market-data-to-signal pipeline are verified; no broker action or account write was performed"
+}

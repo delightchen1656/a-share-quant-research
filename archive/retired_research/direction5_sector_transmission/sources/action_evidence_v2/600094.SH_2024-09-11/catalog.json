@@ -1,0 +1,26 @@
+{
+  "symbol": "600094.SH",
+  "event_date": "2024-09-11",
+  "kind": "unknown_reference",
+  "start": "2024-07-27",
+  "query_files": [
+    {
+      "path": "sources\\action_evidence_v2\\600094.SH_2024-09-11\\query_01.json",
+      "sha256": "301ece41980f16d6f73500ce1674499b6b535f28d40b737bbf47f28ed610df78"
+    }
+  ],
+  "exact_code_announcements": 21,
+  "documents": [
+    {
+      "title": "公司2024年临时权益分派实施公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-09-04/1221123307.PDF",
+      "published_date": "2024-09-04",
+      "pdf": "sources\\action_evidence_v2\\600094.SH_2024-09-11\\1221123307.pdf",
+      "text": "sources\\action_evidence_v2\\600094.SH_2024-09-11\\1221123307.txt",
+      "sha256": "d14cd9c1d2aa74df4119399564e3eb85a3fddfd6c8a84f90cc005722fc6a8a37",
+      "pages": 5
+    }
+  ],
+  "no_document_is_not_no_event_proof": true,
+  "fields_verified": false
+}

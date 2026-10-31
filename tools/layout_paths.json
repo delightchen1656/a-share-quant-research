@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "legacy_paths": {
+    "sh_sz_market_research/data_pipeline/data": "K线数据/沪深",
+    "evening_accumulation/data": "K线数据/科创",
+    "hushen_kline_viewer/gold_data": "K线数据/黄金",
+    "hushen_kline_viewer/sse_data": "K线数据/指数/上证看盘",
+    "data_updates": "K线数据/更新备份与审计",
+    "strategies/hushen": "沪深1研究",
+    "strategies/hushen_2": "沪深2研究",
+    "strategies/kechuang": "科创1研究",
+    "沪深2_K线练习": "沪深2研究/K线练习",
+    "沪深2_星轨软件": "沪深实盘工作台",
+    "hushen_kline_viewer": "K线看盘软件",
+    "direction1_structure_research": "研究尝试/方向1_超跌反弹",
+    "gold_trend_stock_trial": "研究尝试/gold_trend_stock_trial",
+    "box_exit_research": "archive/retired_research/box_exit_research",
+    "box60_selection_research": "archive/retired_research/box60_selection_research",
+    "direction5_sector_transmission": "archive/retired_research/direction5_sector_transmission",
+    "leader_pattern_research": "archive/retired_research/leader_pattern_research",
+    "oversold_rebound_research": "archive/retired_research/oversold_rebound_research",
+    "weekly_stock_selection_research": "archive/retired_research/weekly_stock_selection_research",
+    "research_versions": "archive/research_versions",
+    "量化审查": "project_memory/量化审查",
+    "reports": "archive/reports",
+    "outputs": "archive/outputs",
+    "sh_sz_market_research": "archive/legacy_layout/sh_sz_market_research",
+    "evening_accumulation": "archive/legacy_layout/evening_accumulation",
+    "strategies": "archive/legacy_layout/strategies"
+  }
+}

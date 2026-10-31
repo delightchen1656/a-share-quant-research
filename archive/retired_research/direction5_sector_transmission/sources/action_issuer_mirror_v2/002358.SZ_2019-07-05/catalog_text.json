@@ -1,0 +1,62 @@
+{
+  "symbol": "002358.SZ",
+  "event_date": "2019-07-05",
+  "kind": "dividend_fields",
+  "start": "2019-04-16",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\002358.SZ_2019-07-05\\query_01.json",
+      "sha256": "e9ab5b6d71bdad3244df64b33bf0d80d9e27bc44ba84a287ebe2f7425ccccc25",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "002358",
+        "begin_time": "2019-04-16",
+        "end_time": "2019-07-05"
+      }
+    }
+  ],
+  "announcement_count": 70,
+  "documents": [
+    {
+      "title": "森源电气:关于2018年年度权益分派实施的更正公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2019-06-29",
+      "raw_response": "sources\\action_issuer_mirror_v2\\002358.SZ_2019-07-05\\AN201906281336797032_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\002358.SZ_2019-07-05\\AN201906281336797032.txt",
+      "sha256": "604cd2dcbaa34ed640637ed4179d9a111babf2b3fcc685e2064f12ad3a8c98f3",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\002358.SZ_2019-07-05\\AN201906281336797032_content.json",
+          "sha256": "604cd2dcbaa34ed640637ed4179d9a111babf2b3fcc685e2064f12ad3a8c98f3"
+        }
+      ],
+      "article_code": "AN201906281336797032",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201906281336797032_1.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    },
+    {
+      "title": "森源电气:2018年年度权益分派实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2019-06-28",
+      "raw_response": "sources\\action_issuer_mirror_v2\\002358.SZ_2019-07-05\\AN201906271336645180_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\002358.SZ_2019-07-05\\AN201906271336645180.txt",
+      "sha256": "4ab96a09cfde252052dcb4dca2993ef33bc3da5ad92ef2a69d1cb69375b5fbe3",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\002358.SZ_2019-07-05\\AN201906271336645180_content.json",
+          "sha256": "4ab96a09cfde252052dcb4dca2993ef33bc3da5ad92ef2a69d1cb69375b5fbe3"
+        }
+      ],
+      "article_code": "AN201906271336645180",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201906271336645180_1.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

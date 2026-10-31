@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "instruction_boundary_version": "public-pre2025-v2",
+  "protocol": "PROTOCOL_V4.md",
+  "data_cutoff": "2024-12-31",
+  "development_period": [
+    "2016-01-01",
+    "2024-12-31"
+  ],
+  "blocks": {
+    "early": [
+      2016,
+      2019
+    ],
+    "late": [
+      2020,
+      2024
+    ]
+  },
+  "start_dates": "every trading day in Q1 of each year",
+  "baseline": {
+    "weights": {
+      "cap": -0.35,
+      "vol": -0.2,
+      "overnight": 0.25,
+      "intraday": -0.2,
+      "mom60": 0.0,
+      "mom120": 0.0
+    },
+    "smooth": 5,
+    "min_smooth": 3,
+    "count": 5,
+    "interval": 20,
+    "buffer": 1.5,
+    "exposure": 0.98,
+    "participation_20d_mean_volume": 0.005,
+    "trend_days": 0,
+    "market_ma_days": 0,
+    "risk_off_multiplier": 1.0
+  },
+  "candidate_families": {
+    "count": [
+      {
+        "count": 8
+      },
+      {
+        "count": 10
+      },
+      {
+        "count": 15
+      }
+    ],
+    "interval": [
+      {
+        "interval": 40
+      },
+      {
+        "interval": 60
+      }
+    ],
+    "exposure": [
+      {
+        "exposure": 0.8
+      },
+      {
+        "exposure": 0.6
+      }
+    ],
+    "mom60": [
+      {
+        "weights": {
+          "mom60": 0.1
+        }
+      },
+      {
+        "weights": {
+          "mom60": 0.2
+        }
+      }
+    ],
+    "mom120": [
+      {
+        "weights": {
+          "mom120": 0.1
+        }
+      },
+      {
+        "weights": {
+          "mom120": 0.2
+        }
+      }
+    ],
+    "trend": [
+      {
+        "trend_days": 60
+      },
+      {
+        "trend_days": 120
+      }
+    ],
+    "market_ma120": [
+      {
+        "market_ma_days": 120,
+        "risk_off_multiplier": 0.75
+      },
+      {
+        "market_ma_days": 120,
+        "risk_off_multiplier": 0.5
+      },
+      {
+        "market_ma_days": 120,
+        "risk_off_multiplier": 0.0
+      }
+    ],
+    "market_ma200": [
+      {
+        "market_ma_days": 200,
+        "risk_off_multiplier": 0.75
+      },
+      {
+        "market_ma_days": 200,
+        "risk_off_multiplier": 0.5
+      },
+      {
+        "market_ma_days": 200,
+        "risk_off_multiplier": 0.0
+      }
+    ]
+  },
+  "gates": {
+    "both_block_mean_excess_gain": "> 0",
+    "both_block_mean_cagr_loss": ">= -0.02",
+    "worst_year_median_excess_gain": ">= 0",
+    "year_median_excess_std_gain": "<= 0",
+    "years_improved": ">= 6 of 9",
+    "starts_improved_fraction": "> 0.50",
+    "leave_one_year_out_mean_excess_gain": "> 0 for every omitted year",
+    "single_year_positive_gain_share": "< 0.50",
+    "same_family_neighbor": "at least one adjacent setting improves mean excess in both blocks"
+  },
+  "stress": [
+    {
+      "name": "double_commission",
+      "commission_rate": 0.0006,
+      "minimum_commission": 10.0
+    },
+    {
+      "name": "capacity_40pct",
+      "participation_multiplier": 0.4
+    }
+  ],
+  "freeze": {
+    "hash_algorithm": "sha256",
+    "frozen_spec_sha256": "621ae9ead149c6e07b69604df7b0051a6bbafaf0466b89e39526365d4baa21a8"
+  }
+}

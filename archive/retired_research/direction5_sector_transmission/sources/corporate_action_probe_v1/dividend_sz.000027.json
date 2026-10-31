@@ -1,0 +1,43 @@
+{
+  "kind": "dividend",
+  "code": "sz.000027",
+  "requested_event_year": 2020,
+  "status": "returned",
+  "complete_ledger": false,
+  "error_code": "0",
+  "fields": [
+    "code",
+    "dividPreNoticeDate",
+    "dividAgmPumDate",
+    "dividPlanAnnounceDate",
+    "dividPlanDate",
+    "dividRegistDate",
+    "dividOperateDate",
+    "dividPayDate",
+    "dividStockMarketDate",
+    "dividCashPsBeforeTax",
+    "dividCashPsAfterTax",
+    "dividStocksPs",
+    "dividCashStock",
+    "dividReserveToStockPs"
+  ],
+  "rows": [
+    [
+      "sz.000027",
+      "",
+      "2020-05-28",
+      "2020-04-30",
+      "2020-06-04",
+      "2020-06-10",
+      "2020-06-11",
+      "2020-06-11",
+      "2020-06-11",
+      "0.05",
+      "0.025或0.05",
+      "0.200000",
+      "10送2派0.5元（含税，扣税后0.25或0.5元）",
+      ""
+    ]
+  ],
+  "worker_exit_code": 0
+}

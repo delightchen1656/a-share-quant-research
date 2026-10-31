@@ -1,0 +1,44 @@
+{
+  "symbol": "000582.SZ",
+  "year": 2018,
+  "year_type": "operate",
+  "provider": "BaoStock",
+  "status": "returned_events",
+  "complete_corporate_action_ledger": false,
+  "fields": [
+    "code",
+    "dividPreNoticeDate",
+    "dividAgmPumDate",
+    "dividPlanAnnounceDate",
+    "dividPlanDate",
+    "dividRegistDate",
+    "dividOperateDate",
+    "dividPayDate",
+    "dividStockMarketDate",
+    "dividCashPsBeforeTax",
+    "dividCashPsAfterTax",
+    "dividStocksPs",
+    "dividCashStock",
+    "dividReserveToStockPs"
+  ],
+  "rows": [
+    [
+      "sz.000582",
+      "",
+      "2018-04-04",
+      "2018-03-13",
+      "2018-04-26",
+      "2018-05-03",
+      "2018-05-04",
+      "2018-05-04",
+      "",
+      "0.115",
+      "0.1035或0.115",
+      "0.000000",
+      "10派1.15元（含税，扣税后1.035或1.15元）",
+      ""
+    ]
+  ],
+  "attempts": 1,
+  "elapsed_seconds": 0.0183
+}

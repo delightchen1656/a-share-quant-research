@@ -1,0 +1,46 @@
+{
+  "filters": [
+    "basic",
+    "price10",
+    "price20",
+    "price5to20",
+    "deep",
+    "deep_price20",
+    "deep_price10",
+    "pos1_20",
+    "pos1_40",
+    "pos1_40_price20",
+    "volume12",
+    "volume15",
+    "price20_volume12",
+    "shrink",
+    "deep_shrink",
+    "pos2_20",
+    "price10_pos1_40",
+    "price20_ma60slow"
+  ],
+  "take_profit": [
+    0.03,
+    0.05
+  ],
+  "forced_day": [
+    2,
+    3,
+    5
+  ],
+  "stop_loss": [
+    null,
+    0.05,
+    0.08
+  ],
+  "slots": [
+    5,
+    10,
+    20
+  ],
+  "capital": 100000,
+  "selection": "Before each year use prior2 years with B5-matured labels; min12 virtual trades and positive return in each, worst DD<=20%; maximize min annual return-0.5*max DD+0.25*mean annual return. No eligible candidate => cash.",
+  "training_proxy": "qfq price-path cash/slot proxy, not raw share/corporate action economic accounting; final results use raw account engine.",
+  "stop_rule": "T+1; opening gaps at open; otherwise stop before TP when both hit within daily bar.",
+  "history": "All pre2025 data already explored; research walk-forward, not untouched blind validation. Broader rule design informed by earlier development runs, never claimed newly blind."
+}

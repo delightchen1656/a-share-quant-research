@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import argparse
-import concurrent.futures
 import json
 import os
 import shutil
@@ -89,14 +88,14 @@ DATASETS = (
     DataSet(
         "hushen",
         "main",
-        ROOT / "sh_sz_market_research/data_pipeline/data",
-        ROOT / "sh_sz_market_research/data_pipeline/data/metadata/historical_mainboard_universe.csv",
+        ROOT / "K线数据/沪深",
+        ROOT / "K线数据/沪深/metadata/historical_mainboard_universe.csv",
     ),
     DataSet(
         "kechuang",
         "star",
-        ROOT / "evening_accumulation/data",
-        ROOT / "evening_accumulation/data/metadata/universe.csv",
+        ROOT / "K线数据/科创",
+        ROOT / "K线数据/科创/metadata/universe.csv",
     ),
 )
 
@@ -341,10 +340,6 @@ def merged_universe(dataset: DataSet, basic: pd.DataFrame, target: str) -> tuple
     return old, new_codes
 
 
-def worker_login() -> None:
-    safe_login()
-
-
 def stage_symbol(task: tuple[DataSet, dict, str, str, bool]) -> dict:
     dataset, item, target, staging_value, monthly_full_validation = task
     staging = Path(staging_value)
@@ -443,13 +438,49 @@ def validate_monthly_calendar_continuity(
                 )
 
 
-def update(target: str, workers: int) -> dict:
+def update(
+    target: str,
+    workers: int,
+    allow_pending_backfill: bool = False,
+    run_dir_name: str | None = None,
+) -> dict:
+    if workers != 1:
+        log(f"workers={workers} requested; forcing one BaoStock session")
+    workers = 1
+    pending_backfills = sorted(
+        path
+        for path in (ROOT / "K线数据/更新备份与审计").glob("hushen_full_*/staging")
+        if path.is_dir()
+        and not (path.parent / "audit.json").exists()
+    )
+    if pending_backfills and not allow_pending_backfill:
+        raise RuntimeError(
+            "daily update is blocked by an unfinished full-history backfill: "
+            + ", ".join(str(path.parent) for path in pending_backfills)
+        )
+    if pending_backfills and allow_pending_backfill:
+        log(
+            "pending full-history backfill is explicitly paused; "
+            "allowing this daily update before the backfill resumes"
+        )
     target_ts = pd.Timestamp(target)
-    run_dir = ROOT / "data_updates" / target.replace("-", "")
+    if run_dir_name is not None:
+        if Path(run_dir_name).name != run_dir_name or not run_dir_name.startswith(
+            target.replace("-", "")
+        ):
+            raise ValueError(
+                "run_dir_name must be a single directory name beginning with the target YYYYMMDD"
+            )
+    run_dir = ROOT / "K线数据/更新备份与审计" / (run_dir_name or target.replace("-", ""))
     staging = run_dir / "staging"
     backup = run_dir / "before_update"
     if staging.exists() or backup.exists():
         raise RuntimeError(f"run directory already contains staging/backup: {run_dir}")
+
+    # Mainland exchanges do not trade on weekends. Short-circuit before login so
+    # a BaoStock outage cannot turn a deterministic weekend skip into a failure.
+    if target_ts.weekday() >= 5:
+        return {"status": "skipped_non_trading_day", "target": target}
 
     safe_login()
     try:
@@ -503,44 +534,34 @@ def update(target: str, workers: int) -> dict:
         completed = {dataset.name: 0 for dataset in DATASETS}
         validation_mode = "monthly_full" if monthly_full_validation else "daily_incremental"
         log(
-            f"starting {len(tasks)} symbols with {workers} BaoStock sessions; "
+            f"starting {len(tasks)} symbols with one BaoStock session; "
             f"validation={validation_mode}"
         )
-        with concurrent.futures.ProcessPoolExecutor(
-            max_workers=workers,
-            initializer=worker_login,
-        ) as executor:
-            future_map = {executor.submit(stage_symbol, task): task[1]["code"] for task in tasks}
-            try:
-                for future in concurrent.futures.as_completed(future_map):
-                    result = future.result()
-                    name = result["dataset"]
-                    completed[name] += 1
-                    summaries[name]["updated_symbols"] += 1
-                    summaries[name]["added_rows"] += result["added_rows"]
-                    changed.extend((Path(a), Path(b)) for a, b in result["files"])
-                    if abs(result["factor"] - 1.0) > 5e-7:
-                        adjustment_symbols.append(
-                            {
-                                "code": result["code"],
-                                "symbol": result["symbol"],
-                                "factor": result["factor"],
-                            }
-                        )
-                    if result["raw_revision_columns"]:
-                        raw_vendor_revisions.append(
-                            {
-                                "code": result["code"],
-                                "symbol": result["symbol"],
-                                "columns": result["raw_revision_columns"],
-                            }
-                        )
-                    if completed[name] % 100 == 0 or completed[name] == totals[name]:
-                        log(f"{name}: staged {completed[name]}/{totals[name]}")
-            except Exception:
-                for future in future_map:
-                    future.cancel()
-                raise
+        for task in tasks:
+            result = stage_symbol(task)
+            name = result["dataset"]
+            completed[name] += 1
+            summaries[name]["updated_symbols"] += 1
+            summaries[name]["added_rows"] += result["added_rows"]
+            changed.extend((Path(a), Path(b)) for a, b in result["files"])
+            if abs(result["factor"] - 1.0) > 5e-7:
+                adjustment_symbols.append(
+                    {
+                        "code": result["code"],
+                        "symbol": result["symbol"],
+                        "factor": result["factor"],
+                    }
+                )
+            if result["raw_revision_columns"]:
+                raw_vendor_revisions.append(
+                    {
+                        "code": result["code"],
+                        "symbol": result["symbol"],
+                        "columns": result["raw_revision_columns"],
+                    }
+                )
+            if completed[name] % 100 == 0 or completed[name] == totals[name]:
+                log(f"{name}: staged {completed[name]}/{totals[name]}")
 
         if monthly_full_validation:
             log("running monthly full-history trading-calendar continuity check")
@@ -633,10 +654,29 @@ def update(target: str, workers: int) -> dict:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--date", default=date.today().isoformat(), help="target close date (YYYY-MM-DD)")
-    parser.add_argument("--workers", type=int, default=4, help="independent BaoStock sessions")
+    parser.add_argument(
+        "--workers",
+        type=int,
+        default=1,
+        help="compatibility option; updater always uses one BaoStock session",
+    )
+    parser.add_argument(
+        "--allow-pending-backfill",
+        action="store_true",
+        help="allow a daily update while a verified-paused history backfill is staged",
+    )
+    parser.add_argument(
+        "--run-dir-name",
+        help="use a separate target-prefixed audit/backup directory for a safe reconciliation run",
+    )
     args = parser.parse_args()
     try:
-        result = update(args.date, max(1, args.workers))
+        result = update(
+            args.date,
+            max(1, args.workers),
+            allow_pending_backfill=args.allow_pending_backfill,
+            run_dir_name=args.run_dir_name,
+        )
     except Exception as exc:
         log(f"FAILED: {exc}")
         raise

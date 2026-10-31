@@ -1,0 +1,62 @@
+{
+  "name": "方向2_低价深超跌_10万5槽_B3_v3",
+  "status": "FROZEN_RESEARCH_CANDIDATE_NOT_PRODUCTION",
+  "input_boundary": "2024-12-31",
+  "calculation_guard": "Posterior/restricted paths denied; explicit data allowlist and Parquet wrapper. Not an OS sandbox.",
+  "context_isolation": false,
+  "limitation": "The parent conversation has seen posterior data; clean cognitive isolation cannot be claimed. No posterior files used by this calculation.",
+  "filters": {
+    "base": "Same frozen basic oversold-bullish mainboard cohort and consecutive inferred-down-limit exclusion",
+    "raw_signal_close_lt": 8,
+    "adjusted_signal_close_div_MA20_lte": 0.92
+  },
+  "account": {
+    "capital": 100000,
+    "slots": 5,
+    "fixed_slot_budget": 20000.0,
+    "lot": 100,
+    "T_plus_1": true,
+    "entry": "Signal next official session open, user guaranteed-fill assumption",
+    "take_profit": 0.08,
+    "forced_close_buy_offset": 3,
+    "buy_day_offset": 0,
+    "stop_loss": null,
+    "priority": "code ascending"
+  },
+  "exclusions_are_ex_post": true,
+  "special_events_excluded": [
+    [
+      "002069",
+      "2022-04-27"
+    ],
+    [
+      "002633",
+      "2022-04-29"
+    ],
+    [
+      "600506",
+      "2021-04-21"
+    ],
+    [
+      "603007",
+      "2021-04-28"
+    ]
+  ],
+  "parameter_selection": "All2021-2024 years participated; continued development, not independent validation.",
+  "neighborhood": {
+    "n": 8,
+    "median_worst_year": 0.07455105631877634,
+    "positive_fraction": 1.0,
+    "min_worst_year": 0.03742771365579545,
+    "max_worst_year": 0.08110063384873611,
+    "stable": true
+  },
+  "hashes": {
+    "oversold_rebound_research\\account_backtest.py": "dd594aaebf453a8a8791fbfbc6a13c565e45fb2aca914516afe20589842c83f2",
+    "oversold_rebound_research\\tune_pre2025_v3.py": "27260a1ff5e0bc549189b68bde3cfad98428a1fdb94a6a91e993da3aa0e247a0",
+    "oversold_rebound_research\\results_v5_long_position\\events.parquet": "9ff8e9ed7dc98aa106c6f930b27341d8118c6bacc51cdc0c02f57b5f6b4921dd",
+    "box60_selection_research\\inputs_pre2025\\MANIFEST.json": "72d9affe7a262e51ae313c06c58fb2f44edf4b2be0c14cef2742e956075e675b",
+    "oversold_rebound_research\\results_v16_pre2025_local\\PROTOCOL.json": "09c0df05ddb78020fa9a028fabbc1391498ab617a2d2c49a6b0fa3b85cfd6fbd"
+  },
+  "summary_sha256": "c92d6a3c3c32be3b54e30a58535d1453492f1d3a1b9b6e18f425f9dac1c5cf1b"
+}

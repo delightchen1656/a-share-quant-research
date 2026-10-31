@@ -1,0 +1,18 @@
+{
+  "verified_at": "2026-10-20",
+  "scope": "public_pre2025_full_component_panel",
+  "old_builder_sha256": "CEBA7412A36E759FEFB62AF9490C0B478D4632575C5312A732ED41A81D98E3F8",
+  "new_builder_sha256": "876B242D705A347BABCDB3A88E08A7E27A83DABFFA5F7B36AE8ACC2D61FB1454",
+  "comparison": {
+    "status": "identical",
+    "exact_frame_equality": true,
+    "panel_rows": 2595713,
+    "signal_rows": 3549,
+    "first_date": "2020-01-06",
+    "last_date": "2024-11-22",
+    "columns": ["date", "symbol", "close", "atr_pct", "score", "factor"],
+    "output_sha256": "573ee7e8e6fe412a1b0147580614dbd8e228fc1b4839fd8a22bfa3a392e3d3f2"
+  },
+  "strategy_logic_changed": false,
+  "archive_runtime_dependency_removed": true
+}

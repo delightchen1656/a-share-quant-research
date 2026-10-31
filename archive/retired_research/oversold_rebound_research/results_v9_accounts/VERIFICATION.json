@@ -1,0 +1,42 @@
+{
+  "unit_tests": 6,
+  "cash_pnl_checks": [
+    {
+      "scenario": "sample_before_1000000_50",
+      "reconciled": true
+    },
+    {
+      "scenario": "sample_before_100000_5",
+      "reconciled": true
+    },
+    {
+      "scenario": "sample_after_1000000_50",
+      "reconciled": true
+    },
+    {
+      "scenario": "sample_after_100000_5",
+      "reconciled": true
+    },
+    {
+      "scenario": "leaders_before_1000000_50",
+      "reconciled": true
+    },
+    {
+      "scenario": "leaders_before_100000_5",
+      "reconciled": true
+    },
+    {
+      "scenario": "leaders_after_1000000_50",
+      "reconciled": true
+    },
+    {
+      "scenario": "leaders_after_100000_5",
+      "reconciled": true
+    },
+    {
+      "scenario": "sample_before_1000000_50_last_close_proxy",
+      "reconciled": true
+    }
+  ],
+  "no_unsettled_positions_at_boundary": true
+}

@@ -1,0 +1,44 @@
+{
+  "symbol": "000550.SZ",
+  "event_date": "2018-03-27",
+  "kind": "unknown_reference",
+  "start": "2018-02-09",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\000550.SZ_2018-03-27\\query_01.json",
+      "sha256": "573c9496f3f3a81845bf1ebbada85dd51709240f868c8ce522ca48b6fc71377c",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "000550",
+        "begin_time": "2018-02-09",
+        "end_time": "2018-03-27"
+      }
+    }
+  ],
+  "announcement_count": 16,
+  "documents": [
+    {
+      "title": "江铃汽车:2017年度中期特别派息实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2018-03-20",
+      "raw_response": "sources\\action_issuer_mirror_v2\\000550.SZ_2018-03-27\\AN201803191106068749_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\000550.SZ_2018-03-27\\AN201803191106068749.txt",
+      "sha256": "8025f13e0a9bd29205c94341c4b27bd6a276ff748f3db0297d8a72d1380c5907",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\000550.SZ_2018-03-27\\AN201803191106068749_content.json",
+          "sha256": "8025f13e0a9bd29205c94341c4b27bd6a276ff748f3db0297d8a72d1380c5907"
+        }
+      ],
+      "article_code": "AN201803191106068749",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201803191106068749_1.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

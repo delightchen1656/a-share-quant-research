@@ -1,0 +1,107 @@
+{
+  "revision_id": "data_revision_v4",
+  "parent": "audits/data_revision_v3_registration.json",
+  "parent_sha256": "e3ebdeb5ca310671e405f1bfdc2a903fb169153adca31abfbbfcab3dafad8d6c",
+  "scope": "development_observed_entry_rule_flags_and_additional_input_evidence",
+  "original_protocol_sha256": "502c0f7f652295b4ba4b3dcf1a4595a7944bafabe0685bdff263eb7348483e50",
+  "factor_selection_enabled": false,
+  "full_historical_universe_claimed": false,
+  "files": [
+    {
+      "path": "audits\\action_followup_v3.json",
+      "sha256": "4e52594a4a215a4eb4230bb394f19aa0814b4f42e990b4c1f00520e41e47b2c1"
+    },
+    {
+      "path": "audits\\eligibility_observed_dev_v1.json",
+      "sha256": "5593c8d6a378a35782073e98c9c76db25fec37bfddf8f616e275d735222c8bbd"
+    },
+    {
+      "path": "audits\\eligibility_observed_dev_v1_checks.json",
+      "sha256": "c0dd2cc5de72f9e85916426c6c703c19eb98d2862affefed4673ab0ad218ebb3"
+    },
+    {
+      "path": "audits\\stage8_data_audit_v4.json",
+      "sha256": "3f1d3864e7cec9ce8f496933b6172546540c0c2f6093f8e27db1bfb4c30726e5"
+    },
+    {
+      "path": "datasets\\corporate_actions_reconciled_v3\\additional_verified_event.json",
+      "sha256": "c6a470f1538a1223707b9e6ac89d4023cf80b8146db5789840366935776719c8"
+    },
+    {
+      "path": "datasets\\corporate_actions_reconciled_v3\\dividend_event_ledger_provisional.parquet",
+      "sha256": "0898a165ddd6472019bd2c909aab12adae4427c57e3dae27f1c85d4d86314141"
+    },
+    {
+      "path": "datasets\\corporate_actions_reconciled_v3\\manifest.json",
+      "sha256": "4e52594a4a215a4eb4230bb394f19aa0814b4f42e990b4c1f00520e41e47b2c1"
+    },
+    {
+      "path": "datasets\\corporate_actions_reconciled_v3\\reference_window_reconciliation.parquet",
+      "sha256": "47f48b35bfefc916cf56a6825b5779404f0af8f3fcf83075bee82e77db42ea9e"
+    },
+    {
+      "path": "datasets\\corporate_actions_reconciled_v3\\remaining_unknown_reference_evidence_queue.json",
+      "sha256": "2a8ef30f05b70e4176ff0e5e6e21dfe0991b75a3e69ef7801271e73c235d3e1b"
+    },
+    {
+      "path": "datasets\\corporate_actions_reconciled_v3\\unresolved_event_fields.parquet",
+      "sha256": "4e282ce3073efa87983f5b48c52711e958e9c06e56a8e0441c23ccf87c280439"
+    },
+    {
+      "path": "inputs_pre2025\\eligibility_observed_dev_v1\\2018.parquet",
+      "sha256": "ff347b595d6f5a16dda633b41c1ec4d02c687cf277edb5befac4b55ee67ae545"
+    },
+    {
+      "path": "inputs_pre2025\\eligibility_observed_dev_v1\\2019.parquet",
+      "sha256": "cebd685ac8bec6358d5a3f719da4d94405b02de8ddc8888cbc1897e20f5668b2"
+    },
+    {
+      "path": "inputs_pre2025\\eligibility_observed_dev_v1\\2020.parquet",
+      "sha256": "6881f16f97fc9902af0619648d315b35495f6c5ba9183fbd57bcf8cdc31b245a"
+    },
+    {
+      "path": "inputs_pre2025\\eligibility_observed_dev_v1\\2021.parquet",
+      "sha256": "6ab34b64216a018c1eb3c2f7be1d700b98bb542468549a0085deaa2ee83b3f37"
+    },
+    {
+      "path": "inputs_pre2025\\eligibility_observed_dev_v1\\2022.parquet",
+      "sha256": "d78efc74a54d0839d7b648925331ff89dcaf1d47ba18367130df48da219573ab"
+    },
+    {
+      "path": "inputs_pre2025\\eligibility_observed_dev_v1\\2023.parquet",
+      "sha256": "35e214510c90c40f2dc4756f5cef00e625f202a6daf6d27ed1622295b4d6b903"
+    },
+    {
+      "path": "inputs_pre2025\\eligibility_observed_dev_v1\\daily_counts.parquet",
+      "sha256": "4969e198a7fb1cdf8b92b39b7f3a67b59aa3387e51805c3784374b3550cf3311"
+    },
+    {
+      "path": "inputs_pre2025\\eligibility_observed_dev_v1\\manifest.json",
+      "sha256": "5593c8d6a378a35782073e98c9c76db25fec37bfddf8f616e275d735222c8bbd"
+    },
+    {
+      "path": "research_stage_gates_v1.json",
+      "sha256": "1d02372af9673fafd1a0657fb18ed75498a3d6f672e9c6621b4e7040bc58a74b"
+    },
+    {
+      "path": "sources\\action_evidence_v3\\600938_20220708.pdf",
+      "sha256": "9680a5c7e0a9403a6a210a669ee9342d35e662dcdd6487c67cfe2b45a94806d2"
+    },
+    {
+      "path": "sources\\action_evidence_v3\\600938_20220708.txt",
+      "sha256": "bbaa6dd31c62577aef787d7d88034d96de330eaf7187ea3060b25435fc3e845f"
+    },
+    {
+      "path": "sources\\action_evidence_v3\\manifest.json",
+      "sha256": "6af04522d25e088a816f79c25a331c650811cbd96226ab1f5e3b2b6213af302e"
+    },
+    {
+      "path": "src\\build_observed_eligibility_v1.py",
+      "sha256": "55048229b58a9a501cb9bd477cec3e15103e1fb8fbca64a0141375d36649e74c"
+    },
+    {
+      "path": "src\\register_pool_milestone_v1.py",
+      "sha256": "4aaabf46ceb653a2e4c3e82cb93b700a6a6487b434ede837d40255c5c96332b9"
+    }
+  ]
+}

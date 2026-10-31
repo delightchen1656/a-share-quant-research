@@ -1,0 +1,94 @@
+{
+  "status": "ok",
+  "updated_at": "2026-10-27T23:30:44.384000+08:00",
+  "target": "2026-10-27",
+  "source": "BaoStock",
+  "scope": "Downloaded market data only; no model retraining or strategy changes",
+  "datasets": {
+    "hushen": {
+      "symbols": 3396,
+      "active": 3194,
+      "new_symbols": [],
+      "updated_symbols": 3194,
+      "added_rows": 3194
+    },
+    "kechuang": {
+      "symbols": 621,
+      "active": 618,
+      "new_symbols": [],
+      "updated_symbols": 618,
+      "added_rows": 618
+    }
+  },
+  "qfq_rebased_symbols": [
+    {
+      "code": "sh.600017",
+      "symbol": "600017.SH",
+      "factor": 0.989324
+    },
+    {
+      "code": "sh.600360",
+      "symbol": "600360.SH",
+      "factor": 0.995704
+    },
+    {
+      "code": "sh.600479",
+      "symbol": "600479.SH",
+      "factor": 0.983395
+    },
+    {
+      "code": "sh.601088",
+      "symbol": "601088.SH",
+      "factor": 0.980478
+    },
+    {
+      "code": "sh.601229",
+      "symbol": "601229.SH",
+      "factor": 0.968586
+    },
+    {
+      "code": "sh.601866",
+      "symbol": "601866.SH",
+      "factor": 0.9914890000000001
+    },
+    {
+      "code": "sh.601990",
+      "symbol": "601990.SH",
+      "factor": 0.992236
+    },
+    {
+      "code": "sz.000630",
+      "symbol": "000630.SZ",
+      "factor": 0.988235
+    },
+    {
+      "code": "sz.001399",
+      "symbol": "001399.SZ",
+      "factor": 0.994718
+    },
+    {
+      "code": "sh.688293",
+      "symbol": "688293.SH",
+      "factor": 0.996522
+    },
+    {
+      "code": "sh.688379",
+      "symbol": "688379.SH",
+      "factor": 0.997652
+    }
+  ],
+  "raw_vendor_revisions": [],
+  "validation": {
+    "mode": "daily_incremental",
+    "monthly_full_validation": false,
+    "monthly_rule": "first trading session of each calendar month",
+    "incremental_window_raw_qfq_dates_equal": true,
+    "incremental_window_unique_dates": true,
+    "incremental_window_no_future_dates": true,
+    "active_symbol_latest_date": "2026-10-27",
+    "incremental_window_ohlc_complete_and_ordered": true,
+    "transactional_staging": true
+  },
+  "backup": "data_updates/20261027/before_update",
+  "committed_files": 7631
+}

@@ -1,0 +1,62 @@
+{
+  "symbol": "600482.SH",
+  "event_date": "2024-11-22",
+  "kind": "unknown_reference",
+  "start": "2024-10-07",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\600482.SH_2024-11-22\\query_01.json",
+      "sha256": "9331cbad55dcee3e349603dc281c90085913a777acabe21fa42c7a44f06d40fd",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "600482",
+        "begin_time": "2024-10-07",
+        "end_time": "2024-11-22"
+      }
+    }
+  ],
+  "announcement_count": 36,
+  "documents": [
+    {
+      "title": "中国动力:中国船舶重工集团动力股份有限公司2024年特别分红权益分派实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2024-11-15",
+      "raw_response": "sources\\action_issuer_mirror_v2\\600482.SH_2024-11-22\\AN202411141640887424_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\600482.SH_2024-11-22\\AN202411141640887424.txt",
+      "sha256": "6d47bf08b4b6df62fda364240d41ebfee4e2cc912ea5f56a5cf9790a42976662",
+      "article_code": "AN202411141640887424",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202411141640887424_1.pdf?1731617011000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    },
+    {
+      "title": "中国动力:中国船舶重工集团动力股份有限公司关于可转债转股价格调整暨转股复牌的公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2024-11-15",
+      "raw_response": "sources\\action_issuer_mirror_v2\\600482.SH_2024-11-22\\AN202411141640887422_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\600482.SH_2024-11-22\\AN202411141640887422.txt",
+      "sha256": "691fa8a0ede58dc08a884135c489926cb3b0ea5fc25aac7ce6c9a3abf3f6fcde",
+      "article_code": "AN202411141640887422",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202411141640887422_1.pdf?1731607150000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    },
+    {
+      "title": "中国动力:中国船舶重工集团动力股份有限公司关于披露重组预案的一般风险提示暨复牌的公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2024-11-09",
+      "raw_response": "sources\\action_issuer_mirror_v2\\600482.SH_2024-11-22\\AN202411081640795013_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\600482.SH_2024-11-22\\AN202411081640795013.txt",
+      "sha256": "8713bb780f0988c6dc829e7e8d593b2471ab40c787838c23779b4c7f08891a7d",
+      "article_code": "AN202411081640795013",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202411081640795013_1.pdf?1731102984000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

@@ -1,0 +1,16 @@
+{
+  "cutoff": "2024-12-31",
+  "commission": 0.0003,
+  "minimum_commission": 5,
+  "transfer_before_2022_04_29": 2e-05,
+  "transfer_from_2022_04_29": 1e-05,
+  "sell_stamp_before_2023_08_28": 0.001,
+  "sell_stamp_from_2023_08_28": 0.0005,
+  "T_plus_1": true,
+  "lot": 100,
+  "rounding": "each_fee_HALF_UP_to_cent; target_ceil_cent",
+  "cash_timing": "opening_sales_before_opening_buys; intraday_and_close_sales_after_opening_buys",
+  "stock_actions": "record-date entitlement; ex-date receivable/shares; actual cash-pay and stock-release dates separate; unknown taxable bonus/reserve basis must be disclosed, not silently zero",
+  "delisted_quote_gap": "no fabricated quote or future-based sample deletion; explicitly leave unpriced if no verified transfer record",
+  "scope": "reference software engineering only; no account market outcomes included"
+}

@@ -1,0 +1,61 @@
+{
+  "key": "002700.SZ/2013",
+  "request": {
+    "code": "sz.002700",
+    "year": "2013",
+    "yearType": "operate"
+  },
+  "fields": [
+    "code",
+    "dividPreNoticeDate",
+    "dividAgmPumDate",
+    "dividPlanAnnounceDate",
+    "dividPlanDate",
+    "dividRegistDate",
+    "dividOperateDate",
+    "dividPayDate",
+    "dividStockMarketDate",
+    "dividCashPsBeforeTax",
+    "dividCashPsAfterTax",
+    "dividStocksPs",
+    "dividCashStock",
+    "dividReserveToStockPs"
+  ],
+  "records": [
+    {
+      "code": "sz.002700",
+      "dividPreNoticeDate": "",
+      "dividAgmPumDate": "2013-05-21",
+      "dividPlanAnnounceDate": "2013-04-16",
+      "dividPlanDate": "2013-05-24",
+      "dividRegistDate": "2013-05-29",
+      "dividOperateDate": "2013-05-30",
+      "dividPayDate": "2013-05-30",
+      "dividStockMarketDate": "",
+      "dividCashPsBeforeTax": "0.15",
+      "dividCashPsAfterTax": "0.135或0.1425",
+      "dividStocksPs": "0.000000",
+      "dividCashStock": "10派1.5元（含税，扣税后1.35或1.425元）",
+      "dividReserveToStockPs": ""
+    },
+    {
+      "code": "sz.002700",
+      "dividPreNoticeDate": "2013-07-05",
+      "dividAgmPumDate": "2013-09-10",
+      "dividPlanAnnounceDate": "2013-08-16",
+      "dividPlanDate": "2013-10-09",
+      "dividRegistDate": "2013-10-15",
+      "dividOperateDate": "2013-10-16",
+      "dividPayDate": "",
+      "dividStockMarketDate": "2013-10-16",
+      "dividCashPsBeforeTax": "",
+      "dividCashPsAfterTax": "",
+      "dividStocksPs": "0.000000",
+      "dividCashStock": "10转6",
+      "dividReserveToStockPs": "0.600000"
+    }
+  ],
+  "row_count": 2,
+  "successful_empty": false,
+  "cutoff": "2024-12-31"
+}

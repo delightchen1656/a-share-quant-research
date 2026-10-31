@@ -1,0 +1,13 @@
+{
+  "instruction_boundary_version": "public-pre2025-v2",
+  "initial_context_audit": "passed",
+  "initial_context_contains_post_boundary_research_results": false,
+  "runtime_date_is_not_research_evidence": true,
+  "read_sources": ["AGENTS.md", "direction1_structure_research/AGENTS.md", "direction1_structure_research/RULE.json", "direction1_structure_research/structure.py", "direction1_structure_research/engine.py", "direction1_structure_research/inputs_pre2025/MANIFEST.json", "direction1_structure_research/reproduce.py"],
+  "restricted_data_read": false,
+  "old_results_read": false,
+  "current_leader_classification_read": false,
+  "calculations_started": false,
+  "input_freeze_required_before_run": true,
+  "known_interface_adjustments": ["engine starts at 2021 rather than 2020", "engine annualization hardcoded to 1461 days", "engine requires settled terminal holdings", "signals must be rescanned without future-label maturity cutoff"]
+}

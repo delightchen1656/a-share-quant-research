@@ -1,0 +1,24 @@
+{
+  "policy_id": "rebalance_open003_guaranteed_v1",
+  "scenario": "open_003_guaranteed",
+  "sale_cash_next_session": false,
+  "slippage_one_side": 0.003,
+  "commission_rate": 0.0003,
+  "minimum_commission": 5.0,
+  "sell_stamp_rate": 0.001,
+  "separate_transfer_fee": false,
+  "fill_assumption": "Full eligible target quantity at rebalance-day raw open times 1.003 for buys or 0.997 for sells, rounded to CNY0.01. No liquidity/price-range/price-limit matching rejection.",
+  "missing_open": "stop; never fill a missing or nonpositive open",
+  "constraints_retained": [
+    "original frozen factor formula",
+    "5 stocks",
+    "98% target exposure",
+    "20-session phase and first entry",
+    "buffer1.5",
+    "100-share lots",
+    "cash affordability",
+    "T+1 and share release dates",
+    "company actions and dividend tax"
+  ],
+  "scope": "Local idealized execution baseline; not a broker/platform fill guarantee; manual ledger unaffected"
+}

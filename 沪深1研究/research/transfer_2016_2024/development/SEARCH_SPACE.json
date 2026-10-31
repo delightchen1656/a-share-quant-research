@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "frozen_before_results": true,
+  "boundary_version": "public-pre2025-v1",
+  "data_cutoff": "2024-12-31",
+  "warmup_start": "2013-01-01",
+  "development_years": [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023],
+  "confirmation_year": 2024,
+  "benchmark": "SSE Composite price index",
+  "initial_cash_cny": 100000,
+  "start_rule": "every trading session in Q1 of each evaluation year; end is that calendar year's final trading session",
+  "signal_lag": "all features and ranks use the prior completed trading session",
+  "eligibility": {
+    "listed_observations_min": 252,
+    "amount_20d_min_cny": 10000000,
+    "close_min_cny": 2,
+    "not_st": true,
+    "not_paused": true,
+    "volatility_60d_min": 0.001,
+    "volatility_60d_max": 0.09
+  },
+  "factor_definitions": {
+    "cap": "close * volume / (turn / 100); cross-sectional percentile rank; smaller preferred by negative weight",
+    "vol60": "std(close / preclose - 1, 60 sessions), paused return set to zero; cross-sectional percentile rank",
+    "overnight20": "sum(log(open / preclose), 20 sessions); cross-sectional percentile rank",
+    "intraday20": "sum(log(close / open), 20 sessions); cross-sectional percentile rank",
+    "mom60": "sum(log(close / preclose), 60 sessions); cross-sectional percentile rank",
+    "reversal5": "sum(log(close / preclose), 5 sessions); cross-sectional percentile rank; reversal uses negative weight",
+    "turn20": "mean(turn, 20 sessions); cross-sectional percentile rank"
+  },
+  "signal_candidates": [
+    {"id":"B0","weights":{"cap":-0.35,"vol60":-0.20,"overnight20":0.25,"intraday20":-0.20},"smooth":5,"min_smooth":3},
+    {"id":"S01","weights":{"cap":-0.30,"vol60":-0.25,"overnight20":0.25,"intraday20":-0.20},"smooth":5,"min_smooth":3},
+    {"id":"S02","weights":{"cap":-0.25,"vol60":-0.35,"overnight20":0.20,"intraday20":-0.20},"smooth":5,"min_smooth":3},
+    {"id":"S03","weights":{"cap":-0.20,"vol60":-0.30,"overnight20":0.25,"intraday20":-0.25},"smooth":5,"min_smooth":3},
+    {"id":"S04","weights":{"cap":-0.30,"vol60":-0.20,"overnight20":0.35,"intraday20":-0.15},"smooth":5,"min_smooth":3},
+    {"id":"S05","weights":{"cap":-0.30,"vol60":-0.20,"overnight20":0.20,"intraday20":-0.15,"reversal5":-0.15},"smooth":5,"min_smooth":3},
+    {"id":"S06","weights":{"cap":-0.25,"vol60":-0.25,"overnight20":0.20,"intraday20":-0.15,"mom60":0.15},"smooth":5,"min_smooth":3},
+    {"id":"S07","weights":{"cap":-0.25,"vol60":-0.25,"overnight20":0.20,"intraday20":-0.15,"turn20":-0.15},"smooth":5,"min_smooth":3},
+    {"id":"S08","weights":{"cap":-0.25,"vol60":-0.25,"overnight20":0.20,"intraday20":-0.10,"mom60":0.10,"reversal5":-0.10},"smooth":5,"min_smooth":3},
+    {"id":"S09","weights":{"cap":-0.40,"vol60":-0.30,"overnight20":0.15,"intraday20":-0.15},"smooth":5,"min_smooth":3},
+    {"id":"S10","weights":{"cap":-0.35,"vol60":-0.20,"overnight20":0.25,"intraday20":-0.20},"smooth":10,"min_smooth":6},
+    {"id":"S11","weights":{"cap":-0.35,"vol60":-0.20,"overnight20":0.25,"intraday20":-0.20},"smooth":20,"min_smooth":15}
+  ],
+  "stage_a_execution": {"count":5,"interval":20,"buffer":1.5,"exposure":0.98,"participation":0.005,"drift":false},
+  "stage_b_rule": "take the top three Stage-A signals by the frozen objective tuple, including B0 if it is not already among them; cross each with the listed execution variants",
+  "stage_b_execution_grid": {
+    "count": [5, 8],
+    "interval": [15, 20, 30],
+    "buffer": [1.5, 2.0]
+  },
+  "objective_order": [
+    "maximize minimum across development years of the year's median excess return across Q1 starts",
+    "minimize standard deviation across development years of the year's median excess return",
+    "maximize mean excess return across all starts",
+    "maximize minimum CAGR across all starts",
+    "maximize mean CAGR across all starts",
+    "minimize worst maximum drawdown",
+    "maximize mean Sharpe",
+    "minimize mean transaction cost"
+  ],
+  "stability_rules": {
+    "majority_years_excess_vs_baseline": 5,
+    "majority_starts_excess_vs_baseline_fraction": 0.55,
+    "parameter_neighborhood_required": true,
+    "no_single_year_contribution_share_above": 0.50,
+    "pareto_then_simplicity": true
+  },
+  "confirmation_gate": {
+    "run_once": true,
+    "median_excess_not_below_baseline": true,
+    "worst_start_excess_tolerance": -0.02,
+    "median_cagr_not_below_baseline": true,
+    "no_tuning_after_view": true
+  },
+  "execution": {
+    "next_open_daily_approximation": true,
+    "lot_size": 100,
+    "t_plus_one": true,
+    "suspension_and_price_limits": true,
+    "one_side_slippage": 0.001,
+    "commission_rate": 0.0003,
+    "minimum_commission": 5,
+    "transfer_fee_before_2022_04_29": 0.00002,
+    "transfer_fee_after_2022_04_29": 0.00001,
+    "stamp_tax_before_2023_08_28": 0.001,
+    "stamp_tax_after_2023_08_28": 0.0005,
+    "corporate_actions_and_dividend_tax": true,
+    "unfinished_targets_retry": true
+  }
+}

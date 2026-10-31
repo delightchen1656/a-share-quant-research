@@ -1,0 +1,54 @@
+{
+  "method": "Pre-registered first/median/last real signal-date endpoint comparison against the AST-isolated approved compute_signals function",
+  "endpoint_rule_registered_before_results": "first, floor(N/2), last required signal date",
+  "reference_limit": "The oracle is extracted from the approved same-source function; this is not an independent full-date cross-validation",
+  "full_date_independent_double_computation_performed": false,
+  "full_cache_signal_dates": 2187,
+  "real_endpoint_dates_checked": 3,
+  "mainboard_function_exact_on_raw_symbols": true,
+  "checks": [
+    {
+      "signal_date": "2015-12-31",
+      "window_start": "2015-12-25",
+      "window_end": "2015-12-31",
+      "column_labels_exact": true,
+      "smooth_nan_pattern_exact": true,
+      "smooth_float32_exact": true,
+      "smooth_max_abs_difference": 0.0,
+      "eligible_exact": true,
+      "eligible_count": 1916,
+      "top100_and_tie_order_exact": true,
+      "top100_count": 100,
+      "passed": true
+    },
+    {
+      "signal_date": "2020-07-01",
+      "window_start": "2020-06-23",
+      "window_end": "2020-07-01",
+      "column_labels_exact": true,
+      "smooth_nan_pattern_exact": true,
+      "smooth_float32_exact": true,
+      "smooth_max_abs_difference": 0.0,
+      "eligible_exact": true,
+      "eligible_count": 2560,
+      "top100_and_tie_order_exact": true,
+      "top100_count": 100,
+      "passed": true
+    },
+    {
+      "signal_date": "2024-12-30",
+      "window_start": "2024-12-24",
+      "window_end": "2024-12-30",
+      "column_labels_exact": true,
+      "smooth_nan_pattern_exact": true,
+      "smooth_float32_exact": true,
+      "smooth_max_abs_difference": 0.0,
+      "eligible_exact": true,
+      "eligible_count": 3010,
+      "top100_and_tie_order_exact": true,
+      "top100_count": 100,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

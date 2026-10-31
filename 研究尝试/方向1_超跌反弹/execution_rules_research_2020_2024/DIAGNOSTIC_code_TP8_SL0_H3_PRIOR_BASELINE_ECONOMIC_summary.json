@@ -1,0 +1,81 @@
+{
+  "summary": {
+    "unresolved_quote_events": 871,
+    "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+    "scope": "all",
+    "capital": "1000000.00",
+    "slots": 20,
+    "slot_budget": "50000.00",
+    "take_profit": 0.08,
+    "stop_loss": null,
+    "trailing": false,
+    "rank": "code",
+    "forced_day": 3,
+    "final_equity": "1293759.94",
+    "total_return": 0.29375994,
+    "annualized_return": 0.05283801212619488,
+    "max_drawdown": -0.12570657669954494,
+    "closed_trades": 1171,
+    "open_positions": 11,
+    "pending_signals": 0,
+    "skipped": 2623,
+    "corporate_events": 0,
+    "total_transaction_fees": "88781.06",
+    "sold_dividend_tax_payable": "0.00",
+    "held_dividend_tax_estimate": "0.00",
+    "cash_collection_dates_not_fabricated": true,
+    "closed_pnl": "315271.68",
+    "open_marked_pnl": "-21511.74",
+    "economic_pnl_residual": "0.00"
+  },
+  "yearly": [
+    {
+      "year": 2020,
+      "return_pct": 0.03421272,
+      "max_drawdown": -0.08040568024046013,
+      "end_equity": "1034212.72"
+    },
+    {
+      "year": 2021,
+      "return_pct": 0.05639723711771791,
+      "max_drawdown": -0.0625506520554108,
+      "end_equity": "1092539.46"
+    },
+    {
+      "year": 2022,
+      "return_pct": 0.0861282941670592,
+      "max_drawdown": -0.07878025162490619,
+      "end_equity": "1186638.02"
+    },
+    {
+      "year": 2023,
+      "return_pct": 0.10160205384283912,
+      "max_drawdown": -0.016776285040320773,
+      "end_equity": "1307202.88"
+    },
+    {
+      "year": 2024,
+      "return_pct": -0.010283744172901454,
+      "max_drawdown": -0.07714674724055823,
+      "end_equity": "1293759.94"
+    }
+  ],
+  "audit": {
+    "passed": true,
+    "journal_records": 2353,
+    "nav_dates": 1212,
+    "closed_trades": 1171,
+    "max_concurrent_positions": 20,
+    "max_buy_cost_including_fees": "50000.00",
+    "ledger_cash_and_receivables_replayed": true,
+    "sold_tax_liabilities_replayed": true,
+    "share_inventory_replayed": true,
+    "T_plus_1": true,
+    "strict_next_official_open": true,
+    "open_cash_timing": true,
+    "registered_priority": true,
+    "locked_shares_not_sold": true,
+    "independent_yearly_and_global_drawdown": true,
+    "economic_pnl_residual": "0.00"
+  }
+}

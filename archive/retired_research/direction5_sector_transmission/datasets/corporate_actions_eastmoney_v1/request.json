@@ -1,0 +1,27 @@
+{
+  "provider": "Eastmoney Choice historical distribution report",
+  "source_page": "https://data.eastmoney.com/yjfp/",
+  "endpoint": "https://datacenter-web.eastmoney.com/api/data/v1/get",
+  "reportName": "RPT_SHAREBONUS_DET",
+  "columns": [
+    "SECUCODE",
+    "SECURITY_CODE",
+    "ORG_CODE",
+    "BONUS_IT_RATIO",
+    "BONUS_RATIO",
+    "IT_RATIO",
+    "PRETAX_BONUS_RMB",
+    "PLAN_NOTICE_DATE",
+    "EQUITY_RECORD_DATE",
+    "EX_DIVIDEND_DATE",
+    "REPORT_DATE",
+    "ASSIGN_PROGRESS",
+    "IMPL_PLAN_PROFILE",
+    "NOTICE_DATE",
+    "PUBLISH_DATE"
+  ],
+  "filter": "(EX_DIVIDEND_DATE>='2018-01-01')(EX_DIVIDEND_DATE<='2024-12-31')(NOTICE_DATE<='2024-12-31')(ASSIGN_PROGRESS=\"实施分配\")",
+  "pageSize": 500,
+  "no_price_performance_columns_requested": true,
+  "meaning": "historically dated vendor reconstruction; not guaranteed original-vintage revisions"
+}

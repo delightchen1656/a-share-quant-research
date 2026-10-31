@@ -1,0 +1,35 @@
+{
+  "boundary_version": "public-pre2025-v2",
+  "search_space_sha256": "ed95a27102e39bdcc5d0a074e9f54a23c9660ed96432c5803e58ed9703e78973",
+  "implementation_sha256": "dfa302fe71ddd23dc73d26640974770069d08da89c86ae705edcba1cfb49ce53",
+  "allowed_source_hashes": {
+    "strategies/hushen/research/transfer_2016_2024/PROTOCOL_V8.md": "79b909761d6f21657a5669ae222a6c4c7b24b1d7892cd33a988b398edddeb228",
+    "strategies/hushen/supermind_hushen_1.py": "a573941eb69f850536288ba5ce4333d943c2eb4862e7f3a518e46dd55cc653fd",
+    "strategies/hushen/backtest/engine.py": "9e2f9f025664125119fb5ae3e4f52245d234c97c7e82bd2791776e35eaf80610",
+    "strategies/hushen/backtest/ledger.py": "8ac82b9918c590c58462fdd39f3fe976eddafcdef9b02165490c3ccdd3e103f6",
+    "strategies/hushen/backtest/actions.py": "c38764ea213138b36ce741e2529f13d7f8e32d835f589afc61be28614d1d6f8b"
+  },
+  "input_manifest_sha256": "fd4bfbc19b7af7155d5047615e1f5e94c0a84303bc219251f3564d131aa71ce2",
+  "models": [
+    "baseline",
+    "factor_sleeves_k2",
+    "factor_sleeves_k3",
+    "vintage_sleeves_k2",
+    "vintage_sleeves_k3",
+    "mixed_sleeves_k2"
+  ],
+  "results_absent_at_freeze": [
+    "OUTPUT_HASHES.json",
+    "PERMANENT_LOCK.json",
+    "acceptance.json",
+    "all_starts.csv",
+    "annual_summary.csv",
+    "execution_integrity.json",
+    "pressure_all_starts.csv",
+    "pressure_summary.csv",
+    "report.md",
+    "segment_summary.csv",
+    "target_merge_audit.parquet"
+  ],
+  "status": "frozen_before_results"
+}

@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "instruction_boundary_version": "public-pre2025-v2",
+  "protocol": "PROTOCOL_V13_RANK_INVOL.md",
+  "data_cutoff": "2024-12-31",
+  "development_period": [
+    "2016-01-01",
+    "2024-12-31"
+  ],
+  "blocks": {
+    "early": [
+      2016,
+      2019
+    ],
+    "late": [
+      2020,
+      2024
+    ]
+  },
+  "start_dates": "every trading day in Q1 of each year",
+  "baseline": {
+    "weights": {
+      "cap": -0.35,
+      "vol": -0.2,
+      "overnight": 0.25,
+      "intraday": -0.2,
+      "mom60": 0.0,
+      "mom120": 0.0
+    },
+    "smooth": 5,
+    "min_smooth": 3,
+    "count": 5,
+    "interval": 20,
+    "buffer": 1.5,
+    "exposure": 0.98,
+    "participation_20d_mean_volume": 0.005,
+    "trend_days": 0,
+    "market_ma_days": 0,
+    "risk_off_multiplier": 1.0,
+    "allocation_inv_vol_power": 0.0,
+    "rank_lag_days": 0,
+    "max_vol_rank": 1.0,
+    "market_vol_target": 0.0,
+    "breadth_threshold": 0.0
+  },
+  "explicit_candidates": [
+    {
+      "candidate_id": "rank5_invvol0p5",
+      "changes": {
+        "rank_lag_days": 5,
+        "allocation_inv_vol_power": 0.5
+      }
+    },
+    {
+      "candidate_id": "rank5_invvol1p0",
+      "changes": {
+        "rank_lag_days": 5,
+        "allocation_inv_vol_power": 1.0
+      }
+    },
+    {
+      "candidate_id": "rank5_invvol1p5",
+      "changes": {
+        "rank_lag_days": 5,
+        "allocation_inv_vol_power": 1.5
+      }
+    },
+    {
+      "candidate_id": "rank10_invvol0p5",
+      "changes": {
+        "rank_lag_days": 10,
+        "allocation_inv_vol_power": 0.5
+      }
+    },
+    {
+      "candidate_id": "rank10_invvol1p0",
+      "changes": {
+        "rank_lag_days": 10,
+        "allocation_inv_vol_power": 1.0
+      }
+    },
+    {
+      "candidate_id": "rank10_invvol1p5",
+      "changes": {
+        "rank_lag_days": 10,
+        "allocation_inv_vol_power": 1.5
+      }
+    },
+    {
+      "candidate_id": "rank15_invvol0p5",
+      "changes": {
+        "rank_lag_days": 15,
+        "allocation_inv_vol_power": 0.5
+      }
+    },
+    {
+      "candidate_id": "rank15_invvol1p0",
+      "changes": {
+        "rank_lag_days": 15,
+        "allocation_inv_vol_power": 1.0
+      }
+    },
+    {
+      "candidate_id": "rank15_invvol1p5",
+      "changes": {
+        "rank_lag_days": 15,
+        "allocation_inv_vol_power": 1.5
+      }
+    }
+  ],
+  "candidate_count_including_baseline": 10,
+  "grid": {
+    "rank_lag_days": [
+      5,
+      10,
+      15
+    ],
+    "allocation_inv_vol_power": [
+      0.5,
+      1.0,
+      1.5
+    ],
+    "center": [
+      10,
+      1.0
+    ]
+  },
+  "gates": {
+    "center_only_can_advance": true,
+    "all_four_axis_neighbors_improve_both_blocks": true,
+    "both_block_mean_excess_gain": ">0",
+    "worst_year_not_below_baseline": true,
+    "cross_year_std_not_above_baseline": true,
+    "leave_one_year_out_gain_positive": true
+  },
+  "stress": [
+    {
+      "name": "double_commission",
+      "commission_rate": 0.0006,
+      "minimum_commission": 10.0
+    },
+    {
+      "name": "capacity_40pct",
+      "participation_multiplier": 0.4
+    }
+  ],
+  "freeze": {
+    "hash_algorithm": "sha256",
+    "frozen_spec_sha256": "0710094aa64cf6f0b7b0c1ab2b86a0e8740ebb2c47b38a59a32c1e8f03404a32"
+  }
+}

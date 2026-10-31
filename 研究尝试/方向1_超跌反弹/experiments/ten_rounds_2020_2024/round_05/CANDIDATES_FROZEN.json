@@ -1,0 +1,118 @@
+{
+  "round": 5,
+  "question": "更早反弹阶段与缩量状态是否更稳健",
+  "protocol_sha256": "6669ecead9fff845469cb6fd861583b637d5070232c6564ad3c64a4d3b4f8e4e",
+  "inherited_candidate": "anchor_prior",
+  "inherited_config_hash": "0da49517ced272c613ff83fd01361ed4c19ab08dcd082d4505b21e49dbc18aee",
+  "candidate_count": 6,
+  "candidates": {
+    "R05_rebound06": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "rebound_from_low",
+            "op": "<=",
+            "value": 0.06
+          }
+        ],
+        "max_new_entries": null
+      },
+      "sha256": "86c402f30d07b8eab16d4e89eb54529aa95d57fb47d1169645c096b6662ad3e7"
+    },
+    "R05_rebound08": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "rebound_from_low",
+            "op": "<=",
+            "value": 0.08
+          }
+        ],
+        "max_new_entries": null
+      },
+      "sha256": "46af9ceee2184e93e50bc939190f23e75b7100cd5e58d5515c8d62dd16cb51d6"
+    },
+    "R05_volume15": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "volume_ratio",
+            "op": "<=",
+            "value": 1.5
+          }
+        ],
+        "max_new_entries": null
+      },
+      "sha256": "d258feffb5cccd62923502de3f8adde2360e881b0863a23857d1e019a873383b"
+    },
+    "R05_volume20": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "volume_ratio",
+            "op": "<=",
+            "value": 2
+          }
+        ],
+        "max_new_entries": null
+      },
+      "sha256": "a491b45a30971a556d61edf98fcc651d8bb6b5c85979a4d619240982cd510aee"
+    },
+    "R05_priorvol08": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "last3_volume_ratio",
+            "op": "<=",
+            "value": 0.8
+          }
+        ],
+        "max_new_entries": null
+      },
+      "sha256": "abe1c9303356fe4d5d2b73ba35848f26fc4c61ddcc16dc40bf5a4feff1f39b25"
+    },
+    "R05_priorvol10": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [
+          {
+            "feature": "last3_volume_ratio",
+            "op": "<=",
+            "value": 1
+          }
+        ],
+        "max_new_entries": null
+      },
+      "sha256": "f37df0e348edecf41241da85c596206266fa132321042e726a825676639b27a5"
+    }
+  }
+}

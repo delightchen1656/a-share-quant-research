@@ -1,0 +1,33 @@
+{
+  "calendar_and_benchmark": {
+    "benchmark_after_cutoff_rows": 0,
+    "benchmark_rows": 2914,
+    "calendar_first_trading_day": "2013-01-04",
+    "calendar_last_trading_day": "2024-12-31",
+    "calendar_trading_days": 2914
+  },
+  "company_actions": {
+    "economic_events_after_exact_deduplication": 23634,
+    "exact_duplicate_events_removed": 1,
+    "latest_ex_date": "2024-12-31",
+    "market_dates_clamped_to_ex_date": 0,
+    "pay_dates_clamped_to_ex_date": 4,
+    "positive_cash_events_missing_pay_date": 1,
+    "positive_stock_events_missing_market_date": 1,
+    "source": "actions_pre2025_repaired_20261024.json",
+    "source_sha256": "b8210ba72187320e55a2ad122dbc6c8b737946f2a533ad1d0f23e862833b8faa"
+  },
+  "cutoff": "2024-12-31",
+  "instruction_boundary_version": "public-pre2025-v2",
+  "manifest_sha256": "fd4bfbc19b7af7155d5047615e1f5e94c0a84303bc219251f3564d131aa71ce2",
+  "manifest_symbols_total": 3414,
+  "manifest_symbols_with_rows": 3354,
+  "raw_hashes_verified_before_performance": 3354,
+  "universe": {
+    "ignored_non_manifest_or_missing_ipo_rows": 0,
+    "outDate_use": "only on or after the dated event in simulation",
+    "quarantined_universe_rows_with_ipo_after_cutoff": 60,
+    "retained_boundary_safe_symbols": 3354,
+    "status_field_used": false
+  }
+}

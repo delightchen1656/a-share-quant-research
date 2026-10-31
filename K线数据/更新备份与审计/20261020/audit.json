@@ -1,0 +1,109 @@
+{
+  "status": "ok",
+  "updated_at": "2026-10-20T18:10:48.293892+08:00",
+  "target": "2026-10-20",
+  "source": "BaoStock",
+  "scope": "Downloaded market data only; no model retraining or strategy changes",
+  "datasets": {
+    "hushen": {
+      "symbols": 3396,
+      "active": 3195,
+      "new_symbols": [],
+      "updated_symbols": 3195,
+      "added_rows": 3195
+    },
+    "kechuang": {
+      "symbols": 621,
+      "active": 618,
+      "new_symbols": [],
+      "updated_symbols": 618,
+      "added_rows": 618
+    }
+  },
+  "qfq_rebased_symbols": [
+    {
+      "code": "sh.600335",
+      "symbol": "600335.SH",
+      "factor": 0.992248
+    },
+    {
+      "code": "sh.600667",
+      "symbol": "600667.SH",
+      "factor": 0.999316
+    },
+    {
+      "code": "sh.601006",
+      "symbol": "601006.SH",
+      "factor": 0.984127
+    },
+    {
+      "code": "sh.601628",
+      "symbol": "601628.SH",
+      "factor": 0.9895590000000001
+    },
+    {
+      "code": "sh.601799",
+      "symbol": "601799.SH",
+      "factor": 0.997055
+    },
+    {
+      "code": "sh.603233",
+      "symbol": "603233.SH",
+      "factor": 0.977969
+    },
+    {
+      "code": "sh.603277",
+      "symbol": "603277.SH",
+      "factor": 0.981651
+    },
+    {
+      "code": "sz.000729",
+      "symbol": "000729.SZ",
+      "factor": 0.991297
+    },
+    {
+      "code": "sz.002057",
+      "symbol": "002057.SZ",
+      "factor": 0.986936
+    },
+    {
+      "code": "sz.002149",
+      "symbol": "002149.SZ",
+      "factor": 0.998337
+    },
+    {
+      "code": "sz.002340",
+      "symbol": "002340.SZ",
+      "factor": 0.994924
+    },
+    {
+      "code": "sz.002608",
+      "symbol": "002608.SZ",
+      "factor": 0.993151
+    },
+    {
+      "code": "sz.002803",
+      "symbol": "002803.SZ",
+      "factor": 0.9920950000000001
+    },
+    {
+      "code": "sh.688610",
+      "symbol": "688610.SH",
+      "factor": 0.713009
+    }
+  ],
+  "raw_vendor_revisions": [],
+  "validation": {
+    "mode": "daily_incremental",
+    "monthly_full_validation": false,
+    "monthly_rule": "first trading session of each calendar month",
+    "incremental_window_raw_qfq_dates_equal": true,
+    "incremental_window_unique_dates": true,
+    "incremental_window_no_future_dates": true,
+    "active_symbol_latest_date": "2026-10-20",
+    "incremental_window_ohlc_complete_and_ordered": true,
+    "transactional_staging": true
+  },
+  "backup": "data_updates/20261020/before_update",
+  "committed_files": 7633
+}

@@ -1,0 +1,86 @@
+{
+  "issuer_notices": [
+    {
+      "id": "000033_delisting_notice",
+      "published_date": "2017-07-07",
+      "page": 0,
+      "url": "https://disc.static.szse.cn/disc/disk01/finalpage/2017-07-07/f4f799b7-4f94-4f48-a8f3-950e14e116f3.PDF",
+      "symbols": [
+        "000033.SZ"
+      ],
+      "event_date": "2017-07-07",
+      "event": "delisted_before_research_start",
+      "source_page_1based": 1,
+      "sha256": "be0dfc8b8ae7d683b74bd429e97bf96b4c1e7e2c929b2a0c625c77110b4e07a5",
+      "document": "sources\\security_identity_v1\\000033_delisting_notice.pdf",
+      "point_in_time_usage": "not_before_publication",
+      "no_price_or_membership_snapshot_modified": true
+    },
+    {
+      "id": "000916_merger_notice",
+      "published_date": "2017-12-21",
+      "page": 0,
+      "url": "https://static.cninfo.com.cn/finalpage/2017-12-21/1204242423.PDF",
+      "symbols": [
+        "000916.SZ"
+      ],
+      "event_date": "2017-12-25",
+      "event": "merger_delisting_before_research_start",
+      "source_page_1based": 1,
+      "sha256": "ffc38eb9fa7f9482c25f67c83f9a4ef5f01369356e0e8316fa780ac6595de595",
+      "document": "sources\\security_identity_v1\\000916_merger_notice.pdf",
+      "point_in_time_usage": "not_before_publication",
+      "no_price_or_membership_snapshot_modified": true
+    },
+    {
+      "id": "601313_code_change_notice",
+      "published_date": "2018-02-13",
+      "page": 0,
+      "url": "https://static.cninfo.com.cn/finalpage/2018-02-13/1204419027.PDF",
+      "symbols": [
+        "601313.SH",
+        "601360.SH"
+      ],
+      "event_date": "2018-02-28",
+      "event": "announced_code_change_and_suspension",
+      "source_page_1based": 1,
+      "sha256": "6850d636e45d61cfd4e97c6d46e2379b8af119816a42331156c78c7bb1029b6b",
+      "document": "sources\\security_identity_v1\\601313_code_change_notice.pdf",
+      "point_in_time_usage": "not_before_publication",
+      "no_price_or_membership_snapshot_modified": true
+    },
+    {
+      "id": "601360_code_change_confirmation",
+      "published_date": "2018-04-27",
+      "page": 6,
+      "url": "https://static.cninfo.com.cn/finalpage/2018-04-27/1204804713.PDF",
+      "symbols": [
+        "601313.SH",
+        "601360.SH"
+      ],
+      "event_date": "2018-02-28",
+      "event": "quarter_report_confirms_code_change",
+      "source_page_1based": 7,
+      "sha256": "e1d3417acd9edf884de96f95b6746de74ad77d9ab1c357839dc3d0d5b65d3c53",
+      "document": "sources\\security_identity_v1\\601360_code_change_confirmation.pdf",
+      "point_in_time_usage": "not_before_publication",
+      "no_price_or_membership_snapshot_modified": true
+    }
+  ],
+  "observed_storage_alias": {
+    "file": "601360.SH.parquet",
+    "stored_code": "sh.601360",
+    "rows_before_actual_code_change": 36,
+    "active_rows_before_actual_code_change": 32
+  },
+  "finding": "Provider storage identifiers can be retrospectively renamed; historical trading code and stable storage identity must be separate.",
+  "resolution": {
+    "000033.SZ": "documented_2017_event_outside_research_period",
+    "000916.SZ": "documented_2017_event_outside_research_period",
+    "601313.SH": "code_change_to_601360_requires_explicit_historical_identifier_sidecar"
+  },
+  "scope": "three flagged publication identifiers only; not a complete securities-master audit",
+  "action": "retain_frozen_inputs_and_registration; any identity-resolution input requires a separately versioned data layer",
+  "historical_universe_complete": false,
+  "economic_labels_ready": false
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "previous_allowed_source": "../clean_2020_2024/STABILITY.json",
+  "anchors": [
+    "anchor_v3",
+    "anchor_prior"
+  ],
+  "all_five_annual_returns_and_drawdowns_exactly_equal": true,
+  "terminal_equity_exactly_equal": true
+}

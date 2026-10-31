@@ -1,0 +1,38 @@
+{
+  "symbol": "601985.SH",
+  "event_date": "2024-12-02",
+  "kind": "unknown_reference",
+  "start": "2024-10-15",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\601985.SH_2024-12-02\\query_01.json",
+      "sha256": "ed3b94fc74001b273f8f9038df94ba040692cc51deec104eb9c5ef2f34166540",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "601985",
+        "begin_time": "2024-10-15",
+        "end_time": "2024-12-02"
+      }
+    }
+  ],
+  "announcement_count": 18,
+  "documents": [
+    {
+      "title": "中国核电:中国核电2024年临时权益分派实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2024-11-25",
+      "raw_response": "sources\\action_issuer_mirror_v2\\601985.SH_2024-12-02\\AN202411241641042694_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\601985.SH_2024-12-02\\AN202411241641042694.txt",
+      "sha256": "a7cf9e3dc9c11dba0a6fac8c45cda81ce968870c929cfd3dd4898b722bb1e0e6",
+      "article_code": "AN202411241641042694",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202411241641042694_1.pdf?1732462324000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

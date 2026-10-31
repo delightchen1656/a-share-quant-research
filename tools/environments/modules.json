@@ -1,0 +1,11 @@
+{
+  "hushen1": {"directory": "沪深1研究", "tool_entries": [], "shared_inputs": ["K线数据/沪深"], "ownership": "沪深1源码、研究与结果；研发限各自批准白名单"},
+  "hushen2": {"directory": "沪深2研究", "tool_entries": ["tools/replay_hushen2_local.py"], "shared_inputs": ["K线数据/沪深", "K线数据/更新备份与审计"], "ownership": "沪深2模型、研究与结果；不修改工作台生产模型"},
+  "kechuang1": {"directory": "科创1研究", "tool_entries": [], "shared_inputs": ["K线数据/科创"], "ownership": "科创1源码、模型、研究与结果；研发限各自批准白名单"},
+  "direction1": {"directory": "研究尝试/方向1_超跌反弹", "tool_entries": [], "shared_inputs": [], "ownership": "仅本方向；研发仅inputs_pre2025白名单；后验仍受限"},
+  "gold_research": {"directory": "研究尝试/gold_trend_stock_trial", "tool_entries": [], "shared_inputs": [], "ownership": "仅本研究已批准的冻结输入与结果；不是Desktop/gold项目"},
+  "viewer": {"directory": "K线看盘软件", "tool_entries": [], "shared_inputs": ["K线数据/黄金", "K线数据/指数/上证看盘"], "ownership": "看盘代码、展示快照与运行文件；不写策略模型或账本"},
+  "workbench": {"directory": "沪深实盘工作台", "tool_entries": ["tools/verify_workbench_http.py", "tools/qa_hushen2_buy_workflow.py"], "shared_inputs": ["K线数据/沪深", "K线数据/更新备份与审计"], "ownership": "独立运行代码与模型副本；两套账本为保护资产"},
+  "practice": {"directory": "沪深2研究/K线练习", "tool_entries": [], "shared_inputs": [], "ownership": "本地冻结引擎、题库与练习记录；不写生产账本"},
+  "market": {"directory": "K线数据", "tool_entries": ["tools/daily_market_update.py"], "shared_inputs": [], "ownership": "公共数据维护；仍须事务校验与单更新进程，研究对话不自行覆盖"}
+}

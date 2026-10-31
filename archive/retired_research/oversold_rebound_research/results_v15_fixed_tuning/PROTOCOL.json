@@ -1,0 +1,47 @@
+{
+  "grid": {
+    "price": [
+      6,
+      8,
+      10,
+      12
+    ],
+    "deviation": [
+      0.08,
+      0.1,
+      0.12,
+      0.15
+    ],
+    "take_profit": [
+      0.04,
+      0.05,
+      0.06
+    ],
+    "forced_day": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "slots": [
+      3,
+      5,
+      7,
+      10,
+      15
+    ],
+    "stop_loss": [
+      null,
+      0.05,
+      0.08
+    ]
+  },
+  "combinations": 2880,
+  "capital": 100000,
+  "pool": "Existing basic sample, no leader restriction",
+  "selection": "All years are development. >=10 entries every year, each year positive, daily DD<=12%. Prefer all4 annual returns>=v1 and DD<=v1; then min annual>=v1,total>=v1,DD<=v1; then remaining qualified. Maximize min annual then total then lower DD.",
+  "stability": "Neighbors differ by one adjacent grid value. Report neighbor median worst-year return, positive-year fraction, DD range. Prefer >=75% all-year-positive neighbors with median worst-year>=75% of own when available.",
+  "caveat": "Repeated optimization on already explored2021-2024. This is NOT independent validation and does not imply future performance. No2025+ inputs.",
+  "baseline_summary_sha256": "fb2634c9bd8f8457050cabaf561422b55becd679e0d2f60e63ecba86bd544cb3",
+  "engine_sha256": "dd594aaebf453a8a8791fbfbc6a13c565e45fb2aca914516afe20589842c83f2"
+}

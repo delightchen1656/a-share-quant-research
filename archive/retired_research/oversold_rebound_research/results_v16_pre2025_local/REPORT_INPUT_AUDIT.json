@@ -1,0 +1,31 @@
+{
+  "reads": [
+    "box60_selection_research\\inputs_pre2025\\MANIFEST.json",
+    "oversold_rebound_research\\account_backtest.py",
+    "oversold_rebound_research\\results_v5_long_position\\events.parquet",
+    "oversold_rebound_research\\tune_pre2025_v3.py",
+    "quant_env\\Lib\\site-packages\\PIL\\__pycache__\\BmpImagePlugin.cpython-310.pyc",
+    "quant_env\\Lib\\site-packages\\PIL\\__pycache__\\GifImagePlugin.cpython-310.pyc",
+    "quant_env\\Lib\\site-packages\\PIL\\__pycache__\\ImageMath.cpython-310.pyc",
+    "quant_env\\Lib\\site-packages\\PIL\\__pycache__\\ImageOps.cpython-310.pyc",
+    "quant_env\\Lib\\site-packages\\PIL\\__pycache__\\JpegImagePlugin.cpython-310.pyc",
+    "quant_env\\Lib\\site-packages\\PIL\\__pycache__\\JpegPresets.cpython-310.pyc",
+    "quant_env\\Lib\\site-packages\\PIL\\__pycache__\\PpmImagePlugin.cpython-310.pyc",
+    "quant_env\\Lib\\site-packages\\matplotlib\\backends\\__pycache__\\backend_agg.cpython-310.pyc",
+    "quant_env\\Lib\\site-packages\\numpy\\rec\\__pycache__\\__init__.cpython-310.pyc",
+    "quant_env\\Lib\\site-packages\\pandas\\core\\arrays\\arrow\\__pycache__\\extension_types.cpython-310.pyc",
+    "quant_env\\Lib\\site-packages\\pyarrow\\__pycache__\\dataset.cpython-310.pyc",
+    "quant_env\\Lib\\site-packages\\pyarrow\\__pycache__\\fs.cpython-310.pyc",
+    "quant_env\\Lib\\site-packages\\pyarrow\\__pycache__\\pandas_compat.cpython-310.pyc",
+    "quant_env\\Lib\\site-packages\\pyarrow\\__pycache__\\substrait.cpython-310.pyc",
+    "quant_env\\Lib\\site-packages\\pyarrow\\parquet\\__pycache__\\__init__.cpython-310.pyc",
+    "quant_env\\Lib\\site-packages\\pyarrow\\parquet\\__pycache__\\core.cpython-310.pyc",
+    "quant_env\\Lib\\site-packages\\pyarrow\\vendored\\__pycache__\\version.cpython-310.pyc"
+  ],
+  "parquet_reads": [
+    "oversold_rebound_research\\results_v16_pre2025_local\\baseline_common\\sample_after_100000_7\\daily_nav.parquet",
+    "oversold_rebound_research\\results_v16_pre2025_local\\sample_after_100000_5\\daily_nav.parquet",
+    "oversold_rebound_research\\results_v16_pre2025_local\\sample_after_100000_5\\trades.parquet"
+  ],
+  "denied": []
+}

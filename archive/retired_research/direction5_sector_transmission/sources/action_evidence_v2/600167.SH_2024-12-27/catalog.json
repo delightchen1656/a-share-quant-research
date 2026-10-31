@@ -1,0 +1,20 @@
+{
+  "symbol": "600167.SH",
+  "event_date": "2024-12-27",
+  "kind": "unknown_reference",
+  "start": "2024-11-11",
+  "query_files": [
+    {
+      "path": "sources\\action_evidence_v2\\600167.SH_2024-12-27\\query_01.json",
+      "sha256": "8197e0144179fb925b2e9e86c51ffb17604538b2fe87a08a9b7873df9ce3eac1"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\600167.SH_2024-12-27\\query_02.json",
+      "sha256": "b6e38f023a20de011edf859a72ad3ec3b4bf930e917cce21346a052d44fbb501"
+    }
+  ],
+  "exact_code_announcements": 55,
+  "documents": [],
+  "no_document_is_not_no_event_proof": true,
+  "fields_verified": false
+}

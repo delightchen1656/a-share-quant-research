@@ -1,0 +1,45 @@
+{
+  "spec_sha256": "ecf25b45aed66658734ae73b3f084d49ce739444328077a22a4d50573c69ba5f",
+  "code_sha256": "2c95deaae2052ae1fd882eaf1b0c6be32db8f0245dbb646ae50758962bfb6c29",
+  "features": [
+    "center_drift",
+    "boundary_drift",
+    "abs_trend",
+    "box_width",
+    "traversals",
+    "second_half_frozen_coverage",
+    "edge_distance",
+    "vol60_box",
+    "vol_ratio60_252",
+    "recent_trend60",
+    "autocorr1",
+    "variance_ratio5",
+    "efficiency60",
+    "log_liquidity",
+    "amount_cv60",
+    "intraday_range60_box"
+  ],
+  "discovery_rows": 490,
+  "discovery_unique": 270,
+  "validation_rows": 706,
+  "validation_unique": 339,
+  "validation_known": 689,
+  "validation_positive": 38,
+  "validation_dates": [
+    "2022-03-31",
+    "2022-06-30",
+    "2022-09-30",
+    "2022-12-30",
+    "2023-03-31"
+  ],
+  "factor_directional_leads": [
+    "efficiency60"
+  ],
+  "confirmed_factors": [],
+  "model_gates": {
+    "logistic": false,
+    "random_forest": true
+  },
+  "old20_reordered": false,
+  "note": "Calendar condition in frozen spec overrides illustrative expected quarter count: 2023Q2 126-day label is immature, not evaluated. Adjacent labels overlap; development-only observations and unadjusted exploratory intervals."
+}

@@ -1,0 +1,101 @@
+{
+  "protocol_sha256": "6669ecead9fff845469cb6fd861583b637d5070232c6564ad3c64a4d3b4f8e4e",
+  "rounds": [
+    {
+      "round": 1,
+      "selected": "anchor_prior",
+      "selection_sha256": "0b1c16b95be5482b38cf14cbfd541d05711b20d94bbd3ed21523ac8cfce55cf4"
+    },
+    {
+      "round": 2,
+      "selected": "anchor_prior",
+      "selection_sha256": "c7f0ca727b201efc6d4ec0a5e1903355ff00dbea64c96581efabd839ab6d0abf"
+    },
+    {
+      "round": 3,
+      "selected": "anchor_prior",
+      "selection_sha256": "43237353e6fd3e01b049be31171d5cd0850280eeaaac41af7f9301498686e0a4"
+    },
+    {
+      "round": 4,
+      "selected": "anchor_prior",
+      "selection_sha256": "645cee439c6ebc554583b305076f54dec5bc78e22d83767c2e853dade4f792e1"
+    },
+    {
+      "round": 5,
+      "selected": "anchor_prior",
+      "selection_sha256": "4944d7c94e5264adbe28125ba5e8a8f358f0b5481cf69d0d4b34ebf5ce64b01e"
+    },
+    {
+      "round": 6,
+      "selected": "anchor_prior",
+      "selection_sha256": "fd0706fde0e7c23c22b3e88b83668c99b53da3b9602ec8c5e5bef02b3b40adf6"
+    },
+    {
+      "round": 7,
+      "selected": "R07_tp15",
+      "selection_sha256": "a96c3cc0616ddb7a441599f42ca668b33fd374894fdabdb494028a693ce11ec2"
+    },
+    {
+      "round": 8,
+      "selected": "R07_tp15",
+      "selection_sha256": "ec553f1b0db7601e4fc0666b05549c05dce0b1960bd35b41d48e8301132fb3cd"
+    },
+    {
+      "round": 9,
+      "selected": "R07_tp15",
+      "selection_sha256": "47ec77b51123bcac752408c03dcdc0696f413eeb23919d02239c542214250aa3"
+    },
+    {
+      "round": 10,
+      "selected": "R07_tp15",
+      "selection_sha256": "fabb796519a6968e7faa965424086a8662a64c7515efceaf43dbc14521cdf02f"
+    }
+  ],
+  "final_candidate": "R07_tp15",
+  "final_config": {
+    "slots": 5,
+    "forced_day": 3,
+    "take_profit": 0.15,
+    "stop_loss": null,
+    "priority": "ret20_ascending",
+    "filters": [],
+    "max_new_entries": null
+  },
+  "highest_training_return_candidate": "R07_tp15",
+  "highest_training_return_config": {
+    "slots": 5,
+    "forced_day": 3,
+    "take_profit": 0.15,
+    "stop_loss": null,
+    "priority": "ret20_ascending",
+    "filters": [],
+    "max_new_entries": null
+  },
+  "highest_training_return_statistics": {
+    "score": 0.09254052567115162,
+    "mean_annual_return": 0.13640786588054177,
+    "worst_annual_return": 0.08734810300355833,
+    "largest_annual_drawdown": 0.0877346804187803,
+    "returns": [
+      0.19918554120000054,
+      0.15368019215407158,
+      0.10541762716453662,
+      0.08734810300355833
+    ],
+    "total_return": 0.6629025774000004,
+    "full_drawdown": 0.09122114624403554,
+    "terminal_equity": 166290.25774000003,
+    "eligible": true,
+    "guard_reasons": [],
+    "improved_years_vs_v3": 2
+  },
+  "anchors": [
+    "anchor_v3",
+    "anchor_prior"
+  ],
+  "training_end": "2023-12-31",
+  "candidate_attempts": 53,
+  "stage": "all_ten_selections_frozen_before_2024",
+  "prior_2024_seen": true
+}

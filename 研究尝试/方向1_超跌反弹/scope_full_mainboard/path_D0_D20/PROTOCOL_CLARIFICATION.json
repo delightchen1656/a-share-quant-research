@@ -1,0 +1,9 @@
+{
+  "before_any_true_labels": true,
+  "reason": "Parent confirmed same frozen shared-engine price observation semantics for both directions",
+  "price_measure": "qfq ratios, not economic/fee/dividend/account wealth",
+  "confirmed_suspension": "No new traded high; keep known prior cumulative maximum",
+  "unknown_or_missing_high": "Unknown prefix blocks cumulative maximum from that point",
+  "strict_entry_suspension": "No anchor at all horizons; never delayed",
+  "engine_unchanged": true
+}

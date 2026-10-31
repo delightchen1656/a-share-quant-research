@@ -1,0 +1,12 @@
+{
+  "boundary_version": "public-pre2025-v2",
+  "same_clean_agent": true,
+  "initial_audit": "../clean_2020_2024/CONTEXT_AUDIT.json",
+  "received_since_initial": "Only own pre2025 research results and parent engineering messages; no post-boundary market or results",
+  "prior_2024_seen": true,
+  "post2024_results_seen": false,
+  "old_other_experiments_read": false,
+  "permission": "Own clean_2020_2024 code/protocol/results explicitly allowed",
+  "isolation": "Logical process discipline, not OS security boundary",
+  "new_ten_round_calculation_started": false
+}

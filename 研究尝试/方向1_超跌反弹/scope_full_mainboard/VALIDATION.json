@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "structures": 3805,
+  "manifest_sha256": "8d1c78aa55e7667462a95fa3a8e87fd4b14af4075a1b3e2d14ca713503d9f7c3",
+  "csv_sha256": "70ea8125a426c3d7a54aa39fcbe01e5bc1f71c6190e17fbd346bdf76b41843f7",
+  "parquet_sha256": "1624ca8b6e267f20ddda6e6d13a6eb2c3b759baf8f5e8e9127ac11f8bce4816a",
+  "scanner_sha256": "70804c3387a07b26b598def33be0df06988ac89f23187d06de20b27686de5883",
+  "next_valid_open_type": "bool",
+  "valid_open_true": 3799,
+  "valid_open_false": 6,
+  "strict_official_next_session_verified": true,
+  "no_leader_column": true,
+  "unique_code_signal_keys": true,
+  "all_signal_dates_within_boundary": true,
+  "all_signal_dates_on_or_after_ipo": true,
+  "fixed_close_and_ma20_filters_verified": true,
+  "coverage_manifest_disagreement_rows": 0,
+  "legacy_retained": 820,
+  "legacy_missing": 0,
+  "legacy_entry_date_differences": 0,
+  "economic_returns_computed": false,
+  "accounts_run": false
+}

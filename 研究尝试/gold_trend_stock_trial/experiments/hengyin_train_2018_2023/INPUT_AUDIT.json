@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "path": "C:\\Users\\22241\\Desktop\\quant\\gold_trend_stock_trial\\inputs_pre2025\\hengyin_2018_2023\\603106_qfq.parquet",
+      "sha256": "0a2dc0767198b305f45f9b2745f8c742cf99b02ddaf84b8bf68f912e290c204b",
+      "rows": 1457,
+      "first": "2018-01-02 00:00:00",
+      "last": "2023-12-29 00:00:00"
+    },
+    {
+      "path": "C:\\Users\\22241\\Desktop\\quant\\gold_trend_stock_trial\\inputs_pre2025\\hengyin_2018_2023\\603106_raw.parquet",
+      "sha256": "eb88042f356c25490c4081931a89bcb790b231184bdbf761dc25f9767757325a",
+      "rows": 1457,
+      "first": "2018-01-02 00:00:00",
+      "last": "2023-12-29 00:00:00"
+    }
+  ],
+  "date_alignment": true,
+  "suspended_rows_excluded_before_indicators": 1,
+  "tradable_rows": 1456
+}

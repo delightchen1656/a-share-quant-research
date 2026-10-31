@@ -1,0 +1,15 @@
+{
+  "version": "fixed-shares-filled-slots-daily-proxy-v3",
+  "authorization": "2026-10-20: equity/5, floor to 100 shares; only filled holdings occupy slots; fill-time priority and successive eligible candidates",
+  "fixed_quantity": "floor((signal-close account equity / 5) / trigger_price / 100) * 100; no pre-rounding slippage buffer; freeze at signal time",
+  "slots": "At most five actual holdings; pending conditional buys reserve neither cash nor slots. Only one pending order or holding per symbol. A positive partial fill occupies one slot; zero fill occupies none.",
+  "new_orders": "All retained original daily top-three signals may create conditional orders, even while holdings are full; no additional model ranks or thresholds added. Seven calendar-day lifetime unchanged.",
+  "trigger_priority": "Trading date first. Within date: known opening-price triggers first, then other daily touches; ties use signal date ascending, score descending, symbol ascending. Intraday order is unknown, not reconstructed.",
+  "full_slots_on_trigger": "One trigger attempt; cancel unfilled order with no_slot_rejected status, do not rearm. Non-triggered orders remain pending until expiry.",
+  "cash_shortfall": "Original full fixed quantity plus actual modeled fees must fit cash; otherwise insufficient_cash_rejected. No resizing. Original cash release next session retained.",
+  "sold_slots": "Slots of holdings sold today become reusable next session; conservative daily-bar convention prevents spending slots released by an unknowable later intraday exit.",
+  "expiry_exit": "Original expiry session retains protection; residual holdings attempt exit next calendar trading-session open, subject to original suspension, share-lock and limit-down restrictions.",
+  "unchanged": ["frozen models and original signals", "original mixed ATR", "100000 initial cash", "5 holdings", "7 calendar-day order window", "30 calendar-day holding", "T+1", "stop-first double touch before expiry", "original fees and slippage", "2% daily buy-volume assumption", "company actions and delisting restrictions", "37 calendar-day signal maturity tail"],
+  "limitation": "Daily OHLC is not true intraday trigger ordering or a five-level order-book replay. This is not a broker-side global slot controller. Old performance tables are not the new rule's results.",
+  "production_tracker_changed": false
+}

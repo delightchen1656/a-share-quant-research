@@ -1,0 +1,72 @@
+{
+  "scan_id": "direction5_H3_sector_leadlag_v1",
+  "hypothesis": "One industry's relative quote strength predicts another industry's subsequent relative quote strength with a stable positive direction.",
+  "authorization": "User explicitly requested the ordered-pair traversal in this conversation: 遍历一下. This scoped descriptive research is distinct from economic-label factor selection and account backtesting.",
+  "existing_global_return_model_and_account_gates_unchanged": true,
+  "development_end": "2023-12-31",
+  "holdout_2024_used": false,
+  "input_scope": "existing_frozen_mainboard_Kline_and_historical_industry_snapshots_only",
+  "taxonomy": {
+    "system": "CSRC2012",
+    "normalize_only_letter_prefix_from_official_unique_two_digit_major_class": true,
+    "source": "sources/sector_leadlag_v1/CSRC_industry_2012.pdf",
+    "mapping_public_since": "2012-10-26",
+    "do_not_overwrite_original_membership_snapshot": true
+  },
+  "sector_measure": {
+    "basket": "stock_entry_qualification_and_industry_membership_known_at_previous_market_session_close",
+    "return_observable": "mean_of_available_next_session_pctChg_divided_by_100_for_that_predeclared_basket",
+    "future_ST_status_not_used_to_remove_stock_from_previous_day_basket": true,
+    "minimum_prior_basket_stocks": 5,
+    "minimum_valid_quote_observations": 5,
+    "minimum_quote_coverage_fraction": 0.8,
+    "unavailable_quote": "omit_from_printed_quote_strength_measure_and_report_coverage; never_insert_zero_or_fill_prices",
+    "not_an_investable_index_or_total_economic_return": true,
+    "weights": "equal_across_valid_prints",
+    "membership": "latest_whole_official_publication_known_at_allocation_date",
+    "source_id_stability": "source_source_and_target_measure_allocation_publication_ids_must_match_across_lag_and_control_window; all_are_known_by_signal_close"
+  },
+  "regression": {
+    "signal_time": "t_after_close",
+    "target": "B_quote_strength_at_t_plus_1_minus_equal_weight_market_proxy_excluding_A_and_B_at_t_plus_1",
+    "source_feature": "A_quote_strength_at_t_minus_lag_plus_1_minus_same_date_pair_excluded_market_proxy",
+    "lags_sessions": [1, 2, 3, 5],
+    "controls": ["constant", "B_relative_quote_strength_t", "B_relative_quote_strength_t_minus_1", "pair_excluded_market_proxy_t", "pair_excluded_market_proxy_t_minus_1"],
+    "minimum_other_market_quote_stocks": 50,
+    "target_market_proxy_is_part_of_realized_response_not_a_predictor": true,
+    "OLS": true,
+    "HAC_standard_error": "Newey_West_Bartlett_5_market_sessions_with_gaps_zero_padded_on_original_calendar",
+    "p_value": "two_sided_asymptotic_normal_for_source_coefficient",
+    "initial_training": ["2018-01-01", "2020-12-31"],
+    "minimum_initial_training_observations": 400,
+    "development_validation_years": [2021, 2022, 2023],
+    "fit_each_year_on_expanding_past_only": true,
+    "minimum_observations_each_validation_year": 100,
+    "training_requires_target_observation_date_on_or_before_cutoff": true
+  },
+  "multiple_testing": {
+    "family": "all_initial_training_estimable_ordered_industry_pairs_times_all_four_lags",
+    "primary_method": "Benjamini_Yekutieli",
+    "primary_FDR_level": 0.05,
+    "secondary_exploratory_method": "Benjamini_Hochberg",
+    "secondary_FDR_level": 0.05,
+    "no_parameter_or_threshold_changes_after_results": true
+  },
+  "stable_positive_candidate_requires_all": [
+    "positive_initial_training_source_coefficient",
+    "initial_training_BY_q_value_at_most_0.05",
+    "at_least_100_valid_observations_in_each_2021_2022_2023_validation_year",
+    "positive_source_coefficient_in_each_validation_year_as_direction_diagnostic_only",
+    "adding_A_reduces_forward_validation_squared_forecast_error_in_at_least_two_of_three_years",
+    "pooled_forward_validation_squared_forecast_error_reduction_is_positive"
+  ],
+  "interpretation_limits": [
+    "statistical_prediction_does_not_establish_causation",
+    "daily_close_to_close_quote_measure_can_include_overnight_response_unavailable_to_next_open_entry",
+    "validation_years_are_development_data_not_independent_final_test",
+    "printed_quote_coverage_can_be_nonrandom",
+    "existing_Kline_universe_is_not_certified_historically_complete",
+    "official_industry_publications_can_be_stale",
+    "no_actual_stock_recommendations_or_cost_adjusted_return_claims"
+  ]
+}

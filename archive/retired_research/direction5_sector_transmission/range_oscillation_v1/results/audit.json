@@ -1,0 +1,96 @@
+{
+  "completed_utc": "2026-10-26T18:29:00.767317+00:00",
+  "spec_sha256": "156bee8ef84b7ceb9ceef096e55e6fec2dda25e9f148d6e002fa04360dfaba9a",
+  "script_sha256": "1266168617868baf655343ff82debe158166d5cf58c4e1e5f8ac1e362dc30659",
+  "self_tests": {
+    "bounded_wave_pass": true,
+    "monotonic_trend_fail": true,
+    "one_v_fail": true,
+    "mechanical_raw_moves_zero_quote_change_not_cycles": true,
+    "unavailable_calendar_gap_detected": true,
+    "share_event_flagged": true
+  },
+  "files_verified": 3336,
+  "rows_used": 4382527,
+  "data_maximum_date": "2023-12-29",
+  "post_2023_rows_loaded_into_frames": 0,
+  "asof_summary": [
+    {
+      "year": 2020,
+      "observed_symbols": 3312,
+      "quote_quality": 2387,
+      "quality_and_liquidity": 2276,
+      "shape_with_quality": 12,
+      "confirmed_without_integrity_filter": 9,
+      "primary_candidates": 9
+    },
+    {
+      "year": 2021,
+      "observed_symbols": 3312,
+      "quote_quality": 2538,
+      "quality_and_liquidity": 2513,
+      "shape_with_quality": 17,
+      "confirmed_without_integrity_filter": 15,
+      "primary_candidates": 15
+    },
+    {
+      "year": 2022,
+      "observed_symbols": 3312,
+      "quote_quality": 2710,
+      "quality_and_liquidity": 2681,
+      "shape_with_quality": 35,
+      "confirmed_without_integrity_filter": 21,
+      "primary_candidates": 20
+    },
+    {
+      "year": 2023,
+      "observed_symbols": 3312,
+      "quote_quality": 2861,
+      "quality_and_liquidity": 2860,
+      "shape_with_quality": 24,
+      "confirmed_without_integrity_filter": 20,
+      "primary_candidates": 20
+    }
+  ],
+  "inputs": [
+    {
+      "path": "inputs_pre2025\\kline_v1\\manifest.json",
+      "sha256": "f10f353b5021f6ddb028be038103f757433f958ebbf4992fb65383f42160b1a1"
+    },
+    {
+      "path": "inputs_pre2025\\trading_calendar_v1\\calendar.parquet",
+      "sha256": "cf288779add3023b274a2e1f55b038b2a2f59a59605a4c12a2d2479b62dfb099"
+    },
+    {
+      "path": "datasets\\corporate_actions_reconciled_v3\\dividend_event_ledger_provisional.parquet",
+      "sha256": "0898a165ddd6472019bd2c909aab12adae4427c57e3dae27f1c85d4d86314141"
+    },
+    {
+      "path": "datasets\\corporate_actions_reconciled_v3\\reference_window_reconciliation.parquet",
+      "sha256": "47f48b35bfefc916cf56a6825b5779404f0af8f3fcf83075bee82e77db42ea9e"
+    },
+    {
+      "path": "datasets\\rights_issues_eastmoney_v1\\scope_rights_issue_events.parquet",
+      "sha256": "c23c7d773ee4f1b795f8744eac9fc7e830d3615b861554854be309c8451cc6e7"
+    },
+    {
+      "path": "inputs_pre2025\\industry_official_v1\\membership_publication_history.parquet",
+      "sha256": "9660319ad5f3aae0aed861db44d1feedfd20b7c98c236232419cbd3ff2938165"
+    },
+    {
+      "path": "research_protocol_v1.json",
+      "sha256": "502c0f7f652295b4ba4b3dcf1a4595a7944bafabe0685bdff263eb7348483e50"
+    },
+    {
+      "path": "research_stage_gates_v2.json",
+      "sha256": "4b60c0fd188fc57833ca530987f2b5d3892f3ae64d4a23edd292358047e8364b"
+    },
+    {
+      "path": "audits\\data_revision_v5_registration.json",
+      "sha256": "f57ab3836dd49f4fb16315e66a7c214dd6dcd1ec82c4413c1e305258605e2503"
+    }
+  ],
+  "global_gates_changed": false,
+  "economic_returns_computed": false,
+  "caveat": "Observed snapshot universe; delisted/absent security completeness not established. Retrospective corporate quality diagnostics, not a point-in-time executable universe."
+}

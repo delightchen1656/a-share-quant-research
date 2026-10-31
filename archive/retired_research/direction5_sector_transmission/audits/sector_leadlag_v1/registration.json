@@ -1,0 +1,113 @@
+{
+  "scope": "user_requested_sector_quote_leadlag_scan_no_economic_backtest",
+  "original_protocol_sha256": "502c0f7f652295b4ba4b3dcf1a4595a7944bafabe0685bdff263eb7348483e50",
+  "prior_data_registration_sha256": "f57ab3836dd49f4fb16315e66a7c214dd6dcd1ec82c4413c1e305258605e2503",
+  "statistical_scan_completed": true,
+  "economic_label_factor_and_account_gates_unchanged": true,
+  "files": [
+    {
+      "path": "audits\\sector_leadlag_v1\\preregistration.json",
+      "sha256": "745c4d7ed10a47ead89f3ce5d0cdb3e748444d185ca81617e156a9dfe075b67b"
+    },
+    {
+      "path": "audits\\sector_leadlag_v1\\scan_summary.json",
+      "sha256": "f16386dde7ea77ff70449b6c6ed4122c030206c44d2052fb2c7de00beaa31fc2"
+    },
+    {
+      "path": "audits\\sector_leadlag_v1\\taxonomy_page12.png",
+      "sha256": "460921833783e0829b904ed32fd80acd188d1d82a3d57fa76c67180924180cfc"
+    },
+    {
+      "path": "audits\\sector_leadlag_v1\\taxonomy_page13.png",
+      "sha256": "3d75d1e0e58ad8922b5bf000ec7e504e95c2ee57ad24be15375d0190a09877dc"
+    },
+    {
+      "path": "audits\\sector_leadlag_v1\\taxonomy_page14.png",
+      "sha256": "eaf777cf7b92622ed355a27a20487cfb4d03e1277a95c941c72c76c2e52177cf"
+    },
+    {
+      "path": "audits\\sector_leadlag_v1\\taxonomy_page9.png",
+      "sha256": "6645dd0322ccd0849cc1448472609705b4028c4d542e6168fc985614424b5a3f"
+    },
+    {
+      "path": "audits\\sector_leadlag_v1\\validation.json",
+      "sha256": "f60df4d8fb4d19a95f86eede0bedf26439f72f3a2b150dd307515909da871642"
+    },
+    {
+      "path": "datasets\\sector_leadlag_v1\\all_ordered_pair_lag_inventory.parquet",
+      "sha256": "fc3220bae24d97246cfde0ee4915abb5e2faa17e6783f749234777eab7ac234f"
+    },
+    {
+      "path": "datasets\\sector_leadlag_v1\\all_pair_lag_results.parquet",
+      "sha256": "cdabcf4c31e2a675c42d2b3649f3b370476284c433efec36c1af517674d12d2d"
+    },
+    {
+      "path": "datasets\\sector_leadlag_v1\\code_normalization_audit.json",
+      "sha256": "c21a637934a96a4a99a9b10efea115684e26485470692928b458e38116cb2ed7"
+    },
+    {
+      "path": "datasets\\sector_leadlag_v1\\industry_names.json",
+      "sha256": "ad32c5cba960508c6eaafb3104866c409630483f096fb0075d7ecc30638a73fd"
+    },
+    {
+      "path": "datasets\\sector_leadlag_v1\\panel_manifest.json",
+      "sha256": "61b60128607b6f44d4efb863ed719b0b69e59db34d15354f912946f174d3ba57"
+    },
+    {
+      "path": "datasets\\sector_leadlag_v1\\scan_checkpoint.parquet",
+      "sha256": "0bf4eb2e2efaee77e48e814078b12d61ac3494f24700bffc6e617b71c055bd3a"
+    },
+    {
+      "path": "datasets\\sector_leadlag_v1\\scan_summary.json",
+      "sha256": "f16386dde7ea77ff70449b6c6ed4122c030206c44d2052fb2c7de00beaa31fc2"
+    },
+    {
+      "path": "datasets\\sector_leadlag_v1\\sector_availability.parquet",
+      "sha256": "11624a3c9080de5f92a8aaa691eabd3e536bd4588f66eb3c5e9599038abcc4a2"
+    },
+    {
+      "path": "datasets\\sector_leadlag_v1\\sector_daily_quote_panel.parquet",
+      "sha256": "57267f151a6ea87b1666c48c8b7df836069610fd9a29ccb3e10af010e4e6d36a"
+    },
+    {
+      "path": "datasets\\sector_leadlag_v1\\stable_positive_candidates.parquet",
+      "sha256": "a05c3487af91eaf6771103ec60eebe338685cb34816296c8b63a7cc8af4b8bf4"
+    },
+    {
+      "path": "datasets\\sector_leadlag_v1\\top20_initial_training_positive_diagnostics.parquet",
+      "sha256": "7545d23667e63ceb3468aa63291e82e5a6f2fad0e3589cd7da60b8fc2ed4c9c5"
+    },
+    {
+      "path": "inputs_pre2025\\industry_code_normalization_v1\\manifest.json",
+      "sha256": "3ca5920d49adde5b701267c575fdb9ee4fbebe5e0a518dbe7750adce230dac45"
+    },
+    {
+      "path": "sector_leadlag_scan_v1.json",
+      "sha256": "aaf12c63c0e856afb6e187e230ede24b68ec379a23e74cd621965bd2f04e3824"
+    },
+    {
+      "path": "sources\\sector_leadlag_v1\\CSRC_industry_2012.pdf",
+      "sha256": "e31d69d1452659a4406036b9e220d210028a2704ec66a23843bd0880b3143007"
+    },
+    {
+      "path": "sources\\sector_leadlag_v1\\CSRC_industry_2012.txt",
+      "sha256": "c849bc6359835c04182f8f86fcf23a67ffa21f00db3a7a4b3bf05bcd1a99426b"
+    },
+    {
+      "path": "sources\\sector_leadlag_v1\\taxonomy_source.json",
+      "sha256": "fd18960d0b61e1fbc1f0515ff03fff3721223c1408881220a8bf67e895d7e3da"
+    },
+    {
+      "path": "src\\build_sector_quote_panel_v1.py",
+      "sha256": "df054a345971c3f381b0499efc78da7f378a33c82f8d331a5b06d8b4a0641ed6"
+    },
+    {
+      "path": "src\\scan_sector_leadlag_v1.py",
+      "sha256": "f9313a25744714c683ca7b563101beb6f36b9e59a70352a87989078672a88261"
+    },
+    {
+      "path": "src\\validate_sector_leadlag_v1.py",
+      "sha256": "1e59c8937432d76884b1fd9c2192a4ef04ced3f1322877f5a3eec1d82bbd4d80"
+    }
+  ]
+}

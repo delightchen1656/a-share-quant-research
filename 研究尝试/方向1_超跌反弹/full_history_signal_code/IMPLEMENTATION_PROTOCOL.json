@@ -1,0 +1,34 @@
+{
+  "task": "Implement mathematical scanner only, with no automatic input discovery",
+  "parameters": [
+    "frozen input root/manifest hash",
+    "structure module source path/hash",
+    "signal_start",
+    "signal_cutoff",
+    "explicit daily limit-rate table path/hash or per-code table manifest root/hash",
+    "output_dir"
+  ],
+  "invariant_pipeline": [
+    "actual IPO lower bound",
+    "structure.scan unchanged, using all available valid pre-cutoff bars for warmup",
+    "structure.independent base-candidate 10-observed-valid-bar cooldown before other gates",
+    "injected limit evidence -> down price HALF_UP to cent; close<=down+.005; consecutive pair rolling20 exactly old arithmetic",
+    "raw close<8 and qfq close/MA20<=.92",
+    "one code/day signal, strict next official date; pending if next date beyond price cutoff or calendar absent"
+  ],
+  "limits": "No production ST/status-specific rates. Caller must provide rate or explicit exemption by code/day. Missing/invalid evidence yields code/day status and unresolved candidates, not silently false down flags.",
+  "no_future_pool_filter": "No retirement/current-status filter; universe projects code/name/IPO only",
+  "testing": "Small synthetic checks and one same-set replay against existing 3805 using ONLY approved pre2025 full_mainboard; legacy 5/10 table construction confined to explicit old-period test fixture, never production scanner",
+  "prohibited": [
+    "new full-history input reads/runs",
+    "accounts",
+    "economic/path returns",
+    "optimization",
+    "posterior",
+    "classifications",
+    "software",
+    "other direction/results",
+    "modification of original structure/RULE/3805 source"
+  ],
+  "writes": "direction1_structure_research/full_history_signal_code only"
+}

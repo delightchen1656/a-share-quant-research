@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "synthetic_only": true,
+  "import_does_not_invoke_scan": true,
+  "manifest_daily_limit_rates_injection": true,
+  "production_columns_exempt_evidence_ipo_date": true,
+  "universe_projection_excludes_out_date_status": true,
+  "empty_signal_output_schema_works": true,
+  "no_original_input_changes": true,
+  "result": {
+    "output_dir": "C:\\Users\\22241\\Desktop\\quant\\direction1_structure_research\\full_history_signal_code\\synthetic_io\\output",
+    "signal_count": 0,
+    "unresolved_count": 0,
+    "no_evidence_count": 0
+  }
+}

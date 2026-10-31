@@ -1,0 +1,39 @@
+{
+  "matches_exchange_calendar": true,
+  "trading_sessions": 242,
+  "provider_sha256": "cf288779add3023b274a2e1f55b038b2a2f59a59605a4c12a2d2479b62dfb099",
+  "holiday_intervals": [
+    [
+      "2024-01-01",
+      "2024-01-01"
+    ],
+    [
+      "2024-02-09",
+      "2024-02-17"
+    ],
+    [
+      "2024-04-04",
+      "2024-04-06"
+    ],
+    [
+      "2024-05-01",
+      "2024-05-05"
+    ],
+    [
+      "2024-06-10",
+      "2024-06-10"
+    ],
+    [
+      "2024-09-15",
+      "2024-09-17"
+    ],
+    [
+      "2024-10-01",
+      "2024-10-07"
+    ]
+  ],
+  "sources": [
+    "https://www.sse.com.cn/disclosure/announcement/general/c/c_20231226_5733939.shtml",
+    "https://www.szse.cn/disclosure/notice/t20231226_605108.html"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "status": "complete",
+  "instruction_boundary_version": "public-pre2025-v2",
+  "post_2024_data_read": false,
+  "pre_run_freeze": {
+    "status": "frozen_before_results",
+    "attempt": 2,
+    "supersedes_failed_pre_result_freeze": "PRE_RUN_FREEZE_ATTEMPT1.json",
+    "pre_result_failure_audit": "PRE_RUN_FAILURES.json",
+    "instruction_boundary_version": "public-pre2025-v2",
+    "context_isolation_check": {
+      "boundary_version_exact_match": true,
+      "initial_context_contained_post_2024_market_or_performance_results": false,
+      "restricted_paths_read": false
+    },
+    "result_files_present_when_frozen": false,
+    "candidate_ids": [
+      "baseline",
+      "online_w504_m025",
+      "online_w504_m050",
+      "online_w756_m025",
+      "online_w756_m050"
+    ],
+    "sha256": {
+      "SEARCH_SPACE.json": "f8b1734f600387f9a30624c905aeb995487b5a5e93d9ced6e78e802cfcc28925",
+      "run_v7.py": "a73bd440147ae6d8e0b6a7f6999073783d058588b14fbfcd6f776b4b2ab22df5",
+      "PROTOCOL_V7.md": "82d8da83538a9c13798ccb84de401fdb67a0c4fb088fae0119e0c1c8d8d6f753",
+      "PUBLIC_INPUT_MANIFEST.json": "fd4bfbc19b7af7155d5047615e1f5e94c0a84303bc219251f3564d131aa71ce2",
+      "supermind_hushen_1.py": "a573941eb69f850536288ba5ce4333d943c2eb4862e7f3a518e46dd55cc653fd",
+      "backtest/engine.py": "9e2f9f025664125119fb5ae3e4f52245d234c97c7e82bd2791776e35eaf80610",
+      "backtest/ledger.py": "8ac82b9918c590c58462fdd39f3fe976eddafcdef9b02165490c3ccdd3e103f6",
+      "backtest/actions.py": "c38764ea213138b36ce741e2529f13d7f8e32d835f589afc61be28614d1d6f8b"
+    }
+  },
+  "code_sha256": "a73bd440147ae6d8e0b6a7f6999073783d058588b14fbfcd6f776b4b2ab22df5",
+  "search_space_sha256": "f8b1734f600387f9a30624c905aeb995487b5a5e93d9ced6e78e802cfcc28925",
+  "input_manifest_sha256": "fd4bfbc19b7af7155d5047615e1f5e94c0a84303bc219251f3564d131aa71ce2",
+  "raw_files_hash_verified": 3354,
+  "raw_manifest_files": 3414,
+  "calendar_start": "2013-01-04",
+  "calendar_end": "2024-12-31",
+  "ic_sections": 528,
+  "runtime_symbols": 2714,
+  "ranking_sha256": {
+    "baseline": "1119e37c89b5669b52f621a228bd81cfcbe318906a17aa7cea9b6e9e691ada28",
+    "online_w504_m025": "75a3d5ed52d3aa456658b8232889b41f39727959e1f0d970121d2421fe982d98",
+    "online_w504_m050": "620283827fabdc8d3f8512d8ac4d654e38366cfcc934651370d4a7bc333a518c",
+    "online_w756_m025": "fc1ed8a6a58e2b7eaa1a4b3eac5173b678c8522a0859557f4e3bbf839e2bf284",
+    "online_w756_m050": "486f2be9d109d0f85145e223b5b57e20098efd12a1ec5ce99540c9fae64c12ec"
+  },
+  "models": [
+    "baseline",
+    "online_w504_m025",
+    "online_w504_m050",
+    "online_w756_m025",
+    "online_w756_m050"
+  ],
+  "scenarios": [
+    "normal",
+    "double_commission",
+    "capacity_40pct"
+  ],
+  "q1_starts": 526,
+  "result_rows": 7890,
+  "passed_candidates": [],
+  "selection": "baseline",
+  "no_gate_relaxation": true
+}

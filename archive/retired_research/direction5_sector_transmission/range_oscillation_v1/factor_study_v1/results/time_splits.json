@@ -1,0 +1,39 @@
+[
+  {
+    "year": 2022,
+    "train_rows": 476,
+    "train_unique": 261,
+    "train_positive": 25,
+    "train_last_signal": "2021-03-31",
+    "train_max_label_end": "2021-10-11",
+    "validation_dates": [
+      "2022-03-31",
+      "2022-06-30",
+      "2022-09-30",
+      "2022-12-30"
+    ],
+    "validation_rows": 530,
+    "validation_known": 521,
+    "validation_positive": 31,
+    "validation_unknown": 9,
+    "repeated_train_validation_stocks": 56,
+    "model_training_sufficient": true
+  },
+  {
+    "year": 2023,
+    "train_rows": 1105,
+    "train_unique": 500,
+    "train_positive": 79,
+    "train_last_signal": "2022-03-31",
+    "train_max_label_end": "2022-10-11",
+    "validation_dates": [
+      "2023-03-31"
+    ],
+    "validation_rows": 176,
+    "validation_known": 168,
+    "validation_positive": 7,
+    "validation_unknown": 8,
+    "repeated_train_validation_stocks": 83,
+    "model_training_sufficient": true
+  }
+]

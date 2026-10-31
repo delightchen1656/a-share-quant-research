@@ -1,0 +1,72 @@
+{
+  "status": "audit_complete_differences_found",
+  "at": "2026-10-28T20:43:43.914353+08:00",
+  "scope": "Local frozen account simulation versus actual tracker daily recommendation caches; read-only, not leader candidate research",
+  "same": [
+    "Production selection configuration",
+    "utility and pen025 model bytes",
+    "frozen builder and factor specification",
+    "ATR025 post-original-top3 no refill filtering semantics",
+    "Signal-day raw-close trigger and priceTR ATR formula"
+  ],
+  "direct_signal_comparison_dates": [
+    "2026-10-21",
+    "2026-10-22"
+  ],
+  "direct_comparison": {
+    "signal_rows": 6,
+    "symbols_order_trigger_atr_identical": true,
+    "scores_exactly_identical": false
+  },
+  "accepted_cache_comparison": {
+    "accepted_records": 7,
+    "all_symbol_trigger_atr_matched": true,
+    "from_signal_date": "2026-10-21",
+    "through_signal_date": "2026-10-27"
+  },
+  "differences": [
+    {
+      "kind": "ranking_universe",
+      "simulation_excluded": [
+        "000022.SZ",
+        "000043.SZ",
+        "001872.SZ",
+        "001914.SZ"
+      ],
+      "tracker_excluded": [],
+      "currently_eligible_in_tracker": [
+        "001872.SZ",
+        "001914.SZ"
+      ],
+      "effect": "Ranking inputs differ, so exact signal equivalence is not guaranteed; direct two-day sample recommendations matched."
+    },
+    {
+      "kind": "history_window",
+      "simulation_features": "2015 extension frozen source; prehistory from frozen files",
+      "tracker_features": "2018 feature start and2020 signal start",
+      "effect": "Not the same frozen input panel; no isolated causal attribution of observed score differences."
+    },
+    {
+      "kind": "quote_vintage",
+      "simulation": "FrozenOct22 quote vintage",
+      "tracker": "Nightly committed quote vintage with immutable day caches",
+      "effect": "Data snapshot differs, score differences cannot all be attributed to pool alone."
+    },
+    {
+      "kind": "submitted_quantity",
+      "simulation": "floor((equity/5)/(trigger*1.002)/100)*100; check cash at trigger, no available-cash cap",
+      "tracker": "budget=min(equity/5,available+deferred); floor((budget-5)/(trigger*1.002)/100)*100",
+      "effect": "Can reduce tracker submitted quantity or create a different fifth order outcome even when stocks match."
+    }
+  ],
+  "production_or_account_writes": false,
+  "baseline_changed": false,
+  "source_sha256": {
+    "strategies/hushen_2/CURRENT_SELECTION.json": "b95021affeed5fce6dd6b6f58de7d42c5cf29479b2fabcb2076caae98bfe8e0f",
+    "沪深2_星轨软件/CURRENT_SELECTION.json": "edcfe6d24f6d7dcd5fd6568cc4934c0714ae12f7182967842bd6e938386e3e27",
+    "沪深2_星轨软件/tracker/market.py": "81861877a969bb0d32f5892d2058a48f2905035719519bbb85a7d3fa652b63e7",
+    "沪深2_星轨软件/tracker/service.py": "745ee18007821d17947751131f04bcbf757c2f495f1d9efd76ec78ead405615f",
+    "沪深2_K线练习/frozen_inputs/cases/INPUT_IDENTITY.json": "c212a0768c36abfce1c28098ea7138b253e60de0bf262bbcb7997ee9542a0930",
+    "沪深2_K线练习/runtime/baseline_fixed_ioc.py": "0cc7e29b510116af3cce4a902a8ebdeb81277fbcb159086b5aa2b1fd376776a9"
+  }
+}

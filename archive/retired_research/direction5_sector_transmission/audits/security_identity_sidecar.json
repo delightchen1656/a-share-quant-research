@@ -1,0 +1,49 @@
+{
+  "sidecar_created": true,
+  "boundary_checks": [
+    {
+      "day": "2018-04-27",
+      "join_key": "601360.SH",
+      "mapped_industry_row_found": false,
+      "source_symbol": null,
+      "source_publication_date": null
+    },
+    {
+      "day": "2018-04-28",
+      "join_key": "issuer_601313_601360",
+      "mapped_industry_row_found": true,
+      "source_symbol": "601313.SH",
+      "source_publication_date": "2018-01-19"
+    },
+    {
+      "day": "2018-05-21",
+      "join_key": "issuer_601313_601360",
+      "mapped_industry_row_found": true,
+      "source_symbol": "601313.SH",
+      "source_publication_date": "2018-01-19"
+    },
+    {
+      "day": "2018-05-22",
+      "join_key": "issuer_601313_601360",
+      "mapped_industry_row_found": true,
+      "source_symbol": "601360.SH",
+      "source_publication_date": "2018-05-21"
+    }
+  ],
+  "out_of_period_publication_exceptions": {
+    "000033.SZ": {
+      "event_date": "2017-07-07",
+      "research_period_relation": "before_2018_start",
+      "not_a_future_delisting_filter": true
+    },
+    "000916.SZ": {
+      "event_date": "2017-12-25",
+      "research_period_relation": "before_2018_start",
+      "merger_is_not_a_one_to_one_symbol_alias": true
+    }
+  },
+  "asof_industry_join_repair_verified_from": "2018-04-28",
+  "frozen_original_inputs_modified": false,
+  "complete_historical_security_master": false,
+  "future_model_features_must_exclude_identity_metadata": true
+}

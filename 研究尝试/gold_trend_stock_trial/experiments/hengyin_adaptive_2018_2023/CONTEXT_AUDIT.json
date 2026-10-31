@@ -1,0 +1,11 @@
+{
+  "boundary_version": "public-pre2025-v2",
+  "review": "PASS_FOR_TASK_MARKET_AND_SELECTION_ISOLATION_WITH_PUBLIC_CONTEXT_CAVEAT",
+  "permitted_market_data": "same manifest and two explicit parquet files, 2018-01-01 through 2023-12-31 only",
+  "context_known_training_results": "previous authorized 157500-grid study of the same stock and same observed training interval; no unseen-data claim",
+  "public_context_caveat": "Public AGENTS includes unrelated direction1 counts through public 2024 boundary. No Hengyin market/performance/selection after 2023 received; absolute context cleanliness not claimed.",
+  "new_hypotheses_source": "user-authorized explanatory adaptive volatility/trend/recovery hypotheses; no out-of-period evidence",
+  "holdout_accessed": false,
+  "later_market_or_selection_feedback_received": false,
+  "prior_frozen_candidate_unchanged": true
+}

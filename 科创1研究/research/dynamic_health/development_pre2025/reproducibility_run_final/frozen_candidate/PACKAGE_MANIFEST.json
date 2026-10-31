@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "candidate_config_sha256": "f9ba1ff06c41b698a21263d1047621bd6ca3884764ea05e28470f7e06c51ffb9",
+  "files": {
+    "candidate.json": "e4748e259fdd027eddd5b67b2e03251e2c9893931116b17f99201bf3dcb2d4ec",
+    "engine.py": "9f833a45c55574c77c969577004879acda0dbbb2c52046218118074cfe1b4360",
+    "environment.json": "371f65c8b647d37a29fc2b9d9c26df3aa7a06b025aed84df5501ce4ba02ea53f",
+    "environment.lock.txt": "a96fb64f94b97ea10ef86baa00c4e56d5d9a796615e02075821df124e684cd0a",
+    "event_model.joblib": "1f87270f6a8506df79f06b38cacfee6c163dfc20f9eb8ae424c2397d816b0fd4",
+    "stop_risk_model.joblib": "0cf8fbc48dd6eda524a54ddd14082f44a0b787498983d501160a2fe8f51709d9",
+    "validate_frozen.py": "78eafc6d023b3e8dd4eef1f305f9f72dcbf2b5f06c7b19d6538fc914892ed5a2"
+  },
+  "source_run": {
+    "input_manifest_sha256": "16d0877a399588ff61ec548da6c5ab3c1d20cdc622bcf4786f8576a299a448bf",
+    "metrics_sha256": "c5d6195326e3a985d663fc85147e7bc9bfb6077e4bb592589a04a7ddecae1979"
+  }
+}

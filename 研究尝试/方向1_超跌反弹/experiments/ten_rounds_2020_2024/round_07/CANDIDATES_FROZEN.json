@@ -1,0 +1,70 @@
+{
+  "round": 7,
+  "question": "止盈目标的收益和兑现概率如何权衡",
+  "protocol_sha256": "6669ecead9fff845469cb6fd861583b637d5070232c6564ad3c64a4d3b4f8e4e",
+  "inherited_candidate": "anchor_prior",
+  "inherited_config_hash": "0da49517ced272c613ff83fd01361ed4c19ab08dcd082d4505b21e49dbc18aee",
+  "candidate_count": 5,
+  "candidates": {
+    "R07_tp04": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.04,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "sha256": "74b32476da226ff056fd9b5375a0e5dace408ba984935de6992dd03beb0c089d"
+    },
+    "R07_tp06": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.06,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "sha256": "947e51be74830c96f5356a809e5013e8ec9858336200787edc268a9cc88ab315"
+    },
+    "R07_tp10": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.1,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "sha256": "429a253b4c3d2d419cb7240f5c8ad64d38a025cda09dcd2b920d68fa14d9a4b8"
+    },
+    "R07_tp12": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.12,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "sha256": "b7e760a4acc4b6505cddcb562d7f5399496a891eeca218a221fc1fd046ab02c4"
+    },
+    "R07_tp15": {
+      "config": {
+        "slots": 5,
+        "forced_day": 3,
+        "take_profit": 0.15,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "sha256": "4e08b931a0cef23810bb58965233688ffd16514f2c7363890c7c8ab5edda21d3"
+    }
+  }
+}

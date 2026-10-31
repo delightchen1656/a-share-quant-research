@@ -1,0 +1,125 @@
+{
+  "symbol": "002601.SZ",
+  "event_date": "2018-10-25",
+  "kind": "dividend_fields",
+  "start": "2018-08-06",
+  "query_files": [
+    {
+      "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_01.json",
+      "sha256": "056248476df02300a328057f1c0218df67f74a4c8d4ea44ce116a54bc0226199"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_02.json",
+      "sha256": "056248476df02300a328057f1c0218df67f74a4c8d4ea44ce116a54bc0226199"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_03.json",
+      "sha256": "056248476df02300a328057f1c0218df67f74a4c8d4ea44ce116a54bc0226199"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_04.json",
+      "sha256": "056248476df02300a328057f1c0218df67f74a4c8d4ea44ce116a54bc0226199"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_05.json",
+      "sha256": "056248476df02300a328057f1c0218df67f74a4c8d4ea44ce116a54bc0226199"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_06.json",
+      "sha256": "056248476df02300a328057f1c0218df67f74a4c8d4ea44ce116a54bc0226199"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_07.json",
+      "sha256": "056248476df02300a328057f1c0218df67f74a4c8d4ea44ce116a54bc0226199"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_08.json",
+      "sha256": "8f1c979e6fed32545364de9f911223662563756f40436e2830212b080c32da0f"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_09.json",
+      "sha256": "056248476df02300a328057f1c0218df67f74a4c8d4ea44ce116a54bc0226199"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_10.json",
+      "sha256": "056248476df02300a328057f1c0218df67f74a4c8d4ea44ce116a54bc0226199"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_11.json",
+      "sha256": "056248476df02300a328057f1c0218df67f74a4c8d4ea44ce116a54bc0226199"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_12.json",
+      "sha256": "dd85f126ad40740157256a3102734cafbd6cb2845eb4984108fce4e4b65977d0"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_13.json",
+      "sha256": "056248476df02300a328057f1c0218df67f74a4c8d4ea44ce116a54bc0226199"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_14.json",
+      "sha256": "056248476df02300a328057f1c0218df67f74a4c8d4ea44ce116a54bc0226199"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_15.json",
+      "sha256": "056248476df02300a328057f1c0218df67f74a4c8d4ea44ce116a54bc0226199"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_16.json",
+      "sha256": "8f1c979e6fed32545364de9f911223662563756f40436e2830212b080c32da0f"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_17.json",
+      "sha256": "056248476df02300a328057f1c0218df67f74a4c8d4ea44ce116a54bc0226199"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_18.json",
+      "sha256": "056248476df02300a328057f1c0218df67f74a4c8d4ea44ce116a54bc0226199"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\query_19.json",
+      "sha256": "9fa4aae5023ca7a5025b4666ecb6206395f362d0fe4a4e987b55dcb6d45f995c"
+    }
+  ],
+  "exact_code_announcements": 375,
+  "documents": [
+    {
+      "title": "2018年半年度权益分派实施公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2018-10-17/1205508532.PDF",
+      "published_date": "2018-10-17",
+      "pdf": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\1205508532.pdf",
+      "text": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\1205508532.txt",
+      "sha256": "8b9f40a8d4731792ac2883ff2697530d5705cf8ba8962c18c4abecd78a32519f",
+      "pages": 3
+    },
+    {
+      "title": "2018年半年度权益分派实施公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2018-10-17/1205508532.PDF",
+      "published_date": "2018-10-17",
+      "pdf": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\1205508532.pdf",
+      "text": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\1205508532.txt",
+      "sha256": "8b9f40a8d4731792ac2883ff2697530d5705cf8ba8962c18c4abecd78a32519f",
+      "pages": 3
+    },
+    {
+      "title": "2018年半年度权益分派实施公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2018-10-17/1205508532.PDF",
+      "published_date": "2018-10-17",
+      "pdf": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\1205508532.pdf",
+      "text": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\1205508532.txt",
+      "sha256": "8b9f40a8d4731792ac2883ff2697530d5705cf8ba8962c18c4abecd78a32519f",
+      "pages": 3
+    },
+    {
+      "title": "2018年半年度权益分派实施公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2018-10-17/1205508532.PDF",
+      "published_date": "2018-10-17",
+      "pdf": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\1205508532.pdf",
+      "text": "sources\\action_evidence_v2\\002601.SZ_2018-10-25\\1205508532.txt",
+      "sha256": "8b9f40a8d4731792ac2883ff2697530d5705cf8ba8962c18c4abecd78a32519f",
+      "pages": 3
+    }
+  ],
+  "no_document_is_not_no_event_proof": true,
+  "fields_verified": false
+}

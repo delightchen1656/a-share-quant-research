@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "events": 23634,
+  "missing_pay_date_fallbacks": 451,
+  "missing_stock_market_date_fallbacks": 20006,
+  "post_cutoff_events_skipped": 0,
+  "exact_duplicate_rows_skipped": 1,
+  "canonical_duplicate_rows": [
+    {
+      "symbol": "600660.SH",
+      "operate_date": "2017-05-15",
+      "kept_source_key": "600660.SH/2017",
+      "skipped_source_key": "600660.SH/2023",
+      "skipped_source_index": 0
+    }
+  ],
+  "canonical_policy": "skip full-record exact duplicates; raise on any field difference; never sum duplicates"
+}

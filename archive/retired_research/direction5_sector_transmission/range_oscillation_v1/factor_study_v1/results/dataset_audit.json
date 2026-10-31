@@ -1,0 +1,59 @@
+{
+  "spec_sha256": "ecf25b45aed66658734ae73b3f084d49ce739444328077a22a4d50573c69ba5f",
+  "code_sha256": "4d65c075eb8bae86a765820589ba77d65a276ba0984eadd96f7b95dfb18a0d72",
+  "completed_utc": "2026-10-26T18:39:00.751390+00:00",
+  "dates": [
+    "2020-03-31",
+    "2020-06-30",
+    "2020-09-30",
+    "2020-12-31",
+    "2021-03-31",
+    "2021-06-30",
+    "2021-09-30",
+    "2021-12-31",
+    "2022-03-31",
+    "2022-06-30",
+    "2022-09-30",
+    "2022-12-30",
+    "2023-03-31",
+    "2023-06-30",
+    "2023-09-28",
+    "2023-12-29"
+  ],
+  "files_verified": 3336,
+  "rows_loaded": 4382527,
+  "maximum_price_date": "2023-12-29",
+  "post_2023_price_rows_loaded": 0,
+  "candidate_observations": 2230,
+  "unique_stocks": 770,
+  "label_counts": {
+    "known": 1656,
+    "immature": 536,
+    "unknown_structural_event": 33,
+    "unknown_quote_coverage": 5
+  },
+  "inputs": [
+    {
+      "path": "inputs_pre2025\\trading_calendar_v1\\calendar.parquet",
+      "sha256": "cf288779add3023b274a2e1f55b038b2a2f59a59605a4c12a2d2479b62dfb099"
+    },
+    {
+      "path": "inputs_pre2025\\kline_v1\\manifest.json",
+      "sha256": "f10f353b5021f6ddb028be038103f757433f958ebbf4992fb65383f42160b1a1"
+    },
+    {
+      "path": "datasets\\corporate_actions_reconciled_v3\\dividend_event_ledger_provisional.parquet",
+      "sha256": "0898a165ddd6472019bd2c909aab12adae4427c57e3dae27f1c85d4d86314141"
+    },
+    {
+      "path": "datasets\\corporate_actions_reconciled_v3\\reference_window_reconciliation.parquet",
+      "sha256": "47f48b35bfefc916cf56a6825b5779404f0af8f3fcf83075bee82e77db42ea9e"
+    },
+    {
+      "path": "datasets\\rights_issues_eastmoney_v1\\scope_rights_issue_events.parquet",
+      "sha256": "c23c7d773ee4f1b795f8744eac9fc7e830d3615b861554854be309c8451cc6e7"
+    }
+  ],
+  "original_protocol_sha256": "502c0f7f652295b4ba4b3dcf1a4595a7944bafabe0685bdff263eb7348483e50",
+  "original_gates_sha256": "4b60c0fd188fc57833ca530987f2b5d3892f3ae64d4a23edd292358047e8364b"
+}

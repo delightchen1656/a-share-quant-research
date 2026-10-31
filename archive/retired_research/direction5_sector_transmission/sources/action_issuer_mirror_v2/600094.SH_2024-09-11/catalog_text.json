@@ -1,0 +1,44 @@
+{
+  "symbol": "600094.SH",
+  "event_date": "2024-09-11",
+  "kind": "unknown_reference",
+  "start": "2024-07-27",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\600094.SH_2024-09-11\\query_01.json",
+      "sha256": "85fe008d58180953e05c519357bda3046d2cff49321ed8b4c4a0dd3aca9d8559",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "600094",
+        "begin_time": "2024-07-27",
+        "end_time": "2024-09-11"
+      }
+    }
+  ],
+  "announcement_count": 21,
+  "documents": [
+    {
+      "title": "大名城:公司2024年临时权益分派实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2024-09-04",
+      "raw_response": "sources\\action_issuer_mirror_v2\\600094.SH_2024-09-11\\AN202409031639713952_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\600094.SH_2024-09-11\\AN202409031639713952.txt",
+      "sha256": "e5ae1e0b4d49f5c3f39f852bbc5c1d6cd54ed6a945f13eb41ddd791fb2f52b6a",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\600094.SH_2024-09-11\\AN202409031639713952_content.json",
+          "sha256": "e5ae1e0b4d49f5c3f39f852bbc5c1d6cd54ed6a945f13eb41ddd791fb2f52b6a"
+        }
+      ],
+      "article_code": "AN202409031639713952",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202409031639713952_1.pdf?1725382389000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

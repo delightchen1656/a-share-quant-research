@@ -1,0 +1,41 @@
+{
+  "boundary_version": "public-pre2025-v1",
+  "candidate_id": "S10_C5_I20_B2",
+  "signal": {
+    "id": "S10",
+    "weights": {
+      "cap": -0.35,
+      "vol60": -0.2,
+      "overnight20": 0.25,
+      "intraday20": -0.2
+    },
+    "smooth": 10,
+    "min_smooth": 6
+  },
+  "execution": {
+    "id": "S10_C5_I20_B2",
+    "signal": "S10",
+    "count": 5,
+    "interval": 20,
+    "buffer": 2.0,
+    "exposure": 0.98,
+    "participation": 0.005,
+    "drift": false
+  },
+  "promoted": true,
+  "decision_reason": "Passed frozen 2024 confirmation gate.",
+  "data_cutoff": "2024-12-31",
+  "code_hashes": {
+    "hushen/research/transfer_2016_2024/development/run_research.py": "9858f65cee2195090342de660617ab4b065395a7e41c1efcb072c6410ce18bc5",
+    "hushen/research/transfer_2016_2024/development/SEARCH_SPACE.json": "dd663724692de157ef5256d03466dfbd7e46594ac6501cf7a8b76f352490b2c6",
+    "hushen/research/transfer_2016_2024/PROTOCOL.md": "d15eda0ceebdda6f8d9bd1f47f0b9d3a6a0bfc0872ff44df8b19a35dc1439680",
+    "hushen/supermind_hushen_1.py": "a573941eb69f850536288ba5ce4333d943c2eb4862e7f3a518e46dd55cc653fd",
+    "hushen/backtest/engine.py": "9e2f9f025664125119fb5ae3e4f52245d234c97c7e82bd2791776e35eaf80610",
+    "hushen/backtest/ledger.py": "8ac82b9918c590c58462fdd39f3fe976eddafcdef9b02165490c3ccdd3e103f6",
+    "hushen/backtest/actions.py": "c38764ea213138b36ce741e2529f13d7f8e32d835f589afc61be28614d1d6f8b"
+  },
+  "frozen_at_utc": "2026-10-24T03:33:45.692359+00:00",
+  "frozen_hash": "5445e75e011d14417fc808140b9333b6628a619772a8bf12ad7ff091cdf6e59e",
+  "post_2024_data_used": false,
+  "production_modified": false
+}

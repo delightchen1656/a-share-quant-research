@@ -1,0 +1,80 @@
+{
+  "status": "PREDECLARED_BEFORE_ANY_STRATEGY_RESULT",
+  "search": "single finite Cartesian grid, fast < slow; no adaptive extensions",
+  "grid": {
+    "fast": [
+      5,
+      10,
+      15,
+      20,
+      30,
+      40
+    ],
+    "slow": [
+      40,
+      60,
+      90,
+      120,
+      160,
+      200
+    ],
+    "entry_buffer": [
+      0,
+      0.01,
+      0.02,
+      0.04,
+      0.08
+    ],
+    "exit_buffer": [
+      0,
+      0.01,
+      0.02,
+      0.04,
+      0.08
+    ],
+    "breakout": [
+      10,
+      20,
+      40,
+      60,
+      90,
+      120
+    ],
+    "stop": [
+      0.04,
+      0.06,
+      0.08,
+      0.12,
+      0.16,
+      0.24
+    ],
+    "cooldown": [
+      0,
+      3,
+      5,
+      10,
+      20
+    ]
+  },
+  "configurations": 157500,
+  "objective": [
+    "maximum strategy cumulative return minus fixed buy_hold cumulative return",
+    "smaller daily-close maximum drawdown",
+    "lexicographically smaller parameter tuple"
+  ],
+  "reference": [
+    20,
+    120,
+    0.02,
+    0.02,
+    90,
+    0.08,
+    5
+  ],
+  "execution": "signal at close; next quoted tradable bar open; exit signal i cooldown earliest close i+cool; fractional shares, no cost, cash return zero; final open positions marked at final close",
+  "warmup": "all configured indicators ready: max(fast,slow,breakout+1) observed closes",
+  "peak": "maximum close from entry signal day inclusive; exit evaluated after updating current close peak",
+  "benchmark": "first quoted bar open to final close, qfq ratios",
+  "scope": "2018-01-01 through 2023-12-31, no earlier warmup",
+  "tradable_bar_definition": "Before any strategy result: exclude tradestatus=0 rows from indicator windows, cooldown and next-bar fills; one suspension row found by input audit. Daily NAV contains quoted tradable bars."
+}

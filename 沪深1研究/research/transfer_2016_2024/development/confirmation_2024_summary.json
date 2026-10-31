@@ -1,0 +1,46 @@
+{
+  "B0_C5_I20_B1.5": {
+    "minimum_year_median_excess": 0.11681253966731564,
+    "year_median_excess_std": 0.0,
+    "mean_excess": 0.04001923737219769,
+    "minimum_cagr": -0.04960078334918183,
+    "mean_cagr": 0.22558967913430858,
+    "worst_drawdown": 0.4020177255159778,
+    "mean_sharpe": 0.7616842596010757,
+    "mean_cost": 1418.7813793103444,
+    "capacity_hits": 0,
+    "unresolved_delistings": 0,
+    "annual": [
+      {
+        "year": 2024,
+        "median_excess": 0.11681253966731564,
+        "mean_excess": 0.040019237372197695,
+        "median_cagr": 0.2942730461690285,
+        "minimum_cagr": -0.04960078334918183,
+        "starts": 58
+      }
+    ]
+  },
+  "S10_C5_I20_B2": {
+    "minimum_year_median_excess": 0.3358933495340839,
+    "year_median_excess_std": 0.0,
+    "mean_excess": 0.27051310921879756,
+    "minimum_cagr": 0.09346933574168959,
+    "mean_cagr": 0.5060401594390638,
+    "worst_drawdown": 0.4064613936580658,
+    "mean_sharpe": 1.2890969147774733,
+    "mean_cost": 1404.309310344828,
+    "capacity_hits": 0,
+    "unresolved_delistings": 0,
+    "annual": [
+      {
+        "year": 2024,
+        "median_excess": 0.3358933495340839,
+        "mean_excess": 0.27051310921879756,
+        "median_cagr": 0.6015825832294852,
+        "minimum_cagr": 0.09346933574168959,
+        "starts": 58
+      }
+    ]
+  }
+}

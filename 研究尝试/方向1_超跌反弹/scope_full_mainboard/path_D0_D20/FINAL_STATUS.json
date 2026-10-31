@@ -1,0 +1,18 @@
+{
+  "completed": true,
+  "events": 3805,
+  "horizons": 21,
+  "no_anchor_events": 6,
+  "engine_sha256": "4f01b79300a9587e3e55d19bc1af1aa316cd879c5cf9d74974f43f671cf485fd",
+  "config_sha256": "615278a3dcb706253d28d992bdeadb6780935365101c0e2e1cca0f1a355a6e3b",
+  "cohort_sha256": "2c1bf2ccbd1f39d09f8c4149e36736012654c50ccaa65c4790eac6319bbae7e7",
+  "all_event_paths_sha256": "5a248bffba30f5ce966e9d618f793b6c683118a0c978c44eb871d31e31968009",
+  "summary_csv_sha256": "e8c73e9ce0acffdc259058bdcf8cf9ca2a19727ede0b66707cfd028b44dc4d4c",
+  "independent_validation_passed": true,
+  "action_reference_validation_passed": true,
+  "price_path_only": true,
+  "accounts_run": false,
+  "optimization": false,
+  "posterior": false,
+  "classification": false
+}

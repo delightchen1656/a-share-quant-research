@@ -1,0 +1,44 @@
+{
+  "symbol": "601318.SH",
+  "event_date": "2018-09-06",
+  "kind": "dividend_fields",
+  "start": "2018-06-18",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\601318.SH_2018-09-06\\query_01.json",
+      "sha256": "acf68d24b25a6ad64076be70e093fc3abab5fa1f8c30a116ff088791938e5a40",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "601318",
+        "begin_time": "2018-06-18",
+        "end_time": "2018-09-06"
+      }
+    }
+  ],
+  "announcement_count": 17,
+  "documents": [
+    {
+      "title": "601318:中国平安2018年半年度分红派息实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2018-08-30",
+      "raw_response": "sources\\action_issuer_mirror_v2\\601318.SH_2018-09-06\\AN201808291184636064_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\601318.SH_2018-09-06\\AN201808291184636064.txt",
+      "sha256": "50df3da8e15f30d0984e236dcc0e7662777c953f0cce6aa1e86f64c852818bdf",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\601318.SH_2018-09-06\\AN201808291184636064_content.json",
+          "sha256": "50df3da8e15f30d0984e236dcc0e7662777c953f0cce6aa1e86f64c852818bdf"
+        }
+      ],
+      "article_code": "AN201808291184636064",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201808291184636064_1.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "star": {
+    "feature_parity_symbols": [
+      "688001.SH",
+      "688002.SH",
+      "688003.SH",
+      "688004.SH",
+      "688005.SH",
+      "688006.SH",
+      "688007.SH",
+      "688008.SH",
+      "688009.SH",
+      "688010.SH",
+      "688011.SH",
+      "688012.SH",
+      "688013.SH",
+      "688015.SH",
+      "688016.SH",
+      "688017.SH",
+      "688018.SH",
+      "688019.SH",
+      "688020.SH",
+      "688021.SH",
+      "688022.SH",
+      "688023.SH",
+      "688025.SH",
+      "688026.SH",
+      "688027.SH",
+      "688028.SH",
+      "688029.SH",
+      "688030.SH",
+      "688031.SH",
+      "688032.SH"
+    ],
+    "event_model_universe": 612,
+    "loaded_symbols": 612,
+    "score_rows": 270093,
+    "last_score_date": "2026-09-30",
+    "strategy_sha256": {
+      "科创1-2": "f91a181c20b491d1ea5bfb7f5de888daf38830789b3a62ef9078de53c6e1da6b",
+      "科创2-2": "209bb158534063465b38992f68356f79824b3add98cc5a0580a049fad307b7d4",
+      "科创3-1": "8b2b9bedc87af7663695ec2a539254ccbb6b6cfbb487ee24bbf2403356f13770"
+    }
+  },
+  "main": {
+    "r08_ranking_dates": 41,
+    "d11_ranking_dates": 84,
+    "candidate_symbols": 1927,
+    "strategy_sha256": {
+      "沪深基准1": "f7a9fbf475bcb2db009f23c113be30fa747ce726ee42533b56c337e32065bfd8",
+      "沪深基准2": "15f969943623c5f51febdad9f96c6b7834b7aa7c9ea3de4b764efba8fe2866f9"
+    }
+  },
+  "runs": 10,
+  "latest_market_date": "2026-09-30",
+  "entry_hashes_unchanged": true
+}

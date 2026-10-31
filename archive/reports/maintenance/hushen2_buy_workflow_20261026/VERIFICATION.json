@@ -1,0 +1,127 @@
+{
+  "status": "verified",
+  "date": "2026-10-26",
+  "change": "Existing-order daily broker result gate before cash review and next-session recommendations",
+  "tests": {
+    "unit_tests": 54,
+    "result": "passed",
+    "isolated_ui": "passed: unfilled preserved cash/slot/order; filled changed cash/position immediately; review and recommendations opened only after all due orders reconciled",
+    "ui_fixture_port": 18764,
+    "production_port": 18762
+  },
+  "production_reloaded": true,
+  "initial_update_on_reload": false,
+  "strategy_changed": false,
+  "model_changed": false,
+  "live_ledger_changed": false,
+  "signals_regenerated": false,
+  "protected_files_unchanged": true,
+  "protected_before": [
+    {
+      "Path": "C:\\Users\\22241\\Desktop\\quant\\strategies\\hushen_2\\CURRENT_SELECTION.json",
+      "Hash": "B95021AFFEED5FCE6DD6B6F58DE7D42C5CF29479B2FABCB2076CAAE98BFE8E0F"
+    },
+    {
+      "Path": "C:\\Users\\22241\\Desktop\\quant\\沪深2_星轨软件\\CURRENT_SELECTION.json",
+      "Hash": "EDCFE6D24F6D7DCD5FD6568CC4934C0714AE12F7182967842BD6E938386E3E27"
+    },
+    {
+      "Path": "C:\\Users\\22241\\Desktop\\quant\\沪深2_星轨软件\\model\\pen025.txt",
+      "Hash": "AE0F7110CCE3B41DC45C1F30FFFEDF155535EEE441496F07D2970483BFAAEDD8"
+    },
+    {
+      "Path": "C:\\Users\\22241\\Desktop\\quant\\沪深2_星轨软件\\model\\pen100.txt",
+      "Hash": "D9AC6B247DEDD89E6DF558CF57B96D47321EB27F4E5C405416607E40C821E8C9"
+    },
+    {
+      "Path": "C:\\Users\\22241\\Desktop\\quant\\沪深2_星轨软件\\model\\utility.txt",
+      "Hash": "B46BE1E9638056A1A251A56BFB1AD68EDBDD24281506BEA28F7858F16EA89912"
+    },
+    {
+      "Path": "C:\\Users\\22241\\Desktop\\quant\\沪深2_星轨软件\\model\\manifest.json",
+      "Hash": "A2382F380E4D6D9247A6317EC5E87CF1B71929F6513054310864561A14B367FC"
+    },
+    {
+      "Path": "C:\\Users\\22241\\Desktop\\quant\\沪深2_星轨软件\\runtime\\frozen_builder.py",
+      "Hash": "876B242D705A347BABCDB3A88E08A7E27A83DABFFA5F7B36AE8ACC2D61FB1454"
+    },
+    {
+      "Path": "C:\\Users\\22241\\Desktop\\quant\\沪深2_星轨软件\\runtime\\signal_policy.py",
+      "Hash": "28407B4D59C4E8A9D55CFE11963F6EF1AB93920C64A92C3E34A4696E6D5F2F61"
+    },
+    {
+      "Path": "C:\\Users\\22241\\Desktop\\quant\\沪深2_星轨软件\\runtime\\strategy.py",
+      "Hash": "76A66DA303BBBC6036AE2BB55A373839A32534BD34399140600B6816C27B4C34"
+    },
+    {
+      "Path": "C:\\Users\\22241\\Desktop\\quant\\沪深2_星轨软件\\runtime\\verify.py",
+      "Hash": "AEE8A34F41CB498E32DC7A600DEF76D775A6D19CD45F60B4DFFF2953B25F7421"
+    },
+    {
+      "Path": "C:\\Users\\22241\\Desktop\\quant\\沪深2_星轨软件\\tracker\\data\\ledger.sqlite3",
+      "Hash": "FCAA3C015268218400EE14937F0E6761BBA287B4A6FD82AB6D2771B8DF1BE4C7"
+    },
+    {
+      "Path": "C:\\Users\\22241\\Desktop\\quant\\沪深2_星轨软件\\tracker\\data\\market_status.json",
+      "Hash": "6F756C27BD8465D3D27C85978202CA6C21E0B64B8455813A11FFA088C0DE1264"
+    }
+  ],
+  "protected_after": [
+    {
+      "Path": "C:\\Users\\22241\\Desktop\\quant\\strategies\\hushen_2\\CURRENT_SELECTION.json",
+      "Hash": "B95021AFFEED5FCE6DD6B6F58DE7D42C5CF29479B2FABCB2076CAAE98BFE8E0F"
+    },
+    {
+      "Path": "C:\\Users\\22241\\Desktop\\quant\\沪深2_星轨软件\\CURRENT_SELECTION.json",
+      "Hash": "EDCFE6D24F6D7DCD5FD6568CC4934C0714AE12F7182967842BD6E938386E3E27"
+    },
+    {
+      "Path": "C:\\Users\\22241\\Desktop\\quant\\沪深2_星轨软件\\model\\pen025.txt",
+      "Hash": "AE0F7110CCE3B41DC45C1F30FFFEDF155535EEE441496F07D2970483BFAAEDD8"
+    },
+    {
+      "Path": "C:\\Users\\22241\\Desktop\\quant\\沪深2_星轨软件\\model\\pen100.txt",
+      "Hash": "D9AC6B247DEDD89E6DF558CF57B96D47321EB27F4E5C405416607E40C821E8C9"
+    },
+    {
+      "Path": "C:\\Users\\22241\\Desktop\\quant\\沪深2_星轨软件\\model\\utility.txt",
+      "Hash": "B46BE1E9638056A1A251A56BFB1AD68EDBDD24281506BEA28F7858F16EA89912"
+    },
+    {
+      "Path": "C:\\Users\\22241\\Desktop\\quant\\沪深2_星轨软件\\model\\manifest.json",
+      "Hash": "A2382F380E4D6D9247A6317EC5E87CF1B71929F6513054310864561A14B367FC"
+    },
+    {
+      "Path": "C:\\Users\\22241\\Desktop\\quant\\沪深2_星轨软件\\runtime\\frozen_builder.py",
+      "Hash": "876B242D705A347BABCDB3A88E08A7E27A83DABFFA5F7B36AE8ACC2D61FB1454"
+    },
+    {
+      "Path": "C:\\Users\\22241\\Desktop\\quant\\沪深2_星轨软件\\runtime\\signal_policy.py",
+      "Hash": "28407B4D59C4E8A9D55CFE11963F6EF1AB93920C64A92C3E34A4696E6D5F2F61"
+    },
+    {
+      "Path": "C:\\Users\\22241\\Desktop\\quant\\沪深2_星轨软件\\runtime\\strategy.py",
+      "Hash": "76A66DA303BBBC6036AE2BB55A373839A32534BD34399140600B6816C27B4C34"
+    },
+    {
+      "Path": "C:\\Users\\22241\\Desktop\\quant\\沪深2_星轨软件\\runtime\\verify.py",
+      "Hash": "AEE8A34F41CB498E32DC7A600DEF76D775A6D19CD45F60B4DFFF2953B25F7421"
+    },
+    {
+      "Path": "C:\\Users\\22241\\Desktop\\quant\\沪深2_星轨软件\\tracker\\data\\ledger.sqlite3",
+      "Hash": "FCAA3C015268218400EE14937F0E6761BBA287B4A6FD82AB6D2771B8DF1BE4C7"
+    },
+    {
+      "Path": "C:\\Users\\22241\\Desktop\\quant\\沪深2_星轨软件\\tracker\\data\\market_status.json",
+      "Hash": "6F756C27BD8465D3D27C85978202CA6C21E0B64B8455813A11FFA088C0DE1264"
+    }
+  ],
+  "screenshot": "BUY_RESULT_DIALOG.png",
+  "rules": [
+    "Unfilled/skip is an auditable daily acknowledgment, not cancellation.",
+    "Partial fills require explicit broker remainder resolution; expiry requires cancel confirmation.",
+    "No premature check on tonight's new orders; next completed trading session reopens daily check.",
+    "Model generation and accept are gated server-side as well as UI.",
+    "No archived research direction resumed."
+  ]
+}

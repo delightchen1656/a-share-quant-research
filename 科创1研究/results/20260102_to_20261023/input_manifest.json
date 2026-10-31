@@ -1,0 +1,16 @@
+{
+  "strategy": "科创基准1",
+  "requested_start": "2026-01-02",
+  "actual_start": "2026-01-05",
+  "end": "2026-10-23",
+  "initial_cash": 500000.0,
+  "market_audit": "data_updates\\20261023\\audit.json",
+  "market_audit_sha256": "84aa79953beb1abe487e43714e91dd2c1da540b08538dfe859ab9090c400ffc2",
+  "calendar": "evening_accumulation\\data\\metadata\\trade_calendar_20261023.csv",
+  "calendar_sha256": "2a719a68f69d17a8c42f610e0f42946c6840be0fd3833144d09c6d01e81c9543",
+  "platform_source": "strategies\\kechuang\\supermind_kechuang_1.py",
+  "platform_sha256": "3c4a5b41691b431b0a419900382c4e9cd47e11ee9b6c163f9d80a863134f1d8e",
+  "model_retrained": false,
+  "strategy_parameters_changed": false,
+  "frozen_baseline_replaced": false
+}

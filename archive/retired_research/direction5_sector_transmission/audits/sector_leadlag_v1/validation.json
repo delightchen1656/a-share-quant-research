@@ -1,0 +1,22 @@
+{
+  "all_ordered_pairs_and_four_lags_accounted_for": true,
+  "joint_sample_failures_not_reported_as_tested": true,
+  "multiple_testing_family_and_q_values_recomputed": true,
+  "stable_candidate_flags_recomputed": true,
+  "2021_model_uses_frozen_initial_coefficients": true,
+  "HAC_calendar_gaps_verified": true,
+  "prior_day_basket_independent_real_case": {
+    "symbol": "002323.SZ",
+    "return_date": "2018-07-04 00:00:00",
+    "allocation_date": "2018-07-03 00:00:00",
+    "industry_code": "E50",
+    "prior_basket_stocks": 18,
+    "observed_quote_stocks": 17,
+    "current_qualification_change_did_not_redefine_prior_basket": true,
+    "unavailable_current_quote_not_filled_with_zero": true,
+    "independently_recomputed_quote_sum_and_mean_match": true
+  },
+  "raw_positive_p_below_005_count": 484,
+  "minimum_positive_BH_q": 0.25563520221899866,
+  "global_config_economic_gates_unchanged": true
+}

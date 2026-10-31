@@ -1,0 +1,44 @@
+{
+  "symbol": "600176.SH",
+  "year": 2020,
+  "year_type": "operate",
+  "provider": "BaoStock",
+  "status": "returned_events",
+  "complete_corporate_action_ledger": false,
+  "fields": [
+    "code",
+    "dividPreNoticeDate",
+    "dividAgmPumDate",
+    "dividPlanAnnounceDate",
+    "dividPlanDate",
+    "dividRegistDate",
+    "dividOperateDate",
+    "dividPayDate",
+    "dividStockMarketDate",
+    "dividCashPsBeforeTax",
+    "dividCashPsAfterTax",
+    "dividStocksPs",
+    "dividCashStock",
+    "dividReserveToStockPs"
+  ],
+  "rows": [
+    [
+      "sh.600176",
+      "",
+      "2020-04-24",
+      "2020-03-23",
+      "2020-05-15",
+      "2020-05-21",
+      "2020-05-22",
+      "2020-05-22",
+      "",
+      "0.193",
+      "0.1737或0.193",
+      "0.000000",
+      "10派1.93元（含税，扣税后1.737或1.93元）",
+      ""
+    ]
+  ],
+  "attempts": 1,
+  "elapsed_seconds": 0.0193
+}

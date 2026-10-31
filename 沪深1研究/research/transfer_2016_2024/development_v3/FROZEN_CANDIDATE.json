@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "search_space_sha256": "e8db2afeefb008ab077791a7b6d8af87c8a3a2082e726d8892d3eccc465ef935",
+  "selected_candidate_id": "baseline",
+  "decision_before_confirmation": "retain_baseline",
+  "parameters": {
+    "candidate_id": "baseline",
+    "weights": {
+      "cap": -0.35,
+      "vol": -0.2,
+      "overnight": 0.25,
+      "intraday": -0.2
+    },
+    "smooth": 5,
+    "min_smooth": 3,
+    "count": 5,
+    "interval": 20,
+    "buffer": 1.5,
+    "exposure": 0.98,
+    "participation_20d_mean_volume": 0.005
+  },
+  "development_summary": {
+    "candidate_id": "baseline",
+    "mean_cagr": 0.17804824853740514,
+    "min_cagr": -0.4777789716115838,
+    "mean_excess": 0.1491747514502117,
+    "mean_drawdown": 0.20148608738187648,
+    "mean_sharpe": 0.6940009643088847,
+    "mean_cost_rate": 0.01694911004273504,
+    "mean_turnover": 20.121081529914527,
+    "starts": 468,
+    "worst_year_median_excess": -0.10161608695306878,
+    "year_median_excess_std": 0.24667836488509767,
+    "passed": true,
+    "failure_reasons": "",
+    "neighbor_ids": "",
+    "years_improved": NaN,
+    "starts_improved_fraction": NaN,
+    "min_loo_mean_excess_gain": NaN,
+    "largest_year_positive_gain_share": NaN
+  },
+  "development_files": [
+    "development_all_starts.csv",
+    "development_yearly.csv",
+    "candidate_summary.csv",
+    "development_stress_all_starts.csv",
+    "development_stress_yearly.csv",
+    "development_stress_summary.csv"
+  ],
+  "frozen_candidate_sha256": "fca25948cd5df3bd550b40bfa4702376e4211035d643a3294c4da8731059dccd"
+}

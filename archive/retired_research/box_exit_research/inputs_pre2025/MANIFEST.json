@@ -1,0 +1,2157 @@
+{
+  "boundary": "through 2024-12-31 only",
+  "events_sha256": "b8e84ddeb124244f3383d5cbf7f9f04a2a65f7933ac0266336149d28722c5576",
+  "calendar_sha256": "185025ac0718bc6c8a1c4bbcad855fadcf0874d01b53f09681641fbb961f1dcb",
+  "source_events_sha256": "74ba42701f4f696d99f3e9a71c9000c52493efe0be913f8c2f256bf4777a95f2",
+  "source_manifest_sha256": "5e1e0a1f411fcecfac02bdb763b7eff68b65fa8dcacb2ae71630cd750d9ed2ea",
+  "files": [
+    {
+      "code": "000090",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\000090.parquet",
+      "sha256": "745bd7e972b6baa0d5203e50f7037dcf6970366c041366e6fc32e3d3152ef623",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "899162fdc6342df5b04a3033b83b12b67c4bf40bf701e7cf68e3e7db4bf0df04"
+    },
+    {
+      "code": "000090",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\000090.parquet",
+      "sha256": "9c344a9bdc3bfb3e2a91c204fd19036a49c5681ebc1cee95aa4c325afb05da88",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "8e48074a8e1f7b2ff45c52e716f153c25fd3aa6a8cff602d311f5be6b811fae0"
+    },
+    {
+      "code": "000530",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\000530.parquet",
+      "sha256": "79833a289caa8d782bec961ffd0f48509d56cee00e4cfbd9e2232c8c1e1f6927",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "953a1c7c415cdaf162e015acf98c1ff0c677c231fa31c85611af3e5a44f78606"
+    },
+    {
+      "code": "000530",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\000530.parquet",
+      "sha256": "d0353a4c1342bfbd2d55dfb452863c6cf0e94c9c165d62f56223b8a2db7d9e94",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "1dd906430806241f9e28630fd91856bc303cd08d3cfae9fbf0e702ee0e657215"
+    },
+    {
+      "code": "000559",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\000559.parquet",
+      "sha256": "59aa7ef95e000e7c37d51938831c72495b6ec5f4baf98e61f5eb5c03ce173f2b",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "9f88bf3f317f683d43ba69480529b3f38838caf17909b3f0afc4f7b0b1e6fa47"
+    },
+    {
+      "code": "000559",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\000559.parquet",
+      "sha256": "c08ff1ea40413e1a39e815c378a81603d0d7de6e943d82490af493572389a78d",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "1388c1b0a6da18b8abbde642c2264cd92031865519060ed8898c3a04fd4edf9f"
+    },
+    {
+      "code": "000573",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\000573.parquet",
+      "sha256": "c6fc2cf28f19b68482c993aeedc4f9a21913ef748c8490b50aaacc5c12643d09",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "4822c5b91125d26c3e5eb7dd2f13442f598519a7dd796e44a0a16b8485dd6e25"
+    },
+    {
+      "code": "000573",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\000573.parquet",
+      "sha256": "d8736a8d9a39cde054c195d05b95c7b3a83bdf0b8d813dbca16806bba7279f7a",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "59a203dfc5536aeefd06147da0765ec54f2e79c47fca195a44c23ee17432bd0b"
+    },
+    {
+      "code": "000576",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\000576.parquet",
+      "sha256": "4acb01bf5ec7a55a18f0b1eec1669c5f22e546ae20b55dc5b1bd48d020ebb9e3",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "f046c8051654574d1e6cbb74534bace32810b28926cbd13059e5bbce8d6e1550"
+    },
+    {
+      "code": "000576",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\000576.parquet",
+      "sha256": "ab6d9c262d5a2f41483febd7671db8a0582a91fc3b5496bb0b25c29ef3097ce0",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "24aa4aa33b7cf60d6bc8c580032e2b78d8febc0310aa60d5b3cd3838ed30f777"
+    },
+    {
+      "code": "000630",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\000630.parquet",
+      "sha256": "5879d4e5f2a6edef91b874477a2d7728351c2f4b3272ff7d0e0712c171fa7bb5",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "ee9547244835a971db06069cd6b49a8ba6ffee4a13aad36dcd0690a8d136eb1f"
+    },
+    {
+      "code": "000630",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\000630.parquet",
+      "sha256": "9a682f8926938db28fa13d38c0e984ea487ee966cff890a0a91317a0fac3b71b",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "462efbdb8ecb5bbd36c582335a884b0d6e32f854389457012e683e71e8a34626"
+    },
+    {
+      "code": "000636",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\000636.parquet",
+      "sha256": "21609dc93bed9f666096e5c5b4399ed6eda65c1ec6211735aa296f9f56dc7c2c",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "97ca4c5c2cbbbcac78d6923055276dc7c16e8897e940c8d379246b04d1fe5f1a"
+    },
+    {
+      "code": "000636",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\000636.parquet",
+      "sha256": "ea27800da0a1912559ce6b790c90dc7a34c2576ebbb14f05edcda9e7450210d6",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "4d118a6f2f18bcb31bd4d3a8607bd7dda6660e8c168368b13db9469eb05a6802"
+    },
+    {
+      "code": "000678",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\000678.parquet",
+      "sha256": "eba02581b40e39b589e922318dd94ff29dada1762f01b2cb1e3898cd0a44d128",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "eebcb02435ee86f7949bddff24218ed6857d5f700a36f5b13ce29bddf39458bd"
+    },
+    {
+      "code": "000678",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\000678.parquet",
+      "sha256": "eba02581b40e39b589e922318dd94ff29dada1762f01b2cb1e3898cd0a44d128",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "eebcb02435ee86f7949bddff24218ed6857d5f700a36f5b13ce29bddf39458bd"
+    },
+    {
+      "code": "000722",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\000722.parquet",
+      "sha256": "122caa54d84018ae8e27f494eaf7861a16dcfa4f5be52b66122f12b04a8a69d1",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "d568e6e562a1c3f9a7bcde3a58f7736beddff110e814999a4650991e8c71b8ef"
+    },
+    {
+      "code": "000722",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\000722.parquet",
+      "sha256": "c9b209f998d1e8e2d4061e16ffa233453d6bcc1fd916a650be929815c7506f80",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "e72e5df3c3e65001625779ec1b06f5442485fb1007f673397405e186d9bed8cd"
+    },
+    {
+      "code": "000788",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\000788.parquet",
+      "sha256": "098cbcf3a62cdd02957986b9f8f4c015ed60ca624b07a68db6dfe5aa980aafda",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "c96bb9a9f86f29f4c575d97a69fd8220148a8fc09a921a16531a01b12ce4ebd0"
+    },
+    {
+      "code": "000788",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\000788.parquet",
+      "sha256": "7c679387fc6a0853faba00ade5f25ab001220f6010cd155968f3e1323e491fa8",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "67769eee2a2f388f8a7c993a0d373aefb73d7e41fd6b7cfcec5455ee647ca0ad"
+    },
+    {
+      "code": "000792",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\000792.parquet",
+      "sha256": "7b1c900cff65dc4657f668396800255c80434cfbdcc1a9ebd2bd207b6e27be47",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "ade3f8df5e3c773327216df7e06fbedd07c4d9a4f6916c55389b0db698e97371"
+    },
+    {
+      "code": "000792",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\000792.parquet",
+      "sha256": "f55aab9880dddb4d51a9bfcff5b75793a568cf825c4f87e744010bfdbac34b31",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "18c69d0fe6818715786c6e067b8dc64a93da5a4a0326854838129cd0ee6c5722"
+    },
+    {
+      "code": "000888",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\000888.parquet",
+      "sha256": "5478723f83ef5247dba9263d5930db8a28d1d470905a853d1fdd24b9e0a761bf",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "b0d076942a7082359f13de8384b7b003c69adc3d5c1e91c49fe3917c1330fd24"
+    },
+    {
+      "code": "000888",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\000888.parquet",
+      "sha256": "023425a5c6e3355820f34d74969118c7adecea927bf2dcc3a121c962d7e10a1e",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "67164da8f0280e3530ee6b01ffaa960c3037477f5ad0bdbb98dc0d48ad50d8fe"
+    },
+    {
+      "code": "000938",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\000938.parquet",
+      "sha256": "ab0ddcf8c4b9500ae723f1554b669c82d165e4efb6e7c3e9ffa91d4890db7edf",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "12e6641219e4a335cd053edc67919e005cd14bf5967960b5e377ad57616c7444"
+    },
+    {
+      "code": "000938",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\000938.parquet",
+      "sha256": "609c7999ae18e734b4af2c3c1f55ae472b15b641528481a60187039392587941",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "acbe2e5f7c56368451decf5f9adc075af26d946ce068f0d89649c7df54de2205"
+    },
+    {
+      "code": "000998",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\000998.parquet",
+      "sha256": "3e898f459568a73d5b18a5436d13bedf5e73bca9c048cce7e5a2278f69d4ff2a",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "3eb989e94a3abe324a9b94f55682ee5762671e674ad4d254dc20bc863f769e54"
+    },
+    {
+      "code": "000998",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\000998.parquet",
+      "sha256": "66838a8ad855f889bd83bd779f1a16c58245986fb83b1d0e3ff5fb7092cda26d",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "284f3f6f60cb2c780bd493cbfa9554881c18787103cd8267c14291e43c1af7b3"
+    },
+    {
+      "code": "001301",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\001301.parquet",
+      "sha256": "624a5d47f5e37d2bcd5fd75b02c8dd310821f05d77bb4fe0087fdab8811e8b34",
+      "first": "2022-12-28 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "67e20b53865e1f1f7bb47002d7abd30d84af0a26d211fe132276110f7c0680f7"
+    },
+    {
+      "code": "001301",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\001301.parquet",
+      "sha256": "38290402f63ca730bdf7d7f893a6cfde25eb6145df95e4f614182c2f877d2aa0",
+      "first": "2022-12-28 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "34780e42f7085bf269d637d958939decfd2d4c289ac29885a09ec08071ecbef4"
+    },
+    {
+      "code": "002007",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002007.parquet",
+      "sha256": "f58ea906a2aec83edba4e0f442faa7956cb14aeea954bfc4189e95a7631a7b2e",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "4044d3b3e905245662eff243d55fea9473df1ef9be8b33003040d58adbcfcf20"
+    },
+    {
+      "code": "002007",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002007.parquet",
+      "sha256": "98605e014ae5cc2a1c63185d498364d3f75890f0c6cca590c192731cf2cfcfa5",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "0983717cd9d53135f74fe59b93af74c861fee59843390655e3d13f3a9773a570"
+    },
+    {
+      "code": "002008",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002008.parquet",
+      "sha256": "5869200b7a4ec2a7f45e2cef3b44f18277d4fd75f2fa56a615309b9601c72ee7",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "efbbd6575623261d1da77bd2bd28d49e7aa035477b7af07b52008deed869f74a"
+    },
+    {
+      "code": "002008",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002008.parquet",
+      "sha256": "add8c2eb6bb8ee6bc1cdc6d8ee68e80e5eb9ef91704e559fd0840946835ef84a",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "87dc10160daaeef049879401657fbec1f77d4d34a96f69ac05eed5c9e1a0bb10"
+    },
+    {
+      "code": "002011",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002011.parquet",
+      "sha256": "2167826227f4ca0b1e59b8749709a14a18e6bac29064b5676ca2f9177f0bb441",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "badbcc09340861e75a6457a9974ce2571b8faf9798f0b5e7c8037e71605c134f"
+    },
+    {
+      "code": "002011",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002011.parquet",
+      "sha256": "9b6176dc03989e203f6a3a4b383b2a293bd39e5336383c4be0daabbe4b939f83",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "b40b40a3d7b679025f662ec1bf3815af3ec50eedf2a0e80b22d3688efe55ede1"
+    },
+    {
+      "code": "002030",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002030.parquet",
+      "sha256": "625eac086e9912e6e6e9600a19bc34420cbc3fc66c705312b750004538de456e",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "fa2f9548bd01d45e16459a66def78e3d19a23d996b8471262974e79ed13980cc"
+    },
+    {
+      "code": "002030",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002030.parquet",
+      "sha256": "544fec5585c9bf036eb0e765f050aa52c364967f05ffb289242ca872eb977cb8",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "cf2d54f2cdbf9c74aeb3f46b2e83a4bd0244951bc79f02731c46a47e5823c988"
+    },
+    {
+      "code": "002068",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002068.parquet",
+      "sha256": "71b5e3ce788c67a754b68a3347139abf73d2b8c01c3e6f11372adef1b9886dda",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "afe1500f6cd0ae28b70b71541147320ee8c57e63d034e760cfc8078b9516ffb3"
+    },
+    {
+      "code": "002068",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002068.parquet",
+      "sha256": "edf373c2809f35e6241eeb1115555b7ee077aaa837ae3e49efe6cb759a399a0e",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "1e4325b027423a3a9c5d2ba5862b42f8c3733ad568265a0c802389f8d2eee72d"
+    },
+    {
+      "code": "002076",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002076.parquet",
+      "sha256": "9a6b1ce482d866a94e2de68496a54683004931ddc106a821a7aca70706c009b7",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "e223f423478d6a78dc550ea0b9bbfb045b4329d14b614a31e02cff8b84c558cc"
+    },
+    {
+      "code": "002076",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002076.parquet",
+      "sha256": "bbd7207da0ef6193e5caca4715d36a8cb442a38c8168b10c2b3a4eeb277613fc",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "33209934bb6bccefeae342b4d7f4b5978a02eaeec17b336a233cb00e81897bd5"
+    },
+    {
+      "code": "002077",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002077.parquet",
+      "sha256": "b47c05298d1e927a4e757ff848703cbc43675b9f13ebfb0b6284c481023a2cce",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "5a81e810f3cd7c7dc6d6b99194316e3277dba48fd418a973c88ca68f72e00280"
+    },
+    {
+      "code": "002077",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002077.parquet",
+      "sha256": "b47c05298d1e927a4e757ff848703cbc43675b9f13ebfb0b6284c481023a2cce",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "5a81e810f3cd7c7dc6d6b99194316e3277dba48fd418a973c88ca68f72e00280"
+    },
+    {
+      "code": "002085",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002085.parquet",
+      "sha256": "67a29494c5bab04f0d55f3ff83de8ac032981f2764a9ebbc18fd1802a0d45be2",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "965beffa084ae68302d9dec0b49d416629956c9f011d5a495f4133dc971ad9b9"
+    },
+    {
+      "code": "002085",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002085.parquet",
+      "sha256": "ddbfababc994114bc251ac36160d207b4a9dc6c8e700bc79b68d862679373555",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "b1d9f6f71ae2a619d833c8e027242afb28f820f85006564df4ee1a26a3c79259"
+    },
+    {
+      "code": "002088",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002088.parquet",
+      "sha256": "39cdc02658de10131eb617adcbe8204328899b39969508d032a0897a5e7a1c79",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "de536892201b2926b7b39fbbd62976c28ae1cbade747ea6c344d4dc87a1318e8"
+    },
+    {
+      "code": "002088",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002088.parquet",
+      "sha256": "e4f6a177e78b6737332f2436633783b0e7a6493b7c4c1e06c848d55fa2df0a56",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "b9f33e576b5e0b7700e270f1ea54714c6a2e57abb377fa556a827f0d9615b615"
+    },
+    {
+      "code": "002097",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002097.parquet",
+      "sha256": "3c7307f82b9e8c82a3939d1d25fd56f0426573430fdf52da5e8ae6df2ff77e88",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "6ce94b1cf73f763edc911b20c40aa28c61a1157b2030400f163b6f636b9f1f94"
+    },
+    {
+      "code": "002097",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002097.parquet",
+      "sha256": "805f6b0ff516b3b1306f21719ce2133405e8f68dd42b93702ca86d8d97d28a38",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "0ab9ec536ab00a6dc6bdfc71914d6b3223d2d9e967c6ca700ac23af3b538481a"
+    },
+    {
+      "code": "002156",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002156.parquet",
+      "sha256": "d93474581ab3f9ddf911be0ac11131cb2e1b2a287faff001834b831271204c9e",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "d961ff64f2b2451fcd28913d95479fa951ad8f78c7ece1c96a78ba872b213249"
+    },
+    {
+      "code": "002156",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002156.parquet",
+      "sha256": "208328489eb1b123c897f676b48c95000c17ed75ca14c60c2e9f66390803ad8b",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "6e5827e36a81e3e6a89302b95defdcad5c86bc0d2353ba9268a652afabe5501f"
+    },
+    {
+      "code": "002218",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002218.parquet",
+      "sha256": "5656c72bd190a6e735f4d7fc98fe914553103b5e8436b4aa8ce27b1fd432d893",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "7bb9d09b22e245214074b653b93c6225e5e84f5c912edb2c88ca17859dc9b6a6"
+    },
+    {
+      "code": "002218",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002218.parquet",
+      "sha256": "0ba785fd068614a317d9838c56c55439c814c4f4f70c5c0b4a1268e5a07b8531",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "23fdc290095b4b7b783eae88e2823695ca8546aa6e38a6e6126b23ee46a7d202"
+    },
+    {
+      "code": "002223",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002223.parquet",
+      "sha256": "1ee9eedd8de4b1c3de7de0d70f989af498dada4c17599207f548ca953afbbe32",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "c857c0d0a20155b1134269ce4acd6641d4103741f98cd98eefc2132233371bd0"
+    },
+    {
+      "code": "002223",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002223.parquet",
+      "sha256": "83653c458a2221fbcc0bc60401281d304a23ec7890f18bf8cb76113f32aa6f8a",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "36b9a5ff94b62bb7574dd68ef6b558196475a78607bdb483a00141e54499bd97"
+    },
+    {
+      "code": "002230",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002230.parquet",
+      "sha256": "8d327c380c36256837bf3895519cd71a46e27dc916e2a9b173cbff9067965ecf",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "22bcf6358257365cffb61b0c3ea438d1922ac9cf8dbb232d85927782c96047fb"
+    },
+    {
+      "code": "002230",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002230.parquet",
+      "sha256": "019cd2be62c1db7eb6424adb0a90e09006f19fb8a813b0bebaad2335e8e02d8b",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "4af9e3e4f72a3da7cd6c9e093c97e6cce582b436e733bd7d85ea0431e7450e3f"
+    },
+    {
+      "code": "002238",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002238.parquet",
+      "sha256": "541af73930ad05b1d9772cf34044930dce0efdd1e61f11ebc18ab06ecc0f0b0e",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "0423729b7f762a261480347171be4d64dce500e6cc06f32a3694b5671439d812"
+    },
+    {
+      "code": "002238",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002238.parquet",
+      "sha256": "ea027cf602c549f5c1da6c2f334ab7504adec302ae5f452cc70c940b3aaf3175",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "3058c17a0fd1af44e286466ab19b27d608532e5a5dad356aa2f76fd857acb2c5"
+    },
+    {
+      "code": "002244",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002244.parquet",
+      "sha256": "cd1ca162203f7fb4efb2f3ee8794fca453e53473c314ec12b21617b4ca5ea7ca",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "56fb70e860e280bd3fdf895d8dae3cacd10c10a75646170b0e7b963d653e7ef4"
+    },
+    {
+      "code": "002244",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002244.parquet",
+      "sha256": "12fe0e23c1b5d001f29c527f0b9313bf0a78488a2ac5b14993d3d2b5ba78d1a3",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "84ff84932aa5381f95cd3d9edfaf47ed2e1beb32addec5fec8e04366fe16ef07"
+    },
+    {
+      "code": "002264",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002264.parquet",
+      "sha256": "a78b534dceaa749cb2d3ccee99426e785353eded63b47d7f430dec64d8b6dc45",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "05fb30400c1f7e7d9c120eb37f6c020266da1d1b74ff32fac690113731506196"
+    },
+    {
+      "code": "002264",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002264.parquet",
+      "sha256": "0203cbc5072a4f4fffe5ebdc00edc8b73c6ee931037c87129f43287091e1c3ce",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "6b686a39be9cfc20a4c6e4c1a74bd460a32c486c6c3eec6985c0757db6878dd4"
+    },
+    {
+      "code": "002285",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002285.parquet",
+      "sha256": "b29db8e87ca147f72369c993f9a879452ff34072d7386a0078bdffade8e2b882",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "a45c164cf9dcfd1a9798f1b058577a288a0d82fd1c0f886016827e04f4f1e48c"
+    },
+    {
+      "code": "002285",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002285.parquet",
+      "sha256": "4740b08805e95c7ec4b809a676be9f2484944e14036a5cfe1c974be4bbedbb4f",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "bb5e5465e3a0120aadeda4ca181bca0ae7271ea664250665fa35e26e2e372ffe"
+    },
+    {
+      "code": "002321",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002321.parquet",
+      "sha256": "af28a7c149c09a55c09019675fbade3d1b59406164dddf8c452b40bd8ec94f03",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "c7fed8df636356c8b572e9d118539c0545eb6b99e86bb316f98af8f570e23b30"
+    },
+    {
+      "code": "002321",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002321.parquet",
+      "sha256": "49700593e06534ae4844c13ffda7e2341cbaf9434227db10dddd7a2bebe9933d",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "8cbe16bf6d2ff31587485b87ca032ed46ac05945efc260df36e2e8b55fa01b02"
+    },
+    {
+      "code": "002335",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002335.parquet",
+      "sha256": "7b471544dd05d09c756ad4db3bf8f09d6d47d6b8ef72c6c74491d0602b67e7e7",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "e05645cbda8de72bb571bed5501efa0f60926acafbbb830cc59dd4bdc9908ea0"
+    },
+    {
+      "code": "002335",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002335.parquet",
+      "sha256": "c72477efb4c1a66734dc21ad2971a84289e4c459d222ae4abd24da1520abd702",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "fbe5eb322dfb3b7cc08bcf9853d191dab873637ec35e5f57036e4f5ffccc9c18"
+    },
+    {
+      "code": "002353",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002353.parquet",
+      "sha256": "aec5a629d68a9cab03014216e4f5c5e10d5339d25d73721e4ce278042dcd4362",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "e35be85e1adf625daf65e8f6c0417f368b10fd49884a72d15bc60c6a50d11d30"
+    },
+    {
+      "code": "002353",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002353.parquet",
+      "sha256": "e09f70566017ec7931029f28ef33418ad3f5a851c8a400ec8807f121086c66ad",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "7c289a46ff84622b228a9be9c7f2c35e8f0a75ac6f34d59d55a8fc5f1287419b"
+    },
+    {
+      "code": "002371",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002371.parquet",
+      "sha256": "f659958584ace021cb6f86485841f173b946fe5e1dcdab9b09851a4ece6e395c",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "849d936f9b177161517df3fe480f5ba2c32f2418c0bf3ecd47cbbee7c1e5563e"
+    },
+    {
+      "code": "002371",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002371.parquet",
+      "sha256": "c0ce6a6a5012dd664b96aa2063ab1f8e488cedbabe4a88208a1eedb680a0dea9",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "97e56d7dab848ceccfa66a5638b5f2bbc3ef4b7fadf91ee58ae1431ecee83f50"
+    },
+    {
+      "code": "002385",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002385.parquet",
+      "sha256": "14b77440e301bb2f1b29422c06ba1197d250e5e732216d36418a583911effc4c",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "9549041f16a41fec4b232ebe38525a650379a48fb0feecfce2e95e396ed33900"
+    },
+    {
+      "code": "002385",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002385.parquet",
+      "sha256": "cad46f79ce17c5d93229d2ea6cf7fb403b8c3c0b8aad698bb986bb8d2dd58247",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "6aa8a50ec2c82713875253560f4ba797573dd3d53d93b0c07c46452a11bd271f"
+    },
+    {
+      "code": "002389",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002389.parquet",
+      "sha256": "5862a52f9e5667b1078a5ea752edcc27ac5743b44c938da1048bed4953916cac",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "bfc59e78b4f98ebca605577dcc54c43d2fd131f70d81dd2bc551e229a578b7f9"
+    },
+    {
+      "code": "002389",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002389.parquet",
+      "sha256": "ed5604e7c3cfeb105473521fbdc5b8f5475ccad9bd9f063ab4d59ca963776cfb",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "3fc1d6dfdcfa8c12bb8fc0bcefd5db7983f120fc0173ce73420802100ef6edce"
+    },
+    {
+      "code": "002465",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002465.parquet",
+      "sha256": "99ab126c5aeaf76043d798f108b1c1c7aee9e91b0f991194cdb82cd0aa9de988",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "00311bddeba5fa1e9b685de3cac0be2276cc8ef9ae1e4e95d8e1e8df0f3085e4"
+    },
+    {
+      "code": "002465",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002465.parquet",
+      "sha256": "a5ec6408cb8fbb8c19c69cb602a799ee4e2ddaf7549518ab89f4f254d3c9d01b",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "345dd42364b5875a9e9c8aa9f227857b33808b5e468f38ba764469e513551615"
+    },
+    {
+      "code": "002480",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002480.parquet",
+      "sha256": "be672f91ed2d36934247b188e2738aec20c32bc8fecce4f78321ae7531a31a9e",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "4922606e8ed0856f36415c77c309715575c8927442e9df9f3775c796c70de5ab"
+    },
+    {
+      "code": "002480",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002480.parquet",
+      "sha256": "8aa193381b4f24255ecd3646a3577529c5882622f69aded3f67b9106733a4149",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "f0783203eaa1b658d80f2136c36f5e51069b7d6efb3514b3780573de50d7518d"
+    },
+    {
+      "code": "002535",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002535.parquet",
+      "sha256": "10e80a5198b2281e39e5d6107a5005ba2d74c62a20aa33756f890a3efa0184ca",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "8788a5c00019ca947ac641c97c004e2f99d2ff4b61828694bcbf9e64096e7ef0"
+    },
+    {
+      "code": "002535",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002535.parquet",
+      "sha256": "10e80a5198b2281e39e5d6107a5005ba2d74c62a20aa33756f890a3efa0184ca",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "8788a5c00019ca947ac641c97c004e2f99d2ff4b61828694bcbf9e64096e7ef0"
+    },
+    {
+      "code": "002552",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002552.parquet",
+      "sha256": "2e9c4c537e66c007efb0b24c1043a52a1a29103261921a1b50a01c54cd8ce9cd",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "7db411cfd2d87232ea46611e46cbab612a52ee8caf29ed6dbf5ff49ce9e8e118"
+    },
+    {
+      "code": "002552",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002552.parquet",
+      "sha256": "d195decad3a3964c9a3ff34475a5013a29d0594530f723452b68685bc75d0806",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "040070fd2d85c29eb829b6a7a6d8e5cff2c33ff9042eae53d8bcdd9a6507804b"
+    },
+    {
+      "code": "002565",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002565.parquet",
+      "sha256": "d017b7a83bc61b9577376146ddab38500d06d3b3e4d41216f61159919462d417",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "31f0ddcab7010925591404005a61375a48c94aa4cc6dac92c20e4ad3a7506a58"
+    },
+    {
+      "code": "002565",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002565.parquet",
+      "sha256": "c9d3d4582d61448a0ed17699ad08daa2916369da1515f68bb09cdb881c94e339",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "11ce9a02ac7cb4c9355128b7c9059aab88b79ed31ad9d506699348c42176b455"
+    },
+    {
+      "code": "002601",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002601.parquet",
+      "sha256": "fec1537e220ecaa20635e5cfec0934f549c80631dd4d8543b2d7c569d25b7de3",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "295a428edf278a3cd2e77fe60cc8f74da9a5c9ef4dc6c7fa0fa4eb7a502926bc"
+    },
+    {
+      "code": "002601",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002601.parquet",
+      "sha256": "4ea487a0f71eb690c006fc9e32baa78ad1e49be5ae890dedbc16c73b6c248196",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "5f07a27a7efa8f4b80a8acc8f4fce1656b765bec574095499c5c99bcfcc6ec3a"
+    },
+    {
+      "code": "002612",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002612.parquet",
+      "sha256": "7c927cac264714337b1c32eae897bfa355774e0e7c57f35bb2e957ef63285a87",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "7fb096d414fd390cec31e4ecea851c191eb546a66d7b358f9273a8927fec9955"
+    },
+    {
+      "code": "002612",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002612.parquet",
+      "sha256": "c2644de1765369d88059ef5139f8c7ffa0f697e9fdba81e1764f0c6b508b883c",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "69aac7408dd35a5a8667eb502947ae5d5b0526ecd8724b426fdab52e71d82b26"
+    },
+    {
+      "code": "002661",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002661.parquet",
+      "sha256": "6076b8cad175e217052b0640de3dda063da3426bb6f11b6d37170b45073cce96",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "832109b99678d3f78bfa7620791b79f1db8750fda8798abb6ed9954720820c5d"
+    },
+    {
+      "code": "002661",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002661.parquet",
+      "sha256": "c8eacd789e4d18ef61bf651b0ce19d54033f829fa18a615cb38343ece041d5ca",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "5900bc6a264a609ab8c87dc7a4da2e421f764f953401b1d1e25f1d742ac7d269"
+    },
+    {
+      "code": "002672",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002672.parquet",
+      "sha256": "e7b19231f6e746e71a7fbd980236fed629fb8a098fcb6acb61e9336c98a17e0a",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "8d3ca6a360b2ef1c45bc37d49b639e6cab7bd10b7bbd42115b7c0455a5f6582e"
+    },
+    {
+      "code": "002672",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002672.parquet",
+      "sha256": "92a8c8b517c600670781fd8bef788aba636a031e458d26898f0c15384d1c81c5",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "4b5a86cf5184e8145c2580bb573b110fb8aa74f4cd30b0c6713cfc2a4f081c40"
+    },
+    {
+      "code": "002709",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002709.parquet",
+      "sha256": "5c13ff328ee482d945e045a34987f2d47438b15207c8d4dc627fdfc968ab7d9a",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "1c54cc33e62eb5ab836b5b3a20414e02bae2ed3bc7966c2bb8cf30376d0a49eb"
+    },
+    {
+      "code": "002709",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002709.parquet",
+      "sha256": "e6489e9ce064a3aad340fcc39101a2864b5897d8f98078665f57be27256a2f52",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "7021b4ee922032bd133a46fc324d90d3a231ef9d902b9a60544b25e2388d6f25"
+    },
+    {
+      "code": "002811",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002811.parquet",
+      "sha256": "929bde4dacfad0473e89aef58e17cd9600ada880a227967a4a21a2c5ce661890",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "d1a3247893ace973c50feb45874f93bdc8c973a003d2d04ed68fcdcbdbe33425"
+    },
+    {
+      "code": "002811",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002811.parquet",
+      "sha256": "7112a3628a3d96039890abb9a574e491af6f67d657c0ecaef7dabc67a2abad65",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "c520d333c53f9236907a2e184124bf469c1abbb1f2945bbb454497cc905523fd"
+    },
+    {
+      "code": "002812",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002812.parquet",
+      "sha256": "af0a9d982c3869e355032726cecec95e56ad75fdc57b31f8248dc06bfdf5671f",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "ddb5a854603f93971c5e5b8072f30aa0a866ce819be391809a2476ed86d96b65"
+    },
+    {
+      "code": "002812",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002812.parquet",
+      "sha256": "43a11aad43518616daac051dbadf6b82933e514c06a89dfe11b3831b3beb7ce9",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "832c31bcb3ebd2c2e8592c007954efbb95edf3f8e82ac95842aeee78130a1e79"
+    },
+    {
+      "code": "002851",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002851.parquet",
+      "sha256": "8826820de55951a2e58b00f50f46e8124d51b0980fcbb1ecbb2110fae7046612",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "f43204d2e0a3d4035f4138811affd51ab3670331f6695c9290b1218085cdb55f"
+    },
+    {
+      "code": "002851",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002851.parquet",
+      "sha256": "e846138f6da541fd519bd0b2508b53fbd39d4550aae47a54ca352d7913da45c9",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "cbd5f553a62196d9efbdb3ce848066c151360e34f8b11721a5f1779b067eefb7"
+    },
+    {
+      "code": "002906",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002906.parquet",
+      "sha256": "01c909a684c779f347c1f642845eaac939a079c237dd70d03f56f5585dcaab1a",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "587a9e64cd2073a39c32813e25cf9d6cb98bbd9ec581763d4261b336bff07ce5"
+    },
+    {
+      "code": "002906",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002906.parquet",
+      "sha256": "adf4530864698489e20d6e31ac5b875f2f413e24b59b05a34e70cd37fc60d2bd",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "3fd072f03edb8b55cf7c97cd3de28540379a30719706863c7dd857af8b14afcc"
+    },
+    {
+      "code": "002912",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002912.parquet",
+      "sha256": "b775ee1c1930436f27db267a0f16e6f31c2cc243cdf7978b747fb1e7eeaa169a",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "bb5f0a4b355192bce252f89fb4381ecdd9b98a6a8b88fb068ea3284a4745ed1a"
+    },
+    {
+      "code": "002912",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002912.parquet",
+      "sha256": "8cd42b7aec2165341070a6aa28e14b8ffed5e1fd152fbcfce73f373bab93a722",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "6adfaea43c6f05df58743680eb3a9908c3e9e0224f4ac0f286e6e9e2025d895a"
+    },
+    {
+      "code": "002916",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002916.parquet",
+      "sha256": "bf29c9df834fb7129ee18571f74833596979755a7d700a44454d3d07d307622f",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "d57f41211dfd766588eeab98f04302444bb55c7b8fb822f01a4a005e7b55a342"
+    },
+    {
+      "code": "002916",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002916.parquet",
+      "sha256": "b45c8224cd66fdd0cd48ba86073733e54c53301bcf24a8531abb23557874f15c",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "c81e5055ec0826ecab19ef94205eb21287888c7336e7c2597e374f8f4a9a2217"
+    },
+    {
+      "code": "002940",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\002940.parquet",
+      "sha256": "8b7075eb8c1a151fd1a2d5d888f7e3b74f86e6570eb15a976acb0248c9ab2b3a",
+      "first": "2018-10-23 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "d40c4ad968c117f781aaa8ebf38f9ba6153e517ae957ec9624161f544720c258"
+    },
+    {
+      "code": "002940",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\002940.parquet",
+      "sha256": "bd5c8875122db538cfa12f8813accca12a65e8966f693741ccf2f8f1b95510cb",
+      "first": "2018-10-23 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "3be64c67b17ad7e45af63c90068e985273913782431dd3e6f79798c152e8146a"
+    },
+    {
+      "code": "003026",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\003026.parquet",
+      "sha256": "ac950f37ae7697e3727904276920276b6e1ea2329d00fa5d3d6ce4fd50cb94cb",
+      "first": "2020-12-18 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "f8007b34977f30f80f082ce957e680a3c487150b2b78095559617522fbe98325"
+    },
+    {
+      "code": "003026",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\003026.parquet",
+      "sha256": "29def562a9d17d83659106031450297360cd548317cdece773b118a4e2e21edf",
+      "first": "2020-12-18 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "a05ee6633e954014b4d4508637605f345bf2bf9013d6c8bcc5d4e816236c32c9"
+    },
+    {
+      "code": "600026",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\600026.parquet",
+      "sha256": "539de6dc421b257b81eaa839f1c258d5c1bcbf8871cffa7d499bbdfc10399632",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "8a1b7c3391f7ce0980538fdd3f55b55604e6a0eabd8e2f2b1359e6929c089d4c"
+    },
+    {
+      "code": "600026",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\600026.parquet",
+      "sha256": "adf091d1d9563b5e36047f67984c6ce9a997c6e60d40d9a6cf8e0acdca6a1f60",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "313258477803502c3d145edb6991b7d03e5d27aa5328ce88be14ab939af9627a"
+    },
+    {
+      "code": "600027",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\600027.parquet",
+      "sha256": "e39b6ec2185aeb14a5b2ecf6e0e2d0da3d277ab33befa559c6157709b86e76e0",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "81634ad021bfd67b641fdc797bc92d15a62113a070fb96049ec26ba61c150e2c"
+    },
+    {
+      "code": "600027",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\600027.parquet",
+      "sha256": "66db6b10c3238c980f7dac524bbf30440cbbbba139160b2475c26faa20d724a3",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "c27724a308d7220c22da6a33e0089870d96c9717f074e24ca021e73d918b7022"
+    },
+    {
+      "code": "600030",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\600030.parquet",
+      "sha256": "ad77915a8414b1e12521b15c68eb322c00fe81d1658efb7ddab73b04366edb12",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "91770494cba867506b3398563c54dbe67c578a7b20799859644f817769825422"
+    },
+    {
+      "code": "600030",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\600030.parquet",
+      "sha256": "5df79392b49b3d9a2a0e22df9b695dfc34350024914915046a93bd759dfb652d",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "011f591d4b88fba61636357dcf774774297275e5e58269012fd6aa6aa7bd8a3b"
+    },
+    {
+      "code": "600079",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\600079.parquet",
+      "sha256": "fb56efd6f4321cfdd2a495aa4e326788c005de7756638b94133d6b19fc10a052",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "641c83e276ef72660565eba8567a3cfe893f2a42b008a3af94cc8581663fee51"
+    },
+    {
+      "code": "600079",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\600079.parquet",
+      "sha256": "5dcee31060f13434d4b283f79b347876af9198ff94194934be68d656ba49f228",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "7a34e2eb6f8413c8c7ed720bf04df35af367e852c5ae99805cb2ccdc0f2a58cc"
+    },
+    {
+      "code": "600094",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\600094.parquet",
+      "sha256": "e15a4ed3421b45029d0c28f5c4b86bf679f3cf3db6799e8b8d1475788baa428b",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "cf0bdd685d1e0900c6fdc868e21e0d8c5b003672021e1828ad24d2e9e4d7dec1"
+    },
+    {
+      "code": "600094",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\600094.parquet",
+      "sha256": "5c53bd8af3f2420193314cbb88bf1ef6b4d732447f66b688a627c408fa6c15e8",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "1e07c7e6d05b652accf6948f6eee13fe3f307732ef1e12d092d1b35f12f5cc99"
+    },
+    {
+      "code": "600186",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\600186.parquet",
+      "sha256": "9f33f6b88882a5fe57d965b6cbeabd043814350b61025e4a0427cc30324d61ed",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "e126b660b4c13acc5d40d9bb5bb1f0a89fee124b7aa79033cef5073cea3bf329"
+    },
+    {
+      "code": "600186",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\600186.parquet",
+      "sha256": "45978942021b8e0b7e936840ed0966d92eda546e7c8642dd63610b5562e5d996",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "dda1513e189f461558ae9a85b01ab9b24c03a4ca1d89532cd44aa7c89cd83831"
+    },
+    {
+      "code": "600189",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\600189.parquet",
+      "sha256": "9ffea555b8edb370c869c34a2e7f24506c7cb4aacbba9bd6687bf6a00a2ec0aa",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "7393559c0310dcb3da67f9a9ca187d092b863a5d7ed12a7a548ce18fab6053e0"
+    },
+    {
+      "code": "600189",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\600189.parquet",
+      "sha256": "a8823c69c6414de01358b9388e46c22477b469af8ad7d316827f0f751a1c645f",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "c35e54bb0e0568db7be1c95cf30f1dd67117591cb996d362a38155423d6162e0"
+    },
+    {
+      "code": "600218",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\600218.parquet",
+      "sha256": "94b24fba0089d5ca99fb88487db6693833f27dfc648cb3ad4a78d93d894bb3d9",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "5d5289a4c43d45a231d12438082d280097c257ea287a4aa926e410ad6f599319"
+    },
+    {
+      "code": "600218",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\600218.parquet",
+      "sha256": "322a048fd5e29ba53fc13d1e17434c116d257f6b7b22f3cf477909b384b81b56",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "55c37f268c8aebb8e8f5920b1db95eb3e2fc388fbbf17c31d45981d11235a6a1"
+    },
+    {
+      "code": "600293",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\600293.parquet",
+      "sha256": "b30d4372d6c6d892fad8abee4afd75729e44a92123f5df66a2a027aa8e80f4ac",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "d77b9cd8ad7c338f4d5ca51890100f617adc81292ce8bc79f91358d79e10a99f"
+    },
+    {
+      "code": "600293",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\600293.parquet",
+      "sha256": "ac356d83762e3232c81ba7c8069051ab53313f083341ae4b5896acd829923647",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "4b0a18797d2c8ede68d0468fca1d6c12653f9aaa535c4ee81afb7c1d1a8b8c96"
+    },
+    {
+      "code": "600313",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\600313.parquet",
+      "sha256": "b4f6b52c54541329282ff75524bdf8594db417411623c3f4c779885b072b9567",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "7c41c6d4638fe96f7e6ffa392d54513ead0cdaa4efd57cbb4590410c174ce0be"
+    },
+    {
+      "code": "600313",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\600313.parquet",
+      "sha256": "3ae473820e4a5c9563c1f6037904ea5b4b46b6c8e02d4f0c1a46e9823bc7767f",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "9c8e8511f17d55894fa4f81bf21ece3ab9744420680abd3e7b21aa1bbe6c5d58"
+    },
+    {
+      "code": "600325",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\600325.parquet",
+      "sha256": "9d4a9ba4970620c9d85c0ba01bc3fe61ca9b713e04ade2fb274cc30c0b16342c",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "a97de575ec582fb49f7446926005a3a381c997bf35e54237bcefaa12d80efb3c"
+    },
+    {
+      "code": "600325",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\600325.parquet",
+      "sha256": "3fcee57c7a0495f28fdf11f75602119cbd7bcc31ac334235d808ac847ca681a1",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "5cf41352fd4e3e05058ec3a9784b4e68782364f563b7c74721e33f72d808e457"
+    },
+    {
+      "code": "600354",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\600354.parquet",
+      "sha256": "91d1f7cc44c826bdde45fa6cf414f3a8c930e9010bd426b1865927e997de7f8e",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "f1c569d66399ee750928f40daee81fb30bff778df267317597505aa32293ef62"
+    },
+    {
+      "code": "600354",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\600354.parquet",
+      "sha256": "91d1f7cc44c826bdde45fa6cf414f3a8c930e9010bd426b1865927e997de7f8e",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "f1c569d66399ee750928f40daee81fb30bff778df267317597505aa32293ef62"
+    },
+    {
+      "code": "600362",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\600362.parquet",
+      "sha256": "d86120cd152fe7669409d3d3209421a9e6130bccdbbda62b74ce699126078ac6",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "e0adb62b3144f314785c7b4afe57727f7c5d83beb593271a14d92f989d51bd85"
+    },
+    {
+      "code": "600362",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\600362.parquet",
+      "sha256": "b407b5d0baf911942a3badbc9127ac3c351e883486a9cfe7eaa1513ff87040b9",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "996054876530d44e3d1888cb072572b7a5f295fca87219c0a849ac440f2e0aa8"
+    },
+    {
+      "code": "600378",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\600378.parquet",
+      "sha256": "b447b0a739dc6064d56cfab7bb5947d46f4fa0291493713648955ccdec4f2b59",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "05142c3dfa6aa31bad10e74253cf71beabe7b381d2265152549f3815a818272d"
+    },
+    {
+      "code": "600378",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\600378.parquet",
+      "sha256": "ab5bbbcdc6cb7c4e6e58bc8b16e171e5b34b0d59f02026829edd8dbc29b3b548",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "5e8234a616dffb4540ba6efdce01937b783681ffa9d6a7dffa09fb06e7b701b4"
+    },
+    {
+      "code": "600487",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\600487.parquet",
+      "sha256": "16e28188375c5033cdd32d9dc785a707f48b0ea632a5d7eee156cec3f32c88ae",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "714446a2cd361d54e430f929f432c5ff8d19ff6ab4d205a80090b527f224ff4f"
+    },
+    {
+      "code": "600487",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\600487.parquet",
+      "sha256": "8667573f835374e0121755593d52283ec322ab4d87b76c66e3c6f97a2e61e121",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "1068e004259eaa541a829a806ce3a218a508189af5f0ae9de620b0ea59d47952"
+    },
+    {
+      "code": "600506",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\600506.parquet",
+      "sha256": "42307b5058198f003793f8cd9d276c493d2939b176162939a35ea6ca9ebf3d77",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "49c3334c3d8326b16bc6ec1ac814f6999ca85d13f512d033361460894ed71e50"
+    },
+    {
+      "code": "600506",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\600506.parquet",
+      "sha256": "273b55dc0fff943a17b39e4d6abb8964b939cf56e5236d7b1d04d46e52c9f262",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "0e20f40a1059c874f3f17e1f7995fa06010664b6d16c73efcfee5f63e982e233"
+    },
+    {
+      "code": "600511",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\600511.parquet",
+      "sha256": "b63221410e5e5efba6372461e98b57c5f4fd2ed732638e24fb485ee3a92146b2",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "191a289c05b375d0d87e67c7c108a67c70c87480be26617f03952eb9b612f29d"
+    },
+    {
+      "code": "600511",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\600511.parquet",
+      "sha256": "f1813d25963dfb4e56a6f90e6565581c326a2b0e82be504eb62ff727a519dff2",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "a1cd2973b7c9dfa9550041bba47ab408eca071c3eaf001e4c421fe1cd95eaad6"
+    },
+    {
+      "code": "600547",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\600547.parquet",
+      "sha256": "ce484f75195384c7cd6f53332f5cf2ad2cc20b1ecaa687f8985343debd3ec9ea",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "11df0bfdb5641b29dabb824d3c616ee7d4fd3139c00936804e5e28863bd6f0b6"
+    },
+    {
+      "code": "600547",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\600547.parquet",
+      "sha256": "fd10d073dd9f64858d8be833c5d11f42f990a498c9b3d3ac34742c2de0b8c58c",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "9a7af75e6c1b5690d3773f5ef4ff0a831227d458c9134ed7ccc5583a9b76f03b"
+    },
+    {
+      "code": "600570",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\600570.parquet",
+      "sha256": "f0a343ce57dad2c32d4bf09145eae89831d15dc8a926d626891b64616ecfc573",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "611d15ab353758b594f81ac8b693d076c2834b1b705261ab083e5edb43e892eb"
+    },
+    {
+      "code": "600570",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\600570.parquet",
+      "sha256": "08fb806f3e4bc71b572135d9fc17ebefc153f77264a7ba411334ad4e85545a1f",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "b8d90c07fba89a0f369269bcb21ddc4b7617920a9543c18898123cc221a37258"
+    },
+    {
+      "code": "600573",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\600573.parquet",
+      "sha256": "e202a77e506ac332ecfdf00a42260735f945abbd27c83cd33fd779dd31666427",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "78fc4ee6d070e881416a278e4c433f6f5cb0b5bcb7a96be1d880a83afee7b183"
+    },
+    {
+      "code": "600573",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\600573.parquet",
+      "sha256": "5030b77e3d62b1914c88866396527b659be44b7f612ab9b097e9c5bff00498fb",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "8f12556f06051a36ef237a6c4ca7ca74ffb5f48555100363818dbb69f07a015b"
+    },
+    {
+      "code": "600596",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\600596.parquet",
+      "sha256": "76b39963b618b74acc3eb2c93b8d3ea2365046864b38795de99033e8341b3560",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "5c004aec4ebb8445b130132df886f780b40c9bae94c31ab833bdeddc21a845b3"
+    },
+    {
+      "code": "600596",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\600596.parquet",
+      "sha256": "454860acf49a040de5f574fc350595b044ff8abcb30f2921766d71b6d0aa08c0",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "c13e7f8894a29bee2712687774b7b7f1e91a4ba7cd29f06823e139ee9a25852c"
+    },
+    {
+      "code": "600600",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\600600.parquet",
+      "sha256": "ebaff3b9d1e81c115671772d6f07571a59b4522e8fe2d2c6f9d97cbe414c580b",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "9acc17da38bc3301022e52341e72b5ceedb949481da05c6c1e72a62da90957ca"
+    },
+    {
+      "code": "600600",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\600600.parquet",
+      "sha256": "d94bbb2afb2305289c52ece3f9cd96d3b67ececd8f6884d59d6bcf3eb754f6b3",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "2b3cf40cb7405241ebe1689de63522b520e8153c1ecfe6530795a42498ea5f68"
+    },
+    {
+      "code": "600629",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\600629.parquet",
+      "sha256": "7420e1d8fbb6adb8ea6e8917e11f8824234357c916090f7c38c1e45f7595ce71",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "1f27a22039d128ac3bea78be4da13492c9ae10d1c2abfba3e6a3cca6d8f006a2"
+    },
+    {
+      "code": "600629",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\600629.parquet",
+      "sha256": "c5fd12a5093649e4aae96decc752458146f365bce238bbda08358537ec7657dc",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "dce4e77ad355c65e2f0c0389746d14eaf6af679a6408d88fdd283f4ffa0f02f9"
+    },
+    {
+      "code": "600657",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\600657.parquet",
+      "sha256": "950f293e6d794a437ee51b0089be9ec18703cf25d3b1b0c5ae9d58a644c74c1e",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "b332221a18b2485c64bbaae37ea489bebea2d08df9534a824440eb00760396e4"
+    },
+    {
+      "code": "600657",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\600657.parquet",
+      "sha256": "d83434e299f0db4376ddc8ea69bb0b6eb4b7b532c9cdb25b0611e583eaf5064b",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "a2d909105bc9e08a766dcbd45d808a39fe1fb405a5c028beb0ecf4853f8545dd"
+    },
+    {
+      "code": "600721",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\600721.parquet",
+      "sha256": "a547a058aa74d168dcf052bf4860b92fefade3a87559671404a589c3c598c844",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "d21fc1313d322e70b75961d1f5449ca3447ff40cc7b72779c11a84b64219fb5e"
+    },
+    {
+      "code": "600721",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\600721.parquet",
+      "sha256": "22fa6b6d2102c60edc2f8e11027b811551d222b441ca5b3dd942de71483a1439",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "c753de87c7d0377cc1acf70bc6508091f5f40decbe26048f018269793a320883"
+    },
+    {
+      "code": "600785",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\600785.parquet",
+      "sha256": "537bb64e131d3893869fadece61a6a724adb0a748c6be2dbca77f85da67cc4b1",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "08a5ae07cde481eb17aee22a977d4e0a2246da1ce68f73e70ca05dd0643a4c78"
+    },
+    {
+      "code": "600785",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\600785.parquet",
+      "sha256": "ccd9f02d83df9d86ddb11a723fa07c18f06861edf1b6a33600bf69ecb0b105d8",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "264b49b0bbd0560760f1c3c41ffa1bc388fe3dbc65ce2432cd358054358c7ab5"
+    },
+    {
+      "code": "600809",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\600809.parquet",
+      "sha256": "c512ab11249fd99b1454ccba701c1034636fff75f714814e2e15db4a19077317",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "88743965baf727b89a823d777c392c976e196d9cfd0480e68fae59efeada709b"
+    },
+    {
+      "code": "600809",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\600809.parquet",
+      "sha256": "189091351da74d579acecc8448014ae0dd3eeb811a37705a0169ecac746c500e",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "91dbc699108963eb86f08a3c4be04647e79df783a7ceb1fd66e6e2635a08c087"
+    },
+    {
+      "code": "600812",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\600812.parquet",
+      "sha256": "8281088796e3c27d55ca97ea971af6c91064000a01b3dee6d70face3572001a9",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "2298a735e6fd8ba204730d5a83f71ea8d502c76a55bcbc8d5e5bb2a6ff511500"
+    },
+    {
+      "code": "600812",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\600812.parquet",
+      "sha256": "86933ea89c9a9ef4cb520548eb20a4fe0e4a857473da074d0ca1d28cef5cec1e",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "10e0a6e1cf0efc5beaed198fc34ff608f8ccc0b26b086c9121d442980253786d"
+    },
+    {
+      "code": "600875",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\600875.parquet",
+      "sha256": "3d0a022cc47a2df6c65b79fc82ca775702054d442b872bb0080b919a2abf991a",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "d844ef0d51522e4f81cb66a18be8521cb6c97775eb5bf103dee3d2a96b058aed"
+    },
+    {
+      "code": "600875",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\600875.parquet",
+      "sha256": "b9f2f440db25b536d6c20cee1330cb91ac60d4a710b8f100a725b7a4d6cf9cf5",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "cb55859b95a5f27df59fe76b7377c5b58dcdf76ad924fa3b9f34f93582b4ee35"
+    },
+    {
+      "code": "600893",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\600893.parquet",
+      "sha256": "8942f29426df617c6d38e404cb41c1073d32ac55fe8cab8587045920e7031fb1",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "32a5ffc6c1ecf929e768fd20af8373400578257886502226aaae59d5f33cfaf3"
+    },
+    {
+      "code": "600893",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\600893.parquet",
+      "sha256": "d9518ba736b3a3a54634c3ed0073f75e6a51ae659f080756202d29c4927ecd58",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "53bd01b509495622002386514e2ff101a1d5d0e7a1ad94aa8e9f95d1b286486e"
+    },
+    {
+      "code": "601012",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\601012.parquet",
+      "sha256": "1a85e17623365ea93cdaaaf8f76b9791dbff471971198a35d54d98b381a2e20a",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "6ff39bc0cdd4f7e5ebb3d3bd54633c744fbc5160edbebfa3614f34016ced7c8c"
+    },
+    {
+      "code": "601012",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\601012.parquet",
+      "sha256": "45b433d924b46f5eb87ba6a8c932af6a3749c1b1d4fcec155600634791a2b573",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "383351d4e14128d2fc10d73a2375f9582726de0412f5c35b3ca022278acb4845"
+    },
+    {
+      "code": "601179",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\601179.parquet",
+      "sha256": "7dc9ca5ee3bd84ed2cba458bf7e566379ea56d0831cda22f9f3d9961d623be9a",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "0d5191ae90a09a1ad7ebffa8ca223f48f518a25d3cb4b0d788caf195aa1bb1ae"
+    },
+    {
+      "code": "601179",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\601179.parquet",
+      "sha256": "13d8a2fad562333ec3152113768dcf3aa03d6439c8eeed4ee0cb502f40f2f528",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "e444c7c2e7395ef86c877c754c116d20cd663359393dc89c7ffff65ca1f6fd83"
+    },
+    {
+      "code": "601336",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\601336.parquet",
+      "sha256": "9d6b713e6ae3e1a8aa4c55c23904b68d1a2424300d1ae34ae92e0f60e9f2258f",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "bf573e43d54710940fb37a9b0f44292306931d67ccfb70f2d9db9516043df3a7"
+    },
+    {
+      "code": "601336",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\601336.parquet",
+      "sha256": "389e46453df199f8ecb19fb697f1d415514c05e10d0c43901b63c5211c19b1f6",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "86a0da9d3279c547f59d494568825e3ca8009a1c7450c2bf93a22f69d2af8722"
+    },
+    {
+      "code": "601566",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\601566.parquet",
+      "sha256": "26b0f7ec0392b85cc922521da6c9db471a618e3d902bbd41d16c13a660ea1a2f",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "3c70ae18beb037b0b5439deae8e6934dc941403a570435420ac34efed0ca7f12"
+    },
+    {
+      "code": "601566",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\601566.parquet",
+      "sha256": "02fc2aa788053947a3d3060bed38a0a905340a545435bdf01f25b55554742234",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "351c084a233dcad127846076948e3d225c85107e8cb7334a5113b06679144669"
+    },
+    {
+      "code": "601688",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\601688.parquet",
+      "sha256": "03473e12cef0a17e530406911cd493945afb2921f4635ea0b5ae6a3bce6bfaa4",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "7fe758038073694ad624bb46bbc812110d0a3103d4e01b6dd7562415ffe395d3"
+    },
+    {
+      "code": "601688",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\601688.parquet",
+      "sha256": "3ef4c8c9344915442f1a3a2e778d59fed52835ef82a38d00238fa059693deec7",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "3005012ef1d787c227680148b99c65141b7f571299bd4394ea8718d32ff6d989"
+    },
+    {
+      "code": "601689",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\601689.parquet",
+      "sha256": "e8b37b3ceaa11d680cf4e3179a8ee8eb00dcb8ede19eae31be7bb3b81595926c",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "18f54729370a72518c2b7bf637f18628e56582dfc56750afb6a078e46f0beddf"
+    },
+    {
+      "code": "601689",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\601689.parquet",
+      "sha256": "342d469441bc78eafc1e41c6562f7934fa799498a7d38331cdbb56d8292adadb",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "c0d180a4b1c81c60194b17fcbf1764b0f9760ca447c2dff481ac7d7afbe7592d"
+    },
+    {
+      "code": "601888",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\601888.parquet",
+      "sha256": "71351c4ce4b8b1008f6b4e5268af046bf7a75b29aeb442cc8267ae42c193fe71",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "a196a02c35730d8ac271033157a03d5ffc2933a03620162e51a4e749f9f95757"
+    },
+    {
+      "code": "601888",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\601888.parquet",
+      "sha256": "2b1345189dd452d8aa656373f22c3fbc9bc89e759f3816d5f40bbdb6f2b89458",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "1a5315deaa90840fbc059c6e74aa7949dd3a34e74c500ddf1bf94c8b4e8adf2f"
+    },
+    {
+      "code": "601949",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\601949.parquet",
+      "sha256": "bd257cab8f671368cfd4c6a2337c19750c590c9ace80ff5a06f5ed43d001602e",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "7041afe37e194d7260c9e9b543ecb3ef0abe687192a23d3b05d97f07d15f2596"
+    },
+    {
+      "code": "601949",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\601949.parquet",
+      "sha256": "83cdec5243b7ec3d8e21d149cafd70336c29a7f56ec58bc3ed748371c243db3c",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "9f6f63093a1569581e11b19e0eb9e765b6aa8975e5bdd07f06cd939d2d9c6276"
+    },
+    {
+      "code": "601952",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\601952.parquet",
+      "sha256": "b99a174b92a7f41833e9f6a4a84166ecbe6cbc8cad36d8660006289d25af33a8",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "0718eeb3d92f0d392a8d406734a03f6feef2bc4ec8de06272bf0c82b8b8711e4"
+    },
+    {
+      "code": "601952",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\601952.parquet",
+      "sha256": "ffb30a4df1d8d559afee76c78f4f822de205c8ec86eb9175af6c4db27cd88def",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "35e6d6a67f5e081096bf6d136a58125792a26d499e1c5fe1ca9d19855f524123"
+    },
+    {
+      "code": "603019",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\603019.parquet",
+      "sha256": "0bad0740b5a77689c788afa8c62bb577f63b9dff8826e5caaffaca98a6bdacbd",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "8ffc77e87bee4b63fc62a22862d722e2517994589a8c01f2220778be7c848c80"
+    },
+    {
+      "code": "603019",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\603019.parquet",
+      "sha256": "922b4d07e41f17c4862f204fb1a8843785c68b7f52108f08dd5489e2d2adb093",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "c22a15ba2ad130aa73f6c477dddba0f3aff68b226adf8cd8bd0b6d547773e902"
+    },
+    {
+      "code": "603042",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\603042.parquet",
+      "sha256": "ce0be1c89cf52ae81b293e54eda0356ce6ec972579a0729145a537f92445f687",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "ac22016f6d16e23aa75209f2c3ae209af93392ae6691143d93d66bb97b150dec"
+    },
+    {
+      "code": "603042",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\603042.parquet",
+      "sha256": "f71b845a001f37fa47ef96f804a7b3c2c0ef57567d6980a8525f02e8b41b34cd",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "32b7dd87dcc016a0429137f6fa3e231424ec6659daccd57228e6aba26be91eeb"
+    },
+    {
+      "code": "603110",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\603110.parquet",
+      "sha256": "3d8495dc2ba765cb4ae95b5a5ab6008eb9a41051091dea516b2e3b950ff38c8b",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "c4622b17d0a1b70ae5d3caf5d0476fc84da95a1250a5a260fe475abb2e63baee"
+    },
+    {
+      "code": "603110",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\603110.parquet",
+      "sha256": "ad8a32e91349a8ff2622d0a266b628dd833ff51c2b2fc249cca3f709df8188ec",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "b774dc090ac0c9663e95ea30b005cb8cf53b8946de000a2471d038cea1e89ff8"
+    },
+    {
+      "code": "603126",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\603126.parquet",
+      "sha256": "5a212b67ec9f7dae3b5f25db4ca3959d3274561ea761de8e3f3f25351e80703e",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "19d2b3694fae7a5090de57e55552fe8817d0b84a33424e44529965bf90102409"
+    },
+    {
+      "code": "603126",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\603126.parquet",
+      "sha256": "a7f732f3068fb736c1013c601ebf93b34547a99e65a6fa95eaf8f976af191d93",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "d9fb976577767183554db2278795ac616ef48c2055e809d931b70c6f87e808f7"
+    },
+    {
+      "code": "603155",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\603155.parquet",
+      "sha256": "77778d335f4a9d69567d83c40b4fa23277225a78c974253d1632b6a87836ffbc",
+      "first": "2020-09-01 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "68678b6a042a15475380bbc69b7f2ca8a1d5ed646871be31da5c85d8ce3ae975"
+    },
+    {
+      "code": "603155",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\603155.parquet",
+      "sha256": "8e28687114e36748e18440c5c27ef2c9d72253c98a839680e0674293d4a60db7",
+      "first": "2020-09-01 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "732608bf43f79dcd66e6ceace65f2f372dafb41df49ac2781f06e32bd74ba6f2"
+    },
+    {
+      "code": "603156",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\603156.parquet",
+      "sha256": "b17ef74c0819f390dd592ea9895817f0b3e578cf3304750e6a8930aa6b1ccdf8",
+      "first": "2018-02-12 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "62f7e285a0b35b98169d84a737093394069313b019da2460aac893e7af91ffc4"
+    },
+    {
+      "code": "603156",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\603156.parquet",
+      "sha256": "bc7bf87619ca0e2f36001eefbd65f57a6f2f73521b18c6cb99aca2f0d488ee5c",
+      "first": "2018-02-12 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "7560d2942a14b3a2fff8cf918e2c9ed6a563945251aa937e55489fe6ce453825"
+    },
+    {
+      "code": "603200",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\603200.parquet",
+      "sha256": "c6e7696d258125585ffb3130486054e19f340e6a5cad3c7766d9d48993a65820",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "25b2cb56c7776c967c7d6c3df9b997ffe2b39e3b4bb1285983dff9c5ed480aca"
+    },
+    {
+      "code": "603200",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\603200.parquet",
+      "sha256": "23ad00af79941c0696045a93faaf04a52b2c11c9f9fd0937962d31cadf9e4741",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "4863367460b2b45d3da56873a5c53254e3e222ec0e2fc5e1e8f5d2830330ce1c"
+    },
+    {
+      "code": "603232",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\603232.parquet",
+      "sha256": "30994c14f8c86dc3310f271c64bfbc2bd287a8f51ba963fb9318528c5848efbe",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "2c23a4574eb070031e67a8471d5cb76d2909eb49ab97920ef3e732f81e244044"
+    },
+    {
+      "code": "603232",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\603232.parquet",
+      "sha256": "84f3fbed3c5d6f6b4f776d642b6fce3ee630a85ae80ec740d22c3d9d825d0dc0",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "99bd689e72c6335892b0785fb5b8a85b03c6f4d868f988d3bae81078da20517c"
+    },
+    {
+      "code": "603290",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\603290.parquet",
+      "sha256": "cb68490bb74b815c80d860b7d307a00a766127af0716d48b43e75386a952bed3",
+      "first": "2020-02-04 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "2f500622c0747d2ae85a1080acd537f70501ace2e045a371078ca1b6cbdcd979"
+    },
+    {
+      "code": "603290",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\603290.parquet",
+      "sha256": "be814f688ed6a721444afff6760413f95f9bb7d9c429e8d8d28723ac0c82ab4f",
+      "first": "2020-02-04 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "83417b76421a6bcdf027388bf89fea4012b7e385e65e6799b93763d794505e98"
+    },
+    {
+      "code": "603389",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\603389.parquet",
+      "sha256": "09516adf2f77731166556fb7fbb8f7a75abb4bc9fc421616868088f4a6dd09e5",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "0251f16631bbe272e70f670b4cc61a97a63f9d18db82200649ea0fdc15fdcd5f"
+    },
+    {
+      "code": "603389",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\603389.parquet",
+      "sha256": "d8b57df21627c6272a0f01d141fc6714b73b7e6518e763486c721fc8be4f7da1",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "719842157b082d1e76096c3f80b76747c9db65ce7769c162d7d063868870d09a"
+    },
+    {
+      "code": "603533",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\603533.parquet",
+      "sha256": "c830d7cc1f5f47a04b34c0d50a28be652321cd3ec4bfe0e950117c01311be207",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "d156793fbcda90e8d60c04485500ef3a79b53dac150d576611feb0a8d9c2a9a6"
+    },
+    {
+      "code": "603533",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\603533.parquet",
+      "sha256": "1cc19ea41448f2bb15a7abb9a65a1d025483103865508428d6b6a90fb658ee65",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "60095a3b7ad9a640faab7ba89fb3b59e6ecdab4249342831dca6856c738fa210"
+    },
+    {
+      "code": "603565",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\603565.parquet",
+      "sha256": "b1705dd76a6eaf394a5ebd7643ad8e9f2ffd4f6d3b56a449230017e1e3ddef60",
+      "first": "2020-09-25 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "3d3e161259b7d33bd573c82eb440a441edaa24f0e8330eec578dc270b016a028"
+    },
+    {
+      "code": "603565",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\603565.parquet",
+      "sha256": "18adccf69c045acb914235f10aca5c422d898c5e90b43013ee1b579b8a5662cf",
+      "first": "2020-09-25 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "c867ddb08974abbc23104bc67fe6cab6b853c8e2324538223fc1e369167ba1b0"
+    },
+    {
+      "code": "603613",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\603613.parquet",
+      "sha256": "d0dde89ac8cda0180f92931f091a483cf63210cd15d6f9f6163d1b7272b419c7",
+      "first": "2019-07-30 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "1983039b23ef582c60b73cec7a9708e8fffba275a621996c1e263ffbf95db2bc"
+    },
+    {
+      "code": "603613",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\603613.parquet",
+      "sha256": "271fb918e3266ff66d64b43eaf29fed05c3151fc2638abb3a88216fcb1079964",
+      "first": "2019-07-30 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "151fec9f5db8e0522bdb0b6302d7df7ed2405889e967445cc62b3deaf5a93236"
+    },
+    {
+      "code": "603618",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\603618.parquet",
+      "sha256": "0b113bcde91c6b25bf3a9ca57aa81ec8678176846a98a1a6d779fe45e8b7c5df",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "d60b3bd708f4c088092d48581336bd62750902d0b37b6160ef03ff41a5d65568"
+    },
+    {
+      "code": "603618",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\603618.parquet",
+      "sha256": "eb5bf2465812b781e38ba736cec9240f984a843bdf64a10ddcbeaa755bbea519",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "ffc74584aa77fc652eb0468cdbdc63e712b19c0518c57b5c6f21a6d719747f0a"
+    },
+    {
+      "code": "603629",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\603629.parquet",
+      "sha256": "3b51f297d7fd081038ee8ac5bfa868f45d5df1e45f372c72ac9e51aeb9564b5a",
+      "first": "2018-12-24 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "18159b15b1fd6320f713a8e9f087ff03001f577d29f5209dfbfc5a9cf967894c"
+    },
+    {
+      "code": "603629",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\603629.parquet",
+      "sha256": "199e0b6a19bdcb067f1943340885c167e022e2bc7f5f733be5baaf6a1b671f73",
+      "first": "2018-12-24 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "42b96cb7e496d0278144802d9c6e1ce46ecddc62b6656ed5fd3991ffc50682c3"
+    },
+    {
+      "code": "603668",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\603668.parquet",
+      "sha256": "53b1d4d2e53d63780d75bb3719b7f023d5018e6d24adb644ddf1d71fcd18951c",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "8c29790a7d5915843a79bd2315746cc364087783b0ce7baabee95fc8a313981a"
+    },
+    {
+      "code": "603668",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\603668.parquet",
+      "sha256": "317bf945b2964a5c5ed08ee4cc6e848fb3bf68ef963ed8c5824cfaffb8949a55",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "850b4b73f7b657805ab87e5576738195a90af8f9927a1335130a1de653e0efde"
+    },
+    {
+      "code": "603719",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\603719.parquet",
+      "sha256": "6b413d3b028297fb59b11258a6d2affa9f691f9b14c95162413ea845f3866d8f",
+      "first": "2020-02-24 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "2b19dabc9f11d65c26dd676224d0522dd2f878cb27a46fcc1d56761d5d524cb7"
+    },
+    {
+      "code": "603719",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\603719.parquet",
+      "sha256": "10d26376363a6285315962ab3007f50ad1f83de9d3c38d9253ff158d04250208",
+      "first": "2020-02-24 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "effbed705d57d319abfd07c287766b820be262d37062dd492734b0338da5083d"
+    },
+    {
+      "code": "603728",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\603728.parquet",
+      "sha256": "aaed573e4cb2dcaeb7fe53db7adbb0afa858826fda06bd72834d0e0032766765",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "746fd0cf3195db416c963fef17a449517c86909cc9f0bb73d5955bd3f6d2df51"
+    },
+    {
+      "code": "603728",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\603728.parquet",
+      "sha256": "55d86ed68eaade6aad85cb5ea24d68b70dc01bfe9c5fed65e3a69f3b7c122c84",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "748c10bc70237de52d124298e5cfd55cea885189faecc4389b144859c7cb9d65"
+    },
+    {
+      "code": "603939",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\603939.parquet",
+      "sha256": "b5201fe6c4d2e56e7f6d21c37323b422d5ad3d8f63d4bfa5e4621c9113aea9d5",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "63fe55de79e690277e2004efe70bb17a735fe094cbfb60a4aef7bb63793b99b7"
+    },
+    {
+      "code": "603939",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\603939.parquet",
+      "sha256": "0722c4b80997c21f75e397f6b160d5b12e15454bb4e07298197a9abb851dde5a",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "24599383fca89d49b198f2e0242c9878173a79c4ac912b67ace4f795ef35529c"
+    },
+    {
+      "code": "603993",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\603993.parquet",
+      "sha256": "fb0d1fa30c2e50718fd4b1d482b3a9aba894ac8a860d05e31753242fedd0e1b6",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "92e9dc048a365ba7ac6b953aa60c5d8e824aa4a1c458c8bc887bd0aa1962e8f2"
+    },
+    {
+      "code": "603993",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\603993.parquet",
+      "sha256": "106beed89ff1cf97b644b25b9ba4546f453308c42a07f1a6c35e07a1f81dc1b9",
+      "first": "2018-01-02 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "b950ef4b29e5249759fa73132060627d6ab9f09376eb68fd9ba05034b396dd88"
+    },
+    {
+      "code": "605358",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\605358.parquet",
+      "sha256": "636f4e55d159d0e5996d5606d1fa22176b06de66500e9207c301c08fe66baf8e",
+      "first": "2020-09-11 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "fc41ba2d089c158a2962364f178ca576558e36e64f1fc2d6894fff6c2b9cfd2b"
+    },
+    {
+      "code": "605358",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\605358.parquet",
+      "sha256": "634968052c60b6bb7fe24f9e3deed28bf661e364b9786b019f32692ca177ee56",
+      "first": "2020-09-11 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "222e65cb105cab151d3f901d2888aec401a15b8a7e6f59f730c8072db6446f11"
+    },
+    {
+      "code": "605388",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\605388.parquet",
+      "sha256": "e5d0034086ea9a4f125fdeed5bdecf864328bceaffca76d586600ebd3795e7ed",
+      "first": "2020-08-18 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "ca5740c5941b05d6a4f927daea2ab4d82baaf8480492b93155088cf4c1abe762"
+    },
+    {
+      "code": "605388",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\605388.parquet",
+      "sha256": "be3c8fb10da78b17300588bfb897ace39ac58943d85e62ac5e8ad8bea74cfd6d",
+      "first": "2020-08-18 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "32b0a08036a04357d23c1a95c56310cf2f70a6d0224efd8242171bea3d2e6b01"
+    },
+    {
+      "code": "605577",
+      "mode": "raw",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\raw\\605577.parquet",
+      "sha256": "b552857ba04c1f2fe71e6faf1c1c6abf1758eb5278c45e713284eb0bf9619ef8",
+      "first": "2021-08-24 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "8548e7799f6542901469cb02b5f9e7d336e52894744d8436e3d1203ef13133f5"
+    },
+    {
+      "code": "605577",
+      "mode": "qfq",
+      "path": "C:\\Users\\22241\\Desktop\\quant\\box_exit_research\\inputs_pre2025\\qfq\\605577.parquet",
+      "sha256": "a7a78b31b416072226c567741fff57d262875980b8087f709e72ea54c6bd8ecc",
+      "first": "2021-08-24 00:00:00",
+      "last": "2024-12-31 00:00:00",
+      "source_snapshot_sha256": "173b1103ffff6b6e03995de92a8e86243261b7d8b2b8e8159836aef49033bbe3"
+    }
+  ],
+  "signals": 135,
+  "stocks": 119,
+  "no_future_outcome_fields": true,
+  "current_membership_retrospective_bias": true,
+  "previous_descriptive_results_seen": true,
+  "not_a_fresh_blind_test": true
+}

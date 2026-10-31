@@ -1,0 +1,68 @@
+{
+  "name": "方向2_低价深超跌_10万7槽_B3_v2",
+  "status": "FROZEN_RESEARCH_CANDIDATE_NOT_PRODUCTION",
+  "filters": {
+    "base": "Same basic oversold-bullish signal and suspected-limit-streak exclusions",
+    "raw_signal_close_lt": 10,
+    "adjusted_signal_close_div_MA20_lte": 0.92
+  },
+  "account": {
+    "capital": 100000,
+    "slots": 7,
+    "fixed_slot_budget": 14285.714285714286,
+    "buy_lot_size": 100,
+    "buy": "Signal next official session open, guaranteed fill assumption",
+    "T_plus_1": true,
+    "take_profit": 0.06,
+    "forced_close_buy_offset": 3,
+    "buy_day_offset": 0,
+    "stop_loss": null,
+    "priority": "code ascending; held stock not added; no future-proceeds opening reuse"
+  },
+  "fees": "Same commission .0003/min5 and historical stamp/transfer schedules",
+  "special_events_excluded": [
+    [
+      "002069",
+      "2022-04-27"
+    ],
+    [
+      "002633",
+      "2022-04-29"
+    ],
+    [
+      "600506",
+      "2021-04-21"
+    ],
+    [
+      "603007",
+      "2021-04-28"
+    ]
+  ],
+  "exclusions_are_ex_post": true,
+  "selection": {
+    "period": "2021-2024 development, all years used for parameter selection",
+    "combinations": 2880,
+    "qualification": "All annual returns>0, >=10 entries/year, total daily DD<=12%",
+    "actual_tier": "all_year_dominant",
+    "neighborhood": {
+      "n": 9,
+      "positive_year_fraction": 1.0,
+      "median_worst_year": 0.05275456112105137,
+      "min_worst_year": 0.03035092363947567,
+      "max_worst_year": 0.06334580139999946,
+      "stable": true,
+      "min_max_drawdown": 0.08251330176237825,
+      "max_max_drawdown": 0.14424552819447445
+    }
+  },
+  "hashes": {
+    "oversold_rebound_research\\account_backtest.py": "dd594aaebf453a8a8791fbfbc6a13c565e45fb2aca914516afe20589842c83f2",
+    "oversold_rebound_research\\tune_fixed_income.py": "b9ffbe8de593ee3a8ceab9f064d0545364fa33fd734e6e5d9ea5e45439b10945",
+    "oversold_rebound_research\\verify_fixed_tuning.py": "f01ac5d64c451dd37318c290588340b4ca800b7930b3e826c90b7570bf4f7002",
+    "oversold_rebound_research\\results_v5_long_position\\events.parquet": "9ff8e9ed7dc98aa106c6f930b27341d8118c6bacc51cdc0c02f57b5f6b4921dd",
+    "box60_selection_research\\inputs_pre2025\\MANIFEST.json": "72d9affe7a262e51ae313c06c58fb2f44edf4b2be0c14cef2742e956075e675b"
+  },
+  "summary_sha256": "07fa55c84f6d9e94fa0171128c84a3e37555a786a5c2786bbfcdf2f3a4f72e8c",
+  "production_changed": false,
+  "post2024_data_read": false
+}

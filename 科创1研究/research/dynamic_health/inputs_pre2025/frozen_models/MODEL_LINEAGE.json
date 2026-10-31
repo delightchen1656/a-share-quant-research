@@ -1,0 +1,19 @@
+{
+  "read_only_artifacts": [
+    "event_model.joblib",
+    "stop_risk_model.joblib"
+  ],
+  "platform_strategy_sha256": "3c4a5b41691b431b0a419900382c4e9cd47e11ee9b6c163f9d80a863134f1d8e",
+  "platform_strategy_copied": false,
+  "feature_rule_source": "rules/feature_model.py",
+  "preserved_training_source_hashes": {
+    "train_event_model.py": "3a6be9ccc72947f0a6b51352c517581aec9b4d068710d6775d316030b0400dee",
+    "train_stop_model_and_research.py": "45b1db0ac28bf535ff2c2b9923fa0c7277d21580cc3689282df53c8909a713e8"
+  },
+  "training_lineage_assessment": {
+    "conclusion": "insufficient_for_cryptographic_proof",
+    "event_model": "The preserved training source applies a final fit cutoff of 2024-12-01, and the artifact hash matches its preserved provenance. The joblib itself has no trained-through field and there is no immutable build record binding exact input hashes to this artifact; therefore absence of post-2024 K-lines cannot be proved from the artifact alone.",
+    "stop_risk_model": "The joblib and preserved provenance both declare training_end=2024-12-31, but no immutable build record binds exact input hashes to the artifact; treat this as declared lineage, not cryptographic proof.",
+    "research_constraint": "Use the artifacts read-only; do not retrain or infer stronger lineage claims."
+  }
+}

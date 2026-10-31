@@ -1,0 +1,44 @@
+{
+  "symbol": "002601.SZ",
+  "event_date": "2018-10-25",
+  "kind": "dividend_fields",
+  "start": "2018-08-06",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\002601.SZ_2018-10-25\\query_01.json",
+      "sha256": "548df0d4d31040f45be4640704ca876ca020abc965688efa4fd8f03caf32543c",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "002601",
+        "begin_time": "2018-08-06",
+        "end_time": "2018-10-25"
+      }
+    }
+  ],
+  "announcement_count": 34,
+  "documents": [
+    {
+      "title": "龙蟒佰利:2018年半年度权益分派实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2018-10-17",
+      "raw_response": "sources\\action_issuer_mirror_v2\\002601.SZ_2018-10-25\\AN201810161214496778_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\002601.SZ_2018-10-25\\AN201810161214496778.txt",
+      "sha256": "1a40da491b0a41ae80ce2da71db7448075781cf24857d337aaaf32b49b8ab565",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\002601.SZ_2018-10-25\\AN201810161214496778_content.json",
+          "sha256": "1a40da491b0a41ae80ce2da71db7448075781cf24857d337aaaf32b49b8ab565"
+        }
+      ],
+      "article_code": "AN201810161214496778",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201810161214496778_1.pdf?1647697044000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

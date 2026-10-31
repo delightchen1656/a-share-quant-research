@@ -1,0 +1,21 @@
+{
+  "research_only": true,
+  "production_registration_changed": false,
+  "final_candidate": "R07_tp15",
+  "config": {
+    "slots": 5,
+    "forced_day": 3,
+    "take_profit": 0.15,
+    "stop_loss": null,
+    "priority": "ret20_ascending",
+    "filters": [],
+    "max_new_entries": null
+  },
+  "config_sha256": "4e08b931a0cef23810bb58965233688ffd16514f2c7363890c7c8ab5edda21d3",
+  "selection_sha256": "e000466a8473ac317f746755a04745bfb1e1c05d0765522753982e92d1256aca",
+  "protocol_sha256": "6669ecead9fff845469cb6fd861583b637d5070232c6564ad3c64a4d3b4f8e4e",
+  "account_sha256": "61ea5c0d8ddf6c6bc0729e575d23becfeb66f09bcd4853c37f41fa4e4fd42420",
+  "runner_sha256": "c10cb989652161815a31e5288c6b74187e313a76c77430dc2951905ecaa5cfb9",
+  "prepare_sha256": "b85da4c2cb208e8f63a45731dfd4d2bd14ea77c50ea4d2528e2c20870dadc98b",
+  "input_manifest_sha256": "986c45c71eb28bc42410316201ea5e370bc090ebb261e37439fb25f967e3c51f"
+}

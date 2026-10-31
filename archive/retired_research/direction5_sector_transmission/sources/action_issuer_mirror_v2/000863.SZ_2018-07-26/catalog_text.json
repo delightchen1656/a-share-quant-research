@@ -1,0 +1,44 @@
+{
+  "symbol": "000863.SZ",
+  "event_date": "2018-07-26",
+  "kind": "dividend_fields",
+  "start": "2018-05-07",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\000863.SZ_2018-07-26\\query_01.json",
+      "sha256": "72348c80efd3e8f430f2a4940ae911b0a82af4e24b13c13f87d6f041c3a3d891",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "000863",
+        "begin_time": "2018-05-07",
+        "end_time": "2018-07-26"
+      }
+    }
+  ],
+  "announcement_count": 32,
+  "documents": [
+    {
+      "title": "三湘印象:2017年年度利润分配方案实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2018-07-19",
+      "raw_response": "sources\\action_issuer_mirror_v2\\000863.SZ_2018-07-26\\AN201807181167910744_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\000863.SZ_2018-07-26\\AN201807181167910744.txt",
+      "sha256": "6ebf35b5cfc3675235e4a6560be0d7d7ec1c96a7401cf0196bf903a7629ba9d3",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\000863.SZ_2018-07-26\\AN201807181167910744_content.json",
+          "sha256": "6ebf35b5cfc3675235e4a6560be0d7d7ec1c96a7401cf0196bf903a7629ba9d3"
+        }
+      ],
+      "article_code": "AN201807181167910744",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201807181167910744_1.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

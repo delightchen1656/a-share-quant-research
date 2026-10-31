@@ -1,0 +1,16 @@
+{
+  "status": "invalidated_before_post2024_evaluation",
+  "candidate_hash": "5445e75e011d14417fc808140b9333b6628a619772a8bf12ad7ff091cdf6e59e",
+  "reason": "The development simulator used the full 2013+ calendar array index for the 20-session rebalance phase. The registered Hushen1 platform entry uses the number of sessions since 2018-01-02. The 2018 anchor is at full-calendar index 1215 (15 modulo 20), so rebalance dates differ materially.",
+  "factor_missing_semantics_audit": {
+    "development_behavior": "treated a missing factor component as zero when another component was present",
+    "registered_behavior": "propagates a missing component",
+    "eligible_rows_affected_in_sanitized_pre2025_inputs": 0,
+    "material": false
+  },
+  "production_modified": false,
+  "tracking_modified": false,
+  "post2024_results_viewed_by_development": false,
+  "post2024_holdout_completed": false,
+  "replacement_protocol": "PROTOCOL_V2.md"
+}

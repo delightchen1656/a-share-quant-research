@@ -1,0 +1,45 @@
+{
+  "key": "600606.SH/2022",
+  "request": {
+    "code": "sh.600606",
+    "year": "2022",
+    "yearType": "operate"
+  },
+  "fields": [
+    "code",
+    "dividPreNoticeDate",
+    "dividAgmPumDate",
+    "dividPlanAnnounceDate",
+    "dividPlanDate",
+    "dividRegistDate",
+    "dividOperateDate",
+    "dividPayDate",
+    "dividStockMarketDate",
+    "dividCashPsBeforeTax",
+    "dividCashPsAfterTax",
+    "dividStocksPs",
+    "dividCashStock",
+    "dividReserveToStockPs"
+  ],
+  "records": [
+    {
+      "code": "sh.600606",
+      "dividPreNoticeDate": "",
+      "dividAgmPumDate": "2022-06-29",
+      "dividPlanAnnounceDate": "2022-04-30",
+      "dividPlanDate": "2022-07-26",
+      "dividRegistDate": "2022-08-01",
+      "dividOperateDate": "2022-08-02",
+      "dividPayDate": "",
+      "dividStockMarketDate": "2022-08-03",
+      "dividCashPsBeforeTax": "",
+      "dividCashPsAfterTax": "",
+      "dividStocksPs": "0.000000",
+      "dividCashStock": "10转1",
+      "dividReserveToStockPs": "0.100000"
+    }
+  ],
+  "row_count": 1,
+  "successful_empty": false,
+  "cutoff": "2024-12-31"
+}

@@ -1,0 +1,17 @@
+{
+  "config": {
+    "prices": {
+      "root": "C:\\Users\\22241\\Desktop\\quant\\direction1_structure_research\\full_history_signal_code\\synthetic_io\\inputs",
+      "manifest_sha256": "e9a2905b69a49c9408369223fed36e3a72d1838afd1626611e2382bddedca881"
+    },
+    "structure": {
+      "path": "C:\\Users\\22241\\Desktop\\quant\\direction1_structure_research\\structure.py",
+      "sha256": "18db22d33a4457e58de124cd78f0e18dbcc971f825388fdcbaf87aa88fe1436f"
+    },
+    "signal_start": "2024-01-02",
+    "signal_cutoff": "2024-12-31",
+    "output_dir": "C:\\Users\\22241\\Desktop\\quant\\direction1_structure_research\\full_history_signal_code\\synthetic_io\\output"
+  },
+  "scanner_sha256": "ba9488a8e725a45f99e5d19c01f417c4ae8180abb15d099d806c7cb568717b2b",
+  "before_scan": true
+}

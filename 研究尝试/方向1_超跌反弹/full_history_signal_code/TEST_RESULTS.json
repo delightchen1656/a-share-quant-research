@@ -1,0 +1,30 @@
+{
+  "synthetic": {
+    "passed": true,
+    "checks": [
+      "HALF_UP cent rounding",
+      "close<=down+.005 and pair rolling20 parity",
+      "injected rate overrides status with no production ST policy",
+      "explicit exemption",
+      "unknown evidence three-valued propagation and expiration",
+      "base cooldown before price gate",
+      "future calendar pending without future price use",
+      "calendar-tail pending",
+      "suspension retained as no-entry state",
+      "unresolved candidate separated"
+    ]
+  },
+  "pre2025_parity": {
+    "passed": true,
+    "scope_codes": 3336,
+    "signals": 3805,
+    "exact_code_date_set_equal": true,
+    "entry_dates_states_and_bool_equal": true,
+    "entry_raw_prices_equal": true,
+    "unresolved_candidates": 0,
+    "legacy_limit_bars_checked": 5069,
+    "original_3805_source_unchanged": true,
+    "price_manifest_sha256": "8d1c78aa55e7667462a95fa3a8e87fd4b14af4075a1b3e2d14ca713503d9f7c3",
+    "legacy_source_sha256": "70ea8125a426c3d7a54aa39fcbe01e5bc1f71c6190e17fbd346bdf76b41843f7"
+  }
+}

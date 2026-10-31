@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": [
+    "HALF_UP cent rounding",
+    "close<=down+.005 and pair rolling20 parity",
+    "injected rate overrides status with no production ST policy",
+    "explicit exemption",
+    "unknown evidence three-valued propagation and expiration",
+    "base cooldown before price gate",
+    "future calendar pending without future price use",
+    "calendar-tail pending",
+    "suspension retained as no-entry state",
+    "unresolved candidate separated"
+  ]
+}

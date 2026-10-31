@@ -1,0 +1,126 @@
+{
+  "protocol_id": "direction5_v1",
+  "status": "pre_registered_before_factor_or_return_selection",
+  "settings_origin": "assistant_proposed_initial_research_defaults_under_user_next_step_instruction",
+  "boundary_version": "public-pre2025-v2",
+  "cutoff": "2024-12-31",
+  "question": "Do point-in-time industry features add predictive and executable return value beyond individual-stock price-volume features?",
+  "hypotheses": [
+    {"id": "H1", "name": "行业走强后的领涨延续", "status": "unverified"},
+    {"id": "H2", "name": "行业走强后的相对落后补涨", "status": "unverified"}
+  ],
+  "objectives": {
+    "prediction_task": "cross_sectional_ranking",
+    "primary_prediction_target": "five_session_economic_holding_return",
+    "economic_labels_enabled": false,
+    "primary_strategy_metric": "net_annualized_growth_minus_matched_individual_only_baseline",
+    "secondary_metrics": ["net_annualized_growth", "matched_pool_annualized_excess", "maximum_drawdown_magnitude", "turnover", "execution_fill_ratio", "capacity", "daily_rank_ic", "top_rank_realized_return"],
+    "annualized_excess_definition": "difference_of_annualized_net_growth_rates_over_identical_dates",
+    "growth_definition": "(ending_equity / starting_equity) ** (365.25 / elapsed_calendar_days) - 1",
+    "no_promised_return_target": true
+  },
+  "development_acceptance": {
+    "data_and_label_audits_must_pass": true,
+    "pooled_net_annualized_excess_vs_individual_baseline_must_be_positive": true,
+    "pooled_net_annualized_excess_vs_matched_random_portfolio_must_be_positive": true,
+    "years_with_positive_incremental_excess_required": 2,
+    "development_validation_years": 3,
+    "maximum_drawdown_magnitude_must_not_exceed_individual_baseline": true,
+    "sensitivity_failures_and_uncertainty_must_be_reported": true,
+    "applies_to_each_hypothesis_separately": true,
+    "interpretation": "eligibility for candidate freezing, not proof of future profitability"
+  },
+  "scope": {
+    "exchanges": ["SH", "SZ"],
+    "instrument": "mainboard_A_shares",
+    "symbol_prefixes": ["600", "601", "603", "605", "000", "001", "002", "003"],
+    "include_historical_delisted_names_when_data_exist": true,
+    "no_exclusion_based_on_future_delisting": true,
+    "historical_pool_completeness_claimed": false,
+    "missing_kline_policy": "retain_in_coverage_exception_register; never synthesize_or_silently_treat_as_tradable",
+    "new_entry_filters": {
+      "known_st_at_signal_date": "exclude_new_entry_only",
+      "tradestatus_at_signal_date": "must_be_1",
+      "positive_ohlc_and_volume_and_amount_at_signal_date": true,
+      "minimum_observed_active_bars_before_or_on_signal_date": 120,
+      "history_rule_is_not_a_claim_about_true_listing_age": true,
+      "historical_industry_membership": "required_for_matched_industry_and_individual_comparison"
+    },
+    "existing_holdings": "never_removed_by_pool_filters; exit_and_valuation_follow_account_rules",
+    "liquidity_capacity_rules": "must_be_defined_and_audited_before_any_economic_return_comparison"
+  },
+  "timing": {
+    "frequency": "daily",
+    "signal": "after_complete_signal_session_close_data_are_available",
+    "entry": "attempt_open_of_next_market_session",
+    "holding_market_session_intervals": 5,
+    "planned_exit": "attempt_open_five_market_session_intervals_after_entry",
+    "index_example": "signal=t0_close, entry=t1_open, exit=t6_open",
+    "unavailable_or_partial_fill": "record_actual_fill_and_delay; execution_policy_must_pass_stage_12_before_use",
+    "no_signal_day_close_fill_using_full_signal_day_bars": true,
+    "calendar_requirement": "verify_formal_historical_calendar_before_execution_backtest; observed_Kline_dates_are_not_claimed_to_be_a_formal_calendar"
+  },
+  "portfolio_prototype": {
+    "initial_cash_cny": 1000000,
+    "maximum_positions": 10,
+    "target_weight_per_position": 0.1,
+    "rebalance_interval_market_sessions": 5,
+    "rebalance_anchor_session": "2018-01-02",
+    "unused_allocation": "cash; do_not_renormalize_to_force_full_investment",
+    "leverage": false,
+    "shorting": false,
+    "intraday_stop_or_take_profit": false,
+    "status": "bookkeeping_defaults_only_not_execution_validated",
+    "historical_fees_slippage_and_capacity": "unresolved_until_data_and_execution_audits; never_assume_zero_cost"
+  },
+  "industry_policy": {
+    "taxonomy": "official_major_industry_class",
+    "membership_time": "latest_whole_publication_with_knowledge_start_on_or_before_signal_date",
+    "publication_lag": "no_earlier_than_calendar_day_after_official_publication",
+    "membership_missing_from_latest_publication": "unknown; no_per_stock_fill_from_older_publication",
+    "staleness_policy": "use_last_publicly_known_classification_without_claiming_exact_current_effective_membership; record_publication_age",
+    "publication_age_is_not_a_trading_filter_or_return_feature_in_v1": true,
+    "taxonomy_transition": "preserve_version; do_not_stitch_incompatible_industry_rolling_windows; restart_industry_history_and_warm_up_to_longest_registered_window",
+    "target_stock_contribution": "leave_target_stock_out_of_industry_return_and_breadth_features",
+    "no_current_membership_backfill": true
+  },
+  "validation": {
+    "initial_training": {"start": "2018-01-02", "end": "2020-12-31"},
+    "development_folds": [
+      {"id": "dev_2021", "train_start": "2018-01-02", "train_end": "2020-12-31", "validation_start": "2021-01-01", "validation_end": "2021-12-31"},
+      {"id": "dev_2022", "train_start": "2018-01-02", "train_end": "2021-12-31", "validation_start": "2022-01-01", "validation_end": "2022-12-31"},
+      {"id": "dev_2023", "train_start": "2018-01-02", "train_end": "2022-12-31", "validation_start": "2023-01-01", "validation_end": "2023-12-31"}
+    ],
+    "final_holdout": {"start": "2024-01-01", "end": "2024-12-31", "locked_for_return_feature_model_selection": true},
+    "dates_describe_calendar_bounds_not_assertions_that_every_boundary_is_a_trading_day": true,
+    "split_unit": "entire_signal_date_cross_section",
+    "all_fitted_transforms_and_feature_selection_fit_in_training_only": true,
+    "training_label_maturity": "actual_full_label_information_available_at_or_before_model_build_cutoff",
+    "purge_unmatured_or_cross_boundary_training_labels": true,
+    "inner_time_validation": "must_be_registered_at_stage_20_and_use_only_each_outer_training_window",
+    "development_results_are_selection_data_not_independent_final_evidence": true,
+    "final_holdout_access": "after_candidate_and_execution_configuration_are_frozen",
+    "final_boundary_incomplete_labels": "no_forced_exit_at_cutoff; report_unmatured_labels; do_not_use_following_year_data",
+    "beyond_cutoff": "frozen_candidate_one_way_audit_only_under_project_restricted_output_rules"
+  },
+  "baselines": {
+    "individual_only": "same_model_family_training_budget_labels_universe_and_execution; individual_price_volume_features_only",
+    "matched_random_portfolio": "uniform_random_eligible_stock_selection_up_to_10_equal_weight_slots; identical_capital_friction_and_execution_rules",
+    "matched_random_seed": 1729,
+    "random_selection_reproducibility": "sort_eligible_symbols_before_sampling; freeze_rng_algorithm_and_execution_in_stage_12; never_select_seed_by_returns",
+    "broad_equal_weight_pool": "optional_descriptive_reference_only; not_an_acceptance_gate_or_an_investable_account_claim",
+    "simple_industry_rule": "simple_rule_to_be_registered_before_stage_18; not_chosen_from_final_holdout",
+    "paired_comparison": "same_dates_same_eligible_stock_set_same_capital_same_execution_constraints"
+  },
+  "gates": {
+    "stages_2_to_5_specification_registered": true,
+    "unit_and_corporate_action_audits_passed": false,
+    "daily_eligibility_panel_ready": false,
+    "labels_ready": false,
+    "execution_engine_ready": false,
+    "factor_experiments_enabled": false,
+    "model_experiments_enabled": false,
+    "account_backtest_enabled": false
+  },
+  "versioning": "Preserve v1 registration. Changes require a new protocol version and explanation; never redefine acceptance using holdout outcomes."
+}

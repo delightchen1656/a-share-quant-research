@@ -1,0 +1,43 @@
+{
+  "status": "complete",
+  "boundary_version": "public-pre2025-v1",
+  "allowed_cutoff": "2024-12-31",
+  "confirmation_locked": true,
+  "search_space_sha256": "dd663724692de157ef5256d03466dfbd7e46594ac6501cf7a8b76f352490b2c6",
+  "frozen_hash": "5445e75e011d14417fc808140b9333b6628a619772a8bf12ad7ff091cdf6e59e",
+  "input_hashes": {
+    "manifest": "fd4bfbc19b7af7155d5047615e1f5e94c0a84303bc219251f3564d131aa71ce2",
+    "calendar": "11aaf134eff50d830e1c1c24ba9f6412a696d88b8922d4b7005a37d2ab83a412",
+    "universe": "6e5a0ea2cd10d49537731a0b3c2969bc34e2e0f7a83216f0ce8982966c25661a",
+    "sse_price_index": "1c7d838cff3085c70f370d272506f3a3ee136851170882700522a3436cadb722",
+    "actions": "e1a9a41116ea92bb18ecff54f7bdc06acfa462dffa57f1842376bbbccca3c480"
+  },
+  "code_hashes": {
+    "hushen/research/transfer_2016_2024/development/run_research.py": "9858f65cee2195090342de660617ab4b065395a7e41c1efcb072c6410ce18bc5",
+    "hushen/research/transfer_2016_2024/development/SEARCH_SPACE.json": "dd663724692de157ef5256d03466dfbd7e46594ac6501cf7a8b76f352490b2c6",
+    "hushen/research/transfer_2016_2024/PROTOCOL.md": "d15eda0ceebdda6f8d9bd1f47f0b9d3a6a0bfc0872ff44df8b19a35dc1439680",
+    "hushen/supermind_hushen_1.py": "a573941eb69f850536288ba5ce4333d943c2eb4862e7f3a518e46dd55cc653fd",
+    "hushen/backtest/engine.py": "9e2f9f025664125119fb5ae3e4f52245d234c97c7e82bd2791776e35eaf80610",
+    "hushen/backtest/ledger.py": "8ac82b9918c590c58462fdd39f3fe976eddafcdef9b02165490c3ccdd3e103f6",
+    "hushen/backtest/actions.py": "c38764ea213138b36ce741e2529f13d7f8e32d835f589afc61be28614d1d6f8b"
+  },
+  "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "development_candidates": 60,
+  "development_start_runs": 28080,
+  "confirmation_start_runs": 116,
+  "files": [
+    "SEARCH_SPACE.json",
+    "run_research.py",
+    "stage_a_all_starts_2016_2023.csv",
+    "stage_a_summary_2016_2023.json",
+    "stage_b_all_starts_2016_2023.csv",
+    "stage_b_summary_2016_2023.json",
+    "selection_2016_2023.csv",
+    "confirmation_2024_all_starts.csv",
+    "confirmation_2024_summary.json",
+    "FROZEN_CANDIDATE.json",
+    "CONFIRMATION_LOCK.json",
+    "REPORT.md"
+  ]
+}

@@ -1,0 +1,12 @@
+通用方向1信号扫描器已完成并冻结。
+
+scan_catalog.py导入不读取输入、不运行扫描；运行须显式给价格root/manifest hash、原structure源码path/hash、signal_start/cutoff和output_dir。只复用原scan/independent数值逻辑。生产限价由daily_limit_rates表code/date/limit_rate/exempt/evidence注入，可在MANIFEST.daily_limit_rates冻结或config.limits显式指定；不从ST或未来政策推断费率。缺证据独立导出，不假定通过。
+
+CLI：quant_env/Scripts/python.exe -X utf8 -B scan_catalog.py --config CONFIG.json
+详细契约见CONFIG_SCHEMA.json。默认universe仅投影code/name/ipo_date，不读取out_date/status；旧白名单如需文件API须显式映射ipoDate。输出id/signal_id、严格次日、bool next_valid_open、next_raw_open、entry_raw_open、原始/复权诊断与code/day NO_EVIDENCE、UNRESOLVED_CANDIDATES。已公告日历可超price cutoff，此时仅pending，不补价；日历缺次日也pending，不猜测。
+
+验证：10项合成检查+1个最小文件接口检查通过。仅使用现有pre2025全主板3336白名单重放，得到3805，与原source code/date集合、entry日期/状态/bool、raw next open完全一致，未解决候选0；5069个旧限价bar直接比对通过。原structure.py和3805源CSV哈希不变。旧ST费率仅存在于test_scan_catalog.py的<=2024 parity fixture，不是生产策略，禁止用该fixture跑未来或全期。
+
+没有读取新全历史、受限、软件、分类或其他结果，没有运行账户、路径收益或后验。已停止逻辑调整。
+
+scanner SHA256：ba9488a8e725a45f99e5d19c01f417c4ae8180abb15d099d806c7cb568717b2b

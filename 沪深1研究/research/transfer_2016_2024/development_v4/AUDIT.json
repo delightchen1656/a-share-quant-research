@@ -1,0 +1,38 @@
+{
+  "stage": "development_permanently_locked",
+  "search_space_sha256": "621ae9ead149c6e07b69604df7b0051a6bbafaf0466b89e39526365d4baa21a8",
+  "candidate_sha256": "6344746899974b28cdf4db907213051aa95553ef8d90f5425dbe7d6f8bbe7a3f",
+  "input_hashes": {
+    "calendar.csv": "11aaf134eff50d830e1c1c24ba9f6412a696d88b8922d4b7005a37d2ab83a412",
+    "universe.csv": "6e5a0ea2cd10d49537731a0b3c2969bc34e2e0f7a83216f0ce8982966c25661a",
+    "sse_price_index.parquet": "1c7d838cff3085c70f370d272506f3a3ee136851170882700522a3436cadb722",
+    "actions_pre2025.json": "e1a9a41116ea92bb18ecff54f7bdc06acfa462dffa57f1842376bbbccca3c480",
+    "PUBLIC_INPUT_MANIFEST.json": "fd4bfbc19b7af7155d5047615e1f5e94c0a84303bc219251f3564d131aa71ce2",
+    "strategies/hushen/supermind_hushen_1.py": "a573941eb69f850536288ba5ce4333d943c2eb4862e7f3a518e46dd55cc653fd",
+    "strategies/hushen/backtest/engine.py": "9e2f9f025664125119fb5ae3e4f52245d234c97c7e82bd2791776e35eaf80610",
+    "strategies/hushen/backtest/ledger.py": "8ac82b9918c590c58462fdd39f3fe976eddafcdef9b02165490c3ccdd3e103f6",
+    "strategies/hushen/backtest/actions.py": "c38764ea213138b36ce741e2529f13d7f8e32d835f589afc61be28614d1d6f8b",
+    "strategies/hushen/research/transfer_2016_2024/PROTOCOL_V4.md": "59f7549c45b1b1c3adc431fb5c3d960fca19836b249044d8c2c0c42448e5cbd1"
+  },
+  "raw_files_verified": 3354,
+  "development_last_date": "2024-12-31",
+  "phase_anchor": "2018-01-02",
+  "factor_missing_propagation": true,
+  "candidate_count": 20,
+  "start_rows": 10520,
+  "nonbaseline_passed": 0,
+  "artifact_sha256": {
+    "SEARCH_SPACE.json": "946535c0a1923365b3911955d299f20ff9edaaa50553184c3c10c7f5abd2613b",
+    "run_research.py": "ab56c447e41c457bec4ee71bb2c11544bf119f25aa265ad7150365e94948c8b4",
+    "FINAL_LOCK.json": "6086dd6462dd265679edfa7ed265dc21347330ed51a8c163975eff67d4302636",
+    "REPORT.md": "0dca492b3c27456679a4b8c76d493eb075761e168f0abdea7fc9deb3323b66af",
+    "development_all_starts.csv": "716a6d6b71087a05869e8c60faf7f1b22a666b88083b21fdefff67520a41c64a",
+    "development_yearly.csv": "b92051c3e1fe36c4fa45b79d414e2adfa4a1ca8408eb27529a1fdbcf5b20a556",
+    "development_blocks.csv": "50cc9f5d9ac623cc25a4f5e23d12989a2f8e15e41784bcec54612423be15647d",
+    "candidate_summary.csv": "d20a6aa3671af576d1b0f73ae247bc78a5042c7b2e1c645a61f23e96c59e5b66",
+    "baseline_block_assessment.csv": "cb399763c13aeb51c45ad0ca001458393ae984c5383d3e80ec05b61b81488f33",
+    "development_stress_all_starts.csv": "8a32580c29c370e63fe285b2c81dd5747fd7d83dfaadb3a1d09aeaf844ea60fa",
+    "development_stress_yearly.csv": "2d85eb4ac24772862b270f765c770d65460257c53cb1b144c00007aa2f082baa",
+    "development_stress_summary.csv": "e412a40e8bbaa5a384bd70db1f6307c3db5d5b55b3f777bcf52f327bf1d21a51"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "conditions": {
+    "all_leave_one_year_out_excess_cagr_positive": false,
+    "all_q1_start_excess_cagr_positive": true,
+    "full_period_sharpe_positive": true,
+    "minimum_calendar_year_excess_nonnegative": false,
+    "positive_excess_cagr_2016_2019": false,
+    "positive_excess_cagr_2016_2024": true,
+    "positive_excess_cagr_2020_2024": true,
+    "three_x_fee_excess_cagr_positive": false
+  },
+  "passed": false
+}

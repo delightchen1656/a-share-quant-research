@@ -1,0 +1,15 @@
+{
+  "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "joblib": "1.5.3",
+  "sklearn_runtime": "1.7.2",
+  "sklearn_model_source": "1.9.0",
+  "model_load_warnings": [
+    "Trying to unpickle estimator HistGradientBoostingClassifier from version 1.9.0 when using version 1.7.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations",
+    "Trying to unpickle estimator LabelEncoder from version 1.9.0 when using version 1.7.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations",
+    "Trying to unpickle estimator _BinMapper from version 1.9.0 when using version 1.7.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations"
+  ],
+  "environment_lock_sha256": "a96fb64f94b97ea10ef86baa00c4e56d5d9a796615e02075821df124e684cd0a"
+}

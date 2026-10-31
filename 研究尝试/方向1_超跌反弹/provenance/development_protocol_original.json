@@ -1,0 +1,48 @@
+{
+  "grid": {
+    "price": [
+      8,
+      10,
+      12
+    ],
+    "deviation": [
+      0.06,
+      0.07,
+      0.08,
+      0.09,
+      0.1
+    ],
+    "take_profit": [
+      0.05,
+      0.06,
+      0.07,
+      0.08
+    ],
+    "forced_day": [
+      2,
+      3,
+      4
+    ],
+    "slots": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "stop_loss": [
+      null,
+      0.05,
+      0.08
+    ]
+  },
+  "combinations": 3240,
+  "capital": 100000,
+  "cutoff": "2024-12-31",
+  "rationale": "Extend deviation8%/TP6% grid boundaries documented in pre-posterior v15 explanation; refine slots around7. No posterior outcomes used to set values/objective.",
+  "selection": "Same v15 goal: all4 annual returns positive, >=10 entries/year, DD<=12%; prefer all4 annual returns>=v2 and DD<=v2, then balanced dominance. Stable local neighborhood preferred; maximize worst year then total then lower DD.",
+  "limitation": "Parent context has seen posterior; this cannot be called clean isolated research. Calculation denies restricted paths, but cannot remove context exposure. All2021-2024 are previously explored development.",
+  "baseline_summary_sha256": "07fa55c84f6d9e94fa0171128c84a3e37555a786a5c2786bbfcdf2f3a4f72e8c",
+  "engine_sha256": "dd594aaebf453a8a8791fbfbc6a13c565e45fb2aca914516afe20589842c83f2"
+}

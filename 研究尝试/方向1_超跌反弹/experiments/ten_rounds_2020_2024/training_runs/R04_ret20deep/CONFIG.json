@@ -1,0 +1,19 @@
+{
+  "config": {
+    "slots": 5,
+    "forced_day": 3,
+    "take_profit": 0.08,
+    "stop_loss": null,
+    "priority": "ret20_ascending",
+    "filters": [
+      {
+        "feature": "ret20",
+        "op": "<=",
+        "value": -0.2
+      }
+    ],
+    "max_new_entries": null
+  },
+  "config_sha256": "c2eed509328d770a6d0788c02411ac6941b613c30c1f01ebc017158089c02e4d",
+  "protocol_sha256": "6669ecead9fff845469cb6fd861583b637d5070232c6564ad3c64a4d3b4f8e4e"
+}

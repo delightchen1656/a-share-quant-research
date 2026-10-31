@@ -1,0 +1,77 @@
+{
+  "key": "601857.SH/2017",
+  "request": {
+    "code": "sh.601857",
+    "year": "2017",
+    "yearType": "operate"
+  },
+  "fields": [
+    "code",
+    "dividPreNoticeDate",
+    "dividAgmPumDate",
+    "dividPlanAnnounceDate",
+    "dividPlanDate",
+    "dividRegistDate",
+    "dividOperateDate",
+    "dividPayDate",
+    "dividStockMarketDate",
+    "dividCashPsBeforeTax",
+    "dividCashPsAfterTax",
+    "dividStocksPs",
+    "dividCashStock",
+    "dividReserveToStockPs"
+  ],
+  "records": [
+    {
+      "code": "sh.601857",
+      "dividPreNoticeDate": "",
+      "dividAgmPumDate": "2017-06-09",
+      "dividPlanAnnounceDate": "2017-03-31",
+      "dividPlanDate": "2017-06-16",
+      "dividRegistDate": "2017-06-21",
+      "dividOperateDate": "2017-06-22",
+      "dividPayDate": "2017-06-22",
+      "dividStockMarketDate": "",
+      "dividCashPsBeforeTax": "0.03801",
+      "dividCashPsAfterTax": "0.034209或0.03801",
+      "dividStocksPs": "0.000000",
+      "dividCashStock": "10派0.3801元（含税，扣税后0.34209或0.3801元）",
+      "dividReserveToStockPs": ""
+    },
+    {
+      "code": "sh.601857",
+      "dividPreNoticeDate": "",
+      "dividAgmPumDate": "",
+      "dividPlanAnnounceDate": "2017-08-25",
+      "dividPlanDate": "2017-09-08",
+      "dividRegistDate": "2017-09-14",
+      "dividOperateDate": "2017-09-15",
+      "dividPayDate": "2017-09-15",
+      "dividStockMarketDate": "",
+      "dividCashPsBeforeTax": "0.06926",
+      "dividCashPsAfterTax": "0.06233或0.06926",
+      "dividStocksPs": "0.000000",
+      "dividCashStock": "10派0.6926元（含税，扣税后0.6233或0.6926元）",
+      "dividReserveToStockPs": ""
+    },
+    {
+      "code": "sh.601857",
+      "dividPreNoticeDate": "",
+      "dividAgmPumDate": "",
+      "dividPlanAnnounceDate": "2017-08-25",
+      "dividPlanDate": "2017-09-08",
+      "dividRegistDate": "2017-09-14",
+      "dividOperateDate": "2017-09-15",
+      "dividPayDate": "2017-09-15",
+      "dividStockMarketDate": "",
+      "dividCashPsBeforeTax": "0.06926",
+      "dividCashPsAfterTax": "0.006233或0.06926",
+      "dividStocksPs": "0.000000",
+      "dividCashStock": "10派0.6926元（含税，扣税后0.06233或0.6926元）",
+      "dividReserveToStockPs": ""
+    }
+  ],
+  "row_count": 3,
+  "successful_empty": false,
+  "cutoff": "2024-12-31"
+}

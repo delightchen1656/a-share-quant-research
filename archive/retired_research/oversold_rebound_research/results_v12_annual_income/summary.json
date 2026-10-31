@@ -1,0 +1,491 @@
+{
+  "results": [
+    {
+      "key": "sample_after_1000000_50",
+      "summary": {
+        "pool": "sample",
+        "filtered": true,
+        "capital": 1000000,
+        "slots": 50,
+        "slot_budget": 20000.0,
+        "forced_day": 5,
+        "take_profit": 0.03,
+        "signals": 1066,
+        "trades": 898,
+        "skipped": 168,
+        "final_equity": 1209269.7402699976,
+        "total_return": 0.20926974026999767,
+        "annualized_return": 0.04865056794977929,
+        "max_drawdown": -0.03738079942533579,
+        "takeprofit": 400,
+        "forced": 498,
+        "net_win_rate": 0.6124721603563474,
+        "mean_trade_return": 0.011749224431196753,
+        "fees": 25535.81973,
+        "max_positions": 50,
+        "average_positions": 2.4726522187822497,
+        "corporate_events": 5,
+        "delayed_exits": 0,
+        "skipped_slots": 168
+      },
+      "yearly": [
+        {
+          "year": 2021,
+          "return_pct": 0.06990392010000046,
+          "max_drawdown": -0.009613786979964067,
+          "end_equity": 1069903.9201000005
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.07071354320575729,
+          "max_drawdown": -0.03738079942533579,
+          "end_equity": 1145560.617180001
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.00503699913689748,
+          "max_drawdown": -0.003872170985491863,
+          "end_equity": 1151330.8050200003
+        },
+        {
+          "year": 2024,
+          "return_pct": 0.05032344743784645,
+          "max_drawdown": -0.032266148430310726,
+          "end_equity": 1209269.7402699976
+        }
+      ]
+    },
+    {
+      "key": "sample_after_100000_5",
+      "summary": {
+        "pool": "sample",
+        "filtered": true,
+        "capital": 100000,
+        "slots": 5,
+        "slot_budget": 20000.0,
+        "forced_day": 5,
+        "take_profit": 0.03,
+        "signals": 1066,
+        "trades": 340,
+        "skipped": 726,
+        "final_equity": 122653.87348000011,
+        "total_return": 0.2265387348000012,
+        "annualized_return": 0.05237450198694327,
+        "max_drawdown": -0.22651269669754848,
+        "takeprofit": 133,
+        "forced": 207,
+        "net_win_rate": 0.55,
+        "mean_trade_return": 0.0031397004828250057,
+        "fees": 9789.446520000001,
+        "max_positions": 5,
+        "average_positions": 0.9865841073271414,
+        "corporate_events": 2,
+        "delayed_exits": 0,
+        "skipped_slots": 726
+      },
+      "yearly": [
+        {
+          "year": 2021,
+          "return_pct": 0.23488873519999998,
+          "max_drawdown": -0.0583876552998821,
+          "end_equity": 123488.87352
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.015445142996556527,
+          "max_drawdown": -0.22651269669754848,
+          "end_equity": 125396.17683000008
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.03737587977944412,
+          "max_drawdown": -0.033260487165595154,
+          "end_equity": 130082.96926000007
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.05711044129959275,
+          "max_drawdown": -0.1190721925277477,
+          "end_equity": 122653.87348000011
+        }
+      ]
+    },
+    {
+      "key": "leaders_after_1000000_50",
+      "summary": {
+        "pool": "leaders",
+        "filtered": true,
+        "capital": 1000000,
+        "slots": 50,
+        "slot_budget": 20000.0,
+        "forced_day": 5,
+        "take_profit": 0.03,
+        "signals": 202,
+        "trades": 195,
+        "skipped": 7,
+        "final_equity": 1053935.3035299995,
+        "total_return": 0.05393530352999942,
+        "annualized_return": 0.013219380118597357,
+        "max_drawdown": -0.013284352827011237,
+        "takeprofit": 102,
+        "forced": 93,
+        "net_win_rate": 0.7025641025641025,
+        "mean_trade_return": 0.014445115247249495,
+        "fees": 5504.69647,
+        "max_positions": 50,
+        "average_positions": 0.4117647058823529,
+        "corporate_events": 1,
+        "delayed_exits": 0,
+        "skipped_slots": 5
+      },
+      "yearly": [
+        {
+          "year": 2021,
+          "return_pct": 0.00993880198000019,
+          "max_drawdown": -0.00286319312523875,
+          "end_equity": 1009938.8019800001
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.03564768288872311,
+          "max_drawdown": -0.013284352827011237,
+          "end_equity": 1045940.7801300001
+        },
+        {
+          "year": 2023,
+          "return_pct": -0.0009665982235383952,
+          "max_drawdown": -0.0011184103678731905,
+          "end_equity": 1044929.77563
+        },
+        {
+          "year": 2024,
+          "return_pct": 0.008618309201276153,
+          "max_drawdown": -0.009806214832215332,
+          "end_equity": 1053935.3035299995
+        }
+      ]
+    },
+    {
+      "key": "leaders_after_100000_5",
+      "summary": {
+        "pool": "leaders",
+        "filtered": true,
+        "capital": 100000,
+        "slots": 5,
+        "slot_budget": 20000.0,
+        "forced_day": 5,
+        "take_profit": 0.03,
+        "signals": 202,
+        "trades": 122,
+        "skipped": 80,
+        "final_equity": 107258.73171000008,
+        "total_return": 0.07258731710000088,
+        "annualized_return": 0.017672793728672254,
+        "max_drawdown": -0.09639736194219972,
+        "takeprofit": 53,
+        "forced": 69,
+        "net_win_rate": 0.5819672131147541,
+        "mean_trade_return": 0.002973957663502586,
+        "fees": 3349.26829,
+        "max_positions": 5,
+        "average_positions": 0.2899896800825593,
+        "corporate_events": 0,
+        "delayed_exits": 0,
+        "skipped_slots": 79
+      },
+      "yearly": [
+        {
+          "year": 2021,
+          "return_pct": 0.09938801980000056,
+          "max_drawdown": -0.027454953089897982,
+          "end_equity": 109938.80198000006
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.01630694384250364,
+          "max_drawdown": -0.0664365681888347,
+          "end_equity": 111731.56785000005
+        },
+        {
+          "year": 2023,
+          "return_pct": -0.009048512604399206,
+          "max_drawdown": -0.010456369967313695,
+          "end_equity": 110720.56335000004
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.03126638390609271,
+          "max_drawdown": -0.0915902344196593,
+          "end_equity": 107258.73171000008
+        }
+      ]
+    }
+  ],
+  "choices": [
+    {
+      "pool": "sample",
+      "year": 2021,
+      "pick": {
+        "pool": "sample",
+        "outer_year": 2021,
+        "filter": "pos1_20",
+        "take_profit": 0.05,
+        "forced_day": 3,
+        "train_scores": [
+          {
+            "year": 2019,
+            "n": 70,
+            "return_pct": 0.1799506945399314,
+            "max_drawdown": -0.030034438567466237
+          },
+          {
+            "year": 2020,
+            "n": 61,
+            "return_pct": 0.19588638947044412,
+            "max_drawdown": -0.040242825313093755
+          }
+        ],
+        "score": 0.20680891738468146,
+        "eligible": true
+      },
+      "eligible_candidates": 297
+    },
+    {
+      "pool": "sample",
+      "year": 2022,
+      "pick": {
+        "pool": "sample",
+        "outer_year": 2022,
+        "filter": "price20_ma60slow",
+        "take_profit": 0.05,
+        "forced_day": 4,
+        "train_scores": [
+          {
+            "year": 2020,
+            "n": 86,
+            "return_pct": 0.2164408515386811,
+            "max_drawdown": -0.07940966422650786
+          },
+          {
+            "year": 2021,
+            "n": 113,
+            "return_pct": 0.19031248538619017,
+            "max_drawdown": -0.05391307194941408
+          }
+        ],
+        "score": 0.20145182038854514,
+        "eligible": true
+      },
+      "eligible_candidates": 321
+    },
+    {
+      "pool": "sample",
+      "year": 2023,
+      "pick": {
+        "pool": "sample",
+        "outer_year": 2023,
+        "filter": "volume15",
+        "take_profit": 0.04,
+        "forced_day": 4,
+        "train_scores": [
+          {
+            "year": 2021,
+            "n": 41,
+            "return_pct": 0.18042295663200014,
+            "max_drawdown": -0.03481280880642812
+          },
+          {
+            "year": 2022,
+            "n": 66,
+            "return_pct": 0.2807700084746598,
+            "max_drawdown": -0.04028557125398169
+          }
+        ],
+        "score": 0.2179292916433418,
+        "eligible": true
+      },
+      "eligible_candidates": 190
+    },
+    {
+      "pool": "sample",
+      "year": 2024,
+      "pick": {
+        "pool": "sample",
+        "outer_year": 2024,
+        "filter": "volume12",
+        "take_profit": 0.05,
+        "forced_day": 3,
+        "train_scores": [
+          {
+            "year": 2022,
+            "n": 90,
+            "return_pct": 0.19815682639426457,
+            "max_drawdown": -0.07837550490565992
+          },
+          {
+            "year": 2023,
+            "n": 50,
+            "return_pct": 0.12902385002000005,
+            "max_drawdown": -0.04793194119255262
+          }
+        ],
+        "score": 0.13073368211895317,
+        "eligible": true
+      },
+      "eligible_candidates": 164
+    },
+    {
+      "pool": "leaders",
+      "year": 2021,
+      "pick": {
+        "pool": "leaders",
+        "outer_year": 2021,
+        "filter": "pos1_20",
+        "take_profit": 0.05,
+        "forced_day": 5,
+        "train_scores": [
+          {
+            "year": 2019,
+            "n": 24,
+            "return_pct": 0.11604367774000024,
+            "max_drawdown": -0.026375648137932806
+          },
+          {
+            "year": 2020,
+            "n": 23,
+            "return_pct": 0.20311331305705438,
+            "max_drawdown": -0.012601137491359493
+          }
+        ],
+        "score": 0.14275047752066566,
+        "eligible": true
+      },
+      "eligible_candidates": 283
+    },
+    {
+      "pool": "leaders",
+      "year": 2022,
+      "pick": {
+        "pool": "leaders",
+        "outer_year": 2022,
+        "filter": "pos1_20",
+        "take_profit": 0.05,
+        "forced_day": 2,
+        "train_scores": [
+          {
+            "year": 2020,
+            "n": 26,
+            "return_pct": 0.14156383282663265,
+            "max_drawdown": -0.018724408820454452
+          },
+          {
+            "year": 2021,
+            "n": 31,
+            "return_pct": 0.11565636521897238,
+            "max_drawdown": -0.012944285703412106
+          }
+        ],
+        "score": 0.13844668556444578,
+        "eligible": true
+      },
+      "eligible_candidates": 284
+    },
+    {
+      "pool": "leaders",
+      "year": 2023,
+      "pick": {
+        "pool": "leaders",
+        "outer_year": 2023,
+        "filter": "deep_price10",
+        "take_profit": 0.05,
+        "forced_day": 2,
+        "train_scores": [
+          {
+            "year": 2021,
+            "n": 15,
+            "return_pct": 0.052994183809556006,
+            "max_drawdown": -0.02198069537316405
+          },
+          {
+            "year": 2022,
+            "n": 16,
+            "return_pct": 0.05602188888000015,
+            "max_drawdown": -0.021135500042163802
+          }
+        ],
+        "score": 0.0556308452091685,
+        "eligible": true
+      },
+      "eligible_candidates": 131
+    },
+    {
+      "pool": "leaders",
+      "year": 2024,
+      "pick": {
+        "pool": "leaders",
+        "outer_year": 2024,
+        "filter": "volume12",
+        "take_profit": 0.03,
+        "forced_day": 3,
+        "train_scores": [
+          {
+            "year": 2022,
+            "n": 38,
+            "return_pct": 0.11239184695709081,
+            "max_drawdown": -0.03059074108980908
+          },
+          {
+            "year": 2023,
+            "n": 13,
+            "return_pct": 0.026381056687000193,
+            "max_drawdown": -0.015588655356999936
+          }
+        ],
+        "score": 0.028432299097607028,
+        "eligible": true
+      },
+      "eligible_candidates": 49
+    }
+  ],
+  "excluded_specials": [
+    [
+      "002633",
+      "2022-04-29"
+    ],
+    [
+      "600506",
+      "2021-04-21"
+    ],
+    [
+      "603007",
+      "2021-04-28"
+    ]
+  ],
+  "iterations": [
+    {
+      "excluded": [
+        [
+          "002633",
+          "2022-04-29"
+        ],
+        [
+          "600506",
+          "2021-04-21"
+        ],
+        [
+          "603007",
+          "2021-04-28"
+        ]
+      ],
+      "new": []
+    }
+  ],
+  "protocol_sha256": "c7b6c58a5c62a371ae64a43c7d2d2d6ccdf2e2d722c6367a03b0ce032ff26cdd",
+  "features_sha256": "9ff8e9ed7dc98aa106c6f930b27341d8118c6bacc51cdc0c02f57b5f6b4921dd",
+  "caveats": [
+    "All pre2025 periods previously explored: research-time walk-forward evaluation, not untouched blind test.",
+    "Train selection proxy uses adjusted paths, not literal raw-share economic profit; final accounts use raw shares/actions.",
+    "Current 947-stock retrospective cohort, current leader membership; known special events excluded ex post.",
+    "No 2025+ data, no production/viewer changes. Annual rule choices depend on prior matured labels only."
+  ]
+}

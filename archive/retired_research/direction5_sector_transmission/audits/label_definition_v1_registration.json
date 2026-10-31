@@ -1,0 +1,25 @@
+{
+  "label_definition_sha256": "ba06f4dd42099f84e17b8a738ed08eee30e7909538f016188cbf0b17b29962df",
+  "parent_protocol_sha256": "502c0f7f652295b4ba4b3dcf1a4595a7944bafabe0685bdff263eb7348483e50",
+  "input_manifests": [
+    {
+      "path": "inputs_pre2025/kline_v1/manifest.json",
+      "sha256": "f10f353b5021f6ddb028be038103f757433f958ebbf4992fb65383f42160b1a1"
+    },
+    {
+      "path": "inputs_pre2025/eligibility_observed_dev_v1/manifest.json",
+      "sha256": "5593c8d6a378a35782073e98c9c76db25fec37bfddf8f616e275d735222c8bbd"
+    },
+    {
+      "path": "inputs_pre2025/trading_calendar_v1/manifest.json",
+      "sha256": "b457a24f5cef2226006427ba94a54937de83bb861e895f2a964f8a6cead0f978"
+    },
+    {
+      "path": "audits/data_revision_v4_registration.json",
+      "sha256": "41476297282f04f18bbf68a60213e98f922096f9f7458b62af3de480d68d3269"
+    }
+  ],
+  "registered_before_availability_audit": true,
+  "label_values_computed": false,
+  "primary_acceptance_and_validation_split_unchanged": true
+}

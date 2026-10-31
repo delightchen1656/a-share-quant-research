@@ -1,0 +1,61 @@
+{
+  "key": "603551.SH/2024",
+  "request": {
+    "code": "sh.603551",
+    "year": "2024",
+    "yearType": "operate"
+  },
+  "fields": [
+    "code",
+    "dividPreNoticeDate",
+    "dividAgmPumDate",
+    "dividPlanAnnounceDate",
+    "dividPlanDate",
+    "dividRegistDate",
+    "dividOperateDate",
+    "dividPayDate",
+    "dividStockMarketDate",
+    "dividCashPsBeforeTax",
+    "dividCashPsAfterTax",
+    "dividStocksPs",
+    "dividCashStock",
+    "dividReserveToStockPs"
+  ],
+  "records": [
+    {
+      "code": "sh.603551",
+      "dividPreNoticeDate": "",
+      "dividAgmPumDate": "2024-05-15",
+      "dividPlanAnnounceDate": "2024-04-24",
+      "dividPlanDate": "2024-05-29",
+      "dividRegistDate": "2024-06-03",
+      "dividOperateDate": "2024-06-04",
+      "dividPayDate": "2024-06-04",
+      "dividStockMarketDate": "",
+      "dividCashPsBeforeTax": "0.8",
+      "dividCashPsAfterTax": "0.72或0.8",
+      "dividStocksPs": "0.000000",
+      "dividCashStock": "10派8元（含税，扣税后7.2或8元）",
+      "dividReserveToStockPs": ""
+    },
+    {
+      "code": "sh.603551",
+      "dividPreNoticeDate": "",
+      "dividAgmPumDate": "2024-09-07",
+      "dividPlanAnnounceDate": "2024-08-22",
+      "dividPlanDate": "2024-09-24",
+      "dividRegistDate": "2024-09-27",
+      "dividOperateDate": "2024-09-30",
+      "dividPayDate": "2024-09-30",
+      "dividStockMarketDate": "",
+      "dividCashPsBeforeTax": "0.3",
+      "dividCashPsAfterTax": "0.27或0.3",
+      "dividStocksPs": "0.000000",
+      "dividCashStock": "10派3元（含税，扣税后2.7或3元）",
+      "dividReserveToStockPs": ""
+    }
+  ],
+  "row_count": 2,
+  "successful_empty": false,
+  "cutoff": "2024-12-31"
+}

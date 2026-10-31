@@ -1,0 +1,44 @@
+{
+  "symbol": "601919.SH",
+  "event_date": "2024-10-10",
+  "kind": "dividend_fields",
+  "start": "2024-07-22",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\601919.SH_2024-10-10\\query_01.json",
+      "sha256": "22bf1853885acac837b3323b1609844d48c751f5fb9ccb66a6245db8f1e2a777",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "601919",
+        "begin_time": "2024-07-22",
+        "end_time": "2024-10-10"
+      }
+    }
+  ],
+  "announcement_count": 17,
+  "documents": [
+    {
+      "title": "中远海控:中远海控2024年中期权益分派实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2024-09-26",
+      "raw_response": "sources\\action_issuer_mirror_v2\\601919.SH_2024-10-10\\AN202409251640035312_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\601919.SH_2024-10-10\\AN202409251640035312.txt",
+      "sha256": "f9ee1d2b07943991aa3ae5486af6f72a8dc280c5461a0cc40dd4be99d80b2b0d",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\601919.SH_2024-10-10\\AN202409251640035312_content.json",
+          "sha256": "f9ee1d2b07943991aa3ae5486af6f72a8dc280c5461a0cc40dd4be99d80b2b0d"
+        }
+      ],
+      "article_code": "AN202409251640035312",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202409251640035312_1.pdf?1727285611000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

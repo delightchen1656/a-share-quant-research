@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "message": "ok",
+  "keys": [
+    "FINANCE_CODE",
+    "SECUCODE",
+    "SECURITY_CODE",
+    "ORG_CODE",
+    "SECURITY_NAME_ABBR",
+    "CORRECODE",
+    "CORRECODE_NAME_ABBR",
+    "PLACING_RATIO",
+    "ISSUE_PRICE",
+    "TOTAL_SHARES_BEFORE",
+    "ISSUE_NUM",
+    "TOTAL_SHARES_AFTER",
+    "EQUITY_RECORD_DATE",
+    "PAY_START_DATE",
+    "PAY_END_DATE",
+    "LISTING_DATE",
+    "EX_DIVIDEND_DATE",
+    "TOTAL_RAISE_FUNDS",
+    "NET_RAISE_FUNDS",
+    "UNDERWRITE_WAY",
+    "FIRST_NOTICE_DATE",
+    "CHANGE_RATE"
+  ],
+  "count": 60
+}

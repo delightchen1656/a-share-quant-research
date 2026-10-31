@@ -1,0 +1,70 @@
+{
+  "round": 9,
+  "question": "改变槽位数量和每槽预算如何影响分散与收益",
+  "protocol_sha256": "6669ecead9fff845469cb6fd861583b637d5070232c6564ad3c64a4d3b4f8e4e",
+  "inherited_candidate": "R07_tp15",
+  "inherited_config_hash": "4e08b931a0cef23810bb58965233688ffd16514f2c7363890c7c8ab5edda21d3",
+  "candidate_count": 5,
+  "candidates": {
+    "R09_slots3": {
+      "config": {
+        "slots": 3,
+        "forced_day": 3,
+        "take_profit": 0.15,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "sha256": "82d9a5b274d179b7d98637d89657ce66de9fc904a865a0ef950b661dea9c3d7c"
+    },
+    "R09_slots4": {
+      "config": {
+        "slots": 4,
+        "forced_day": 3,
+        "take_profit": 0.15,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "sha256": "4be55fb3259cea52345fee5bdccd71a98c42344fc89ebc96625019e0fbecc9f7"
+    },
+    "R09_slots6": {
+      "config": {
+        "slots": 6,
+        "forced_day": 3,
+        "take_profit": 0.15,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "sha256": "ecb136eefe788b61b17adf638b60923cbaac6338b87dea55a5a16989e1e1ec5b"
+    },
+    "R09_slots8": {
+      "config": {
+        "slots": 8,
+        "forced_day": 3,
+        "take_profit": 0.15,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "sha256": "77c1aac09653d662f085d02209d4b39ea241fe29f1e3fbfc918b6e7c8b60b807"
+    },
+    "R09_slots10": {
+      "config": {
+        "slots": 10,
+        "forced_day": 3,
+        "take_profit": 0.15,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "sha256": "7c71ed28410ee1f84d33d3ba3a3cdb0f558eadeeef807f6d3a05fe216ec12960"
+    }
+  }
+}

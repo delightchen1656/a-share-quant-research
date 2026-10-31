@@ -1,0 +1,44 @@
+{
+  "symbol": "002016.SZ",
+  "event_date": "2024-04-19",
+  "kind": "dividend_fields",
+  "start": "2024-01-30",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\002016.SZ_2024-04-19\\query_01.json",
+      "sha256": "70af1802f3353bd475f3b0dfb41fb72bf656a0dac3b64097d3c14a4ee50df834",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "002016",
+        "begin_time": "2024-01-30",
+        "end_time": "2024-04-19"
+      }
+    }
+  ],
+  "announcement_count": 9,
+  "documents": [
+    {
+      "title": "世荣兆业:2022年年度权益分派实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2024-04-13",
+      "raw_response": "sources\\action_issuer_mirror_v2\\002016.SZ_2024-04-19\\AN202404121630186785_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\002016.SZ_2024-04-19\\AN202404121630186785.txt",
+      "sha256": "db6355d23d5996c8ba430fe9e6d33bc7b7a8d0c276d13612c206db1e2e1cae97",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\002016.SZ_2024-04-19\\AN202404121630186785_content.json",
+          "sha256": "db6355d23d5996c8ba430fe9e6d33bc7b7a8d0c276d13612c206db1e2e1cae97"
+        }
+      ],
+      "article_code": "AN202404121630186785",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202404121630186785_1.pdf?1712946589000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

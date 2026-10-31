@@ -1,0 +1,5168 @@
+{
+  "completed": [
+    {
+      "candidate": {
+        "id": "code_TP10_SL0_H10",
+        "rank": "code",
+        "tp": 0.1,
+        "sl": null,
+        "h": 10,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 928,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.1,
+        "stop_loss": null,
+        "trailing": false,
+        "rank": "code",
+        "forced_day": 10,
+        "final_equity": "1266575.37",
+        "total_return": 0.26657537,
+        "annualized_return": 0.048377716846239815,
+        "max_drawdown": -0.17173242024143903,
+        "closed_trades": 878,
+        "open_positions": 16,
+        "pending_signals": 0,
+        "skipped": 2911,
+        "corporate_events": 3,
+        "total_transaction_fees": "66480.93",
+        "sold_dividend_tax_payable": "734.07",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "328833.30",
+        "open_marked_pnl": "-62257.93",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": -0.0058594,
+          "max_drawdown": -0.12228368556121319,
+          "end_equity": "994140.60"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.16519657279865646,
+          "max_drawdown": -0.08871504310903468,
+          "end_equity": "1158369.22"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.11025084040130141,
+          "max_drawdown": -0.1354870507764742,
+          "end_equity": "1286080.40"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.0016653857721492373,
+          "max_drawdown": -0.06333127512597835,
+          "end_equity": "1288222.22"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.016803661405560912,
+          "max_drawdown": -0.1262340922177891,
+          "end_equity": "1266575.37"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1778,
+        "nav_dates": 1212,
+        "closed_trades": 878,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "code_TP10_SL0_H20",
+        "rank": "code",
+        "tp": 0.1,
+        "sl": null,
+        "h": 20,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 1269,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.1,
+        "stop_loss": null,
+        "trailing": false,
+        "rank": "code",
+        "forced_day": 20,
+        "final_equity": "1231934.18",
+        "total_return": 0.23193418,
+        "annualized_return": 0.042581618163581636,
+        "max_drawdown": -0.20440303772357782,
+        "closed_trades": 685,
+        "open_positions": 17,
+        "pending_signals": 0,
+        "skipped": 3103,
+        "corporate_events": 14,
+        "total_transaction_fees": "52380.08",
+        "sold_dividend_tax_payable": "2824.45",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "322017.60",
+        "open_marked_pnl": "-90083.42",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.05594125,
+          "max_drawdown": -0.12549503781907406,
+          "end_equity": "1055941.25"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.17165929449199943,
+          "max_drawdown": -0.11536467582831905,
+          "end_equity": "1237203.38"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.07742161195841543,
+          "max_drawdown": -0.13236594521104694,
+          "end_equity": "1332989.66"
+        },
+        {
+          "year": 2023,
+          "return_pct": -0.021472252080334965,
+          "max_drawdown": -0.12958044520298015,
+          "end_equity": "1304367.37"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.055531280271140175,
+          "max_drawdown": -0.14792596352667117,
+          "end_equity": "1231934.18"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1415,
+        "nav_dates": 1212,
+        "closed_trades": 685,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "code_TP10_SL8_H10",
+        "rank": "code",
+        "tp": 0.1,
+        "sl": 0.08,
+        "h": 10,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 928,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.1,
+        "stop_loss": 0.08,
+        "trailing": false,
+        "rank": "code",
+        "forced_day": 10,
+        "final_equity": "1318008.58",
+        "total_return": 0.31800858,
+        "annualized_return": 0.05675376056701209,
+        "max_drawdown": -0.16334400045681197,
+        "closed_trades": 1019,
+        "open_positions": 12,
+        "pending_signals": 0,
+        "skipped": 2774,
+        "corporate_events": 2,
+        "total_transaction_fees": "76943.56",
+        "sold_dividend_tax_payable": "519.03",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "357618.86",
+        "open_marked_pnl": "-39610.28",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.00931305,
+          "max_drawdown": -0.10645539221658465,
+          "end_equity": "1009313.05"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.16180222776273426,
+          "max_drawdown": -0.07759684668696198,
+          "end_equity": "1172622.15"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.06066444335884326,
+          "max_drawdown": -0.10142713399743335,
+          "end_equity": "1243758.62"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.02888826611710237,
+          "max_drawdown": -0.045623757056155484,
+          "end_equity": "1279688.65"
+        },
+        {
+          "year": 2024,
+          "return_pct": 0.02994472913391863,
+          "max_drawdown": -0.09620062000429049,
+          "end_equity": "1318008.58"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 2054,
+        "nav_dates": 1212,
+        "closed_trades": 1019,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "code_TP10_SL8_H20",
+        "rank": "code",
+        "tp": 0.1,
+        "sl": 0.08,
+        "h": 20,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 928,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.1,
+        "stop_loss": 0.08,
+        "trailing": false,
+        "rank": "code",
+        "forced_day": 20,
+        "final_equity": "1380755.48",
+        "total_return": 0.38075548,
+        "annualized_return": 0.06662522749388766,
+        "max_drawdown": -0.16321841023200323,
+        "closed_trades": 971,
+        "open_positions": 12,
+        "pending_signals": 0,
+        "skipped": 2822,
+        "corporate_events": 10,
+        "total_transaction_fees": "73308.25",
+        "sold_dividend_tax_payable": "2238.32",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "420365.76",
+        "open_marked_pnl": "-39610.28",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.02882296,
+          "max_drawdown": -0.1284026999404747,
+          "end_equity": "1028822.96"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.15124398079140847,
+          "max_drawdown": -0.09146973158530598,
+          "end_equity": "1184426.24"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.0789867590235083,
+          "max_drawdown": -0.11160396208649219,
+          "end_equity": "1277980.23"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.055223671183082385,
+          "max_drawdown": -0.05978234037661867,
+          "end_equity": "1348554.99"
+        },
+        {
+          "year": 2024,
+          "return_pct": 0.023877773052473003,
+          "max_drawdown": -0.0874298443791634,
+          "end_equity": "1380755.48"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1974,
+        "nav_dates": 1212,
+        "closed_trades": 971,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "code_TP10_SL12_H10",
+        "rank": "code",
+        "tp": 0.1,
+        "sl": 0.12,
+        "h": 10,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 928,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.1,
+        "stop_loss": 0.12,
+        "trailing": false,
+        "rank": "code",
+        "forced_day": 10,
+        "final_equity": "1262445.44",
+        "total_return": 0.26244544,
+        "annualized_return": 0.04769341399100013,
+        "max_drawdown": -0.16684391585152128,
+        "closed_trades": 944,
+        "open_positions": 15,
+        "pending_signals": 0,
+        "skipped": 2846,
+        "corporate_events": 3,
+        "total_transaction_fees": "71215.86",
+        "sold_dividend_tax_payable": "734.07",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "315615.90",
+        "open_marked_pnl": "-53170.46",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": -0.00483512,
+          "max_drawdown": -0.12182082555837717,
+          "end_equity": "995164.88"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.1602522890478209,
+          "max_drawdown": -0.07626736455949676,
+          "end_equity": "1154642.33"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.09200911593116459,
+          "max_drawdown": -0.10507307958834101,
+          "end_equity": "1260879.95"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.020052392775378815,
+          "max_drawdown": -0.04644441747965072,
+          "end_equity": "1286163.61"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.018441020890025025,
+          "max_drawdown": -0.11464408101295016,
+          "end_equity": "1262445.44"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1909,
+        "nav_dates": 1212,
+        "closed_trades": 944,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "code_TP10_SL12_H20",
+        "rank": "code",
+        "tp": 0.1,
+        "sl": 0.12,
+        "h": 20,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 928,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.1,
+        "stop_loss": 0.12,
+        "trailing": false,
+        "rank": "code",
+        "forced_day": 20,
+        "final_equity": "1373331.41",
+        "total_return": 0.37333141,
+        "annualized_return": 0.06547621441748608,
+        "max_drawdown": -0.15709818077351823,
+        "closed_trades": 853,
+        "open_positions": 15,
+        "pending_signals": 0,
+        "skipped": 2937,
+        "corporate_events": 12,
+        "total_transaction_fees": "64632.05",
+        "sold_dividend_tax_payable": "2690.75",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "426501.87",
+        "open_marked_pnl": "-53170.46",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.10383917,
+          "max_drawdown": -0.08436874887413705,
+          "end_equity": "1103839.17"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.14093448051857047,
+          "max_drawdown": -0.11896783151624861,
+          "end_equity": "1259408.17"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.09250843592669404,
+          "max_drawdown": -0.11465616730150976,
+          "end_equity": "1375914.05"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.027443334850748853,
+          "max_drawdown": -0.07393478308545864,
+          "end_equity": "1413673.72"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.0285372143722103,
+          "max_drawdown": -0.1177544419514285,
+          "end_equity": "1373331.41"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1745,
+        "nav_dates": 1212,
+        "closed_trades": 853,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "code_TP15_SL0_H10",
+        "rank": "code",
+        "tp": 0.15,
+        "sl": null,
+        "h": 10,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 1264,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.15,
+        "stop_loss": null,
+        "trailing": false,
+        "rank": "code",
+        "forced_day": 10,
+        "final_equity": "1270458.58",
+        "total_return": 0.27045858,
+        "annualized_return": 0.04901951326806597,
+        "max_drawdown": -0.1666525896549792,
+        "closed_trades": 836,
+        "open_positions": 18,
+        "pending_signals": 0,
+        "skipped": 2951,
+        "corporate_events": 2,
+        "total_transaction_fees": "63570.56",
+        "sold_dividend_tax_payable": "519.03",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "357656.44",
+        "open_marked_pnl": "-87197.86",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.03405244,
+          "max_drawdown": -0.108591793670368,
+          "end_equity": "1034052.44"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.1664824271388016,
+          "max_drawdown": -0.10898486321475989,
+          "end_equity": "1206204.00"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.10374300698720947,
+          "max_drawdown": -0.1466770637384005,
+          "end_equity": "1331339.23"
+        },
+        {
+          "year": 2023,
+          "return_pct": -0.031303546880384496,
+          "max_drawdown": -0.09605775303083422,
+          "end_equity": "1289663.59"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.014891488097295203,
+          "max_drawdown": -0.10848803284250579,
+          "end_equity": "1270458.58"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1694,
+        "nav_dates": 1212,
+        "closed_trades": 836,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "code_TP15_SL0_H20",
+        "rank": "code",
+        "tp": 0.15,
+        "sl": null,
+        "h": 20,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 1605,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.15,
+        "stop_loss": null,
+        "trailing": false,
+        "rank": "code",
+        "forced_day": 20,
+        "final_equity": "1253895.22",
+        "total_return": 0.25389522,
+        "annualized_return": 0.04627098554155884,
+        "max_drawdown": -0.246012058146023,
+        "closed_trades": 646,
+        "open_positions": 19,
+        "pending_signals": 0,
+        "skipped": 3140,
+        "corporate_events": 11,
+        "total_transaction_fees": "49596.34",
+        "sold_dividend_tax_payable": "2168.15",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "368918.57",
+        "open_marked_pnl": "-115023.35",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.08701108,
+          "max_drawdown": -0.11049694978631477,
+          "end_equity": "1087011.08"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.18838289118451304,
+          "max_drawdown": -0.11182177883314078,
+          "end_equity": "1291785.37"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.1034854265302602,
+          "max_drawdown": -0.11857775451492204,
+          "end_equity": "1425466.33"
+        },
+        {
+          "year": 2023,
+          "return_pct": -0.06668382689894892,
+          "max_drawdown": -0.17032443563608918,
+          "end_equity": "1330410.78"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.05751273302220236,
+          "max_drawdown": -0.15324491482393554,
+          "end_equity": "1253895.22"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1333,
+        "nav_dates": 1212,
+        "closed_trades": 646,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "code_TP15_SL8_H10",
+        "rank": "code",
+        "tp": 0.15,
+        "sl": 0.08,
+        "h": 10,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 928,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.15,
+        "stop_loss": 0.08,
+        "trailing": false,
+        "rank": "code",
+        "forced_day": 10,
+        "final_equity": "1318177.19",
+        "total_return": 0.31817719,
+        "annualized_return": 0.05678078573148393,
+        "max_drawdown": -0.1572906348706056,
+        "closed_trades": 974,
+        "open_positions": 13,
+        "pending_signals": 0,
+        "skipped": 2818,
+        "corporate_events": 1,
+        "total_transaction_fees": "73640.95",
+        "sold_dividend_tax_payable": "27.03",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "354631.92",
+        "open_marked_pnl": "-36454.73",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.04977951,
+          "max_drawdown": -0.09201793392142728,
+          "end_equity": "1049779.51"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.1463818245033188,
+          "max_drawdown": -0.08846838527304875,
+          "end_equity": "1203448.15"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.09381849978331015,
+          "max_drawdown": -0.10351652696429743,
+          "end_equity": "1316353.85"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.0003326385226890171,
+          "max_drawdown": -0.06980116668838648,
+          "end_equity": "1316791.72"
+        },
+        {
+          "year": 2024,
+          "return_pct": 0.00105215576537799,
+          "max_drawdown": -0.10461466084195337,
+          "end_equity": "1318177.19"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1963,
+        "nav_dates": 1212,
+        "closed_trades": 974,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "code_TP15_SL8_H20",
+        "rank": "code",
+        "tp": 0.15,
+        "sl": 0.08,
+        "h": 20,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 928,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.15,
+        "stop_loss": 0.08,
+        "trailing": false,
+        "rank": "code",
+        "forced_day": 20,
+        "final_equity": "1456345.78",
+        "total_return": 0.45634578,
+        "annualized_return": 0.07805146981721567,
+        "max_drawdown": -0.15907993484305358,
+        "closed_trades": 903,
+        "open_positions": 13,
+        "pending_signals": 0,
+        "skipped": 2889,
+        "corporate_events": 9,
+        "total_transaction_fees": "68336.95",
+        "sold_dividend_tax_payable": "1746.32",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "492800.51",
+        "open_marked_pnl": "-36454.73",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.07775295,
+          "max_drawdown": -0.11694410813785362,
+          "end_equity": "1077752.95"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.1245404709864167,
+          "max_drawdown": -0.10656595280022198,
+          "end_equity": "1211976.81"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.13579447118299234,
+          "max_drawdown": -0.09017297753569523,
+          "end_equity": "1376556.56"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.03644954479749092,
+          "max_drawdown": -0.0681322100294262,
+          "end_equity": "1426731.42"
+        },
+        {
+          "year": 2024,
+          "return_pct": 0.02075678686602416,
+          "max_drawdown": -0.11188363379191794,
+          "end_equity": "1456345.78"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1837,
+        "nav_dates": 1212,
+        "closed_trades": 903,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "code_TP15_SL12_H10",
+        "rank": "code",
+        "tp": 0.15,
+        "sl": 0.12,
+        "h": 10,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 1264,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.15,
+        "stop_loss": 0.12,
+        "trailing": false,
+        "rank": "code",
+        "forced_day": 10,
+        "final_equity": "1190944.55",
+        "total_return": 0.19094455,
+        "annualized_return": 0.03555239501513707,
+        "max_drawdown": -0.1878213486910734,
+        "closed_trades": 895,
+        "open_positions": 17,
+        "pending_signals": 0,
+        "skipped": 2893,
+        "corporate_events": 2,
+        "total_transaction_fees": "67675.59",
+        "sold_dividend_tax_payable": "519.03",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "269054.94",
+        "open_marked_pnl": "-78110.39",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.01544265,
+          "max_drawdown": -0.11106771572964279,
+          "end_equity": "1015442.65"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.1632150373041747,
+          "max_drawdown": -0.09952326193104834,
+          "end_equity": "1181178.16"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.09668157934786062,
+          "max_drawdown": -0.12866192958499742,
+          "end_equity": "1295376.33"
+        },
+        {
+          "year": 2023,
+          "return_pct": -0.025446141971731104,
+          "max_drawdown": -0.09033652416445874,
+          "end_equity": "1262414.00"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.05661332177875087,
+          "max_drawdown": -0.14186996953439598,
+          "end_equity": "1190944.55"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1811,
+        "nav_dates": 1212,
+        "closed_trades": 895,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "code_TP15_SL12_H20",
+        "rank": "code",
+        "tp": 0.15,
+        "sl": 0.12,
+        "h": 20,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 1264,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.15,
+        "stop_loss": 0.12,
+        "trailing": false,
+        "rank": "code",
+        "forced_day": 20,
+        "final_equity": "1384292.13",
+        "total_return": 0.38429213,
+        "annualized_return": 0.06717085252588162,
+        "max_drawdown": -0.18281242007978188,
+        "closed_trades": 794,
+        "open_positions": 17,
+        "pending_signals": 0,
+        "skipped": 2994,
+        "corporate_events": 12,
+        "total_transaction_fees": "60333.33",
+        "sold_dividend_tax_payable": "2690.75",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "462402.52",
+        "open_marked_pnl": "-78110.39",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.11770666,
+          "max_drawdown": -0.10451730396228441,
+          "end_equity": "1117706.66"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.11351079361019464,
+          "max_drawdown": -0.1362311871916629,
+          "end_equity": "1244578.43"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.141422208321576,
+          "max_drawdown": -0.10499285642765649,
+          "end_equity": "1420589.46"
+        },
+        {
+          "year": 2023,
+          "return_pct": -0.0071658915447676205,
+          "max_drawdown": -0.10588603975971306,
+          "end_equity": "1410409.67"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.018517697769329673,
+          "max_drawdown": -0.13772885768029589,
+          "end_equity": "1384292.13"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1629,
+        "nav_dates": 1212,
+        "closed_trades": 794,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "code_TP20_SL0_H10",
+        "rank": "code",
+        "tp": 0.2,
+        "sl": null,
+        "h": 10,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 1264,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.2,
+        "stop_loss": null,
+        "trailing": false,
+        "rank": "code",
+        "forced_day": 10,
+        "final_equity": "1281633.32",
+        "total_return": 0.28163332,
+        "annualized_return": 0.05085769887250602,
+        "max_drawdown": -0.1835564361586077,
+        "closed_trades": 822,
+        "open_positions": 19,
+        "pending_signals": 0,
+        "skipped": 2964,
+        "corporate_events": 2,
+        "total_transaction_fees": "62598.82",
+        "sold_dividend_tax_payable": "519.03",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "361026.65",
+        "open_marked_pnl": "-79393.33",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.035196,
+          "max_drawdown": -0.11604289449466175,
+          "end_equity": "1035196.00"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.1477429298413054,
+          "max_drawdown": -0.10615272229309233,
+          "end_equity": "1188138.89"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.12350326315806395,
+          "max_drawdown": -0.15297797931633575,
+          "end_equity": "1334877.92"
+        },
+        {
+          "year": 2023,
+          "return_pct": -0.020723707827903844,
+          "max_drawdown": -0.0938348800189123,
+          "end_equity": "1307214.30"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.019569079071426927,
+          "max_drawdown": -0.10946065527481724,
+          "end_equity": "1281633.32"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1667,
+        "nav_dates": 1212,
+        "closed_trades": 822,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "code_TP20_SL0_H20",
+        "rank": "code",
+        "tp": 0.2,
+        "sl": null,
+        "h": 20,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 1605,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.2,
+        "stop_loss": null,
+        "trailing": false,
+        "rank": "code",
+        "forced_day": 20,
+        "final_equity": "1269117.39",
+        "total_return": 0.26911739,
+        "annualized_return": 0.04879802612271411,
+        "max_drawdown": -0.23294327414275165,
+        "closed_trades": 623,
+        "open_positions": 20,
+        "pending_signals": 0,
+        "skipped": 3162,
+        "corporate_events": 11,
+        "total_transaction_fees": "47843.03",
+        "sold_dividend_tax_payable": "2610.02",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "376336.21",
+        "open_marked_pnl": "-107218.82",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.10993259,
+          "max_drawdown": -0.14292988229685075,
+          "end_equity": "1109932.59"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.10774285850999293,
+          "max_drawdown": -0.12371931033373208,
+          "end_equity": "1229519.90"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.13800661542769663,
+          "max_drawdown": -0.13379882099842527,
+          "end_equity": "1399201.78"
+        },
+        {
+          "year": 2023,
+          "return_pct": -0.05005783368857635,
+          "max_drawdown": -0.17008342775082413,
+          "end_equity": "1329160.77"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.04517390322917821,
+          "max_drawdown": -0.1521293648135948,
+          "end_equity": "1269117.39"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1288,
+        "nav_dates": 1212,
+        "closed_trades": 623,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "code_TP20_SL8_H10",
+        "rank": "code",
+        "tp": 0.2,
+        "sl": 0.08,
+        "h": 10,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 928,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.2,
+        "stop_loss": 0.08,
+        "trailing": false,
+        "rank": "code",
+        "forced_day": 10,
+        "final_equity": "1361561.77",
+        "total_return": 0.36156177,
+        "annualized_return": 0.06364441747163307,
+        "max_drawdown": -0.14537054393075255,
+        "closed_trades": 953,
+        "open_positions": 14,
+        "pending_signals": 0,
+        "skipped": 2838,
+        "corporate_events": 1,
+        "total_transaction_fees": "72266.37",
+        "sold_dividend_tax_payable": "27.03",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "390211.97",
+        "open_marked_pnl": "-28650.20",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.0666678,
+          "max_drawdown": -0.09167987907413522,
+          "end_equity": "1066667.80"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.16858333963020164,
+          "max_drawdown": -0.08252017202092432,
+          "end_equity": "1246490.22"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.08940242627816206,
+          "max_drawdown": -0.10112728473380107,
+          "end_equity": "1357929.47"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.01064111967464702,
+          "max_drawdown": -0.06582439530888025,
+          "end_equity": "1372379.36"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.00788236133192793,
+          "max_drawdown": -0.11130580688266097,
+          "end_equity": "1361561.77"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1922,
+        "nav_dates": 1212,
+        "closed_trades": 953,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "code_TP20_SL8_H20",
+        "rank": "code",
+        "tp": 0.2,
+        "sl": 0.08,
+        "h": 20,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 928,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.2,
+        "stop_loss": 0.08,
+        "trailing": false,
+        "rank": "code",
+        "forced_day": 20,
+        "final_equity": "1471283.42",
+        "total_return": 0.47128342,
+        "annualized_return": 0.08025304709124059,
+        "max_drawdown": -0.1660206860599253,
+        "closed_trades": 865,
+        "open_positions": 14,
+        "pending_signals": 0,
+        "skipped": 2926,
+        "corporate_events": 12,
+        "total_transaction_fees": "65531.91",
+        "sold_dividend_tax_payable": "1989.72",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "499933.62",
+        "open_marked_pnl": "-28650.20",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.09905841,
+          "max_drawdown": -0.13246178797014724,
+          "end_equity": "1099058.41"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.09344524282380952,
+          "max_drawdown": -0.10579009172042093,
+          "end_equity": "1201760.19"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.155726684539284,
+          "max_drawdown": -0.10427502031883332,
+          "end_equity": "1388906.32"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.053212242565070914,
+          "max_drawdown": -0.0677873231007141,
+          "end_equity": "1462813.14"
+        },
+        {
+          "year": 2024,
+          "return_pct": 0.005790404644574084,
+          "max_drawdown": -0.11732129947810256,
+          "end_equity": "1471283.42"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1768,
+        "nav_dates": 1212,
+        "closed_trades": 865,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "code_TP20_SL12_H10",
+        "rank": "code",
+        "tp": 0.2,
+        "sl": 0.12,
+        "h": 10,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 1264,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.2,
+        "stop_loss": 0.12,
+        "trailing": false,
+        "rank": "code",
+        "forced_day": 10,
+        "final_equity": "1211071.20",
+        "total_return": 0.2110712,
+        "annualized_return": 0.039027654808542867,
+        "max_drawdown": -0.16938221291141836,
+        "closed_trades": 876,
+        "open_positions": 18,
+        "pending_signals": 0,
+        "skipped": 2911,
+        "corporate_events": 2,
+        "total_transaction_fees": "66442.94",
+        "sold_dividend_tax_payable": "519.03",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "281377.06",
+        "open_marked_pnl": "-70305.86",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.03770279,
+          "max_drawdown": -0.10012757570344281,
+          "end_equity": "1037702.79"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.145253430416237,
+          "max_drawdown": -0.10087338818999003,
+          "end_equity": "1188432.68"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.11027628422335205,
+          "max_drawdown": -0.13580269536050366,
+          "end_equity": "1319488.62"
+        },
+        {
+          "year": 2023,
+          "return_pct": -0.014361859369427528,
+          "max_drawdown": -0.08489931791389131,
+          "end_equity": "1300538.31"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.06879236798491542,
+          "max_drawdown": -0.13263920288138745,
+          "end_equity": "1211071.20"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1774,
+        "nav_dates": 1212,
+        "closed_trades": 876,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "code_TP20_SL12_H20",
+        "rank": "code",
+        "tp": 0.2,
+        "sl": 0.12,
+        "h": 20,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 1264,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.2,
+        "stop_loss": 0.12,
+        "trailing": false,
+        "rank": "code",
+        "forced_day": 20,
+        "final_equity": "1451955.28",
+        "total_return": 0.45195528,
+        "annualized_return": 0.07740094322691671,
+        "max_drawdown": -0.16352427963033583,
+        "closed_trades": 762,
+        "open_positions": 18,
+        "pending_signals": 0,
+        "skipped": 3025,
+        "corporate_events": 14,
+        "total_transaction_fees": "58083.78",
+        "sold_dividend_tax_payable": "2776.15",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "522261.14",
+        "open_marked_pnl": "-70305.86",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.14349425,
+          "max_drawdown": -0.11734402834760571,
+          "end_equity": "1143494.25"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.08772107948946836,
+          "max_drawdown": -0.12854529327484698,
+          "end_equity": "1243802.80"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.17535233077140525,
+          "max_drawdown": -0.11742028674564518,
+          "end_equity": "1461906.52"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.006673805654823949,
+          "max_drawdown": -0.10549782575179109,
+          "end_equity": "1471663.00"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.013391462583485485,
+          "max_drawdown": -0.12585404511685358,
+          "end_equity": "1451955.28"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1570,
+        "nav_dates": 1212,
+        "closed_trades": 762,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP10_SL0_H10",
+        "rank": "liquid",
+        "tp": 0.1,
+        "sl": null,
+        "h": 10,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 871,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.1,
+        "stop_loss": null,
+        "trailing": false,
+        "rank": "liquid",
+        "forced_day": 10,
+        "final_equity": "1252861.95",
+        "total_return": 0.25286195,
+        "annualized_return": 0.04609856395127876,
+        "max_drawdown": -0.19276427783899838,
+        "closed_trades": 881,
+        "open_positions": 15,
+        "pending_signals": 0,
+        "skipped": 2909,
+        "corporate_events": 5,
+        "total_transaction_fees": "66609.31",
+        "sold_dividend_tax_payable": "878.31",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "277196.41",
+        "open_marked_pnl": "-24334.46",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": -0.02222844,
+          "max_drawdown": -0.14403838005382963,
+          "end_equity": "977771.56"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.14066998430594566,
+          "max_drawdown": -0.09097420213830039,
+          "end_equity": "1115314.67"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.11231254583964183,
+          "max_drawdown": -0.1479800189870107,
+          "end_equity": "1240578.50"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.008548229717023147,
+          "max_drawdown": -0.05897221725710405,
+          "end_equity": "1251183.25"
+        },
+        {
+          "year": 2024,
+          "return_pct": 0.0013416899562873784,
+          "max_drawdown": -0.13239265450626178,
+          "end_equity": "1252861.95"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1787,
+        "nav_dates": 1212,
+        "closed_trades": 881,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP10_SL0_H20",
+        "rank": "liquid",
+        "tp": 0.1,
+        "sl": null,
+        "h": 20,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 1212,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.1,
+        "stop_loss": null,
+        "trailing": false,
+        "rank": "liquid",
+        "forced_day": 20,
+        "final_equity": "1175852.47",
+        "total_return": 0.17585247,
+        "annualized_return": 0.03291549176198316,
+        "max_drawdown": -0.22385441110901205,
+        "closed_trades": 684,
+        "open_positions": 16,
+        "pending_signals": 0,
+        "skipped": 3105,
+        "corporate_events": 12,
+        "total_transaction_fees": "52093.81",
+        "sold_dividend_tax_payable": "2194.36",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "228012.42",
+        "open_marked_pnl": "-52159.95",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.06025245,
+          "max_drawdown": -0.12108738881811529,
+          "end_equity": "1060252.45"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.09811509513606877,
+          "max_drawdown": -0.13726720971038228,
+          "end_equity": "1164279.22"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.08408067267575213,
+          "max_drawdown": -0.14410194461930687,
+          "end_equity": "1262172.60"
+        },
+        {
+          "year": 2023,
+          "return_pct": -0.015376391469756197,
+          "max_drawdown": -0.12799569675525838,
+          "end_equity": "1242764.94"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.05384161384533426,
+          "max_drawdown": -0.17178189787040501,
+          "end_equity": "1175852.47"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1408,
+        "nav_dates": 1212,
+        "closed_trades": 684,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP10_SL8_H10",
+        "rank": "liquid",
+        "tp": 0.1,
+        "sl": 0.08,
+        "h": 10,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 871,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.1,
+        "stop_loss": 0.08,
+        "trailing": false,
+        "rank": "liquid",
+        "forced_day": 10,
+        "final_equity": "1212382.63",
+        "total_return": 0.21238263,
+        "annualized_return": 0.03925249097443362,
+        "max_drawdown": -0.18123820037744562,
+        "closed_trades": 1026,
+        "open_positions": 11,
+        "pending_signals": 0,
+        "skipped": 2768,
+        "corporate_events": 6,
+        "total_transaction_fees": "77224.87",
+        "sold_dividend_tax_payable": "762.87",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "214069.44",
+        "open_marked_pnl": "-1686.81",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.01817017,
+          "max_drawdown": -0.10485461520321614,
+          "end_equity": "1018170.17"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.08424155659559344,
+          "max_drawdown": -0.09579611824612776,
+          "end_equity": "1103942.41"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.07083624951051568,
+          "max_drawdown": -0.12398973292943677,
+          "end_equity": "1182141.55"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.02178335580878618,
+          "max_drawdown": -0.056558056286293235,
+          "end_equity": "1207892.56"
+        },
+        {
+          "year": 2024,
+          "return_pct": 0.0037172759802411564,
+          "max_drawdown": -0.10897972772411915,
+          "end_equity": "1212382.63"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 2075,
+        "nav_dates": 1212,
+        "closed_trades": 1026,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP10_SL8_H20",
+        "rank": "liquid",
+        "tp": 0.1,
+        "sl": 0.08,
+        "h": 20,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 871,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.1,
+        "stop_loss": 0.08,
+        "trailing": false,
+        "rank": "liquid",
+        "forced_day": 20,
+        "final_equity": "1249771.04",
+        "total_return": 0.24977104,
+        "annualized_return": 0.045582104218440334,
+        "max_drawdown": -0.19163899705525345,
+        "closed_trades": 981,
+        "open_positions": 11,
+        "pending_signals": 0,
+        "skipped": 2813,
+        "corporate_events": 15,
+        "total_transaction_fees": "73880.05",
+        "sold_dividend_tax_payable": "2767.16",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "251457.85",
+        "open_marked_pnl": "-1686.81",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.03356918,
+          "max_drawdown": -0.11791589711463653,
+          "end_equity": "1033569.18"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.07280608928373812,
+          "max_drawdown": -0.11429524243360276,
+          "end_equity": "1108819.31"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.10725846756763281,
+          "max_drawdown": -0.12667187440168887,
+          "end_equity": "1227749.57"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.06817319431030222,
+          "max_drawdown": -0.05202381119825985,
+          "end_equity": "1311449.18"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.04703052237220508,
+          "max_drawdown": -0.11904841451799825,
+          "end_equity": "1249771.04"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 2003,
+        "nav_dates": 1212,
+        "closed_trades": 981,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP10_SL12_H10",
+        "rank": "liquid",
+        "tp": 0.1,
+        "sl": 0.12,
+        "h": 10,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 871,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.1,
+        "stop_loss": 0.12,
+        "trailing": false,
+        "rank": "liquid",
+        "forced_day": 10,
+        "final_equity": "1200068.53",
+        "total_return": 0.20006853,
+        "annualized_return": 0.03713360514409758,
+        "max_drawdown": -0.17815274726678132,
+        "closed_trades": 943,
+        "open_positions": 14,
+        "pending_signals": 0,
+        "skipped": 2848,
+        "corporate_events": 7,
+        "total_transaction_fees": "71032.13",
+        "sold_dividend_tax_payable": "977.91",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "215315.52",
+        "open_marked_pnl": "-15246.99",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": -0.00431309,
+          "max_drawdown": -0.12319059410422546,
+          "end_equity": "995686.91"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.12719186998250284,
+          "max_drawdown": -0.09277321765396962,
+          "end_equity": "1122330.19"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.12454879254384131,
+          "max_drawdown": -0.11571447779419722,
+          "end_equity": "1262115.06"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.011424108987337494,
+          "max_drawdown": -0.055127606811165686,
+          "end_equity": "1276533.60"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.059900554125641506,
+          "max_drawdown": -0.15740001422069366,
+          "end_equity": "1200068.53"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1914,
+        "nav_dates": 1212,
+        "closed_trades": 943,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP10_SL12_H20",
+        "rank": "liquid",
+        "tp": 0.1,
+        "sl": 0.12,
+        "h": 20,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 871,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.1,
+        "stop_loss": 0.12,
+        "trailing": false,
+        "rank": "liquid",
+        "forced_day": 20,
+        "final_equity": "1258182.98",
+        "total_return": 0.25818298,
+        "annualized_return": 0.046985270975516524,
+        "max_drawdown": -0.1696030568379164,
+        "closed_trades": 850,
+        "open_positions": 14,
+        "pending_signals": 0,
+        "skipped": 2941,
+        "corporate_events": 16,
+        "total_transaction_fees": "64211.00",
+        "sold_dividend_tax_payable": "2866.63",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "273429.97",
+        "open_marked_pnl": "-15246.99",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.09373023,
+          "max_drawdown": -0.07891553578645315,
+          "end_equity": "1093730.23"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.09281989947374866,
+          "max_drawdown": -0.11149553761534048,
+          "end_equity": "1195250.16"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.09788201994467836,
+          "max_drawdown": -0.12067066034004792,
+          "end_equity": "1312243.66"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.0423993894548517,
+          "max_drawdown": -0.06637474293051883,
+          "end_equity": "1367881.99"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.08019625289459363,
+          "max_drawdown": -0.16505001283041967,
+          "end_equity": "1258182.98"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1746,
+        "nav_dates": 1212,
+        "closed_trades": 850,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP15_SL0_H10",
+        "rank": "liquid",
+        "tp": 0.15,
+        "sl": null,
+        "h": 10,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 1207,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.15,
+        "stop_loss": null,
+        "trailing": false,
+        "rank": "liquid",
+        "forced_day": 10,
+        "final_equity": "1184577.81",
+        "total_return": 0.18457781,
+        "annualized_return": 0.03444327101264566,
+        "max_drawdown": -0.2040004863911687,
+        "closed_trades": 839,
+        "open_positions": 17,
+        "pending_signals": 0,
+        "skipped": 2949,
+        "corporate_events": 5,
+        "total_transaction_fees": "63488.13",
+        "sold_dividend_tax_payable": "855.23",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "233852.20",
+        "open_marked_pnl": "-49274.39",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": -0.00464254,
+          "max_drawdown": -0.135718238975289,
+          "end_equity": "995357.46"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.11725215783282521,
+          "max_drawdown": -0.10726326372465325,
+          "end_equity": "1112065.27"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.08148724040271485,
+          "max_drawdown": -0.17018005182512466,
+          "end_equity": "1202684.40"
+        },
+        {
+          "year": 2023,
+          "return_pct": -0.03552506376568949,
+          "max_drawdown": -0.10682335507461739,
+          "end_equity": "1159958.96"
+        },
+        {
+          "year": 2024,
+          "return_pct": 0.021223897438578346,
+          "max_drawdown": -0.13409438564754234,
+          "end_equity": "1184577.81"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1705,
+        "nav_dates": 1212,
+        "closed_trades": 839,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP15_SL0_H20",
+        "rank": "liquid",
+        "tp": 0.15,
+        "sl": null,
+        "h": 20,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 1548,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.15,
+        "stop_loss": null,
+        "trailing": false,
+        "rank": "liquid",
+        "forced_day": 20,
+        "final_equity": "1140634.27",
+        "total_return": 0.14063427,
+        "annualized_return": 0.026655153008023458,
+        "max_drawdown": -0.27935698962614774,
+        "closed_trades": 647,
+        "open_positions": 18,
+        "pending_signals": 0,
+        "skipped": 3140,
+        "corporate_events": 10,
+        "total_transaction_fees": "49344.99",
+        "sold_dividend_tax_payable": "1779.98",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "217734.15",
+        "open_marked_pnl": "-77099.88",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.09767533,
+          "max_drawdown": -0.10581781713570818,
+          "end_equity": "1097675.33"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.09108530297387663,
+          "max_drawdown": -0.13547167497200305,
+          "end_equity": "1197657.42"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.08686004717442489,
+          "max_drawdown": -0.15068945155847904,
+          "end_equity": "1301686.00"
+        },
+        {
+          "year": 2023,
+          "return_pct": -0.0736970052685517,
+          "max_drawdown": -0.1863338167265223,
+          "end_equity": "1205755.64"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.05400876250514573,
+          "max_drawdown": -0.1810119494680028,
+          "end_equity": "1140634.27"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1332,
+        "nav_dates": 1212,
+        "closed_trades": 647,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP15_SL8_H10",
+        "rank": "liquid",
+        "tp": 0.15,
+        "sl": 0.08,
+        "h": 10,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 871,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.15,
+        "stop_loss": 0.08,
+        "trailing": false,
+        "rank": "liquid",
+        "forced_day": 10,
+        "final_equity": "1248668.85",
+        "total_return": 0.24866885,
+        "annualized_return": 0.045397692250632504,
+        "max_drawdown": -0.180219311407452,
+        "closed_trades": 987,
+        "open_positions": 12,
+        "pending_signals": 0,
+        "skipped": 2806,
+        "corporate_events": 5,
+        "total_transaction_fees": "74454.09",
+        "sold_dividend_tax_payable": "311.23",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "247200.11",
+        "open_marked_pnl": "1468.74",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.0475927,
+          "max_drawdown": -0.10171316528616496,
+          "end_equity": "1047592.70"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.09941218567101508,
+          "max_drawdown": -0.09820940942950984,
+          "end_equity": "1151736.18"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.05719666634072397,
+          "max_drawdown": -0.13384384312691433,
+          "end_equity": "1217611.65"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.00035961383910871746,
+          "max_drawdown": -0.07522894417433916,
+          "end_equity": "1218049.52"
+        },
+        {
+          "year": 2024,
+          "return_pct": 0.025138000957465177,
+          "max_drawdown": -0.10568430707680841,
+          "end_equity": "1248668.85"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1996,
+        "nav_dates": 1212,
+        "closed_trades": 987,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP15_SL8_H20",
+        "rank": "liquid",
+        "tp": 0.15,
+        "sl": 0.08,
+        "h": 20,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 871,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.15,
+        "stop_loss": 0.08,
+        "trailing": false,
+        "rank": "liquid",
+        "forced_day": 20,
+        "final_equity": "1273800.64",
+        "total_return": 0.27380064,
+        "annualized_return": 0.049570615827970066,
+        "max_drawdown": -0.17878393347995658,
+        "closed_trades": 919,
+        "open_positions": 12,
+        "pending_signals": 0,
+        "skipped": 2874,
+        "corporate_events": 13,
+        "total_transaction_fees": "69244.89",
+        "sold_dividend_tax_payable": "2157.52",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "272331.90",
+        "open_marked_pnl": "1468.74",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.08733095,
+          "max_drawdown": -0.10621851863978149,
+          "end_equity": "1087330.95"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.03725312886568712,
+          "max_drawdown": -0.12573536143710431,
+          "end_equity": "1127837.43"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.08165488886106573,
+          "max_drawdown": -0.1484966065583167,
+          "end_equity": "1219930.87"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.0466492580845995,
+          "max_drawdown": -0.07397298931847597,
+          "end_equity": "1276839.74"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.0023801734115825686,
+          "max_drawdown": -0.12197250233970258,
+          "end_equity": "1273800.64"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1876,
+        "nav_dates": 1212,
+        "closed_trades": 919,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP15_SL12_H10",
+        "rank": "liquid",
+        "tp": 0.15,
+        "sl": 0.12,
+        "h": 10,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 1207,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.15,
+        "stop_loss": 0.12,
+        "trailing": false,
+        "rank": "liquid",
+        "forced_day": 10,
+        "final_equity": "1137130.85",
+        "total_return": 0.13713085,
+        "annualized_return": 0.026023968490061167,
+        "max_drawdown": -0.20986202619553052,
+        "closed_trades": 892,
+        "open_positions": 16,
+        "pending_signals": 0,
+        "skipped": 2897,
+        "corporate_events": 6,
+        "total_transaction_fees": "67264.25",
+        "sold_dividend_tax_payable": "526.27",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "177317.77",
+        "open_marked_pnl": "-40186.92",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.01665847,
+          "max_drawdown": -0.11210686270267957,
+          "end_equity": "1016658.47"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.10262779790739363,
+          "max_drawdown": -0.10604991714446081,
+          "end_equity": "1120995.89"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.09939284433950958,
+          "max_drawdown": -0.1290368864843943,
+          "end_equity": "1232414.86"
+        },
+        {
+          "year": 2023,
+          "return_pct": -0.029411808617757173,
+          "max_drawdown": -0.09737546090319643,
+          "end_equity": "1196167.31"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.04935468433759488,
+          "max_drawdown": -0.16052596806771274,
+          "end_equity": "1137130.85"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1812,
+        "nav_dates": 1212,
+        "closed_trades": 892,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP15_SL12_H20",
+        "rank": "liquid",
+        "tp": 0.15,
+        "sl": 0.12,
+        "h": 20,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 1207,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.15,
+        "stop_loss": 0.12,
+        "trailing": false,
+        "rank": "liquid",
+        "forced_day": 20,
+        "final_equity": "1225020.47",
+        "total_return": 0.22502047,
+        "annualized_return": 0.04140925380049465,
+        "max_drawdown": -0.21057231889778816,
+        "closed_trades": 793,
+        "open_positions": 16,
+        "pending_signals": 0,
+        "skipped": 2996,
+        "corporate_events": 14,
+        "total_transaction_fees": "59964.95",
+        "sold_dividend_tax_payable": "2326.99",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "265207.39",
+        "open_marked_pnl": "-40186.92",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.1288046,
+          "max_drawdown": -0.08159073590285995,
+          "end_equity": "1128804.60"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.03814334208064,
+          "max_drawdown": -0.1592535969599196,
+          "end_equity": "1171860.98"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.10493359886426118,
+          "max_drawdown": -0.1248633797944001,
+          "end_equity": "1294828.57"
+        },
+        {
+          "year": 2023,
+          "return_pct": -0.001958614490565342,
+          "max_drawdown": -0.11596024845868341,
+          "end_equity": "1292292.50"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.05205634947196552,
+          "max_drawdown": -0.16038455737355195,
+          "end_equity": "1225020.47"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1630,
+        "nav_dates": 1212,
+        "closed_trades": 793,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP20_SL0_H10",
+        "rank": "liquid",
+        "tp": 0.2,
+        "sl": null,
+        "h": 10,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 1207,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.2,
+        "stop_loss": null,
+        "trailing": false,
+        "rank": "liquid",
+        "forced_day": 10,
+        "final_equity": "1278397.30",
+        "total_return": 0.2783973,
+        "annualized_return": 0.050326714050658916,
+        "max_drawdown": -0.18742855759142252,
+        "closed_trades": 827,
+        "open_positions": 18,
+        "pending_signals": 0,
+        "skipped": 2960,
+        "corporate_events": 5,
+        "total_transaction_fees": "62761.64",
+        "sold_dividend_tax_payable": "855.23",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "319867.16",
+        "open_marked_pnl": "-41469.86",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.01237805,
+          "max_drawdown": -0.1251519961981379,
+          "end_equity": "1012378.05"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.1313779570783859,
+          "max_drawdown": -0.1084717571302824,
+          "end_equity": "1145382.21"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.0887217638905008,
+          "max_drawdown": -0.17071994671749652,
+          "end_equity": "1247002.54"
+        },
+        {
+          "year": 2023,
+          "return_pct": -0.023025951494854213,
+          "max_drawdown": -0.10101942944329498,
+          "end_equity": "1218289.12"
+        },
+        {
+          "year": 2024,
+          "return_pct": 0.04933818993639211,
+          "max_drawdown": -0.12648016269326584,
+          "end_equity": "1278397.30"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1682,
+        "nav_dates": 1212,
+        "closed_trades": 827,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP20_SL0_H20",
+        "rank": "liquid",
+        "tp": 0.2,
+        "sl": null,
+        "h": 20,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 1617,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.2,
+        "stop_loss": null,
+        "trailing": false,
+        "rank": "liquid",
+        "forced_day": 20,
+        "final_equity": "1234624.70",
+        "total_return": 0.2346247,
+        "annualized_return": 0.04303642957893872,
+        "max_drawdown": -0.24026581863346733,
+        "closed_trades": 623,
+        "open_positions": 20,
+        "pending_signals": 0,
+        "skipped": 3162,
+        "corporate_events": 10,
+        "total_transaction_fees": "47748.56",
+        "sold_dividend_tax_payable": "1779.98",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "328921.54",
+        "open_marked_pnl": "-94296.84",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.11887838,
+          "max_drawdown": -0.1013475851756729,
+          "end_equity": "1118878.38"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.0875053193895837,
+          "max_drawdown": -0.12998481445038973,
+          "end_equity": "1216786.19"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.09860186693933468,
+          "max_drawdown": -0.15354624246161847,
+          "end_equity": "1336763.58"
+        },
+        {
+          "year": 2023,
+          "return_pct": -0.040152552630136736,
+          "max_drawdown": -0.17255613946139914,
+          "end_equity": "1283089.11"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.037771663419386356,
+          "max_drawdown": -0.1670282303657195,
+          "end_equity": "1234624.70"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1286,
+        "nav_dates": 1212,
+        "closed_trades": 623,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP20_SL8_H10",
+        "rank": "liquid",
+        "tp": 0.2,
+        "sl": 0.08,
+        "h": 10,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 871,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.2,
+        "stop_loss": 0.08,
+        "trailing": false,
+        "rank": "liquid",
+        "forced_day": 10,
+        "final_equity": "1277470.22",
+        "total_return": 0.27747022,
+        "annualized_return": 0.05017439525967804,
+        "max_drawdown": -0.17251615718444965,
+        "closed_trades": 971,
+        "open_positions": 13,
+        "pending_signals": 0,
+        "skipped": 2821,
+        "corporate_events": 5,
+        "total_transaction_fees": "73323.72",
+        "sold_dividend_tax_payable": "311.23",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "268196.95",
+        "open_marked_pnl": "9273.27",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.0607042,
+          "max_drawdown": -0.09891317143521292,
+          "end_equity": "1060704.20"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.11678223768700077,
+          "max_drawdown": -0.10054938657671056,
+          "end_equity": "1184575.61"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.03699369599547977,
+          "max_drawdown": -0.14478050823707495,
+          "end_equity": "1228397.44"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.011763204260666646,
+          "max_drawdown": -0.07246197694174271,
+          "end_equity": "1242847.33"
+        },
+        {
+          "year": 2024,
+          "return_pct": 0.027857717649037394,
+          "max_drawdown": -0.13094721171690119,
+          "end_equity": "1277470.22"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1965,
+        "nav_dates": 1212,
+        "closed_trades": 971,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP20_SL8_H20",
+        "rank": "liquid",
+        "tp": 0.2,
+        "sl": 0.08,
+        "h": 20,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 871,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.2,
+        "stop_loss": 0.08,
+        "trailing": false,
+        "rank": "liquid",
+        "forced_day": 20,
+        "final_equity": "1327364.07",
+        "total_return": 0.32736407,
+        "annualized_return": 0.058249114706781846,
+        "max_drawdown": -0.17727754157612494,
+        "closed_trades": 887,
+        "open_positions": 13,
+        "pending_signals": 0,
+        "skipped": 2905,
+        "corporate_events": 14,
+        "total_transaction_fees": "66871.06",
+        "sold_dividend_tax_payable": "2280.92",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "318090.80",
+        "open_marked_pnl": "9273.27",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.1055964,
+          "max_drawdown": -0.10998890600743721,
+          "end_equity": "1105596.40"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.030604260288835963,
+          "max_drawdown": -0.11150132182051244,
+          "end_equity": "1139432.36"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.07123862973314186,
+          "max_drawdown": -0.1565818309053572,
+          "end_equity": "1220603.96"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.08077021968698185,
+          "max_drawdown": -0.06057450445247085,
+          "end_equity": "1319192.41"
+        },
+        {
+          "year": 2024,
+          "return_pct": 0.006194441340061986,
+          "max_drawdown": -0.1419203195412568,
+          "end_equity": "1327364.07"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1815,
+        "nav_dates": 1212,
+        "closed_trades": 887,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP20_SL12_H10",
+        "rank": "liquid",
+        "tp": 0.2,
+        "sl": 0.12,
+        "h": 10,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 1207,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.2,
+        "stop_loss": 0.12,
+        "trailing": false,
+        "rank": "liquid",
+        "forced_day": 10,
+        "final_equity": "1208530.98",
+        "total_return": 0.20853098,
+        "annualized_return": 0.03859159590838024,
+        "max_drawdown": -0.20333975067493348,
+        "closed_trades": 878,
+        "open_positions": 17,
+        "pending_signals": 0,
+        "skipped": 2910,
+        "corporate_events": 6,
+        "total_transaction_fees": "66362.12",
+        "sold_dividend_tax_payable": "526.27",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "240913.37",
+        "open_marked_pnl": "-32382.39",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.02918527,
+          "max_drawdown": -0.10598347239966371,
+          "end_equity": "1029185.27"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.10619219219878652,
+          "max_drawdown": -0.1147576979150858,
+          "end_equity": "1138476.71"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.10325446183260086,
+          "max_drawdown": -0.135509718439553,
+          "end_equity": "1256029.51"
+        },
+        {
+          "year": 2023,
+          "return_pct": -0.017703031515557306,
+          "max_drawdown": -0.09157254000116385,
+          "end_equity": "1233793.98"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.020475865832965078,
+          "max_drawdown": -0.16408689096848614,
+          "end_equity": "1208530.98"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1785,
+        "nav_dates": 1212,
+        "closed_trades": 878,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP20_SL12_H20",
+        "rank": "liquid",
+        "tp": 0.2,
+        "sl": 0.12,
+        "h": 20,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 1207,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.2,
+        "stop_loss": 0.12,
+        "trailing": false,
+        "rank": "liquid",
+        "forced_day": 20,
+        "final_equity": "1350010.00",
+        "total_return": 0.35001,
+        "annualized_return": 0.06183416827710886,
+        "max_drawdown": -0.19739862781347034,
+        "closed_trades": 769,
+        "open_positions": 17,
+        "pending_signals": 0,
+        "skipped": 3019,
+        "corporate_events": 13,
+        "total_transaction_fees": "58337.86",
+        "sold_dividend_tax_payable": "2087.35",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "382392.39",
+        "open_marked_pnl": "-32382.39",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.15684825,
+          "max_drawdown": -0.07425643084417786,
+          "end_equity": "1156848.25"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.04193163623664556,
+          "max_drawdown": -0.14832580578781412,
+          "end_equity": "1205356.79"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.12171849963196374,
+          "max_drawdown": -0.13240414771791323,
+          "end_equity": "1352071.01"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.02002672182136351,
+          "max_drawdown": -0.10650375588676028,
+          "end_equity": "1379148.56"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.021127934179911698,
+          "max_drawdown": -0.15610661126461667,
+          "end_equity": "1350010.00"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1581,
+        "nav_dates": 1212,
+        "closed_trades": 769,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "deep_TP10_SL0_H10",
+        "rank": "deep",
+        "tp": 0.1,
+        "sl": null,
+        "h": 10,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 871,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.1,
+        "stop_loss": null,
+        "trailing": false,
+        "rank": "deep",
+        "forced_day": 10,
+        "final_equity": "1221305.03",
+        "total_return": 0.22130503,
+        "annualized_return": 0.04077703473262839,
+        "max_drawdown": -0.19819936982240427,
+        "closed_trades": 898,
+        "open_positions": 15,
+        "pending_signals": 0,
+        "skipped": 2892,
+        "corporate_events": 2,
+        "total_transaction_fees": "67862.27",
+        "sold_dividend_tax_payable": "242.07",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "245639.49",
+        "open_marked_pnl": "-24334.46",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": -0.00528684,
+          "max_drawdown": -0.13545756182625432,
+          "end_equity": "994713.16"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.13190165293480183,
+          "max_drawdown": -0.10281901191249873,
+          "end_equity": "1125917.47"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.1096212851195923,
+          "max_drawdown": -0.15450613994452408,
+          "end_equity": "1249341.99"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.006003432254766367,
+          "max_drawdown": -0.06097945226768993,
+          "end_equity": "1256842.33"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.02827506613339479,
+          "max_drawdown": -0.12445026295122563,
+          "end_equity": "1221305.03"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1815,
+        "nav_dates": 1212,
+        "closed_trades": 898,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "deep_TP10_SL0_H20",
+        "rank": "deep",
+        "tp": 0.1,
+        "sl": null,
+        "h": 20,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 1212,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.1,
+        "stop_loss": null,
+        "trailing": false,
+        "rank": "deep",
+        "forced_day": 20,
+        "final_equity": "1237839.70",
+        "total_return": 0.2378397,
+        "annualized_return": 0.04357886148634127,
+        "max_drawdown": -0.1998508226563518,
+        "closed_trades": 694,
+        "open_positions": 16,
+        "pending_signals": 0,
+        "skipped": 3095,
+        "corporate_events": 11,
+        "total_transaction_fees": "52895.58",
+        "sold_dividend_tax_payable": "1999.36",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "289999.65",
+        "open_marked_pnl": "-52159.95",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.06868019,
+          "max_drawdown": -0.12342299229509592,
+          "end_equity": "1068680.19"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.13703483172079758,
+          "max_drawdown": -0.11356556443651315,
+          "end_equity": "1215126.60"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.07427418673906076,
+          "max_drawdown": -0.14944194713994635,
+          "end_equity": "1305379.14"
+        },
+        {
+          "year": 2023,
+          "return_pct": -0.00412830252519586,
+          "max_drawdown": -0.11800442287206873,
+          "end_equity": "1299990.14"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.0478083933775067,
+          "max_drawdown": -0.15715953045613099,
+          "end_equity": "1237839.70"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1426,
+        "nav_dates": 1212,
+        "closed_trades": 694,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "deep_TP10_SL8_H10",
+        "rank": "deep",
+        "tp": 0.1,
+        "sl": 0.08,
+        "h": 10,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 871,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.1,
+        "stop_loss": 0.08,
+        "trailing": false,
+        "rank": "deep",
+        "forced_day": 10,
+        "final_equity": "1290164.75",
+        "total_return": 0.29016475,
+        "annualized_return": 0.05225246115251303,
+        "max_drawdown": -0.15571096365234838,
+        "closed_trades": 1044,
+        "open_positions": 11,
+        "pending_signals": 0,
+        "skipped": 2750,
+        "corporate_events": 1,
+        "total_transaction_fees": "78701.39",
+        "sold_dividend_tax_payable": "27.03",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "291851.56",
+        "open_marked_pnl": "-1686.81",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.04841368,
+          "max_drawdown": -0.09224328818162465,
+          "end_equity": "1048413.68"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.11831387968917002,
+          "max_drawdown": -0.0850624356055719,
+          "end_equity": "1172455.57"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.08593179356041611,
+          "max_drawdown": -0.11943082288641746,
+          "end_equity": "1273206.78"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.027907509257844198,
+          "max_drawdown": -0.045249076463528826,
+          "end_equity": "1308738.81"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.014192335291103654,
+          "max_drawdown": -0.12162182402711322,
+          "end_equity": "1290164.75"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 2101,
+        "nav_dates": 1212,
+        "closed_trades": 1044,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "deep_TP10_SL8_H20",
+        "rank": "deep",
+        "tp": 0.1,
+        "sl": 0.08,
+        "h": 20,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 871,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.1,
+        "stop_loss": 0.08,
+        "trailing": false,
+        "rank": "deep",
+        "forced_day": 20,
+        "final_equity": "1282952.38",
+        "total_return": 0.28295238,
+        "annualized_return": 0.05107383014631761,
+        "max_drawdown": -0.16588202886151204,
+        "closed_trades": 1007,
+        "open_positions": 11,
+        "pending_signals": 0,
+        "skipped": 2787,
+        "corporate_events": 9,
+        "total_transaction_fees": "75738.35",
+        "sold_dividend_tax_payable": "1746.32",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "284639.19",
+        "open_marked_pnl": "-1686.81",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.08826172,
+          "max_drawdown": -0.08974883162766732,
+          "end_equity": "1088261.72"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.06985311401011146,
+          "max_drawdown": -0.11877827513771227,
+          "end_equity": "1164280.19"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.08388814895149938,
+          "max_drawdown": -0.13803698826514726,
+          "end_equity": "1261949.50"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.06063553256291159,
+          "max_drawdown": -0.05859473950139637,
+          "end_equity": "1338468.48"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.0414773308669921,
+          "max_drawdown": -0.1372267446172463,
+          "end_equity": "1282952.38"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 2043,
+        "nav_dates": 1212,
+        "closed_trades": 1007,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "deep_TP10_SL12_H10",
+        "rank": "deep",
+        "tp": 0.1,
+        "sl": 0.12,
+        "h": 10,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 871,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.1,
+        "stop_loss": 0.12,
+        "trailing": false,
+        "rank": "deep",
+        "forced_day": 10,
+        "final_equity": "1231953.80",
+        "total_return": 0.2319538,
+        "annualized_return": 0.04258493764675908,
+        "max_drawdown": -0.18375978129550188,
+        "closed_trades": 962,
+        "open_positions": 14,
+        "pending_signals": 0,
+        "skipped": 2829,
+        "corporate_events": 2,
+        "total_transaction_fees": "72351.50",
+        "sold_dividend_tax_payable": "242.07",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "247200.79",
+        "open_marked_pnl": "-15246.99",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.00500089,
+          "max_drawdown": -0.12146959512861728,
+          "end_equity": "1005000.89"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.1203771968798953,
+          "max_drawdown": -0.08851885452277371,
+          "end_equity": "1125980.08"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.13510471695023238,
+          "max_drawdown": -0.11765455784015115,
+          "end_equity": "1278105.30"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.018394783278028813,
+          "max_drawdown": -0.04752101321540523,
+          "end_equity": "1301615.77"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.05351961124441509,
+          "max_drawdown": -0.14288414189764945,
+          "end_equity": "1231953.80"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1942,
+        "nav_dates": 1212,
+        "closed_trades": 962,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "deep_TP10_SL12_H20",
+        "rank": "deep",
+        "tp": 0.1,
+        "sl": 0.12,
+        "h": 20,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 871,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.1,
+        "stop_loss": 0.12,
+        "trailing": false,
+        "rank": "deep",
+        "forced_day": 20,
+        "final_equity": "1256260.88",
+        "total_return": 0.25626088,
+        "annualized_return": 0.046665315168588295,
+        "max_drawdown": -0.16781879830450214,
+        "closed_trades": 879,
+        "open_positions": 14,
+        "pending_signals": 0,
+        "skipped": 2912,
+        "corporate_events": 10,
+        "total_transaction_fees": "66203.60",
+        "sold_dividend_tax_payable": "1953.66",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "271507.87",
+        "open_marked_pnl": "-15246.99",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.08234641,
+          "max_drawdown": -0.1062811493857907,
+          "end_equity": "1082346.41"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.11183380744063262,
+          "max_drawdown": -0.11764618995388827,
+          "end_equity": "1203389.33"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.09190654033803008,
+          "max_drawdown": -0.13499040217693636,
+          "end_equity": "1313988.68"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.03259471002444252,
+          "max_drawdown": -0.07580046335157728,
+          "end_equity": "1356817.76"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.0741122964074409,
+          "max_drawdown": -0.15536242685974275,
+          "end_equity": "1256260.88"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1792,
+        "nav_dates": 1212,
+        "closed_trades": 879,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "deep_TP15_SL0_H10",
+        "rank": "deep",
+        "tp": 0.15,
+        "sl": null,
+        "h": 10,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 1207,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.15,
+        "stop_loss": null,
+        "trailing": false,
+        "rank": "deep",
+        "forced_day": 10,
+        "final_equity": "1252543.86",
+        "total_return": 0.25254386,
+        "annualized_return": 0.046045461423607215,
+        "max_drawdown": -0.16800386589363994,
+        "closed_trades": 851,
+        "open_positions": 17,
+        "pending_signals": 0,
+        "skipped": 2937,
+        "corporate_events": 3,
+        "total_transaction_fees": "64582.28",
+        "sold_dividend_tax_payable": "314.03",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "301818.25",
+        "open_marked_pnl": "-49274.39",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.04342982,
+          "max_drawdown": -0.10999643043089072,
+          "end_equity": "1043429.82"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.14545914549384836,
+          "max_drawdown": -0.09260401255029319,
+          "end_equity": "1195206.23"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.12386986972114428,
+          "max_drawdown": -0.1481563100792606,
+          "end_equity": "1343256.27"
+        },
+        {
+          "year": 2023,
+          "return_pct": -0.031953120903727476,
+          "max_drawdown": -0.09613052634792976,
+          "end_equity": "1300335.04"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.03675297406428423,
+          "max_drawdown": -0.11567203961736826,
+          "end_equity": "1252543.86"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1725,
+        "nav_dates": 1212,
+        "closed_trades": 851,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "deep_TP15_SL0_H20",
+        "rank": "deep",
+        "tp": 0.15,
+        "sl": null,
+        "h": 20,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 1548,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.15,
+        "stop_loss": null,
+        "trailing": false,
+        "rank": "deep",
+        "forced_day": 20,
+        "final_equity": "1222744.33",
+        "total_return": 0.22274433,
+        "annualized_return": 0.04102212829700469,
+        "max_drawdown": -0.2519989615595518,
+        "closed_trades": 649,
+        "open_positions": 18,
+        "pending_signals": 0,
+        "skipped": 3138,
+        "corporate_events": 11,
+        "total_transaction_fees": "49627.09",
+        "sold_dividend_tax_payable": "1995.02",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "299844.21",
+        "open_marked_pnl": "-77099.88",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.11249452,
+          "max_drawdown": -0.1020953308467843,
+          "end_equity": "1112494.52"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.13683005827300615,
+          "max_drawdown": -0.1175178872608491,
+          "end_equity": "1264717.21"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.07732963482010338,
+          "max_drawdown": -0.13975959036741062,
+          "end_equity": "1362517.33"
+        },
+        {
+          "year": 2023,
+          "return_pct": -0.04616002205271033,
+          "max_drawdown": -0.15535635016973723,
+          "end_equity": "1299623.50"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.0591549552620432,
+          "max_drawdown": -0.17628527297349195,
+          "end_equity": "1222744.33"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1338,
+        "nav_dates": 1212,
+        "closed_trades": 649,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "deep_TP15_SL8_H10",
+        "rank": "deep",
+        "tp": 0.15,
+        "sl": 0.08,
+        "h": 10,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 871,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.15,
+        "stop_loss": 0.08,
+        "trailing": false,
+        "rank": "deep",
+        "forced_day": 10,
+        "final_equity": "1365695.41",
+        "total_return": 0.36569541,
+        "annualized_return": 0.06428920500280566,
+        "max_drawdown": -0.15894085567682686,
+        "closed_trades": 1003,
+        "open_positions": 12,
+        "pending_signals": 0,
+        "skipped": 2790,
+        "corporate_events": 2,
+        "total_transaction_fees": "75801.57",
+        "sold_dividend_tax_payable": "98.99",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "364226.67",
+        "open_marked_pnl": "1468.74",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.08700255,
+          "max_drawdown": -0.08942821372017012,
+          "end_equity": "1087002.55"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.14661147759036997,
+          "max_drawdown": -0.0903288931806125,
+          "end_equity": "1246369.60"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.10826615957256981,
+          "max_drawdown": -0.10498130303570098,
+          "end_equity": "1381309.25"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.00031699635689835565,
+          "max_drawdown": -0.0666383517762048,
+          "end_equity": "1381747.12"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.011616966496734946,
+          "max_drawdown": -0.12973951327898808,
+          "end_equity": "1365695.41"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 2022,
+        "nav_dates": 1212,
+        "closed_trades": 1003,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "deep_TP15_SL8_H20",
+        "rank": "deep",
+        "tp": 0.15,
+        "sl": 0.08,
+        "h": 20,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 871,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.15,
+        "stop_loss": 0.08,
+        "trailing": false,
+        "rank": "deep",
+        "forced_day": 20,
+        "final_equity": "1359319.82",
+        "total_return": 0.35931982,
+        "annualized_return": 0.06329405064614191,
+        "max_drawdown": -0.18468326798598436,
+        "closed_trades": 941,
+        "open_positions": 12,
+        "pending_signals": 0,
+        "skipped": 2852,
+        "corporate_events": 10,
+        "total_transaction_fees": "70912.75",
+        "sold_dividend_tax_payable": "1818.28",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "357851.08",
+        "open_marked_pnl": "1468.74",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.12791814,
+          "max_drawdown": -0.08704190173463135,
+          "end_equity": "1127918.14"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.08515531987099702,
+          "max_drawdown": -0.12896702769582197,
+          "end_equity": "1223966.37"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.0908559521941767,
+          "max_drawdown": -0.12693805202338657,
+          "end_equity": "1335171.00"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.035056760519813567,
+          "max_drawdown": -0.07338511258931049,
+          "end_equity": "1381977.77"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.016395307140143072,
+          "max_drawdown": -0.14742187328641138,
+          "end_equity": "1359319.82"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1914,
+        "nav_dates": 1212,
+        "closed_trades": 941,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "deep_TP15_SL12_H10",
+        "rank": "deep",
+        "tp": 0.15,
+        "sl": 0.12,
+        "h": 10,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 1207,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.15,
+        "stop_loss": 0.12,
+        "trailing": false,
+        "rank": "deep",
+        "forced_day": 10,
+        "final_equity": "1231901.59",
+        "total_return": 0.23190159,
+        "annualized_return": 0.04257610420889835,
+        "max_drawdown": -0.19492490663357212,
+        "closed_trades": 910,
+        "open_positions": 16,
+        "pending_signals": 0,
+        "skipped": 2879,
+        "corporate_events": 3,
+        "total_transaction_fees": "68749.55",
+        "sold_dividend_tax_payable": "314.03",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "272088.51",
+        "open_marked_pnl": "-40186.92",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.03932891,
+          "max_drawdown": -0.1053643828570773,
+          "end_equity": "1039328.91"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.12301259858152122,
+          "max_drawdown": -0.09438031067383115,
+          "end_equity": "1167179.46"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.14978569790801494,
+          "max_drawdown": -0.11411679870266407,
+          "end_equity": "1342006.25"
+        },
+        {
+          "year": 2023,
+          "return_pct": -0.02056906217836169,
+          "max_drawdown": -0.08342287540129593,
+          "end_equity": "1314402.44"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.06276681135801909,
+          "max_drawdown": -0.15444498856275485,
+          "end_equity": "1231901.59"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1842,
+        "nav_dates": 1212,
+        "closed_trades": 910,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "deep_TP15_SL12_H20",
+        "rank": "deep",
+        "tp": 0.15,
+        "sl": 0.12,
+        "h": 20,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 1207,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.15,
+        "stop_loss": 0.12,
+        "trailing": false,
+        "rank": "deep",
+        "forced_day": 20,
+        "final_equity": "1277048.68",
+        "total_return": 0.27704868,
+        "annualized_return": 0.05010510719261707,
+        "max_drawdown": -0.21138988292617503,
+        "closed_trades": 819,
+        "open_positions": 16,
+        "pending_signals": 0,
+        "skipped": 2970,
+        "corporate_events": 11,
+        "total_transaction_fees": "61914.64",
+        "sold_dividend_tax_payable": "2025.62",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "317235.60",
+        "open_marked_pnl": "-40186.92",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.10357151,
+          "max_drawdown": -0.12091838714360784,
+          "end_equity": "1103571.51"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.1317568808930198,
+          "max_drawdown": -0.11840872273257481,
+          "end_equity": "1248974.65"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.09742405900712237,
+          "max_drawdown": -0.13349220659050928,
+          "end_equity": "1370654.83"
+        },
+        {
+          "year": 2023,
+          "return_pct": -0.013273122891195007,
+          "max_drawdown": -0.11698558241322114,
+          "end_equity": "1352461.96"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.05576000082102124,
+          "max_drawdown": -0.16135173354762308,
+          "end_equity": "1277048.68"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1676,
+        "nav_dates": 1212,
+        "closed_trades": 819,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "deep_TP20_SL0_H10",
+        "rank": "deep",
+        "tp": 0.2,
+        "sl": null,
+        "h": 10,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 1207,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.2,
+        "stop_loss": null,
+        "trailing": false,
+        "rank": "deep",
+        "forced_day": 10,
+        "final_equity": "1278123.32",
+        "total_return": 0.27812332,
+        "annualized_return": 0.05028170847275515,
+        "max_drawdown": -0.17376883744484972,
+        "closed_trades": 830,
+        "open_positions": 18,
+        "pending_signals": 0,
+        "skipped": 2957,
+        "corporate_events": 3,
+        "total_transaction_fees": "63078.82",
+        "sold_dividend_tax_payable": "314.03",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "319593.18",
+        "open_marked_pnl": "-41469.86",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.06478278,
+          "max_drawdown": -0.11169024873700999,
+          "end_equity": "1064782.78"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.11983950379062291,
+          "max_drawdown": -0.1026136371700329,
+          "end_equity": "1192385.82"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.1590605547456108,
+          "max_drawdown": -0.15565989608645328,
+          "end_equity": "1382047.37"
+        },
+        {
+          "year": 2023,
+          "return_pct": -0.02091766941389281,
+          "max_drawdown": -0.09160896584922222,
+          "end_equity": "1353138.16"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.05543767977099988,
+          "max_drawdown": -0.1450911908089429,
+          "end_equity": "1278123.32"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1684,
+        "nav_dates": 1212,
+        "closed_trades": 830,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "deep_TP20_SL0_H20",
+        "rank": "deep",
+        "tp": 0.2,
+        "sl": null,
+        "h": 20,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 1617,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.2,
+        "stop_loss": null,
+        "trailing": false,
+        "rank": "deep",
+        "forced_day": 20,
+        "final_equity": "1317011.45",
+        "total_return": 0.31701145,
+        "annualized_return": 0.056593881905836696,
+        "max_drawdown": -0.22741645864913293,
+        "closed_trades": 624,
+        "open_positions": 20,
+        "pending_signals": 0,
+        "skipped": 3161,
+        "corporate_events": 10,
+        "total_transaction_fees": "47929.81",
+        "sold_dividend_tax_payable": "1779.98",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "411308.29",
+        "open_marked_pnl": "-94296.84",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.16116897,
+          "max_drawdown": -0.09661592040856502,
+          "end_equity": "1161168.97"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.10704505822266332,
+          "max_drawdown": -0.12081381679164968,
+          "end_equity": "1285466.37"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.10244662409954762,
+          "max_drawdown": -0.13959261930628866,
+          "end_equity": "1417158.06"
+        },
+        {
+          "year": 2023,
+          "return_pct": -0.02618789748830134,
+          "max_drawdown": -0.1494680133875474,
+          "end_equity": "1380045.67"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.04567545942157117,
+          "max_drawdown": -0.16742087261628733,
+          "end_equity": "1317011.45"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1288,
+        "nav_dates": 1212,
+        "closed_trades": 624,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "deep_TP20_SL8_H10",
+        "rank": "deep",
+        "tp": 0.2,
+        "sl": 0.08,
+        "h": 10,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 871,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.2,
+        "stop_loss": 0.08,
+        "trailing": false,
+        "rank": "deep",
+        "forced_day": 10,
+        "final_equity": "1404426.07",
+        "total_return": 0.40442607,
+        "annualized_return": 0.0702559885690579,
+        "max_drawdown": -0.16255310032093484,
+        "closed_trades": 976,
+        "open_positions": 13,
+        "pending_signals": 0,
+        "skipped": 2816,
+        "corporate_events": 2,
+        "total_transaction_fees": "73805.91",
+        "sold_dividend_tax_payable": "98.99",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "395152.80",
+        "open_marked_pnl": "9273.27",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.12270359,
+          "max_drawdown": -0.08667216655335695,
+          "end_equity": "1122703.59"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.13021799458216748,
+          "max_drawdown": -0.09891380200338082,
+          "end_equity": "1268899.80"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.09493772479119313,
+          "max_drawdown": -0.12347982899396404,
+          "end_equity": "1389366.26"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.010400346126153948,
+          "max_drawdown": -0.06439287170723211,
+          "end_equity": "1403816.15"
+        },
+        {
+          "year": 2024,
+          "return_pct": 0.0004344728474594056,
+          "max_drawdown": -0.13483953944852842,
+          "end_equity": "1404426.07"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1969,
+        "nav_dates": 1212,
+        "closed_trades": 976,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "deep_TP20_SL8_H20",
+        "rank": "deep",
+        "tp": 0.2,
+        "sl": 0.08,
+        "h": 20,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 871,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.2,
+        "stop_loss": 0.08,
+        "trailing": false,
+        "rank": "deep",
+        "forced_day": 20,
+        "final_equity": "1490550.22",
+        "total_return": 0.49055022,
+        "annualized_return": 0.0830664189835626,
+        "max_drawdown": -0.1815268083408264,
+        "closed_trades": 896,
+        "open_positions": 13,
+        "pending_signals": 0,
+        "skipped": 2896,
+        "corporate_events": 10,
+        "total_transaction_fees": "67646.35",
+        "sold_dividend_tax_payable": "1818.28",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "481276.95",
+        "open_marked_pnl": "9273.27",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.17424346,
+          "max_drawdown": -0.086175144787766,
+          "end_equity": "1174243.46"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.08740584341853605,
+          "max_drawdown": -0.13456096234080792,
+          "end_equity": "1276879.20"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.06923712908785733,
+          "max_drawdown": -0.14273936210900404,
+          "end_equity": "1365286.65"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.06493656844883088,
+          "max_drawdown": -0.06376052321801647,
+          "end_equity": "1453943.68"
+        },
+        {
+          "year": 2024,
+          "return_pct": 0.02517741264916121,
+          "max_drawdown": -0.14702233576596468,
+          "end_equity": "1490550.22"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1825,
+        "nav_dates": 1212,
+        "closed_trades": 896,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "deep_TP20_SL12_H10",
+        "rank": "deep",
+        "tp": 0.2,
+        "sl": 0.12,
+        "h": 10,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 1207,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.2,
+        "stop_loss": 0.12,
+        "trailing": false,
+        "rank": "deep",
+        "forced_day": 10,
+        "final_equity": "1253802.46",
+        "total_return": 0.25380246,
+        "annualized_return": 0.046255511341574795,
+        "max_drawdown": -0.19227398032065746,
+        "closed_trades": 887,
+        "open_positions": 17,
+        "pending_signals": 0,
+        "skipped": 2901,
+        "corporate_events": 3,
+        "total_transaction_fees": "67071.68",
+        "sold_dividend_tax_payable": "314.03",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "286184.85",
+        "open_marked_pnl": "-32382.39",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.06295502,
+          "max_drawdown": -0.10495582358129364,
+          "end_equity": "1062955.02"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.10078595799848615,
+          "max_drawdown": -0.12021770747369574,
+          "end_equity": "1170085.96"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.15895361226281188,
+          "max_drawdown": -0.12346775475496086,
+          "end_equity": "1356075.35"
+        },
+        {
+          "year": 2023,
+          "return_pct": -0.010022887002554836,
+          "max_drawdown": -0.07885178508206941,
+          "end_equity": "1342483.56"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.06605749421616754,
+          "max_drawdown": -0.16086846863689205,
+          "end_equity": "1253802.46"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1797,
+        "nav_dates": 1212,
+        "closed_trades": 887,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "deep_TP20_SL12_H20",
+        "rank": "deep",
+        "tp": 0.2,
+        "sl": 0.12,
+        "h": 20,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 1207,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.2,
+        "stop_loss": 0.12,
+        "trailing": false,
+        "rank": "deep",
+        "forced_day": 20,
+        "final_equity": "1443401.83",
+        "total_return": 0.44340183,
+        "annualized_return": 0.07612907240657418,
+        "max_drawdown": -0.1774683972826688,
+        "closed_trades": 785,
+        "open_positions": 17,
+        "pending_signals": 0,
+        "skipped": 3003,
+        "corporate_events": 10,
+        "total_transaction_fees": "59530.33",
+        "sold_dividend_tax_payable": "1810.58",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "475784.22",
+        "open_marked_pnl": "-32382.39",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.16795229,
+          "max_drawdown": -0.10233643181958804,
+          "end_equity": "1167952.29"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.12436418956805162,
+          "max_drawdown": -0.12718201621408218,
+          "end_equity": "1313203.73"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.10771053780055895,
+          "max_drawdown": -0.13816750403884137,
+          "end_equity": "1454649.61"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.018882774113554397,
+          "max_drawdown": -0.10006001161072413,
+          "end_equity": "1482117.43"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.02612181681177584,
+          "max_drawdown": -0.15436779462453687,
+          "end_equity": "1443401.83"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1607,
+        "nav_dates": 1212,
+        "closed_trades": 785,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "code_TP20_TRAIL12_H20",
+        "rank": "code",
+        "tp": 0.2,
+        "sl": 0.12,
+        "h": 20,
+        "trail": true
+      },
+      "summary": {
+        "unresolved_quote_events": 928,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.2,
+        "stop_loss": 0.12,
+        "trailing": true,
+        "rank": "code",
+        "forced_day": 20,
+        "final_equity": "1431642.82",
+        "total_return": 0.43164282,
+        "annualized_return": 0.0743706647670408,
+        "max_drawdown": -0.20207106179568718,
+        "closed_trades": 803,
+        "open_positions": 17,
+        "pending_signals": 0,
+        "skipped": 2985,
+        "corporate_events": 13,
+        "total_transaction_fees": "60926.51",
+        "sold_dividend_tax_payable": "2733.72",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "473853.20",
+        "open_marked_pnl": "-42210.38",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.09481942,
+          "max_drawdown": -0.10587335704838122,
+          "end_equity": "1094819.42"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.06677964298441107,
+          "max_drawdown": -0.14113145709454075,
+          "end_equity": "1167931.07"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.17651408999676668,
+          "max_drawdown": -0.11821425404382684,
+          "end_equity": "1374087.36"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.04085891598624414,
+          "max_drawdown": -0.0789927268591074,
+          "end_equity": "1430231.08"
+        },
+        {
+          "year": 2024,
+          "return_pct": 0.000987071264036578,
+          "max_drawdown": -0.11956705049459714,
+          "end_equity": "1431642.82"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1649,
+        "nav_dates": 1212,
+        "closed_trades": 803,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "liquid_TP20_TRAIL12_H20",
+        "rank": "liquid",
+        "tp": 0.2,
+        "sl": 0.12,
+        "h": 20,
+        "trail": true
+      },
+      "summary": {
+        "unresolved_quote_events": 871,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.2,
+        "stop_loss": 0.12,
+        "trailing": true,
+        "rank": "liquid",
+        "forced_day": 20,
+        "final_equity": "1359856.16",
+        "total_return": 0.35985616,
+        "annualized_return": 0.06337791068519927,
+        "max_drawdown": -0.19329871162973628,
+        "closed_trades": 808,
+        "open_positions": 16,
+        "pending_signals": 0,
+        "skipped": 2981,
+        "corporate_events": 13,
+        "total_transaction_fees": "61151.97",
+        "sold_dividend_tax_payable": "2132.92",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "364143.07",
+        "open_marked_pnl": "-4286.91",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.12220669,
+          "max_drawdown": -0.0726874705857255,
+          "end_equity": "1122206.69"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.0547215950031451,
+          "max_drawdown": -0.14014887934770734,
+          "end_equity": "1183615.63"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.09972653875819466,
+          "max_drawdown": -0.13454919532186504,
+          "end_equity": "1301653.52"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.04094189366153291,
+          "max_drawdown": -0.08618376426357086,
+          "end_equity": "1354945.68"
+        },
+        {
+          "year": 2024,
+          "return_pct": 0.0036241157652903105,
+          "max_drawdown": -0.1544492117802418,
+          "end_equity": "1359856.16"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1658,
+        "nav_dates": 1212,
+        "closed_trades": 808,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "deep_TP20_TRAIL12_H20",
+        "rank": "deep",
+        "tp": 0.2,
+        "sl": 0.12,
+        "h": 20,
+        "trail": true
+      },
+      "summary": {
+        "unresolved_quote_events": 871,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.2,
+        "stop_loss": 0.12,
+        "trailing": true,
+        "rank": "deep",
+        "forced_day": 20,
+        "final_equity": "1462732.02",
+        "total_return": 0.46273202,
+        "annualized_return": 0.07899490352695948,
+        "max_drawdown": -0.16717669588431472,
+        "closed_trades": 826,
+        "open_positions": 16,
+        "pending_signals": 0,
+        "skipped": 2963,
+        "corporate_events": 9,
+        "total_transaction_fees": "62430.41",
+        "sold_dividend_tax_payable": "1768.15",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "467018.93",
+        "open_marked_pnl": "-4286.91",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.14196681,
+          "max_drawdown": -0.10111263844881445,
+          "end_equity": "1141966.81"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.10184564821108942,
+          "max_drawdown": -0.128316250133137,
+          "end_equity": "1258271.16"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.10332602711803392,
+          "max_drawdown": -0.13854618405454006,
+          "end_equity": "1388283.32"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.03818553405943104,
+          "max_drawdown": -0.07996877118116064,
+          "end_equity": "1441295.66"
+        },
+        {
+          "year": 2024,
+          "return_pct": 0.01487297894173913,
+          "max_drawdown": -0.15090092876893296,
+          "end_equity": "1462732.02"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 1686,
+        "nav_dates": 1212,
+        "closed_trades": 826,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    },
+    {
+      "candidate": {
+        "id": "code_TP8_SL0_H3_PRIOR_BASELINE",
+        "rank": "code",
+        "tp": 0.08,
+        "sl": null,
+        "h": 3,
+        "trail": false
+      },
+      "summary": {
+        "unresolved_quote_events": 871,
+        "economic_status": "CONDITIONAL_LAST_MARK_UNPRICED_ASSETS",
+        "scope": "all",
+        "capital": "1000000.00",
+        "slots": 20,
+        "slot_budget": "50000.00",
+        "take_profit": 0.08,
+        "stop_loss": null,
+        "trailing": false,
+        "rank": "code",
+        "forced_day": 3,
+        "final_equity": "1293759.94",
+        "total_return": 0.29375994,
+        "annualized_return": 0.05283801212619488,
+        "max_drawdown": -0.12570657669954494,
+        "closed_trades": 1171,
+        "open_positions": 11,
+        "pending_signals": 0,
+        "skipped": 2623,
+        "corporate_events": 0,
+        "total_transaction_fees": "88781.06",
+        "sold_dividend_tax_payable": "0.00",
+        "held_dividend_tax_estimate": "0.00",
+        "cash_collection_dates_not_fabricated": true,
+        "closed_pnl": "315271.68",
+        "open_marked_pnl": "-21511.74",
+        "economic_pnl_residual": "0.00"
+      },
+      "yearly": [
+        {
+          "year": 2020,
+          "return_pct": 0.03421272,
+          "max_drawdown": -0.08040568024046013,
+          "end_equity": "1034212.72"
+        },
+        {
+          "year": 2021,
+          "return_pct": 0.05639723711771791,
+          "max_drawdown": -0.0625506520554108,
+          "end_equity": "1092539.46"
+        },
+        {
+          "year": 2022,
+          "return_pct": 0.0861282941670592,
+          "max_drawdown": -0.07878025162490619,
+          "end_equity": "1186638.02"
+        },
+        {
+          "year": 2023,
+          "return_pct": 0.10160205384283912,
+          "max_drawdown": -0.016776285040320773,
+          "end_equity": "1307202.88"
+        },
+        {
+          "year": 2024,
+          "return_pct": -0.010283744172901454,
+          "max_drawdown": -0.07714674724055823,
+          "end_equity": "1293759.94"
+        }
+      ],
+      "audit": {
+        "passed": true,
+        "journal_records": 2353,
+        "nav_dates": 1212,
+        "closed_trades": 1171,
+        "max_concurrent_positions": 20,
+        "max_buy_cost_including_fees": "50000.00",
+        "ledger_cash_and_receivables_replayed": true,
+        "sold_tax_liabilities_replayed": true,
+        "share_inventory_replayed": true,
+        "T_plus_1": true,
+        "strict_next_official_open": true,
+        "open_cash_timing": true,
+        "registered_priority": true,
+        "locked_shares_not_sold": true,
+        "independent_yearly_and_global_drawdown": true,
+        "economic_pnl_residual": "0.00"
+      }
+    }
+  ],
+  "blocked": [],
+  "unscheduled_actions": 0
+}

@@ -1,0 +1,430 @@
+{
+  "boundary_version": "public-pre2025-v2",
+  "status": "preregistered_before_new_round_computation",
+  "new_round_count": 10,
+  "prior_experiment_not_counted": true,
+  "total_new_candidate_budget": 53,
+  "rounds": [
+    {
+      "number": 1,
+      "question": "同日槽位竞争能否用另一种事前排序改善跨年表现",
+      "changes": [
+        {
+          "id": "ret5",
+          "priority": "ret5_ascending"
+        },
+        {
+          "id": "ma20",
+          "priority": "below_ma20_ascending"
+        },
+        {
+          "id": "rebound",
+          "priority": "rebound_from_low_ascending"
+        },
+        {
+          "id": "volume",
+          "priority": "volume_ratio_descending"
+        },
+        {
+          "id": "liquidity",
+          "priority": "amount20_descending"
+        },
+        {
+          "id": "lowerwick",
+          "priority": "lower_descending"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "question": "最低流动性约束是否减少脆弱信号",
+      "changes": [
+        {
+          "id": "mean10m",
+          "filter": {
+            "feature": "amount20",
+            "op": ">=",
+            "value": 10000000.0
+          }
+        },
+        {
+          "id": "mean30m",
+          "filter": {
+            "feature": "amount20",
+            "op": ">=",
+            "value": 30000000.0
+          }
+        },
+        {
+          "id": "mean50m",
+          "filter": {
+            "feature": "amount20",
+            "op": ">=",
+            "value": 50000000.0
+          }
+        },
+        {
+          "id": "today10m",
+          "filter": {
+            "feature": "current_amount",
+            "op": ">=",
+            "value": 10000000.0
+          }
+        },
+        {
+          "id": "today30m",
+          "filter": {
+            "feature": "current_amount",
+            "op": ">=",
+            "value": 30000000.0
+          }
+        },
+        {
+          "id": "volume08",
+          "filter": {
+            "feature": "volume_ratio",
+            "op": ">=",
+            "value": 0.8
+          }
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "question": "更明确的阳线和突破确认是否值得减少机会",
+      "changes": [
+        {
+          "id": "body05",
+          "filter": {
+            "feature": "body",
+            "op": ">=",
+            "value": 0.5
+          }
+        },
+        {
+          "id": "body06",
+          "filter": {
+            "feature": "body",
+            "op": ">=",
+            "value": 0.6
+          }
+        },
+        {
+          "id": "body07",
+          "filter": {
+            "feature": "body",
+            "op": ">=",
+            "value": 0.7
+          }
+        },
+        {
+          "id": "upper02",
+          "filter": {
+            "feature": "upper",
+            "op": "<=",
+            "value": 0.2
+          }
+        },
+        {
+          "id": "upper01",
+          "filter": {
+            "feature": "upper",
+            "op": "<=",
+            "value": 0.1
+          }
+        },
+        {
+          "id": "breakprev",
+          "filter": {
+            "feature": "close_over_prev_high",
+            "op": ">=",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "question": "更低价格或更深超跌是否改善收益与尾部风险",
+      "changes": [
+        {
+          "id": "price5",
+          "filter": {
+            "feature": "raw_close",
+            "op": "<",
+            "value": 5
+          }
+        },
+        {
+          "id": "price6",
+          "filter": {
+            "feature": "raw_close",
+            "op": "<",
+            "value": 6
+          }
+        },
+        {
+          "id": "ma10",
+          "filter": {
+            "feature": "below_ma20",
+            "op": "<=",
+            "value": -0.1
+          }
+        },
+        {
+          "id": "ma12",
+          "filter": {
+            "feature": "below_ma20",
+            "op": "<=",
+            "value": -0.12
+          }
+        },
+        {
+          "id": "ma15",
+          "filter": {
+            "feature": "below_ma20",
+            "op": "<=",
+            "value": -0.15
+          }
+        },
+        {
+          "id": "ret20deep",
+          "filter": {
+            "feature": "ret20",
+            "op": "<=",
+            "value": -0.2
+          }
+        },
+        {
+          "id": "ret5deep",
+          "filter": {
+            "feature": "ret5",
+            "op": "<=",
+            "value": -0.12
+          }
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "question": "更早反弹阶段与缩量状态是否更稳健",
+      "changes": [
+        {
+          "id": "rebound06",
+          "filter": {
+            "feature": "rebound_from_low",
+            "op": "<=",
+            "value": 0.06
+          }
+        },
+        {
+          "id": "rebound08",
+          "filter": {
+            "feature": "rebound_from_low",
+            "op": "<=",
+            "value": 0.08
+          }
+        },
+        {
+          "id": "volume15",
+          "filter": {
+            "feature": "volume_ratio",
+            "op": "<=",
+            "value": 1.5
+          }
+        },
+        {
+          "id": "volume20",
+          "filter": {
+            "feature": "volume_ratio",
+            "op": "<=",
+            "value": 2
+          }
+        },
+        {
+          "id": "priorvol08",
+          "filter": {
+            "feature": "last3_volume_ratio",
+            "op": "<=",
+            "value": 0.8
+          }
+        },
+        {
+          "id": "priorvol10",
+          "filter": {
+            "feature": "last3_volume_ratio",
+            "op": "<=",
+            "value": 1
+          }
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "question": "缩短或延长持有期限是否改善账户表现",
+      "changes": [
+        {
+          "id": "b1",
+          "forced_day": 1
+        },
+        {
+          "id": "b2",
+          "forced_day": 2
+        },
+        {
+          "id": "b4",
+          "forced_day": 4
+        },
+        {
+          "id": "b5",
+          "forced_day": 5
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "question": "止盈目标的收益和兑现概率如何权衡",
+      "changes": [
+        {
+          "id": "tp04",
+          "take_profit": 0.04
+        },
+        {
+          "id": "tp06",
+          "take_profit": 0.06
+        },
+        {
+          "id": "tp10",
+          "take_profit": 0.1
+        },
+        {
+          "id": "tp12",
+          "take_profit": 0.12
+        },
+        {
+          "id": "tp15",
+          "take_profit": 0.15
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "question": "固定初始名义本金止损能否缓解回撤",
+      "changes": [
+        {
+          "id": "sl03",
+          "stop_loss": 0.03
+        },
+        {
+          "id": "sl05",
+          "stop_loss": 0.05
+        },
+        {
+          "id": "sl08",
+          "stop_loss": 0.08
+        },
+        {
+          "id": "sl10",
+          "stop_loss": 0.1
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "question": "改变槽位数量和每槽预算如何影响分散与收益",
+      "changes": [
+        {
+          "id": "slots3",
+          "slots": 3
+        },
+        {
+          "id": "slots4",
+          "slots": 4
+        },
+        {
+          "id": "slots6",
+          "slots": 6
+        },
+        {
+          "id": "slots8",
+          "slots": 8
+        },
+        {
+          "id": "slots10",
+          "slots": 10
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "question": "限制每天实际新开仓数能否缓解信号集中风险",
+      "changes": [
+        {
+          "id": "cap1",
+          "max_new_entries": 1
+        },
+        {
+          "id": "cap2",
+          "max_new_entries": 2
+        },
+        {
+          "id": "cap3",
+          "max_new_entries": 3
+        },
+        {
+          "id": "cap4",
+          "max_new_entries": 4
+        }
+      ]
+    }
+  ],
+  "selection_years": [
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "inspection_year": 2024,
+  "prior_2024_results_already_seen": true,
+  "inspection_warning": "2024 is not a new blind test; no results from this new batch may feed unfinished rounds",
+  "initial_incumbent": {
+    "slots": 5,
+    "forced_day": 3,
+    "take_profit": 0.08,
+    "stop_loss": null,
+    "priority": "ret20_ascending",
+    "filters": [],
+    "max_new_entries": null
+  },
+  "anchor_v3": {
+    "slots": 5,
+    "forced_day": 3,
+    "take_profit": 0.08,
+    "stop_loss": null,
+    "priority": "code",
+    "filters": [],
+    "max_new_entries": null
+  },
+  "inheritance": "Each round makes its listed single-factor change to prior frozen training incumbent; added feature filter is AND with inherited filters; only strict score improvements that pass fixed-v3 guard can advance. Otherwise retain incumbent. No resets or after-result additions.",
+  "selection": {
+    "score": "mean four annual returns minus 0.5 times largest annual drawdown magnitude",
+    "fixed_v3_guard": "worst annual return >= original-v3 worst annual return minus 0.02, and >=2 annual returns strictly exceed original-v3",
+    "advance": "eligible and score > incumbent score + 1e-12",
+    "tie_break": "lower full 2020-2023 maximum drawdown, then lexical candidate id",
+    "initial_incumbent": "previous oversold-priority rule is fixed starting incumbent, no relabeling of previous study as a round",
+    "robust_final": "last sequential incumbent, selected solely by registered training score and floor; label does not establish statistical robustness",
+    "highest_training_return": "maximum continuous 2020-2023 terminal equity among all anchors and attempted candidates; ties lower drawdown then lexical id; report guard pass/fail and freeze before 2024; descriptive alternative only"
+  },
+  "staging": "Save total protocol first; before each round save full inherited candidate configurations and hash; run training only through 2023-12-31; freeze each winner and selection record. After all ten round winners and highest-training-return alternative are frozen, batch run unique frozen configs plus both anchors through 2024. Do not compute 2024 for discarded configurations.",
+  "universe": "Exactly 947 retrospective manifest stocks; current RULE special-event exclusions retained and disclosed",
+  "structure": "Reuse current scan/independent, inferred consecutive-down-limit exclusion, raw close<8 and below MA20<=-8%; factor filters only narrow these signals and never require future labels",
+  "feature_timing": "Current structure features are trailing; ret20/ret5 exclude signal day as defined in structure.scan; amount20 is previous 20 valid-bar mean raw monetary amount, current_amount is signal-day raw amount. No feature uses later data.",
+  "capital": 100000,
+  "slot_budget": "Initial capital/slots, fixed in currency; no borrowing or equity compounding budget",
+  "execution": "Inherited T+1, round lot, historical fees, opening exits can fund opening entries but intraday exits cannot; daily-bar stop before TP; confirmed next-session suspension retained as signal but skipped without deferred entry; unknown quote gaps and held unresolved corporate actions block",
+  "daily_cap": "Counts actual successful new entries per official session, in inherited priority order; filled slots/already-held/untradable signals do not consume cap; cap is additional to slots",
+  "data_manifest_sha256": "986c45c71eb28bc42410316201ea5e370bc090ebb261e37439fb25f967e3c51f",
+  "stops": "No posterior access or production registration. On engineering failure report immediately; do not remove sample or candidate because of return. Correct factual engineering problems uniformly then repeat affected stage.",
+  "writes": "Only experiments/ten_rounds_2020_2024",
+  "multiplicity": "53 adaptive sequential candidate attempts are in-sample research, not independent validation; disclose all attempts, feature correlation and prior 2024 exposure"
+}

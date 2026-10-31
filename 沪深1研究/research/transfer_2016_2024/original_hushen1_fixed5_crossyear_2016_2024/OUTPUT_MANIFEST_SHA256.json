@@ -1,0 +1,639 @@
+{
+  "files": [
+    {
+      "path": "ACTION_CANONICAL_DEDUP_AUDIT_BEFORE_RECOVERY.json",
+      "bytes": 3338,
+      "sha256": "8d8eda63288fddaeab48081c366483f0f5c56571f6dc2823aa4c6664d9b2e183"
+    },
+    {
+      "path": "CANONICAL_ACTION_LOAD_RUNTIME_AUDIT.json",
+      "bytes": 566,
+      "sha256": "1f3a69e85c0c73d87fd43bfc34dcf58fd2e02d2fa9c33c8211628844222a9da1"
+    },
+    {
+      "path": "CANONICAL_ACTION_LOADER_VALIDATION.json",
+      "bytes": 726,
+      "sha256": "84bec345ce3e0b6a148052fde889eddcca27781e59449391b935fb34888a701e"
+    },
+    {
+      "path": "canonical_action_recovery.py",
+      "bytes": 10977,
+      "sha256": "e634646ff264c6a709d6894b211bafcf7c00577cb71f31f29865b9b087cf777e"
+    },
+    {
+      "path": "CANONICAL_ACTION_RECOVERY_PROTOCOL_BEFORE_RUN.md",
+      "bytes": 2693,
+      "sha256": "a9b79c55f531c69f8efb0c87811d89d63e7815c1c06d5fb0beedec8c6485f55b"
+    },
+    {
+      "path": "checkpoints/q1_2016_actions.parquet",
+      "bytes": 22475,
+      "sha256": "5525458e5c3a65628b3db6a096705e75a14bcc184fe5c47c27097dfeb44f6e98"
+    },
+    {
+      "path": "checkpoints/q1_2016_audit.csv",
+      "bytes": 5012,
+      "sha256": "09b01ef55558a2c5cd5a6d783c52e71f836ad00ac27f0deee30b1c093d9ff71c"
+    },
+    {
+      "path": "checkpoints/q1_2016_COMPLETE.json",
+      "bytes": 800,
+      "sha256": "8965450a1bd640ea6c6f175da33dcb1ccc018d30954c0ed79c3854562c2b1e83"
+    },
+    {
+      "path": "checkpoints/q1_2016_daily.parquet",
+      "bytes": 6318611,
+      "sha256": "1f4ec9ecf07432c21d42b98b542e5e1d5c7916fe0ac2280b6cd99739f89b1934"
+    },
+    {
+      "path": "checkpoints/q1_2016_metrics.csv",
+      "bytes": 55813,
+      "sha256": "1d78c6b35c907d4348777357008c78124bb4fafc258918c65cb0d3d290926174"
+    },
+    {
+      "path": "checkpoints/q1_2016_orders.parquet",
+      "bytes": 521045,
+      "sha256": "3822ad40089d03cbce46c34ca4cdc70414f60d014ea1d85109143b69a64474ac"
+    },
+    {
+      "path": "checkpoints/q1_2016_rebalances.parquet",
+      "bytes": 290481,
+      "sha256": "627ce1b2de5f1408b00fbdc7574dd4c4ebebf55b9383112f79dd86b4f24011b6"
+    },
+    {
+      "path": "checkpoints/q1_2016_trades.parquet",
+      "bytes": 926191,
+      "sha256": "d53a5ca9338c882eb08d8cc5924d59bd88b5a16be15dd923bcab2e1f1ffc6f3f"
+    },
+    {
+      "path": "checkpoints/q1_2017_actions.parquet",
+      "bytes": 18437,
+      "sha256": "09510cbd77efb81f272d1855feba06f0f415f6d5670f30868bcaf537b9e8278f"
+    },
+    {
+      "path": "checkpoints/q1_2017_audit.csv",
+      "bytes": 5012,
+      "sha256": "6d06149ffeaa45a0d8d4bbb834eb872381981ab3344363f82a1a1c9c111a1c6a"
+    },
+    {
+      "path": "checkpoints/q1_2017_COMPLETE.json",
+      "bytes": 800,
+      "sha256": "20c6bd6fe54f98dc1b1fbbdbc10d6048316a887acd6de6d187d9b74a567f2912"
+    },
+    {
+      "path": "checkpoints/q1_2017_daily.parquet",
+      "bytes": 5622183,
+      "sha256": "0af807d71dcfcde915dcc5c6632075842acdef0d3bdced2ee23b340f6ed2770c"
+    },
+    {
+      "path": "checkpoints/q1_2017_metrics.csv",
+      "bytes": 56453,
+      "sha256": "70a5491fe05d85879f331c8ca04fa63ba30cfc5cf0faf9ad8d415194ca3a1740"
+    },
+    {
+      "path": "checkpoints/q1_2017_orders.parquet",
+      "bytes": 330481,
+      "sha256": "686bb115217cf04e23ba8477ed53e51024ca81c25b24473bb09ee7ecfd462562"
+    },
+    {
+      "path": "checkpoints/q1_2017_rebalances.parquet",
+      "bytes": 206536,
+      "sha256": "ab73aed366fea0ffaf88af2dc6e08772466aa40a730a4a44528fb7f63936cbe8"
+    },
+    {
+      "path": "checkpoints/q1_2017_trades.parquet",
+      "bytes": 549947,
+      "sha256": "3b46b6e9d82b69870ce5b46e36e1446c91cfb8f0146f9202994c08441a244737"
+    },
+    {
+      "path": "checkpoints/q1_2018_actions.parquet",
+      "bytes": 18852,
+      "sha256": "64c2aaab276b6ddc20ff5c4b966558f62d6903450fbf218ad3c93417a6f18620"
+    },
+    {
+      "path": "checkpoints/q1_2018_audit.csv",
+      "bytes": 5012,
+      "sha256": "4f4cf015488a2812cadb51b65025cdac64912b0c13164be09fbe5b3c44421841"
+    },
+    {
+      "path": "checkpoints/q1_2018_COMPLETE.json",
+      "bytes": 800,
+      "sha256": "0633722cc0b7add87328511b91dbae05358b63a2b1cb893ef1566d122f6de988"
+    },
+    {
+      "path": "checkpoints/q1_2018_daily.parquet",
+      "bytes": 4849123,
+      "sha256": "07d074a082b876f8c49e7e0b364359af233024ccd356ebcae86c90d187314d3f"
+    },
+    {
+      "path": "checkpoints/q1_2018_metrics.csv",
+      "bytes": 55993,
+      "sha256": "f4a648c252a8a93cd44ef1fbbf09e9ed2a88fbc7ae931c7ed9b136e28a6dcebf"
+    },
+    {
+      "path": "checkpoints/q1_2018_orders.parquet",
+      "bytes": 228864,
+      "sha256": "1092eae4dc1f2ed228500629eac45a6860e7392e92d20383f7aff878cae5daac"
+    },
+    {
+      "path": "checkpoints/q1_2018_rebalances.parquet",
+      "bytes": 213189,
+      "sha256": "054b7db1e241dffbd8830790613f6cf0e2baa8079b4b320a4c188d5a1ed77d5e"
+    },
+    {
+      "path": "checkpoints/q1_2018_trades.parquet",
+      "bytes": 499448,
+      "sha256": "d3b76ab771168a0b9d4fadd2879edfa8d453ea7915fa959f5942cd8e422de5fb"
+    },
+    {
+      "path": "checkpoints/q1_2019_actions.parquet",
+      "bytes": 18495,
+      "sha256": "98836dd65dc7e327a378e79a2b9a2a295f1ff45911db5bf198debc207ce56188"
+    },
+    {
+      "path": "checkpoints/q1_2019_audit.csv",
+      "bytes": 4928,
+      "sha256": "d84ad44c801def698f3958b464b46279f9d7bf78f470876e7232430e337dda13"
+    },
+    {
+      "path": "checkpoints/q1_2019_COMPLETE.json",
+      "bytes": 800,
+      "sha256": "2b60b247729f30663a38b1419c3e301feab4410df4c2414eb70a47ccdf5c1e43"
+    },
+    {
+      "path": "checkpoints/q1_2019_daily.parquet",
+      "bytes": 3964183,
+      "sha256": "0e559182106480b74831c9ddf268b8992f309b662fc2f7277ff7ab187e4efa5f"
+    },
+    {
+      "path": "checkpoints/q1_2019_metrics.csv",
+      "bytes": 54789,
+      "sha256": "4c72686c7ddeb1bec31f346a0fc384e4db316162ff20e2a4ba5202ffdfe15e24"
+    },
+    {
+      "path": "checkpoints/q1_2019_orders.parquet",
+      "bytes": 161614,
+      "sha256": "6aad33c71d2f0cf5b0a55cded3ab36368fb71188d54a2ccfce0f8d2a5c53153c"
+    },
+    {
+      "path": "checkpoints/q1_2019_rebalances.parquet",
+      "bytes": 201577,
+      "sha256": "0a7d9736a24412f94c6f694bc4cd0fbce8892ec94889befc47e0f2ea68acc678"
+    },
+    {
+      "path": "checkpoints/q1_2019_trades.parquet",
+      "bytes": 495893,
+      "sha256": "b7e3304e3a1e9daa7dc37c34dfddd91c46c519677810d785f3c8079b35061188"
+    },
+    {
+      "path": "checkpoints/q1_2020_actions.parquet",
+      "bytes": 16119,
+      "sha256": "277fdd07d8126383425a1bd9e7b2df4818268386999bbe208f169602b93713e9"
+    },
+    {
+      "path": "checkpoints/q1_2020_audit.csv",
+      "bytes": 2260,
+      "sha256": "20ac011e001fe66ccdfa94bde166185cd0b40918470b7e8075cc445258a6133a"
+    },
+    {
+      "path": "checkpoints/q1_2020_COMPLETE.json",
+      "bytes": 799,
+      "sha256": "3db053eb9cf154ce7c40cb59b5af37e0063faa553ff39e09b14dbbe1a4c6a15c"
+    },
+    {
+      "path": "checkpoints/q1_2020_daily.parquet",
+      "bytes": 3183652,
+      "sha256": "29256eeb713fa44c000cb9bdebb2f9a51d2b8021a5a67ce894a3df8ce29d759c"
+    },
+    {
+      "path": "checkpoints/q1_2020_metrics.csv",
+      "bytes": 27133,
+      "sha256": "507bd454b1045e4b301b32baa05c190dd736707d375e1d59a2a163bf533ff847"
+    },
+    {
+      "path": "checkpoints/q1_2020_orders.parquet",
+      "bytes": 104494,
+      "sha256": "9aef3bb8d9112ba6503bb8505e488235deb9fa3eb33697135fb01dff3fac6e88"
+    },
+    {
+      "path": "checkpoints/q1_2020_rebalances.parquet",
+      "bytes": 156135,
+      "sha256": "55d0e3c77a57505389cb21b7f355ef5bbb44e5f3fc6fb596c47204abc0a8b59c"
+    },
+    {
+      "path": "checkpoints/q1_2020_trades.parquet",
+      "bytes": 324054,
+      "sha256": "84f9414544e2ca054ff251302443bf33bdca88d0d0ff8c7202484042437e1739"
+    },
+    {
+      "path": "checkpoints/q1_2021_actions.parquet",
+      "bytes": 14331,
+      "sha256": "f1cfecab254c803cd3fab42a9aee333bce1c353dde883441262d55dda25f9e6d"
+    },
+    {
+      "path": "checkpoints/q1_2021_audit.csv",
+      "bytes": 2260,
+      "sha256": "f446258a5687a23d8da3e366aa9c2cb873e855977e1a4c62760898c6b86a1a14"
+    },
+    {
+      "path": "checkpoints/q1_2021_COMPLETE.json",
+      "bytes": 799,
+      "sha256": "2c33ebebe452411b8bbc2f8cbfa2dcd3688658ed7b10b4e7fa76c65be1ae6525"
+    },
+    {
+      "path": "checkpoints/q1_2021_daily.parquet",
+      "bytes": 2392210,
+      "sha256": "207746810f2733681e33ccbf3c928fd9bb6dae2644e2f6172f4dc3713f8c0fcc"
+    },
+    {
+      "path": "checkpoints/q1_2021_metrics.csv",
+      "bytes": 27095,
+      "sha256": "898db9190f9e1c00fb14bd5d369413c2571277b8fc0fb328c89b9779bed4a799"
+    },
+    {
+      "path": "checkpoints/q1_2021_orders.parquet",
+      "bytes": 70761,
+      "sha256": "f64219347eb8b62c8ecc1ded8d48617646f3990b5906ab9c8290cd0a6e381748"
+    },
+    {
+      "path": "checkpoints/q1_2021_rebalances.parquet",
+      "bytes": 116100,
+      "sha256": "12d7fdc9df1f46dcef8359701a9c442f7957e9217d804a0b77ca840c21af846b"
+    },
+    {
+      "path": "checkpoints/q1_2021_trades.parquet",
+      "bytes": 214836,
+      "sha256": "b1c491a56d75d0fa68a1940693100cfc74843bf321553787448a10eb1faab6ff"
+    },
+    {
+      "path": "checkpoints/q1_2022_actions.parquet",
+      "bytes": 13300,
+      "sha256": "bac8f98340a93c6716e87e46ca1ac207a533361c6b2c723d9b0350f4dcffd610"
+    },
+    {
+      "path": "checkpoints/q1_2022_audit.csv",
+      "bytes": 2260,
+      "sha256": "53b91a95616c1ca57d2690f58dea10e38fd5e60625f913c63e4be8b3a6d20736"
+    },
+    {
+      "path": "checkpoints/q1_2022_COMPLETE.json",
+      "bytes": 799,
+      "sha256": "b20b5f0dad86886b95725ae9a57669b7af5b1da7576cb03569d39130461a6b0f"
+    },
+    {
+      "path": "checkpoints/q1_2022_daily.parquet",
+      "bytes": 1707712,
+      "sha256": "8ee8c75ab624c89ca56b1f48478acba355f3ad292cf84e071ad955e775c719b5"
+    },
+    {
+      "path": "checkpoints/q1_2022_metrics.csv",
+      "bytes": 27051,
+      "sha256": "d70bee256205ae25d1b5074e9931425e5442a263da04acbbb08d707ee96d54e7"
+    },
+    {
+      "path": "checkpoints/q1_2022_orders.parquet",
+      "bytes": 33643,
+      "sha256": "fc7183cdb57dab0dae21448dbd26575659790b45d73a1e93aecc83fc224c3cd8"
+    },
+    {
+      "path": "checkpoints/q1_2022_rebalances.parquet",
+      "bytes": 74111,
+      "sha256": "579d50bd433855526eeb35b7d92f4a540f00283c575b202d43974d63948c000a"
+    },
+    {
+      "path": "checkpoints/q1_2022_trades.parquet",
+      "bytes": 114641,
+      "sha256": "b158b62e89a9212f49fc9795ef74c5ce701acd9e469cac2fa0737a73618f80e2"
+    },
+    {
+      "path": "checkpoints/q1_2023_actions.parquet",
+      "bytes": 12417,
+      "sha256": "dd44e71e47a3f1febb915107fc74704f84f5cb224785d1a65523ab1869877015"
+    },
+    {
+      "path": "checkpoints/q1_2023_audit.csv",
+      "bytes": 2298,
+      "sha256": "3851f7f2577a1abcdc21442e62080756ae9b132969fec4b372236732e28cc2fc"
+    },
+    {
+      "path": "checkpoints/q1_2023_COMPLETE.json",
+      "bytes": 799,
+      "sha256": "ae1c94013e2471050e325c10de76e25e1081f9b3fd45db6c5f61c99c2b402559"
+    },
+    {
+      "path": "checkpoints/q1_2023_daily.parquet",
+      "bytes": 1149715,
+      "sha256": "f32328db72e77d6c75ef1a5c8aab006c563bb2d42368fac8023a05bc28403b2d"
+    },
+    {
+      "path": "checkpoints/q1_2023_metrics.csv",
+      "bytes": 27622,
+      "sha256": "2de824e9840c99a23baff16b8c43345c4b82f871b371adcf13b22b821b254b70"
+    },
+    {
+      "path": "checkpoints/q1_2023_orders.parquet",
+      "bytes": 31658,
+      "sha256": "5f794ab7e7a2dea9fab8dd9f8d9866cbe3b9a9c2e2244449b63726c1e01f7677"
+    },
+    {
+      "path": "checkpoints/q1_2023_rebalances.parquet",
+      "bytes": 53310,
+      "sha256": "d847323b228190666c81323d4b07c4c6005f78c2cafc0bcb0766241fd7b78eae"
+    },
+    {
+      "path": "checkpoints/q1_2023_trades.parquet",
+      "bytes": 74170,
+      "sha256": "e8d15a68afbc2b7a06816988d19305b6099c5250338f07f5fca3489c1fcc361c"
+    },
+    {
+      "path": "checkpoints/q1_2024_actions.parquet",
+      "bytes": 12783,
+      "sha256": "128e6e9274b05fb846ecfd1dce8feff9f69db06ffd3da3ead7241a688fea7a07"
+    },
+    {
+      "path": "checkpoints/q1_2024_audit.csv",
+      "bytes": 2260,
+      "sha256": "1581000739befef5100452fa2156ad99ad1827617a31897643768ee2d7dbba8c"
+    },
+    {
+      "path": "checkpoints/q1_2024_COMPLETE.json",
+      "bytes": 799,
+      "sha256": "287c5b1775171d72dc6021379fcc9cd8b5457089dff3d9188974055eb6e9e0dc"
+    },
+    {
+      "path": "checkpoints/q1_2024_daily.parquet",
+      "bytes": 533660,
+      "sha256": "4a821696c935e689620f807e1e361bae04d5701fc0edbc8e194ab4fd34d3a8d5"
+    },
+    {
+      "path": "checkpoints/q1_2024_metrics.csv",
+      "bytes": 26594,
+      "sha256": "33bea3a1991a3aa60d2c0db97409f0179b294723a473e176987ab8c3a134d3af"
+    },
+    {
+      "path": "checkpoints/q1_2024_orders.parquet",
+      "bytes": 22208,
+      "sha256": "272bc6e796dc2e0b244e6c174b077791d478587e6db71d65e6f2d2690ccea1ce"
+    },
+    {
+      "path": "checkpoints/q1_2024_rebalances.parquet",
+      "bytes": 36394,
+      "sha256": "efb33ca1de228826d3f150c07d9748c5882693c90e02a5554833dc59b09ef342"
+    },
+    {
+      "path": "checkpoints/q1_2024_trades.parquet",
+      "bytes": 52065,
+      "sha256": "af62b8bdb8b0aeca2f450e6c4970a4b0e12da620ecbb6376866fe05b136083d0"
+    },
+    {
+      "path": "FAILURE_CONCLUSION.md",
+      "bytes": 570,
+      "sha256": "0be6120bbf6c8836d9be7707de42cf99b9bd3a889873b81b0c900b0ddb267c94"
+    },
+    {
+      "path": "fee_stress_actions.parquet",
+      "bytes": 13278,
+      "sha256": "ad7c73acb9d6a8b3a9f2462828b352fbb62a1514312e010fcda4bde08aba53dd"
+    },
+    {
+      "path": "FEE_STRESS_COMPLETE.json",
+      "bytes": 168,
+      "sha256": "d1ae94015f9526115073b2352646b5adbfc6842b1e7992bf61692cb75afbef15"
+    },
+    {
+      "path": "fee_stress_daily.parquet",
+      "bytes": 305975,
+      "sha256": "398392de363c4923d379dc48ef4f13633ffa06cd7614886a24d4e33d96885547"
+    },
+    {
+      "path": "fee_stress_metrics.csv",
+      "bytes": 1631,
+      "sha256": "46ab6ac9e5a8e6261cd579d89a0407a7a2942361e8b41ea05900c0f645f44a0f"
+    },
+    {
+      "path": "fee_stress_orders.parquet",
+      "bytes": 39686,
+      "sha256": "af6250226e889facd203df16d115c677bb8a77d488fb2d7f8c8e700a3fd85518"
+    },
+    {
+      "path": "fee_stress_rebalances.parquet",
+      "bytes": 41857,
+      "sha256": "d95411c4795437d644a037896a86426b0839e9cdcc4049566f37e99fa9a36dc5"
+    },
+    {
+      "path": "fee_stress_trades.parquet",
+      "bytes": 73200,
+      "sha256": "50543eeb7de5f7c731b49c9b65f6c08e90dad233988b10203d57aa0dbd145eb5"
+    },
+    {
+      "path": "FROZEN_BEFORE_CANONICAL_ACTION_RECOVERY.json",
+      "bytes": 2396,
+      "sha256": "6c7d385ad92d2ba5182ef99c08f8d45a6357572820ad4b550e82f2220d88db16"
+    },
+    {
+      "path": "FROZEN_BEFORE_EVALUATION.json",
+      "bytes": 1370,
+      "sha256": "562597a90483f2e9a547dbf8276f472e474e1165e6ff3f20d8fd30ae65c4d242"
+    },
+    {
+      "path": "frozen_config.json",
+      "bytes": 1661,
+      "sha256": "543680561510f7ee7c89e14f7ea03bce8d16275e240ac1cd00a41cf9694866d5"
+    },
+    {
+      "path": "INPUT_AUDIT_BEFORE_PERFORMANCE.json",
+      "bytes": 1746,
+      "sha256": "d8ecc4a67b015479f56be8c3af59968e049e7b53d06cdc59e0f796ee96a71d1f"
+    },
+    {
+      "path": "INPUT_EXTENSION_MANIFEST.json",
+      "bytes": 1853,
+      "sha256": "25a5bac0a7da09da0713ae32ca7a2c81b5f546f163487d42f53138e7c604d603"
+    },
+    {
+      "path": "INTEGRITY_REPORT.json",
+      "bytes": 1750,
+      "sha256": "6fccd422e38dd8e4299ee8defa2208f7f25f1d5baacad4be85d5006da932f3ca"
+    },
+    {
+      "path": "leave_one_year_out_metrics.csv",
+      "bytes": 2853,
+      "sha256": "43f8e3011c47ce8a0cf30f6c41ab13789819372372a53565145f89cf999e54ae"
+    },
+    {
+      "path": "main_account_audit.json",
+      "bytes": 154,
+      "sha256": "70edd8d37a1f2f3ab33877bbc7157558c1f85b4b41734b18af9d2a035ded4a78"
+    },
+    {
+      "path": "main_actions.parquet",
+      "bytes": 11298,
+      "sha256": "132aa98fe126cf0c55be9b1a71b3a60285ee75ea7713387d3ef97c105c13b49a"
+    },
+    {
+      "path": "main_daily.parquet",
+      "bytes": 144699,
+      "sha256": "6e084f1665e63d41b5203efd7c43c327c1ea320490d163697d7149fcb7405885"
+    },
+    {
+      "path": "main_orders.parquet",
+      "bytes": 25972,
+      "sha256": "da19d3a1a17459f1547f7cbe8c5faab0a996f78b5a54dce67acb74cc5865385d"
+    },
+    {
+      "path": "MAIN_PATH_COMPLETE.json",
+      "bytes": 934,
+      "sha256": "7c553d62ee85ee1f4e56a28ed6f4a8f61cbf99bded8e6d64a1bb894a0304645a"
+    },
+    {
+      "path": "main_rebalances.parquet",
+      "bytes": 27739,
+      "sha256": "acdb3f8e950e45011d4f75e7bccd79d9c7405fcc04f1cab81a5257478c2a5ba3"
+    },
+    {
+      "path": "main_trades.parquet",
+      "bytes": 39988,
+      "sha256": "bcdc6dd9855f2879aa814c4e26acc7ed66bcf4a777236026543826bae9de2ced"
+    },
+    {
+      "path": "period_metrics.csv",
+      "bytes": 1123,
+      "sha256": "105ec120c98f0ee1aca3b35de9817216a32803540b694a3b7b98d28e24c134f0"
+    },
+    {
+      "path": "PRETEST_LOCK.json",
+      "bytes": 506,
+      "sha256": "3c272b854d9195b5351526aefde90e3c1b01ca536ad3a6b113284487d7d70c12"
+    },
+    {
+      "path": "PRETEST_LOCK_ATTEMPT1.json",
+      "bytes": 506,
+      "sha256": "fd0d6a6c3031054f77a05694b4586b1bd1a1d416d7d6b521b7f9b047c182159d"
+    },
+    {
+      "path": "PROTOCOL_BEFORE_RUN.md",
+      "bytes": 7719,
+      "sha256": "979871edd03c82f2151856b523233a269c09d8460b42784cf7de4b2d827bf2b6"
+    },
+    {
+      "path": "Q1_ALL_COMPLETE.json",
+      "bytes": 258,
+      "sha256": "8efe7b08b60b904477c4ec47ed60c0d33564b420beb258839b7f3ec01f30e4de"
+    },
+    {
+      "path": "q1_all_start_metrics.csv",
+      "bytes": 354503,
+      "sha256": "f739232429e36b302476d8e8c828b67c70af37acb473a77bf6e321bcf4f037f0"
+    },
+    {
+      "path": "q1_summary.csv",
+      "bytes": 2557,
+      "sha256": "4ee0df604237b41872c2d55cca5a55441a55ba22a7265b1c2691271c86f7819a"
+    },
+    {
+      "path": "RAW_INPUT_HASH_VERIFICATION.csv",
+      "bytes": 663834,
+      "sha256": "41ad0d99963445e76fefbd1a58ff5d29e5e1e05698661bc32d5887d0937d5ac6"
+    },
+    {
+      "path": "RAW_INPUT_HASH_VERIFICATION_ATTEMPT1.csv",
+      "bytes": 663834,
+      "sha256": "41ad0d99963445e76fefbd1a58ff5d29e5e1e05698661bc32d5887d0937d5ac6"
+    },
+    {
+      "path": "RESULTS.md",
+      "bytes": 5544,
+      "sha256": "0a8b31ed84a18b5547d782fab1c4f0d4a77b65f5fa51ff3154ce79df609fc7e5"
+    },
+    {
+      "path": "RUN_COMPLETE.json",
+      "bytes": 234,
+      "sha256": "da8efcd6ee17c96392828f192e50c4e31d58836307d8798161894f10a442d9ae"
+    },
+    {
+      "path": "RUN_COMPLETE_CANONICAL_ACTION_RECOVERY.json",
+      "bytes": 234,
+      "sha256": "da8efcd6ee17c96392828f192e50c4e31d58836307d8798161894f10a442d9ae"
+    },
+    {
+      "path": "RUN_FAILED.json",
+      "bytes": 123,
+      "sha256": "af8f43509804052d2ee22416369bd235bdf558d4edfc715cf665ef186557d296"
+    },
+    {
+      "path": "run_once.py",
+      "bytes": 94774,
+      "sha256": "3af170fea6600751aefcb5a12330817ac8541ee7510a8fc0fd7b5435a464bef0"
+    },
+    {
+      "path": "RUN_STARTED.json",
+      "bytes": 157,
+      "sha256": "ca2add2888e61d18fa49dd9296f302320cf1dec6c1f17140d36a6bc952bb1f7f"
+    },
+    {
+      "path": "RUN_STARTED_CANONICAL_ACTION_RECOVERY.json",
+      "bytes": 316,
+      "sha256": "d5b48deb498cb49efdfbef7ee5865e5bd941e2206e073128d1bcf222876240e1"
+    },
+    {
+      "path": "signal_cache_diagnostics.csv",
+      "bytes": 124120,
+      "sha256": "154e87ebbce9a738f85012b3d7034a77a0bf5850eb38fa2211ce024c60856971"
+    },
+    {
+      "path": "SIGNAL_CACHE_MANIFEST.json",
+      "bytes": 346,
+      "sha256": "0f64d123b18db2fa16d90360f3e90705240ca21bbb47a79472443f0e4b0f57ad"
+    },
+    {
+      "path": "SIGNAL_EQUIVALENCE.json",
+      "bytes": 1914,
+      "sha256": "944bcdf7a5f4eb0b71816392e5b6afb4d0885b41e2d5233f0dd4073458676c15"
+    },
+    {
+      "path": "SIGNAL_PREP_ATTEMPT1_INTERRUPTED_ENGINEERING.md",
+      "bytes": 1332,
+      "sha256": "16f3fdbf4371f757b210aa3e4fb14ef20e5bd4f7b9b27714047346f755fc753f"
+    },
+    {
+      "path": "signal_rankings.parquet",
+      "bytes": 1934788,
+      "sha256": "8945a3d732eadb6b99cc9f2259401f9b8768a1887063e0411c07ee808bde53c6"
+    },
+    {
+      "path": "stability_diagnostics.json",
+      "bytes": 797,
+      "sha256": "87f88205cf356064d950bcabe6afa54d184270ac583a05a3b82b009c26abd332"
+    },
+    {
+      "path": "stability_diagnostics_partial.json",
+      "bytes": 550,
+      "sha256": "b7b08185d2d2a9dfa2c41224e57e6ee20e37603faa1145b5a505706e6622f3d6"
+    },
+    {
+      "path": "STRICT_TRANSFER_GATE.json",
+      "bytes": 326,
+      "sha256": "e7d753c07d24d62c6763daa4d95f838f18ffd5cf3a35bc5b2a91a5a632c96edd"
+    },
+    {
+      "path": "SUMMARY.json",
+      "bytes": 4945,
+      "sha256": "6c28b140dd03228d23bba4f92ed4c9133ed1cf02046b758e62f53c9553b8cefe"
+    },
+    {
+      "path": "SYNTHETIC_TEST.json",
+      "bytes": 806,
+      "sha256": "f1a5fabf107c160431c5e49a54f0d5a3f896b5c6a5b7b0a1dc66c62e37c2558e"
+    },
+    {
+      "path": "SYNTHETIC_TEST_ATTEMPT1.json",
+      "bytes": 806,
+      "sha256": "f1a5fabf107c160431c5e49a54f0d5a3f896b5c6a5b7b0a1dc66c62e37c2558e"
+    },
+    {
+      "path": "yearly_metrics.csv",
+      "bytes": 2769,
+      "sha256": "c50c6a95bf9f60bc77ae1d8b3bd3a8a2aa82175f7caa252b87eb7c9dfbf92dcc"
+    }
+  ]
+}

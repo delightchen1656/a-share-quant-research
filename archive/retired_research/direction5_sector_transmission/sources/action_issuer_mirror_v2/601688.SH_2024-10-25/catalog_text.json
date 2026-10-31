@@ -1,0 +1,62 @@
+{
+  "symbol": "601688.SH",
+  "event_date": "2024-10-25",
+  "kind": "dividend_fields",
+  "start": "2024-08-06",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\601688.SH_2024-10-25\\query_01.json",
+      "sha256": "26427a1e018a502a7d00d8e3b377c9086ec32d47c3928478d523b5104d20cf36",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "601688",
+        "begin_time": "2024-08-06",
+        "end_time": "2024-10-25"
+      }
+    }
+  ],
+  "announcement_count": 24,
+  "documents": [
+    {
+      "title": "华泰证券:华泰证券股份有限公司2024年半年度权益分派实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2024-10-17",
+      "raw_response": "sources\\action_issuer_mirror_v2\\601688.SH_2024-10-25\\AN202410161640323608_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\601688.SH_2024-10-25\\AN202410161640323608.txt",
+      "sha256": "b20864fc4acbcdf5440ce5428e229ef14e2fa21418064cdac79e9ab40a9d692b",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\601688.SH_2024-10-25\\AN202410161640323608_content.json",
+          "sha256": "b20864fc4acbcdf5440ce5428e229ef14e2fa21418064cdac79e9ab40a9d692b"
+        }
+      ],
+      "article_code": "AN202410161640323608",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202410161640323608_1.pdf?1729097494000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    },
+    {
+      "title": "华泰证券:华泰证券股份有限公司2023年年度权益分派实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2024-08-09",
+      "raw_response": "sources\\action_issuer_mirror_v2\\601688.SH_2024-10-25\\AN202408081639202193_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\601688.SH_2024-10-25\\AN202408081639202193.txt",
+      "sha256": "f80489eb926c922ac0a66c6ee9bc809154016ca51d8658e90982ecc14fa025e8",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\601688.SH_2024-10-25\\AN202408081639202193_content.json",
+          "sha256": "f80489eb926c922ac0a66c6ee9bc809154016ca51d8658e90982ecc14fa025e8"
+        }
+      ],
+      "article_code": "AN202408081639202193",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202408081639202193_1.pdf?1723141516000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

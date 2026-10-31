@@ -1,0 +1,16 @@
+{
+  "boundary_version": "public-pre2025-v2",
+  "initial_context_review": "PASS_FOR_TASK_MARKET_AND_SELECTION_ISOLATION_WITH_PUBLIC_CONTEXT_CAVEAT",
+  "received_market_prices_or_returns_after_task_end": false,
+  "received_parameter_selection_or_performance_after_task_end": false,
+  "public_context_note": "Public AGENTS contains unrelated direction1 scope counts through public 2024 boundary; no Hengyin prices, performance, selection, or later information received. System current date is operational metadata, not market evidence.",
+  "permitted_reads": [
+    "AGENTS.md",
+    "gold_trend_stock_trial/inputs_pre2025/hengyin_2018_2023/WHITELIST.json",
+    "two parquet paths explicitly listed therein"
+  ],
+  "task_start": "2018-01-01",
+  "task_end": "2023-12-31",
+  "holdout_accessed": false,
+  "not_absolute_context_cleanliness_claim": true
+}

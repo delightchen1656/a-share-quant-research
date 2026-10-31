@@ -1,0 +1,228 @@
+{
+  "round": 9,
+  "question": "改变槽位数量和每槽预算如何影响分散与收益",
+  "candidate_count": 5,
+  "inherited": "R07_tp15",
+  "selected": "R07_tp15",
+  "promoted": false,
+  "candidate_register_sha256": "282c129a6dc371355fa3fbe928306547532bf14547e29a8e546be6504814c5cc",
+  "selected_config": {
+    "slots": 5,
+    "forced_day": 3,
+    "take_profit": 0.15,
+    "stop_loss": null,
+    "priority": "ret20_ascending",
+    "filters": [],
+    "max_new_entries": null
+  },
+  "selected_config_sha256": "4e08b931a0cef23810bb58965233688ffd16514f2c7363890c7c8ab5edda21d3",
+  "training_statistics": {
+    "score": 0.09254052567115162,
+    "mean_annual_return": 0.13640786588054177,
+    "worst_annual_return": 0.08734810300355833,
+    "largest_annual_drawdown": 0.0877346804187803,
+    "returns": [
+      0.19918554120000054,
+      0.15368019215407158,
+      0.10541762716453662,
+      0.08734810300355833
+    ],
+    "total_return": 0.6629025774000004,
+    "full_drawdown": 0.09122114624403554,
+    "terminal_equity": 166290.25774000003,
+    "eligible": true,
+    "guard_reasons": [],
+    "improved_years_vs_v3": 2
+  },
+  "attempts": [
+    {
+      "round": 9,
+      "candidate": "R09_slots3",
+      "question": "改变槽位数量和每槽预算如何影响分散与收益",
+      "config": {
+        "slots": 3,
+        "forced_day": 3,
+        "take_profit": 0.15,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "config_sha256": "82d9a5b274d179b7d98637d89657ce66de9fc904a865a0ef950b661dea9c3d7c",
+      "score": 0.060868331929799124,
+      "mean_annual_return": 0.13181409554285278,
+      "worst_annual_return": 0.09176258108936941,
+      "largest_annual_drawdown": 0.14189152722610732,
+      "returns": [
+        0.1503173911999991,
+        0.15328427349608176,
+        0.09176258108936941,
+        0.13189213638596087
+      ],
+      "total_return": 0.6394089576000004,
+      "full_drawdown": 0.14343147419747626,
+      "terminal_equity": 163940.89576000004,
+      "eligible": true,
+      "guard_reasons": [],
+      "improved_years_vs_v3": 2,
+      "promotable": false,
+      "rejection_reasons": [
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 9,
+      "candidate": "R09_slots4",
+      "question": "改变槽位数量和每槽预算如何影响分散与收益",
+      "config": {
+        "slots": 4,
+        "forced_day": 3,
+        "take_profit": 0.15,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "config_sha256": "4be55fb3259cea52345fee5bdccd71a98c42344fc89ebc96625019e0fbecc9f7",
+      "score": 0.07864632384212927,
+      "mean_annual_return": 0.13098754547956937,
+      "worst_annual_return": 0.10008834737090777,
+      "largest_annual_drawdown": 0.10468244327488019,
+      "returns": [
+        0.18225923240000097,
+        0.14029748760200933,
+        0.1013051145453594,
+        0.10008834737090777
+      ],
+      "total_return": 0.6333005270000023,
+      "full_drawdown": 0.10468244327488019,
+      "terminal_equity": 163330.05270000023,
+      "eligible": true,
+      "guard_reasons": [],
+      "improved_years_vs_v3": 2,
+      "promotable": false,
+      "rejection_reasons": [
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 9,
+      "candidate": "R09_slots6",
+      "question": "改变槽位数量和每槽预算如何影响分散与收益",
+      "config": {
+        "slots": 6,
+        "forced_day": 3,
+        "take_profit": 0.15,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "config_sha256": "ecb136eefe788b61b17adf638b60923cbaac6338b87dea55a5a16989e1e1ec5b",
+      "score": 0.07501010428787075,
+      "mean_annual_return": 0.12040843910289034,
+      "worst_annual_return": 0.07703038309367516,
+      "largest_annual_drawdown": 0.09079666963003918,
+      "returns": [
+        0.18398228160000052,
+        0.12597423451171985,
+        0.09464685720616584,
+        0.07703038309367516
+      ],
+      "total_return": 0.5717216858000003,
+      "full_drawdown": 0.09125284569120773,
+      "terminal_equity": 157172.16858000003,
+      "eligible": false,
+      "guard_reasons": [
+        "fewer_than_two_years_above_fixed_v3"
+      ],
+      "improved_years_vs_v3": 1,
+      "promotable": false,
+      "rejection_reasons": [
+        "fewer_than_two_years_above_fixed_v3",
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 9,
+      "candidate": "R09_slots8",
+      "question": "改变槽位数量和每槽预算如何影响分散与收益",
+      "config": {
+        "slots": 8,
+        "forced_day": 3,
+        "take_profit": 0.15,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "config_sha256": "77c1aac09653d662f085d02209d4b39ea241fe29f1e3fbfc918b6e7c8b60b807",
+      "score": 0.07835443045798401,
+      "mean_annual_return": 0.11319686248238425,
+      "worst_annual_return": 0.057555847671106664,
+      "largest_annual_drawdown": 0.06968486404880048,
+      "returns": [
+        0.1779999521999993,
+        0.09709638254771358,
+        0.12013526751071746,
+        0.057555847671106664
+      ],
+      "total_return": 0.5309599796999982,
+      "full_drawdown": 0.07317491393140507,
+      "terminal_equity": 153095.99796999982,
+      "eligible": false,
+      "guard_reasons": [
+        "worst_year_floor_failed",
+        "fewer_than_two_years_above_fixed_v3"
+      ],
+      "improved_years_vs_v3": 1,
+      "promotable": false,
+      "rejection_reasons": [
+        "worst_year_floor_failed",
+        "fewer_than_two_years_above_fixed_v3",
+        "no_strict_score_gain_over_incumbent"
+      ]
+    },
+    {
+      "round": 9,
+      "candidate": "R09_slots10",
+      "question": "改变槽位数量和每槽预算如何影响分散与收益",
+      "config": {
+        "slots": 10,
+        "forced_day": 3,
+        "take_profit": 0.15,
+        "stop_loss": null,
+        "priority": "ret20_ascending",
+        "filters": [],
+        "max_new_entries": null
+      },
+      "config_sha256": "7c71ed28410ee1f84d33d3ba3a3cdb0f558eadeeef807f6d3a05fe216ec12960",
+      "score": 0.0786310716252927,
+      "mean_annual_return": 0.10480862718527562,
+      "worst_annual_return": 0.046465249930918384,
+      "largest_annual_drawdown": 0.052355111119965825,
+      "returns": [
+        0.17670613199999918,
+        0.08086892471467122,
+        0.11519420209551368,
+        0.046465249930918384
+      ],
+      "total_return": 0.4842817980999985,
+      "full_drawdown": 0.05387573231764786,
+      "terminal_equity": 148428.17980999986,
+      "eligible": false,
+      "guard_reasons": [
+        "worst_year_floor_failed",
+        "fewer_than_two_years_above_fixed_v3"
+      ],
+      "improved_years_vs_v3": 1,
+      "promotable": false,
+      "rejection_reasons": [
+        "worst_year_floor_failed",
+        "fewer_than_two_years_above_fixed_v3",
+        "no_strict_score_gain_over_incumbent"
+      ]
+    }
+  ],
+  "stage": "frozen_before_any_new_batch_2024_account_run"
+}

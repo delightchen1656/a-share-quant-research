@@ -1,0 +1,23 @@
+{
+  "status": "verified",
+  "feature": "Dynamic next-session signal generation progress bar",
+  "poll_interval_ms": 3000,
+  "source": "read-only /api/state",
+  "counts": "completed workflow steps + actual feature file counters and current frozen model; not a time percentage",
+  "no_fake_continuous_percentage": true,
+  "indeterminate_animation_during_model_prediction": true,
+  "completion_only_at_ready": true,
+  "modal_form_preserved_while_polling": true,
+  "concurrent_poll_requests_prevented": true,
+  "offline_retry": true,
+  "frontend_test": "test_calculation_progress.cjs passed",
+  "live_page_ready_bar_verified": true,
+  "preview_screenshot": "running_preview.png (explicit test state,not actual model run)",
+  "model_or_baseline_or_account_changes": false,
+  "full_model_run_triggered": false,
+  "files": {
+    "沪深2_星轨软件/tracker/ui/daily_orders.js": "ced3f6802437738610004348857d61b0c836fafddbefe7229945d92b780a8b34",
+    "沪深2_星轨软件/tracker/ui/tracking.css": "f52df579a1fc84d6689fcd0cc209548e49c602ee0e98237927567ae0e7010e7b",
+    "沪深2_星轨软件/tracker/ui/test_calculation_progress.cjs": "c2ab1f0110c9547cc1d4bf2174679d28e0e6f4274c967ab3580621e15833ee12"
+  }
+}

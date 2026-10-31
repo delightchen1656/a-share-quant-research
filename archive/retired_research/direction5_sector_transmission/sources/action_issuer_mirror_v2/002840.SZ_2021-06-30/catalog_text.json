@@ -1,0 +1,44 @@
+{
+  "symbol": "002840.SZ",
+  "event_date": "2021-06-30",
+  "kind": "dividend_fields",
+  "start": "2021-04-11",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\002840.SZ_2021-06-30\\query_01.json",
+      "sha256": "b713bcbc79e62a542d3106dd1280ed41ba78d78d76cea537295e6b882689f824",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "002840",
+        "begin_time": "2021-04-11",
+        "end_time": "2021-06-30"
+      }
+    }
+  ],
+  "announcement_count": 59,
+  "documents": [
+    {
+      "title": "华统股份:2020年度权益分派实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2021-06-22",
+      "raw_response": "sources\\action_issuer_mirror_v2\\002840.SZ_2021-06-30\\AN202106211499171456_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\002840.SZ_2021-06-30\\AN202106211499171456.txt",
+      "sha256": "518928683e8a9b6575ffb8efdc4730b8569cc7559a6b07472b6dd7ccc0b78ef6",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\002840.SZ_2021-06-30\\AN202106211499171456_content.json",
+          "sha256": "518928683e8a9b6575ffb8efdc4730b8569cc7559a6b07472b6dd7ccc0b78ef6"
+        }
+      ],
+      "article_code": "AN202106211499171456",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202106211499171456_1.pdf?1624308354000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

@@ -1,0 +1,26 @@
+{
+  "symbol": "000538.SZ",
+  "event_date": "2024-11-25",
+  "kind": "unknown_reference",
+  "start": "2024-10-08",
+  "query_files": [
+    {
+      "path": "sources\\action_evidence_v2\\000538.SZ_2024-11-25\\query_01.json",
+      "sha256": "9e6ca866537baa8a34a235e4e0b4828485ab80cdb6301c4ab560c07d36b5198f"
+    }
+  ],
+  "exact_code_announcements": 13,
+  "documents": [
+    {
+      "title": "2024年特别分红权益分派实施公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-11-19/1221767436.PDF",
+      "published_date": "2024-11-19",
+      "pdf": "sources\\action_evidence_v2\\000538.SZ_2024-11-25\\1221767436.pdf",
+      "text": "sources\\action_evidence_v2\\000538.SZ_2024-11-25\\1221767436.txt",
+      "sha256": "4ab5e2be23e81810b271ce0e3398fbddfb04dbb932714ca5c485cc2d178407a9",
+      "pages": 3
+    }
+  ],
+  "no_document_is_not_no_event_proof": true,
+  "fields_verified": false
+}

@@ -1,0 +1,39 @@
+{
+  "symbol": "000756.SZ",
+  "event_date": "2018-02-14",
+  "kind": "unknown_reference",
+  "start": "2017-12-10",
+  "query_files": [
+    {
+      "path": "sources\\action_evidence_v2\\000756.SZ_2018-02-14\\query_01.json",
+      "sha256": "801bc4556e26810f06858c2a57a3adbad1a8c18f28a3f0599b67ecb28a7aa942"
+    },
+    {
+      "path": "sources\\action_evidence_v2\\000756.SZ_2018-02-14\\query_02.json",
+      "sha256": "dfd0d5c2f94e276301225d8344ddff61f7a89cefa629aebab9917cb297b4d7e7"
+    }
+  ],
+  "exact_code_announcements": 24,
+  "documents": [
+    {
+      "title": "2017年度A股特别派息实施公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2018-01-20/1204347117.PDF",
+      "published_date": "2018-01-20",
+      "pdf": "sources\\action_evidence_v2\\000756.SZ_2018-02-14\\1204347117.pdf",
+      "text": "sources\\action_evidence_v2\\000756.SZ_2018-02-14\\1204347117.txt",
+      "sha256": "62f33c459b74d61c8d6d2f58cd8b01c7e79ffadace7a7409b32b4501ddf441ad",
+      "pages": 2
+    },
+    {
+      "title": "关于终止筹划发行A股股份购买资产暨股票复牌公告",
+      "url": "https://static.cninfo.com.cn/finalpage/2018-02-14/1204421816.PDF",
+      "published_date": "2018-02-14",
+      "pdf": "sources\\action_evidence_v2\\000756.SZ_2018-02-14\\1204421816.pdf",
+      "text": "sources\\action_evidence_v2\\000756.SZ_2018-02-14\\1204421816.txt",
+      "sha256": "19c0444a28c33e956d790bb78e7cdaae704c0683db6fc9b9ace2ff00c75f7ef0",
+      "pages": 2
+    }
+  ],
+  "no_document_is_not_no_event_proof": true,
+  "fields_verified": false
+}

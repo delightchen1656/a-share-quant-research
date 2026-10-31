@@ -1,0 +1,44 @@
+{
+  "symbol": "600346.SH",
+  "year": 2021,
+  "year_type": "operate",
+  "provider": "BaoStock",
+  "status": "returned_events",
+  "complete_corporate_action_ledger": false,
+  "fields": [
+    "code",
+    "dividPreNoticeDate",
+    "dividAgmPumDate",
+    "dividPlanAnnounceDate",
+    "dividPlanDate",
+    "dividRegistDate",
+    "dividOperateDate",
+    "dividPayDate",
+    "dividStockMarketDate",
+    "dividCashPsBeforeTax",
+    "dividCashPsAfterTax",
+    "dividStocksPs",
+    "dividCashStock",
+    "dividReserveToStockPs"
+  ],
+  "rows": [
+    [
+      "sh.600346",
+      "",
+      "2021-05-08",
+      "2021-04-13",
+      "2021-05-25",
+      "2021-05-28",
+      "2021-05-31",
+      "2021-05-31",
+      "",
+      "0.77",
+      "0.693或0.77",
+      "0.000000",
+      "10派7.7元（含税，扣税后6.93或7.7元）",
+      ""
+    ]
+  ],
+  "attempts": 1,
+  "elapsed_seconds": 0.0189
+}

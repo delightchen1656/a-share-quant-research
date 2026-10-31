@@ -1,0 +1,44 @@
+{
+  "symbol": "000042.SZ",
+  "event_date": "2018-06-28",
+  "kind": "dividend_fields",
+  "start": "2018-04-09",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\000042.SZ_2018-06-28\\query_01.json",
+      "sha256": "9745ca410270ece97db8fb25b578cc884944512df8a196762ae159835aef4955",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "000042",
+        "begin_time": "2018-04-09",
+        "end_time": "2018-06-28"
+      }
+    }
+  ],
+  "announcement_count": 75,
+  "documents": [
+    {
+      "title": "中洲控股:2017年度权益分派实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2018-06-14",
+      "raw_response": "sources\\action_issuer_mirror_v2\\000042.SZ_2018-06-28\\AN201806131155478161_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\000042.SZ_2018-06-28\\AN201806131155478161.txt",
+      "sha256": "2aa1fac60288fe35ab5f2e32ed0d929722792eb997e2555b4017744068d6dfea",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\000042.SZ_2018-06-28\\AN201806131155478161_content.json",
+          "sha256": "2aa1fac60288fe35ab5f2e32ed0d929722792eb997e2555b4017744068d6dfea"
+        }
+      ],
+      "article_code": "AN201806131155478161",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201806131155478161_1.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

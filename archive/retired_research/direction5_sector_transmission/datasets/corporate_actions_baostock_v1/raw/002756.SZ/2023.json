@@ -1,0 +1,60 @@
+{
+  "symbol": "002756.SZ",
+  "year": 2023,
+  "year_type": "operate",
+  "provider": "BaoStock",
+  "status": "returned_events",
+  "complete_corporate_action_ledger": false,
+  "fields": [
+    "code",
+    "dividPreNoticeDate",
+    "dividAgmPumDate",
+    "dividPlanAnnounceDate",
+    "dividPlanDate",
+    "dividRegistDate",
+    "dividOperateDate",
+    "dividPayDate",
+    "dividStockMarketDate",
+    "dividCashPsBeforeTax",
+    "dividCashPsAfterTax",
+    "dividStocksPs",
+    "dividCashStock",
+    "dividReserveToStockPs"
+  ],
+  "rows": [
+    [
+      "sz.002756",
+      "",
+      "2023-04-13",
+      "2023-03-21",
+      "2023-04-14",
+      "2023-04-20",
+      "2023-04-21",
+      "2023-04-21",
+      "2023-04-21",
+      "5",
+      "4.5或5",
+      "0.000000",
+      "10转3派50元（含税，扣税后45或50元）",
+      "0.300000"
+    ],
+    [
+      "sz.002756",
+      "",
+      "2023-09-16",
+      "2023-08-29",
+      "2023-09-21",
+      "2023-09-26",
+      "2023-09-27",
+      "2023-09-27",
+      "",
+      "1",
+      "0.9或1",
+      "0.000000",
+      "10派10元（含税，扣税后9或10元）",
+      ""
+    ]
+  ],
+  "attempts": 1,
+  "elapsed_seconds": 0.2827
+}

@@ -1,0 +1,46 @@
+{
+  "cutoff": "2024-12-31",
+  "stage": "6_to_8_data_semantics",
+  "totals": {
+    "rows": 5154043,
+    "active_rows": 5101978,
+    "positive_trade_rows": 5101978,
+    "vwap_within_range_as_shares": 5101978,
+    "vwap_within_range_strict": 5101973,
+    "vwap_within_range_if_lots": 0,
+    "active_rows_without_positive_volume_or_amount": 0,
+    "nonfinite_numeric_rows": 52059,
+    "active_nonfinite_numeric_rows": 0,
+    "suspended_nonfinite_numeric_rows": 52059,
+    "unknown_tradestatus_rows": 0,
+    "unknown_st_rows": 0,
+    "negative_turn_rows": 0,
+    "reference_price_breaks": 15913,
+    "quote_return_mismatches": 0,
+    "files": 3336,
+    "share_unit_vwap_consistency": 1.0,
+    "lot_unit_vwap_consistency": 0.0
+  },
+  "unit_contract": {
+    "price": "CNY_per_share",
+    "volume": "shares",
+    "amount": "CNY",
+    "turn": "percent",
+    "pctChg": "percent",
+    "adjustflag": "3_unadjusted"
+  },
+  "documentation": "sources/vendor_documentation/stockKData.md",
+  "numeric_checks_are_unit_consistency_evidence_not_independent_vendor_lineage_proof": true,
+  "reference_price_break_interpretation": "possible_ex_right_reference_or_correction; not an event ledger and not direct shareholder economic returns",
+  "unusual_rows_policy": "preserve and investigate; no automatic deletion, price adjustment or fabricated corporate action",
+  "corporate_action_economic_returns_ready": false,
+  "factor_experiments_enabled": false,
+  "model_experiments_enabled": false,
+  "account_backtest_enabled": false,
+  "outputs": {
+    "breaks": "audits\\semantics_v1\\breaks.parquet",
+    "vwap_outliers": "audits\\semantics_v1\\vwap_outliers.parquet",
+    "vwap_strict_diagnostics": "audits\\semantics_v1\\vwap_strict_diagnostics.parquet",
+    "pct_mismatches": "audits\\semantics_v1\\pct_mismatches.parquet"
+  }
+}

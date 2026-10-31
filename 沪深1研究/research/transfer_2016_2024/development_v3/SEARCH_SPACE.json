@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "instruction_boundary_version": "public-pre2025-v2",
+  "protocol": "PROTOCOL_V3.md",
+  "data_cutoff": "2024-12-31",
+  "development_period": ["2016-01-01", "2023-12-31"],
+  "confirmation_period": ["2024-01-01", "2024-12-31"],
+  "start_dates": "every trading day in Q1 of each evaluation year",
+  "end_date": "last trading day of the same calendar year",
+  "signal_lag": 1,
+  "phase": {
+    "anchor": "first trading day of 2018",
+    "formula": "phase_index = full_calendar_position - anchor_position",
+    "first_account_day_forced": true,
+    "subsequent_due": "(phase_index - 1) % interval == 0"
+  },
+  "baseline": {
+    "weights": {"cap": -0.35, "vol": -0.20, "overnight": 0.25, "intraday": -0.20},
+    "smooth": 5,
+    "min_smooth": 3,
+    "count": 5,
+    "interval": 20,
+    "buffer": 1.5,
+    "exposure": 0.98,
+    "participation_20d_mean_volume": 0.005
+  },
+  "candidate_generation": {
+    "method": "one_axis_neighborhood_around_exact_baseline",
+    "families": {
+      "cap_weight": [-0.45, -0.40, -0.30, -0.25],
+      "vol_weight": [-0.30, -0.25, -0.15, -0.10],
+      "overnight_weight": [0.15, 0.20, 0.30, 0.35],
+      "intraday_weight": [-0.30, -0.25, -0.15, -0.10],
+      "smooth": [{"smooth": 3, "min_smooth": 2}, {"smooth": 7, "min_smooth": 4}, {"smooth": 10, "min_smooth": 6}],
+      "interval": [15, 25, 30],
+      "count": [4, 6],
+      "buffer": [1.0, 2.0]
+    },
+    "include_exact_baseline": true,
+    "duplicate_elimination": "canonical JSON parameters"
+  },
+  "factor_rules": {
+    "cross_sectional_rank": "pct average, float32, eligible names only",
+    "missing_propagation": "score is missing if any factor component is missing",
+    "smoothing": "rolling mean with candidate smooth/min_smooth; current-day eligibility reapplied",
+    "tie_break": "descending score, stable mergesort over lexical symbol order",
+    "ranking_depth": 100
+  },
+  "evaluation": {
+    "annual_excess": "strategy total return minus SSE Composite total return for identical start/end dates",
+    "primary_order": [
+      "maximize minimum across years of median annual excess",
+      "minimize standard deviation across yearly median excess",
+      "maximize mean CAGR across all starts",
+      "maximize minimum CAGR across all starts",
+      "maximize mean excess across all starts",
+      "minimize mean maximum drawdown",
+      "maximize mean Sharpe",
+      "minimize mean total cost rate"
+    ],
+    "development_gates": {
+      "worst_year_median_excess_vs_baseline": ">= 0",
+      "year_median_excess_std_vs_baseline": "<= 0",
+      "years_with_higher_median_excess": ">= 5 of 8",
+      "starts_with_higher_excess_fraction": "> 0.50",
+      "mean_cagr_vs_baseline": ">= 0",
+      "minimum_cagr_vs_baseline": ">= -0.01",
+      "leave_one_year_out_mean_excess_improvement": "> 0 for every omitted year",
+      "single_year_share_of_positive_excess_gain": "< 0.50",
+      "parameter_neighbor": "at least one nearest same-family setting has positive worst-year median-excess improvement and candidate-to-neighbor deterioration is <= 0.02"
+    },
+    "selection": "among gated non-baseline candidates use primary_order lexicographically; if none pass, retain baseline"
+  },
+  "confirmation_gate": {
+    "candidate_median_excess_vs_baseline": "> 0",
+    "starts_with_higher_excess_fraction": "> 0.50",
+    "candidate_mean_cagr_vs_baseline": ">= 0",
+    "candidate_minimum_cagr_vs_baseline": ">= -0.01",
+    "candidate_mean_max_drawdown_vs_baseline": "<= 0.02"
+  },
+  "robustness": {
+    "development_execution": "historical fees, strict daily limits, T+1, lots, actions, 20-day mean-volume participation",
+    "post_selection_pre_confirmation_stress": [
+      {"name": "double_commission", "commission_rate": 0.0006, "minimum_commission": 10.0},
+      {"name": "capacity_40pct", "participation_multiplier": 0.4}
+    ],
+    "stress_is_diagnostic_only": true
+  },
+  "freeze": {
+    "hash_algorithm": "sha256",
+    "hash_scope": "canonical UTF-8 JSON of this document with freeze.frozen_spec_sha256 omitted",
+    "frozen_spec_sha256": "e8db2afeefb008ab077791a7b6d8af87c8a3a2082e726d8892d3eccc465ef935"
+  }
+}

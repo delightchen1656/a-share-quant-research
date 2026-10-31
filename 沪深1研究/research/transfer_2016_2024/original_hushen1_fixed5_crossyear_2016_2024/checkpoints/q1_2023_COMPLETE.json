@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "year": 2023,
+  "q1_starts": 59,
+  "scenario_rows": 59,
+  "prefix_sharing": "Each early start ran once to 2024; its 2019 horizon is the exact saved prefix.",
+  "hashes": {
+    "metrics": "2de824e9840c99a23baff16b8c43345c4b82f871b371adcf13b22b821b254b70",
+    "daily": "f32328db72e77d6c75ef1a5c8aab006c563bb2d42368fac8023a05bc28403b2d",
+    "trades": "e8d15a68afbc2b7a06816988d19305b6099c5250338f07f5fca3489c1fcc361c",
+    "orders": "5f794ab7e7a2dea9fab8dd9f8d9866cbe3b9a9c2e2244449b63726c1e01f7677",
+    "actions": "dd44e71e47a3f1febb915107fc74704f84f5cb224785d1a65523ab1869877015",
+    "rebalances": "d847323b228190666c81323d4b07c4c6005f78c2cafc0bcb0766241fd7b78eae",
+    "audit": "3851f7f2577a1abcdc21442e62080756ae9b132969fec4b372236732e28cc2fc"
+  }
+}

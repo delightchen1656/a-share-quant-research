@@ -1,0 +1,44 @@
+{
+  "symbol": "002792.SZ",
+  "event_date": "2018-06-29",
+  "kind": "dividend_fields",
+  "start": "2018-04-10",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\002792.SZ_2018-06-29\\query_01.json",
+      "sha256": "21fa085a5be7e5081f12d777e1f36d19d1abe23a8d86ddbece260688ce663cf1",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "002792",
+        "begin_time": "2018-04-10",
+        "end_time": "2018-06-29"
+      }
+    }
+  ],
+  "announcement_count": 58,
+  "documents": [
+    {
+      "title": "通宇通讯:2017年年度权益分派实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2018-06-21",
+      "raw_response": "sources\\action_issuer_mirror_v2\\002792.SZ_2018-06-29\\AN201806201157314293_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\002792.SZ_2018-06-29\\AN201806201157314293.txt",
+      "sha256": "f684ad13901fe321eecfde2b5dd6d98da76ad8e86628c4e9fcd1c2384aa9b663",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\002792.SZ_2018-06-29\\AN201806201157314293_content.json",
+          "sha256": "f684ad13901fe321eecfde2b5dd6d98da76ad8e86628c4e9fcd1c2384aa9b663"
+        }
+      ],
+      "article_code": "AN201806201157314293",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201806201157314293_1.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

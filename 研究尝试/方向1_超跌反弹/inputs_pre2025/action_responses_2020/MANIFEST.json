@@ -1,0 +1,4749 @@
+{
+  "complete": true,
+  "stocks": 947,
+  "requested_operate_year": 2020,
+  "provider": "baostock.query_dividend_data/yearType=operate",
+  "records": 698,
+  "files": [
+    {
+      "path": "action_responses_2020/000006.json",
+      "sha256": "9f98b6c858deeb051726736db54de3fecb1c89bfdd88ca44f092c11364f17348",
+      "key": "000006.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000007.json",
+      "sha256": "a78d09a502e83562df6e31cb0a0fc6ec5ff4352259055a9b7ce8711903489337",
+      "key": "000007.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000014.json",
+      "sha256": "f0fceac4384c42dab55b4e1b957bf54266281c767a17e2d349eb75b8b3ce3453",
+      "key": "000014.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000021.json",
+      "sha256": "748a95987fa4c0264843ccf1fdd363298c1f8a9bde219872dc90575d2ae2a78e",
+      "key": "000021.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000026.json",
+      "sha256": "c09d17666b9ba7ed3d046213dc7f94706d15067598a3ec245becf4d696ac160d",
+      "key": "000026.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000028.json",
+      "sha256": "bab092531d87c6276331006744dc741c872c973366c97954c629e4fcd9571ba1",
+      "key": "000028.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000032.json",
+      "sha256": "8399fc168a030a05f3e6d4b145b5d1f5ae13f6efa70faaf9bbf24cf1be487040",
+      "key": "000032.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000037.json",
+      "sha256": "aceadef73f951b179ba4fbd746490be3c98606575e705e7eaa7e5fbf4ec8c2bb",
+      "key": "000037.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000042.json",
+      "sha256": "d329c8351ef79aff7e035375bff1bead92df4dbc453364c0ccda28e0abc3b232",
+      "key": "000042.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000045.json",
+      "sha256": "3895f7c1fdb480cb1cf15f26ec75607dab7d4c29c6b09ae3b2b3ae7d3c2e9755",
+      "key": "000045.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000050.json",
+      "sha256": "37979258e9d675c5e03389c715c1c6bff41f074f1e1584c3cd8e3e43fbea30b5",
+      "key": "000050.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000055.json",
+      "sha256": "bc43151371505df7a60b99201ad05d3fc1ac6148bc3793cc90f0b527dd5365c1",
+      "key": "000055.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000056.json",
+      "sha256": "d21ddb3c4624448aeefd2468d360fd95951da82c4d092fd2d4f509a2a1355b9e",
+      "key": "000056.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000059.json",
+      "sha256": "5936763163e3ad9905ad26829759ddd6950612d8df8e9a93ffed8172dbd75216",
+      "key": "000059.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000060.json",
+      "sha256": "f421f0d5ff79c8bd171251151cc7e7782a6df10fad6b2569e87ce6a662dd8291",
+      "key": "000060.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000065.json",
+      "sha256": "64c509cef9c54295a9c8f0c2dac31cd9e118d559e09333a00b88e22fba8414d1",
+      "key": "000065.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000069.json",
+      "sha256": "2ba778c657eab1086eaec4e41d0c701755305acd6b0917ecfac7d4929f10b1bc",
+      "key": "000069.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000090.json",
+      "sha256": "72338da0f7aa2c9f6c08414a678b9a10010f7f1e441500b46e740396dbdd8f68",
+      "key": "000090.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000155.json",
+      "sha256": "11ec3570714cdd2cf8e6bfc1a1a38bd14564530959f4257f0ab26e0437effe75",
+      "key": "000155.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000156.json",
+      "sha256": "0c45d4679e60cf77dab7f5483ca84a43e84bde069c175859d2dc582a918108e7",
+      "key": "000156.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000301.json",
+      "sha256": "c7e6027848c657ae8df927bc74acf9d4a68acd43913f4ee58d1f639d4d32c856",
+      "key": "000301.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000333.json",
+      "sha256": "e2dc031a0cf58cb358dda1c1ce0009561b21fe8c8aaddf4b4ef3c6252774e6d4",
+      "key": "000333.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000338.json",
+      "sha256": "473f6de7c8c655a6415e7cfe0a26230d348021ec2a85113d35fc98031897003c",
+      "key": "000338.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000402.json",
+      "sha256": "ce46653bfc662cfead012533198fb986e551549c1ac1db02bd5bbc48f6dcf943",
+      "key": "000402.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000404.json",
+      "sha256": "4b37d3719022ce9133ca8d45a7df1f0eeccced7e8c176d06d33774b5ea7ebb33",
+      "key": "000404.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000408.json",
+      "sha256": "ff7303020530ae605433068cbf328978280ecea6d86e01d342bae8256e8a5073",
+      "key": "000408.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000410.json",
+      "sha256": "99e973bc04eb8862663179a0616a57fab5784ed42dcd590f3b1cc12be0a9bea8",
+      "key": "000410.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000420.json",
+      "sha256": "08ca5580d6012a1518a143e19bb8981f0a96c1cf93824e4bb3858b56e3cdd2d7",
+      "key": "000420.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000421.json",
+      "sha256": "61206bf052c0278314505b3c333cb996326f3749075e55f9ba3aa692d30c1bec",
+      "key": "000421.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000422.json",
+      "sha256": "33a3d8ac6563e69f52ada2e06d474421a392a48a5094c124f793a9a828e837ed",
+      "key": "000422.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000423.json",
+      "sha256": "776d36b677ae7898953f98499c86250992240abf0dadd89390407e1740a1aa3a",
+      "key": "000423.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000426.json",
+      "sha256": "03914554dc42e697a8ae968c464672c7c14052355523e07e8306882c12b2fbfb",
+      "key": "000426.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000498.json",
+      "sha256": "b979a69561098dc0ac913229a22c094359929ce064a6aa86b08928d9f67051bc",
+      "key": "000498.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000501.json",
+      "sha256": "d2c4188bda3d31512f704256d7972b0d3e35fc3f92d8e8fef7cb1fa90d294e98",
+      "key": "000501.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000514.json",
+      "sha256": "69969b4cb40755247cc7dee5088658a64545c516cc293eca483fb262a285c548",
+      "key": "000514.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000524.json",
+      "sha256": "352bf22e0259baef746f5ab3b3713ad2de53c5bd6f2ddb9ced2e7bd017d0810a",
+      "key": "000524.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000528.json",
+      "sha256": "8a54d2d398ff7550af1607f1999dd01b70d0f64a9456b4fb667d1a04ec1f2ad3",
+      "key": "000528.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000530.json",
+      "sha256": "51f47d6c6006bd9c85c1b342ff81e4b62984b8b77e29162f22295b87a6923725",
+      "key": "000530.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000531.json",
+      "sha256": "0f23aa79f2ce4954cd3e2c53d452522b16719cac96a29bd35d6a42030ea75fe2",
+      "key": "000531.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000545.json",
+      "sha256": "4826cf241d3d2251e2862d6845a6ed90c12677beebe18206482ffb2f48ca2dd7",
+      "key": "000545.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000547.json",
+      "sha256": "577381aaaedcb7be4d5587a1cfdbd8575b1355e6262d2a0d5ae7a1e9ce950af0",
+      "key": "000547.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000548.json",
+      "sha256": "cf9a84401ca3508199aeb7fb580ba8ce074096b9b4cfa83fd7cbeb7c723cbc0b",
+      "key": "000548.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000552.json",
+      "sha256": "24a41affa99da57b4d41a026bf034c1578a40de68988590181fc82cfb1e6d17b",
+      "key": "000552.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000554.json",
+      "sha256": "99961f43706c7cf8d2b0a848a42b3e1a6e3c04916a3d943d128bc8f4b9d6149f",
+      "key": "000554.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000558.json",
+      "sha256": "19fdb094215fe084943410db482f2fec6cded71a919b99b043fb0506cce6ac67",
+      "key": "000558.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000559.json",
+      "sha256": "4f324dfe9ef970599761929f82675e7f0eb1f7f638aff51e77416b62767c916c",
+      "key": "000559.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000560.json",
+      "sha256": "1e4f89a6db30747bd8a0921e59c63409406d8c2be4af3765b8200abed80ec1ff",
+      "key": "000560.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000566.json",
+      "sha256": "a7f17aba6b0f8c68597293516e66d3c9b9ae9797a5defbed8a6af5a7bad4e950",
+      "key": "000566.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000572.json",
+      "sha256": "f554683a12419faf6bc07c026fc3b67ede40a6562ae1913752740f61dd39fddf",
+      "key": "000572.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000573.json",
+      "sha256": "7aaedcb438dec55677974b5071643363baec59666fb0a9670d473fa3a8c75487",
+      "key": "000573.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000576.json",
+      "sha256": "ad94c01823291dcee13ee4710dc235d23cb0198487090f6a8767b37232ffac49",
+      "key": "000576.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000581.json",
+      "sha256": "5ae4959bf57219402f76ebcfc26ec711ad3a2d4b43e3b2b37011369a6713c188",
+      "key": "000581.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000589.json",
+      "sha256": "7a433462ff728099470da705846d972720f00b441ea9c47b76ad4e6fc59fe530",
+      "key": "000589.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000592.json",
+      "sha256": "4a6a6b0a0485c5cbbd80407abfb1bc182e531235c3fde5dde66312c602af96a6",
+      "key": "000592.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000600.json",
+      "sha256": "cc65432422692e0eef8e728937f85264483bc3036bc380aa6412947228f6a176",
+      "key": "000600.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000603.json",
+      "sha256": "30f7558f16ccf0cac3d75849e2111aff0e12821a16b32073cfefa99524daa12f",
+      "key": "000603.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000619.json",
+      "sha256": "0b0d757047b7e83250ac42d24d63897a769bbfa2f99c9e81d62271ab2fbf44d2",
+      "key": "000619.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000620.json",
+      "sha256": "8f0cb0244857f777a4984c65074a9c7d4f21722e9295db82a43f1f5b0f600ab1",
+      "key": "000620.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000629.json",
+      "sha256": "ed8ebe02ddafe572b753146dcc584c4e32918cf461293be9045244e721881253",
+      "key": "000629.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000630.json",
+      "sha256": "b611eaaa89d44a441821b254efaa369bd275150f847f489a72122650f67d710d",
+      "key": "000630.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000633.json",
+      "sha256": "7997195a6ee5dfbecf37c7ed3c4e9b18721e327aac002361f76222bd9292398c",
+      "key": "000633.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000635.json",
+      "sha256": "605da7beefb91bff10f3f62eaf12578d0e1c0229d52c878eaa4368e3749f6cb6",
+      "key": "000635.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000636.json",
+      "sha256": "9c97aa78d325e85890cdd368f93b1ed0ee30d13c3617eb322e900797a17c83d4",
+      "key": "000636.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000639.json",
+      "sha256": "cf18b44c3d244ef3f1af2d0ff59fb21d14a943ee6302b68849f3f6820da64f45",
+      "key": "000639.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000650.json",
+      "sha256": "ce7963bc0aec4b8a4b259fc77888152e1170f4b10a23a92f0762f111118b3edc",
+      "key": "000650.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000652.json",
+      "sha256": "d5f7ee543f3a70eaf97b9df5ff424a858bdc3b41c5930ecd64214d1e6d99fdb9",
+      "key": "000652.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000657.json",
+      "sha256": "340bcc8528372c9d33efeb5847bbba7c929698302740e1eefd827e200e676a84",
+      "key": "000657.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000665.json",
+      "sha256": "d771543cfc3f5af4cfd67a28bf31c8957f7d2ab51e57f3b7f174cf8f563d401d",
+      "key": "000665.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000672.json",
+      "sha256": "9d2bb2aba16178340feb5ebc455325fea24bca6be628db0d7693a347e5ecbe53",
+      "key": "000672.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000678.json",
+      "sha256": "69be84a3dc2a08314e1da49317d192ebc9c649cc3256af8c115762be32c56859",
+      "key": "000678.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000680.json",
+      "sha256": "db300af5bda86e096ee09a79a4c9037312c062125b2ccd4ab0fa9ee1b02250f6",
+      "key": "000680.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000683.json",
+      "sha256": "0969752f7c38c7b2b91d98f3be5860e0ec5e3acb58e60a608b3f7fc4de24784a",
+      "key": "000683.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000685.json",
+      "sha256": "a3e40939481799dafa06e71efb6067252335dadfe15f5b524367c11e9144ded5",
+      "key": "000685.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000686.json",
+      "sha256": "67157bff5a3d23aa1f376c160e4f046e564148fcfa3cc693f04a93de6919319f",
+      "key": "000686.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000690.json",
+      "sha256": "cd7097cbb7b53bee2d9077700df7239e815a165bb0de6270f076644b058124f3",
+      "key": "000690.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000707.json",
+      "sha256": "54e5f8fa7f03b2bf6d443553a227563c9fa085d7110e9f6ec50c379b49b27eea",
+      "key": "000707.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000708.json",
+      "sha256": "8420c910fc1e77bfbf1720b5c02e2b575705533759678c0aa39851abfcf5dc4c",
+      "key": "000708.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000709.json",
+      "sha256": "8b567ef401a7ece5543302b39400a3b7ed45aa09689dafc06687b8af40e19de4",
+      "key": "000709.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000717.json",
+      "sha256": "98bbac74667a88738519677a84a11e8cc0ec70fc7c1ca81c3d75bcf201b6c1fe",
+      "key": "000717.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000722.json",
+      "sha256": "a05d38983bcc7da05d73befd5ec1c1e952756ec0e719bb18faa4caad9b21e2a2",
+      "key": "000722.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000725.json",
+      "sha256": "550258526db0ffbe76a4cfbded31ba93b621eb80393d46a5a48cb0a07d2657d8",
+      "key": "000725.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000731.json",
+      "sha256": "969dcfe7601d5569a0a99025a1515b6738c975f7c9b334a6555b73c3f966b574",
+      "key": "000731.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000736.json",
+      "sha256": "33aa01aa3de594746cff094e55f13085a18e017472279acd7c4a9f6595a7a5eb",
+      "key": "000736.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000737.json",
+      "sha256": "558c87ba96dbc9f6ff681ff26c8f1ae5181f5792af05a5abe45d03aa4396a880",
+      "key": "000737.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000738.json",
+      "sha256": "ce99db9439c7196905cf5ce99bbe0e30774bbd980b0a8baab006a550ac111b7d",
+      "key": "000738.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000739.json",
+      "sha256": "16ac575bd568ae628aca2ce6f7cb452b77b06812137e7cf764978135d7a1c15b",
+      "key": "000739.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000751.json",
+      "sha256": "6912fc3a6d22fcd5d11b66a1383e0784c34aedb3dfad1c99bab63aa153eaa8ad",
+      "key": "000751.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000753.json",
+      "sha256": "bd723e66551b790753a121c82ff665e0aaab973973b02521d8f46e157dccf44e",
+      "key": "000753.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000758.json",
+      "sha256": "5f316b5af3c9a932374e36472cde5d1acee045351591a385a7626bb44bdc6d38",
+      "key": "000758.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000766.json",
+      "sha256": "4903b81b15f249a02cb55ab8c9664134efa6d88fdab68b45feb5fd7a1f6259de",
+      "key": "000766.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000767.json",
+      "sha256": "8a12c14e9536e5adeb0bf4273a49bb892502e3d05ac48d7ecb60ca876df681f5",
+      "key": "000767.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000778.json",
+      "sha256": "1c931f9149230a0079b3683d48f81a30435bc1b46c3aa46085a01b70d84857ac",
+      "key": "000778.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000779.json",
+      "sha256": "66f60ed232d9042504354cf55d7b9bef0d10f0133d293a3d3223cb68291eecc6",
+      "key": "000779.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000783.json",
+      "sha256": "b437c8080950f19959bf22eb7518500dcbf0ca3a16b7c1a2341e44b1c3aea398",
+      "key": "000783.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000785.json",
+      "sha256": "e88f08c9575eb9f36bdf7c6fb430709db6e47792bfb12a34926233e4e17d7b6d",
+      "key": "000785.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000786.json",
+      "sha256": "c1a1612254f221c31ad014a3c4f5917cdd5354588de3d28d7ec9ef6671eabc1c",
+      "key": "000786.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000788.json",
+      "sha256": "a4852b26d504265c5a1f20b2ba353e03f4e8730229c01c5e7b77c963dabf909e",
+      "key": "000788.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000789.json",
+      "sha256": "5bf7eebcb92ac2cb803e3bdac7d15b7f1b8a050c44f5ae47e812b6477fa1f993",
+      "key": "000789.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000791.json",
+      "sha256": "195f7a493a9b7637a7f3a9db00fcaa36e08c8c63320dec99a023cef21a68f5a8",
+      "key": "000791.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000792.json",
+      "sha256": "c62ace4039f9c1f9c826d31b2993659a5fd601be96f62ac6509428389db2481d",
+      "key": "000792.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000797.json",
+      "sha256": "43c0e0365861b9c0d89ddd81e6591b20f5e9ceee9295ad16d5e07241479457c6",
+      "key": "000797.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000800.json",
+      "sha256": "e51f08c201c35397fea2e35723040a73824c319c1264d25b10addfff34841900",
+      "key": "000800.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000802.json",
+      "sha256": "0b48773ae479a49a162fe37084080a9a9231c90b16929e0fa3103aa354d9c3fa",
+      "key": "000802.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000809.json",
+      "sha256": "b49fe1bf26105ea9a6752b36e66ef5946e56c01e661a0e5797a8e7c0ae86838b",
+      "key": "000809.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000810.json",
+      "sha256": "b723c2feddd88e34558e058091d466bb550a3bf38d2936ad91f091756d514a1b",
+      "key": "000810.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000813.json",
+      "sha256": "3d3fa846e22e8056dac42a65e23a13f98caf09aeca064c2af26a2f6c522a8ed1",
+      "key": "000813.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000816.json",
+      "sha256": "41b8e2a43cf6de3155f0340ef90782e432caffb5dfc30debaf589b11843e7cc9",
+      "key": "000816.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000821.json",
+      "sha256": "fda65e1268a187bf171630c538f7d1df0a5f94ba3a617ee3f3e9687da80d011f",
+      "key": "000821.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000822.json",
+      "sha256": "79f3dce0e773c50e7dd2368fd2c47cbb831ff12a0313e67d00e5aecaad53c062",
+      "key": "000822.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000838.json",
+      "sha256": "b7bec1ebec81aeb8d4e98f3e2ed4d65e52343b0cc53df9f2695e205dfbbf2b3a",
+      "key": "000838.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000839.json",
+      "sha256": "e07a06c61accfe36e754d6e5094c8ab66250425c366c14736e91becd6610323d",
+      "key": "000839.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000863.json",
+      "sha256": "b2ce4eef8861af1d796f2174931377051bc582ef0b094ffee9163625f2a86b52",
+      "key": "000863.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000869.json",
+      "sha256": "e75b49067fcd2ee42824aed264ebaf9f05c384d613300d44af7a66e3cd6d28f4",
+      "key": "000869.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000881.json",
+      "sha256": "02effbd1c451d6c729570ba13b7d126f49ed3f6e5b2fad4dba38c19e4a94c814",
+      "key": "000881.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000882.json",
+      "sha256": "a474a69ce69dff79ff0d5dc1cfa5485428e79bc56e6b6839b2a4d7c0b27e8fbd",
+      "key": "000882.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000886.json",
+      "sha256": "9d0d2a6997f965f079b256d80bdf52fdc199bead0e856782c4bd51cfa4a958b4",
+      "key": "000886.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000888.json",
+      "sha256": "a6610b111d1fcbc0371607e44350c7eae9cffa35f2cd10ead92e2f420a5c4abc",
+      "key": "000888.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000892.json",
+      "sha256": "0b4a497e8457f4ad225ad4726538a5f80e19ecd40f71aa99b61083d3063ce50a",
+      "key": "000892.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000897.json",
+      "sha256": "6c2b04ffe46d20333c6eba65477a80bfa43d2f35cb1d0dba8a15634eeda8cf53",
+      "key": "000897.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000898.json",
+      "sha256": "76ac01b0d6d752cc2187b281d8bd0c1eb42cf078e6fd348e50a3e55d7f111d6c",
+      "key": "000898.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000903.json",
+      "sha256": "65699ed16a33f723f2252fe5323225204bf1d143571bd9b741f1209b5c72e5a4",
+      "key": "000903.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000910.json",
+      "sha256": "fd7fe47cd9f039245d9c927fc4636bd785a2d65a01b59735ece52f45a6e2a673",
+      "key": "000910.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000921.json",
+      "sha256": "300f78d456f8cc0e967709125796dd0ae734315d3f6befc1822fca3448c2ef8f",
+      "key": "000921.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000922.json",
+      "sha256": "993b51511b01429fab1dde3ef899dc2758155d135bad2c82834bfd1119c311d4",
+      "key": "000922.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000926.json",
+      "sha256": "f80d97e679f507049a9ce5d994f353da73e039c8b5fe8a82bc72ca4f897fa088",
+      "key": "000926.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000929.json",
+      "sha256": "b455993683bdbfe19458bde61f9d9e2c190af88356cd9c27d6d47df5a62c5e72",
+      "key": "000929.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000932.json",
+      "sha256": "dcc643fb77987dc40ad6b83c728903fae4a323cd6f7e79770acadd75730df667",
+      "key": "000932.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000935.json",
+      "sha256": "1117ce773f9078813c0c3337e45c6c962b22122c005e65cc8fc1d5573a8537f0",
+      "key": "000935.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000936.json",
+      "sha256": "0513febee1285c69e7315445e9b9ec9dea9ba0f72202492d90e0815500dc834c",
+      "key": "000936.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000937.json",
+      "sha256": "58bbdf628eeed4d50e93f522cc6f8428c98a25d2b39e53f9aacff039f80e6602",
+      "key": "000937.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000938.json",
+      "sha256": "8c7ea0fc5a33ac7166ea6e4491be002880ac96eaffa80dbc0fb2a9fbb8f044a5",
+      "key": "000938.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000951.json",
+      "sha256": "a6d7d803c419328c5b5899c6712099f14055e4fbce54f555c3ecdad9083d3128",
+      "key": "000951.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000959.json",
+      "sha256": "16ffe4467ec0cfcd82fd913fb5318b7f7a6ff1355fd3379c484b0631907ba5b5",
+      "key": "000959.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000960.json",
+      "sha256": "f22f721b1d90f675828eda6627a1a5db034052bb4c301b1f18d90dc1432aed6b",
+      "key": "000960.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000963.json",
+      "sha256": "87e6fa304672148400db8bfc3a5114426550d036043da5b075717be6769cc68f",
+      "key": "000963.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000968.json",
+      "sha256": "c8cc619cd013b102c3d6d27f386af7115e8f385f6af3d6261be46fcb3c230463",
+      "key": "000968.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000983.json",
+      "sha256": "ad08d0b5e09b88b0d6bcd5b85c0e16182daf65ab66fcb4976bbd77791c8845a9",
+      "key": "000983.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000985.json",
+      "sha256": "905cefc71a0e848c13fb7f037ae2946293d24cfb0a87ab5b99b5f4d1709af450",
+      "key": "000985.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/000998.json",
+      "sha256": "bee11ba254c5de65be9a803315a25cb292d97bedd0e78a9ae000228d7bb56e99",
+      "key": "000998.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/001205.json",
+      "sha256": "a54e9f95cb84d82a7600408d3371656d6a70715d62137285eef39a6e11b0b6a0",
+      "key": "001205.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/001227.json",
+      "sha256": "bf31d463f927e55b957f19af88a169683d401fc133b0b2b0ad9911178ed8ce5d",
+      "key": "001227.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/001234.json",
+      "sha256": "aefb0007f459b39cfa254f6f7664740f620ec1a76dee338ee98e20aa2982b496",
+      "key": "001234.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/001301.json",
+      "sha256": "3814b939f17b89c38bdca42d82ba8fe93bade54e57bbb4ca5b033cb72015d6d2",
+      "key": "001301.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/001330.json",
+      "sha256": "6a222ea6293f2f593e018d22298b9250fdb0da524a9e01303f0a62db12d0eb70",
+      "key": "001330.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/001378.json",
+      "sha256": "42b872fe26658a28b4d9b8d1d52b4693762a321b262a085893263d2b4f6ed3f0",
+      "key": "001378.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/001872.json",
+      "sha256": "2d04b36d78eab1592e535221ebb72a666d07b6c43ea3fda5e471773270f60cd3",
+      "key": "001872.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002005.json",
+      "sha256": "c18af61160c96ed9ad83b3a785c066bb34805a0ac1380fe970befdb9ae074856",
+      "key": "002005.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002006.json",
+      "sha256": "f339150fc98c17ef7bc426b74ca4320d49ba7cecd5cbd927e0c3d6aa53648827",
+      "key": "002006.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002007.json",
+      "sha256": "003c9ccf9548cf6aa372632ed593483ee0673de581b09e17dcce7d64e1850e94",
+      "key": "002007.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002008.json",
+      "sha256": "7412c74bcca200a40c85fdef0c99a8c4f3fc062a4794f9c3ae7355d37b87251b",
+      "key": "002008.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002009.json",
+      "sha256": "0c9af73ce9685b1e62f20a46049cbe897815572a145c429620b4accb44cc2962",
+      "key": "002009.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002011.json",
+      "sha256": "c0d9f9e582b9e118de70df2b14e5631be98bf97f6c0df2aac8204a1c2e50c139",
+      "key": "002011.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002014.json",
+      "sha256": "db6f1130234aaa317383b4e787182ccf71f19a9d78c16c7f07acf78c798fb705",
+      "key": "002014.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002016.json",
+      "sha256": "d8d5bdcf9068a8e4b5caff21ddd9104209a40e03806af1951e42cfee0b613ad9",
+      "key": "002016.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002020.json",
+      "sha256": "2a37830acf1d9aafac3aa33e5814808e9241eb45ab54dc0a1c796401cfbeff4e",
+      "key": "002020.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002023.json",
+      "sha256": "2ab8104b1e1a3dba59377102576fe541a3899e82e00e2ed025bb51e02f2fb58d",
+      "key": "002023.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002025.json",
+      "sha256": "44b8b1cfd777ad8b4324703bf8da6b69f8a9c42b09d555d2ce19bae63c7599ce",
+      "key": "002025.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002030.json",
+      "sha256": "b25a40776ca9586e03c7d440612fbf737793b1e9d5ae725dfa17bd8d1640ddc3",
+      "key": "002030.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002033.json",
+      "sha256": "22cdc4f2f26e01a8a7705982ce0d4ccc633737aafaedd10bc868e53191e7256c",
+      "key": "002033.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002035.json",
+      "sha256": "4efbbf9c51c593fc92535fac5949e4396535ab69b7747788440bb3b77c77a8c0",
+      "key": "002035.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002040.json",
+      "sha256": "ba26ff676c0ab61d2cfb8ac7fd458c79c6482a923515bb203bbeb582e94920ae",
+      "key": "002040.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002042.json",
+      "sha256": "6554ea2bc1c49fb3358006ae3086ac0b6b800fd2d7525656b8f92432c4f4484c",
+      "key": "002042.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002043.json",
+      "sha256": "c3be450a050e61ccf3b9bcd38b1022050829ab35448f1905c1efa946ceb4a618",
+      "key": "002043.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002044.json",
+      "sha256": "fd3e5e198621385e7a97e750bd0598afb2ddd62db2093f8212f30ddd73dcb491",
+      "key": "002044.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002049.json",
+      "sha256": "5deeeb732f34d4174ded458ccb58a0097be03cdad0d115ce8d29f6de3a13706a",
+      "key": "002049.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002051.json",
+      "sha256": "462ddabe454e40798f8ae727780f20baf547a869b9368059ae192e26b1186d87",
+      "key": "002051.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002053.json",
+      "sha256": "87c1ee8b9d64b5578d523aedbb9327776fde44449e2c6bd08aa92eda2f2eceaf",
+      "key": "002053.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002061.json",
+      "sha256": "a1a56b501c8eb223d881342ddcb54099719c8d51969bf3f6937687ce69058e4f",
+      "key": "002061.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002062.json",
+      "sha256": "90ca00e625b6da762014ce2bb93a22868418f63eee583a39e4bec14898d5ba05",
+      "key": "002062.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002066.json",
+      "sha256": "85359847d5d921e4a60fdde8ad1646792583c899ab95a801471505fed9a31a24",
+      "key": "002066.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002068.json",
+      "sha256": "789310f15a434607005b7fbc1c7b4a535a3b17c76f2ab2834bfcd069b6b32c43",
+      "key": "002068.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002069.json",
+      "sha256": "84409f97c855a1d2bca16ec992e83fc31f51779e009b8bb97da97b15bac50158",
+      "key": "002069.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002072.json",
+      "sha256": "c01e04cc7d3609dca824d29c0e245670d49d6b270e9dcef77726fe3d16d9732f",
+      "key": "002072.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002073.json",
+      "sha256": "c6fcc5a536e0f9095059b5ac6049b4d83e383bb0bf5213e64a55cfe55835c418",
+      "key": "002073.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002076.json",
+      "sha256": "933b57d56a52a4b4b47c8f8a1f5b2a5b2666655d12de3fe249b2c1a2eac76d87",
+      "key": "002076.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002077.json",
+      "sha256": "b10a30ed3b0713608a312a86332e67574d77453e0a70f5b20f1ea67dffe4f880",
+      "key": "002077.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002080.json",
+      "sha256": "0d2dc47af4dba04eef304e1d9c539e3eb4f094b8ecc16efb6e33732f44c18ba7",
+      "key": "002080.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002081.json",
+      "sha256": "28cd605da405270eeb2d0c37e2450e0854e73ac7dedceae83e68654e23d1e363",
+      "key": "002081.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002085.json",
+      "sha256": "c2f8d84fcd9a70f58e0e4adb7c6a8892f3ab3a86d472aa637dfbd479f349c205",
+      "key": "002085.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002088.json",
+      "sha256": "1580d555a55d1ff12c77f4328d068fa837a9195b1071a59b8afb5e834982a2a4",
+      "key": "002088.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002094.json",
+      "sha256": "1f09ef1aedb4a1f76367cdb1b9330e094affef032e0d31a4ab71a3aa8e126fa7",
+      "key": "002094.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002096.json",
+      "sha256": "4952227cc07c91c5a9ef13b7b1488fbc5f7c0d28f7be80247a65b3b7714633b9",
+      "key": "002096.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002097.json",
+      "sha256": "b1c8ffda13418abb3e7c0ba4933b249d9bf42ad555b997f6d8fd73885bf07bfa",
+      "key": "002097.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002101.json",
+      "sha256": "b81d881859106587aff1226eb030aefa615ec037c08f8daeb367447a9fc95099",
+      "key": "002101.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002109.json",
+      "sha256": "de03f1707ef887a89a44ccde949e4505bc5bd5e5132431140fa2fd636e242996",
+      "key": "002109.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002110.json",
+      "sha256": "cadd0fb3f849975a5ddd989b893fd1e87fdf021e843dfc690468a4e6db50201f",
+      "key": "002110.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002112.json",
+      "sha256": "383403469044145f03ff52f19ceb4e6ed6ada125eb219493c4e6bd95d3490faa",
+      "key": "002112.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002114.json",
+      "sha256": "424faae5a5d76ce5cc4e173a97fada1eaaa663dfab70f52da589dd31dd22357f",
+      "key": "002114.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002119.json",
+      "sha256": "823bba354d51656f0761234a9ce23e48b59ebb0b15ea210e811afdb6c4212d13",
+      "key": "002119.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002126.json",
+      "sha256": "dce9efb035d2c8ad29b925a35d4d8ef120a0bf2c6478bd2ca24ac66519ab2e17",
+      "key": "002126.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002133.json",
+      "sha256": "3e9cca8ddedefd138039aadb1952c97fd890f9584ac56a1c748d9f413b1cc056",
+      "key": "002133.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002135.json",
+      "sha256": "45b673dc14933b5681a77b98c651175f9c92820367f076d78479760f3f0cf828",
+      "key": "002135.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002136.json",
+      "sha256": "25f609e51b8a5d27296057a6b5c91ad67a34f4de996a399188279f466d49c042",
+      "key": "002136.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002142.json",
+      "sha256": "e16281a0408e5e1486e467af53508a87fc76071f32d1aafd5edb8fd78c5f0900",
+      "key": "002142.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002145.json",
+      "sha256": "202ee0c1bd9b908a4902d8077328f7667cd61fe447a1be6edb02e2ceda8e15ee",
+      "key": "002145.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002146.json",
+      "sha256": "8b5f251aa060118c076eb7dc0a21a6f54a9034e669a2626b9aed7ce1375455d5",
+      "key": "002146.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002148.json",
+      "sha256": "f1bad25a8e26877a12ee9c2bbc693981a7b5f76a98cc047904548bc293310a40",
+      "key": "002148.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002149.json",
+      "sha256": "6277b8a3368aa8c536eb88f70362165b256d459d3c8d7cb268c191f36e6e91fb",
+      "key": "002149.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002154.json",
+      "sha256": "e7c13221cfffef4befc614a7d6816709e08033b45d75c322bae26b769e6d3ab5",
+      "key": "002154.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002155.json",
+      "sha256": "fa53cd580921d01938a6ebc0d0d3559bc39853f59966091767253821e90c92f6",
+      "key": "002155.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002156.json",
+      "sha256": "533bce3cae1daaf8e3dfbdaad5f443306fa30b1cf6022f8bb43b8b6d0db8f1d2",
+      "key": "002156.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002157.json",
+      "sha256": "7e81ce51a0daca72cd09d06073e523a2ed139e9b6000e9b7c632e04215f4dc16",
+      "key": "002157.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002163.json",
+      "sha256": "b7095a0d9b48db8af722d7068bdc3f8a2d2e3016a67acc1fd34f074c9239588a",
+      "key": "002163.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002171.json",
+      "sha256": "0698d11ee907f5b068f3fe20911f045c16c559153d3c04cf55544c49d8bf627e",
+      "key": "002171.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002176.json",
+      "sha256": "673f04289d55077fef78effbef1ed884ba9c25b5eaa709285fa2d100ae940d54",
+      "key": "002176.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002183.json",
+      "sha256": "1a60c51ca5cdfd3ca349c17d0f41580ca79e3a51b18e4d490793ccc1f65dd106",
+      "key": "002183.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002188.json",
+      "sha256": "9318bb121d4613c885f2acf7c9235dedc0508661b6e0502eda7a3b06055144fb",
+      "key": "002188.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002198.json",
+      "sha256": "5fb42bcf1998a09f255cc38fd971d2d5b0882fd8f134fef5bff92d5df00d5ec1",
+      "key": "002198.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002202.json",
+      "sha256": "6a90deb280e9ee1b78f9fd58f23ae5720cd6db6a2ede0637b2a98109dc036265",
+      "key": "002202.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002208.json",
+      "sha256": "115766d6171226619d2be18ef1ff64d93a9b7d9846f4f63d30e4a93fe541c13e",
+      "key": "002208.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002215.json",
+      "sha256": "307b88b5175846e8d77faf4d8d653fad35c25ce58fbb0f939b679eed06c8ab09",
+      "key": "002215.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002218.json",
+      "sha256": "17bcc8f6a0a8e49d5c11b07012e0b0e86f98b1f64333b1840bf54a673ecd84f9",
+      "key": "002218.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002223.json",
+      "sha256": "fb0c2b05676436b3bdf7dd487c9ed5eb7ac7f698497dda7f7b5ada748bc8c294",
+      "key": "002223.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002227.json",
+      "sha256": "b1f33a9c7dedc97dd05da14f4d6c11b3df363035a6c7315ae127fe3045a9deba",
+      "key": "002227.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002228.json",
+      "sha256": "a3b7ec2ab1fb750968660288e7a0878d950742fd33b40e87dea9b26145dbfdfc",
+      "key": "002228.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002229.json",
+      "sha256": "da716789b7fca5ddda13ff1459f306b7a8549581e5412d06b379a030e50351e5",
+      "key": "002229.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002230.json",
+      "sha256": "77970a100ee27c65b4c612775d31fddef353cab0541259182b152477ebae34e4",
+      "key": "002230.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002233.json",
+      "sha256": "bfd8dfceef5f7d1103f9a113aa160becb6d9a6931007ff9e6faf02221c1a7921",
+      "key": "002233.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002237.json",
+      "sha256": "69bf149568d16fee01932caeadfa421262819c740dea75d584c048386e49e6e4",
+      "key": "002237.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002238.json",
+      "sha256": "071fdb19c4e1c22e87a560078d466e45a953582d2dcce9e2acf260f056efa6a0",
+      "key": "002238.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002243.json",
+      "sha256": "7618ec331b0ecc6b6a84ca8f2c6c90d5f3afe2bfe319b101296ba5fe1d2ce408",
+      "key": "002243.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002244.json",
+      "sha256": "481d67d477a664e31d2e115cef17f34ed8e97526ed38ae8245d65266a7f6f2f4",
+      "key": "002244.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002245.json",
+      "sha256": "5faec2cb54a727f32f6550c1fc9bb2bb24178ca7c0a0a035c24d1ec48e34b526",
+      "key": "002245.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002247.json",
+      "sha256": "dca9bff35d2372ddd63c04148a418445d907e886b747170b9715c954042c31ca",
+      "key": "002247.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002248.json",
+      "sha256": "b98d0d22bd4247f1135b5f068375e3260c06b721b3eca855940821f128afc790",
+      "key": "002248.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002250.json",
+      "sha256": "fda4fed11f5fc731a5db0739be402ae61bfe160acd094c604724e664f6fd6dc3",
+      "key": "002250.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002255.json",
+      "sha256": "199b1411026a327fd7dae92c6343c9144a85e9657e9bc3f39f63e05599f8086e",
+      "key": "002255.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002258.json",
+      "sha256": "d3b77db6c0b321150ea8748f83a95b775d05ab9f8dd9c31e7704446acb4b6a74",
+      "key": "002258.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002264.json",
+      "sha256": "9b3360262af7e4133e2cc6726e7e3e7f4b33621c50fa8d712b601c8e4f9948b9",
+      "key": "002264.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002266.json",
+      "sha256": "e8fb58d050ff3c47dc5d1df0396a3c3e528631ffb3c01e290bf2638d4e257964",
+      "key": "002266.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002268.json",
+      "sha256": "fc62fd5813e939e5d25114177995624ba66d9c76fa0c06ce969b3d1a0d721da8",
+      "key": "002268.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002271.json",
+      "sha256": "d28f79d71860a1c87dfe1504479f6d640d7cee575b0788804af625e48dd88b2b",
+      "key": "002271.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002274.json",
+      "sha256": "83608dcc11d8a771085e65198e8748bc2cb9e50c057db2fa37f3763eaf7fbd57",
+      "key": "002274.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002278.json",
+      "sha256": "159d5b0aba01589c4b9c4a3d49f331863d199f09cab5b6e4160e78693138d832",
+      "key": "002278.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002285.json",
+      "sha256": "8bbf39b04a0fba1d2d78705d855fecc6b9afb12448545ac85f67335afd94547e",
+      "key": "002285.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002286.json",
+      "sha256": "df10ec057ffb10f535a8bac0c7cb0c0c99a63cadf7d65304a4e9f1a6887a56af",
+      "key": "002286.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002294.json",
+      "sha256": "64b52d3b0929c0a67131f42b5aecbb751c24777588b57f374b074b79e6dab3f8",
+      "key": "002294.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002298.json",
+      "sha256": "f5f12761c76f5ae56bcee1ecb4ef9c367f1d9f9d0d068ee154adb5c8fce0fa4d",
+      "key": "002298.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002301.json",
+      "sha256": "721a9addd53ed8376fa5e1f364995904ec4177cddae76fba293c190651f93ec1",
+      "key": "002301.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002304.json",
+      "sha256": "701514169d33509e8868a096f44f70e9e3f71e338afae713f31c25a71de81c54",
+      "key": "002304.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002306.json",
+      "sha256": "59d7c244013199db4820bdb44443b0ed63d764f058058c189bbb7279e53626f0",
+      "key": "002306.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002310.json",
+      "sha256": "e3b44b8fa6bd40d62d2002a1e7df901573b1463d9ad2a02485c6990217b789e9",
+      "key": "002310.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002313.json",
+      "sha256": "af3f12d61cd657f36565325524419edf27da2a8a6db054f7edf9509f9795c3c3",
+      "key": "002313.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002314.json",
+      "sha256": "19da2fc6247891a0e753f9d6a5c00cc001d9503ec85cf0abcd5e2773d32910a6",
+      "key": "002314.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002318.json",
+      "sha256": "c9522219325c8873aa56bab9328c9da0af40ec6c8ac91317dd0c8660ecb25eb3",
+      "key": "002318.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002321.json",
+      "sha256": "2b768722149424c339af8acd878aaada1dfa2012ddf8208a8ac3fd0b801d9a8a",
+      "key": "002321.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002324.json",
+      "sha256": "343d873cf198518ed20a42389ce3d33a513b19729bda8f126b48e1e4d68c33b9",
+      "key": "002324.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002335.json",
+      "sha256": "d6cb569d3f1689430cef6f09ede3c2e5499014ac171454177b4a3c215868ffe7",
+      "key": "002335.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002337.json",
+      "sha256": "d68d25b4a97ce49fb1aafb22ca76d50939c00036ef51f60e23e8998c4bd1e5d9",
+      "key": "002337.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002340.json",
+      "sha256": "d5c2dab334edc972b998d05217973c9b2abbef2658b80eca5b63229aea2f58bd",
+      "key": "002340.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002345.json",
+      "sha256": "bc9f0005feeef364f82fc29a30a1a50473a2ae701e34537574f6abe3a4fe9a6e",
+      "key": "002345.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002346.json",
+      "sha256": "a536feefaaa01fc0ef985d1101277b00c2fe1e94be19b5bbbcc1dc6e78b8354b",
+      "key": "002346.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002349.json",
+      "sha256": "7a05017f6ff2beecd753b1a2af797b538477e9cc837d76e68735a699e76958a7",
+      "key": "002349.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002351.json",
+      "sha256": "2157361abb5739cd475654477a6f292cd81b8815133f0ebb9f0ceb3ce22cca18",
+      "key": "002351.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002353.json",
+      "sha256": "eeb1661a2be1a74aaebfd4e233049cbbbfffeda21f9a21199862248c36b87609",
+      "key": "002353.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002355.json",
+      "sha256": "a683b6d6285c55e8bb5541b38e26d30deaa265a14cad74fdee9565801c6ec823",
+      "key": "002355.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002357.json",
+      "sha256": "59c8ff76fba49e902b826bd1742f4cb3ca8f969ad5e564e802fd766665e931bf",
+      "key": "002357.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002369.json",
+      "sha256": "00c231d2ccef986a7e9a62c09ad1344a0413f14d937364423dc8b7e6629c42f6",
+      "key": "002369.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002371.json",
+      "sha256": "a04ce875b38766791fa39534727ccb3d30737f23100aa9042f0bb8c796aec296",
+      "key": "002371.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002372.json",
+      "sha256": "6ff7c30f8cf21127912fb50e7990a031cc03b0cd0b04981dee67ee79e24ad1c8",
+      "key": "002372.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002374.json",
+      "sha256": "14e35bfa693ee57553c9016672336343337fb0cc19d693be91ab72c33da78a1b",
+      "key": "002374.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002375.json",
+      "sha256": "2dba4d89bca9a625b70bac2b729e12764b7ec7b9756daf6940e84f339c30a972",
+      "key": "002375.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002381.json",
+      "sha256": "45694c979302b787a6b165198c6d9d6f10e4100e08c89171a050fc3e13f4cb18",
+      "key": "002381.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002382.json",
+      "sha256": "8901376b4613acfe7a048a74f921796cbe8f0f90fa74af342f43ebc7a8f8db14",
+      "key": "002382.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002385.json",
+      "sha256": "8022dff51945bb3c59ad12460f167a6d714325af9465aab1783dec65b8a459e2",
+      "key": "002385.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002389.json",
+      "sha256": "9433843d206388f63155d3e9526a9ebbfcc23731272822d7bb31e7168af94202",
+      "key": "002389.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002398.json",
+      "sha256": "727f22b5aa8c7db4bbed438b57122279d3a2fbb81d20d4a65e893cbda150443e",
+      "key": "002398.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002400.json",
+      "sha256": "489034bf2e9fd042c62099fd3416d7e1a54ede91ddbc24253d774070079ca100",
+      "key": "002400.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002407.json",
+      "sha256": "3ef1b64d499c0a722a59b1bc860ef38369e5148b166658bf567bacc8d8a0e234",
+      "key": "002407.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002412.json",
+      "sha256": "ec98a08068d5af2d351e51c169925e65f3fe12fb2b5198944a87127083d34c85",
+      "key": "002412.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002414.json",
+      "sha256": "477ae6f8ca915bd8e6b2b9b1cb525b398820d21f94bac4f726eb52fcca8c6cc1",
+      "key": "002414.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002415.json",
+      "sha256": "432ed0cb9e6b04318df81c866bec36580197a9271173fa07b6ebe3f827b07962",
+      "key": "002415.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002419.json",
+      "sha256": "0df827d1ed41f11250f711ec09cd2458d5de94a0a44dcfb148015cc64e5ed348",
+      "key": "002419.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002420.json",
+      "sha256": "931a0aae152d038f39b97cc4338ba196b03dd6e7038856159dd7addbe532dfd8",
+      "key": "002420.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002431.json",
+      "sha256": "415f28ff79465ae1d7c9e84238e8317bdf5f3cbe4005148fcd9e3b53871384c4",
+      "key": "002431.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002440.json",
+      "sha256": "ac30c8fb1dba6bf3eeb10211b4c102d060ec2aac9f2973b7abaf5ff10bf9f474",
+      "key": "002440.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002442.json",
+      "sha256": "dcc177460640e4eee0b9a93c2c2a1119c0907e42d43224058fdff140739e26c4",
+      "key": "002442.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002443.json",
+      "sha256": "965b1e9092a4dbac7bf392f89190d4ff25058cd6604369f57e08e10d56dd2c3b",
+      "key": "002443.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002446.json",
+      "sha256": "a1345b4412237b19cab1da4b0351ce12a8fdcb2a2506d0bfc2587dfeb07534d5",
+      "key": "002446.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002454.json",
+      "sha256": "b7f0cced657301701c0c05568922e153f28947ad95938c5f0111f931b7f9c7fd",
+      "key": "002454.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002460.json",
+      "sha256": "96e2ab6ac5d57b6b6ac23bec101ef8d9f6dc43b755c534fac561dc88681a5b3e",
+      "key": "002460.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002465.json",
+      "sha256": "5a12cc8eeffd4545ecf31f681ea28aa20fea675418682bbdb9cd397502d83b77",
+      "key": "002465.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002466.json",
+      "sha256": "b483696e1b2eaf2c26df43271c2f6742f3caab208bd063c5ac0baea29e1a2617",
+      "key": "002466.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002467.json",
+      "sha256": "0d8c803ea20f3d9c91867883063354fbcedeacd89bdb35c24e0b4468374512c2",
+      "key": "002467.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002468.json",
+      "sha256": "e18d61e5af605fe109a3c21c4e72aa33f606641fe2875473de68c6b5dcd9ca57",
+      "key": "002468.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002470.json",
+      "sha256": "a65b3183dc755747e486e5a3d4d6be35af0097016fb66c4c6cda4a10cf078ee2",
+      "key": "002470.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002480.json",
+      "sha256": "54e6d29b96a781e1ffcb9d6c31adf9ca2296ed7784fcf1739232d99ffb864c8e",
+      "key": "002480.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002482.json",
+      "sha256": "48fec92b762e3af4782921dfa38e8176cb05ed25e8ecb86d9659e2926e3c817b",
+      "key": "002482.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002483.json",
+      "sha256": "67fa96d3d6784891924b31706f33b667ebee4e96b1105c675e53cbb751299f95",
+      "key": "002483.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002492.json",
+      "sha256": "3f4c632d5aadc7742f6d8a3212b1c7f3f4db4330804968bd613fec3ea6aa3aed",
+      "key": "002492.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002493.json",
+      "sha256": "99a5987f6c7a0323596e80e25dd45570079585679f7941e5c092e7b3d0861e67",
+      "key": "002493.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002497.json",
+      "sha256": "7700c9b73be76944defd3a90de7ed5b97fefff5689c56e5eb93abe27199b31dc",
+      "key": "002497.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002501.json",
+      "sha256": "397d7b575f923591f8dc9167cbeec45a818323234c0c163782b429e0811198c7",
+      "key": "002501.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002506.json",
+      "sha256": "7d1607789db9309237b30bb20f634b968934d33c9eb5cb230926e194547fe0ef",
+      "key": "002506.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002508.json",
+      "sha256": "bd9a0f71bc41de1b4e709c569a5d692ba236b3280c2d80d8c85713214d6b68d4",
+      "key": "002508.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002512.json",
+      "sha256": "f490d98bd17fe3a746eec3319462263132f7a1a18ef55faf1f2cbb43bb85c465",
+      "key": "002512.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002513.json",
+      "sha256": "403d912549525649f51237f4499cec7f272bad91010899c2d457e465df5bef9e",
+      "key": "002513.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002520.json",
+      "sha256": "f1045f516e1a7351ad2b13bd737e11070129e0988c9b243064198a266029aa45",
+      "key": "002520.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002530.json",
+      "sha256": "84ec4b6dd298902bcb16a847ea524abeb7f26ef6e9fba2ccc47f334a7b108b20",
+      "key": "002530.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002533.json",
+      "sha256": "59177bf79966d0de37dbab817fb0e92a97c2f332b232407b32b5ca14df7d4100",
+      "key": "002533.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002535.json",
+      "sha256": "37a2b816163edee79140a252bda61f8fcbc3b961e2ccc31c15ccbe0d5c4fc76a",
+      "key": "002535.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002538.json",
+      "sha256": "52d67a274fc5e3cd7769be407724d05a566113789b939e2f8bdf429038ea9b1b",
+      "key": "002538.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002544.json",
+      "sha256": "d7d2f721dcb42f4d41f68877511f60557a3cce1a9760d47c8a40b1bbec5ca7c5",
+      "key": "002544.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002545.json",
+      "sha256": "67c7527f7e4143d1d03edf67d408958686fbc072a51fddae4119c63be6651fce",
+      "key": "002545.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002548.json",
+      "sha256": "9f536a705710affb493031f7394b5670b74f88ca51256ff601c582891818b42d",
+      "key": "002548.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002552.json",
+      "sha256": "5a2a3cde83fbffec7df6622219baa7f3d46d700ea6c3971e671b0e21cf024631",
+      "key": "002552.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002554.json",
+      "sha256": "a8af36b81f73934dc0f8e1bcc2ffaadbda8689486d520cff144ea4c6c8b8a1b6",
+      "key": "002554.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002558.json",
+      "sha256": "c6e86c8ac22be9e5e5fe17edb2f0e737cb699b9e69ba379bd9ebc7677e11abf7",
+      "key": "002558.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002560.json",
+      "sha256": "9bc26c015842f3403133c76b2c5371851b73867812695832d88557db3408b8f3",
+      "key": "002560.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002563.json",
+      "sha256": "23295eb652689b5bd66fd93a337e50a056ddd919e355c6782bf14771be82aadb",
+      "key": "002563.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002565.json",
+      "sha256": "b1d8f6c19686143732a13b2b7e8828d92ca4c74dbe9a3351b965537b30f7fdf2",
+      "key": "002565.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002572.json",
+      "sha256": "00ed456b1729ecab40550370aba1cd16bb7595f361992e26770654b30a657cd8",
+      "key": "002572.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002581.json",
+      "sha256": "d47dd5ed535b6952e4fe7eff8de1da2499c05415484329c6e8a258d0994a52a1",
+      "key": "002581.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002583.json",
+      "sha256": "24e7b47ffb80b77d8724e55b434ffc26f114178b5cc970d3d6f07921da09f34b",
+      "key": "002583.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002586.json",
+      "sha256": "67fd6c78d328bcf6f7e4eb3f6390810bf1f6559072f2c01e5aaff261022a0742",
+      "key": "002586.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002588.json",
+      "sha256": "c9391b9fcd5a4e172baf7ec43795772b2b9eb3e771783611c4ff62f8516b695e",
+      "key": "002588.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002594.json",
+      "sha256": "bf3699033bed6dcdd839a22be4ad39b10ec06d0ad90b645bcefc3b90b913195b",
+      "key": "002594.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002598.json",
+      "sha256": "bda4f636e81df9f5500292f848fb6dd872fc9807f651a393bda319182ad3e8c6",
+      "key": "002598.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002601.json",
+      "sha256": "623a910b90f9d4c67b5e75ee42d5268b4ad332e52a4cce512d0bc11270fd6662",
+      "key": "002601.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002602.json",
+      "sha256": "874a083594da96b7d610db84f99f4fcf86674c094b5ddd3d325b46fde350075d",
+      "key": "002602.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002603.json",
+      "sha256": "2790e9f963a71233823f27810a69b2c64adcbc82dfece0a2b382b42f995badea",
+      "key": "002603.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002609.json",
+      "sha256": "5c642eca253923479feca7b5b2acb838a9cdb18be10a8a7afeb742877ac1ff72",
+      "key": "002609.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002612.json",
+      "sha256": "a5843906f5e3b5f5f10cfd6faaa47d343d3ff07b712bb769143f5a93304a61ab",
+      "key": "002612.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002614.json",
+      "sha256": "cca21ca7b2c70e6248c9fdacc2f621a8b49c09da2504684163074985dde3799c",
+      "key": "002614.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002616.json",
+      "sha256": "04736c649a3d93d3268af5378b5bf454fc99b83d66d34f43ce840afee1e55ed5",
+      "key": "002616.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002623.json",
+      "sha256": "b29d403b55a5e9e46fb77045e37d1eb2e7a168b904196a38c7468f97047f8be8",
+      "key": "002623.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002629.json",
+      "sha256": "121ff674dfa335c3bb45d42b3227b495adff50ecfaee4cb73a6bdc694ff0480f",
+      "key": "002629.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002633.json",
+      "sha256": "557472bce3fbd21e6ad3f10ba2e06d8a5ead7035c3f93eda40e25e5427754583",
+      "key": "002633.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002634.json",
+      "sha256": "e43d8d1964b0cdbfbc153599f309d89040edd1ff2d2143a8592d7c1226b6a0fe",
+      "key": "002634.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002635.json",
+      "sha256": "6bbc156f05e677c9f9852c917aa913bb9e9819dde40e78eaf40ff49996c58c72",
+      "key": "002635.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002640.json",
+      "sha256": "42a3c29b2525ddcceb72a8caa207f10acc63a2ffa5ef3c2b8625761bb81903eb",
+      "key": "002640.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002641.json",
+      "sha256": "535aad4a3c5c32bde69afb1493674b8ae35250fef2d7af6fd4f7002841fee746",
+      "key": "002641.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002646.json",
+      "sha256": "ce4549a81dbbee917d50a90f9152f3fb1fab329c0519f6176a2a2071563f975c",
+      "key": "002646.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002648.json",
+      "sha256": "1381f155a55235f4d091c8bbe8541411c07776f75cb97755b6470e6975da5a08",
+      "key": "002648.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002658.json",
+      "sha256": "718996762d4939f0179bd9664b8332ecb0dd2f2893d0ea5f41e2ed7b0796bf5e",
+      "key": "002658.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002661.json",
+      "sha256": "fef5c35daa568329f399712f547920042ffd4be803ab3ab5fa1711a176074b67",
+      "key": "002661.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002667.json",
+      "sha256": "5b93aab931368e5fc8ae67abed546083a11ac1becf2671ac13911ad6108f3344",
+      "key": "002667.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002668.json",
+      "sha256": "5276a297c944109b10ace816a02a56a7d02b5b144e46213e2874aa163151b2a8",
+      "key": "002668.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002670.json",
+      "sha256": "c6fde5d7830bc6e3f03ba870481678a28e1224f05d39fa632fba85d369826358",
+      "key": "002670.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002672.json",
+      "sha256": "7af09375011b778072b0d6ea4a91262975ba9d1db8c386f2e598665a5b94843f",
+      "key": "002672.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002673.json",
+      "sha256": "09431a3b49041c909b92e6ff452d463a96cd2b4f40ef9a5e55548b5bc86d5b37",
+      "key": "002673.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002677.json",
+      "sha256": "18f9956cdabfa6af5ca19e8c25ca441ccfeab782fae9ee165f0633f05a95bc0f",
+      "key": "002677.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002685.json",
+      "sha256": "7b044b3702b726c8c4ffcf5eb1f77d17b7fb728aa15c7e9d5b51be83cb6abfdd",
+      "key": "002685.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002690.json",
+      "sha256": "6bf2e46c677e62e129d85877ebf8cf883c6efb080da15e420b8be614553cbcc5",
+      "key": "002690.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002693.json",
+      "sha256": "30dcd7846a1cf8c4ccbdd38543b6908625951275d57a1681a2736b9c4e08a10f",
+      "key": "002693.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002694.json",
+      "sha256": "0a13ae1f5138bbfadc3b0fac3bf2056ab6fd45508b30725b5415f908394c810c",
+      "key": "002694.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002700.json",
+      "sha256": "b2384eeff5043d271ed508eff00e6c5eb702dec377c35ad8373b4ec08b0476d4",
+      "key": "002700.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002701.json",
+      "sha256": "b628ffc1bb1492ce009137227a6f2216b987ba8a70a967f9e7e18e0e77a0f5a3",
+      "key": "002701.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002705.json",
+      "sha256": "f1c532400c68f83062c069ca966c78675fed5c1250509151498b3311305380b5",
+      "key": "002705.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002709.json",
+      "sha256": "f41bfddf820a8192d087f64081b2cb2899db897ff7fb76f6831897f22441c300",
+      "key": "002709.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002712.json",
+      "sha256": "f7166a918445858b80afdc72032f1b543221ed991c6a1feca54e65a93b919fa6",
+      "key": "002712.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002713.json",
+      "sha256": "cff8d0f9bbccdaca481641157a18a33496bcfc13d9e9614b0e82f901575b1b97",
+      "key": "002713.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002715.json",
+      "sha256": "277cc3c9b1eb34fefe1f624ebe1cd1805096335e89ad7683bfd826e676906989",
+      "key": "002715.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002717.json",
+      "sha256": "ebcf5f3e5ff034699e63bb2cd8aea8540b3f1180040e955b8bf42a08dff2d77e",
+      "key": "002717.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002718.json",
+      "sha256": "2a18ff265d8446d5b102e52ae26229cff7997826fc27432858d81359be71fd0f",
+      "key": "002718.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002726.json",
+      "sha256": "630e3cca035d3f440805278a52410b6087269e16c174216a8f1f198f1c8946bd",
+      "key": "002726.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002727.json",
+      "sha256": "5e41e01e5a1047a07efccc808836a3dd2015f42cf83be51ca90a8b21b65193bb",
+      "key": "002727.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002729.json",
+      "sha256": "725e540c6d922ac62c585c722e2c094b38e06a7a51dcfccfef3b2a6481d57ddf",
+      "key": "002729.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002730.json",
+      "sha256": "184d0fbc69e0fb21b7a26696f62a6e6264360f6de2337489321d9dfd1aab4491",
+      "key": "002730.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002733.json",
+      "sha256": "e74aae158318a32066b5a3d391df78ad6e1b704ba5eb56ae94424651ab580888",
+      "key": "002733.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002735.json",
+      "sha256": "539f45508f237a1f7a0e5503a3df89b8a90c0df2e49d496bb1275426729747dc",
+      "key": "002735.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002736.json",
+      "sha256": "a1c0ad25fe5f47687a52a396d51126be0299b5d72ca6043c5368ffbf010aa35f",
+      "key": "002736.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002738.json",
+      "sha256": "0f65293f8cd89ec89c3e0200aae4825cc36b133231d509370f81fc77932d0b8a",
+      "key": "002738.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002745.json",
+      "sha256": "d2680ac11284c0b792cfd6a11f235df956a0cfe1e5eb263a9511dd1e79a157f0",
+      "key": "002745.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002746.json",
+      "sha256": "54382e067938139071ede2f830ead9e9146b6b5c8149155a6c1de816f1406cb9",
+      "key": "002746.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002747.json",
+      "sha256": "d724663eaac8f42b7abfa3c592a83eed15b64fa49955ea005deefec99cba5b03",
+      "key": "002747.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002749.json",
+      "sha256": "73c463276a582205d86c26cf591c587caaba8f07511622eff53aeb495b3d682e",
+      "key": "002749.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002759.json",
+      "sha256": "9fd1d615e89e401f8100d26adcfb1722366f2f1bf4e66168d585c74dc9c7a159",
+      "key": "002759.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002775.json",
+      "sha256": "976c68a19ccb9e31d3444c63314cab78dfbce329d79ac447e55c9e22c80f2a5a",
+      "key": "002775.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002779.json",
+      "sha256": "6c79850233eb89df938b1f94f2d817de7a6719fd47488530a2ad3db162b23c5c",
+      "key": "002779.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002782.json",
+      "sha256": "b0ab0141381e0b45aaa8d18077b5818bb79bcbb580521072759ade88f511efa5",
+      "key": "002782.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002788.json",
+      "sha256": "bf27807ff3636285656da29b0463a7670fc45c07915edecf08d5f57f4c51d7bf",
+      "key": "002788.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002789.json",
+      "sha256": "bd3ba7476885c4cbdeafa89a25a37d00ab952e3ec9905e1856604e46c9bc6277",
+      "key": "002789.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002811.json",
+      "sha256": "da5ca05ac688520a0c3a19c72c8ba92eb3e1ae025a075a83995f9b20eee69f17",
+      "key": "002811.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002812.json",
+      "sha256": "70035a2eea47b837a3ca55fe70b721e3377fdb696c6b005cffc22c7f04933be8",
+      "key": "002812.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002816.json",
+      "sha256": "b3ee8a170830d5afa98c9c3d6e7d212c06609cdb59324d78fda66f40d6a064f1",
+      "key": "002816.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002819.json",
+      "sha256": "b483834ab8653995b150d8e838e3974649b559136ead2b77c8b198be2b6564fe",
+      "key": "002819.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002825.json",
+      "sha256": "245eeff7ac9133bb73fe5b019715dd37867308e3c0dc527b4d5cc046de230916",
+      "key": "002825.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002831.json",
+      "sha256": "88cbf78c0932210c1778d05a6c35f9bce027c91de75f65bd10c1e08d7cf35ff9",
+      "key": "002831.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002832.json",
+      "sha256": "d7e1a58b52d37a64c16d2e9d733213335160d1deaf93dd3e666601ff9f05364c",
+      "key": "002832.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002833.json",
+      "sha256": "7a17226cdda4eb24265c0ac3ce925d7cce429370284ad977621d67eb8cf83946",
+      "key": "002833.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002840.json",
+      "sha256": "228cdcf35e02c4a8fb57ad8cee1dd8b23bb709c20f8ed7224426963facebab67",
+      "key": "002840.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002845.json",
+      "sha256": "6c9589f42cf714deff2409ca3a8476e46db224259af3e377b32da4942801f8de",
+      "key": "002845.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002848.json",
+      "sha256": "436a4d5f4ef155580409e08c86b5e3ab6196a0e46c9af571f8bd0a5e2e43a58c",
+      "key": "002848.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002849.json",
+      "sha256": "e25f7cc44358f36f39f77faffe2cbb19b8b24f89910ce44e67dc51cb487dba82",
+      "key": "002849.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002851.json",
+      "sha256": "d55d116dff42b195cba412b2eeadb9ac5b008271fb72839e9741794f51c22879",
+      "key": "002851.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002852.json",
+      "sha256": "ac5ae0d308b2a7154988fbc921f61a2c65c256f3236909ec0b157a05e20ff742",
+      "key": "002852.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002853.json",
+      "sha256": "8458e07dadd314491be27d4a6bf471ad7b4c197650054391720f8d8481d68957",
+      "key": "002853.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002856.json",
+      "sha256": "358362b68fe729fd3bfd1ada31431057ee46063615b00babdef09804a620bfc6",
+      "key": "002856.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002857.json",
+      "sha256": "ba94c365cc63e9fb1a51f533429e157fc0c9fe0dfa428b53bb5814c6966d9af9",
+      "key": "002857.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002863.json",
+      "sha256": "3bcee3c8c72dd60109dd99de226bb8ed5840e4a245c07f9e3d864d6ddd9428fd",
+      "key": "002863.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002866.json",
+      "sha256": "ace97110e812a059d0c4d94155ce1dc4bd0cb5c53acab076ed1b34b14c22dee4",
+      "key": "002866.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002868.json",
+      "sha256": "76659e5c94432dcac7ee65fd27f0a5d573d12993c23456ab6ce2dde04c0c30fc",
+      "key": "002868.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002882.json",
+      "sha256": "60d95bbb05cfd3d71610804388757ce9a5eb42ab95a231e8b08ef25f6798e4fe",
+      "key": "002882.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002885.json",
+      "sha256": "e79e58b3f7e691e2b2e18c16a312b3759ecb444e057d50425b6c6e6a6b121bc5",
+      "key": "002885.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002893.json",
+      "sha256": "57c93a02e440328e7d2b2d203c917d4740b3c0bf827f43bb4d6dab5d45858f43",
+      "key": "002893.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002897.json",
+      "sha256": "2a94ab17094e54a4feda241374711334480d642d9a28e825d3a89789b6fc512c",
+      "key": "002897.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002906.json",
+      "sha256": "193e3d8ff880cbd4708e0c635cc319573af402acbbea73ab2f1c3bdb7b0027b2",
+      "key": "002906.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002908.json",
+      "sha256": "16f3fb821b60e2067df037dde1c50d77abe3e7021e770758a913b52e47b6ed5c",
+      "key": "002908.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002912.json",
+      "sha256": "17c3ed3f882e055e2f7261bafe1eb68817d98d562ddc74be26de5aee3f170c58",
+      "key": "002912.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002916.json",
+      "sha256": "513ce3d077cad5e8a1ae9d71b45f71a3e55a03a2138e18f57366707504e791be",
+      "key": "002916.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002918.json",
+      "sha256": "36d5f59a14329bf197f0d67743edb8afc4e9254e152fd5f400d5884ecaab0c83",
+      "key": "002918.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002919.json",
+      "sha256": "00a970fc603779aab581d8e278a5131baf79d14e70b806d2eda0d7e724b6118b",
+      "key": "002919.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002920.json",
+      "sha256": "fd2e748082934c091321e2ca3c28643eb0b7013930acdb31ad940d457d5de196",
+      "key": "002920.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002921.json",
+      "sha256": "49e02a9d6e6222ef697a463b81edcba75da19835d5e8727d8b78a6a2ee5f71e0",
+      "key": "002921.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002935.json",
+      "sha256": "5f504defab773f79299443ee5b56b96ad4c72fcea569215c9de9404b799acfef",
+      "key": "002935.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002940.json",
+      "sha256": "525798b52db65c50e76fa8d0bf332f8bd95f2784b64a8c57356d19c439fc3de9",
+      "key": "002940.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002941.json",
+      "sha256": "76f4203826a0c4a275c31c90eb458bbb0c140a79426bff6567362f0f5f773e43",
+      "key": "002941.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002942.json",
+      "sha256": "81ed830e1383c33886a99b45e5e562b628668e696e779fbc5915b2e85204b5cf",
+      "key": "002942.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002943.json",
+      "sha256": "3f94ce2324a4c296b62a83bcfc678939171b35ca91ae096fb833720115da7e8f",
+      "key": "002943.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002946.json",
+      "sha256": "b0f231090d51bf02684eda5bd0b3bacc6979412b902b8e3076ec2acea618e284",
+      "key": "002946.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002948.json",
+      "sha256": "94958ddf6da7115a8da6bfa72a73a45a47694bbdbe6cd8eb5476068ad27b13e0",
+      "key": "002948.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002956.json",
+      "sha256": "732bb40ec3d5649f34d873413764e898d08288887bede355ef17e929b2e9f85d",
+      "key": "002956.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002960.json",
+      "sha256": "547272ecc85599e7f576341002de4a298dd365eaadca35177b2f849ce716e9f8",
+      "key": "002960.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002963.json",
+      "sha256": "db04f08e2cc77e9ab8a7b2ce104e74d78c79fc0925abc59ca47bdaa82888c480",
+      "key": "002963.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002967.json",
+      "sha256": "928fc8af52200c9f9dac8f0a0566803b9551ad845523b622283fca6cb5219adc",
+      "key": "002967.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002977.json",
+      "sha256": "58b3ea25076e160aacb3a23b89c6a21a4d29f832c9a108f72cc427e9c9f64744",
+      "key": "002977.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002981.json",
+      "sha256": "dead9c84bc2d81e638afbd26fac17d93ad81bab22a5ec04d6dce360e63cc0362",
+      "key": "002981.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002986.json",
+      "sha256": "2e48cea848a6d9d40f649d42bfcf55755638699b5982e518abfb2d3dc0a0fb50",
+      "key": "002986.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/002992.json",
+      "sha256": "ae7667ea1b9eef1ff2a4b9c204f1ab6793f10c7ca671a22437c684bc4331de01",
+      "key": "002992.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/003006.json",
+      "sha256": "f2b05ccf0b8333fb4bec3ba03f9ac5ec30260053fe0bd5f0d4f3d13bfa1e70e2",
+      "key": "003006.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/003007.json",
+      "sha256": "f41ef8e883d706c30a623aa18b806cae2f42a084a722b3ee512439f8214af113",
+      "key": "003007.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/003008.json",
+      "sha256": "00179b4f3eaf1a670fea0cc145ae8d55bf16f4198cf6c6af89c492061ae7baeb",
+      "key": "003008.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/003011.json",
+      "sha256": "43b555a785cb611ad8e90f742fe20b856dc40424f75e439c59db46d770d184f8",
+      "key": "003011.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/003012.json",
+      "sha256": "c8905d2797f2d9da31221e0dae140f172ed4ad6789f9d8d36e3662d8cfd83fba",
+      "key": "003012.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/003016.json",
+      "sha256": "31c51fc9ac17199e35c18be5e4a5a7177dda8c9c857b2c4e613055f97fca17ee",
+      "key": "003016.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/003022.json",
+      "sha256": "c8b98988902bbd9c116f57dfb2e5ee1f07e2855380f5af847eaff16cbe9e3f7f",
+      "key": "003022.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/003026.json",
+      "sha256": "45e48799c0d1328f231ae01c4d37f9b223f3a514a6142999721819a13b2b9edb",
+      "key": "003026.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/003028.json",
+      "sha256": "c4279787ff27acf7b40e0c7a6c6a58d9052f9043e82b1d3bed803c72a0c0bf8c",
+      "key": "003028.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/003035.json",
+      "sha256": "e7186376157c633c2119b47da411d3eb79f882058d849bf3fdedbef379884837",
+      "key": "003035.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/003042.json",
+      "sha256": "729cf8d008d1c4da4ef48b6e103052ef4414b30eb81b4605cdd830363332f118",
+      "key": "003042.SZ/2020"
+    },
+    {
+      "path": "action_responses_2020/600004.json",
+      "sha256": "7b9dcd2c4dd79bf0991bca8cfca54b160807d45f791b0e66b53bc8670e0478cc",
+      "key": "600004.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600007.json",
+      "sha256": "4be9bf5ed8739bde2cf757c549c9b6cc0a581c36f6b260179bb000d7faa10665",
+      "key": "600007.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600009.json",
+      "sha256": "fbe8d20728e324d08638ea974d57e4dd77d114872c7956236b537a27be027f88",
+      "key": "600009.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600010.json",
+      "sha256": "b0b81652c05774a0b201889cd07e83b9e6abfb53a865e9dc40cb0e251c164fdc",
+      "key": "600010.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600017.json",
+      "sha256": "351e427cfaae3e45549ab4343f4c00e79b40f2d44b3fd2407fdea79d75e7dc3a",
+      "key": "600017.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600018.json",
+      "sha256": "a7777f2fd3c4f6314cf0819f78e6c20038dffb293a3f24dacd181d7522306ac7",
+      "key": "600018.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600019.json",
+      "sha256": "cd10fef2a1789d530ed1db8a7414c217ce42436e81de012334c76bc48cecaf6d",
+      "key": "600019.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600020.json",
+      "sha256": "16891d95661086f465b13210071c6231c553c35c03e46885474112bdc0dfac43",
+      "key": "600020.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600021.json",
+      "sha256": "d944076af82e2d09038aaf569848054c8ee1f5f03332b932af1bcf8d661328f7",
+      "key": "600021.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600022.json",
+      "sha256": "e03b1c5709ec1ca9bcba3a23482890929a6fd3ca8c5c7ff7447c69b377654cdd",
+      "key": "600022.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600023.json",
+      "sha256": "9209b8cc63d784eef9b24cd9e785a516dcad25ff69a887f0c191d705b6a9f19a",
+      "key": "600023.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600026.json",
+      "sha256": "c46a58930a7b508936fead187dfd399c3044cc86218b082813e68ad3af027d7f",
+      "key": "600026.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600027.json",
+      "sha256": "0c7f0d32fcbece423ddf2b2faa5fc44b8ce1179bacfd62211f0023f391a961b9",
+      "key": "600027.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600030.json",
+      "sha256": "c31c7c87f73d9897fa9909a3662c1ccfa4add07cb9d1af23a280cbb2402bca0c",
+      "key": "600030.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600031.json",
+      "sha256": "becc250ae7015d875c95d464c395af246b1a84dab16bd8a3f62a6445b7ad191a",
+      "key": "600031.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600033.json",
+      "sha256": "c24c272a7632e019773a4bd2b14b0c6bd259cf23850983f62cba854cebbb8b07",
+      "key": "600033.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600048.json",
+      "sha256": "b83daf3a8699402f52c3c0710fcabe4e54d2b7f1d91ccde14172c4a3ac2a07d4",
+      "key": "600048.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600050.json",
+      "sha256": "f3c3cc63f907da33ba5d0fbdc1a75a9c5755853aa2cee6057a913961b20069a5",
+      "key": "600050.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600058.json",
+      "sha256": "72d17722ad750f46d7097918a9d2cf1e5b23180a6c5a4cc75c9256da96df4169",
+      "key": "600058.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600061.json",
+      "sha256": "95695033f0e709eb9fb165a2b6094ec6228c8b75e97dbdc49e26d53a9ce35c3e",
+      "key": "600061.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600067.json",
+      "sha256": "00271ab5566ccf5971396a7a655ce3e5a0d5d0d474d3984f0bdb44510b719a01",
+      "key": "600067.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600072.json",
+      "sha256": "7077056ac433c5ea4fa0ad06db577862bd5c525065381f014c6fb9e90aabe7f3",
+      "key": "600072.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600076.json",
+      "sha256": "1b68f59e486bfe42115b640d117538e8e07be5633b9fe8529c1064a718948796",
+      "key": "600076.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600079.json",
+      "sha256": "f15046247e5f22475cbd62186cd5c72c2da599227c4c10631af6db1299d10f93",
+      "key": "600079.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600082.json",
+      "sha256": "8dfcf5d64b3740904013cc74f79fa9746dc93970aad9de44e352fec987a9d831",
+      "key": "600082.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600084.json",
+      "sha256": "090e5e1bc39f631457615c81e167a8456eb9b85c0b1b0ac8e2ef671c379a8068",
+      "key": "600084.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600089.json",
+      "sha256": "d4f2df618704b6b1cbda77176d8c63ff220e902caa0f2ea72584d720899fc4b9",
+      "key": "600089.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600094.json",
+      "sha256": "74d5e038fa64287d3aa00480506c677e3ea0afa3e2b9a7e5cc2237837f69b1c6",
+      "key": "600094.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600104.json",
+      "sha256": "e07e297e3b2b8249bd8007dcb2ae2dba889c710dca86859e8c3f2f5230615efc",
+      "key": "600104.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600107.json",
+      "sha256": "87506b04cd016c00cb422d080ca1b0fce59ce561aacc8b5532a9b303c8011769",
+      "key": "600107.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600110.json",
+      "sha256": "2e812385dbe09dde89f9063b1ccfb3a242b2f415de9599a1bfcfce58620e98ca",
+      "key": "600110.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600115.json",
+      "sha256": "8af1c393471c98e83b0d12bfe1ae1e93736a835909cf348b5de96ec465d80963",
+      "key": "600115.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600116.json",
+      "sha256": "0a55db287084d888124870a56a6e94d08ac10264f9c4f160cbca082524832c44",
+      "key": "600116.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600117.json",
+      "sha256": "9537d097e52b4d69248a1dcb36d591fd2be99e4b66055c6126a79fcf76a8212b",
+      "key": "600117.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600123.json",
+      "sha256": "62e2cab7e7d8663a777cbee0ed2f277f398f2079a633110893a0c296d0af6373",
+      "key": "600123.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600125.json",
+      "sha256": "03243d45891c1b6cb91998e8979927e5d0dd4ad7439d57b2f74c059bf9c98886",
+      "key": "600125.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600131.json",
+      "sha256": "dda47fa0b26cb237c0f050270bb2a06ff12c6780dc49819630750115eed4a0b2",
+      "key": "600131.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600133.json",
+      "sha256": "8b0df037832d36224cb54b383f7fda6a0c06443e29453df2a76b8d77cc6d828d",
+      "key": "600133.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600138.json",
+      "sha256": "2966043e9127a9c2d89da7ccbc0809a388478ff48a17c578b739ce4e69ca183c",
+      "key": "600138.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600149.json",
+      "sha256": "dfc467bf816f0ff4edfcacb4314493eef9fb530f44af1a4d5fae1ba39214d2bb",
+      "key": "600149.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600153.json",
+      "sha256": "38888fd7d1d2895392d9a2ac9defae951a97b98abe0ac0eba1de6925c763dda2",
+      "key": "600153.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600155.json",
+      "sha256": "15a029b9128c08fe3d9a2a45eeda0e1f4683229a88d677a95f926b24aef6da28",
+      "key": "600155.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600159.json",
+      "sha256": "265b1837ea2d2934b030ae78988c7b272bad6b3844b5ab996354668f2267aca3",
+      "key": "600159.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600162.json",
+      "sha256": "73a6c2bd19d44629ccb0d1044dded09d8a4a6e9240af574d6c6bbbf4a0dd96e6",
+      "key": "600162.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600166.json",
+      "sha256": "193322313fc226e2c9d7b5f6084c99a201e688700c1a84ab1c63609bace811dc",
+      "key": "600166.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600167.json",
+      "sha256": "4a2b9902dcce5baf73baa9e28ded593092a4eac052951d781c3dcd81badc5579",
+      "key": "600167.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600170.json",
+      "sha256": "a00aec7fab124aa97d1ed2376a38a6d6b92f0c6526dc410477d75b05e916c9dc",
+      "key": "600170.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600176.json",
+      "sha256": "51c2cd8c63cf47669670515205dc794d5986ecfb184c7fee497959e7222bcac1",
+      "key": "600176.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600184.json",
+      "sha256": "d1601b0379d3af654c140a39082836709cc5d013233d38a9fd9bcc24503ad066",
+      "key": "600184.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600186.json",
+      "sha256": "550ef5760414219724802d7fabde318a6723f574635b86bb1e89f0f7ca21fed7",
+      "key": "600186.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600187.json",
+      "sha256": "f64f8a04a126f9b768245566d445bcd1ba5363368c2f9a362ed895c5a83a05a6",
+      "key": "600187.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600188.json",
+      "sha256": "22fe975341fdd4a45b511ee535b296f7795b4a4c156b64c80c8a8b7d60a11bc5",
+      "key": "600188.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600189.json",
+      "sha256": "43310e6ad88084e470d97b28be6d0a4d5fcdba9a9172cac30ea82dbd63601415",
+      "key": "600189.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600191.json",
+      "sha256": "b72be64bbba4270654a3eb8e198d12750e1fe9d5ce931a13441156efeda6beac",
+      "key": "600191.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600196.json",
+      "sha256": "34e752ffbb69dfbbbee6eb69ed5cbe4707d4cc416ff73f46ae7f3cdc26a619a6",
+      "key": "600196.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600201.json",
+      "sha256": "88c1fcf302a32b9d2c14f1f4e0ba1ecc71041e69b336e8f8e3bff991fb8c95a4",
+      "key": "600201.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600202.json",
+      "sha256": "cce7b54ed0e26faa51319d34e43bef48e830d988d9c61bf7cb521a4aae0eb726",
+      "key": "600202.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600211.json",
+      "sha256": "d346db2c86e86440071451ae611121a2c1ba6a3f5a65185f92bb297e7007c658",
+      "key": "600211.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600218.json",
+      "sha256": "e19451df3046774c224c539e872746f6738bb4aca5c01d74c8b0c4659c28b07b",
+      "key": "600218.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600223.json",
+      "sha256": "77291ca34d65d48d4dcccce94c8efca1fbe06b27a789b92b8acc9b286807a640",
+      "key": "600223.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600227.json",
+      "sha256": "5ff95f5944e09499eb5898669c0a20da4c79ddb9bc43244c3c1aa34b119d578e",
+      "key": "600227.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600229.json",
+      "sha256": "da756d37f7fc44233360a6f526b205d458c482aeb15b2018dad4bca574ecf7c1",
+      "key": "600229.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600230.json",
+      "sha256": "691532f0f2c1d8a73a7fbb85ef6d5fa3f7229a997fa353f8e4237fcea6ed9989",
+      "key": "600230.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600231.json",
+      "sha256": "1083bb477b68e4c66e0df1d5d94e7eff21ef931673eee5b1efce6ccadb310c22",
+      "key": "600231.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600232.json",
+      "sha256": "3de33859cbba0d6c07776400be88fb8773fb8fe556a1e3f9d66e8ce2ca94d851",
+      "key": "600232.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600234.json",
+      "sha256": "6373873469e764684a2f2b3e85e832fbfb2d6a5fd94ad29a5ea92330c5a20d50",
+      "key": "600234.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600241.json",
+      "sha256": "f9d91fc0029bb9efd37dc9a3ec0d3c4c1901fce1e785a3a33c2bb7715672b843",
+      "key": "600241.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600248.json",
+      "sha256": "01bd12c20ff465c023471052939ee8dc8d7feb9e4bd72339092268ed890c5824",
+      "key": "600248.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600256.json",
+      "sha256": "31126c6a6d43323dbec399fbadea2a467bf1b712b41468158bd8fe394645901c",
+      "key": "600256.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600259.json",
+      "sha256": "05f80c164e868cddf4a7034ebd95bbb4173306c42be48cf80ca1db9867dacfc5",
+      "key": "600259.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600261.json",
+      "sha256": "01374ca8a4b917b6dabbb141b75ac6f671648d301e8c1000ef143b7ef1779414",
+      "key": "600261.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600262.json",
+      "sha256": "a59e7a59e8dd3cd723783cc8f638d10a142072eb8299c660a0069252dbbebe0c",
+      "key": "600262.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600266.json",
+      "sha256": "5a0abd9138db065ad31296b3ac67f76b444ac66d41eff3a3a8e745bc4dcd11a8",
+      "key": "600266.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600283.json",
+      "sha256": "6e97128c19fdb316c75a6192e17042b7af386ffcb7436a711cf4fd604a025720",
+      "key": "600283.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600287.json",
+      "sha256": "31c41abcdff1dff95ad45ccbb913cea9b354d0d0f5d236e50f2402e2adc152a9",
+      "key": "600287.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600289.json",
+      "sha256": "2d6f6177f469d3834c2faf7f9699c9e25112eb05f19feb294bb75a983269aeb5",
+      "key": "600289.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600293.json",
+      "sha256": "6f72080f4d9a0118030bf3b49c6fe84d3222308b00c6c91a0ddbefb23a93985c",
+      "key": "600293.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600295.json",
+      "sha256": "d0fd7dac565715d4efe82fc0c046af3d1d0dc8c3f75694ccbc8c5d995de27473",
+      "key": "600295.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600299.json",
+      "sha256": "d103824b6d6fde5374bacb1bad8295ddbd41693e27374cccd0278751abe949b8",
+      "key": "600299.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600307.json",
+      "sha256": "07c0588538e446127ea3c0c3eca7640956a4aa9bf3bba1af43dba98462a10758",
+      "key": "600307.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600308.json",
+      "sha256": "7be504bf70dd45325e4b937baaf9731932cd0df659a4708fcd57f459ed8c5d4a",
+      "key": "600308.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600309.json",
+      "sha256": "d674425eb67eaae6bf38137bacdcad693a42fc876425873afc66bab70e7c058f",
+      "key": "600309.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600313.json",
+      "sha256": "cf8706fe577ae87b3d05ba3ffb6091091fc411f49547edb1c050af0d037368a1",
+      "key": "600313.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600319.json",
+      "sha256": "c7b61c161b7fec5c6b515751a499ca614e3a48a27bdc734b31eff3ff6d6f5300",
+      "key": "600319.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600320.json",
+      "sha256": "5f87cfaa4e7d4aeea002e84ba4d6ef5e0453b1d1bd270fc673b9d84bc14ebb6c",
+      "key": "600320.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600325.json",
+      "sha256": "26d6140af8c4ed770f81eb492dd253696f5768f85b2059285f63c40c0f2807c5",
+      "key": "600325.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600333.json",
+      "sha256": "c0ceacafab56869fcb6a18bbd0b80a07d5ffb1e8bf7554ac37218a2f6cc949be",
+      "key": "600333.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600335.json",
+      "sha256": "3d583d44d816bf0b6ffbc875098a8719fd100217466968541f02e8a6fdec50e9",
+      "key": "600335.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600338.json",
+      "sha256": "9d1d0f870d8f4306ab103a8ca7a6b78eef568549e7379cff8a5e1b233d94586e",
+      "key": "600338.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600339.json",
+      "sha256": "c79668bb59b3b40c5028b6d53fce73e3c33584728d73f1e5615db6b8a0dec6a9",
+      "key": "600339.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600340.json",
+      "sha256": "4a16b99ad0725a2e15b066ce9ebac16c71d16243bc91f5fd15c5fa3d9e66a987",
+      "key": "600340.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600346.json",
+      "sha256": "da48c4111434cc3ae30dbd74abb1eceda13cb5ff95c0fe1e0497c5cd39b5aa33",
+      "key": "600346.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600348.json",
+      "sha256": "a4d7c14605e703d1257f8a337f7e0f6e952ce5d984cebfff1d30a72bd5840379",
+      "key": "600348.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600350.json",
+      "sha256": "97ce864d44de53ee3197b3283df8d437c03d963b7da2127a2b95fa3a57c1e97e",
+      "key": "600350.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600353.json",
+      "sha256": "cb78851f2ea7f79184ae70516dad9b8f8be08a3689967d12b18ecc1ac0b6c329",
+      "key": "600353.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600354.json",
+      "sha256": "34858215b46df9f5c5dbf4130601fb0cfcc30bc9d45cb49d6653db75480ee30a",
+      "key": "600354.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600356.json",
+      "sha256": "5bbeb5f1263a5265b19dfad7ae3c80c8cb585b6715a4e96926a1d3d1e10bc98b",
+      "key": "600356.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600361.json",
+      "sha256": "abd85b827c90ead5b05c6c6d7a62476635e4240ced2c38bc0b5a6f8537f6c2f9",
+      "key": "600361.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600362.json",
+      "sha256": "b0b7ca98c9811488fecdc0751843941a9b7b1aac34069afa95acece11d81fd9a",
+      "key": "600362.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600368.json",
+      "sha256": "cbff5e8f50067e2a1caf7d71d8711c09e300aff3868191b0deb914c84c509c4e",
+      "key": "600368.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600369.json",
+      "sha256": "1d5b251346134c1340ee33a1f6b4e96343c26a645c52f95564c293bd8b28997b",
+      "key": "600369.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600376.json",
+      "sha256": "499bf9fef2028ddc6885d4902e6142c06e7ea604cd7235fc2f235d7b608fa60d",
+      "key": "600376.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600378.json",
+      "sha256": "3446485b8fb42f76a2cb37b320942a42e2b484946da9752adb61153457dcb639",
+      "key": "600378.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600382.json",
+      "sha256": "ca02f4c21fb86c09240b172aa2f4a7e45c1207c93fa3a6136fd4150622508365",
+      "key": "600382.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600386.json",
+      "sha256": "e3811f7be2ab528ad4e6bbcff5368ad7fb0d53d1e7f99d2c802d01abc97c15c7",
+      "key": "600386.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600390.json",
+      "sha256": "d5ac427f1b8f25836c678be90ec360a76f6ca99cf5068c26c8bad00a6b2fbb85",
+      "key": "600390.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600392.json",
+      "sha256": "d1b43151d0ad4603669b05ef6c0489945f2dff71bd34d528c4154e9efa8079ce",
+      "key": "600392.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600397.json",
+      "sha256": "e32112438d62eaf5b9abc1240190549e44bc24c8cbaec23c2a29fb895d2ca3b2",
+      "key": "600397.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600416.json",
+      "sha256": "65dfdc8c2f4b6c77b04957611a41accfd34c0987d206253d7f82a9d24168dc7c",
+      "key": "600416.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600429.json",
+      "sha256": "dcf3e4ef304e9381ced544c018df46c9054687eeb95d4f0168931da74d783bb2",
+      "key": "600429.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600433.json",
+      "sha256": "2a94896441ec1ed7f0e84cd9ac1a4006302b0ab32eae923f6fc822368b66a3c3",
+      "key": "600433.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600438.json",
+      "sha256": "68c916edd81b9d10e0e4bbf6c22548dddded7710112213fba70ba9fb493b3a34",
+      "key": "600438.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600444.json",
+      "sha256": "6cb218656fe919e74970f98a5248321e363562bd178a5269a29b9191886a24b8",
+      "key": "600444.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600452.json",
+      "sha256": "f90f450b4c5eb46334c17f1743eebe5bd0e730f06116394b8a12f17920b2ab39",
+      "key": "600452.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600458.json",
+      "sha256": "3081f6b4b94c7fc7af59859e7cd0503d0ffe228f8315ae0c1cf7356442f63328",
+      "key": "600458.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600459.json",
+      "sha256": "7540257cbbd4ba5b513ee468e6c911f8ece45d32cedc2413f9424057147397ce",
+      "key": "600459.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600463.json",
+      "sha256": "a182286677660ff110285e4448d726a4666abc837f2f6b31a5fc86945264e26d",
+      "key": "600463.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600467.json",
+      "sha256": "927cbd2fe490c12f1ef263c0efd9d8270faf9a711af8fbaa2470aa92e2c46be7",
+      "key": "600467.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600477.json",
+      "sha256": "fffc08a4be4ecb9869b839ec3668108372d98c2e82ee0d528fb636993120868e",
+      "key": "600477.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600478.json",
+      "sha256": "9eede5f01f545c3d3e2e301e4c8acf4895bab7b0150570db5240821c67f693a9",
+      "key": "600478.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600480.json",
+      "sha256": "42c85aaa949014d4775b99699bb5d7e8700e9de7e95866eefed658afb7cb5151",
+      "key": "600480.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600481.json",
+      "sha256": "c7cd23c3200df0cdce55ae6e810e3a8de44f75d623c5ce50c49ca3b9a2c455d9",
+      "key": "600481.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600486.json",
+      "sha256": "2ace77d8810db7b57766caf39f5b04bca86561afdaf80af6cde121583b84f89f",
+      "key": "600486.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600487.json",
+      "sha256": "86155cf1c758598b1f70b7dd740f441f612e9bce60ad5a34e657cbbaee6568be",
+      "key": "600487.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600491.json",
+      "sha256": "d5aefc1655df66a4ec0185143adef875e4c73af70f016e9eb2bae4ba596ff3ad",
+      "key": "600491.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600506.json",
+      "sha256": "1e70d25bbd01bca9207d86b328df332944926f3354cce20822aea9eb3c011544",
+      "key": "600506.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600507.json",
+      "sha256": "4197ecf0439bdaf61a34423cd4d1305d91d5a7eff55d7093b48ee98ef7b583e2",
+      "key": "600507.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600508.json",
+      "sha256": "27d5d25d46222a7735c9dd3e8223bd3e03cfafc17c2992618def69fc623ec8b5",
+      "key": "600508.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600511.json",
+      "sha256": "4e81fcc478ceba650e04d51a3fcde6bda91ed1b25be37a5bf57cce1aee728387",
+      "key": "600511.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600513.json",
+      "sha256": "1a83e94f02de0bad6e13f261874b06fe34f79f692e50791ac9afdf0eb5c367c7",
+      "key": "600513.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600515.json",
+      "sha256": "f231b8c9bb5b7a128248f279ca0409b8f3cce44171ca25bb56c8dd5081b171a3",
+      "key": "600515.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600516.json",
+      "sha256": "93885913fe0c9ea3014022bcc5d4f409287dcd2c36b550648b89c95b3d517fa3",
+      "key": "600516.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600522.json",
+      "sha256": "e71ac8f8ee615d3160f8619c6fdf03518d41bf7da9f916e33b4d5b4a5602b4de",
+      "key": "600522.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600531.json",
+      "sha256": "00f3bd7d27094a02acc85d901565913aa3eeeea2f1bc5f5b9ed71e4aa03e3ed2",
+      "key": "600531.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600535.json",
+      "sha256": "aff20d1ff9e791b33604a19ae9ca3fbfff1e6efb05edf6476bc6725519785aa9",
+      "key": "600535.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600539.json",
+      "sha256": "5266fff34ea08b4bb7109867404077e371488ef0a03bc214295d4bba528b4517",
+      "key": "600539.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600540.json",
+      "sha256": "57bb4821f4a929189f13596104b3fe798cdf4cd496893879f9af536ea3293ec1",
+      "key": "600540.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600545.json",
+      "sha256": "db4587e447651f83d505bd6513f495137de571ecb784d60d1a6424716e5819ce",
+      "key": "600545.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600546.json",
+      "sha256": "a798875e34f2998686a1ad8a4f123986487248cfaeecbd23a794b91dab36c9ec",
+      "key": "600546.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600547.json",
+      "sha256": "7fab883da9cbaa6dc628e881bfecde3e0373cc3af133c4e0dfed883450108dab",
+      "key": "600547.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600551.json",
+      "sha256": "3e485f75ceee418b76fae7718e4ae27b2104cdf961eb6de312e52563774ddcbf",
+      "key": "600551.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600556.json",
+      "sha256": "f9ec251b09c098a78e5891946b095496111f3b72bb0b909ac9c573f17e0b2df8",
+      "key": "600556.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600559.json",
+      "sha256": "6eb2228b218b7c0c1a03c4bc0b20d49ad133169eff7b950d89ea69415fa6488e",
+      "key": "600559.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600561.json",
+      "sha256": "20238cadcc3bbf1ef43c07ed0992b26ca95a6bee972a507d230c51100204b759",
+      "key": "600561.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600566.json",
+      "sha256": "b7fa34de74a17c657241b869d0804db7eb65730593222b5f5aff04712cb015f4",
+      "key": "600566.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600569.json",
+      "sha256": "8d637a96c9d0703f520cc16afeed438aeba55ed725f04ce461ca5c6c99ad3354",
+      "key": "600569.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600570.json",
+      "sha256": "41e2a67dbb52d71559b9c60eb6c00ebec4e049d77a1abba5196386ee71914126",
+      "key": "600570.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600573.json",
+      "sha256": "f8163c331983320987b682d1bfb68d3b8600cfd4a44ff75c957abbcc311cc1a9",
+      "key": "600573.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600576.json",
+      "sha256": "0dbe3ad8801acfb00dcf802745d672803c4826f12ec47a1e60ab5f02496cc32a",
+      "key": "600576.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600582.json",
+      "sha256": "ef9f08da064c60f702a4ab305e444b5be0cc901e3ab2e2a53ebcf46eb1151a52",
+      "key": "600582.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600596.json",
+      "sha256": "57897cc47a5d4fd9d7c496ac2f2d0dde25fbb482f8ec0c79b60b9df62da1f455",
+      "key": "600596.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600600.json",
+      "sha256": "f1b3f588a53c6fec42b740edc8e429652bcaf6233932d1701aded4780048681b",
+      "key": "600600.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600603.json",
+      "sha256": "2f0027c35e744e16c6a0852ab66ffcb6e0a54dbcfdb7f74f1e7177fa8f51858b",
+      "key": "600603.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600606.json",
+      "sha256": "9098eecb913636152c85206486e340c7b7af87161676162734d960fe429953ea",
+      "key": "600606.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600610.json",
+      "sha256": "9db228cfe7d82e99a21284b5e209544f27290931a3c84fb86dd0cbd7f744f519",
+      "key": "600610.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600611.json",
+      "sha256": "39ecd7c1177b4cf07ae083726e2efcc4e1bcaaaf2288f7162c2e76335be4c0c3",
+      "key": "600611.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600615.json",
+      "sha256": "a3cf9561a2e25203ada62879722ceffb50d565f693b5a00ed65436c4a42e4f3e",
+      "key": "600615.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600616.json",
+      "sha256": "2b9fc60ac7bead05f42654b29542131d459692c6ee84c5a4405f39855d619f5c",
+      "key": "600616.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600617.json",
+      "sha256": "d7612d62a0cad1fbdaedcdb1570a21fb1e05bbdd7eb316a81f81bd2bcd367c61",
+      "key": "600617.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600622.json",
+      "sha256": "f2de87196847307d6043a436f3ccd0c36929f0a4b53f15dc01006c7fd1880d6a",
+      "key": "600622.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600623.json",
+      "sha256": "42a0ee61c47cb5bbbc710b40f5d46ff6562c96841f4b9e7e5b4aba058909262d",
+      "key": "600623.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600628.json",
+      "sha256": "e20946bdbb97754588316a17386b28bce35d5ed1a558457497e5d08cbaaa7aa6",
+      "key": "600628.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600629.json",
+      "sha256": "0ee15687ce8220a646b3f779a76cbdc091bf039186131502b4defed3e04c1d58",
+      "key": "600629.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600630.json",
+      "sha256": "565ff44d8f45681ea3cb66f6e565f6d51a076a8301bcc05d9c5153b011c63fe3",
+      "key": "600630.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600641.json",
+      "sha256": "8d348ea6e84bd638e85ef6b5e8cad3998a294d150ad153f17c53084661c942ff",
+      "key": "600641.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600648.json",
+      "sha256": "869b90563557f8ebb1ff7bdd7a2e61d4ebbbd87d933acaeab7225e838a03f40c",
+      "key": "600648.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600654.json",
+      "sha256": "6c524477a504ebb07c4cfe3777291a08da5033bd399ece52be13e3382dc7bf15",
+      "key": "600654.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600657.json",
+      "sha256": "4539681290a23e94de4bca63142570f7439c430421fc1579e2787ee8092791f5",
+      "key": "600657.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600662.json",
+      "sha256": "09144627c9f24b01faadd2267f4154808f7d9edba17e167f94369fe9dad85b07",
+      "key": "600662.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600668.json",
+      "sha256": "30dbbadd30bcb210c61bf9940da3a65404cf6b21c4cab274d178df1f69c07dea",
+      "key": "600668.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600682.json",
+      "sha256": "fbd2ae5519b1cd4ffdcfa8d16f5aa766ac2f15778cdbeae0bce8e4d5e7894448",
+      "key": "600682.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600690.json",
+      "sha256": "86546924a52dbcce62d4ce6ebe12e1f71aea2ad98dc05a0cf648bd7163c0edcf",
+      "key": "600690.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600692.json",
+      "sha256": "1081922c5b1c0d73fcf1d25bedcb486fa996054a8a60d91699949fb3a6ea6f2d",
+      "key": "600692.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600697.json",
+      "sha256": "533106e450bf8888d29a501a8d7a6921277c693ceade8af679438a3ef5a37033",
+      "key": "600697.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600698.json",
+      "sha256": "dfcbe8d893ae86e41c128b0f1a30976aa2c51872ec31e712424f77b09b5e911e",
+      "key": "600698.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600699.json",
+      "sha256": "0337f5437226a08643d03b75ae09685ad6177090ab161f647b84aa06f34bee73",
+      "key": "600699.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600702.json",
+      "sha256": "ac88c439a9af12c6288e1a250aea7a7847c14c72457151b9251a8055312e3d23",
+      "key": "600702.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600703.json",
+      "sha256": "66dcf8755c8e554203f7db108b904ba0fcc5c9f8422a72957cedbe12396ed61c",
+      "key": "600703.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600708.json",
+      "sha256": "c84e74a7d2ebeda6496c4e7d0520a4f7335eb7dc8967ea54eb9904cc26770e75",
+      "key": "600708.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600714.json",
+      "sha256": "05566538e01faf5ea324f59435e2cfdf402925b5f3a95a24ccd2282ddd4553f4",
+      "key": "600714.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600716.json",
+      "sha256": "63c86e49d7d1eab05a7729605d8ac5b3817c750b3f8f540482964a2542927ec4",
+      "key": "600716.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600721.json",
+      "sha256": "743c7eac1fdd1a2a1e99035fc3e1501efc14dc714582c16605f01eed59cda30d",
+      "key": "600721.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600724.json",
+      "sha256": "6e571470411238dbfcc2929dce4a7e0832ecbac9b56ad327996c6d38c589ebab",
+      "key": "600724.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600727.json",
+      "sha256": "bd47c17d479ba473338f34d84117c3f42dcf7901577aa90126b788e465c4909c",
+      "key": "600727.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600729.json",
+      "sha256": "d4173804329376183c51dc225fb63b793810fd63159130ab8d9128b50322c0ee",
+      "key": "600729.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600732.json",
+      "sha256": "acdc1b53e4b65ee201afd447567eef00c90acef76a12f1cddcbdfd9d5ef600e9",
+      "key": "600732.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600733.json",
+      "sha256": "6ae68c388c74825326a402a5fa0fec4cced01d070a61cf4572ae8df59b0299f1",
+      "key": "600733.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600738.json",
+      "sha256": "baa8e56557b7faa033658064906c6edcb05406c05637f98bda6504d2ffc95557",
+      "key": "600738.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600739.json",
+      "sha256": "9cc8ece31033b3a1c8ce7127c0eae60b5485d911a0faa0cac499e645f152d7bd",
+      "key": "600739.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600740.json",
+      "sha256": "8d4bba37cb090b520551d4d89c73ed8662cf53b83b2498d57271986d904be906",
+      "key": "600740.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600743.json",
+      "sha256": "ac00499b94a2c86ac6bd00df75c58dc6728d9860e90208dd5644ac83830e2383",
+      "key": "600743.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600759.json",
+      "sha256": "0e5fec874efb88fd432678147e9189579b8ac4f5382de2aa3e17a205b873ed3f",
+      "key": "600759.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600763.json",
+      "sha256": "19678f6c158739a23bc2249750f609d6516d56212cc396abea367782abe74f92",
+      "key": "600763.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600764.json",
+      "sha256": "50fb5a4830a0e75884273e7de9d2d63861a7b7ec4396911fe1f660db6c67cbda",
+      "key": "600764.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600769.json",
+      "sha256": "e0d6d997d8bab90c1d66e3983aa4664e18bdd62b76d8286151373550e45b2abf",
+      "key": "600769.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600773.json",
+      "sha256": "54a228cedb98fb4d0a473f4d687453554a1e72b3fd1e5d98bcf9ea2eb018f203",
+      "key": "600773.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600775.json",
+      "sha256": "3e30014b3157f49cde28dcccd16b80483d0df944a659c65b44aa6f171b755f2e",
+      "key": "600775.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600779.json",
+      "sha256": "51c95b0feb13d64226e38fcbbeea94c97cb27736cbcef1c428bb793f5cffbd2d",
+      "key": "600779.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600782.json",
+      "sha256": "324bec4d00b632f688b7b734e89c0dfcfef33def80cfeab0d3d9903e38c3b2a0",
+      "key": "600782.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600785.json",
+      "sha256": "823dec0bba61f135be9c21c2eff05ba5627ae3e7991610e37989f18597309cf9",
+      "key": "600785.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600787.json",
+      "sha256": "482ab32c4c23e88ce83193ba3a77b362e40d41cb3bca4d05c3b6728a8fe40ab3",
+      "key": "600787.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600792.json",
+      "sha256": "be53bd6c58bc229ee680d7270214899003b77a5b7013f67d7d4d8e0400e969f6",
+      "key": "600792.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600801.json",
+      "sha256": "c03b6c7ca33a15a6fdb38f90be451b9e83e16aa9efe314dadb11fa3334c3f385",
+      "key": "600801.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600805.json",
+      "sha256": "f1dd9bcf048e87a94b541be1a07841f42da277ae1967e161656d492cc30ca3af",
+      "key": "600805.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600808.json",
+      "sha256": "53916608c7ef857c6e0c6bd28e8871365e22f90ac6d272866d3d97536bcc1e6c",
+      "key": "600808.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600809.json",
+      "sha256": "c7991772f9557d53b8a64b301094b56ac4a0366005a3443c76e38df138936945",
+      "key": "600809.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600810.json",
+      "sha256": "e4c6f98d761bc0558ef858b30c64ffac554ffaf6eaa63ea36b139b79a12a9790",
+      "key": "600810.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600812.json",
+      "sha256": "13db0a7ce8a3a244d987601134620d00a9edf956d076fb16ee7cf58940c1c805",
+      "key": "600812.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600820.json",
+      "sha256": "61d523da17cd33f5de9a179f89d610d733bd0390f0c9de739a4719243ae1f02d",
+      "key": "600820.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600824.json",
+      "sha256": "c76be6e5c50f419e1bfd0edfbd00108aae7da874a5d1e51ac14d4fdf42be3406",
+      "key": "600824.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600827.json",
+      "sha256": "21ebd0ac9c9bec3dace13072a484d5feec35ddfc23a77810c3cd914209e9c990",
+      "key": "600827.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600830.json",
+      "sha256": "7e83c3dc5a0e6030d9a2fe3ca6e4624071c4fc8a9465f30a0289d2bbcdaaa9ff",
+      "key": "600830.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600833.json",
+      "sha256": "070f45cc003643d98e3ec3af27e336bfa8659ce98149d65ded0d6ed44d013de9",
+      "key": "600833.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600835.json",
+      "sha256": "53dbf7b8cbfe8b289d9474873bac25f732a3c345990fce47bfe4ba51371841f8",
+      "key": "600835.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600844.json",
+      "sha256": "c15ef43e2bb53e0a7eeb4f56142bade1ae768877f94fa221d0b2710ae0738412",
+      "key": "600844.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600845.json",
+      "sha256": "7dc683bb4cfb8bf964f8a6bc2d7d1194b5690f6a9111e673861e7d7596f0c925",
+      "key": "600845.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600847.json",
+      "sha256": "e063a3d3d3a68a295447550283b16a570abd4dce698d412230f88c55a9bc87ae",
+      "key": "600847.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600859.json",
+      "sha256": "358b3a422734d89b3a24e9f7fdaf530b053900daf154efd9a23c35c0da8165c7",
+      "key": "600859.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600867.json",
+      "sha256": "89a127774768fdee96f4301bf63f7f7f731cf9c5aecfb5ef86dd11e5d4a03e42",
+      "key": "600867.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600868.json",
+      "sha256": "09394fe3b71bba7b6e57d26e2cd52e6b5724a792c4876d8c0c6c00b349df3f50",
+      "key": "600868.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600875.json",
+      "sha256": "f861e2e5b2517f8ac14ae6eadbf4030ff154e77a3c69364af732d8597a3f275d",
+      "key": "600875.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600876.json",
+      "sha256": "b1b66d41f46d446364601586e19d2fe2d80332ae53726a17fd98e6465c260e82",
+      "key": "600876.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600883.json",
+      "sha256": "f13cf7a571677e84db38fb37659dae1195900512f269affa743a52c9f3aaed72",
+      "key": "600883.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600887.json",
+      "sha256": "9da43601015c822857106c1294a4df81dfedfc48bdff17fa3edcf9ce1f0ea4bf",
+      "key": "600887.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600889.json",
+      "sha256": "c06b09cd9df749539007f66659ce792dc24a2b7ad95b83c5e3b4204574b15c84",
+      "key": "600889.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600893.json",
+      "sha256": "ccea4a4e03f23227005b42528f8f1f9879a36131e15c047447182583248c0c88",
+      "key": "600893.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600894.json",
+      "sha256": "0228f07cec16f5bb60ea9de29168a6879256c110565561f873680cd867fda4ce",
+      "key": "600894.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600895.json",
+      "sha256": "ada2a1016430cf4cfb0f9fe2b20fabb023d38d625c3e56df8c2fb02721045228",
+      "key": "600895.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600901.json",
+      "sha256": "9e26801e26f8930be190338623925d6f8bb646f4f8015258d18e8206a8f0ed02",
+      "key": "600901.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600906.json",
+      "sha256": "d20e55796eb13549d38ed93fa8b40cf2110aa57932f7e747f455a71e44338fb8",
+      "key": "600906.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600919.json",
+      "sha256": "d90ebe987f48167b0a4d74ee76d616ba78489aa279251d065d609cf08905b774",
+      "key": "600919.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600926.json",
+      "sha256": "3d039df053394b414e4f2742274f977dc70f6848a582e97788c72dc33c04ec94",
+      "key": "600926.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600928.json",
+      "sha256": "26822b6a3ea3cd50b3b302aee5bae868d37ac8a9551cf75e72470bfe8a4c6b6b",
+      "key": "600928.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600956.json",
+      "sha256": "7b9177d967c868bb4288cf4c2246063c0d0f3a2ee809ced40dd6c1ea297eba25",
+      "key": "600956.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600958.json",
+      "sha256": "5cc1b554b474ab748e45265e0cd18d58b4567ae75ebcb822aead91a3a9f20d2d",
+      "key": "600958.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600962.json",
+      "sha256": "a07c3883b402b79053dfcb1fe5347789e28000f44aa924e9e90f11e98d31a233",
+      "key": "600962.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600967.json",
+      "sha256": "9a1c89db63711507c4ad50e61fc25f6362c1f7b5804c8f683860e1c5a9262473",
+      "key": "600967.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600970.json",
+      "sha256": "e8417227d694923cd0291c5417fa28b6c01840dd3317dd8046f28b4151d8d079",
+      "key": "600970.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600971.json",
+      "sha256": "58c444e0e3b25ef7daed369e7284cf590c4da891b21f34b1d71668ed45d55585",
+      "key": "600971.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600975.json",
+      "sha256": "2676de90e50e5b88a49dbaa6243990298d67a0b3d1a5af8dfe2d5e28e9deb093",
+      "key": "600975.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600981.json",
+      "sha256": "13d8b23f2faa0df5e0efff734d695e8eadeebd944ed4c949c0be18ea9dc1809b",
+      "key": "600981.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600982.json",
+      "sha256": "9134840e6a153eb7bc45981484accfa8d20c9527103ad8e62895dda8e0cd26dd",
+      "key": "600982.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600985.json",
+      "sha256": "d78dbbd0e86dce7d1244d09e67e31090d8b901b4cf1306a6724ac2aa16fc1626",
+      "key": "600985.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600988.json",
+      "sha256": "bfad5703de11e4e167cbb112fc34112c8d320e43831c5af2a93b13067de92202",
+      "key": "600988.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600992.json",
+      "sha256": "d42aed259d4e820457ff6a770f7ca3c3fb8d71a02768160cd17636b8d671bfee",
+      "key": "600992.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/600995.json",
+      "sha256": "23440c31a2d985396922f1fdc99f2484c5ef54355a7a93041f451a85c6b80d80",
+      "key": "600995.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601000.json",
+      "sha256": "bc79ff61f3c12b9ee98f1208bc2d08cbc4aeba437f6c2f5073afdede1c12f850",
+      "key": "601000.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601001.json",
+      "sha256": "94e7ebc324ed80adab9a2333605e6bdc90b17538908d84e267fed6fc88a6c146",
+      "key": "601001.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601002.json",
+      "sha256": "6a01d68423b3cadfe605317aebd6cb67d936b0a8132b383a059cebfc8ac609e8",
+      "key": "601002.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601005.json",
+      "sha256": "6411445b1f9da036f2743f69c99f6a221adde8368c5cd7330d67d8c22a77150c",
+      "key": "601005.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601006.json",
+      "sha256": "03a5f1e8f73638738bb1e23682e8576041541ef04106eed25d443e1dca325573",
+      "key": "601006.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601007.json",
+      "sha256": "a60f14d2ddd0dd088e077d199031df3aa0ea80be4f9522b439e8f885d344d007",
+      "key": "601007.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601008.json",
+      "sha256": "8a54e0cd39b91288360bb4ef90924ea388e992e059cdd4ae96769353404ac3d7",
+      "key": "601008.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601012.json",
+      "sha256": "8c37681f908a5abcd834a504d7091460945530f013ba544750ec969356bb2899",
+      "key": "601012.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601033.json",
+      "sha256": "4a2e4d381297b01817c08d0d3fa6284438e2dc2549e20050c0328f5b812d36de",
+      "key": "601033.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601058.json",
+      "sha256": "bb311e6cedc9c5226084d9ed6db044595d45ff088b676e475e2e0dd9bedf260d",
+      "key": "601058.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601077.json",
+      "sha256": "74932e0e84e66a39bdedaa1303dadfa47799abdfd14bb14adb96d96b39f65331",
+      "key": "601077.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601101.json",
+      "sha256": "14d3bb2cd2fb89fcb7c4240e143e06c735bb2e4d73cc1297469e0e97a6626579",
+      "key": "601101.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601106.json",
+      "sha256": "d5c76f95e71f29132f1373ea9f5d522e91da2f9406ece39252dab8dabb668b00",
+      "key": "601106.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601107.json",
+      "sha256": "a602006ed32a753deade43a086e324d40bc7f1a1629ffabfd873e463f80e0732",
+      "key": "601107.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601111.json",
+      "sha256": "1536e385f670e1ed774d6feb46466c0d85d559fe6e1eb7a256edb6bc2cc2d606",
+      "key": "601111.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601113.json",
+      "sha256": "3284c41ad61eae8e94499df42d233d441674ace1f15951ccf0e86ceade5611d5",
+      "key": "601113.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601128.json",
+      "sha256": "65308d4cb7a7070b0a09d9f35044f620a831af0d6630826f2a3781dbe0312f97",
+      "key": "601128.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601155.json",
+      "sha256": "2a3076bf5d926606be0a1a8f1a2b73f6eb0d00c4d0bab00f7a14d4e37e25b206",
+      "key": "601155.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601158.json",
+      "sha256": "a2bd7ef7f4343e3c820ed0ce7b2d17b7535bf34f044ef586a4806ef41588d649",
+      "key": "601158.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601163.json",
+      "sha256": "92025f7875f44a4b51d32d8e002375628ab0c6afae5aa5464c592e1b2ea7e2cf",
+      "key": "601163.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601179.json",
+      "sha256": "ab230b685a6b6cd6cbe853bc91777419b1f7945aca81294579eadec7eb1fb507",
+      "key": "601179.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601186.json",
+      "sha256": "4f63517ab5f3e134f24f4f0e328416e34503c52ecf6041cca717d20d7e3baf1f",
+      "key": "601186.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601188.json",
+      "sha256": "1a3b394da8663bb37baeeb56b2fd7e24fbac534e936abd09b2420cac9516294b",
+      "key": "601188.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601200.json",
+      "sha256": "3e940d3965f7f2ffb91408ff0f54322520d88b30822bdebde4849736b886daad",
+      "key": "601200.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601216.json",
+      "sha256": "e83ef7d2c2d8cbecd61bc7ff214aa078b732053eb23a14961e7d9727fa366b8f",
+      "key": "601216.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601226.json",
+      "sha256": "1f78211e3d7d92c222203030f483b4f6eb0e97f76da50aec11c1f94d947ae93e",
+      "key": "601226.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601311.json",
+      "sha256": "aedcfd963e277ed777507a83e80f577562a59f33eb6bb6a56d8667134f789a79",
+      "key": "601311.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601318.json",
+      "sha256": "5121b3f6692d5e1c02b899025b2999363ea21f595f02673557ac9a80f8b692ec",
+      "key": "601318.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601319.json",
+      "sha256": "98a7b561b96e1012d0fe59e676d2857124a3d54abb8fc61390967626f0e1b3dd",
+      "key": "601319.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601326.json",
+      "sha256": "21677617e932d39e7687194dcba14c27f6900d4b7fe5853ce331a8ce004f12f7",
+      "key": "601326.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601330.json",
+      "sha256": "d35cb7ac206ca48c5148e542f26a2c49cf85c62722530eb0a3244bde1715d258",
+      "key": "601330.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601333.json",
+      "sha256": "e8f3f549b8b40a6c692b8ee5a0d2f99f8ff31cc5059d9d1ac746f7b531f0cd83",
+      "key": "601333.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601336.json",
+      "sha256": "4d15d3dd86bd1d171c26fce0b0c56113b46d4388a4c5c624a8c3dd918a05a15d",
+      "key": "601336.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601339.json",
+      "sha256": "2dcd9b8e50ae75707e8e3e6de48a9799c7f702cd30e5079a7d3da5690ef8984a",
+      "key": "601339.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601360.json",
+      "sha256": "e5955e861093874ecbcf663213bff130469e74ae3eae044baa936b61c4117618",
+      "key": "601360.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601368.json",
+      "sha256": "4e55ab0be90fb10aaded7e8d85f2526694ecb6f8d4ac98fda84bd10c0392a427",
+      "key": "601368.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601375.json",
+      "sha256": "5bb81e692aaa0b770667eb187752ab51254a7a31e178d82a3d000e45f4cecbe4",
+      "key": "601375.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601390.json",
+      "sha256": "9855b0d0cff553d8af342bf62856926fb2f47bb38f615b029bee17dc77daacb0",
+      "key": "601390.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601500.json",
+      "sha256": "ae2938ba25031f6d9f89581b9869cf9c05a9a76cca06b78acf6f84341b20bd33",
+      "key": "601500.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601512.json",
+      "sha256": "e70cabd721a6d822524c4fafc2966a50b2ed95e85e880f13798726e056cc9465",
+      "key": "601512.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601515.json",
+      "sha256": "6de3a415a95851cd90b18fe362f4fdfce0659ae1b1e4d8d50912da7f4e5d23c5",
+      "key": "601515.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601518.json",
+      "sha256": "08dc416ccf979c511b42d69e537a8954b3e0ba30a1768fc83cb5fd57958cf7f7",
+      "key": "601518.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601528.json",
+      "sha256": "ba427b5984581edfcb74f34488645f3d323e17852b695aecc1fa830e86e9e648",
+      "key": "601528.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601566.json",
+      "sha256": "13fc1483202179c100298c9b3d36bbcaa5e02f71fffc274280e8409f6f58b5e8",
+      "key": "601566.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601568.json",
+      "sha256": "ae5e4cb307883733da853f1a1977319aca9ca21dc584ee79570dfee4fd308729",
+      "key": "601568.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601577.json",
+      "sha256": "cd6f584bbd419a4181fe55a950e9e42a1feda9312208d19322f05e945e1090f2",
+      "key": "601577.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601579.json",
+      "sha256": "f1024e704280b53ec96e2bab2c720d8d7edd1a9365ebb2441e59b2f1076bb22f",
+      "key": "601579.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601598.json",
+      "sha256": "8669f9b6b9b2c7458a1982b975e3f2adc03eab4791680ad9197dfe11b89f1444",
+      "key": "601598.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601601.json",
+      "sha256": "b3b7dffcf3bdeb6121fc1b4529f3a01e28596cd90eb42bc37c5d48b35d22206f",
+      "key": "601601.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601611.json",
+      "sha256": "a130d9cfbfd35e03341135399fce169de80deea918851de458e7af180898314a",
+      "key": "601611.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601616.json",
+      "sha256": "291e9538f7d58dab8c649dfabd7aff97b90d9e0eb409eaa1b37a697cdb18d013",
+      "key": "601616.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601618.json",
+      "sha256": "c47a2f92cd7213a7b0b44dbe59c1f82f2dbecb05548bd83eccf21e3527233e33",
+      "key": "601618.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601619.json",
+      "sha256": "b8ea3403fbc9b448d45dd478833e3e02e9795e8739d7252a5e0612d79e1994e9",
+      "key": "601619.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601628.json",
+      "sha256": "df9c9a6073e9d59c061da83fa7f89ad12738cf4a6d9144f3a79a570d2e1b2f96",
+      "key": "601628.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601658.json",
+      "sha256": "ab31aeaef94e728d5ab6f9edaa5a0c7ea7544230c064d5a927f7ed2e687bd8c8",
+      "key": "601658.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601666.json",
+      "sha256": "de7ff159ab160d056786b08847d6c6bde95269b49549b6cf9a7a2f38ca665a19",
+      "key": "601666.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601668.json",
+      "sha256": "0bd5c6433a07edbdfcb43d3d9d194353f198c2d57681555efd6cf19b23ba116a",
+      "key": "601668.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601677.json",
+      "sha256": "706411698df81711915724e4ed864a06132770749ef0a7224ffbf44b40cece78",
+      "key": "601677.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601688.json",
+      "sha256": "914b997d70582bb882ee8be2146b903e564120246eaa1964908c9954539e2548",
+      "key": "601688.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601689.json",
+      "sha256": "bc7afd48347a9a8e8fcd5b649b785beb90438fa63fead49449c0474ec0297187",
+      "key": "601689.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601696.json",
+      "sha256": "4b3a2f20405837f8f1ae19c7a313da372386b53924e31ebe9477810f134b4738",
+      "key": "601696.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601699.json",
+      "sha256": "2a0665aa4253968749a489c7c1a2b173eec58d1bf66560832ad7f3c8881efca5",
+      "key": "601699.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601778.json",
+      "sha256": "39c04e0f501ad1f22ea50aa1462e455323a7f56a01a164e767e18e73686d92ec",
+      "key": "601778.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601788.json",
+      "sha256": "82f61f434e4c803b3b8c5018827cb4d1f268177613d700a14a18077cd2f7c5f9",
+      "key": "601788.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601800.json",
+      "sha256": "de69646bab1018fbcb95692725e9fc350f4a22068aedd4d0d503aa830dd6f089",
+      "key": "601800.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601801.json",
+      "sha256": "7b4e74d4f2f5c040e0bfe72ae90fe9df37dcf3cf9ad9b61fc7567161f42ef89b",
+      "key": "601801.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601816.json",
+      "sha256": "712984a870d1dbeab8c28116f3c099a05b79302cb5b04844b3952a3464d18818",
+      "key": "601816.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601857.json",
+      "sha256": "ce2452ccbac5a3d8117029864c9de86996d835c744a28bfff98630e886472dbc",
+      "key": "601857.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601865.json",
+      "sha256": "3ec2ee494402783bd7399ca1681257354c0cbc03eaa7a63fd5b58f672a710227",
+      "key": "601865.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601866.json",
+      "sha256": "7e176c398e0ad1240cdfb1550225c9600347c06aef87624b709974e4516a0600",
+      "key": "601866.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601878.json",
+      "sha256": "d307ee0da576aaa739c3e42c13cf322beb3b6ba52c2d90bb904761824d027aa4",
+      "key": "601878.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601881.json",
+      "sha256": "fb56c9f763fa43ab9e462c3f1851c7f7e6820c7d97287803ea45eb4f8f00abbd",
+      "key": "601881.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601882.json",
+      "sha256": "1798695a4931cfbe590b3fbd30afe020faf4620a1da1a12053c3d0b5a0a85e9e",
+      "key": "601882.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601886.json",
+      "sha256": "f320b6eaad8253d56928dd033eec84495eafbda2bea3e288e0787bf8d087ef3e",
+      "key": "601886.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601888.json",
+      "sha256": "078e3e736a5b0c88f77e58ca8de9388c5591df43ec0bb10dcf5e031e3c93c670",
+      "key": "601888.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601890.json",
+      "sha256": "f2e51b1d80d9b9ce2c0881d848c96afb494295ef6eb546debd20c11a065253c1",
+      "key": "601890.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601901.json",
+      "sha256": "704e61315339a063d2ea8d54547f05a28f3c8cf7973fed1e2920d3a9fb760e04",
+      "key": "601901.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601916.json",
+      "sha256": "ec29d74ce61e87896e7f524590ae1cc518fff5cc3386210f1e10bcb149b93bf3",
+      "key": "601916.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601933.json",
+      "sha256": "5c34707f2c1b1fd0e4ed27e7aac3d8e6e9e9903aa35d2877e571e7d0238bf082",
+      "key": "601933.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601949.json",
+      "sha256": "bd82254f605e9e18a37d948aa67471b5bbc1d12c1554713c25f6d921271930b6",
+      "key": "601949.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601952.json",
+      "sha256": "f2b8f9efa674e72239817393fe6b20f91e4d1067670ac29de6d09b377f91abb9",
+      "key": "601952.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601958.json",
+      "sha256": "0aba7e50813a481a6b163addd4f7e020149c2e24f9808a0ddfea46e8388e6bb3",
+      "key": "601958.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601969.json",
+      "sha256": "1f0e43c18c364767edce1afcd8bca09feb6f5f4333a0598c76968573cbf46f1c",
+      "key": "601969.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601985.json",
+      "sha256": "3916c4776170ef822f57c5b37a0c6877bddb2e5a5a21ce2aa230a81eefd68675",
+      "key": "601985.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601995.json",
+      "sha256": "a0f47f7ddba76d21c6329da1c0d0ca6264adbf963dcb17da01cc54b9048b396b",
+      "key": "601995.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601997.json",
+      "sha256": "27d1001635cde7b3cae702184e321d17288254b2d35a1f261a04b8f43705c1a6",
+      "key": "601997.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/601998.json",
+      "sha256": "d3bd0bb1cba3c9da69659f20a05627e158fec8b96b151ef26bcb56c2e6b70dab",
+      "key": "601998.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603005.json",
+      "sha256": "1df325d51912098bd6574361c31130179937bb91342530ff6034f407491fc078",
+      "key": "603005.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603007.json",
+      "sha256": "8a7e2ef353661c2b64fa0896bebd9bef1fdaa4a95fc7ba2fa78223c2ad8ee282",
+      "key": "603007.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603009.json",
+      "sha256": "bf4dca0200178ee3a0cf2216c2420a2ea86fb01f29c7b7b775f91809d69f5be4",
+      "key": "603009.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603012.json",
+      "sha256": "3df90a8ccafc7a8a023e9bcc77cc7c2884adfc5d90cf552a151ac69f51b66124",
+      "key": "603012.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603017.json",
+      "sha256": "24d4f33f7a9e105115e66c59ab513ff46db93379d3c5e428dd1b6328e881beb7",
+      "key": "603017.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603018.json",
+      "sha256": "b713262bd1ff1a42d9afb2bdd4a928c9833f04050d1ae92b4cbe1544346ecd1a",
+      "key": "603018.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603019.json",
+      "sha256": "cd19342b9bf7b9cf0e422162878efe7299082008841a2a5101469254dfb0f542",
+      "key": "603019.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603021.json",
+      "sha256": "98c8d248b1190b9a43ed9fdd715170e8a4d110d7417bd832cda55f7010ef6ac8",
+      "key": "603021.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603022.json",
+      "sha256": "f9ccbe651aa8e6fcb5adf36257e5dacb8ba5d14b7efc9f43d16d86a36fdf4aa8",
+      "key": "603022.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603025.json",
+      "sha256": "ee0913e2224ef6c17303425e522506fd2055996407857d466576530863e5c147",
+      "key": "603025.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603027.json",
+      "sha256": "2f180a121683f4f3dafdc5cc9b10ace21b36dae2cea8c2c7a04e4c868879f6f5",
+      "key": "603027.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603029.json",
+      "sha256": "dc6c98c844305d2668dc0de4670b01e2e87b29af3772c745c60fcbcae658b3c2",
+      "key": "603029.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603033.json",
+      "sha256": "0fe4da99f8e47975b654f3919103f143364beb884d97790026cbe5d0b5deb6ee",
+      "key": "603033.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603035.json",
+      "sha256": "cba62354957adad7bfde10e41d4a281004adf6a5886b036d6601166d6dce23e4",
+      "key": "603035.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603039.json",
+      "sha256": "c5243df4746a43ff3bf44e73e86bbb60ac92fe1b5832d5a141b53a1fae1390e1",
+      "key": "603039.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603040.json",
+      "sha256": "b8aee332e87bacf9a5b571ae7e56c6536b054daaa3ac78f1c5e7e9acac0a7f7b",
+      "key": "603040.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603042.json",
+      "sha256": "139cc6764b2e8919e3be8547093e7ccd2eba4cce159ae8431d8125b53669a22a",
+      "key": "603042.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603055.json",
+      "sha256": "aea65898e145b55882f57b5ef87c60936e72b09b12319ddbc3cfb1ec0777fef3",
+      "key": "603055.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603058.json",
+      "sha256": "ba17938afc8cdb6c2ce1e7a27bf9d6c5b9a1cdeb936ad39c7cd29983bf27145a",
+      "key": "603058.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603063.json",
+      "sha256": "a47adb0394fce4075142e7c61b665fc4ce8bc9e4a285d6023a1e7ba101d10c36",
+      "key": "603063.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603065.json",
+      "sha256": "c7970af380f87159f461a3085989530a2f948bd23b0552725d6dfb5a24406d2b",
+      "key": "603065.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603067.json",
+      "sha256": "5578e0e70321cd062061e93671c882c209d64fe57b5ca3ec5519711a5ad668ae",
+      "key": "603067.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603069.json",
+      "sha256": "1e6622420427e0aa9336fe668251de5a94ec394601ab1a70d74f6472ff1b5f76",
+      "key": "603069.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603080.json",
+      "sha256": "8b7496093e6ec2d2685972539074ebf2e8b0cb0816d7ecb41cab4bf86080f0a4",
+      "key": "603080.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603085.json",
+      "sha256": "bd99275a6520eedc620b745ed2013f1af81a2b685bb81cdfd829b1d578f6c234",
+      "key": "603085.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603086.json",
+      "sha256": "cc57708874b47c121c45d10c643db4835d2421b123a1d728e7c5f158b9c52a68",
+      "key": "603086.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603087.json",
+      "sha256": "de91a2d0cea581c19bdb43a189ad53c31dc761a9a10fca60e7c8686bb0b9e158",
+      "key": "603087.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603098.json",
+      "sha256": "d4c647984d6a3fc637972209b960b800840a5964d3c38d83f8245a7490695469",
+      "key": "603098.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603100.json",
+      "sha256": "8842976df9c8b1655036fbc622b49c30a29208880eca169109b534df63160809",
+      "key": "603100.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603103.json",
+      "sha256": "bcc4fb50a82715200bcca7feaddda1f75d7e7746c9188be85426e9aa292d926b",
+      "key": "603103.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603105.json",
+      "sha256": "fb22606366fc349d3cc14f5e876ce2441d71c4ee4d75eb3cf2571904a3b3cabb",
+      "key": "603105.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603110.json",
+      "sha256": "1ebb53cec077ff98300885f2f9335e13946e1de87b07d7cbe582a871479edd6f",
+      "key": "603110.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603125.json",
+      "sha256": "b1d9c0a945be854cdb782fc6c0a877392173e5d4c15b9e0ffe11ad3b54baee1b",
+      "key": "603125.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603126.json",
+      "sha256": "7bf9f404bd4cc7a4c1a7bdf775f25cab7b6c9aaf6de9663f6f116fd2313a4730",
+      "key": "603126.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603127.json",
+      "sha256": "ba0e93bd3cebceb42f8d66dc0754856222c137b8d013da209ba1c314bfabfeba",
+      "key": "603127.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603155.json",
+      "sha256": "76c4b7e00413036c3b98cb3e43d2c839de9606e87c39b32b22314868c2c94a05",
+      "key": "603155.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603156.json",
+      "sha256": "ae04978ccfd46a21bcd9b9a9003a234daa8ca3c5b95a8e6c1f86572ea0a7fc60",
+      "key": "603156.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603167.json",
+      "sha256": "2b6ef099e2ee084ea4800edaccd1f92edb9cb648e50be64e1212110babbc2a1f",
+      "key": "603167.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603185.json",
+      "sha256": "bafe02dbf89fead2f258db119f44f18e484275a98a5e5e29caad5311f269213b",
+      "key": "603185.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603192.json",
+      "sha256": "28ed4eedd7986c17150adcf7f7c034bd87a8863f7d3db2a8ea428d1ddbf03314",
+      "key": "603192.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603200.json",
+      "sha256": "2af9fca687cc1b90574592eb0a0240cce3e59363ca0a903c85d8b5fd74d73390",
+      "key": "603200.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603201.json",
+      "sha256": "0c631aae16e40cf256e42b324ee3cbf9ec030a5b92ddf7cd0f4bdbe5d12971c8",
+      "key": "603201.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603214.json",
+      "sha256": "4f6603d5cd4cd5f3be8344a8435090ad8b5fb2fcc24ea7db23b0c3d1d7187372",
+      "key": "603214.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603217.json",
+      "sha256": "485a604dd4f2c5b2f67dcd5f727e5917b17deeba03aa73dea2e67c893ce6a700",
+      "key": "603217.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603222.json",
+      "sha256": "2bb6d09e71266883b4b1396d29df9cdac7757b41111f4c05edbb69a93a3af70e",
+      "key": "603222.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603232.json",
+      "sha256": "c86bf3d5d53d5671127c89c60020a6436f73d153879f3d40dd582977464be8e0",
+      "key": "603232.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603233.json",
+      "sha256": "6d07f7ef5f520cf0d9ea25b19c37ac6de1169c86d1402d92e9eada41252807eb",
+      "key": "603233.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603259.json",
+      "sha256": "a84dbf9679e982313c582cf313465b8561e4c2d9bb30fb55abb0863890548988",
+      "key": "603259.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603260.json",
+      "sha256": "fd8c1bc314b50874b5d05480f32567e24db660be677fb88cf92684384aeb9277",
+      "key": "603260.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603267.json",
+      "sha256": "a4ee663050e2fd73ef8fac9e27b8968a0272075e9c97ab109696af79de6a280d",
+      "key": "603267.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603268.json",
+      "sha256": "dd0591bcf698098fe2de84fdb966f95d266e8dadf47a5a8b047e1b9605106e8d",
+      "key": "603268.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603270.json",
+      "sha256": "bbe2bd5eed73511e11926706705369c14361105ea883fc91dfc911f7868d105e",
+      "key": "603270.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603278.json",
+      "sha256": "34fd8b69252294345c257b58ff981d4c78bc88a4f664e5e28a9c0b581a948dbb",
+      "key": "603278.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603288.json",
+      "sha256": "272a2e8c517007fd2914919cd0ca8f21a20cfcbaaafb97b6fa97fdd15a00136a",
+      "key": "603288.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603289.json",
+      "sha256": "3f0aa8594ef3b8987304036dd6e554f61e23a7c03b22c4a46fe18cfce82c30ba",
+      "key": "603289.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603290.json",
+      "sha256": "2d1dda11461695502ef864ba82d722703e408352b2c6207f9f5ed219538bdb12",
+      "key": "603290.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603296.json",
+      "sha256": "08d5cc10c54ffc71f5f6ee789a65307807b02201a491d908b06680457387a05c",
+      "key": "603296.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603298.json",
+      "sha256": "1f55f19dec95b0c090106ee5ad376d574a5d69a757673082067a55263d2fa41d",
+      "key": "603298.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603301.json",
+      "sha256": "8011373c80e22cb8390254097b7274c147fc90124d0050e72bdf0e8ff060123d",
+      "key": "603301.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603307.json",
+      "sha256": "f883a264a60c7d04a286b2c76b45eef9d483dbe3bd604f95d487c148937d6c08",
+      "key": "603307.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603317.json",
+      "sha256": "61c7fa00b1efe0ea77361bd997cf6037470902167642128f8e93beebaf87a73d",
+      "key": "603317.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603318.json",
+      "sha256": "a15d7d9e5cbc61a303e738482be18a7142a147feed10374e55bf016760aedf4d",
+      "key": "603318.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603323.json",
+      "sha256": "dd332e9acac7f5585afb29f4c594ddb2ffec020cb02675cf900242ba0ecf1fb3",
+      "key": "603323.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603326.json",
+      "sha256": "5d8760c89385ab53892d8bda5213bfa0d04b8300cc0fdf6820e00325a36593cc",
+      "key": "603326.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603336.json",
+      "sha256": "cadee68841186099c11265fea0ade904676f874c985a2c2db7fffccb282aab4c",
+      "key": "603336.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603339.json",
+      "sha256": "cffc921a40e9aa5c0f570e615028aa41490d574a1fa927093fab57256967f58d",
+      "key": "603339.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603348.json",
+      "sha256": "e2d6427c259f902989bbc16dcce10207d02021b83c2eb0c5f8fe5f4776e35c7e",
+      "key": "603348.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603351.json",
+      "sha256": "54e9516449a8d7811dffa47f07200e7cd49ba998149610ba07f16cd7f6be16e1",
+      "key": "603351.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603355.json",
+      "sha256": "4b426401cc9fb5f7238ce86a45b84511ddd4e27f91e46ac3032ad64710af8a96",
+      "key": "603355.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603357.json",
+      "sha256": "b8fd288ee16914fda421c6317059be2c4e2f437d6ddf9247a1ef8a9cdc82e4ee",
+      "key": "603357.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603359.json",
+      "sha256": "48cbe2b92817ad06af23e8e0c7188135511a89112c19a0cdcc34bce086dc2c4a",
+      "key": "603359.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603363.json",
+      "sha256": "690d4c2ef4e3d6f063bbae90fd46142bd9bf4217b975ab60694057842438b9db",
+      "key": "603363.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603365.json",
+      "sha256": "425f28a92073f66e918bed0ae1df67a6b8ee95b85e0ea0b7245b32f8ecfafa77",
+      "key": "603365.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603368.json",
+      "sha256": "366afe73539d0d99b2fbe53f059c958abac7d795c46ff916565c27b8239ca5ee",
+      "key": "603368.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603387.json",
+      "sha256": "bc2c16e73c51a158af08c38e03ff120f378263ff00054c1f0a905146fd452a2e",
+      "key": "603387.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603389.json",
+      "sha256": "996850d385a1b59ba86a66b0a57bf9bb5fcc20868dcbdf1f360a56420df93a0d",
+      "key": "603389.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603396.json",
+      "sha256": "d2f8189ba295d353487cd2bd0a823c69ae693c1f92824ad95487c04d52162eb0",
+      "key": "603396.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603458.json",
+      "sha256": "9e9fcd3850b3b21a1370e0ca731d1729d86dad24109ca57906ac3cb78bf3aef5",
+      "key": "603458.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603477.json",
+      "sha256": "ec906d149dcc20d177b7f91211ee162687cd5cca1efc9d3a9489d606ff7d3baa",
+      "key": "603477.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603488.json",
+      "sha256": "33079586436db5e69e033453b9fd0360358ec3bfe756c06c38088dce5692270e",
+      "key": "603488.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603489.json",
+      "sha256": "48efe6e341a40c5592a72eab186d2461f098bc49d7bc3fe4386ac1d02ca8cd8a",
+      "key": "603489.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603496.json",
+      "sha256": "94094494f88f63a5a4fecb94a08273b9a4518f498efc57661ba149c909629945",
+      "key": "603496.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603506.json",
+      "sha256": "027a54b1b152ec4939e5722f46281367ea298f5dba55155bb107d1dda4750e3c",
+      "key": "603506.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603507.json",
+      "sha256": "b3ddbf782007e1af06b9af062e16e9bbfc01ef44d489c08e223e15f8a2332edc",
+      "key": "603507.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603511.json",
+      "sha256": "c3ed4d4fa0403832dee04377b804275208735bcd37c195d150a391d781ea5cf0",
+      "key": "603511.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603518.json",
+      "sha256": "2dcf31975a91f686f09eadaa591319f8395fedcef9384ccf46b007b909c7e7cc",
+      "key": "603518.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603529.json",
+      "sha256": "797c48ae6a3679122a79807278b62463de024b27b53b26c84cdfca96f6762feb",
+      "key": "603529.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603533.json",
+      "sha256": "e61080827c521401009c6f92f8c4e0831542908db57d8f62dd91983e0bccf495",
+      "key": "603533.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603551.json",
+      "sha256": "2849fb51ce896827d40029f92296ac8112461d73b0fdde6e3bf58539ab551c03",
+      "key": "603551.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603558.json",
+      "sha256": "a053cf69fcc74b4167558355732d91bdaecabaaaa681f9c57a7e33a822cbdf0f",
+      "key": "603558.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603565.json",
+      "sha256": "40e94073c7052a5c8d84363d4566e25a7838c5410f08b532d655cb086a631a35",
+      "key": "603565.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603567.json",
+      "sha256": "ce411d312be36f61b31630d0b6b73aa6b1579048856a7d4385e4c955786c972c",
+      "key": "603567.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603579.json",
+      "sha256": "63cfa82ba1b04280dc04e970a7b05da531e274bb131257a2235491559b75261d",
+      "key": "603579.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603585.json",
+      "sha256": "09c37bc0e6d48c3a41cba61a93375a95210d2eceda64a5ee5701540a2a69d0f8",
+      "key": "603585.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603608.json",
+      "sha256": "a6aa3d12562e33922fa97cc13fcefc42feebafaaabc45398dd64745347e41351",
+      "key": "603608.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603609.json",
+      "sha256": "7c23764e793876fa01eb18abf4d3dbc5fbce372ab88b59f140e5147b8b5cff99",
+      "key": "603609.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603613.json",
+      "sha256": "de1dadf5b5351925cc25e56d2c87cfe488f48f5f71bd712c40fd8b5e99ea54cf",
+      "key": "603613.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603616.json",
+      "sha256": "621fcdc4d77eba246f5df82628e3608f67043ba4a3da97847c3e7bc7718998ac",
+      "key": "603616.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603618.json",
+      "sha256": "d61196348fe6497136f53329dbfb929b58925f1852867d1e34c8d4528e273175",
+      "key": "603618.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603628.json",
+      "sha256": "351b692b4f845aeb1c4acd6aa2569531a8de1be736c34b1fdcb9171490f2504c",
+      "key": "603628.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603629.json",
+      "sha256": "c73281a3856b6e787c7ea80860d11dfccc650b1007a42a9399d29e40694ed1e0",
+      "key": "603629.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603633.json",
+      "sha256": "a4e6c8ffd1f94c43cd3f6489862305187aca5729f4b9cad199594bd553f65d98",
+      "key": "603633.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603639.json",
+      "sha256": "3b1f1cadf9fd3621fad4028fc807419597454a72c93407f2dca113767b92a810",
+      "key": "603639.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603648.json",
+      "sha256": "23658125f93262126026c5db3f1e9cea225e350329fea70c1b829ca3613fc349",
+      "key": "603648.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603661.json",
+      "sha256": "a691653f59fd9cce3899335b678673f48785d4e23698f7081220a8c3eb4ffd8c",
+      "key": "603661.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603665.json",
+      "sha256": "775e4f9dd9ec061cfd8941138f5a27daa5d1a8b0916150d59508e1a676253030",
+      "key": "603665.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603666.json",
+      "sha256": "356f3b280af453fba1c1052bf4976b4d02df7e5aee9cb7c8daa6fcd7b5dfdeac",
+      "key": "603666.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603668.json",
+      "sha256": "9e495b2c93d39828a3a1f3228d0b1026d0d1350f2e643096b2696daa548192f4",
+      "key": "603668.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603669.json",
+      "sha256": "192ded96871495e96f7ccadbe3d0eddcc79818dc2e398f7c78944620178c5706",
+      "key": "603669.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603679.json",
+      "sha256": "654798f89f66e573ecfb8ad8312fa5f1a3f17732cb19615e8a555ac7fa993fac",
+      "key": "603679.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603690.json",
+      "sha256": "ac70adbf0d21b220ccf3bc14b1217b32623cc5e20794ab9120df13a08606f9c3",
+      "key": "603690.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603698.json",
+      "sha256": "a6829c83b7711f311746558e641a37b78a5ba9bb46622f156b946c408b9c74ca",
+      "key": "603698.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603699.json",
+      "sha256": "856042a3a7ad6e5123f7a50d89048ffc03045ea7f70fdf97bb4724a6c43bebb6",
+      "key": "603699.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603700.json",
+      "sha256": "f82d6faf68af34bd36fb94f75b3b2e1591385cdb0091f58ee1613b6d02422b4d",
+      "key": "603700.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603717.json",
+      "sha256": "ccdf2c0e91f13bcd45152a1b2b86836365ea74cfc93d7ed1b88a080108468c8b",
+      "key": "603717.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603719.json",
+      "sha256": "2e796876fef3446a2ec69f7d046d69a373da1b53c43b7c116383d38bf218a19f",
+      "key": "603719.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603722.json",
+      "sha256": "fa4ccf017bb92e21947440b2ef79a3302a33d3cc386a09ee210732ac4a5499f3",
+      "key": "603722.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603728.json",
+      "sha256": "69f6f1875db3e10ecdcb43a04de05b1765a37eb683b3c9fd00ed80de923694aa",
+      "key": "603728.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603737.json",
+      "sha256": "1f5f5c5c504324a9464742d156504d329de1976334d5caf5dca51416652ed7e2",
+      "key": "603737.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603766.json",
+      "sha256": "a956a3203642327bef3e30b17dc43542dcda554cd011b8b2de8505974a637631",
+      "key": "603766.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603768.json",
+      "sha256": "40ab0d03b9e51f001279de0eaef6084f38472b100fd3d18df5719fe19042fa08",
+      "key": "603768.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603798.json",
+      "sha256": "710caf2b32a7619a7b3c90c92feef0d9e8b4bfab860cebfe11285e290954c8fc",
+      "key": "603798.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603800.json",
+      "sha256": "89301e9805ae9929647a6d712db1f8b2da4621420231e1122a2ccd56dd2f1381",
+      "key": "603800.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603801.json",
+      "sha256": "4e5aefe6027979e77708775a77be0d9b232341bc826cdaa4213fd5caf6cd0337",
+      "key": "603801.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603806.json",
+      "sha256": "371162b3adb4f3bd199b30c60532a009255dbbb72110318bef5ff0ad93c22cd0",
+      "key": "603806.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603809.json",
+      "sha256": "397f71e98b6c4e5e4efbdd12f03fdee504e93d047e8c5d06268581c21d851a8a",
+      "key": "603809.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603811.json",
+      "sha256": "14e2119c7874b5cda5e796c7292aab56506961766aa86e419e68b7cfbf6ebbfe",
+      "key": "603811.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603815.json",
+      "sha256": "afb673e158a0f1976edfa81e69c969787774b2255f69ac60097aedb01f0b0a9d",
+      "key": "603815.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603816.json",
+      "sha256": "901ddc8f829530cc67781fe71fc573321d9a9cc694bf58de6d81c0ce82875fc7",
+      "key": "603816.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603817.json",
+      "sha256": "dc159073fc3353e537dc6e87a5893743b59cbc6f638c09e0f609dd056eb0cdb0",
+      "key": "603817.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603818.json",
+      "sha256": "351c1a1e8f396b46fb0b6db823fb3334dbd1e2fefe26ec752712f5ac4f75d330",
+      "key": "603818.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603833.json",
+      "sha256": "840abc818c001ba5adfb5c13262332c3b0247d6bfabe0419f4dac0003cef39fb",
+      "key": "603833.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603836.json",
+      "sha256": "5ab8ff2cd9839f138293fc61f8bb203c07d18edda390815ff8a83e4cf5310d85",
+      "key": "603836.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603843.json",
+      "sha256": "f974e942a0611b70f247fea353aa0ccbaa541177645880fa50e2c55defaa62da",
+      "key": "603843.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603860.json",
+      "sha256": "d1933470721233ecffe58cda065d40c1dd9b8e558ebafe87c7205c927116b1a8",
+      "key": "603860.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603867.json",
+      "sha256": "5fc84d82f6810128662b1aca90b5cd7d872e73dad13c0afc6d48c8516a09bb5c",
+      "key": "603867.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603868.json",
+      "sha256": "34e3b1d70eb4b5dfba82f506830cb7cf6be59e0ec6dbb69741523636d0125e64",
+      "key": "603868.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603869.json",
+      "sha256": "cd679377796668afebf637f43bbffdc8bcdabfea73cd369e53858e7161e81d40",
+      "key": "603869.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603880.json",
+      "sha256": "64a398edb94a48025e99f193b08789d3b2386c163c47f4e1a175a4a91ee74d96",
+      "key": "603880.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603881.json",
+      "sha256": "8cb1444d48e5d92d2d9407ac6ec9aa3bd1bb6029a25231cacde672e076347e88",
+      "key": "603881.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603883.json",
+      "sha256": "45a51ac251aa079558d551216892d824198dc8a6b4410ce809fa0112ac434f74",
+      "key": "603883.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603885.json",
+      "sha256": "e1a1937403a0ce34bd88821ac69782ecb6b1443107ca6f0da144fa59cfcd234e",
+      "key": "603885.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603886.json",
+      "sha256": "0f31bdc240a318f2aa7d58cc04345005d2af06f8e033b2102aa282e1051ac52d",
+      "key": "603886.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603896.json",
+      "sha256": "18ae82f87241dc12b453294e45ac0b3277bdc062d5f2a799d3a03f1603cfaba0",
+      "key": "603896.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603897.json",
+      "sha256": "d46160e660a337dc3d6a10c23a91d88d09d92a8b17a32f7c811a1888f8646ad3",
+      "key": "603897.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603898.json",
+      "sha256": "c681a28c5e5522c312df5b49f30ce48c77998afec94b5ec461f2440b85358b83",
+      "key": "603898.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603900.json",
+      "sha256": "75522b3d16b3de25a094baebc95feba8dfe672a2a94f73663c7585fcd9d37417",
+      "key": "603900.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603903.json",
+      "sha256": "5e11635a00b218de9eb07e9264ec5efb3d81fb2946f6579c3c46c2e3a162d03b",
+      "key": "603903.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603909.json",
+      "sha256": "c16dab59b055f3b41154b5cec98b3e4551b9318511d1ae78cba68d9e77f28d71",
+      "key": "603909.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603915.json",
+      "sha256": "bcbadf66a71aedf38c2d79c9aeaf1146270d3a458d6471d5b10665b1d80e1b90",
+      "key": "603915.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603919.json",
+      "sha256": "4132ee7a66bd458a99ba735251a54a9efea596869e9225d258ca1e823c4f639c",
+      "key": "603919.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603937.json",
+      "sha256": "3c4baabdb8f69792b19c4f7bbfaabb819db98b625f7683a4ce2e2f6b43370948",
+      "key": "603937.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603939.json",
+      "sha256": "f7300201b035a0ce4d524b7267549a8a6bb13136937c34d6a0dd4994234db513",
+      "key": "603939.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603948.json",
+      "sha256": "baa3bc969889cbd77f91177e2e7da4118b56dfe5bf072ab146f64457d6bbb0c5",
+      "key": "603948.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603966.json",
+      "sha256": "99095ca890bda2011c60b06b4c22158dd9787fe97257af6f5bfdf6f72bc2d478",
+      "key": "603966.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603969.json",
+      "sha256": "ad478eac5a2641638f44a34bb0161dd8ce10e37a70a33c8d345c39f2813127ca",
+      "key": "603969.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603979.json",
+      "sha256": "e947509230c35a9363b7558560a6b064173cfcd7176eefbab61b6b61cbecd1a2",
+      "key": "603979.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603980.json",
+      "sha256": "c88b19ee4947b47bc84e2184d435fea224ce8a25add5b7a9c29d2b5fd76f727b",
+      "key": "603980.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603989.json",
+      "sha256": "73fc91b83ebcbff4c92ed39652418540370259c4441bc4ac6bcca88aa3a04866",
+      "key": "603989.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/603993.json",
+      "sha256": "08a1ad967900833971ea30fe61cfcc99a3a34d314d261fd93c2430fc4f8f8555",
+      "key": "603993.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/605006.json",
+      "sha256": "b9dd575489394ad4213a2319ed246002dc8a51ff221558e815a948b33dccbc6f",
+      "key": "605006.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/605020.json",
+      "sha256": "1e0733e7198d567a41165fd3fc3e15a1b714a4e40901b4ca33f19403273160de",
+      "key": "605020.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/605060.json",
+      "sha256": "7ac24011d753a95feac42b8ceaa2606ed62f4329d21bec9eb5bf7e9301430a04",
+      "key": "605060.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/605066.json",
+      "sha256": "54f8f22a8992321b69932288d38f03661e289b112ef356490faccf32463a194e",
+      "key": "605066.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/605077.json",
+      "sha256": "ae6eacfbb863f4e3663fe66e0a3fbba5ca94a0175f11b2b48923582d91f7d6a2",
+      "key": "605077.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/605089.json",
+      "sha256": "895d1c2b6d45df8e894f3cb6812f39f9b7357146a86015b2443815882e367e94",
+      "key": "605089.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/605099.json",
+      "sha256": "e042e04c72a1a8edd088d26891855e0ff40a7f3c33a61a533d9540eee768b96c",
+      "key": "605099.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/605111.json",
+      "sha256": "376f9c433ff20e05e2a7d755c035cb4c7f5b41607d9a72cd7f3e9e1a6b147625",
+      "key": "605111.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/605122.json",
+      "sha256": "fdcee7f664925d8bcf5d4427d7484762a100a02e1bc86a018a80be76130401cc",
+      "key": "605122.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/605123.json",
+      "sha256": "20039584d43560f436d5fedd4182bf8d4b0d85d03c8e5126b7c4e2e2889cee8d",
+      "key": "605123.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/605136.json",
+      "sha256": "dceb2698772c0f787eabc912a0a47a5e93c530213d1a3f9cf8e55fdd0b6539e1",
+      "key": "605136.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/605208.json",
+      "sha256": "fe5a550f30a81528c82a521d64c0c569ecda897a68ef3e4e489fc2f653b10fb7",
+      "key": "605208.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/605222.json",
+      "sha256": "71b439980ecff6d35ab1d6ce076654c97242554cb6b8d3529d5daaa090758e1d",
+      "key": "605222.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/605228.json",
+      "sha256": "3f873e276e0d39f76d8c65b3e523a8a4a2caaa30b971e56f40e9819130180f9d",
+      "key": "605228.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/605266.json",
+      "sha256": "016e2a26ee46992f47a385f2523e0aa654eb29e8e94d3ac3aac9224c59f5f7b1",
+      "key": "605266.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/605299.json",
+      "sha256": "d26d0760e23485a4529393627b3d31ec506f4de6d6204009779e32edd1b53c38",
+      "key": "605299.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/605300.json",
+      "sha256": "faf09d8a28487aab5aaa788865894b2662eba0dbc375d5a43081f7a34be4d94c",
+      "key": "605300.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/605358.json",
+      "sha256": "3cbbc1d674f87884755348edf929cd7b4e8c9be6b62038f4bf03a2ec56d971d4",
+      "key": "605358.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/605376.json",
+      "sha256": "a40058ec519c80df955cf627f73f0c1c5e44a90a1160ee350e09cbae012e9ed3",
+      "key": "605376.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/605388.json",
+      "sha256": "ac10d5e4aec50bb09a67f44f796ff3fca9f63bfd07f34f7fad23d116e532c986",
+      "key": "605388.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/605577.json",
+      "sha256": "5e3281e774cc8ae4e4f69b9d0849e8074b5573a07d9b517855dd3d2df60ec9b1",
+      "key": "605577.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/605589.json",
+      "sha256": "a0b198112ac8c6020d099f672773eff622e1a3b0cd5f7448024e79945b14f0fc",
+      "key": "605589.SH/2020"
+    },
+    {
+      "path": "action_responses_2020/605599.json",
+      "sha256": "397e26efa2134bf21bed0d9ec99eea40dcf24ce441117a15ac7ad1f30bf7f5f5",
+      "key": "605599.SH/2020"
+    }
+  ],
+  "merged": {
+    "path": "company_actions_2020.json",
+    "sha256": "439765bb8205823d7cac34dae1938888a47b71d5fd5b77e3c45065b33085e4fd"
+  },
+  "note": "Explicit provider responses; empty per-stock response is evidence, not a fabricated company-action table. Completeness remains subject to provider limitations."
+}

@@ -1,0 +1,83 @@
+{
+  "status": "verified_live",
+  "changes": [
+    "No linked-exit opposite-leg cleanup task",
+    "Six-phase calculation status, file counts, elapsed/stage times, optional previous-full-run estimate, completion notification"
+  ],
+  "partial_sell_remaining_protection_preserved": true,
+  "backend_tests_passed": 66,
+  "frontend_checks_passed": [
+    "calculation_progress",
+    "record_defaults",
+    "daily_final_curve"
+  ],
+  "package_verification": "passed",
+  "live_state": {
+    "market_date": "2026-10-28",
+    "calculation": {
+      "code": "ready",
+      "label": "已完成",
+      "detail": "沪深2 ATR≥2.5%：收盘行情与冻结模型已校验",
+      "started_at": "2026-10-28T20:56:35.520308+08:00",
+      "elapsed_seconds": 1,
+      "stage_elapsed_seconds": 0,
+      "seconds_since_progress": 0,
+      "stages": [
+        {
+          "id": "check",
+          "label": "行情与账户核验"
+        },
+        {
+          "id": "features",
+          "label": "历史特征计算"
+        },
+        {
+          "id": "models",
+          "label": "冻结模型评分"
+        },
+        {
+          "id": "ranking",
+          "label": "因子排名与ATR筛选"
+        },
+        {
+          "id": "freeze",
+          "label": "冻结信号校验"
+        },
+        {
+          "id": "publish",
+          "label": "发布次日推荐"
+        }
+      ],
+      "stage": "publish",
+      "stage_index": 6,
+      "history": [
+        {
+          "at": "2026-10-28T20:56:36.678270+08:00",
+          "stage": "freeze",
+          "message": "校验并复用当日冻结信号"
+        },
+        {
+          "at": "2026-10-28T20:56:37.477632+08:00",
+          "stage": "publish",
+          "message": "发布次日推荐"
+        }
+      ],
+      "last_full_model_seconds": null,
+      "cache_reused": true
+    },
+    "cleanup_task_count": 0,
+    "ledger_revision_before_restart": 74,
+    "ledger_revision_after_restart": 74
+  },
+  "full_model_recalculated_for_this_maintenance": false,
+  "signals_reused_without_overwrite": true,
+  "source_sha256": {
+    "沪深2_星轨软件/tracker/service.py": "08f28ad0499a11fd051019db9d28b34b68ea1ec5ca7b99a52fa28506c1a57093",
+    "沪深2_星轨软件/tracker/store.py": "54efc97231092bd571bd8497b236c33be8eeec25c2a411d5f5ff5a1020900427",
+    "沪深2_星轨软件/tracker/ui/daily_orders.js": "7a23f89553476ab3d744fd44fe499f0629e86c1baedd9ac7bd7f7f6f73cc78a1",
+    "沪深2_星轨软件/tracker/ui/index.html": "24fec171aa6bc936e9743eacf647fd17c7bee413312726efb3a345e865f63b63",
+    "沪深2_星轨软件/tracker/ui/tracking.css": "0c700e397f98e0a4e645014fe88782dd5f126f93331eb0f7da1447fd8576105b"
+  },
+  "screenshot": "ready.png",
+  "baseline_and_models_changed": false
+}

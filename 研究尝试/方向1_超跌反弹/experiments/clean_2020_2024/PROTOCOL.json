@@ -1,0 +1,109 @@
+{
+  "boundary_version": "public-pre2025-v2",
+  "status": "preregistered_before_computation_awaiting_input_freeze",
+  "objective": "Improve annual account returns and drawdowns within the frozen retrospective 947-stock universe; research only",
+  "data_period": [
+    "2020-01-01",
+    "2024-12-31"
+  ],
+  "warmup": "2018-2019 trailing data permitted, no pre-2020 account positions",
+  "selection_years": [
+    2020,
+    2021,
+    2022,
+    2023
+  ],
+  "stability_year": 2024,
+  "stability_warning": "Existing development history means 2024 is not a new blind test. It must not choose or revise the winner.",
+  "universe": "Exactly manifest raw/qfq pairs, expected 947; no current leader classification; retrospective eligibility is a limitation",
+  "signal_reconstruction": "Run current structure.scan and independent(base mask) on all available valid trailing bars, then exclude consecutive inferred down limits and RULE special events; apply raw close<8 and close/MA20<=0.92. No mature future-return label is required.",
+  "tail_policy": "Allow every 2020-2024 signal. Last-day signals are pending. Holdings/receivables at cutoff are marked and disclosed, never dropped for an unavailable mature label. Contractual future exit dates remain beyond snapshot.",
+  "baseline": {
+    "id": "baseline",
+    "slots": 5,
+    "forced_day": 3,
+    "take_profit": 0.08,
+    "stop_loss": null,
+    "priority": "code"
+  },
+  "candidate_budget": 13,
+  "candidates": [
+    {
+      "id": "baseline"
+    },
+    {
+      "id": "tp04",
+      "take_profit": 0.04
+    },
+    {
+      "id": "tp06",
+      "take_profit": 0.06
+    },
+    {
+      "id": "tp10",
+      "take_profit": 0.1
+    },
+    {
+      "id": "b2",
+      "forced_day": 2
+    },
+    {
+      "id": "b4",
+      "forced_day": 4
+    },
+    {
+      "id": "b5",
+      "forced_day": 5
+    },
+    {
+      "id": "slots3",
+      "slots": 3
+    },
+    {
+      "id": "slots8",
+      "slots": 8
+    },
+    {
+      "id": "stop05",
+      "stop_loss": 0.05
+    },
+    {
+      "id": "stop08",
+      "stop_loss": 0.08
+    },
+    {
+      "id": "priority_oversold",
+      "priority": "ret20_ascending"
+    },
+    {
+      "id": "priority_body",
+      "priority": "body_descending"
+    }
+  ],
+  "search_policy": "Only single-factor departures above, no combinations, no post-result expansion, no annual hindsight rule selection",
+  "selection": {
+    "eligibility": "Non-baseline candidate worst annual return on 2020-2023 must be >= baseline worst annual return minus 0.02, and at least 2 of 4 annual returns must exceed baseline",
+    "score": "arithmetic mean of four annual returns minus 0.5 times largest absolute annual max drawdown",
+    "tie_break": "Lower full selection-period drawdown, then lexical id",
+    "fallback": "Baseline remains selected unless eligible candidate score strictly exceeds baseline score",
+    "robustness": "Report all four leave-one-year-out rankings without choosing a different final rule"
+  },
+  "report": [
+    "all candidate annual return and annual drawdown",
+    "continuous account NAV",
+    "2020-2023 selection score and eligibility",
+    "2024 stability for fixed winner and baseline",
+    "turnover, trade counts, skips, exposure, open positions and receivables",
+    "corporate-action completeness, unresolved changes, terminal boundary events",
+    "existing retrospective pool and execution assumptions"
+  ],
+  "execution": "Fixed initial capital 100000, fixed slot budget capital/slots, T+1, round lots, current fees, guaranteed next-session-open entry. Daily-bar stop precedes TP if both touched. Existing daily-bar exit fill assumptions retained and disclosed.",
+  "corporate_action_gate": "Successful hashed supplier responses must cover the frozen no-return QUERY_PLAN of base-signal code/years, November-December next years where inside the research boundary, and all 2020 universe codes. Actual entry and held code/year coverage is checked at runtime. Explicit empty responses are evidence; absent responses are not. Every action gets a reference-price audit; historical missing references are limitations, while actual held unresolved actions or unexplained factor changes block.",
+  "writes": "Only this experiment directory; no RULE/CURRENT or input modification",
+  "execution_stages": [
+    "Run every candidate only through 2023-12-31, with terminal holdings and receivables marked in NAV",
+    "Write and hash SELECTION_FROZEN.json before any 2024 account run",
+    "Run only baseline and frozen winner across 2020-2024; verify selection hash unchanged"
+  ],
+  "engineering_revision": "Input manifest and staging clarified before computation; candidate parameters and selection objective unchanged."
+}

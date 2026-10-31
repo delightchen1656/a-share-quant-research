@@ -1,0 +1,44 @@
+{
+  "symbol": "002508.SZ",
+  "event_date": "2024-01-10",
+  "kind": "unknown_reference",
+  "start": "2023-11-25",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\002508.SZ_2024-01-10\\query_01.json",
+      "sha256": "343a0e7132b2579f24913ee2ccdded0f3eafdaa983701df67eb717faa0105702",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "002508",
+        "begin_time": "2023-11-25",
+        "end_time": "2024-01-10"
+      }
+    }
+  ],
+  "announcement_count": 30,
+  "documents": [
+    {
+      "title": "老板电器:特别分红权益分派实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2024-01-03",
+      "raw_response": "sources\\action_issuer_mirror_v2\\002508.SZ_2024-01-10\\AN202401021615927958_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\002508.SZ_2024-01-10\\AN202401021615927958.txt",
+      "sha256": "20f733cef9f31f722e391512897d5cc372e5fffdb3d5ccb9a39dedff9ed452e0",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\002508.SZ_2024-01-10\\AN202401021615927958_content.json",
+          "sha256": "20f733cef9f31f722e391512897d5cc372e5fffdb3d5ccb9a39dedff9ed452e0"
+        }
+      ],
+      "article_code": "AN202401021615927958",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN202401021615927958_1.pdf?1704218634000.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}

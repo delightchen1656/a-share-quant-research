@@ -75,3 +75,42 @@ Thumbs.db
 # K-line practice keeps a local 1.5 GB frozen input bundle. Git stores the
 # package code and hash manifest; the protected market/case payload stays local.
 /沪深2_K线练习/frozen_inputs/
+
+# Canonical layout: protected local data and private account history.
+**/.local/
+**/.venv/
+/K线数据/**
+!/K线数据/更新备份与审计/
+!/K线数据/更新备份与审计/*/
+!/K线数据/更新备份与审计/*/audit.json
+!/K线数据/更新备份与审计/*/commit_manifest.json
+/沪深实盘工作台/tracker/data/
+/沪深实盘工作台/tracker/hushen1_data/
+/沪深2研究/K线练习/frozen_inputs/
+/K线看盘软件/runtime/
+/archive/outputs/
+!科创1研究/backtest/data/
+!科创1研究/backtest/data/**
+!沪深1研究/backtest/data/
+!沪深1研究/backtest/data/**
+!科创1研究/results/**/*.parquet
+!沪深1研究/results/**/*.parquet
+!沪深2研究/results/EQUITY_CURVES_2020Q1_STARTS_TO_20261019.parquet
+!科创1研究/research/training_source/model_artifacts/*.joblib
+!沪深实盘工作台/results/EQUITY_CURVES_2020Q1_STARTS_TO_20261019.parquet
+
+# Private ledger copies remain private even when archived outside tracker/data.
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db-wal
+*.db-shm
+**/ACCOUNT_SNAPSHOT.json
+**/ACCOUNT_BEFORE.json
+/archive/reports/maintenance/**/isolated_tracker/
+/archive/hushen_2/production_baseline_backups/**/finished_*.json
+/archive/hushen_2/production_baseline_backups/**/market_status.json
+
+# Local derived research payloads; retain code, protocols and compact summaries.
+/研究尝试/方向1_超跌反弹/execution_rules_research_2020_2024/verified_cache.pkl
+/研究尝试/gold_trend_stock_trial/experiments/**/all_configurations*.csv

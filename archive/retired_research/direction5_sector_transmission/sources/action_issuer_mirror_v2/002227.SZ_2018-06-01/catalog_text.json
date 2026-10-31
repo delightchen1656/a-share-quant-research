@@ -1,0 +1,62 @@
+{
+  "symbol": "002227.SZ",
+  "event_date": "2018-06-01",
+  "kind": "dividend_fields",
+  "start": "2018-03-13",
+  "query_files": [
+    {
+      "path": "sources\\action_issuer_mirror_v2\\002227.SZ_2018-06-01\\query_01.json",
+      "sha256": "0e0d77ebc2d4537e04855f17af24ea224c98a555b73fa4b02d2e5a369a7b5f62",
+      "request": {
+        "sr": -1,
+        "page_size": 100,
+        "page_index": 1,
+        "ann_type": "A",
+        "stock_list": "002227",
+        "begin_time": "2018-03-13",
+        "end_time": "2018-06-01"
+      }
+    }
+  ],
+  "announcement_count": 36,
+  "documents": [
+    {
+      "title": "奥特迅:关于2017年年度权益分派实施公告的更正公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2018-05-25",
+      "raw_response": "sources\\action_issuer_mirror_v2\\002227.SZ_2018-06-01\\AN201805241148260417_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\002227.SZ_2018-06-01\\AN201805241148260417.txt",
+      "sha256": "cc97bbe68f8297422316a75db32956874381590f322994492e8f96f9b51e1a21",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\002227.SZ_2018-06-01\\AN201805241148260417_content.json",
+          "sha256": "cc97bbe68f8297422316a75db32956874381590f322994492e8f96f9b51e1a21"
+        }
+      ],
+      "article_code": "AN201805241148260417",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201805241148260417_1.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    },
+    {
+      "title": "奥特迅:2017年年度权益分派实施公告",
+      "url": "https://np-cnotice-stock.eastmoney.com/api/content/ann",
+      "published_date": "2018-05-24",
+      "raw_response": "sources\\action_issuer_mirror_v2\\002227.SZ_2018-06-01\\AN201805231147543426_content.json",
+      "text": "sources\\action_issuer_mirror_v2\\002227.SZ_2018-06-01\\AN201805231147543426.txt",
+      "sha256": "594d15b64af49a61ea3f5ca259b3bcb29220998d836b886abb8ba3d2190f64c4",
+      "content_pages": [
+        {
+          "path": "sources\\action_issuer_mirror_v2\\002227.SZ_2018-06-01\\AN201805231147543426_content.json",
+          "sha256": "594d15b64af49a61ea3f5ca259b3bcb29220998d836b886abb8ba3d2190f64c4"
+        }
+      ],
+      "article_code": "AN201805231147543426",
+      "original_pdf_link": "https://pdf.dfcfw.com/pdf/H2_AN201805231147543426_1.pdf",
+      "pdf_available_and_visually_reviewed": false,
+      "source_role": "issuer_authored_notice_text_distributed_by_eastmoney_mirror_not_AI_summary"
+    }
+  ],
+  "fields_verified": false,
+  "no_document_is_not_no_event_proof": true
+}
